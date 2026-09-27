@@ -1,0 +1,2944 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "9eb6dd58-c5c8-464f-9ed2-620a09027f20",
+  "url": "https://www.dmh.health.gov.lk/",
+  "normalized_url": "https://www.dmh.health.gov.lk/",
+  "started_at": "2026-09-27T06:42:20.902461+05:30",
+  "completed_at": "2026-09-27T06:42:54.791378+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:42:21.191232+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:42:21.191255+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:42:21.210621+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.dmh.health.gov.lk/",
+      "source": "https://www.dmh.health.gov.lk/",
+      "observed_at": "2026-09-27T06:42:36.366189+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://www.dmh.health.gov.lk/",
+      "source": "http://www.dmh.health.gov.lk/",
+      "observed_at": "2026-09-27T06:42:36.366209+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.dmh.health.gov.lk/",
+      "source": "https://www.dmh.health.gov.lk/",
+      "observed_at": "2026-09-27T06:42:36.366214+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://www.dmh.health.gov.lk/",
+      "source": "http://www.dmh.health.gov.lk/",
+      "observed_at": "2026-09-27T06:42:36.366218+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://www.dmh.health.gov.lk/services",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "observed_at": "2026-09-27T06:42:36.366221+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://www.dmh.health.gov.lk/services/opd",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "observed_at": "2026-09-27T06:42:36.366223+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://www.dmh.health.gov.lk/services/clinics",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "observed_at": "2026-09-27T06:42:36.366226+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://www.dmh.health.gov.lk/services/other",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "observed_at": "2026-09-27T06:42:36.366229+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://www.dmh.health.gov.lk/contact-us",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "observed_at": "2026-09-27T06:42:36.366232+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://www.dmh.health.gov.lk/home",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "observed_at": "2026-09-27T06:42:36.366235+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://www.dmh.health.gov.lk/about-us",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "observed_at": "2026-09-27T06:42:36.366238+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "observed_at": "2026-09-27T06:42:36.366240+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://www.dmh.health.gov.lk/about-us/overview-history",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "observed_at": "2026-09-27T06:42:36.366243+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://www.dmh.health.gov.lk/news-events",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "observed_at": "2026-09-27T06:42:36.366245+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471541349",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471541349"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112662619-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112662619-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112697315 ",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112697315 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471541350",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471541350"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112696225-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112696225-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: directordmh1879@gmail.com",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "directordmh1879@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: - De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "- De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471543308",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471543308"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471543309",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471543309"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112662619-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112662619-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112697315 ",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112697315 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112696225-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112696225-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: directordmh1879@gmail.com",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "directordmh1879@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: - De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "- De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471544298",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471544298"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471544300",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471544300"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112662619-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112662619-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112697315 ",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112697315 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112696225-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112696225-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: directordmh1879@gmail.com",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "directordmh1879@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: - De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "- De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471546330",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471546330"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112662619-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112662619-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112697315 ",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112697315 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112696225-",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "+94112696225-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471546331",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0471546331"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: directordmh1879@gmail.com",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "directordmh1879@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: - De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "- De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.dmh.health.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471547312",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0471547312"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471547310",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0471547310"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/services",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471548376",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0471548376"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471548375",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0471548375"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/services/opd",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471549302",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0471549302"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471549304",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0471549304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "fail",
+      "detail": "Published published update date: 05/02/2023",
+      "source": "https://www.dmh.health.gov.lk/services/clinics",
+      "data": {
+        "value": "05/02/2023"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471550309",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0471550309"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471550307",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0471550307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/services/other",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112694626 ",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "+94112694626 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 2662619 - ",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "+9411 2662619 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112696225 - ",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "+94112696225 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471551346",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0471551346"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112694972 ",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "+94112694972 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112697315 ",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "+94 112697315 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471551352",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0471551352"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 2697315 ",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "+9411 2697315 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: directordmh1879@gmail.com",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "directordmh1879@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: De Soysa Hospital for Women (Teaching), Colombo 08. Telephone Hospital - +9411 2662619 - 23, +94112696225 - 26 Director ",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "De Soysa Hospital for Women (Teaching), Colombo 08. Telephone Hospital - +9411 2662619 - 23, +94112696225 - 26 Director "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.dmh.health.gov.lk/contact-us",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471552351",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0471552351"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112662619-",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "+94112662619-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112697315 ",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "+94112697315 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112696225-",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "+94112696225-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471552352",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "0471552352"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: directordmh1879@gmail.com",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "directordmh1879@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: - De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "- De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.dmh.health.gov.lk/home",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471553290",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0471553290"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471553292",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0471553292"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/about-us",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471554303",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0471554303"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471554301",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0471554301"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471555406",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0471555406"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471555408",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0471555408"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471556342",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0471556342"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828025477",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471556341",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0471556341"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0927835051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.dmh.health.gov.lk/news-events",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 5503 visible characters across 14 pages",
+      "source": "https://www.dmh.health.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.dmh.health.gov.lk",
+      "addresses": [
+        "192.179.18.121",
+        "2607:f8b0:4004:c23::79"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "health.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.dmh.health.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-12-07T02:07:41+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 150,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.dmh.health.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/",
+      "redirects": [
+        "https://www.dmh.health.gov.lk/"
+      ],
+      "elapsed_ms": 111,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 102,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.dmh.health.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/",
+      "redirects": [
+        "https://www.dmh.health.gov.lk/"
+      ],
+      "elapsed_ms": 133,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/services",
+      "redirects": [],
+      "elapsed_ms": 111,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services/opd",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/services/opd",
+      "redirects": [],
+      "elapsed_ms": 536,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services/clinics",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/services/clinics",
+      "redirects": [],
+      "elapsed_ms": 98,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services/other",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/services/other",
+      "redirects": [],
+      "elapsed_ms": 108,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/contact-us",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/contact-us",
+      "redirects": [],
+      "elapsed_ms": 147,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/home",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/home",
+      "redirects": [],
+      "elapsed_ms": 151,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/about-us",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/about-us",
+      "redirects": [],
+      "elapsed_ms": 87,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "redirects": [],
+      "elapsed_ms": 98,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "redirects": [],
+      "elapsed_ms": 189,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/news-events",
+      "status_code": 200,
+      "final_url": "https://www.dmh.health.gov.lk/news-events",
+      "redirects": [],
+      "elapsed_ms": 115,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.dmh.health.gov.lk/",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-01-6e46993d2673.html",
+      "sha256": "6e46993d26730876b1c1eb248bf4356ca3947d51adcb53a8423a282adb37fae4",
+      "bytes": 202435
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-02-d1d798a5daf3.html",
+      "sha256": "d1d798a5daf390341161fdabf607c4a7e3f76c4bbc90c69803889e57b91025dd",
+      "bytes": 202458
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-03-a7ff57ff4433.html",
+      "sha256": "a7ff57ff4433c335dfc9dde46ae52f6294e477e8b961f3378dbcfe183c59fcd9",
+      "bytes": 202491
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-04-7768dae5de6b.html",
+      "sha256": "7768dae5de6be186995f3a0aaa103bc79f580a6f9a5b4eca62d85cd71df24be3",
+      "bytes": 202459
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-05-c0608d5f09c0.html",
+      "sha256": "c0608d5f09c00a03a75eb7214ba5904af1fdca80afd342c4ac896f7c7babc643",
+      "bytes": 154650
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services/opd",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-06-fad991839e2c.html",
+      "sha256": "fad991839e2c0ab61c0761b0f28321445fb06409062f95a20296e08a07368c7f",
+      "bytes": 151755
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services/clinics",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-07-314d8e26ae70.html",
+      "sha256": "314d8e26ae7041eaf177381e10444add986e11579ee6d1b418763d84cf484647",
+      "bytes": 158142
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/services/other",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-08-a0cfd55c2bc3.html",
+      "sha256": "a0cfd55c2bc31252b1f077e6fe487da972ece54263f202dcba20883efb6a2c1f",
+      "bytes": 158553
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/contact-us",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-09-efb15d1d34c8.html",
+      "sha256": "efb15d1d34c89ea81c18996bb809f398b72d6c8304a94f3ba23d3966b6a3855e",
+      "bytes": 173978
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/home",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-10-c684fde5334c.html",
+      "sha256": "c684fde5334c00c2a370b77193e74e719feb0488784d758eedaa44ef96dc6b99",
+      "bytes": 202415
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/about-us",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-11-c9ee4c7fab92.html",
+      "sha256": "c9ee4c7fab925b352b5c11596cdd89b60c9941deb466850c5b5f134672b75531",
+      "bytes": 154569
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/about-us/vision-mission",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-12-7c86bd8dd2ff.html",
+      "sha256": "7c86bd8dd2ff655170b2990c21d1e49a1d57073ed7c397a63b45e4ca3a808314",
+      "bytes": 155388
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/about-us/overview-history",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-13-9bd691838e2e.html",
+      "sha256": "9bd691838e2e9eaf5d47c5d8789d6eb5fbac4c96d7d048d4912f3812f0b0771f",
+      "bytes": 186227
+    },
+    {
+      "url": "https://www.dmh.health.gov.lk/news-events",
+      "path": "audit.output/www.dmh.health.gov.lk/20260927.0642/snapshots/page-14-220a48e7f01b.html",
+      "sha256": "220a48e7f01b194dc89c41e55bb4928f5d0a7a44db919c3251e4a49d890ff90d",
+      "bytes": 155855
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: - De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1; Phone: 0.200000003) (51 phone numbers found); Email: directordmh1879@gmail.com; Published named responsibility: director",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: - De Soysa Hospital for Women, Colombo 08. TP - +94112662619-23, +94112696225-26 Fax - +94112697315 Email - directordmh1"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: 0.200000003) (51 phone numbers found); Email: directordmh1879@gmail.com"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "fail",
+      "reason": "Published published update date: 05/02/2023",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing eligibility criteria evidence found"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing fees and payment evidence found"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing legal basis evidence found"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing processing time evidence found"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing downloadable form evidence found"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "fail",
+          "reason": "Published published update date: 05/02/2023"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

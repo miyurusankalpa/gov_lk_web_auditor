@@ -1,0 +1,13 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-27T06:53:01.795924+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T06:53:01.795943+05:30
+tls,pass,TLS certificate valid,,2026-09-27T06:53:02.856669+05:30
+http,pass,Probe 1: HTTP 200 at https://nerdc.lk/,https://nerdc.lk/,2026-09-27T06:53:18.947421+05:30
+http,pass,Probe 2: HTTP 200 at http://nerdc.lk/,http://nerdc.lk/,2026-09-27T06:53:18.947440+05:30
+http,pass,Probe 3: HTTP 200 at https://nerdc.lk/,https://nerdc.lk/,2026-09-27T06:53:18.947444+05:30
+http,pass,Probe 4: HTTP 200 at http://nerdc.lk/,http://nerdc.lk/,2026-09-27T06:53:18.947447+05:30
+phone,pass,Published phone: 0950635027,https://nerdc.lk/,
+phone,pass,Published phone: 0950635027,http://nerdc.lk/,
+phone,pass,Published phone: 0950635027,https://nerdc.lk/,
+phone,pass,Published phone: 0950635027,http://nerdc.lk/,
+page_text,fail,Only 80 visible characters across 4 pages; below substance threshold 200,https://nerdc.lk/,

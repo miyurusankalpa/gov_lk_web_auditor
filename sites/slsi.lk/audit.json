@@ -1,0 +1,2090 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "8ab8a9e0-a21f-44cc-aec3-6863441850d8",
+  "url": "https://slsi.lk/",
+  "normalized_url": "https://slsi.lk/",
+  "started_at": "2026-09-27T06:53:42.039243+05:30",
+  "completed_at": "2026-09-27T06:54:18.231033+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:53:42.210438+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:53:42.210457+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:53:42.221752+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://slsi.lk/en/",
+      "source": "https://slsi.lk/",
+      "observed_at": "2026-09-27T06:54:17.377927+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://slsi.lk/en/",
+      "source": "http://slsi.lk/",
+      "observed_at": "2026-09-27T06:54:17.377946+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://slsi.lk/en/",
+      "source": "https://slsi.lk/",
+      "observed_at": "2026-09-27T06:54:17.377951+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://slsi.lk/en/",
+      "source": "http://slsi.lk/",
+      "observed_at": "2026-09-27T06:54:17.377954+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "observed_at": "2026-09-27T06:54:17.377957+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "observed_at": "2026-09-27T06:54:17.377960+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://slsi.lk/en/about-us/divisions/product-certification/",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "observed_at": "2026-09-27T06:54:17.377962+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "observed_at": "2026-09-27T06:54:17.377965+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://slsi.lk/en/about-us/divisions/metrology/",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "observed_at": "2026-09-27T06:54:17.377968+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "observed_at": "2026-09-27T06:54:17.377970+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "observed_at": "2026-09-27T06:54:17.377973+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://slsi.lk/en/about-us/divisions/training/",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "observed_at": "2026-09-27T06:54:17.377976+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "observed_at": "2026-09-27T06:54:17.377979+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "observed_at": "2026-09-27T06:54:17.377981+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 08-2026 24-10-",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "08-2026 24-10-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 008 02 2022-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "008 02 2022-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 017 01 2020-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "017 01 2020-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 008 03 2016-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "008 03 2016-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01 2022-07-07 ",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "01 2022-07-07 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 020 01 2022-1",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "020 01 2022-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 014 01 2022-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "014 01 2022-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 016 01 2022-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "016 01 2022-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 010 03 2017-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "010 03 2017-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 007 01 2019-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "007 01 2019-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 017 01 2019-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "017 01 2019-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 03 2022-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "011 03 2022-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 010 02 2017-0",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "010 02 2017-0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 017-07-21 202",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "017-07-21 202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 013 01 2017-1",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "013 01 2017-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 019-08-01 202",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "019-08-01 202"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112671566",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "+94112671566"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 267 1566 ",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "+9411 267 1566 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/about-us/divisions/training/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slsi.lk/wp-content/uploads/2023/03/librarye-flyer.pdf",
+      "source": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "data": {
+        "value": "https://slsi.lk/wp-content/uploads/2023/03/librarye-flyer.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.666666666",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0.666666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112019600",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0112019600"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 019 600 ",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "+94 112 019 600 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 8775 visible characters across 14 pages",
+      "source": "https://slsi.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "slsi.lk",
+      "addresses": [
+        "104.21.41.162",
+        "172.67.148.58",
+        "2606:4700:3030::6815:29a2",
+        "2606:4700:3030::ac43:943a"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "slsi.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "slsi.lk",
+      "status": "valid",
+      "expires_at": "2026-11-22T11:26:00+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://slsi.lk/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/",
+      "redirects": [
+        "https://slsi.lk/en/"
+      ],
+      "elapsed_ms": 2927,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://slsi.lk/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/",
+      "redirects": [
+        "https://slsi.lk/",
+        "https://slsi.lk/en/"
+      ],
+      "elapsed_ms": 2045,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/",
+      "redirects": [
+        "https://slsi.lk/en/"
+      ],
+      "elapsed_ms": 2120,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://slsi.lk/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/",
+      "redirects": [
+        "https://slsi.lk/",
+        "https://slsi.lk/en/"
+      ],
+      "elapsed_ms": 1403,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "redirects": [],
+      "elapsed_ms": 2225,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "redirects": [],
+      "elapsed_ms": 2260,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "redirects": [],
+      "elapsed_ms": 1874,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "redirects": [],
+      "elapsed_ms": 2040,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "redirects": [],
+      "elapsed_ms": 2021,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "redirects": [],
+      "elapsed_ms": 1925,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "redirects": [],
+      "elapsed_ms": 1760,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/training/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/training/",
+      "redirects": [],
+      "elapsed_ms": 1792,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "redirects": [],
+      "elapsed_ms": 1843,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "status_code": 200,
+      "final_url": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "redirects": [],
+      "elapsed_ms": 2071,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://slsi.lk/en/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-01-3a28810dd744.html",
+      "sha256": "3a28810dd7447f5273f9053b716ac805359a2ce2f3345d39ea7876003374f0ed",
+      "bytes": 145042
+    },
+    {
+      "url": "https://slsi.lk/en/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-02-082a06f89bd4.html",
+      "sha256": "082a06f89bd41d631eac44cb912b4b21cd685db178a3aa4683d14b3234ae1df8",
+      "bytes": 145042
+    },
+    {
+      "url": "https://slsi.lk/en/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-03-bceff2ad6742.html",
+      "sha256": "bceff2ad674285078e2d573426bdf0215f55198ac0e13441f3d1bf339e10b477",
+      "bytes": 145042
+    },
+    {
+      "url": "https://slsi.lk/en/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-04-eeaebcf66ccd.html",
+      "sha256": "eeaebcf66ccd1acca5cb4cfbdf3ac6142ea8e1f9667af648af11503593906811",
+      "bytes": 145042
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/scientific-standardization/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-05-e75eab1878ea.html",
+      "sha256": "e75eab1878ea17b142a77d56da91fbaea1a8ba7e3487f481177bc34874562e01",
+      "bytes": 99803
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/engineering-standardization/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-06-eace4f62ce66.html",
+      "sha256": "eace4f62ce6646c5abe3a0ca698a272dd8fde041b29483ad33b3e0d48f215984",
+      "bytes": 105402
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/product-certification/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-07-63e655acf3a2.html",
+      "sha256": "63e655acf3a2d893c0e292c7093bb2ea6d49472c9e96f5b1e243ed6e9d79ca17",
+      "bytes": 89067
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/quality-assurance/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-08-d40f749334bf.html",
+      "sha256": "d40f749334bf6a483db0da5c203bd0efdd7a90a93776e2bb9def5764c5ed19ff",
+      "bytes": 93742
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/metrology/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-09-a53469cefa7c.html",
+      "sha256": "a53469cefa7c4f657bef12e6ff3cf7d919144f957fba1c5e9aa28abd7291a515",
+      "bytes": 101376
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/laboratory-services/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-10-a27d2b6aca0c.html",
+      "sha256": "a27d2b6aca0c8dbd2d8270376cf7366d297f1e526767503fd7b2c335873eb2a9",
+      "bytes": 96375
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/systems-certification-division/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-11-d1fe09117a11.html",
+      "sha256": "d1fe09117a11d0a67a7fc2b367cade15940243cb2ea380b480798d4f2f77050d",
+      "bytes": 103203
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/training/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-12-0c0206b5bab7.html",
+      "sha256": "0c0206b5bab73e544e055fa8d19bfcdd026c09d033fea2910a9978fabe959ab4",
+      "bytes": 97140
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/documentation-and-information/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-13-5b7ab1f38535.html",
+      "sha256": "5b7ab1f3853577b55374c9946dd6b1a1d900148df39dc624b139dcdb1747859e",
+      "bytes": 97625
+    },
+    {
+      "url": "https://slsi.lk/en/about-us/divisions/standards-services-promotion/",
+      "path": "audit.output/slsi.lk/20260927.0653/snapshots/page-14-7ea2d32006f1.html",
+      "sha256": "7ea2d32006f1ab9642610b60c7b2dc8e4a638fb2ad566ee1fa78ad478178341b",
+      "bytes": 90006
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "No passing postal address evidence found; No email evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "inconclusive",
+          "reason": "No passing postal address evidence found"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "inconclusive",
+          "reason": "No email evidence found"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: division"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

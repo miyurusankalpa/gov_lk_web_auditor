@@ -1,0 +1,1525 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "db9d415b-8866-4fdb-b5ab-51cd527bc528",
+  "url": "https://www.gsmb.gov.lk/",
+  "normalized_url": "https://www.gsmb.gov.lk/",
+  "started_at": "2026-09-27T06:45:27.526442+05:30",
+  "completed_at": "2026-09-27T06:45:48.154970+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:45:27.951965+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:45:27.951986+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:45:28.196442+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.gsmb.gov.lk/index.php?lang=en",
+      "source": "https://www.gsmb.gov.lk/",
+      "observed_at": "2026-09-27T06:45:47.800740+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://www.gsmb.gov.lk/index.php?lang=en",
+      "source": "http://www.gsmb.gov.lk/",
+      "observed_at": "2026-09-27T06:45:47.800758+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.gsmb.gov.lk/index.php?lang=en",
+      "source": "https://www.gsmb.gov.lk/",
+      "observed_at": "2026-09-27T06:45:47.800762+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://www.gsmb.gov.lk/index.php?lang=en",
+      "source": "http://www.gsmb.gov.lk/",
+      "observed_at": "2026-09-27T06:45:47.800765+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800768+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://www.gsmb.gov.lk/index.php?lang=ta",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "observed_at": "2026-09-27T06:45:47.800771+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://www.gsmb.gov.lk/index.php?lang=si",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "observed_at": "2026-09-27T06:45:47.800774+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800776+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800779+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800782+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800785+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800787+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800790+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "observed_at": "2026-09-27T06:45:47.800793+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 22 June 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "22 June 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 22 June 2026",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "22 June 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 22 June 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "22 June 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 22 June 2026",
+      "source": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "data": {
+        "value": "22 June 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 23 September 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "data": {
+        "value": "23 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 22 June 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "22 June 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 23 September 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "data": {
+        "value": "23 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 23 September 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "data": {
+        "value": "23 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 23 September 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "data": {
+        "value": "23 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 23 September 2026",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "data": {
+        "value": "23 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2886289 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "data": {
+        "value": "+94-11-2886289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886290 ",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "data": {
+        "value": "+94-112 886290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-112 886289",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "data": {
+        "value": "+94-112 886289"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gsmb.gov.lk",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "data": {
+        "value": "info@gsmb.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "data": {
+        "value": "Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 7753 visible characters across 14 pages",
+      "source": "https://www.gsmb.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.gsmb.gov.lk",
+      "addresses": [
+        "192.185.12.93"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "gsmb.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.gsmb.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-11-11T04:10:07+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "redirects": [
+        "https://www.gsmb.gov.lk/index.php?lang=en"
+      ],
+      "elapsed_ms": 521,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.gsmb.gov.lk/",
+      "status_code": 200,
+      "final_url": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "redirects": [
+        "http://www.gsmb.gov.lk/index.php?lang=en"
+      ],
+      "elapsed_ms": 400,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "redirects": [
+        "https://www.gsmb.gov.lk/index.php?lang=en"
+      ],
+      "elapsed_ms": 1617,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.gsmb.gov.lk/",
+      "status_code": 200,
+      "final_url": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "redirects": [
+        "http://www.gsmb.gov.lk/index.php?lang=en"
+      ],
+      "elapsed_ms": 762,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "redirects": [],
+      "elapsed_ms": 493,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "redirects": [],
+      "elapsed_ms": 536,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "redirects": [],
+      "elapsed_ms": 554,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "redirects": [],
+      "elapsed_ms": 174,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "redirects": [],
+      "elapsed_ms": 91,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "redirects": [],
+      "elapsed_ms": 61,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "redirects": [],
+      "elapsed_ms": 67,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "redirects": [],
+      "elapsed_ms": 64,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "redirects": [],
+      "elapsed_ms": 69,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "status_code": 200,
+      "final_url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "redirects": [],
+      "elapsed_ms": 66,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-01-d906ed116be6.html",
+      "sha256": "d906ed116be69b0bcc737a3cf0e1cd2aaa7198d5b7d7b739e19f0080458b86c6",
+      "bytes": 53239
+    },
+    {
+      "url": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-02-1e8e667e4f00.html",
+      "sha256": "1e8e667e4f000f9a9218082a7e8df81c8061e0f1d2f4776d11e9764d59743e29",
+      "bytes": 53231
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-03-f21f25cbe032.html",
+      "sha256": "f21f25cbe032588c2b6a919266fd8e38f1950af43e607a05f96096f2a76814b3",
+      "bytes": 53239
+    },
+    {
+      "url": "http://www.gsmb.gov.lk/index.php?lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-04-7b408a048472.html",
+      "sha256": "7b408a0484728ed3e9af203454aaa610e814c51c13b17806ce84e7efd43ee2c4",
+      "bytes": 53231
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_search&view=search&Itemid=246&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-05-545fb1dd60b0.html",
+      "sha256": "545fb1dd60b0258fbb4052efa96abf15e405eeb29777b424fc591d074461f3be",
+      "bytes": 35014
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?lang=ta",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-06-da6b7856c53b.html",
+      "sha256": "da6b7856c53be73b0ae331427eeefe673bb11e14b5d687077606ce8898dfbc4c",
+      "bytes": 52065
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?lang=si",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-07-1ed8353231d9.html",
+      "sha256": "1ed8353231d9edbad286d20e917d27f03031b947de811d47452250901d4b798e",
+      "bytes": 53347
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-08-09957a1afde1.html",
+      "sha256": "09957a1afde13f9ceb81ad01d66ec32c4e21a072fed429f7ee3f051ea54082ca",
+      "bytes": 53703
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=135&Itemid=255&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-09-23707924bd73.html",
+      "sha256": "23707924bd73a4b2bca163c2721ad8f9bc3608f3cd36a6896288da2d15942952",
+      "bytes": 45952
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=134&Itemid=254&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-10-2eef4b1537e1.html",
+      "sha256": "2eef4b1537e1e1f017b7ee4f3a26c972a09e2d4a83f92d2332623c2d3aac7d81",
+      "bytes": 34556
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=138&Itemid=258&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-11-e229d7297bb9.html",
+      "sha256": "e229d7297bb9c285bdfa5df61e75d15ec305660273bceedd5b1f535f9803b46d",
+      "bytes": 35056
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=160&Itemid=259&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-12-59bafafa3dc0.html",
+      "sha256": "59bafafa3dc03510b8aa1efb4b3868ed738efc9c784105a1f728b4ab5c1489f7",
+      "bytes": 38976
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=140&Itemid=261&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-13-1b3e869a2f54.html",
+      "sha256": "1b3e869a2f546f5c261f1882d0b09bc909bbb2e3de630b229919637674af2136",
+      "bytes": 49792
+    },
+    {
+      "url": "https://www.gsmb.gov.lk/index.php?option=com_content&view=article&id=141&Itemid=270&lang=en",
+      "path": "audit.output/www.gsmb.gov.lk/20260927.0645/snapshots/page-14-7498f5e52aff.html",
+      "sha256": "7498f5e52affce66940ea9effc995e51d4af557d6a1163da7ed3c593675ffe8d",
+      "bytes": 46239
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E; Phone: +94-11-2886289 (3 phone numbers found); Email: info@gsmb.gov.lk; Published named responsibility: director",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: Geological Survey and Mines Bureau, 569, Epitamulla Road, Pitakotte, Sri Lanka. Related Links Ministry of Industry and E"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: +94-11-2886289 (3 phone numbers found); Email: info@gsmb.gov.lk"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing fees and payment evidence found; No passing processing time evidence found; No passing downloadable form evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing eligibility criteria evidence found"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing fees and payment evidence found"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published legal basis: regulations"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing processing time evidence found"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing downloadable form evidence found"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published published update date: 22 June 2026"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

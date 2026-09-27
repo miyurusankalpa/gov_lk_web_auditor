@@ -1,0 +1,13 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-27T06:55:57.967147+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T06:55:57.967168+05:30
+tls,pass,TLS certificate valid,,2026-09-27T06:55:58.303366+05:30
+http,pass,Probe 1: HTTP 200 at https://www.stc.lk/,https://www.stc.lk/,2026-09-27T06:56:01.959371+05:30
+http,pass,Probe 2: HTTP 200 at http://www.stc.lk/,http://www.stc.lk/,2026-09-27T06:56:01.959389+05:30
+http,pass,Probe 3: HTTP 200 at https://www.stc.lk/,https://www.stc.lk/,2026-09-27T06:56:01.959394+05:30
+http,pass,Probe 4: HTTP 200 at http://www.stc.lk/,http://www.stc.lk/,2026-09-27T06:56:01.959397+05:30
+phone,pass,Published phone: 0950635027,https://www.stc.lk/,
+phone,pass,Published phone: 0950635027,http://www.stc.lk/,
+phone,pass,Published phone: 0950635027,https://www.stc.lk/,
+phone,pass,Published phone: 0950635027,http://www.stc.lk/,
+page_text,fail,Only 80 visible characters across 4 pages; below substance threshold 200,https://www.stc.lk/,

@@ -1,0 +1,30 @@
+# Website Audit: http://www.ndrsc.gov.lk/
+
+- Completed: 2026-09-27 06:17
+- Overall result: ⚫ Level 0
+- Vantage: 20.55.47.112 (US, github-actions)
+
+## ⚫ Level 0: ✅
+
+A site is classified as `⚫ Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `🔴 Level 1`.
+
+Baseline website grade
+
+## 🔴 Level 1: ❌
+
+To pass `🔴 Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.
+
+Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ndrsc.gov.lk'. (_ssl.c:1010)
+
+| Test | Result | Details |
+| --- | --- | --- |
+| dns_resolves | ✅ | Public DNS resolved |
+| domain_not_parked | ❓ | Insufficient substantive page content: Only 49 visible characters across 2 pages; below substance threshold 200 |
+| site_not_defaced | ❓ | Insufficient substantive page content: Only 49 visible characters across 2 pages; below substance threshold 200 |
+| content_relevant | ❓ | Insufficient substantive page content: Only 49 visible characters across 2 pages; below substance threshold 200 |
+| hosting_configured | ❓ | Insufficient substantive page content: Only 49 visible characters across 2 pages; below substance threshold 200 |
+| http_available | ❓ | An HTTP probe was transient |
+| redirect_related | ✅ | No unrelated redirect found |
+| tls_browser_trusted | ❌ | Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ndrsc.gov.lk'. (_ssl.c:1010) |
+| tls_not_expired | ❓ | timed out |
+| tls_hostname_matches | ❓ | timed out |

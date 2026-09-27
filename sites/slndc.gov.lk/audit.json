@@ -1,0 +1,1071 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "fec3e763-0889-414d-a357-2c4816b033c5",
+  "url": "https://slndc.gov.lk/",
+  "normalized_url": "https://slndc.gov.lk/",
+  "started_at": "2026-09-27T06:46:14.750281+05:30",
+  "completed_at": "2026-09-27T06:46:41.288779+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:46:15.156924+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:46:15.156945+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:46:15.415241+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://slndc.gov.lk/",
+      "source": "https://slndc.gov.lk/",
+      "observed_at": "2026-09-27T06:46:40.490373+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://slndc.gov.lk/",
+      "source": "http://slndc.gov.lk/",
+      "observed_at": "2026-09-27T06:46:40.490393+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://slndc.gov.lk/",
+      "source": "https://slndc.gov.lk/",
+      "observed_at": "2026-09-27T06:46:40.490398+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://slndc.gov.lk/",
+      "source": "http://slndc.gov.lk/",
+      "observed_at": "2026-09-27T06:46:40.490402+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://slndc.gov.lk/contact-us/",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "observed_at": "2026-09-27T06:46:40.490405+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://slndc.gov.lk",
+      "source": "https://slndc.gov.lk",
+      "observed_at": "2026-09-27T06:46:40.490408+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://slndc.gov.lk/about-us/",
+      "source": "https://slndc.gov.lk/about-us/",
+      "observed_at": "2026-09-27T06:46:40.490411+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://slndc.gov.lk/exhibitions-and-events/",
+      "source": "https://slndc.gov.lk/exhibitions-and-events/",
+      "observed_at": "2026-09-27T06:46:40.490414+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://slndc.gov.lk/design-gallery/",
+      "source": "https://slndc.gov.lk/design-gallery/",
+      "observed_at": "2026-09-27T06:46:40.490417+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://slndc.gov.lk/education/",
+      "source": "https://slndc.gov.lk/education/",
+      "observed_at": "2026-09-27T06:46:40.490420+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://slndc.gov.lk/skill-development/",
+      "source": "https://slndc.gov.lk/skill-development/",
+      "observed_at": "2026-09-27T06:46:40.490422+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://slndc.gov.lk/shop-2/",
+      "source": "https://slndc.gov.lk/shop-2/",
+      "observed_at": "2026-09-27T06:46:40.490425+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://slndc.gov.lk/research-and-development/",
+      "source": "https://slndc.gov.lk/research-and-development/",
+      "observed_at": "2026-09-27T06:46:40.490428+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://slndc.gov.lk/news-2/",
+      "source": "https://slndc.gov.lk/news-2/",
+      "observed_at": "2026-09-27T06:46:40.490431+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260711",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "+94) 011-260711"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 081-242003",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "+94) 081-242003"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-262634",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "+94) 011-262634"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: National Design Centre, No 10, De Mel Road, Katubedda, Moratuwa Contact Number General – (+94) 011-2607814 Chairmen – (+",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "National Design Centre, No 10, De Mel Road, Katubedda, Moratuwa Contact Number General – (+94) 011-2607814 Chairmen – (+"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://slndc.gov.lk/contact-us/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/about-us/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/about-us/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/about-us/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/exhibitions-and-events/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/exhibitions-and-events/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/exhibitions-and-events/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/design-gallery/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/design-gallery/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/design-gallery/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0812420038 ",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "0812420038 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112607814 ",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "0112607814 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0714485443 ",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "0714485443 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0717262934 ",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "0717262934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "eligibility_criteria",
+      "status": "pass",
+      "detail": "Published eligibility criteria: eligibility",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "eligibility"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "https://slndc.gov.lk/education/",
+      "data": {
+        "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/skill-development/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/skill-development/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/skill-development/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/shop-2/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/shop-2/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/shop-2/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/research-and-development/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/research-and-development/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/research-and-development/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: the challenges posed by the scarcity of traditional handicraft materials. Elevating Quality Standards in Sri Lanka’s Bat",
+      "source": "https://slndc.gov.lk/research-and-development/",
+      "data": {
+        "value": "the challenges posed by the scarcity of traditional handicraft materials. Elevating Quality Standards in Sri Lanka’s Bat"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slndc.gov.lk/research-and-development/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 001 234 56 78 ",
+      "source": "https://slndc.gov.lk/news-2/",
+      "data": {
+        "value": "001 234 56 78 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 011-260781",
+      "source": "https://slndc.gov.lk/news-2/",
+      "data": {
+        "value": "+94) 011-260781"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Info@slndc.gov.lk",
+      "source": "https://slndc.gov.lk/news-2/",
+      "data": {
+        "value": "Info@slndc.gov.lk"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 4986 visible characters across 14 pages",
+      "source": "https://slndc.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "slndc.gov.lk",
+      "addresses": [
+        "50.6.171.19"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "slndc.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "slndc.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-12-01T15:25:03+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://slndc.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 1233,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://slndc.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/",
+      "redirects": [
+        "https://slndc.gov.lk/"
+      ],
+      "elapsed_ms": 1810,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 1304,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://slndc.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/",
+      "redirects": [
+        "https://slndc.gov.lk/"
+      ],
+      "elapsed_ms": 2267,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/contact-us/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/contact-us/",
+      "redirects": [],
+      "elapsed_ms": 1323,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk",
+      "redirects": [],
+      "elapsed_ms": 1438,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/about-us/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/about-us/",
+      "redirects": [],
+      "elapsed_ms": 1248,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/exhibitions-and-events/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/exhibitions-and-events/",
+      "redirects": [],
+      "elapsed_ms": 1485,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/design-gallery/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/design-gallery/",
+      "redirects": [],
+      "elapsed_ms": 2258,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/education/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/education/",
+      "redirects": [],
+      "elapsed_ms": 1241,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/skill-development/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/skill-development/",
+      "redirects": [],
+      "elapsed_ms": 1305,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/shop-2/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/shop-2/",
+      "redirects": [],
+      "elapsed_ms": 1503,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/research-and-development/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/research-and-development/",
+      "redirects": [],
+      "elapsed_ms": 835,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slndc.gov.lk/news-2/",
+      "status_code": 200,
+      "final_url": "https://slndc.gov.lk/news-2/",
+      "redirects": [],
+      "elapsed_ms": 971,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://slndc.gov.lk/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-01-a2ef873fd503.html",
+      "sha256": "a2ef873fd503c7ba64a856f41353584dc4ab316158c37a9bae2a7eadfd5f5673",
+      "bytes": 125827
+    },
+    {
+      "url": "https://slndc.gov.lk/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-02-a2ef873fd503.html",
+      "sha256": "a2ef873fd503c7ba64a856f41353584dc4ab316158c37a9bae2a7eadfd5f5673",
+      "bytes": 125827
+    },
+    {
+      "url": "https://slndc.gov.lk/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-03-a2ef873fd503.html",
+      "sha256": "a2ef873fd503c7ba64a856f41353584dc4ab316158c37a9bae2a7eadfd5f5673",
+      "bytes": 125827
+    },
+    {
+      "url": "https://slndc.gov.lk/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-04-a2ef873fd503.html",
+      "sha256": "a2ef873fd503c7ba64a856f41353584dc4ab316158c37a9bae2a7eadfd5f5673",
+      "bytes": 125827
+    },
+    {
+      "url": "https://slndc.gov.lk/contact-us/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-05-39305b652224.html",
+      "sha256": "39305b652224e9cdbdc1f2e94497ab81c42cf64a5c241d9e94532992e81e068a",
+      "bytes": 115887
+    },
+    {
+      "url": "https://slndc.gov.lk",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-06-a2ef873fd503.html",
+      "sha256": "a2ef873fd503c7ba64a856f41353584dc4ab316158c37a9bae2a7eadfd5f5673",
+      "bytes": 125827
+    },
+    {
+      "url": "https://slndc.gov.lk/about-us/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-07-c0ab2959c2be.html",
+      "sha256": "c0ab2959c2bef62bce009976a1b00b68968cf4155a3fd7e56db6ced175675df8",
+      "bytes": 125653
+    },
+    {
+      "url": "https://slndc.gov.lk/exhibitions-and-events/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-08-4a5f1387c689.html",
+      "sha256": "4a5f1387c689d27f90d0759f7293dddfcad70bcf5c9b33fc4ee7dda6951bec42",
+      "bytes": 118981
+    },
+    {
+      "url": "https://slndc.gov.lk/design-gallery/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-09-66f17b6df4a2.html",
+      "sha256": "66f17b6df4a2c413f8ad97b811ffb29b360049b60da30dff588a34403b27540f",
+      "bytes": 170811
+    },
+    {
+      "url": "https://slndc.gov.lk/education/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-10-ce76e1bb3698.html",
+      "sha256": "ce76e1bb3698a96d90dce7e2cf821040f5731a0b4b6dd3f704493da0ff0a8fc7",
+      "bytes": 121512
+    },
+    {
+      "url": "https://slndc.gov.lk/skill-development/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-11-2e3ed29a3b04.html",
+      "sha256": "2e3ed29a3b04fa2eb966f31d190d01998a184591a0a2bb9eb7d03c4df049db96",
+      "bytes": 109954
+    },
+    {
+      "url": "https://slndc.gov.lk/shop-2/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-12-ac7cc192b3c9.html",
+      "sha256": "ac7cc192b3c9f11650f477a6d861987cb48b401f9eeda2fab77a409a4592289d",
+      "bytes": 95602
+    },
+    {
+      "url": "https://slndc.gov.lk/research-and-development/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-13-2226d6d8fcb2.html",
+      "sha256": "2226d6d8fcb26740e27d91ff87bbdc4f3dd84857dfdf09193aef309e5672ce79",
+      "bytes": 102134
+    },
+    {
+      "url": "https://slndc.gov.lk/news-2/",
+      "path": "audit.output/slndc.gov.lk/20260927.0646/snapshots/page-14-9653e0c3bd08.html",
+      "sha256": "9653e0c3bd0802c39d17138fedb82e8138cef3c0de25dfc950e09f8675ac800c",
+      "bytes": 108416
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: National Design Centre, No 10, De Mel Road, Katubedda, Moratuwa Contact Number General – (+94) 011-2607814 Chairmen – (+; Phone: 001 234 56 78 (9 phone numbers found); Email: Info@slndc.gov.lk; Published named responsibility: director",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: National Design Centre, No 10, De Mel Road, Katubedda, Moratuwa Contact Number General – (+94) 011-2607814 Chairmen – (+"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: 001 234 56 78 (9 phone numbers found); Email: Info@slndc.gov.lk"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "No passing required documents evidence found; No passing legal basis evidence found; No passing processing time evidence found; No passing downloadable form evidence found; No passing published update date evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published eligibility criteria: eligibility"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published fees and payment: rs,"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing legal basis evidence found"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing processing time evidence found"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing downloadable form evidence found"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing published update date evidence found"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

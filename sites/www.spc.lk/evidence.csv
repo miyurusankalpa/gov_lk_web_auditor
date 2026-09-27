@@ -1,0 +1,13 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-27T06:44:09.082147+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T06:44:09.082168+05:30
+tls,pass,TLS certificate valid,,2026-09-27T06:44:09.852611+05:30
+http,pass,Probe 1: HTTP 200 at https://www.spc.lk/,https://www.spc.lk/,2026-09-27T06:44:14.888554+05:30
+http,pass,Probe 2: HTTP 200 at http://www.spc.lk/,http://www.spc.lk/,2026-09-27T06:44:14.888572+05:30
+http,pass,Probe 3: HTTP 200 at https://www.spc.lk/,https://www.spc.lk/,2026-09-27T06:44:14.888576+05:30
+http,pass,Probe 4: HTTP 200 at http://www.spc.lk/,http://www.spc.lk/,2026-09-27T06:44:14.888580+05:30
+phone,pass,Published phone: 0950635027,https://www.spc.lk/,
+phone,pass,Published phone: 0950635027,http://www.spc.lk/,
+phone,pass,Published phone: 0950635027,https://www.spc.lk/,
+phone,pass,Published phone: 0950635027,http://www.spc.lk/,
+page_text,fail,Only 80 visible characters across 4 pages; below substance threshold 200,https://www.spc.lk/,

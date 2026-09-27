@@ -1,0 +1,1237 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "18a5973f-86be-4a35-82c7-1816956e7a39",
+  "url": "https://www.rdtri.gov.lk/",
+  "normalized_url": "https://www.rdtri.gov.lk/",
+  "started_at": "2026-09-27T06:52:40.381797+05:30",
+  "completed_at": "2026-09-27T06:53:12.047692+05:30",
+  "result": {
+    "status": "fail",
+    "confidence": 1.0,
+    "reasons": [
+      "hosting_configured: Detected generic hosting marker: under construction"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:52:41.279898+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:52:41.279919+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:52:42.009775+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/",
+      "source": "https://www.rdtri.gov.lk/",
+      "observed_at": "2026-09-27T06:53:11.734128+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/",
+      "source": "http://www.rdtri.gov.lk/",
+      "observed_at": "2026-09-27T06:53:11.734146+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/",
+      "source": "https://www.rdtri.gov.lk/",
+      "observed_at": "2026-09-27T06:53:11.734150+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/",
+      "source": "http://www.rdtri.gov.lk/",
+      "observed_at": "2026-09-27T06:53:11.734154+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "observed_at": "2026-09-27T06:53:11.734157+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "observed_at": "2026-09-27T06:53:11.734160+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/about-us.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/about-us.html",
+      "observed_at": "2026-09-27T06:53:11.734163+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "observed_at": "2026-09-27T06:53:11.734165+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "observed_at": "2026-09-27T06:53:11.734168+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "observed_at": "2026-09-27T06:53:11.734171+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/programmes/special.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/special.html",
+      "observed_at": "2026-09-27T06:53:11.734174+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "observed_at": "2026-09-27T06:53:11.734176+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/training-facilities/pilimathalawa.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/training-facilities/pilimathalawa.html",
+      "observed_at": "2026-09-27T06:53:11.734179+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://www.rdtri.gov.lk/index.php/en/gallery/image-gallery.html",
+      "source": "https://www.rdtri.gov.lk/index.php/en/gallery/image-gallery.html",
+      "observed_at": "2026-09-27T06:53:11.734182+05:30"
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://www.rdtri.gov.lk/images/programs/application_for_training.pdf",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "https://www.rdtri.gov.lk/images/programs/application_for_training.pdf"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://www.rdtri.gov.lk/images/programs/application_for_training.pdf",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "https://www.rdtri.gov.lk/images/programs/application_for_training.pdf"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://www.rdtri.gov.lk/images/programs/application_for_training.pdf",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "https://www.rdtri.gov.lk/images/programs/application_for_training.pdf"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://www.rdtri.gov.lk/images/programs/application_for_training.pdf",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "https://www.rdtri.gov.lk/images/programs/application_for_training.pdf"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94718263500 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94718263500 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94766772397 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94766772397 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0168135190",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "0168135190"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 696 592 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94 112 696 592 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94754587233 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94754587233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94774437932",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94774437932"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94707351431 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94707351431 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94779920064 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94779920064 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 695 579 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94 112 695 579 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94718012155 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94718012155 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94771163677 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94771163677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94704897151 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94704897151 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94714252412 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94714252412 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94773641890 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94773641890 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94714477062 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94714477062 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94713071374 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94713071374 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94771834710 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "+94771834710 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak29ba6d6e977e829c",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak29ba6d6e977e829c"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 783 269 169 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 783 269 169 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 703 150 364 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 703 150 364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 743 008 826 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 743 008 826 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 724 809 898 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 724 809 898 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 812 575 292 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 812 575 292 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 774 451 199 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 774 451 199 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 716 046 989 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 716 046 989 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 743 242 652 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 743 242 652 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 769 692 268 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 769 692 268 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 763 923 770 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 763 923 770 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 707 902 190 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 707 902 190 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 759 617 223 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 759 617 223 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 778 997 219 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 778 997 219 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 718 487 287 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 718 487 287 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 752 856 550 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 752 856 550 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 717 713 661 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 717 713 661 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 778 744 421 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 778 744 421 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 753 344 377 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 753 344 377 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 706635266 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 706635266 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 719132008 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 719132008 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 812 579 929 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "+94 812 579 929 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloakf9fce482ec4f628c",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloakf9fce482ec4f628c"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.rdtri.gov.lk/index.php/en/about-us.html",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/about-us.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03 2026.08.13 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "data": {
+        "value": "03 2026.08.13 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 02 2026.08.12 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "data": {
+        "value": "02 2026.08.12 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01 2026.07.28 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "data": {
+        "value": "01 2026.07.28 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 03 days",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "data": {
+        "value": "03 days"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://www.rdtri.gov.lk/images/programs/application_for_training-si.pdf",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "data": {
+        "value": "https://www.rdtri.gov.lk/images/programs/application_for_training-si.pdf"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112678203 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "data": {
+        "value": "0112678203 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0812575292 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "data": {
+        "value": "0812575292 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak22dd9606fc48ef86",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "data": {
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak22dd9606fc48ef86"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077 116 3677 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "data": {
+        "value": "077 116 3677 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: free of charge",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "data": {
+        "value": "free of charge"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "generic_hosting",
+      "status": "fail",
+      "detail": "Detected generic hosting marker: under construction",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/special.html"
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/special.html",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "https://www.rdtri.gov.lk/index.php/en/programmes/special.html",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 777542044 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "data": {
+        "value": "+94 777542044 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: officer in charge",
+      "source": "https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "data": {
+        "value": "officer in charge"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9470 315 0364 ",
+      "source": "https://www.rdtri.gov.lk/index.php/en/training-facilities/pilimathalawa.html",
+      "data": {
+        "value": "+9470 315 0364 "
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/training-facilities/pilimathalawa.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 16 September 2026",
+      "source": "https://www.rdtri.gov.lk/index.php/en/gallery/image-gallery.html",
+      "data": {
+        "value": "16 September 2026"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 17047 visible characters across 14 pages",
+      "source": "https://www.rdtri.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.rdtri.gov.lk",
+      "addresses": [
+        "222.165.190.235"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "rdtri.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.rdtri.gov.lk",
+      "status": "valid",
+      "expires_at": "2027-01-10T05:29:59+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/",
+      "redirects": [
+        "https://www.rdtri.gov.lk/index.php/en/"
+      ],
+      "elapsed_ms": 1484,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.rdtri.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/",
+      "redirects": [
+        "https://www.rdtri.gov.lk/",
+        "https://www.rdtri.gov.lk/index.php/en/"
+      ],
+      "elapsed_ms": 2028,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/",
+      "redirects": [
+        "https://www.rdtri.gov.lk/index.php/en/"
+      ],
+      "elapsed_ms": 1469,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.rdtri.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/",
+      "redirects": [
+        "https://www.rdtri.gov.lk/",
+        "https://www.rdtri.gov.lk/index.php/en/"
+      ],
+      "elapsed_ms": 1732,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "redirects": [],
+      "elapsed_ms": 1232,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "redirects": [],
+      "elapsed_ms": 1167,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/about-us.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/about-us.html",
+      "redirects": [],
+      "elapsed_ms": 972,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "redirects": [],
+      "elapsed_ms": 1748,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "redirects": [],
+      "elapsed_ms": 1146,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "redirects": [],
+      "elapsed_ms": 1482,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/special.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/programmes/special.html",
+      "redirects": [],
+      "elapsed_ms": 1495,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "redirects": [],
+      "elapsed_ms": 985,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/training-facilities/pilimathalawa.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/training-facilities/pilimathalawa.html",
+      "redirects": [],
+      "elapsed_ms": 993,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/gallery/image-gallery.html",
+      "status_code": 200,
+      "final_url": "https://www.rdtri.gov.lk/index.php/en/gallery/image-gallery.html",
+      "redirects": [],
+      "elapsed_ms": 1409,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-01-81cf0e5e3e43.html",
+      "sha256": "81cf0e5e3e4379358714023d5ce00e484d3ebc1836e5207c3315ef078b4f52e9",
+      "bytes": 82558
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-02-22421c0d8f95.html",
+      "sha256": "22421c0d8f9569df69a9a3069cd3e602837bf24ea762c90ac50a9df31bbc0f41",
+      "bytes": 82566
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-03-949a9fabe80e.html",
+      "sha256": "949a9fabe80e1b0d87830c052d5c166decf9cd75492e520bb79d587a3948734c",
+      "bytes": 82566
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-04-dffb4211f121.html",
+      "sha256": "dffb4211f12171c11484b74ce44bbb8aab7f8dd0de9a988ee9620102827a9b7c",
+      "bytes": 82558
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/contact-us.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-05-306120c480a6.html",
+      "sha256": "306120c480a61173b7f7717e2367e463ca1e3719684173f89452b6c3aa5d2ec4",
+      "bytes": 36982
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/contact-us/training-center-pilimathalawa.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-06-2355e9ddce44.html",
+      "sha256": "2355e9ddce44a0a45ac3f47688f514e8bc17807d17063ea31f1f136e6601a553",
+      "bytes": 39714
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/about-us.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-07-966cf88ea474.html",
+      "sha256": "966cf88ea4748a766a9f2814833b0b9274861b5df25e02ef4b10fd096dfd0976",
+      "bytes": 19204
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/training.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-08-d84dd977a5f1.html",
+      "sha256": "d84dd977a5f1640e6c6a8f42b2b5447d298e0ef2b5d72f1392295877320ca156",
+      "bytes": 91560
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/research.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-09-2a9eef2d4415.html",
+      "sha256": "2a9eef2d44152f8050ee9051a6b4841dba0798e058ec1e555b8846121bec6632",
+      "bytes": 40194
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/publication.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-10-64421ad3a279.html",
+      "sha256": "64421ad3a27912475e00598be5bc7fa7ba6bd097121333df10939a90eac61eb6",
+      "bytes": 48263
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/programmes/special.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-11-b0a54dcc20eb.html",
+      "sha256": "b0a54dcc20eb5d545e060a68c3c78ae9b09231b8da1d8a27a321d584244e9bc3",
+      "bytes": 36119
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/training-facilities/borella.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-12-d72d58d828b0.html",
+      "sha256": "d72d58d828b0138c37916226d8c03b4898f248097c4b7ab6a013a8605e03b9ca",
+      "bytes": 19054
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/training-facilities/pilimathalawa.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-13-badd9570e9e6.html",
+      "sha256": "badd9570e9e6a08993710759a19be57428ac7c591b3f6726b1c027bb3363199c",
+      "bytes": 18157
+    },
+    {
+      "url": "https://www.rdtri.gov.lk/index.php/en/gallery/image-gallery.html",
+      "path": "audit.output/www.rdtri.gov.lk/20260927.0652/snapshots/page-14-675136bf5a8a.html",
+      "sha256": "675136bf5a8a692c3718213ff09a7b2bd59d5d6e88116aabe6d3b275911150b7",
+      "bytes": 25219
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "fail",
+      "reason": "Detected generic hosting marker: under construction",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "fail",
+          "reason": "Detected generic hosting marker: under construction"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

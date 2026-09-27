@@ -1,0 +1,13 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-27T06:46:09.883572+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T06:46:09.883589+05:30
+tls,pass,TLS certificate valid,,2026-09-27T06:46:10.234282+05:30
+http,pass,Probe 1: HTTP 200 at https://craftscouncil.gov.lk/,https://craftscouncil.gov.lk/,2026-09-27T06:46:14.313616+05:30
+http,pass,Probe 2: HTTP 200 at http://craftscouncil.gov.lk/,http://craftscouncil.gov.lk/,2026-09-27T06:46:14.313642+05:30
+http,pass,Probe 3: HTTP 200 at https://craftscouncil.gov.lk/,https://craftscouncil.gov.lk/,2026-09-27T06:46:14.313650+05:30
+http,pass,Probe 4: HTTP 200 at http://craftscouncil.gov.lk/,http://craftscouncil.gov.lk/,2026-09-27T06:46:14.313656+05:30
+phone,pass,Published phone: 0950635027,https://craftscouncil.gov.lk/,
+phone,pass,Published phone: 0950635027,http://craftscouncil.gov.lk/,
+phone,pass,Published phone: 0950635027,https://craftscouncil.gov.lk/,
+phone,pass,Published phone: 0950635027,http://craftscouncil.gov.lk/,
+page_text,fail,Only 80 visible characters across 4 pages; below substance threshold 200,https://craftscouncil.gov.lk/,

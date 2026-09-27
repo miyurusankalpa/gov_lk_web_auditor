@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "beb23403-ab0b-44c6-8e90-fa4d95216401",
+  "url": "https://dme.lk/",
+  "normalized_url": "https://dme.lk/",
+  "started_at": "2026-09-27T06:48:00.642839+05:30",
+  "completed_at": "2026-09-27T06:48:04.713401+05:30",
+  "result": {
+    "status": "inconclusive",
+    "confidence": 0.5,
+    "reasons": [
+      "domain_not_parked: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "site_not_defaced: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "content_relevant: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "hosting_configured: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:48:01.124973+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:48:01.124993+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:48:01.351106+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://dme.lk/",
+      "source": "https://dme.lk/",
+      "observed_at": "2026-09-27T06:48:04.689742+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://dme.lk/",
+      "source": "http://dme.lk/",
+      "observed_at": "2026-09-27T06:48:04.689759+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://dme.lk/",
+      "source": "https://dme.lk/",
+      "observed_at": "2026-09-27T06:48:04.689764+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://dme.lk/",
+      "source": "http://dme.lk/",
+      "observed_at": "2026-09-27T06:48:04.689767+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://dme.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://dme.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://dme.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://dme.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "fail",
+      "detail": "Only 80 visible characters across 4 pages; below substance threshold 200",
+      "source": "https://dme.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "dme.lk",
+      "addresses": [
+        "69.46.5.226"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "dme.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "dme.lk",
+      "status": "valid",
+      "expires_at": "2026-11-04T08:02:24+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://dme.lk/",
+      "status_code": 200,
+      "final_url": "https://dme.lk/",
+      "redirects": [],
+      "elapsed_ms": 270,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "http://dme.lk/",
+      "status_code": 200,
+      "final_url": "http://dme.lk/",
+      "redirects": [],
+      "elapsed_ms": 282,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://dme.lk/",
+      "status_code": 200,
+      "final_url": "https://dme.lk/",
+      "redirects": [],
+      "elapsed_ms": 182,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "http://dme.lk/",
+      "status_code": 200,
+      "final_url": "http://dme.lk/",
+      "redirects": [],
+      "elapsed_ms": 270,
+      "content_type": "text/html",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://dme.lk/",
+      "path": "audit.output/dme.lk/20260927.0648/snapshots/page-01-2dc622c787fc.html",
+      "sha256": "2dc622c787fc14a76e16e6a15645d9c0ec85749d9f3239b3de8a35ff0d699e2d",
+      "bytes": 12098
+    },
+    {
+      "url": "http://dme.lk/",
+      "path": "audit.output/dme.lk/20260927.0648/snapshots/page-02-041bcf8a6e08.html",
+      "sha256": "041bcf8a6e08930558ba34f9a2d71d67e9cf695b445653af99cea62b476d1b32",
+      "bytes": 12021
+    },
+    {
+      "url": "https://dme.lk/",
+      "path": "audit.output/dme.lk/20260927.0648/snapshots/page-03-c55fd9676e4b.html",
+      "sha256": "c55fd9676e4be9de6bf6a1bf48c593cf9baeb2a12d10755b929b9914676b7749",
+      "bytes": 12078
+    },
+    {
+      "url": "http://dme.lk/",
+      "path": "audit.output/dme.lk/20260927.0648/snapshots/page-04-69db3ad779f3.html",
+      "sha256": "69db3ad779f394b87d560ffc0616440a831da4aef8a33bb4f5b14e491ff71771",
+      "bytes": 11996
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "inconclusive",
+      "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

@@ -1,0 +1,9 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-27T06:48:35.606134+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T06:48:35.606154+05:30
+tls,pass,TLS certificate valid,,2026-09-27T06:48:36.355423+05:30
+http,error,Probe 1: timed out,https://kdb.gov.lk/,2026-09-27T06:49:41.687000+05:30
+http,fail,Probe 2: HTTP 500 at https://kdb.gov.lk/,http://kdb.gov.lk/,2026-09-27T06:49:41.687018+05:30
+http,error,Probe 3: timed out,https://kdb.gov.lk/,2026-09-27T06:49:41.687023+05:30
+http,fail,Probe 4: HTTP 500 at https://kdb.gov.lk/,http://kdb.gov.lk/,2026-09-27T06:49:41.687026+05:30
+page_text,fail,Only 55 visible characters across 2 pages; below substance threshold 200,https://kdb.gov.lk/,

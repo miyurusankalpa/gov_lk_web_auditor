@@ -1,0 +1,1125 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "13562c4d-3e9e-4f9e-819e-a89226332cc9",
+  "url": "https://nilis.cmb.ac.lk/home/",
+  "normalized_url": "https://nilis.cmb.ac.lk/home/",
+  "started_at": "2026-09-27T06:23:22.757262+05:30",
+  "completed_at": "2026-09-27T06:24:22.972764+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:23:25.313437+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:23:25.313454+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:23:26.303278+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://nilis.cmb.ac.lk/home/",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "observed_at": "2026-09-27T06:24:09.457000+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://nilis.cmb.ac.lk/home/",
+      "source": "http://nilis.cmb.ac.lk/home/",
+      "observed_at": "2026-09-27T06:24:09.457018+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://nilis.cmb.ac.lk/home/",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "observed_at": "2026-09-27T06:24:09.457023+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://nilis.cmb.ac.lk/home/",
+      "source": "http://nilis.cmb.ac.lk/home/",
+      "observed_at": "2026-09-27T06:24:09.457027+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://nilis.cmb.ac.lk/home/contact-us/",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "observed_at": "2026-09-27T06:24:09.457030+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "source": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "observed_at": "2026-09-27T06:24:09.457033+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://nilis.cmb.ac.lk/home/downloads/",
+      "source": "https://nilis.cmb.ac.lk/home/downloads/",
+      "observed_at": "2026-09-27T06:24:09.457036+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://nilis.cmb.ac.lk/home/bylaws/",
+      "source": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "observed_at": "2026-09-27T06:24:09.457039+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://nilis.cmb.ac.lk/home/annual-reports/",
+      "source": "https://nilis.cmb.ac.lk/home/annual-reports/",
+      "observed_at": "2026-09-27T06:24:09.457041+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "source": "https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "observed_at": "2026-09-27T06:24:09.457044+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "source": "https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "observed_at": "2026-09-27T06:24:09.457047+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://nilis.cmb.ac.lk/home/quality/",
+      "source": "https://nilis.cmb.ac.lk/home/quality/",
+      "observed_at": "2026-09-27T06:24:09.457049+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "source": "https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "observed_at": "2026-09-27T06:24:09.457052+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://nilis.cmb.ac.lk/home/gallery/",
+      "source": "https://nilis.cmb.ac.lk/home/gallery/",
+      "observed_at": "2026-09-27T06:24:09.457054+05:30"
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": ""
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": ""
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": ""
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": ""
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 344 36 34 ",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "+94 11 344 36 34 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 070-1478679 ",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "070-1478679 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 255 96 34 ",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "+94 11 255 96 34 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 250 71 48 ",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "+94 11 250 71 48 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 250 71 50 ",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "+94 11 250 71 50 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 255 96 46 ",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "+94 11 255 96 46 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 255 92 85 ",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "+94 11 255 92 85 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: prasanna@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "prasanna@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: director@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "director@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sar@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "sar@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ruwan@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "ruwan@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: uditha@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "uditha@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sab@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "sab@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: General Correspondence National Institute of Library & Information Sciences (NILIS) Colombo 03 00300 Sri Lanka Telephone+94 11 250 71 50 Special WhatsApp Number: 070-1478679 Fax: +94 11 255 92 85 Email: Web : www.nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "General Correspondence National Institute of Library & Information Sciences (NILIS) Colombo 03 00300 Sri Lanka Telephone+94 11 250 71 50 Special WhatsApp Number: 070-1478679 Fax: +94 11 255 92 85 Email: Web : www.nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ",
+      "source": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "data": {
+        "value": ""
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/downloads/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/downloads/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/downloads/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://nilis.cmb.ac.lk/wp-content/uploads/2017/07/NILIS-MLS-By-law-Revised-2022-Approved-by-University.pdf",
+      "source": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "data": {
+        "value": "https://nilis.cmb.ac.lk/wp-content/uploads/2017/07/NILIS-MLS-By-law-Revised-2022-Approved-by-University.pdf"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/annual-reports/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/annual-reports/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/annual-reports/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/quality/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/quality/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/quality/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "https://nilis.cmb.ac.lk/home/quality/",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: is: https://nilis.cmb.ac.lk/home. We are a higher education institution offering Diploma, and Graduate education. In add",
+      "source": "https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "data": {
+        "value": "is: https://nilis.cmb.ac.lk/home. We are a higher education institution offering Diploma, and Graduate education. In add"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@nilis.cmb.ac.lk",
+      "source": "https://nilis.cmb.ac.lk/home/gallery/",
+      "data": {
+        "value": "info@nilis.cmb.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: NILIS, University of Colombo, Sri Lanka",
+      "source": "https://nilis.cmb.ac.lk/home/gallery/",
+      "data": {
+        "value": "NILIS, University of Colombo, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://nilis.cmb.ac.lk/home/gallery/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 6085 visible characters across 14 pages",
+      "source": "https://nilis.cmb.ac.lk/home/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "nilis.cmb.ac.lk",
+      "addresses": [
+        "192.248.16.88"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "ac.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "nilis.cmb.ac.lk",
+      "status": "valid",
+      "expires_at": "2026-11-26T22:08:44+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/",
+      "redirects": [],
+      "elapsed_ms": 2117,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://nilis.cmb.ac.lk/home/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/",
+      "redirects": [
+        "https://nilis.cmb.ac.lk/home/"
+      ],
+      "elapsed_ms": 1893,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/",
+      "redirects": [],
+      "elapsed_ms": 2424,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://nilis.cmb.ac.lk/home/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/",
+      "redirects": [
+        "https://nilis.cmb.ac.lk/home/"
+      ],
+      "elapsed_ms": 1946,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "redirects": [],
+      "elapsed_ms": 4008,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "redirects": [],
+      "elapsed_ms": 1978,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/downloads/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/downloads/",
+      "redirects": [],
+      "elapsed_ms": 1748,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "redirects": [],
+      "elapsed_ms": 1823,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/annual-reports/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/annual-reports/",
+      "redirects": [],
+      "elapsed_ms": 1727,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "redirects": [],
+      "elapsed_ms": 1708,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "redirects": [],
+      "elapsed_ms": 1743,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/quality/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/quality/",
+      "redirects": [],
+      "elapsed_ms": 1715,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "redirects": [],
+      "elapsed_ms": 3021,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/gallery/",
+      "status_code": 200,
+      "final_url": "https://nilis.cmb.ac.lk/home/gallery/",
+      "redirects": [],
+      "elapsed_ms": 8240,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://nilis.cmb.ac.lk/home/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-01-eab71b9ca9b3.html",
+      "sha256": "eab71b9ca9b3ee18e95d2f54d11128aaf2d3dfad93d7d475016825cf11a1e12b",
+      "bytes": 154594
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-02-20c4f103664e.html",
+      "sha256": "20c4f103664ee9930e9b9c8139ce3244b73402dbc3eb58b80de9ec9b345ba93c",
+      "bytes": 154594
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-03-2864d5dbd1de.html",
+      "sha256": "2864d5dbd1deea47c2394e230cc77e270d60046938abedb0f4d645b7190b0657",
+      "bytes": 154594
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-04-71b19df8b512.html",
+      "sha256": "71b19df8b51231a598fe85b86e7430b3456218a095d8d52f721d4c41323c92f7",
+      "bytes": 154594
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/contact-us/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-05-4f00cde5c164.html",
+      "sha256": "4f00cde5c16457e57b942f578ef493d5a958d7394f2c69259cea0d199477b332",
+      "bytes": 104681
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/staff-training-libreoffice/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-06-52bc7a7ace1a.html",
+      "sha256": "52bc7a7ace1a44d82b801cf481dfbccfed82e56ecd4f0e8ee92752d4c8c19087",
+      "bytes": 70141
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/downloads/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-07-63431d434841.html",
+      "sha256": "63431d4348413fe65ef9da49b70f0336a6abfd880e9d3427a0b39ebb513cc7aa",
+      "bytes": 65680
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/bylaws/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-08-bf4c08937756.html",
+      "sha256": "bf4c089377567892e93bdb2a19ebdee92d4e7e2c7091aa8a269bcad896fa541f",
+      "bytes": 72500
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/annual-reports/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-09-4cddb9f7d916.html",
+      "sha256": "4cddb9f7d916b43382c18fb914fc69db878ec6334fc50ed33939f7337d5b27ce",
+      "bytes": 74345
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/nilis-ordinance/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-10-0b91eecfe7e7.html",
+      "sha256": "0b91eecfe7e7beeb6eb031531a5873dba07f40c916f70a82ca9a5f89bfa8cfa1",
+      "bytes": 70635
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/strategic-plan/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-11-487779c30f28.html",
+      "sha256": "487779c30f2888e35aa06641d4714c163c27824d1e96d988fda372265b4ef720",
+      "bytes": 69139
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/quality/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-12-3c65e98cc8c0.html",
+      "sha256": "3c65e98cc8c0204b6337e22462d3bc53bca963c4d6dc0bc283d6fdd5a03bb156",
+      "bytes": 70583
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/our-privacy-policy/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-13-1e3bc6e60041.html",
+      "sha256": "1e3bc6e60041656b02f4516b62e2b42f3e0509d0a7efa02c0b6f56786fa409ae",
+      "bytes": 69824
+    },
+    {
+      "url": "https://nilis.cmb.ac.lk/home/gallery/",
+      "path": "audit.output/nilis.cmb.ac.lk/20260927.0623/snapshots/page-14-4ed87a72451b.html",
+      "sha256": "4ed87a72451bb6b4021debb7224f26dea6a19bdb893923b4ab51a889a7ac847e",
+      "bytes": 67748
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: NILIS, University of Colombo, Sri Lanka; Phone: +94 11 344 36 34 (7 phone numbers found); Email: Published email: (8 email addresses found); Published named responsibility: director",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: NILIS, University of Colombo, Sri Lanka"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: +94 11 344 36 34 (7 phone numbers found); Email: Published email: (8 email addresses found)"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing fees and payment evidence found; No passing processing time evidence found; No passing published update date evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing eligibility criteria evidence found"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing fees and payment evidence found"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published legal basis: circular"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing processing time evidence found"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published downloadable form: https://nilis.cmb.ac.lk/wp-content/uploads/2017/07/NILIS-MLS-By-law-Revised-2022-Approved-by-University.pdf"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing published update date evidence found"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

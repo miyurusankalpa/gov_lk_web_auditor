@@ -1,0 +1,13 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-27T07:00:52.824290+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T07:00:52.824345+05:30
+tls,pass,TLS certificate valid,,2026-09-27T07:00:53.319232+05:30
+http,pass,Probe 1: HTTP 200 at https://www.skillsmin.gov.lk/,https://www.skillsmin.gov.lk/,2026-09-27T07:00:56.826537+05:30
+http,pass,Probe 2: HTTP 200 at http://www.skillsmin.gov.lk/,http://www.skillsmin.gov.lk/,2026-09-27T07:00:56.826564+05:30
+http,pass,Probe 3: HTTP 200 at https://www.skillsmin.gov.lk/,https://www.skillsmin.gov.lk/,2026-09-27T07:00:56.826572+05:30
+http,pass,Probe 4: HTTP 200 at http://www.skillsmin.gov.lk/,http://www.skillsmin.gov.lk/,2026-09-27T07:00:56.826578+05:30
+phone,pass,Published phone: 0950635027,https://www.skillsmin.gov.lk/,
+phone,pass,Published phone: 0950635027,http://www.skillsmin.gov.lk/,
+phone,pass,Published phone: 0950635027,https://www.skillsmin.gov.lk/,
+phone,pass,Published phone: 0950635027,http://www.skillsmin.gov.lk/,
+page_text,fail,Only 80 visible characters across 4 pages; below substance threshold 200,https://www.skillsmin.gov.lk/,

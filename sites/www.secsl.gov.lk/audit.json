@@ -1,0 +1,1296 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "a3a976a4-5df2-4a04-b632-05456dd8257c",
+  "url": "https://www.secsl.gov.lk/",
+  "normalized_url": "https://www.secsl.gov.lk/",
+  "started_at": "2026-09-27T06:45:01.360606+05:30",
+  "completed_at": "2026-09-27T06:45:41.355526+05:30",
+  "result": {
+    "status": "fail",
+    "confidence": 1.0,
+    "reasons": [
+      "hosting_configured: Detected generic hosting marker: under construction"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:45:01.777684+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:45:01.777712+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:45:02.151832+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.secsl.gov.lk/",
+      "source": "https://www.secsl.gov.lk/",
+      "observed_at": "2026-09-27T06:45:36.928370+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://www.secsl.gov.lk/",
+      "source": "http://www.secsl.gov.lk/",
+      "observed_at": "2026-09-27T06:45:36.928389+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.secsl.gov.lk/",
+      "source": "https://www.secsl.gov.lk/",
+      "observed_at": "2026-09-27T06:45:36.928394+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://www.secsl.gov.lk/",
+      "source": "http://www.secsl.gov.lk/",
+      "observed_at": "2026-09-27T06:45:36.928397+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://www.secsl.gov.lk/our-services/consultancy/",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "observed_at": "2026-09-27T06:45:36.928400+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://www.secsl.gov.lk/our-services/construction/",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "observed_at": "2026-09-27T06:45:36.928403+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://www.secsl.gov.lk/our-services/construction-component/",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "observed_at": "2026-09-27T06:45:36.928406+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "observed_at": "2026-09-27T06:45:36.928409+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "source": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "observed_at": "2026-09-27T06:45:36.928412+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://www.secsl.gov.lk/contact/",
+      "source": "https://www.secsl.gov.lk/contact/",
+      "observed_at": "2026-09-27T06:45:36.928414+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "source": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "observed_at": "2026-09-27T06:45:36.928417+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://www.secsl.gov.lk/our-services/construction-component/",
+      "source": "http://www.secsl.gov.lk/our-services/mechanical-and-electrical/",
+      "observed_at": "2026-09-27T06:45:36.928420+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at http://www.secsl.gov.lk/our-services/construction-component/",
+      "source": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "observed_at": "2026-09-27T06:45:36.928423+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at http://www.secsl.gov.lk/our-services/consultancy/",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "observed_at": "2026-09-27T06:45:36.928426+05:30"
+    },
+    {
+      "check": "generic_hosting",
+      "status": "fail",
+      "detail": "Detected generic hosting marker: under construction",
+      "source": "https://www.secsl.gov.lk/"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "eligibility_criteria",
+      "status": "pass",
+      "detail": "Published eligibility criteria: eligibility",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "eligibility"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "generic_hosting",
+      "status": "fail",
+      "detail": "Detected generic hosting marker: under construction",
+      "source": "https://www.secsl.gov.lk/"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "eligibility_criteria",
+      "status": "pass",
+      "detail": "Published eligibility criteria: eligibility",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "eligibility"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "generic_hosting",
+      "status": "fail",
+      "detail": "Detected generic hosting marker: under construction",
+      "source": "https://www.secsl.gov.lk/"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "eligibility_criteria",
+      "status": "pass",
+      "detail": "Published eligibility criteria: eligibility",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "eligibility"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "generic_hosting",
+      "status": "fail",
+      "detail": "Detected generic hosting marker: under construction",
+      "source": "https://www.secsl.gov.lk/"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "eligibility_criteria",
+      "status": "pass",
+      "detail": "Published eligibility criteria: eligibility",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "eligibility"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "rs,"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs ,",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "data": {
+        "value": "rs ,"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/our-services/construction/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs ,",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "data": {
+        "value": "rs ,"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/contact/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/contact/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/contact/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/contact/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/contact/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 421 262 (",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "+94) 112 421 262 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 430 061 ",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "+94) 112 430 061 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 112 430 061",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "(+94) 112 430 061"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@secsl.gov.lk",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "info@secsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "rs,"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 day",
+      "source": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "data": {
+        "value": "1 day"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 7152 visible characters across 14 pages",
+      "source": "https://www.secsl.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.secsl.gov.lk",
+      "addresses": [
+        "192.249.118.5"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "secsl.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.secsl.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-11-18T09:38:54+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://www.secsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 2239,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.secsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/",
+      "redirects": [
+        "https://www.secsl.gov.lk/"
+      ],
+      "elapsed_ms": 1657,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.secsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 2104,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.secsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/",
+      "redirects": [
+        "https://www.secsl.gov.lk/"
+      ],
+      "elapsed_ms": 2747,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "redirects": [],
+      "elapsed_ms": 1862,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/construction/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/our-services/construction/",
+      "redirects": [],
+      "elapsed_ms": 1650,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "redirects": [],
+      "elapsed_ms": 2672,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "redirects": [],
+      "elapsed_ms": 2291,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "redirects": [],
+      "elapsed_ms": 1485,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.secsl.gov.lk/contact/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/contact/",
+      "redirects": [],
+      "elapsed_ms": 1527,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "status_code": 200,
+      "final_url": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "redirects": [],
+      "elapsed_ms": 1272,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.secsl.gov.lk/our-services/mechanical-and-electrical/",
+      "status_code": 200,
+      "final_url": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "redirects": [
+        "https://www.secsl.gov.lk/our-services/construction-component/"
+      ],
+      "elapsed_ms": 1702,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "status_code": 200,
+      "final_url": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "redirects": [],
+      "elapsed_ms": 1618,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "status_code": 200,
+      "final_url": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "redirects": [],
+      "elapsed_ms": 1621,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.secsl.gov.lk/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-01-5038521b47f3.html",
+      "sha256": "5038521b47f3f6d5fda1e4964d61acb82bf48c64e247b9b23d9c61740b3cc7bc",
+      "bytes": 121978
+    },
+    {
+      "url": "https://www.secsl.gov.lk/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-02-0329601272ab.html",
+      "sha256": "0329601272abc389f3a586ada91da445710440403bfc00c9d382435fc48872ba",
+      "bytes": 121978
+    },
+    {
+      "url": "https://www.secsl.gov.lk/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-03-c5fe0fcbe226.html",
+      "sha256": "c5fe0fcbe22664ec97f59c99c46eff44e8e3681546c7e16b0f072518acb66da0",
+      "bytes": 121978
+    },
+    {
+      "url": "https://www.secsl.gov.lk/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-04-553e2b5cc8c2.html",
+      "sha256": "553e2b5cc8c2bd34bcff34de8153443aa38aaeecadef41fe1203993e8196c0c8",
+      "bytes": 121978
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/consultancy/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-05-4794024627c5.html",
+      "sha256": "4794024627c5e24e5326bb8f6562aeb8df400d4ba5bece49f8f2cfa182da0094",
+      "bytes": 137792
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/construction/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-06-11a24041a6a6.html",
+      "sha256": "11a24041a6a6c5465834529ad7d77d70c530cbfe8c0bac529ec999f771aff2f8",
+      "bytes": 150778
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-07-97c2253cc299.html",
+      "sha256": "97c2253cc299e341734717fd4e8a0a86dbd28804b3b09ec370ecde028ab113da",
+      "bytes": 86695
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/design-build-design-design-review/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-08-2fbef61e7435.html",
+      "sha256": "2fbef61e7435640a41abbcb457661dc054bc7eeae1009bcaa20f9d94df82239b",
+      "bytes": 145060
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-09-9327c15d9185.html",
+      "sha256": "9327c15d91858319b1f0d6da837adb682e607c9097ac9976f0e0668ddd2a0f1f",
+      "bytes": 93172
+    },
+    {
+      "url": "https://www.secsl.gov.lk/contact/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-10-f69981eb18c1.html",
+      "sha256": "f69981eb18c190c536492b30243541fda8700d26a6ead8df31a15eeea525ddfa",
+      "bytes": 90000
+    },
+    {
+      "url": "http://www.secsl.gov.lk/our-services/facility-management-maintenances/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-11-cf8262d65fa2.html",
+      "sha256": "cf8262d65fa27bfdae279df623a692db395cd194d61ceed7124c4265af906b9b",
+      "bytes": 93073
+    },
+    {
+      "url": "https://www.secsl.gov.lk/our-services/construction-component/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-12-ebaebe56efb4.html",
+      "sha256": "ebaebe56efb4ba8e9916eb8c9d22e3d1de1b202011469623d29b352b8a012c6d",
+      "bytes": 86695
+    },
+    {
+      "url": "http://www.secsl.gov.lk/our-services/construction-component/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-13-ba527ead16e9.html",
+      "sha256": "ba527ead16e99c032eea4175c84227239c624455e70fe59b87ab31978ef3d0e1",
+      "bytes": 86600
+    },
+    {
+      "url": "http://www.secsl.gov.lk/our-services/consultancy/",
+      "path": "audit.output/www.secsl.gov.lk/20260927.0645/snapshots/page-14-412644408e98.html",
+      "sha256": "412644408e987dc2acfc06d5ddffeaf266691447fa63a252a9bc389d23caf20c",
+      "bytes": 137655
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "fail",
+      "reason": "Detected generic hosting marker: under construction",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "fail",
+          "reason": "Detected generic hosting marker: under construction"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

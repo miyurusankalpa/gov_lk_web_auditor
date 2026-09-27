@@ -1,0 +1,1444 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "0f9d8f54-4acc-4f29-bd29-ad27e2d382fd",
+  "url": "https://www.sliate.ac.lk/",
+  "normalized_url": "https://www.sliate.ac.lk/",
+  "started_at": "2026-09-27T06:26:04.625712+05:30",
+  "completed_at": "2026-09-27T06:26:28.783470+05:30",
+  "result": {
+    "status": "fail",
+    "confidence": 1.0,
+    "reasons": [
+      "tls_browser_trusted: Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+      "tls_not_expired: TLS certificate has expired"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:26:05.210287+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:26:05.210339+05:30"
+    },
+    {
+      "check": "tls_expired",
+      "status": "fail",
+      "detail": "TLS certificate has expired",
+      "observed_at": "2026-09-27T06:26:06.133386+05:30"
+    },
+    {
+      "check": "tls_browser_error",
+      "status": "fail",
+      "detail": "Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+      "source": "https://www.sliate.ac.lk/",
+      "observed_at": "2026-09-27T06:26:27.495394+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://www.sliate.ac.lk/",
+      "source": "http://www.sliate.ac.lk/",
+      "observed_at": "2026-09-27T06:26:27.495416+05:30"
+    },
+    {
+      "check": "tls_browser_error",
+      "status": "fail",
+      "detail": "Probe 3: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+      "source": "https://www.sliate.ac.lk/",
+      "observed_at": "2026-09-27T06:26:27.495422+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://www.sliate.ac.lk/",
+      "source": "http://www.sliate.ac.lk/",
+      "observed_at": "2026-09-27T06:26:27.495425+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at http://www.sliate.ac.lk/course/hnde-building-services",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "observed_at": "2026-09-27T06:26:27.495429+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at http://www.sliate.ac.lk/contact/contact",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "observed_at": "2026-09-27T06:26:27.495432+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at http://www.sliate.ac.lk/contact/form",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "observed_at": "2026-09-27T06:26:27.495435+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at http://www.sliate.ac.lk/about",
+      "source": "http://www.sliate.ac.lk/about",
+      "observed_at": "2026-09-27T06:26:27.495438+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at http://www.sliate.ac.lk/about/overview",
+      "source": "http://www.sliate.ac.lk/about/overview",
+      "observed_at": "2026-09-27T06:26:27.495442+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at http://www.sliate.ac.lk/about/structure",
+      "source": "http://www.sliate.ac.lk/about/structure",
+      "observed_at": "2026-09-27T06:26:27.495445+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at http://www.sliate.ac.lk/news/staff",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "observed_at": "2026-09-27T06:26:27.495448+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at http://www.sliate.ac.lk/news/students",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "observed_at": "2026-09-27T06:26:27.495451+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at http://www.sliate.ac.lk/news/common",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "observed_at": "2026-09-27T06:26:27.495453+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at http://www.sliate.ac.lk/news/event",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "observed_at": "2026-09-27T06:26:27.495456+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349522 3",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "099 349522 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2 - 2026.08.",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "025-2 - 2026.08."
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: http://www.sliate.ac.lk/attachments/article/475/Re- Scrutiny Application 2025 -1.pdf",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "http://www.sliate.ac.lk/attachments/article/475/Re- Scrutiny Application 2025 -1.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349523 3",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "099 349523 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2 - 2026.08.",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "025-2 - 2026.08."
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: http://www.sliate.ac.lk/attachments/article/475/Re- Scrutiny Application 2025 -1.pdf",
+      "source": "http://www.sliate.ac.lk/",
+      "data": {
+        "value": "http://www.sliate.ac.lk/attachments/article/475/Re- Scrutiny Application 2025 -1.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112521282 ",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "0112521282 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112521152 ",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "0112521152 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0777800909 ",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "0777800909 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 091246179 0",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "091246179 0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0714970484 ",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "0714970484 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 961 053 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 961 053 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 691 631 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 691 631 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349525 3",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "099 349525 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 691 319 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 691 319 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 691 309 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 691 309 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 691 308 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 691 308 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 691 307 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 691 307 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 961 242 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 961 242 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 961 243 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 961 243 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 961 052 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 961 052 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 8782 2150 1",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "0 8782 2150 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 961 573 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 961 573 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2 691 092 ",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "011-2 691 092 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/contact/contact",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349526 3",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "data": {
+        "value": "099 349526 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/contact/form",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349529 3",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "099 349529 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/about",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/about/overview",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/about/overview",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/about/overview",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/about/overview",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/about/structure",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 15 20 25 30 5",
+      "source": "http://www.sliate.ac.lk/about/structure",
+      "data": {
+        "value": "0 15 20 25 30 5"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/about/structure",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/about/structure",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/about/structure",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349532 3",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "099 349532 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/news/staff",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349533 3",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "099 349533 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: http://www.sliate.ac.lk/attachments/article/475/Re- Scrutiny Application 2025 -1.pdf",
+      "source": "http://www.sliate.ac.lk/news/students",
+      "data": {
+        "value": "http://www.sliate.ac.lk/attachments/article/475/Re- Scrutiny Application 2025 -1.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349534 3",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "099 349534 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 03/02/2025",
+      "source": "http://www.sliate.ac.lk/news/common",
+      "data": {
+        "value": "03/02/2025"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 691 307",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "+94 112 691 307"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 099 349535 3",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "099 349535 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691572 ",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "+94) 112 691572 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 691307 (",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "+94) 112 691307 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0174276461",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "0174276461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 8782 2160 1",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "0 8782 2160 1"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "http://www.sliate.ac.lk/news/event",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 7159 visible characters across 12 pages",
+      "source": "https://www.sliate.ac.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.sliate.ac.lk",
+      "addresses": [
+        "35.198.240.170"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "ac.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.sliate.ac.lk",
+      "status": "expired",
+      "expires_at": "2026-08-03T05:29:59+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate has expired"
+    },
+    {
+      "url": "https://www.sliate.ac.lk/",
+      "status_code": null,
+      "final_url": null,
+      "redirects": [],
+      "elapsed_ms": null,
+      "content_type": null,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
+    },
+    {
+      "url": "http://www.sliate.ac.lk/",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/",
+      "redirects": [],
+      "elapsed_ms": 1680,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.sliate.ac.lk/",
+      "status_code": null,
+      "final_url": null,
+      "redirects": [],
+      "elapsed_ms": null,
+      "content_type": null,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
+    },
+    {
+      "url": "http://www.sliate.ac.lk/",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/",
+      "redirects": [],
+      "elapsed_ms": 1689,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "redirects": [],
+      "elapsed_ms": 1348,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/contact/contact",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/contact/contact",
+      "redirects": [],
+      "elapsed_ms": 1162,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/contact/form",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/contact/form",
+      "redirects": [],
+      "elapsed_ms": 1246,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/about",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/about",
+      "redirects": [],
+      "elapsed_ms": 1400,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/about/overview",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/about/overview",
+      "redirects": [],
+      "elapsed_ms": 1113,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/about/structure",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/about/structure",
+      "redirects": [],
+      "elapsed_ms": 1108,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/staff",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/news/staff",
+      "redirects": [],
+      "elapsed_ms": 1149,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/students",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/news/students",
+      "redirects": [],
+      "elapsed_ms": 1196,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/common",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/news/common",
+      "redirects": [],
+      "elapsed_ms": 1202,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/event",
+      "status_code": 200,
+      "final_url": "http://www.sliate.ac.lk/news/event",
+      "redirects": [],
+      "elapsed_ms": 1184,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "http://www.sliate.ac.lk/",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-01-fd2e7397bc7f.html",
+      "sha256": "fd2e7397bc7f6db13b3ce81c55867cb26cae5fe01807d040ca1a231a201d628e",
+      "bytes": 100400
+    },
+    {
+      "url": "http://www.sliate.ac.lk/",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-02-14675eadb1d1.html",
+      "sha256": "14675eadb1d1b84a102e6d4fb9417527bbf769f59d937393599ee3fd94544718",
+      "bytes": 100400
+    },
+    {
+      "url": "http://www.sliate.ac.lk/course/hnde-building-services",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-03-ef628e201b50.html",
+      "sha256": "ef628e201b50e2336e973b733f82398e75b88a99cced6613cd6d50b0d0f17e87",
+      "bytes": 75156
+    },
+    {
+      "url": "http://www.sliate.ac.lk/contact/contact",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-04-f097928e5468.html",
+      "sha256": "f097928e546849103b54714c55f3af1c0cc11f353ba8ce3e59fcc1dbf4abc6b5",
+      "bytes": 70799
+    },
+    {
+      "url": "http://www.sliate.ac.lk/contact/form",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-05-26a0f31e1765.html",
+      "sha256": "26a0f31e17658c21b073b9ca28b77a16e83c29537e3b458401724b1158bb75ea",
+      "bytes": 70062
+    },
+    {
+      "url": "http://www.sliate.ac.lk/about",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-06-7e61a34966ff.html",
+      "sha256": "7e61a34966fff529315781d6f3e67aef914976a202fd31bbe0cb860fc682a84c",
+      "bytes": 71931
+    },
+    {
+      "url": "http://www.sliate.ac.lk/about/overview",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-07-07608262607e.html",
+      "sha256": "07608262607eaced78c6545686f1477ee6f54969144ba227377bb7434177e387",
+      "bytes": 56793
+    },
+    {
+      "url": "http://www.sliate.ac.lk/about/structure",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-08-92711e538be2.html",
+      "sha256": "92711e538be2cf6d33ab2fc5e7dcc33ee21d2c4e7b217519c74c9bd1f0c2bceb",
+      "bytes": 55749
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/staff",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-09-ee8493cc14fd.html",
+      "sha256": "ee8493cc14fddb0671922222516b06039adf20d1995bf800a682bdb12c9c4260",
+      "bytes": 71391
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/students",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-10-27bd9711ed27.html",
+      "sha256": "27bd9711ed272e3b3b63baa2d76d095e9cf7110c600071c9dd9888a17d240f7e",
+      "bytes": 86988
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/common",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-11-d846e588496c.html",
+      "sha256": "d846e588496c7b5ba4e7f59cf704b49fd295a9e5c9b252def367cf586687bc86",
+      "bytes": 79633
+    },
+    {
+      "url": "http://www.sliate.ac.lk/news/event",
+      "path": "audit.output/www.sliate.ac.lk/20260927.0626/snapshots/page-12-ae338b5e309c.html",
+      "sha256": "ae338b5e309c5b1597d3ad909f6dbf5c66ffb747bf9ec945850c9011d046598e",
+      "bytes": 84368
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "fail",
+      "reason": "Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010); TLS certificate has expired",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "fail",
+          "reason": "Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "fail",
+          "reason": "TLS certificate has expired"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "TLS hostname check did not run"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

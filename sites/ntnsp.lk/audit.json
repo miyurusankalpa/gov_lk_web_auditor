@@ -1,0 +1,1409 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "0d8aa127-cf3e-4ce2-8cf4-1982f6d311db",
+  "url": "https://ntnsp.lk/",
+  "normalized_url": "https://ntnsp.lk/",
+  "started_at": "2026-09-27T06:27:19.013968+05:30",
+  "completed_at": "2026-09-27T06:27:47.667287+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:27:19.273809+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:27:19.273828+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:27:19.283830+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://ntnsp.lk/",
+      "source": "https://ntnsp.lk/",
+      "observed_at": "2026-09-27T06:27:46.884280+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://ntnsp.lk/",
+      "source": "http://ntnsp.lk/",
+      "observed_at": "2026-09-27T06:27:46.884299+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://ntnsp.lk/",
+      "source": "https://ntnsp.lk/",
+      "observed_at": "2026-09-27T06:27:46.884331+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://ntnsp.lk/",
+      "source": "http://ntnsp.lk/",
+      "observed_at": "2026-09-27T06:27:46.884337+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://ntnsp.lk/contact",
+      "source": "https://ntnsp.lk/contact",
+      "observed_at": "2026-09-27T06:27:46.884342+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://ntnsp.lk/ceylon-grid",
+      "source": "https://ntnsp.lk/ceylon-grid",
+      "observed_at": "2026-09-27T06:27:46.884348+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://ntnsp.lk/investors",
+      "source": "https://ntnsp.lk/investors",
+      "observed_at": "2026-09-27T06:27:46.884352+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://ntnsp.lk/procurement/tender-notices",
+      "source": "https://ntnsp.lk/procurement/tender-notices",
+      "observed_at": "2026-09-27T06:27:46.884355+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://ntnsp.lk/procurement/tender-awards",
+      "source": "https://ntnsp.lk/procurement/tender-awards",
+      "observed_at": "2026-09-27T06:27:46.884358+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://ntnsp.lk/procurement/standard-specifications",
+      "source": "https://ntnsp.lk/procurement/standard-specifications",
+      "observed_at": "2026-09-27T06:27:46.884361+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://ntnsp.lk/news",
+      "source": "https://ntnsp.lk/news",
+      "observed_at": "2026-09-27T06:27:46.884364+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://ntnsp.lk/careers",
+      "source": "https://ntnsp.lk/careers",
+      "observed_at": "2026-09-27T06:27:46.884366+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://ntnsp.lk/faq",
+      "source": "https://ntnsp.lk/faq",
+      "observed_at": "2026-09-27T06:27:46.884369+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://ntnsp.lk/transmission-projects",
+      "source": "https://ntnsp.lk/transmission-projects",
+      "observed_at": "2026-09-27T06:27:46.884371+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://ntnsp.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2836051",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2836051"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2144988",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2144988"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2321597",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2321597"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 081-2085565",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "081-2085565"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2421245",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2421245"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2441556",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2441556"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2399896",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2399896"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2058143",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2058143"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2682449",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2682449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2690393",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2690393"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2669738",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2669738"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2301677",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2301677"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2027277",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2027277"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2441935",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2441935"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2301273",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2301273"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2836052",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2836052"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 081-2388944",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "081-2388944"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2301661",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2301661"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2081461",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2081461"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2058898",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2058898"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2614468",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2614468"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2399895",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "011-2399895"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ntnsp.lk/contact",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/ceylon-grid",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/ceylon-grid",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/ceylon-grid",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/ceylon-grid",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/ceylon-grid",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/investors",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/investors",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/investors",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/investors",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/investors",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/procurement/tender-notices",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/procurement/tender-notices",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/procurement/tender-notices",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/procurement/tender-notices",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/procurement/tender-notices",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/procurement/tender-awards",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/procurement/tender-awards",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/procurement/tender-awards",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/procurement/tender-awards",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ntnsp.lk/procurement/tender-awards",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/procurement/standard-specifications",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/procurement/standard-specifications",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/procurement/standard-specifications",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/procurement/standard-specifications",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/procurement/standard-specifications",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/news",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/news",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/news",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/news",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/news",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://ntnsp.lk/news",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/careers",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/careers",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/careers",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/careers",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/careers",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/faq",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/faq",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/faq",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/faq",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/faq",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://ntnsp.lk/faq",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2454479 ",
+      "source": "https://ntnsp.lk/transmission-projects",
+      "data": {
+        "value": "+94 11 2454479 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112147202",
+      "source": "https://ntnsp.lk/transmission-projects",
+      "data": {
+        "value": "+94112147202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2421245 ",
+      "source": "https://ntnsp.lk/transmission-projects",
+      "data": {
+        "value": "+94 11 2421245 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka",
+      "source": "https://ntnsp.lk/transmission-projects",
+      "data": {
+        "value": "excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://ntnsp.lk/transmission-projects",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 6321 visible characters across 14 pages",
+      "source": "https://ntnsp.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "ntnsp.lk",
+      "addresses": [
+        "104.21.38.33",
+        "172.67.218.77",
+        "2606:4700:3034::ac43:da4d",
+        "2606:4700:3037::6815:2621"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "ntnsp.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "ntnsp.lk",
+      "status": "valid",
+      "expires_at": "2026-11-01T07:38:09+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://ntnsp.lk/",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/",
+      "redirects": [],
+      "elapsed_ms": 2190,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://ntnsp.lk/",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/",
+      "redirects": [
+        "https://ntnsp.lk/"
+      ],
+      "elapsed_ms": 2122,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/",
+      "redirects": [],
+      "elapsed_ms": 1981,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://ntnsp.lk/",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/",
+      "redirects": [
+        "https://ntnsp.lk/"
+      ],
+      "elapsed_ms": 2030,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/contact",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/contact",
+      "redirects": [],
+      "elapsed_ms": 2083,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/ceylon-grid",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/ceylon-grid",
+      "redirects": [],
+      "elapsed_ms": 1800,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/investors",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/investors",
+      "redirects": [],
+      "elapsed_ms": 617,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/procurement/tender-notices",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/procurement/tender-notices",
+      "redirects": [],
+      "elapsed_ms": 2190,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/procurement/tender-awards",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/procurement/tender-awards",
+      "redirects": [],
+      "elapsed_ms": 1846,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/procurement/standard-specifications",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/procurement/standard-specifications",
+      "redirects": [],
+      "elapsed_ms": 1696,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/news",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/news",
+      "redirects": [],
+      "elapsed_ms": 1822,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/careers",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/careers",
+      "redirects": [],
+      "elapsed_ms": 1894,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/faq",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/faq",
+      "redirects": [],
+      "elapsed_ms": 1872,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ntnsp.lk/transmission-projects",
+      "status_code": 200,
+      "final_url": "https://ntnsp.lk/transmission-projects",
+      "redirects": [],
+      "elapsed_ms": 865,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://ntnsp.lk/",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-01-d3200fe83b21.html",
+      "sha256": "d3200fe83b213ee0af727e2a8d0e67d15b9227f83c826e4880d0b90b3f8b4566",
+      "bytes": 162213
+    },
+    {
+      "url": "https://ntnsp.lk/",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-02-61ee1acd98e6.html",
+      "sha256": "61ee1acd98e6e4a59b669162e05698a7b3d7aa10120189af5fe43d739163a3bb",
+      "bytes": 162213
+    },
+    {
+      "url": "https://ntnsp.lk/",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-03-6fb20f6f23fd.html",
+      "sha256": "6fb20f6f23fdc5efbaa1a4e68d6e1d7b64b619db8e213bbc767773d41b4a9603",
+      "bytes": 162213
+    },
+    {
+      "url": "https://ntnsp.lk/",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-04-ff79a7721517.html",
+      "sha256": "ff79a77215171a165d6e5b808a26792dbe25f2c935d083bc7a0bb3fc6939ecce",
+      "bytes": 162213
+    },
+    {
+      "url": "https://ntnsp.lk/contact",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-05-a78700cdd565.html",
+      "sha256": "a78700cdd565c4745e6b5479cb76690f188b820bc9df45ef47d02aec7e1bffdc",
+      "bytes": 111210
+    },
+    {
+      "url": "https://ntnsp.lk/ceylon-grid",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-06-d6dce9a028af.html",
+      "sha256": "d6dce9a028af238e397a6e67db173e9d270edf2645b988d3f9ffc6343e924cb8",
+      "bytes": 89491
+    },
+    {
+      "url": "https://ntnsp.lk/investors",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-07-9471bd89ceef.html",
+      "sha256": "9471bd89ceef9a914df4f91af0b805d7f7a9444c5e16c36269e629a5dd2eda97",
+      "bytes": 103054
+    },
+    {
+      "url": "https://ntnsp.lk/procurement/tender-notices",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-08-5f74633797c2.html",
+      "sha256": "5f74633797c258c9b5ae89ac0c1af69bc422539fe3b8b7a7a669b2f85831ce98",
+      "bytes": 141954
+    },
+    {
+      "url": "https://ntnsp.lk/procurement/tender-awards",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-09-1a3aee5b2e6b.html",
+      "sha256": "1a3aee5b2e6b0d5ed0b758f17d073763ebc7c763f55249e8ba2e36b976c4ad5c",
+      "bytes": 82162
+    },
+    {
+      "url": "https://ntnsp.lk/procurement/standard-specifications",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-10-6de219d4d86b.html",
+      "sha256": "6de219d4d86b4df8a78e7aef9f316f592a3d9378a21cacabdadece3aa96cd801",
+      "bytes": 78950
+    },
+    {
+      "url": "https://ntnsp.lk/news",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-11-6ab9bcaa3ed1.html",
+      "sha256": "6ab9bcaa3ed18fb9b0fcf96e9418c9ac2a739c62a2b82ac348b516c2f08c6870",
+      "bytes": 90739
+    },
+    {
+      "url": "https://ntnsp.lk/careers",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-12-03c606735686.html",
+      "sha256": "03c6067356861f98337ba76ce4a4f716684fc0740bbb8ecb3a84a5eaacb8f2d2",
+      "bytes": 76608
+    },
+    {
+      "url": "https://ntnsp.lk/faq",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-13-5c68bc0aca69.html",
+      "sha256": "5c68bc0aca69e7e957616911659150a1097c9940fb8eecb741e217b1cde82c3b",
+      "bytes": 90931
+    },
+    {
+      "url": "https://ntnsp.lk/transmission-projects",
+      "path": "audit.output/ntnsp.lk/20260927.0627/snapshots/page-14-30c9d561949f.html",
+      "sha256": "30c9d561949fce19699f8390ad8d372d1668f05c72784abe014c8fd1daa694d9",
+      "bytes": 93002
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "No email evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: excellence. No. 50, Sri Chittampalam A Gardiner Mawatha, Colombo 02, Sri Lanka"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "inconclusive",
+          "reason": "No email evidence found"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

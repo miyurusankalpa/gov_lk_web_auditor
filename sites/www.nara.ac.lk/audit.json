@@ -1,0 +1,1400 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "038077c8-10ba-4153-8c4f-21a35f165590",
+  "url": "http://www.nara.ac.lk/",
+  "normalized_url": "http://www.nara.ac.lk/",
+  "started_at": "2026-09-27T06:34:25.545711+05:30",
+  "completed_at": "2026-09-27T06:36:01.587270+05:30",
+  "result": {
+    "status": "inconclusive",
+    "confidence": 0.5,
+    "reasons": [
+      "http_available: An HTTP probe was transient",
+      "tls_not_expired: _ssl.c:993: The handshake operation timed out",
+      "tls_hostname_matches: _ssl.c:993: The handshake operation timed out"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:34:26.239629+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:34:26.239655+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "error",
+      "detail": "_ssl.c:993: The handshake operation timed out",
+      "observed_at": "2026-09-27T06:34:37.107426+05:30"
+    },
+    {
+      "check": "http",
+      "status": "error",
+      "detail": "Probe 1: _ssl.c:993: The handshake operation timed out",
+      "source": "https://www.nara.ac.lk/",
+      "observed_at": "2026-09-27T06:36:00.739170+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://www.nara.ac.lk/",
+      "source": "http://www.nara.ac.lk/",
+      "observed_at": "2026-09-27T06:36:00.739189+05:30"
+    },
+    {
+      "check": "http",
+      "status": "error",
+      "detail": "Probe 3: _ssl.c:993: The handshake operation timed out",
+      "source": "https://www.nara.ac.lk/",
+      "observed_at": "2026-09-27T06:36:00.739194+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://www.nara.ac.lk/",
+      "source": "http://www.nara.ac.lk/",
+      "observed_at": "2026-09-27T06:36:00.739197+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at http://www.nara.ac.lk",
+      "source": "http://www.nara.ac.lk",
+      "observed_at": "2026-09-27T06:36:00.739200+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at http://www.nara.ac.lk/?page_id=33",
+      "source": "http://www.nara.ac.lk/?page_id=33",
+      "observed_at": "2026-09-27T06:36:00.739203+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at http://www.nara.ac.lk/?page_id=20424",
+      "source": "http://www.nara.ac.lk/?page_id=20424",
+      "observed_at": "2026-09-27T06:36:00.739205+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at http://www.nara.ac.lk/?page_id=20597",
+      "source": "http://www.nara.ac.lk/?page_id=20597",
+      "observed_at": "2026-09-27T06:36:00.739208+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at http://www.nara.ac.lk/?page_id=20604",
+      "source": "http://www.nara.ac.lk/?page_id=20604",
+      "observed_at": "2026-09-27T06:36:00.739211+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at http://www.nara.ac.lk/?page_id=20611",
+      "source": "http://www.nara.ac.lk/?page_id=20611",
+      "observed_at": "2026-09-27T06:36:00.739214+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at http://www.nara.ac.lk/?page_id=285",
+      "source": "http://www.nara.ac.lk/?page_id=285",
+      "observed_at": "2026-09-27T06:36:00.739217+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at http://www.nara.ac.lk/?page_id=20299",
+      "source": "http://www.nara.ac.lk/?page_id=20299",
+      "observed_at": "2026-09-27T06:36:00.739219+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at http://www.nara.ac.lk/?page_id=20368",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "observed_at": "2026-09-27T06:36:00.739222+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at http://www.nara.ac.lk/?page_id=20374",
+      "source": "http://www.nara.ac.lk/?page_id=20374",
+      "observed_at": "2026-09-27T06:36:00.739225+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.352888624",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.352888624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.805968669",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.805968669"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521932 ",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "+94 11- 2521932 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521006 ",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "+94 11- 2521006 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.857333333",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.857333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.675094189",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.675094189"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.804164187",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.804164187"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.783957961",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.783957961"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.576666666",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.576666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.647111375",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.647111375"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.833333333",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.833333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.699463966",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.699463966"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.689006113",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.689006113"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.900166389",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.900166389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.970156652",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.970156652"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.844041245",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.844041245"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.711363530",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.711363530"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.920781280",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.920781280"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.795835812",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.795835812"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521000 ",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "+94 11- 2521000 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: postmaster@nara.ac.lk",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "postmaster@nara.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: field of Hydrography REACH US Crow Island, Mattakkuliya, Colombo 15, Sri Lanka",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "field of Hydrography REACH US Crow Island, Mattakkuliya, Colombo 15, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: http://www.nara.ac.lk/wp-content/uploads/2026/07/Author-Information-Form-2026.docx",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "http://www.nara.ac.lk/wp-content/uploads/2026/07/Author-Information-Form-2026.docx"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.352888624",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.352888624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.805968669",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.805968669"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521932 ",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "+94 11- 2521932 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521006 ",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "+94 11- 2521006 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.857333333",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.857333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.675094189",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.675094189"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.804164187",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.804164187"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.783957961",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.783957961"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.576666666",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.576666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.647111375",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.647111375"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.833333333",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.833333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.699463966",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.699463966"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.689006113",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.689006113"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.900166389",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.900166389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.970156652",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.970156652"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.844041245",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.844041245"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.711363530",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.711363530"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.920781280",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.920781280"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.795835812",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "0.795835812"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521000 ",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "+94 11- 2521000 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: postmaster@nara.ac.lk",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "postmaster@nara.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: field of Hydrography REACH US Crow Island, Mattakkuliya, Colombo 15, Sri Lanka",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "field of Hydrography REACH US Crow Island, Mattakkuliya, Colombo 15, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: http://www.nara.ac.lk/wp-content/uploads/2026/07/Author-Information-Form-2026.docx",
+      "source": "http://www.nara.ac.lk/",
+      "data": {
+        "value": "http://www.nara.ac.lk/wp-content/uploads/2026/07/Author-Information-Form-2026.docx"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.352888624",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.352888624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.805968669",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.805968669"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521932 ",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "+94 11- 2521932 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521006 ",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "+94 11- 2521006 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.857333333",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.857333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.675094189",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.675094189"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.804164187",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.804164187"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.783957961",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.783957961"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.576666666",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.576666666"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.647111375",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.647111375"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.833333333",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.833333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.699463966",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.699463966"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.689006113",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.689006113"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.900166389",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.900166389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.970156652",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.970156652"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.844041245",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.844041245"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.711363530",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.711363530"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.920781280",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.920781280"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.795835812",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "0.795835812"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11- 2521000 ",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "+94 11- 2521000 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: postmaster@nara.ac.lk",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "postmaster@nara.ac.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: field of Hydrography REACH US Crow Island, Mattakkuliya, Colombo 15, Sri Lanka",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "field of Hydrography REACH US Crow Island, Mattakkuliya, Colombo 15, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: http://www.nara.ac.lk/wp-content/uploads/2026/07/Author-Information-Form-2026.docx",
+      "source": "http://www.nara.ac.lk",
+      "data": {
+        "value": "http://www.nara.ac.lk/wp-content/uploads/2026/07/Author-Information-Form-2026.docx"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=33",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.120014503",
+      "source": "http://www.nara.ac.lk/?page_id=20424",
+      "data": {
+        "value": "0.120014503"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.879985496",
+      "source": "http://www.nara.ac.lk/?page_id=20424",
+      "data": {
+        "value": "0.879985496"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=20424",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=20597",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=20604",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.920221606",
+      "source": "http://www.nara.ac.lk/?page_id=20611",
+      "data": {
+        "value": "0.920221606"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.719778393",
+      "source": "http://www.nara.ac.lk/?page_id=20611",
+      "data": {
+        "value": "0.719778393"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=20611",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=285",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: the unique challenges and opportunities within the blue economy. With this bolstered team and significant investment. NA",
+      "source": "http://www.nara.ac.lk/?page_id=20299",
+      "data": {
+        "value": "the unique challenges and opportunities within the blue economy. With this bolstered team and significant investment. NA"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "http://www.nara.ac.lk/?page_id=20299",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "http://www.nara.ac.lk/?page_id=20299",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: free of charge",
+      "source": "http://www.nara.ac.lk/?page_id=20299",
+      "data": {
+        "value": "free of charge"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 6 months",
+      "source": "http://www.nara.ac.lk/?page_id=20299",
+      "data": {
+        "value": "6 months"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 22 September 2026",
+      "source": "http://www.nara.ac.lk/?page_id=20299",
+      "data": {
+        "value": "22 September 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.877084844",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.877084844"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.122915155",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.122915155"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.868382886",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.868382886"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.125815808",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.125815808"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.131617113",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.131617113"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.874184191",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.874184191"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.870558375",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.870558375"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2521633 ",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "011-2521633 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.129441624",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "0.129441624"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: at Library and Information Division Crow Island, Mattakkuliya, Colombo 15, Sri Lanka",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "at Library and Information Division Crow Island, Mattakkuliya, Colombo 15, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=20368",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.125090645",
+      "source": "http://www.nara.ac.lk/?page_id=20374",
+      "data": {
+        "value": "0.125090645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.874909354",
+      "source": "http://www.nara.ac.lk/?page_id=20374",
+      "data": {
+        "value": "0.874909354"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "http://www.nara.ac.lk/?page_id=20374",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 199009 visible characters across 12 pages",
+      "source": "http://www.nara.ac.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.nara.ac.lk",
+      "addresses": [
+        "192.248.96.1"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "ac.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.nara.ac.lk",
+      "status": "error",
+      "expires_at": null,
+      "hostname_valid": null,
+      "detail": "_ssl.c:993: The handshake operation timed out"
+    },
+    {
+      "url": "https://www.nara.ac.lk/",
+      "status_code": null,
+      "final_url": null,
+      "redirects": [],
+      "elapsed_ms": null,
+      "content_type": null,
+      "error": "_ssl.c:993: The handshake operation timed out"
+    },
+    {
+      "url": "http://www.nara.ac.lk/",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/",
+      "redirects": [],
+      "elapsed_ms": 1600,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.nara.ac.lk/",
+      "status_code": null,
+      "final_url": null,
+      "redirects": [],
+      "elapsed_ms": null,
+      "content_type": null,
+      "error": "_ssl.c:993: The handshake operation timed out"
+    },
+    {
+      "url": "http://www.nara.ac.lk/",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/",
+      "redirects": [],
+      "elapsed_ms": 1490,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk",
+      "redirects": [],
+      "elapsed_ms": 1823,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=33",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=33",
+      "redirects": [],
+      "elapsed_ms": 1229,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20424",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=20424",
+      "redirects": [],
+      "elapsed_ms": 1406,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20597",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=20597",
+      "redirects": [],
+      "elapsed_ms": 1371,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20604",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=20604",
+      "redirects": [],
+      "elapsed_ms": 1435,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20611",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=20611",
+      "redirects": [],
+      "elapsed_ms": 1248,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=285",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=285",
+      "redirects": [],
+      "elapsed_ms": 980,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20299",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=20299",
+      "redirects": [],
+      "elapsed_ms": 3767,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20368",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=20368",
+      "redirects": [],
+      "elapsed_ms": 1183,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20374",
+      "status_code": 200,
+      "final_url": "http://www.nara.ac.lk/?page_id=20374",
+      "redirects": [],
+      "elapsed_ms": 1585,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "http://www.nara.ac.lk/",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-01-1e928ad72779.html",
+      "sha256": "1e928ad72779a5592c920075c9862e99f873ec3c8f18eee3cd20bde3e11e391f",
+      "bytes": 63082
+    },
+    {
+      "url": "http://www.nara.ac.lk/",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-02-a5fcb8895640.html",
+      "sha256": "a5fcb88956400ddb7f5335a76c33029b552bf22ea00be40b23a628c4ecfbe857",
+      "bytes": 63082
+    },
+    {
+      "url": "http://www.nara.ac.lk",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-03-e6c5c4ab0c34.html",
+      "sha256": "e6c5c4ab0c3479df36885f151e68a837e8af7bd8ff472264a58d907ccc5e702b",
+      "bytes": 63082
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=33",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-04-a2631eaa3960.html",
+      "sha256": "a2631eaa396003fb7fae5d1547b257f9f7fc0d4e43de0b3961e11ecfd0cc9bfc",
+      "bytes": 41731
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20424",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-05-9900000363fb.html",
+      "sha256": "9900000363fb3f2dfeed85a03f602fee5fb6ed56974b3fb51c2d931e29bba5c9",
+      "bytes": 37736
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20597",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-06-091f1ddfdf17.html",
+      "sha256": "091f1ddfdf17ec9d7ecc555887c571216ce9814ea6dd0f0026206902d6bbefd0",
+      "bytes": 44797
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20604",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-07-597782cf114b.html",
+      "sha256": "597782cf114b865bcb43af4b1bfbd11a787b60b46ea34c6f35f3c5110b2c723a",
+      "bytes": 41924
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20611",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-08-c9bb96139149.html",
+      "sha256": "c9bb9613914939696fca2aef45d28bb2cd91140275dea9e8aff2a68900b404f7",
+      "bytes": 39336
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=285",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-09-e2e72fccbb27.html",
+      "sha256": "e2e72fccbb2750fb4a98d2b832d1c2431e3e1019dec65d2548a2525f26ad5a06",
+      "bytes": 37692
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20299",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-10-0877a515b1c3.html",
+      "sha256": "0877a515b1c3cb05af3c4d9fa4c86cb824c946a6ead735463d6575559a6144a4",
+      "bytes": 810526
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20368",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-11-fd1281ab09a1.html",
+      "sha256": "fd1281ab09a19462a6cf0b8d226baac76d6662507a35e51f7b0095069828eefa",
+      "bytes": 54707
+    },
+    {
+      "url": "http://www.nara.ac.lk/?page_id=20374",
+      "path": "audit.output/www.nara.ac.lk/20260927.0634/snapshots/page-12-5ac65bfdc667.html",
+      "sha256": "5ac65bfdc667bfdb3c09d6ac8ad97054714e94bdf4c097dbcaa404b4b29d2daa",
+      "bytes": 38859
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "inconclusive",
+      "reason": "An HTTP probe was transient; _ssl.c:993: The handshake operation timed out; _ssl.c:993: The handshake operation timed out",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "An HTTP probe was transient"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "_ssl.c:993: The handshake operation timed out"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "_ssl.c:993: The handshake operation timed out"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

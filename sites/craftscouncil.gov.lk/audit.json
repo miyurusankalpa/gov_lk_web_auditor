@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "60f32af9-d653-44da-a306-6bba458f2635",
+  "url": "https://craftscouncil.gov.lk/",
+  "normalized_url": "https://craftscouncil.gov.lk/",
+  "started_at": "2026-09-27T06:46:08.895548+05:30",
+  "completed_at": "2026-09-27T06:46:14.354382+05:30",
+  "result": {
+    "status": "inconclusive",
+    "confidence": 0.5,
+    "reasons": [
+      "domain_not_parked: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "site_not_defaced: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "content_relevant: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "hosting_configured: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:46:09.883572+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:46:09.883589+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:46:10.234282+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://craftscouncil.gov.lk/",
+      "source": "https://craftscouncil.gov.lk/",
+      "observed_at": "2026-09-27T06:46:14.313616+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://craftscouncil.gov.lk/",
+      "source": "http://craftscouncil.gov.lk/",
+      "observed_at": "2026-09-27T06:46:14.313642+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://craftscouncil.gov.lk/",
+      "source": "https://craftscouncil.gov.lk/",
+      "observed_at": "2026-09-27T06:46:14.313650+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://craftscouncil.gov.lk/",
+      "source": "http://craftscouncil.gov.lk/",
+      "observed_at": "2026-09-27T06:46:14.313656+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://craftscouncil.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://craftscouncil.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://craftscouncil.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://craftscouncil.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "fail",
+      "detail": "Only 80 visible characters across 4 pages; below substance threshold 200",
+      "source": "https://craftscouncil.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "craftscouncil.gov.lk",
+      "addresses": [
+        "192.124.249.162"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "craftscouncil.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "craftscouncil.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-11-07T20:01:33+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://craftscouncil.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://craftscouncil.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 481,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "http://craftscouncil.gov.lk/",
+      "status_code": 200,
+      "final_url": "http://craftscouncil.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 909,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://craftscouncil.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://craftscouncil.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 737,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "http://craftscouncil.gov.lk/",
+      "status_code": 200,
+      "final_url": "http://craftscouncil.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 688,
+      "content_type": "text/html",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://craftscouncil.gov.lk/",
+      "path": "audit.output/craftscouncil.gov.lk/20260927.0646/snapshots/page-01-f3fffd816846.html",
+      "sha256": "f3fffd816846d6bbf4e3d36dbbbc5b459f63bdc1ddc84d26509e9f4f85193f7e",
+      "bytes": 11862
+    },
+    {
+      "url": "http://craftscouncil.gov.lk/",
+      "path": "audit.output/craftscouncil.gov.lk/20260927.0646/snapshots/page-02-aab2a55100c3.html",
+      "sha256": "aab2a55100c31c8d2a04048dd0a1c3bedba805b8a5f09876546e307210a5c923",
+      "bytes": 11806
+    },
+    {
+      "url": "https://craftscouncil.gov.lk/",
+      "path": "audit.output/craftscouncil.gov.lk/20260927.0646/snapshots/page-03-c5841df27ec5.html",
+      "sha256": "c5841df27ec59f3f47fa612326cd75ea0bd1e1062313e05ab6485c282581c9d1",
+      "bytes": 11919
+    },
+    {
+      "url": "http://craftscouncil.gov.lk/",
+      "path": "audit.output/craftscouncil.gov.lk/20260927.0646/snapshots/page-04-5833e5d6af71.html",
+      "sha256": "5833e5d6af71b3d13b4dd8a3cf116fc7f72cb424ff60bf9cf3b0420233ba4687",
+      "bytes": 11836
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "inconclusive",
+      "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

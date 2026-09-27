@@ -1,0 +1,1285 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "9dface8a-bc56-4f9c-8e87-1faabd52080e",
+  "url": "https://ircsl.gov.lk/",
+  "normalized_url": "https://ircsl.gov.lk/",
+  "started_at": "2026-09-27T06:32:09.096112+05:30",
+  "completed_at": "2026-09-27T06:32:39.091765+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:32:10.014462+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:32:10.014482+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:32:10.755507+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://ircsl.gov.lk/",
+      "source": "https://ircsl.gov.lk/",
+      "observed_at": "2026-09-27T06:32:31.745805+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://ircsl.gov.lk/",
+      "source": "http://ircsl.gov.lk/",
+      "observed_at": "2026-09-27T06:32:31.745823+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://ircsl.gov.lk/",
+      "source": "https://ircsl.gov.lk/",
+      "observed_at": "2026-09-27T06:32:31.745827+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://ircsl.gov.lk/",
+      "source": "http://ircsl.gov.lk/",
+      "observed_at": "2026-09-27T06:32:31.745830+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://ircsl.gov.lk/contact-us/",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "observed_at": "2026-09-27T06:32:31.745833+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk",
+      "observed_at": "2026-09-27T06:32:31.745836+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://ircsl.gov.lk/si/",
+      "source": "https://ircsl.gov.lk/si/",
+      "observed_at": "2026-09-27T06:32:31.745838+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://ircsl.gov.lk/ta/",
+      "source": "https://ircsl.gov.lk/ta/",
+      "observed_at": "2026-09-27T06:32:31.745841+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://ircsl.gov.lk/insurance-legislation/regulation-of-insurance-industry/",
+      "source": "https://ircsl.gov.lk/insurance-legislation/regulation-of-insurance-industry/",
+      "observed_at": "2026-09-27T06:32:31.745844+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://ircsl.gov.lk/insurance-legislation/rules/",
+      "source": "https://ircsl.gov.lk/insurance-legislation/rules/",
+      "observed_at": "2026-09-27T06:32:31.745847+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://ircsl.gov.lk/insurance-legislation/test3/",
+      "source": "https://ircsl.gov.lk/insurance-legislation/test3/",
+      "observed_at": "2026-09-27T06:32:31.745850+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://ircsl.gov.lk/insurance-legislation/orders-made-by-the-minister/",
+      "source": "https://ircsl.gov.lk/insurance-legislation/orders-made-by-the-minister/",
+      "observed_at": "2026-09-27T06:32:31.745852+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://ircsl.gov.lk/insurance-legislation/determinations/",
+      "source": "https://ircsl.gov.lk/insurance-legislation/determinations/",
+      "observed_at": "2026-09-27T06:32:31.745855+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://ircsl.gov.lk/insurance-legislation/directions/",
+      "source": "https://ircsl.gov.lk/insurance-legislation/directions/",
+      "observed_at": "2026-09-27T06:32:31.745857+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2335167 (",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "011 2335167 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396184 - ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "011 2396184 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396190 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "011 2396190 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://ircsl.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2335167 (",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "011 2335167 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396184 - ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "011 2396184 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396190 ",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "011 2396190 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://ircsl.gov.lk/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://ircsl.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396183 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396183 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396193 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396193 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396194 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396194 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396182 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396181 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396181 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2335167 (",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "011 2335167 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396184-",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396184-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396184 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396184 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2396180 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2396180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396184 - ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "011 2396184 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396190 ",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "011 2396190 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ada@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "ada@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: adikw@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "adikw@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: df@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "df@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: admder@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "admder@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: adamlcft@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "adamlcft@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "info@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dmder@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "dmder@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: adas@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "adas@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: adf@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "adf@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: adl@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "adl@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dl@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "dl@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dg@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "dg@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chairman@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "chairman@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: da@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "da@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: di@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "di@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dmi@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "dmi@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: admc@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "admc@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: adit@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "adit@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: admi@ircsl.gov.lk",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "admi@ircsl.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://ircsl.gov.lk/contact-us/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 5 17.59 ",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "0.59 12 5 17.59 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 10 10 10-4.47 ",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "0 10 10 10-4.47 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-1.77-1.02-3.29-",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "0-1.77-1.02-3.29-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 12 7 8.41 8.",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "0.59 12 7 8.41 8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2335167 (",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "011 2335167 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 15.59 7 17 ",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "0.59 15.59 7 17 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396184 - ",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "011 2396184 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2396190 ",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "011 2396190 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-.91 7-4.49 7-8.",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "01-.91 7-4.49 7-8."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.59 6.41 5 5 6.4",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "0.59 6.41 5 5 6.4"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://ircsl.gov.lk",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/si/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/ta/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/insurance-legislation/regulation-of-insurance-industry/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/insurance-legislation/rules/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/insurance-legislation/test3/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/insurance-legislation/orders-made-by-the-minister/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/insurance-legislation/determinations/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://ircsl.gov.lk/insurance-legislation/directions/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 4246 visible characters across 14 pages",
+      "source": "https://ircsl.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "ircsl.gov.lk",
+      "addresses": [
+        "192.124.249.12"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "ircsl.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "ircsl.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-11-17T13:49:07+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://ircsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 776,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://ircsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "http://ircsl.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 468,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 764,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://ircsl.gov.lk/",
+      "status_code": 200,
+      "final_url": "http://ircsl.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 1187,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/contact-us/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/contact-us/",
+      "redirects": [],
+      "elapsed_ms": 745,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk",
+      "redirects": [],
+      "elapsed_ms": 768,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/si/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/si/",
+      "redirects": [],
+      "elapsed_ms": 879,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/ta/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/ta/",
+      "redirects": [],
+      "elapsed_ms": 1033,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/regulation-of-insurance-industry/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/insurance-legislation/regulation-of-insurance-industry/",
+      "redirects": [],
+      "elapsed_ms": 1621,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/rules/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/insurance-legislation/rules/",
+      "redirects": [],
+      "elapsed_ms": 1583,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/test3/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/insurance-legislation/test3/",
+      "redirects": [],
+      "elapsed_ms": 930,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/orders-made-by-the-minister/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/insurance-legislation/orders-made-by-the-minister/",
+      "redirects": [],
+      "elapsed_ms": 1645,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/determinations/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/insurance-legislation/determinations/",
+      "redirects": [],
+      "elapsed_ms": 934,
+      "content_type": "text/html",
+      "error": null
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/directions/",
+      "status_code": 200,
+      "final_url": "https://ircsl.gov.lk/insurance-legislation/directions/",
+      "redirects": [],
+      "elapsed_ms": 852,
+      "content_type": "text/html",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://ircsl.gov.lk/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-01-2fb2377501e2.html",
+      "sha256": "2fb2377501e2dc3b116be7120ffaadc45f5ab2f45a9a809418e66dd098c333ff",
+      "bytes": 151934
+    },
+    {
+      "url": "http://ircsl.gov.lk/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-02-5f80f0c25300.html",
+      "sha256": "5f80f0c25300cb37a0f5493a30647906cf168384d08757610f29a2ea531e2625",
+      "bytes": 11843
+    },
+    {
+      "url": "https://ircsl.gov.lk/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-03-2fb2377501e2.html",
+      "sha256": "2fb2377501e2dc3b116be7120ffaadc45f5ab2f45a9a809418e66dd098c333ff",
+      "bytes": 151934
+    },
+    {
+      "url": "http://ircsl.gov.lk/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-04-c7b03940687e.html",
+      "sha256": "c7b03940687e61986a6bc59d197831d8818a228cb49663fab8c292d1d8984a3e",
+      "bytes": 11853
+    },
+    {
+      "url": "https://ircsl.gov.lk/contact-us/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-05-4cb8107809dd.html",
+      "sha256": "4cb8107809ddc91ccd400a1119a292c8c112b8106797f56e0e5e6e9e739c203f",
+      "bytes": 75984
+    },
+    {
+      "url": "https://ircsl.gov.lk",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-06-2fb2377501e2.html",
+      "sha256": "2fb2377501e2dc3b116be7120ffaadc45f5ab2f45a9a809418e66dd098c333ff",
+      "bytes": 151934
+    },
+    {
+      "url": "https://ircsl.gov.lk/si/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-07-435b35021ac2.html",
+      "sha256": "435b35021ac2a13af1e371537bd63e571ce33d4f397b5312d4068f9cafaf7d71",
+      "bytes": 11887
+    },
+    {
+      "url": "https://ircsl.gov.lk/ta/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-08-3bf2c805879e.html",
+      "sha256": "3bf2c805879ed9ccc6a859effee4670371722dbd9972861d470269a42304fd81",
+      "bytes": 11942
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/regulation-of-insurance-industry/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-09-0f87f9e0b413.html",
+      "sha256": "0f87f9e0b413b2f4249053e57df740c49ad447494091f56fcb41b66794866bfe",
+      "bytes": 11896
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/rules/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-10-f75f0a193c90.html",
+      "sha256": "f75f0a193c90534b70f85c7254d203e1b90c93ce3c203f61973f7212ba555dee",
+      "bytes": 11794
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/test3/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-11-b22dc6e0cf85.html",
+      "sha256": "b22dc6e0cf852f23aaac835f3fe2d3ec9525d7fdf8f8d00e5f81dae525aeca50",
+      "bytes": 11934
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/orders-made-by-the-minister/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-12-5aadc6547f42.html",
+      "sha256": "5aadc6547f428b024ef7e4b316c870d2c1a22bd692661fd972d7cae903787b67",
+      "bytes": 11901
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/determinations/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-13-f1da960b11ec.html",
+      "sha256": "f1da960b11ec6dc8fcd4d28f201810a7dd4f73fc7fd203643d1000c549a4dbc3",
+      "bytes": 11948
+    },
+    {
+      "url": "https://ircsl.gov.lk/insurance-legislation/directions/",
+      "path": "audit.output/ircsl.gov.lk/20260927.0632/snapshots/page-14-923a4df867af.html",
+      "sha256": "923a4df867af8030c8808a71c927cd982d25d03fe2c7401d0048347b818d762a",
+      "bytes": 11912
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "No passing postal address evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "inconclusive",
+          "reason": "No passing postal address evidence found"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: 0.59 12 5 17.59 (19 phone numbers found); Email: ada@ircsl.gov.lk (19 email addresses found)"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

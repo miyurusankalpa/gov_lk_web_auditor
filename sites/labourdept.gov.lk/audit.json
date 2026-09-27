@@ -1,0 +1,2036 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "35c9c1b7-4e29-43f0-b344-c5791f6fb486",
+  "url": "https://labourdept.gov.lk/",
+  "normalized_url": "https://labourdept.gov.lk/",
+  "started_at": "2026-09-27T06:47:51.062974+05:30",
+  "completed_at": "2026-09-27T06:48:44.893706+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:47:51.454630+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:47:51.454647+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:47:52.380836+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://labourdept.gov.lk/",
+      "source": "https://labourdept.gov.lk/",
+      "observed_at": "2026-09-27T06:48:43.750691+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://labourdept.gov.lk/",
+      "source": "http://labourdept.gov.lk/",
+      "observed_at": "2026-09-27T06:48:43.750715+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://labourdept.gov.lk/",
+      "source": "https://labourdept.gov.lk/",
+      "observed_at": "2026-09-27T06:48:43.750720+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://labourdept.gov.lk/",
+      "source": "http://labourdept.gov.lk/",
+      "observed_at": "2026-09-27T06:48:43.750724+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://labourdept.gov.lk/all-divisions/",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "observed_at": "2026-09-27T06:48:43.750727+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://labourdept.gov.lk/epf-services-info/",
+      "source": "http://labourdept.gov.lk/epf-services-info/",
+      "observed_at": "2026-09-27T06:48:43.750730+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://labourdept.gov.lk/safety-division-info/",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "observed_at": "2026-09-27T06:48:43.750732+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "observed_at": "2026-09-27T06:48:43.750735+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://labourdept.gov.lk/safety-division/",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "observed_at": "2026-09-27T06:48:43.750738+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://labourdept.gov.lk/contact/",
+      "source": "https://labourdept.gov.lk/contact/",
+      "observed_at": "2026-09-27T06:48:43.750741+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://labourdept.gov.lk/contact-officials/",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "observed_at": "2026-09-27T06:48:43.750744+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://labourdept.gov.lk/epf-services-info/",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "observed_at": "2026-09-27T06:48:43.750746+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "observed_at": "2026-09-27T06:48:43.750749+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "observed_at": "2026-09-27T06:48:43.750752+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0468724783",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0468724783"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 201 201 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0112 201 201 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0468724783",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0468724783"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 201 201 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0112 201 201 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0468724783",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0468724783"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 201 201 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0112 201 201 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0468724783",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0468724783"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 201 201 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0112 201 201 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/all-divisions/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0707209973",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0707209973"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112508227 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0112508227 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112508773 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0112508773 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112508783 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0112508783 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112508726 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0112508726 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "https://labourdept.gov.lk/safety-division-info/",
+      "data": {
+        "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://labourdept.gov.lk/safety-division/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536437356",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0536437356"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0289309796",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0289309796"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536385451",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0536385451"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Us Department of Labour, No 41, Kirula Road, Colombo 05, Sri Lanka",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "Us Department of Labour, No 41, Kirula Road, Colombo 05, Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/contact/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 -2 507 654 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "011 -2 507 654 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 047- 2 256 105 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "047- 2 256 105 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/contact-officials/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0707209973",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0707209973"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/epf-services-info/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: it@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "it@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0359953754 ",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "0359953754 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0422055710 ",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "0422055710 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0349848156 ",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "0349848156 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0450940556 ",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "0450940556 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0536626940 ",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "0536626940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 104 800 ",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "+94 112 104 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0353206822 ",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "0353206822 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: contacts@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "contacts@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: it@labourdept.gov.lk",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "it@labourdept.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 17057 visible characters across 14 pages",
+      "source": "https://labourdept.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "labourdept.gov.lk",
+      "addresses": [
+        "103.140.194.184"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "labourdept.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "labourdept.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-10-25T11:55:47+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://labourdept.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 3203,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://labourdept.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/",
+      "redirects": [
+        "https://labourdept.gov.lk/"
+      ],
+      "elapsed_ms": 3057,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 2772,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://labourdept.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/",
+      "redirects": [
+        "https://labourdept.gov.lk/"
+      ],
+      "elapsed_ms": 2478,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/all-divisions/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/all-divisions/",
+      "redirects": [],
+      "elapsed_ms": 3818,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://labourdept.gov.lk/epf-services-info/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/epf-services-info/",
+      "redirects": [
+        "https://labourdept.gov.lk/epf-services-info/"
+      ],
+      "elapsed_ms": 2272,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/safety-division-info/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/safety-division-info/",
+      "redirects": [],
+      "elapsed_ms": 3502,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "redirects": [],
+      "elapsed_ms": 3803,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/safety-division/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/safety-division/",
+      "redirects": [],
+      "elapsed_ms": 3483,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/contact/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/contact/",
+      "redirects": [],
+      "elapsed_ms": 3680,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/contact-officials/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/contact-officials/",
+      "redirects": [],
+      "elapsed_ms": 3590,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/epf-services-info/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/epf-services-info/",
+      "redirects": [],
+      "elapsed_ms": 2365,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "redirects": [],
+      "elapsed_ms": 3986,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "status_code": 200,
+      "final_url": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "redirects": [],
+      "elapsed_ms": 3561,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://labourdept.gov.lk/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-01-4f641f437957.html",
+      "sha256": "4f641f437957a9c6c0048930391ed8ab0beb79cb53138f48e31e360eaa26ffcd",
+      "bytes": 661564
+    },
+    {
+      "url": "https://labourdept.gov.lk/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-02-4f641f437957.html",
+      "sha256": "4f641f437957a9c6c0048930391ed8ab0beb79cb53138f48e31e360eaa26ffcd",
+      "bytes": 661564
+    },
+    {
+      "url": "https://labourdept.gov.lk/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-03-4f641f437957.html",
+      "sha256": "4f641f437957a9c6c0048930391ed8ab0beb79cb53138f48e31e360eaa26ffcd",
+      "bytes": 661564
+    },
+    {
+      "url": "https://labourdept.gov.lk/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-04-4f641f437957.html",
+      "sha256": "4f641f437957a9c6c0048930391ed8ab0beb79cb53138f48e31e360eaa26ffcd",
+      "bytes": 661564
+    },
+    {
+      "url": "https://labourdept.gov.lk/all-divisions/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-05-d9ddfdb6d008.html",
+      "sha256": "d9ddfdb6d008e0f4ec9a4a51973f37fcfc6bc854b530f46e35123529832b6abf",
+      "bytes": 592927
+    },
+    {
+      "url": "https://labourdept.gov.lk/epf-services-info/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-06-85132bc00c08.html",
+      "sha256": "85132bc00c087c39f2050bf05804ddd5d57000611130fbd77385b57626b97000",
+      "bytes": 593246
+    },
+    {
+      "url": "https://labourdept.gov.lk/safety-division-info/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-07-b1473cfc9c76.html",
+      "sha256": "b1473cfc9c76c5619a2892f9e7daaa6e761bf12ed83f9d046604c28eb8d46ca9",
+      "bytes": 589732
+    },
+    {
+      "url": "https://labourdept.gov.lk/find-nearest-labour-offices/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-08-f2e05d02cd24.html",
+      "sha256": "f2e05d02cd24cdf1274c4fd264c142fc60d01bcdb4f6bd0fdd60425867c50b4b",
+      "bytes": 589980
+    },
+    {
+      "url": "https://labourdept.gov.lk/safety-division/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-09-7d32ea589bb5.html",
+      "sha256": "7d32ea589bb509efad4d1bbcd41c14f2ddc18268b41276014104b70f4c77b1e0",
+      "bytes": 578344
+    },
+    {
+      "url": "https://labourdept.gov.lk/contact/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-10-4a6362ff47a9.html",
+      "sha256": "4a6362ff47a9fd99cc2c4e0babd7a3ca3faba3110b6fde5b5791ee821757ff29",
+      "bytes": 568374
+    },
+    {
+      "url": "https://labourdept.gov.lk/contact-officials/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-11-d6baa7e77b67.html",
+      "sha256": "d6baa7e77b67fa805cdeca8602987f7da0ed73e7f4ce6443aa0e62b4cfa1d724",
+      "bytes": 612120
+    },
+    {
+      "url": "https://labourdept.gov.lk/epf-services-info/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-12-85132bc00c08.html",
+      "sha256": "85132bc00c087c39f2050bf05804ddd5d57000611130fbd77385b57626b97000",
+      "bytes": 593246
+    },
+    {
+      "url": "https://labourdept.gov.lk/supply-delivery-installation-of-laptop-fordepartment-of-labour-contract-no-fg-tb-69-2026/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-13-0c5b090f8348.html",
+      "sha256": "0c5b090f834801ba128be09d985ed2c151fe0a9fe3b03f5fb36d4bdf21e915a1",
+      "bytes": 589432
+    },
+    {
+      "url": "https://labourdept.gov.lk/procurement-of-the-design-development-and-customization-of-an-electronic-asset-and-inventory-management-system-for-the-department-of-labour-e-aims-fg-tb-48-2026/",
+      "path": "audit.output/labourdept.gov.lk/20260927.0647/snapshots/page-14-195ff4ebc8c6.html",
+      "sha256": "195ff4ebc8c69596f6fc5440719394af4ffebab4e0f3515302944e0f31a220e6",
+      "bytes": 591092
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka; Phone: 0359953754 (19 phone numbers found); Email: contacts@labourdept.gov.lk (2 email addresses found); Published named responsibility: director",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: Contact Info Labour Secretariat Colombo 05 Sri Lanka"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: 0359953754 (19 phone numbers found); Email: contacts@labourdept.gov.lk (2 email addresses found)"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing processing time evidence found; No passing downloadable form evidence found; No passing published update date evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing eligibility criteria evidence found"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published fees and payment: rs,"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published legal basis: regulations"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing processing time evidence found"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing downloadable form evidence found"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing published update date evidence found"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "63a74c1f-e1c5-4501-8d34-4179eafd2a1b",
+  "url": "https://www.slilg.lk/",
+  "normalized_url": "https://www.slilg.lk/",
+  "started_at": "2026-09-27T06:50:39.218645+05:30",
+  "completed_at": "2026-09-27T06:51:04.001130+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:50:39.460881+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:50:39.460903+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:50:39.478103+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.slilg.lk/",
+      "source": "https://www.slilg.lk/",
+      "observed_at": "2026-09-27T06:50:50.654743+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://www.slilg.lk/",
+      "source": "http://www.slilg.lk/",
+      "observed_at": "2026-09-27T06:50:50.654762+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.slilg.lk/",
+      "source": "https://www.slilg.lk/",
+      "observed_at": "2026-09-27T06:50:50.654767+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://www.slilg.lk/",
+      "source": "http://www.slilg.lk/",
+      "observed_at": "2026-09-27T06:50:50.654770+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://www.slilg.lk/home",
+      "source": "https://www.slilg.lk/home",
+      "observed_at": "2026-09-27T06:50:50.654773+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://www.slilg.lk/director",
+      "source": "https://www.slilg.lk/director",
+      "observed_at": "2026-09-27T06:50:50.654776+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://www.slilg.lk/staff",
+      "source": "https://www.slilg.lk/staff",
+      "observed_at": "2026-09-27T06:50:50.654779+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://www.slilg.lk/functional-scope-of-slilg",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "observed_at": "2026-09-27T06:50:50.654781+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://www.slilg.lk/vacancies",
+      "source": "https://www.slilg.lk/vacancies",
+      "observed_at": "2026-09-27T06:50:50.654784+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://www.slilg.lk/conference",
+      "source": "https://www.slilg.lk/conference",
+      "observed_at": "2026-09-27T06:50:50.654787+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472039646",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472039646"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472039647",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472039647"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472041629",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472041629"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472041631",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472041631"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472042631",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472042631"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472042629",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472042629"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472044603",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472044603"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472044605",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0472044605"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/home",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472045659",
+      "source": "https://www.slilg.lk/home",
+      "data": {
+        "value": "0472045659"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472045657",
+      "source": "https://www.slilg.lk/home",
+      "data": {
+        "value": "0472045657"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/home",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/home",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/home",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/home",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112508290 ",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "+94 112508290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472046641",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "0472046641"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472046639",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "0472046639"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 771531708 ",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "+94 771531708 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: director@slilg.gov.lk",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "director@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Lanka Institute of Local Governance No.17, Malalasekara Mawatha, Colombo 07 Sri Lanka",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "Lanka Institute of Local Governance No.17, Malalasekara Mawatha, Colombo 07 Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/director",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11-2589749",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 11-2589749"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2581982 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 11 2581982 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112508290 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 112508290 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112580335 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 112580335 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 702079365 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 702079365 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71-8330120 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 71-8330120 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472047721",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "0472047721"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 702079365",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 702079365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 758564856",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 758564856"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 716806630 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 716806630 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472047719",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "0472047719"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112580354 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "0112580354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 258 1979 ",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 (11) 258 1979 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 718564856",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "+94 718564856"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: t.randunu@gmail.com",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "t.randunu@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: engineering@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "engineering@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: financialmgt@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "financialmgt@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: director@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "director@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: monitoring@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "monitoring@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: generalmgt@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "generalmgt@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: physiplan@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "physiplan@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: intaudit@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "intaudit@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slilgcoordinate@gmail.com",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "slilgcoordinate@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: research@slilg.gov.lk",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "research@slilg.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slilg.trainingdiv@gmail.com",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "slilg.trainingdiv@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/staff",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472048711",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "data": {
+        "value": "0472048711"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472048712",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "data": {
+        "value": "0472048712"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/functional-scope-of-slilg",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/vacancies",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472049635",
+      "source": "https://www.slilg.lk/vacancies",
+      "data": {
+        "value": "0472049635"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/vacancies",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/vacancies",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472049633",
+      "source": "https://www.slilg.lk/vacancies",
+      "data": {
+        "value": "0472049633"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/vacancies",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/vacancies",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.slilg.lk/conference",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472050627",
+      "source": "https://www.slilg.lk/conference",
+      "data": {
+        "value": "0472050627"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472050625",
+      "source": "https://www.slilg.lk/conference",
+      "data": {
+        "value": "0472050625"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.slilg.lk/conference",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.slilg.lk/conference",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka",
+      "source": "https://www.slilg.lk/conference",
+      "data": {
+        "value": "Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.slilg.lk/conference",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 4720 visible characters across 10 pages",
+      "source": "https://www.slilg.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.slilg.lk",
+      "addresses": [
+        "172.253.63.121",
+        "2607:f8b0:4004:c17::79"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "slilg.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.slilg.lk",
+      "status": "valid",
+      "expires_at": "2026-11-26T15:18:40+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://www.slilg.lk/",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/",
+      "redirects": [],
+      "elapsed_ms": 179,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.slilg.lk/",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/",
+      "redirects": [
+        "https://www.slilg.lk/"
+      ],
+      "elapsed_ms": 166,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.slilg.lk/",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/",
+      "redirects": [],
+      "elapsed_ms": 177,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "http://www.slilg.lk/",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/",
+      "redirects": [
+        "https://www.slilg.lk/"
+      ],
+      "elapsed_ms": 139,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.slilg.lk/home",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/home",
+      "redirects": [],
+      "elapsed_ms": 201,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.slilg.lk/director",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/director",
+      "redirects": [],
+      "elapsed_ms": 166,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.slilg.lk/staff",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/staff",
+      "redirects": [],
+      "elapsed_ms": 314,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.slilg.lk/functional-scope-of-slilg",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/functional-scope-of-slilg",
+      "redirects": [],
+      "elapsed_ms": 237,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.slilg.lk/vacancies",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/vacancies",
+      "redirects": [],
+      "elapsed_ms": 161,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    },
+    {
+      "url": "https://www.slilg.lk/conference",
+      "status_code": 200,
+      "final_url": "https://www.slilg.lk/conference",
+      "redirects": [],
+      "elapsed_ms": 151,
+      "content_type": "text/html; charset=utf-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.slilg.lk/",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-01-2b493e8f41ad.html",
+      "sha256": "2b493e8f41ad664f4a989043e2b56be3743c3883c2d6f88c6fa20bf177830f43",
+      "bytes": 160843
+    },
+    {
+      "url": "https://www.slilg.lk/",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-02-ee418f1ee548.html",
+      "sha256": "ee418f1ee548c8597bf73c15e502da36e4d21792ae68ba36832e008c685e25a0",
+      "bytes": 160782
+    },
+    {
+      "url": "https://www.slilg.lk/",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-03-c28f60042b27.html",
+      "sha256": "c28f60042b27b1cb469821395db684b6f10adc059617578ed92fe29bf85f394f",
+      "bytes": 160999
+    },
+    {
+      "url": "https://www.slilg.lk/",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-04-c4d039b57101.html",
+      "sha256": "c4d039b5710173386fb610598277fba48d785fd7bf06b14e04a68cc081435024",
+      "bytes": 160819
+    },
+    {
+      "url": "https://www.slilg.lk/home",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-05-10a5a7c3f0ad.html",
+      "sha256": "10a5a7c3f0ad32566081a36cb2d7cb9ebc5b0d7c8d4482927191811a8a9bb2ea",
+      "bytes": 160953
+    },
+    {
+      "url": "https://www.slilg.lk/director",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-06-0d4ef6b3a5d9.html",
+      "sha256": "0d4ef6b3a5d9e66bbcfed06d50263e27fbb573a987df96cdeaeae0debd7ae0fe",
+      "bytes": 128619
+    },
+    {
+      "url": "https://www.slilg.lk/staff",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-07-a93eb0288db0.html",
+      "sha256": "a93eb0288db0484968d7d79152821e137311685b96bd5847533f88fb837639c3",
+      "bytes": 186295
+    },
+    {
+      "url": "https://www.slilg.lk/functional-scope-of-slilg",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-08-e894a7bf35c4.html",
+      "sha256": "e894a7bf35c4b3eb7b420fc054a342692a16634184d83962566c73a614834549",
+      "bytes": 126037
+    },
+    {
+      "url": "https://www.slilg.lk/vacancies",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-09-f3804c5710a6.html",
+      "sha256": "f3804c5710a66a2b3adffcd178c0da708705ff401ac8612ad1b7c3cfc17ca7fb",
+      "bytes": 133088
+    },
+    {
+      "url": "https://www.slilg.lk/conference",
+      "path": "audit.output/www.slilg.lk/20260927.0650/snapshots/page-10-5451419efb53.html",
+      "sha256": "5451419efb53cc39062e28445ac4b49966cdcebea6babe9593c9bab2e6e6523f",
+      "bytes": 125457
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka; Phone: 0.200000003) (35 phone numbers found); Email: director@slilg.gov.lk (11 email addresses found); Published named responsibility: director",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: Institute of Local Governance , No.17, Malalasekara Mawatha, Colombo 07 , Sri Lanka"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: 0.200000003) (35 phone numbers found); Email: director@slilg.gov.lk (11 email addresses found)"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing fees and payment evidence found; No passing legal basis evidence found; No passing processing time evidence found; No passing downloadable form evidence found; No passing published update date evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing eligibility criteria evidence found"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing fees and payment evidence found"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing legal basis evidence found"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing processing time evidence found"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing downloadable form evidence found"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing published update date evidence found"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

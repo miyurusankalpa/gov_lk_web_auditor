@@ -1,0 +1,824 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "3aecd16c-fd93-4b25-9456-f30db3421539",
+  "url": "https://elkaduwaplantations.lk/",
+  "normalized_url": "https://elkaduwaplantations.lk/",
+  "started_at": "2026-09-27T06:48:28.364292+05:30",
+  "completed_at": "2026-09-27T06:48:45.780863+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:48:28.718419+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:48:28.718445+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:48:28.735551+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://elkaduwaplantations.lk/",
+      "source": "https://elkaduwaplantations.lk/",
+      "observed_at": "2026-09-27T06:48:45.027367+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://elkaduwaplantations.lk/",
+      "source": "http://elkaduwaplantations.lk/",
+      "observed_at": "2026-09-27T06:48:45.027381+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://elkaduwaplantations.lk/",
+      "source": "https://elkaduwaplantations.lk/",
+      "observed_at": "2026-09-27T06:48:45.027386+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://elkaduwaplantations.lk/",
+      "source": "http://elkaduwaplantations.lk/",
+      "observed_at": "2026-09-27T06:48:45.027389+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://elkaduwaplantations.lk/index.php/contact/",
+      "source": "https://elkaduwaplantations.lk/index.php/contact/",
+      "observed_at": "2026-09-27T06:48:45.027392+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://elkaduwaplantations.lk/index.php/management-overview/",
+      "source": "https://elkaduwaplantations.lk/index.php/management-overview/",
+      "observed_at": "2026-09-27T06:48:45.027395+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://elkaduwaplantations.lk/index.php/corporate-profile/",
+      "source": "https://elkaduwaplantations.lk/index.php/corporate-profile/",
+      "observed_at": "2026-09-27T06:48:45.027398+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "source": "https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "observed_at": "2026-09-27T06:48:45.027401+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "source": "https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "observed_at": "2026-09-27T06:48:45.027404+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "source": "https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "observed_at": "2026-09-27T06:48:45.027407+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "source": "https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "observed_at": "2026-09-27T06:48:45.027409+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "source": "https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "observed_at": "2026-09-27T06:48:45.027412+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "source": "https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "observed_at": "2026-09-27T06:48:45.027415+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://elkaduwaplantations.lk/index.php/selagama-estate/",
+      "source": "https://elkaduwaplantations.lk/index.php/selagama-estate/",
+      "observed_at": "2026-09-27T06:48:45.027418+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://elkaduwaplantations.lk/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/contact/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Elkaduwa Plantations Ltd. Ratwatte, Ukuwela, Matale +94 66 224 2522 Facebook Twitter Youtube Envelope Send us a message ",
+      "source": "https://elkaduwaplantations.lk/index.php/contact/",
+      "data": {
+        "value": "Elkaduwa Plantations Ltd. Ratwatte, Ukuwela, Matale +94 66 224 2522 Facebook Twitter Youtube Envelope Send us a message "
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "https://elkaduwaplantations.lk/index.php/contact/",
+      "data": {
+        "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/management-overview/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/corporate-profile/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "https://elkaduwaplantations.lk/index.php/corporate-profile/",
+      "data": {
+        "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: gazette",
+      "source": "https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "data": {
+        "value": "gazette"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94663682455",
+      "source": "https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "data": {
+        "value": "+94663682455"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0663682455 ",
+      "source": "https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "data": {
+        "value": "0663682455 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94663133355",
+      "source": "https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "data": {
+        "value": "+94663133355"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0663133355 ",
+      "source": "https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "data": {
+        "value": "0663133355 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0663682458 ",
+      "source": "https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "data": {
+        "value": "0663682458 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94663682458",
+      "source": "https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "data": {
+        "value": "+94663682458"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94663682455",
+      "source": "https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "data": {
+        "value": "+94663682455"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0663682455 ",
+      "source": "https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "data": {
+        "value": "0663682455 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0663682734 ",
+      "source": "https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "data": {
+        "value": "0663682734 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94663682734",
+      "source": "https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "data": {
+        "value": "+94663682734"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 224 2522 ",
+      "source": "https://elkaduwaplantations.lk/index.php/selagama-estate/",
+      "data": {
+        "value": "+94 66 224 2522 "
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 4059 visible characters across 14 pages",
+      "source": "https://elkaduwaplantations.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "elkaduwaplantations.lk",
+      "addresses": [
+        "104.21.10.157",
+        "172.67.131.139",
+        "2606:4700:3033::6815:a9d",
+        "2606:4700:3034::ac43:838b"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "elkaduwaplantations.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "elkaduwaplantations.lk",
+      "status": "valid",
+      "expires_at": "2026-11-11T00:19:24+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/",
+      "redirects": [],
+      "elapsed_ms": 465,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://elkaduwaplantations.lk/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/",
+      "redirects": [
+        "https://elkaduwaplantations.lk/"
+      ],
+      "elapsed_ms": 424,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/",
+      "redirects": [],
+      "elapsed_ms": 407,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://elkaduwaplantations.lk/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/",
+      "redirects": [
+        "https://elkaduwaplantations.lk/"
+      ],
+      "elapsed_ms": 440,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/contact/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/contact/",
+      "redirects": [],
+      "elapsed_ms": 420,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/management-overview/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/management-overview/",
+      "redirects": [],
+      "elapsed_ms": 211,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/corporate-profile/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/corporate-profile/",
+      "redirects": [],
+      "elapsed_ms": 205,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "redirects": [],
+      "elapsed_ms": 212,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "redirects": [],
+      "elapsed_ms": 230,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "redirects": [],
+      "elapsed_ms": 418,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "redirects": [],
+      "elapsed_ms": 207,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "redirects": [],
+      "elapsed_ms": 205,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "redirects": [],
+      "elapsed_ms": 575,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/selagama-estate/",
+      "status_code": 200,
+      "final_url": "https://elkaduwaplantations.lk/index.php/selagama-estate/",
+      "redirects": [],
+      "elapsed_ms": 271,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://elkaduwaplantations.lk/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-01-cd81b4577d1a.html",
+      "sha256": "cd81b4577d1a24456c506ef6f2e1dcc444ce8cd7420cab8b35df7e2904f013ce",
+      "bytes": 131538
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-02-376777949659.html",
+      "sha256": "376777949659ae9a8420cc48b64953417904ba57795998eda51c8e60517c3e80",
+      "bytes": 131538
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-03-129d77819e9b.html",
+      "sha256": "129d77819e9b8093bb5032a40dee69c9734be056b55ecf98bacffb807bff950c",
+      "bytes": 131538
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-04-f9609a85886d.html",
+      "sha256": "f9609a85886d47456109a62f1226b08ab17bef72d4e668c1322c3dabb1940ca0",
+      "bytes": 131538
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/contact/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-05-1bfb0d509c92.html",
+      "sha256": "1bfb0d509c92bf2917da79aa8b0739182438d4ac1e860f6356d08c0218ce2e08",
+      "bytes": 75141
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/management-overview/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-06-8c24c73caf2d.html",
+      "sha256": "8c24c73caf2d0bea275f45e249fef9286fdd92a2cd1811948369d78c45cf7ef7",
+      "bytes": 96743
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/corporate-profile/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-07-3229766b1458.html",
+      "sha256": "3229766b1458f57c5056be776d52b12475567956449bc7b9acc4c70b1474f217",
+      "bytes": 78783
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/history-achivements/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-08-4fa562c64585.html",
+      "sha256": "4fa562c645854f0397c51078591bfd3e31828e7f4307f4e8dcc925fb411f0c0f",
+      "bytes": 72021
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/bandarapola-estate-2/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-09-acab9e62d860.html",
+      "sha256": "acab9e62d860310e3794c92a43ab692bb0160a658a597a68ac824b025b36171a",
+      "bytes": 94810
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/elkaduwa-estate/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-10-48f59267943f.html",
+      "sha256": "48f59267943f52c3efd3de2d62e1f9cf0c22e23ad33c87b72ee3bba73d73afab",
+      "bytes": 86219
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/hunugala-estate/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-11-8b10f0311aeb.html",
+      "sha256": "8b10f0311aeb84ce2bb21baf0de8ffe8b15c58eb80b3d0dd38d13a909a803373",
+      "bytes": 88029
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/pitakanda-estate/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-12-e21f33a3b849.html",
+      "sha256": "e21f33a3b8494dad8172c2eb9e64ae5e64fe809ab8c9ae32e6758c357c560953",
+      "bytes": 92158
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/ratwatte-estate/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-13-f7ff9917ea3a.html",
+      "sha256": "f7ff9917ea3a42db2ecf102bda1d00bee48da630cdc5a85a79a99bdab3203d2b",
+      "bytes": 118361
+    },
+    {
+      "url": "https://elkaduwaplantations.lk/index.php/selagama-estate/",
+      "path": "audit.output/elkaduwaplantations.lk/20260927.0648/snapshots/page-14-5091488e4812.html",
+      "sha256": "5091488e481207cafa1b407d422dff1964246722e106f3025eea1f4203366c3e",
+      "bytes": 85036
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "No email evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: Elkaduwa Plantations Ltd. Ratwatte, Ukuwela, Matale +94 66 224 2522 Facebook Twitter Youtube Envelope Send us a message "
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "inconclusive",
+          "reason": "No email evidence found"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

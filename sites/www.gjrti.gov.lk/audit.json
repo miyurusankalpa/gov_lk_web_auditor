@@ -1,0 +1,3618 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "93f72e87-b32b-428a-87ff-fddd52346e12",
+  "url": "https://www.gjrti.gov.lk/",
+  "normalized_url": "https://www.gjrti.gov.lk/",
+  "started_at": "2026-09-27T06:45:25.824912+05:30",
+  "completed_at": "2026-09-27T06:46:13.716817+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:45:26.225574+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:45:26.225595+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:45:26.989642+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.gjrti.gov.lk/",
+      "source": "https://www.gjrti.gov.lk/",
+      "observed_at": "2026-09-27T06:46:11.405384+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://www.gjrti.gov.lk/",
+      "source": "http://www.gjrti.gov.lk/",
+      "observed_at": "2026-09-27T06:46:11.405406+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.gjrti.gov.lk/",
+      "source": "https://www.gjrti.gov.lk/",
+      "observed_at": "2026-09-27T06:46:11.405412+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://www.gjrti.gov.lk/",
+      "source": "http://www.gjrti.gov.lk/",
+      "observed_at": "2026-09-27T06:46:11.405416+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "observed_at": "2026-09-27T06:46:11.405421+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://www.gjrti.gov.lk/contact-us/",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "observed_at": "2026-09-27T06:46:11.405424+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "observed_at": "2026-09-27T06:46:11.405427+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://www.gjrti.gov.lk/research-division/",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "observed_at": "2026-09-27T06:46:11.405431+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://www.gjrti.gov.lk/training-division/",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "observed_at": "2026-09-27T06:46:11.405435+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://www.gjrti.gov.lk/services/",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "observed_at": "2026-09-27T06:46:11.405439+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://www.gjrti.gov.lk/gem-exploration-services/",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "observed_at": "2026-09-27T06:46:11.405442+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://www.gjrti.gov.lk/laboratory-services/",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "observed_at": "2026-09-27T06:46:11.405444+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://www.gjrti.gov.lk/gem-treatment-services/",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "observed_at": "2026-09-27T06:46:11.405447+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "observed_at": "2026-09-27T06:46:11.405449+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0835138675",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0835138675"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849906043",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849906043"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0854470094",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0854470094"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849915218",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849915218"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0831674127",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0831674127"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0836646203",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0836646203"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0837282673",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0837282673"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0847857856",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0847857856"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849887396",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849887396"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828279899",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0828279899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0832253248",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0832253248"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0835138675",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0835138675"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849906043",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849906043"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0854470094",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0854470094"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849915218",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849915218"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0831674127",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0831674127"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0836646203",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0836646203"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0837282673",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0837282673"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0847857856",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0847857856"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849887396",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849887396"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828279899",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0828279899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0832253248",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0832253248"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0835138675",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0835138675"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849906043",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849906043"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0854470094",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0854470094"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849915218",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849915218"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0831674127",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0831674127"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0836646203",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0836646203"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0837282673",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0837282673"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0847857856",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0847857856"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849887396",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849887396"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828279899",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0828279899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0832253248",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0832253248"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0835138675",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0835138675"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849906043",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849906043"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0854470094",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0854470094"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849915218",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849915218"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0831674127",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0831674127"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0836646203",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0836646203"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0837282673",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0837282673"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0847857856",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0847857856"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0849887396",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0849887396"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0828279899",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0828279899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0832253248",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "0832253248"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-4324676 .",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "011-4324676 ."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-4324677",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "011-4324677"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: No 73/ 5 A, Awissawella Old Road,Welivita, Kaduwela .icon-with-text-shortcode.icon-text-id-e494cf36b202d76d7e240daa99581",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "No 73/ 5 A, Awissawella Old Road,Welivita, Kaduwela .icon-with-text-shortcode.icon-text-id-e494cf36b202d76d7e240daa99581"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4324667 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-4324667 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579181 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579181 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4329803 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-4329803 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-045-222880",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-045-222880"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4329802 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-4329802 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579186 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579186 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4324673 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-4324673 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579182 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579184 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579184 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579187 .",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579187 ."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579182 .",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579182 ."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0114324677 .",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0114324677 ."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4324676 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-4324676 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 4324 676 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "011 4324 676 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0545699312",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0545699312"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579180 .",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579180 ."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4324677 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-4324677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579185 ",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579185 .",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "+94-11-2579185 ."
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nadeeka.mn@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "nadeeka.mn@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: lassure80@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "lassure80@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: research@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "research@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: naleen@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "naleen@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chairman@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "chairman@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nadekahettiarachchi@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "nadekahettiarachchi@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sillangasinghe@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "sillangasinghe@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: wasantha@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "wasantha@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: jayalathaseneviratne115@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "jayalathaseneviratne115@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nuwanthi.wijesinghe@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "nuwanthi.wijesinghe@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sajithmuhandiram@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "sajithmuhandiram@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: finance@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "finance@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dg@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "dg@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chandimawgcn@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "chandimawgcn@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: training@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "training@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: suraminiseneviratne@gmail.com",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "suraminiseneviratne@gmail.com"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/contact-us/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4329803 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11-4329803 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579187 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11-2579187 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579185 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11-2579185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4329802 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11-4329802 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579186 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11-2579186 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579183 ",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "+94-11-2579183 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: lassure80@gmail.com",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "lassure80@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: research@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "research@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: adhr.gjrti@gmail.com",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "adhr.gjrti@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nuwanthi.wijesinghe@gmail.com",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "nuwanthi.wijesinghe@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sajithmuhandiram@gmail.com",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "sajithmuhandiram@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dg@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "dg@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112-579185 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0112-579185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 070-3332234 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "070-3332234 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-3262622 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "077-3262622 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-2943100 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "077-2943100 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077 14 84 720 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "077 14 84 720 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0001-6757-36",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0001-6757-36"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0755 4347 88",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0755 4347 88"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0452228808 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0452228808 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-5411103 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "076-5411103 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-3858516 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "071-3858516 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071 2271574 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "071 2271574 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-2937279 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "071-2937279 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-5850998 ",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "071-5850998 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nadeeka.mn@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "nadeeka.mn@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: pasinduseenigama98@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "pasinduseenigama98@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: samudra.wijewardane@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "samudra.wijewardane@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ruwanthikakumari98@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "ruwanthikakumari98@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sillangasinghe@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "sillangasinghe@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sdabeysekara1993@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "sdabeysekara1993@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: lakshanthi@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "lakshanthi@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: naleenlk@hotmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "naleenlk@hotmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: Sutharshankanna04@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "Sutharshankanna04@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: pasimcg@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "pasimcg@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chandimawgcn@gmail.com",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "chandimawgcn@gmail.com"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/research-division/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4329803 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11-4329803 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4324676 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11-4324676 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4324677 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11-4324677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-4329802 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11-4329802 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2579183 ",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "+94-11-2579183 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: lassure80@gmail.com",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "lassure80@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nuwanthi.wijesinghe@gmail.com",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "nuwanthi.wijesinghe@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: jayalathasenevirathne115@gmail.com",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "jayalathasenevirathne115@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dg@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "dg@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: suraminiseneviratne@gmail.com",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "suraminiseneviratne@gmail.com"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/training-division/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/services/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/laboratory-services/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-8.84-7.16-16-1",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "0-8.84-7.16-16-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 17.67 14.33 3",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "0 17.67 14.33 3"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 180 ",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "+94-11 25 79 180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 25 79 185 ",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "+94-11 25 79 185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 677 ",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "+94-11 43 24 677 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 6.4 6.4 12.8 12.",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "0 6.4 6.4 12.8 12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 12.8-6.4 12.8-1",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "0 12.8-6.4 12.8-1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 16-7.16 16-16",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "0 16-7.16 16-16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-25 79 182 ",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "+94-11-25 79 182 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-6.4-6.4-12.8-12.",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "0-6.4-6.4-12.8-12."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-12.8 6.4-12.8 1",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "0-12.8 6.4-12.8 1"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11 43 24 676",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "+94-11 43 24 676"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@gjrti.gov.lk",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "info@gjrti.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: will not be published. Required fields are marked * Comment Name * Email * Website Save my name, email, and website in t",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "will not be published. Required fields are marked * Comment Name * Email * Website Save my name, email, and website in t"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 11150 visible characters across 14 pages",
+      "source": "https://www.gjrti.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.gjrti.gov.lk",
+      "addresses": [
+        "222.165.190.235"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "gjrti.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.gjrti.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-11-17T10:03:32+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 2828,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.gjrti.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/",
+      "redirects": [
+        "https://www.gjrti.gov.lk/"
+      ],
+      "elapsed_ms": 4140,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 4433,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.gjrti.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/",
+      "redirects": [
+        "https://www.gjrti.gov.lk/"
+      ],
+      "elapsed_ms": 2945,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "redirects": [],
+      "elapsed_ms": 2620,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/contact-us/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/contact-us/",
+      "redirects": [],
+      "elapsed_ms": 2353,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "redirects": [],
+      "elapsed_ms": 2141,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/research-division/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/research-division/",
+      "redirects": [],
+      "elapsed_ms": 2675,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/training-division/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/training-division/",
+      "redirects": [],
+      "elapsed_ms": 2445,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/services/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/services/",
+      "redirects": [],
+      "elapsed_ms": 2388,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "redirects": [],
+      "elapsed_ms": 2257,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/laboratory-services/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/laboratory-services/",
+      "redirects": [],
+      "elapsed_ms": 2760,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "redirects": [],
+      "elapsed_ms": 2695,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "status_code": 200,
+      "final_url": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "redirects": [],
+      "elapsed_ms": 2505,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.gjrti.gov.lk/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-01-a12653ac6df8.html",
+      "sha256": "a12653ac6df87809271f131dab21318879054dc4920995008280af425f3942a5",
+      "bytes": 279819
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-02-7acada403d1c.html",
+      "sha256": "7acada403d1c9f3d293247e37f6ee8cc1e8e6bc15c1bcde02b5279e3c1327304",
+      "bytes": 279826
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-03-0d5c4a6a5779.html",
+      "sha256": "0d5c4a6a5779ebd8223717be9e84e30bd68045643952dd4d62bb9068bc1a109e",
+      "bytes": 279823
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-04-a709b595a64f.html",
+      "sha256": "a709b595a64fa236e6c84798e0bd5647f5861625a46ffd1ae52e94faba2fb8c4",
+      "bytes": 279827
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/kaduwela-head-office/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-05-3eb2997a2b85.html",
+      "sha256": "3eb2997a2b8544a9fe578d0a0e65562bd6c2f1ddbd4cab632cccfc50271ff4b8",
+      "bytes": 200263
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/contact-us/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-06-41cb73b2718f.html",
+      "sha256": "41cb73b2718fda52e341bad65eb2beb22c5f2b63389ab9863e78461b0e2f9d7c",
+      "bytes": 248501
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/directors-and-divisional-heads/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-07-29b847217750.html",
+      "sha256": "29b84721775072f4d71b3ea0336bcb42a6579671404cc73aabfb9ad6ea1818bc",
+      "bytes": 176743
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/research-division/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-08-aa400c5284c8.html",
+      "sha256": "aa400c5284c8f26f47fe6992253f71218eb9327d521a0967a240f03d628059fa",
+      "bytes": 191920
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/training-division/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-09-192de1406ae5.html",
+      "sha256": "192de1406ae5b442a28452a0323e64d72e459b891e79d38f7f91762756db0600",
+      "bytes": 209623
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/services/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-10-b361794fcb0c.html",
+      "sha256": "b361794fcb0c428a742411bcf375b0cef1c8acd368c53c51c055e437b6cbdcb9",
+      "bytes": 187837
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/gem-exploration-services/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-11-2c1c346ef829.html",
+      "sha256": "2c1c346ef82971a2be8844343b3361d34cddbff82da112737df82f95f2274892",
+      "bytes": 173122
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/laboratory-services/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-12-877eb2af5fcd.html",
+      "sha256": "877eb2af5fcd7bb49ba0fb742a63f242e4921b45f409cc9182021f3acff90878",
+      "bytes": 183141
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/gem-treatment-services/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-13-b36bd1fc7cd2.html",
+      "sha256": "b36bd1fc7cd22bafd8173d94c2c590a2d61ca36595ae46aac08fd5ee5b85c7dd",
+      "bytes": 169637
+    },
+    {
+      "url": "https://www.gjrti.gov.lk/new-cad-cam-lab-inaugurated-at-gjrti-head-office/",
+      "path": "audit.output/www.gjrti.gov.lk/20260927.0645/snapshots/page-14-63f50b5e1540.html",
+      "sha256": "63f50b5e15401e8ccd44550816ce2e2e6fa623550294e5c700995547a7846606",
+      "bytes": 176228
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: No 73/ 5 A, Awissawella Old Road,Welivita, Kaduwela .icon-with-text-shortcode.icon-text-id-e494cf36b202d76d7e240daa99581; Phone: 0835138675 (59 phone numbers found); Email: info@gjrti.gov.lk (27 email addresses found); Published named responsibility: director",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: No 73/ 5 A, Awissawella Old Road,Welivita, Kaduwela .icon-with-text-shortcode.icon-text-id-e494cf36b202d76d7e240daa99581"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: 0835138675 (59 phone numbers found); Email: info@gjrti.gov.lk (27 email addresses found)"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: director"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing fees and payment evidence found; No passing processing time evidence found; No passing downloadable form evidence found; No passing published update date evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing eligibility criteria evidence found"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing fees and payment evidence found"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published legal basis: regulations"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing processing time evidence found"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing downloadable form evidence found"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing published update date evidence found"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

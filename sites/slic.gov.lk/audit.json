@@ -1,0 +1,2461 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "9a51b09c-cf37-48a4-9415-3c2d8ee032de",
+  "url": "https://slic.gov.lk/",
+  "normalized_url": "https://slic.gov.lk/",
+  "started_at": "2026-09-27T06:53:39.499146+05:30",
+  "completed_at": "2026-09-27T06:54:51.355209+05:30",
+  "result": {
+    "status": "pass",
+    "confidence": 1.0,
+    "reasons": [
+      "dns_resolves: Public DNS resolved",
+      "domain_not_parked: No parked-domain marker found",
+      "site_not_defaced: No defacement marker found",
+      "content_relevant: No unrelated-content marker found",
+      "hosting_configured: No generic-hosting marker found",
+      "http_available: HTTP probes did not all fail",
+      "redirect_related: No unrelated redirect found",
+      "tls_browser_trusted: No browser-blocking TLS error found",
+      "tls_not_expired: TLS certificate valid",
+      "tls_hostname_matches: TLS certificate valid"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:53:40.124613+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:53:40.124635+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:53:40.900775+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://slic.gov.lk/",
+      "source": "https://slic.gov.lk/",
+      "observed_at": "2026-09-27T06:54:50.963488+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://slic.gov.lk/",
+      "source": "http://slic.gov.lk/",
+      "observed_at": "2026-09-27T06:54:50.963507+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://slic.gov.lk/",
+      "source": "https://slic.gov.lk/",
+      "observed_at": "2026-09-27T06:54:50.963512+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at https://slic.gov.lk/",
+      "source": "http://slic.gov.lk/",
+      "observed_at": "2026-09-27T06:54:50.963515+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 5: HTTP 200 at https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "observed_at": "2026-09-27T06:54:50.963518+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 6: HTTP 200 at https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "observed_at": "2026-09-27T06:54:50.963521+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://slic.gov.lk/our-team/",
+      "source": "https://slic.gov.lk/our-team/",
+      "observed_at": "2026-09-27T06:54:50.963523+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://slic.gov.lk/background/",
+      "source": "https://slic.gov.lk/background/",
+      "observed_at": "2026-09-27T06:54:50.963526+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 9: HTTP 200 at https://slic.gov.lk/organizational-structure/",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "observed_at": "2026-09-27T06:54:50.963529+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 10: HTTP 200 at https://slic.gov.lk/history/",
+      "source": "https://slic.gov.lk/history/",
+      "observed_at": "2026-09-27T06:54:50.963532+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 11: HTTP 200 at https://slic.gov.lk/contact-us/",
+      "source": "https://slic.gov.lk/?page_id=198",
+      "observed_at": "2026-09-27T06:54:50.963534+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://slic.gov.lk/sn2023int/",
+      "source": "https://slic.gov.lk/sn2023/",
+      "observed_at": "2026-09-27T06:54:50.963537+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "observed_at": "2026-09-27T06:54:50.963540+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "observed_at": "2026-09-27T06:54:50.963542+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645. ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645. "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0022031931",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0022031931"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11-2676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 11-2676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 024-03-12 9.00 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "024-03-12 9.00 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0281624194",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0281624194"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: projects@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "projects@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sahasaknimavum@gmail.com",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "sahasaknimavum@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: free of charge",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "free of charge"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 Day",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "1 Day"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645. ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645. "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0022031931",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0022031931"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11-2676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 11-2676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 024-03-12 9.00 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "024-03-12 9.00 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0281624194",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0281624194"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: projects@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "projects@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sahasaknimavum@gmail.com",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "sahasaknimavum@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: free of charge",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "free of charge"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 Day",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "1 Day"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645. ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645. "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0022031931",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0022031931"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11-2676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 11-2676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 024-03-12 9.00 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "024-03-12 9.00 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0281624194",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0281624194"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: projects@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "projects@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sahasaknimavum@gmail.com",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "sahasaknimavum@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: free of charge",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "free of charge"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 Day",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "1 Day"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645. ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676645. "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0022031931",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0022031931"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11-2676650 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94 11-2676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 024-03-12 9.00 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "024-03-12 9.00 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0281624194",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0281624194"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: projects@slic.gov.lk",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "projects@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sahasaknimavum@gmail.com",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "sahasaknimavum@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: free of charge",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "free of charge"
+      }
+    },
+    {
+      "check": "processing_time",
+      "status": "pass",
+      "detail": "Published processing time: 1 Day",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "1 Day"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 024-03-12 9.00 ",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "024-03-12 9.00 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 024-03-12 9.00 ",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "024-03-12 9.00 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 714447393 ",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "+94 714447393 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 718382714 ",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "+94 718382714 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 719507132 ",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "+94 719507132 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/our-team/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/background/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/organizational-structure/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: division",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "division"
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/history/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650 ",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "011-2676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645 ",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "011-2676645 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, ” Mehewara Piyesa” Building, Colombo 05. Phone : 011-2676645 / 011-2676650 / 011-2676647-9 Fax : 011-2676646 ",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "5th Floor, ” Mehewara Piyesa” Building, Colombo 05. Phone : 011-2676645 / 011-2676650 / 011-2676647-9 Fax : 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/contact-us/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11-2676650 ",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "+94 11-2676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: projects@slic.gov.lk",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "projects@slic.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sahasaknimavum@gmail.com",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "sahasaknimavum@gmail.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/sn2023int/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676645011267665001126766479",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "0112676645011267665001126766479"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676645",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "011-2676645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112676650 ",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "+94 112676650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676647-",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "011-2676647-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676646 ",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "011-2676646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2676650",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "011-2676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112676650",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "+94112676650"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112676646",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "0112676646"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@slic.gov.lk",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "info@slic.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: 5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 ",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "5th Floor, \" Mehewara Piyesa\" Building, Colombo 05, Sri Lanka. 011-2676645, 011-2676650, 011-2676647-9 Fax: 011-2676646 "
+      }
+    },
+    {
+      "check": "downloadable_form",
+      "status": "pass",
+      "detail": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf",
+      "source": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "data": {
+        "value": "https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "pass",
+      "detail": "Substantive page content: 16534 visible characters across 14 pages",
+      "source": "https://slic.gov.lk/"
+    }
+  ],
+  "observations": [
+    {
+      "host": "slic.gov.lk",
+      "addresses": [
+        "43.224.126.115"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "slic.gov.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "slic.gov.lk",
+      "status": "valid",
+      "expires_at": "2026-11-09T04:18:57+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://slic.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 3468,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://slic.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/",
+      "redirects": [
+        "https://slic.gov.lk/"
+      ],
+      "elapsed_ms": 2363,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 2149,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://slic.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/",
+      "redirects": [
+        "https://slic.gov.lk/"
+      ],
+      "elapsed_ms": 2375,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "redirects": [],
+      "elapsed_ms": 1406,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "redirects": [],
+      "elapsed_ms": 20478,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/our-team/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/our-team/",
+      "redirects": [],
+      "elapsed_ms": 1209,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/background/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/background/",
+      "redirects": [],
+      "elapsed_ms": 1403,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/organizational-structure/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/organizational-structure/",
+      "redirects": [],
+      "elapsed_ms": 20540,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/history/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/history/",
+      "redirects": [],
+      "elapsed_ms": 1413,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/?page_id=198",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/contact-us/",
+      "redirects": [
+        "https://slic.gov.lk/contact-us/"
+      ],
+      "elapsed_ms": 1152,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/sn2023/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/sn2023int/",
+      "redirects": [
+        "https://slic.gov.lk/sn2023int/"
+      ],
+      "elapsed_ms": 1585,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "redirects": [],
+      "elapsed_ms": 1148,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "status_code": 200,
+      "final_url": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "redirects": [],
+      "elapsed_ms": 1169,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://slic.gov.lk/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-01-713b26c904e2.html",
+      "sha256": "713b26c904e2a2700972b54347d30935a85c067631cdf3240f069d6040a70298",
+      "bytes": 132547
+    },
+    {
+      "url": "https://slic.gov.lk/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-02-a5ae000e8b2c.html",
+      "sha256": "a5ae000e8b2c62e06be26ec64b5ffb484aee8a9667ca5148030607d607d22ced",
+      "bytes": 132547
+    },
+    {
+      "url": "https://slic.gov.lk/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-03-999f3e7d5995.html",
+      "sha256": "999f3e7d59954da5a8ec93cd6cd6012ff925f35dd565f8422ad91d8ba7246ff2",
+      "bytes": 132547
+    },
+    {
+      "url": "https://slic.gov.lk/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-04-02c6a966318c.html",
+      "sha256": "02c6a966318c6d259d5d9bbedc04be5b2ba699d539d0c668b5c72a3c3ca5e9d7",
+      "bytes": 132547
+    },
+    {
+      "url": "https://slic.gov.lk/si/home-%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-05-bd008408484d.html",
+      "sha256": "bd008408484d80c4931aa9d013e4ac5234bdeb519ed69b883c51347d3a663f76",
+      "bytes": 47733
+    },
+    {
+      "url": "https://slic.gov.lk/ta/home-%e0%ae%a4%e0%ae%ae%e0%ae%bf%e0%ae%b4%e0%af%8d/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-06-163a904b94e9.html",
+      "sha256": "163a904b94e900694c4df715ff21af0414de1531355d0858e17cbb211a0771f0",
+      "bytes": 47841
+    },
+    {
+      "url": "https://slic.gov.lk/our-team/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-07-fce5aeed322b.html",
+      "sha256": "fce5aeed322bab326b78bddfb2949768ad25ea19d51d4fc76f329d8cb97a74fe",
+      "bytes": 73680
+    },
+    {
+      "url": "https://slic.gov.lk/background/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-08-5e3b267f0670.html",
+      "sha256": "5e3b267f0670214874b801c2fee645c62371c2798f111b78a01bb1e5740df43c",
+      "bytes": 48541
+    },
+    {
+      "url": "https://slic.gov.lk/organizational-structure/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-09-ebd7d437519f.html",
+      "sha256": "ebd7d437519f9129ee89a47f01029ddd692bd053a0f7b4ca2fca85744aa46165",
+      "bytes": 45081
+    },
+    {
+      "url": "https://slic.gov.lk/history/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-10-98b088d97f61.html",
+      "sha256": "98b088d97f61ba4bcf5ea7cb73dd76a0f1992a9063049ecf40a669598a925fe4",
+      "bytes": 49171
+    },
+    {
+      "url": "https://slic.gov.lk/contact-us/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-11-c304f0916844.html",
+      "sha256": "c304f0916844e3bc5d1df019ef93a5fe65bbcaf001010e9b2d96035f3c3da3ab",
+      "bytes": 46480
+    },
+    {
+      "url": "https://slic.gov.lk/sn2023int/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-12-f28c2793279d.html",
+      "sha256": "f28c2793279d723f96f88ea7c5cfe9a0b57f2910e370859f22ae07f91c67ccc5",
+      "bytes": 51151
+    },
+    {
+      "url": "https://slic.gov.lk/sahasak-nimavum-2024-winners/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-13-ddb9dd18990e.html",
+      "sha256": "ddb9dd18990ec1a90f80be33b92cf22ae9c8bbfe87de4c2b60eb1a41a239e80d",
+      "bytes": 49341
+    },
+    {
+      "url": "https://slic.gov.lk/sahasak-nimavum-2023-award-winners/",
+      "path": "audit.output/slic.gov.lk/20260927.0653/snapshots/page-14-6bbf55b0ba5e.html",
+      "sha256": "6bbf55b0ba5ec1547d156109226788b68770045b4fe5f62db74b103665687ed9",
+      "bytes": 49583
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "pass",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "pass",
+          "reason": "No parked-domain marker found"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "pass",
+          "reason": "No defacement marker found"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated-content marker found"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "pass",
+          "reason": "No generic-hosting marker found"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "pass",
+          "reason": "No unrelated redirect found"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "pass",
+      "reason": "Published postal address: Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න; Phone: 0112676645011267665001126766479 (17 phone numbers found); Email: info@slic.gov.lk (3 email addresses found); Published named responsibility: division",
+      "executed": true,
+      "checks": [
+        {
+          "name": "postal_address",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published postal address: Read More Uncategorized Sahasak Nimavum 2021 Award Ceremony ජාතික නව නිපැයුම්කරුවන්ගේ දිනය පාදක කර ගනිමින්, ශ්‍රී ලංකා න"
+        },
+        {
+          "name": "reachable_contacts",
+          "level": 2,
+          "status": "pass",
+          "reason": "Phone: 0112676645011267665001126766479 (17 phone numbers found); Email: info@slic.gov.lk (3 email addresses found)"
+        },
+        {
+          "name": "named_responsibility",
+          "level": 2,
+          "status": "pass",
+          "reason": "Published named responsibility: division"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing legal basis evidence found; No passing published update date evidence found",
+      "executed": true,
+      "checks": [
+        {
+          "name": "eligibility_criteria",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing eligibility criteria evidence found"
+        },
+        {
+          "name": "required_documents",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing required documents evidence found"
+        },
+        {
+          "name": "fees_and_payment",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published fees and payment: free of charge"
+        },
+        {
+          "name": "legal_basis",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing legal basis evidence found"
+        },
+        {
+          "name": "processing_time",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published processing time: 1 Day"
+        },
+        {
+          "name": "downloadable_form",
+          "level": 3,
+          "status": "pass",
+          "reason": "Published downloadable form: https://slic.gov.lk/wp-content/uploads/2024/03/Provincial-Invention-Evaluation-2024-Sinhala-Application.pdf"
+        },
+        {
+          "name": "published_update_date",
+          "level": 3,
+          "status": "inconclusive",
+          "reason": "No passing published update date evidence found"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}

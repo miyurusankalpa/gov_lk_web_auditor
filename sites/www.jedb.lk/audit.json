@@ -1,0 +1,366 @@
+{
+  "schema_version": "1.3.0",
+  "audit_id": "b5e82fd6-4ea8-4f17-b0b6-218c8b43d1ad",
+  "url": "https://www.jedb.lk/",
+  "normalized_url": "https://www.jedb.lk/",
+  "started_at": "2026-09-27T06:48:29.187793+05:30",
+  "completed_at": "2026-09-27T06:48:34.498348+05:30",
+  "result": {
+    "status": "fail",
+    "confidence": 1.0,
+    "reasons": [
+      "http_available: Every repeated HTTP probe failed: [403, 403, 403, 403]"
+    ]
+  },
+  "evidence": [
+    {
+      "check": "dns",
+      "status": "pass",
+      "detail": "Public DNS resolved",
+      "observed_at": "2026-09-27T06:48:29.344740+05:30"
+    },
+    {
+      "check": "domain_registration",
+      "status": "error",
+      "detail": "Domain is absent from RDAP",
+      "observed_at": "2026-09-27T06:48:29.344761+05:30"
+    },
+    {
+      "check": "tls",
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:48:29.358831+05:30"
+    },
+    {
+      "check": "http",
+      "status": "fail",
+      "detail": "Probe 1: HTTP 403 at https://www.jedb.lk/",
+      "source": "https://www.jedb.lk/",
+      "observed_at": "2026-09-27T06:48:34.384814+05:30"
+    },
+    {
+      "check": "http",
+      "status": "fail",
+      "detail": "Probe 2: HTTP 403 at https://www.jedb.lk/",
+      "source": "http://www.jedb.lk/",
+      "observed_at": "2026-09-27T06:48:34.384832+05:30"
+    },
+    {
+      "check": "http",
+      "status": "fail",
+      "detail": "Probe 3: HTTP 403 at https://www.jedb.lk/",
+      "source": "https://www.jedb.lk/",
+      "observed_at": "2026-09-27T06:48:34.384836+05:30"
+    },
+    {
+      "check": "http",
+      "status": "fail",
+      "detail": "Probe 4: HTTP 403 at https://www.jedb.lk/",
+      "source": "http://www.jedb.lk/",
+      "observed_at": "2026-09-27T06:48:34.384839+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471909-1.0.1.",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0471909-1.0.1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471909-1.2.1.",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0471909-1.2.1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-179047190",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0-179047190"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471911-1.0.1.",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0471911-1.0.1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471911-1.2.1.",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0471911-1.2.1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-179047191",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0-179047191"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471912-1.2.1.",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0471912-1.2.1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471914-1.2.1.",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0471914-1.2.1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0471914-1.0.1.",
+      "source": "https://www.jedb.lk/",
+      "data": {
+        "value": "0471914-1.0.1."
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "fail",
+      "detail": "Only 16 visible characters across 4 pages; below substance threshold 200",
+      "source": "https://www.jedb.lk/"
+    },
+    {
+      "check": "persistent_http_failure",
+      "status": "fail",
+      "detail": "Every repeated HTTP probe failed: [403, 403, 403, 403]",
+      "observed_at": "2026-09-27T06:48:34.497580+05:30"
+    }
+  ],
+  "observations": [
+    {
+      "host": "www.jedb.lk",
+      "addresses": [
+        "104.21.90.10",
+        "172.67.193.2",
+        "2606:4700:3032::ac43:c102",
+        "2606:4700:3035::6815:5a0a"
+      ],
+      "status": "resolved",
+      "detail": "Public DNS resolved"
+    },
+    {
+      "domain": "jedb.lk",
+      "status": "unknown",
+      "expires_at": null,
+      "detail": "Domain is absent from RDAP"
+    },
+    {
+      "host": "www.jedb.lk",
+      "status": "valid",
+      "expires_at": "2026-11-30T16:43:18+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
+    },
+    {
+      "url": "https://www.jedb.lk/",
+      "status_code": 403,
+      "final_url": "https://www.jedb.lk/",
+      "redirects": [],
+      "elapsed_ms": 23,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.jedb.lk/",
+      "status_code": 403,
+      "final_url": "https://www.jedb.lk/",
+      "redirects": [
+        "https://www.jedb.lk/"
+      ],
+      "elapsed_ms": 20,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.jedb.lk/",
+      "status_code": 403,
+      "final_url": "https://www.jedb.lk/",
+      "redirects": [],
+      "elapsed_ms": 22,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.jedb.lk/",
+      "status_code": 403,
+      "final_url": "https://www.jedb.lk/",
+      "redirects": [
+        "https://www.jedb.lk/"
+      ],
+      "elapsed_ms": 18,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "url": "https://www.jedb.lk/",
+      "path": "audit.output/www.jedb.lk/20260927.0648/snapshots/page-01-3d323b52f311.html",
+      "sha256": "3d323b52f3117bbf1412c74df4a338fbf7a118a423ea1b47290ffec5f3bcb8d0",
+      "bytes": 5274
+    },
+    {
+      "url": "https://www.jedb.lk/",
+      "path": "audit.output/www.jedb.lk/20260927.0648/snapshots/page-02-a920b0f430e2.html",
+      "sha256": "a920b0f430e2e6c493b2296bb12d32bda94133446a065a514b3cf2fff34f29bb",
+      "bytes": 5274
+    },
+    {
+      "url": "https://www.jedb.lk/",
+      "path": "audit.output/www.jedb.lk/20260927.0648/snapshots/page-03-81e29031982c.html",
+      "sha256": "81e29031982c6cf619b90934087f63e8721020bc96fbc466b6610c2c4a7fe491",
+      "bytes": 5274
+    },
+    {
+      "url": "https://www.jedb.lk/",
+      "path": "audit.output/www.jedb.lk/20260927.0648/snapshots/page-04-873c210762f6.html",
+      "sha256": "873c210762f68a02dc6472621e24b0da5b6aae619cd5c83b5a805100ce7a3dd1",
+      "bytes": 5274
+    }
+  ],
+  "reviewer_decisions": [],
+  "levels": [
+    {
+      "level": 0,
+      "description": "A site is classified as `Level 0` when it is unavailable or unusable, or when there is not enough evidence to establish that it meets `Level 1`.",
+      "status": "pass",
+      "reason": "Baseline website grade",
+      "executed": true,
+      "checks": []
+    },
+    {
+      "level": 1,
+      "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
+      "status": "fail",
+      "reason": "Every repeated HTTP probe failed: [403, 403, 403, 403]",
+      "executed": true,
+      "checks": [
+        {
+          "name": "dns_resolves",
+          "level": 1,
+          "status": "pass",
+          "reason": "Public DNS resolved"
+        },
+        {
+          "name": "domain_not_parked",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 16 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "site_not_defaced",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 16 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "content_relevant",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 16 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "hosting_configured",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 16 visible characters across 4 pages; below substance threshold 200"
+        },
+        {
+          "name": "http_available",
+          "level": 1,
+          "status": "fail",
+          "reason": "Every repeated HTTP probe failed: [403, 403, 403, 403]"
+        },
+        {
+          "name": "redirect_related",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "No redirect result was available"
+        },
+        {
+          "name": "tls_browser_trusted",
+          "level": 1,
+          "status": "inconclusive",
+          "reason": "Browser TLS check did not complete"
+        },
+        {
+          "name": "tls_not_expired",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        },
+        {
+          "name": "tls_hostname_matches",
+          "level": 1,
+          "status": "pass",
+          "reason": "TLS certificate valid"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 3,
+      "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 4,
+      "description": "To pass `Level 4`, citizens must be able to complete, pay for, track, and receive the outcome of a service online.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 3 did not pass",
+      "executed": false,
+      "checks": []
+    },
+    {
+      "level": 5,
+      "description": "To pass `Level 5`, services must be connected across agencies, proactive for eligible citizens, explainable, and accountable.",
+      "status": "inconclusive",
+      "reason": "Not run because Level 4 did not pass",
+      "executed": false,
+      "checks": []
+    }
+  ],
+  "vantage": {
+    "egress_ip": "20.55.47.112",
+    "country": "US",
+    "runner": "github-actions",
+    "proxy": false
+  }
+}
