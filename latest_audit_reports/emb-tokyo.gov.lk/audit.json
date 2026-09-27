@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "12f1f384-a955-4656-93d8-3b1dc83cbc8c",
+  "audit_id": "7fe3a395-856a-4414-a8ee-9256016725cd",
   "url": "https://emb-tokyo.gov.lk",
   "normalized_url": "https://emb-tokyo.gov.lk/",
-  "started_at": "2026-09-26T06:30:40.948675+05:30",
-  "completed_at": "2026-09-26T06:31:18.390135+05:30",
+  "started_at": "2026-09-27T06:36:06.675716+05:30",
+  "completed_at": "2026-09-27T06:36:55.478675+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,126 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:30:41.881878+05:30"
+      "observed_at": "2026-09-27T06:36:07.085773+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:30:41.881895+05:30"
+      "observed_at": "2026-09-27T06:36:07.085791+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:30:42.510659+05:30"
+      "observed_at": "2026-09-27T06:36:07.816884+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-tokyo.gov.lk/en",
       "source": "https://emb-tokyo.gov.lk/",
-      "observed_at": "2026-09-26T06:31:17.071511+05:30"
+      "observed_at": "2026-09-27T06:36:52.235238+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-tokyo.gov.lk/en",
       "source": "http://emb-tokyo.gov.lk/",
-      "observed_at": "2026-09-26T06:31:17.071532+05:30"
+      "observed_at": "2026-09-27T06:36:52.235255+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-tokyo.gov.lk/en",
       "source": "https://emb-tokyo.gov.lk/",
-      "observed_at": "2026-09-26T06:31:17.071536+05:30"
+      "observed_at": "2026-09-27T06:36:52.235260+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-tokyo.gov.lk/en",
       "source": "http://emb-tokyo.gov.lk/",
-      "observed_at": "2026-09-26T06:31:17.071539+05:30"
+      "observed_at": "2026-09-27T06:36:52.235263+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-tokyo.gov.lk/en/contact-us",
       "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "observed_at": "2026-09-26T06:31:17.071541+05:30"
+      "observed_at": "2026-09-27T06:36:52.235267+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-tokyo.gov.lk/en/appointment",
       "source": "https://www.emb-tokyo.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:31:17.071544+05:30"
+      "observed_at": "2026-09-27T06:36:52.235269+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
       "source": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:31:17.071546+05:30"
+      "observed_at": "2026-09-27T06:36:52.235273+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
       "source": "https://www.emb-tokyo.gov.lk/posts/6ab5e02a5cac91b27b0dbdfc",
-      "observed_at": "2026-09-26T06:31:17.071549+05:30"
+      "observed_at": "2026-09-27T06:36:52.235275+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b3d23a516a6d563fb3",
       "source": "https://www.emb-tokyo.gov.lk/posts/6aa8b1b3d23a516a6d563fb3",
-      "observed_at": "2026-09-26T06:31:17.071551+05:30"
+      "observed_at": "2026-09-27T06:36:52.235278+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b0d23a516a6d563f7c",
       "source": "https://www.emb-tokyo.gov.lk/posts/6aa8b1b0d23a516a6d563f7c",
-      "observed_at": "2026-09-26T06:31:17.071553+05:30"
+      "observed_at": "2026-09-27T06:36:52.235281+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-tokyo.gov.lk/en/posts/6aa7b0b5d23a516a6d413909",
       "source": "https://www.emb-tokyo.gov.lk/posts/6aa7b0b5d23a516a6d413909",
-      "observed_at": "2026-09-26T06:31:17.071556+05:30"
+      "observed_at": "2026-09-27T06:36:52.235284+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-tokyo.gov.lk/en/posts/6a9fb5d0bd192e21580d7aed",
       "source": "https://www.emb-tokyo.gov.lk/posts/6a9fb5d0bd192e21580d7aed",
-      "observed_at": "2026-09-26T06:31:17.071558+05:30"
+      "observed_at": "2026-09-27T06:36:52.235287+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-tokyo.gov.lk/en/terms-and-conditions",
       "source": "https://www.emb-tokyo.gov.lk/en/terms-and-conditions",
-      "observed_at": "2026-09-26T06:31:17.071560+05:30"
+      "observed_at": "2026-09-27T06:36:52.235290+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-tokyo.gov.lk/en/data-request",
       "source": "https://www.emb-tokyo.gov.lk/en/data-request",
-      "observed_at": "2026-09-26T06:31:17.071562+05:30"
+      "observed_at": "2026-09-27T06:36:52.235293+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440- 6911",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6911"
+      }
     },
     {
       "check": "phone",
@@ -145,42 +154,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0304093868"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03-3440- 6914 ",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304104481",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304104481"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304110297",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304110297"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0990945263",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0990945263"
       }
     },
     {
@@ -195,15 +168,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6914",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0990928911",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
@@ -213,19 +177,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0991055784",
+      "detail": "Published phone: 0304110297",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "0991055784"
+        "value": "0304110297"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6911",
+      "detail": "Published phone: 03-3440- 6914",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "03-3440- 6911"
+        "value": "03-3440- 6914"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0304104481",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0304104481"
       }
     },
     {
@@ -240,10 +213,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0991055784",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0991055784"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0990945263",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0990945263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440- 6914 ",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6914 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0725834.915",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0725834.915"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -262,15 +271,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "consular.lankaembassy@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -321,46 +321,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 03-3440- 6911",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6911"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0304093868",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0304093868"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03-3440- 6914 ",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304104481",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304104481"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304110297",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304110297"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0990945263",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0990945263"
       }
     },
     {
@@ -375,15 +348,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6914",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0990928911",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
@@ -393,19 +357,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0991055784",
+      "detail": "Published phone: 0304110297",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "0991055784"
+        "value": "0304110297"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6911",
+      "detail": "Published phone: 03-3440- 6914",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "03-3440- 6911"
+        "value": "03-3440- 6914"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0304104481",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0304104481"
       }
     },
     {
@@ -420,10 +393,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0991055784",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0991055784"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0990945263",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0990945263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440- 6914 ",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6914 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0725834.915",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0725834.915"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -442,15 +451,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "consular.lankaembassy@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -501,46 +501,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 03-3440- 6911",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6911"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0304093868",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0304093868"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03-3440- 6914 ",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304104481",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304104481"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304110297",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304110297"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0990945263",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0990945263"
       }
     },
     {
@@ -555,15 +528,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6914",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0990928911",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
@@ -573,19 +537,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0991055784",
+      "detail": "Published phone: 0304110297",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "0991055784"
+        "value": "0304110297"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6911",
+      "detail": "Published phone: 03-3440- 6914",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "03-3440- 6911"
+        "value": "03-3440- 6914"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0304104481",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0304104481"
       }
     },
     {
@@ -600,10 +573,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0991055784",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0991055784"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0990945263",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0990945263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440- 6914 ",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6914 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0725834.915",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0725834.915"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -622,15 +631,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "consular.lankaembassy@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -681,46 +681,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 03-3440- 6911",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6911"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0304093868",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0304093868"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03-3440- 6914 ",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304104481",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304104481"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304110297",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0304110297"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0990945263",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "0990945263"
       }
     },
     {
@@ -735,15 +708,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6914",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "03-3440- 6914"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0990928911",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
@@ -753,19 +717,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0991055784",
+      "detail": "Published phone: 0304110297",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "0991055784"
+        "value": "0304110297"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6911",
+      "detail": "Published phone: 03-3440- 6914",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
-        "value": "03-3440- 6911"
+        "value": "03-3440- 6914"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0304104481",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0304104481"
       }
     },
     {
@@ -780,10 +753,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0991055784",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0991055784"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0990945263",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "0990945263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440- 6914 ",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "03-3440- 6914 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0725834.915",
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "0725834.915"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "source": "https://www.emb-tokyo.gov.lk/en",
+      "data": {
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -802,15 +811,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "consular.lankaembassy@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
-      "source": "https://www.emb-tokyo.gov.lk/en",
-      "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -856,24 +856,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en",
       "data": {
         "value": "26 July 2026"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03-3440- 6914 ",
-      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "data": {
-        "value": "03-3440- 6914 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03-3440-6916",
-      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "data": {
-        "value": "03-3440-6916"
       }
     },
     {
@@ -888,28 +870,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03-3440- 6914",
-      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "data": {
-        "value": "03-3440- 6914"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03-3440-6914",
-      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "data": {
-        "value": "03-3440-6914"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 03-3440- 6911",
       "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
       "data": {
         "value": "03-3440- 6911"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440- 6914",
+      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
+      "data": {
+        "value": "03-3440- 6914"
       }
     },
     {
@@ -924,10 +897,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 03-3440-6916",
+      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
+      "data": {
+        "value": "03-3440-6916"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 03-3440-6916 ",
       "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
       "data": {
         "value": "03-3440-6916 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440-6914",
+      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
+      "data": {
+        "value": "03-3440-6914"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03-3440- 6914 ",
+      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
+      "data": {
+        "value": "03-3440- 6914 "
       }
     },
     {
@@ -942,6 +942,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: commercial.tokyo@mfa.gov.lk",
+      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
+      "data": {
+        "value": "commercial.tokyo@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: information@lankaembassy.jp",
       "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
       "data": {
@@ -960,10 +969,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: commercial.tokyo@mfa.gov.lk",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
       "data": {
-        "value": "commercial.tokyo@mfa.gov.lk"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
@@ -973,6 +982,15 @@
       "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
       "data": {
         "value": "slemb.tokyo@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: information@lankaembassy.jp",
+      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
+      "data": {
+        "value": "information@lankaembassy.jp"
       }
     },
     {
@@ -982,24 +1000,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
-      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: information@lankaembassy.jp",
-      "source": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "data": {
-        "value": "information@lankaembassy.jp"
       }
     },
     {
@@ -1041,37 +1041,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 11-2 0 1 1 0 01",
-      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
-      "data": {
-        "value": "0 11-2 0 1 1 0 01"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11) 08 23881",
       "source": "https://www.emb-tokyo.gov.lk/en/appointment",
       "data": {
         "value": "+94 11) 08 23881"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0-2.493-1.646-1.",
-      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
-      "data": {
-        "value": "0-2.493-1.646-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11) 08 23886",
-      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
-      "data": {
-        "value": "+94 11) 08 23886"
       }
     },
     {
@@ -1086,6 +1059,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 11-2 0 1 1 0 01",
+      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
+      "data": {
+        "value": "0 11-2 0 1 1 0 01"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11) 08 23886",
+      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
+      "data": {
+        "value": "+94 11) 08 23886"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-2.493-1.646-1.",
+      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
+      "data": {
+        "value": "0-2.493-1.646-1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0725834.915",
       "source": "https://www.emb-tokyo.gov.lk/en/appointment",
       "data": {
@@ -1095,10 +1095,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consular@lankaembassy.jp",
+      "detail": "Published email: consular.lankaembassy@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/appointment",
       "data": {
-        "value": "consular@lankaembassy.jp"
+        "value": "consular.lankaembassy@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: y@mfa.gov.lk",
+      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
+      "data": {
+        "value": "y@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1122,10 +1140,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: consular@lankaembassy.jp",
       "source": "https://www.emb-tokyo.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "consular@lankaembassy.jp"
       }
     },
     {
@@ -1135,24 +1153,6 @@
       "source": "https://www.emb-tokyo.gov.lk/en/appointment",
       "data": {
         "value": ".lankaembassy@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: y@mfa.gov.lk",
-      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
-      "data": {
-        "value": "y@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular.lankaembassy@mfa.gov.lk",
-      "source": "https://www.emb-tokyo.gov.lk/en/appointment",
-      "data": {
-        "value": "consular.lankaembassy@mfa.gov.lk"
       }
     },
     {
@@ -1221,10 +1221,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0304104481",
+      "detail": "Published phone: 0304114983",
       "source": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "0304104481"
+        "value": "0304114983"
       }
     },
     {
@@ -1239,10 +1239,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0304114983",
+      "detail": "Published phone: 0304104481",
       "source": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "0304114983"
+        "value": "0304104481"
       }
     },
     {
@@ -1257,19 +1257,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1306,6 +1306,24 @@
       "source": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
       "data": {
         "value": "26 July 2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +81334406911",
+      "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
+      "data": {
+        "value": "+81334406911"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0304072568",
+      "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
+      "data": {
+        "value": "0304072568"
       }
     },
     {
@@ -1320,37 +1338,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +81334406911",
-      "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
-      "data": {
-        "value": "+81334406911"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0304093974",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
       "data": {
         "value": "0304093974"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0304072568",
-      "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
-      "data": {
-        "value": "0304072568"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -1360,6 +1351,15 @@
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
       "data": {
         "value": "slemb.tokyo@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1410,19 +1410,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b3d23a516a6d563fb3",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b3d23a516a6d563fb3",
       "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1464,19 +1464,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b0d23a516a6d563f7c",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b0d23a516a6d563f7c",
       "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1518,19 +1518,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6aa7b0b5d23a516a6d413909",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6aa7b0b5d23a516a6d413909",
       "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1572,19 +1572,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6a9fb5d0bd192e21580d7aed",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-tokyo.gov.lk/en/posts/6a9fb5d0bd192e21580d7aed",
       "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1626,19 +1626,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/terms-and-conditions",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-tokyo.gov.lk/en/terms-and-conditions",
       "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1680,19 +1680,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
       "source": "https://www.emb-tokyo.gov.lk/en/data-request",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.tokyo@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.tokyo@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-tokyo.gov.lk/en/data-request",
       "data": {
-        "value": "slemb.tokyo@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1759,7 +1759,7 @@
         "https://www.emb-tokyo.gov.lk/",
         "https://www.emb-tokyo.gov.lk/en"
       ],
-      "elapsed_ms": 1873,
+      "elapsed_ms": 2126,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1771,7 +1771,7 @@
         "https://www.emb-tokyo.gov.lk/",
         "https://www.emb-tokyo.gov.lk/en"
       ],
-      "elapsed_ms": 1282,
+      "elapsed_ms": 2266,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1783,7 +1783,7 @@
         "https://www.emb-tokyo.gov.lk/",
         "https://www.emb-tokyo.gov.lk/en"
       ],
-      "elapsed_ms": 741,
+      "elapsed_ms": 1195,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1795,7 +1795,7 @@
         "https://www.emb-tokyo.gov.lk/",
         "https://www.emb-tokyo.gov.lk/en"
       ],
-      "elapsed_ms": 1158,
+      "elapsed_ms": 3173,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1804,7 +1804,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-tokyo.gov.lk/en/contact-us",
       "redirects": [],
-      "elapsed_ms": 1590,
+      "elapsed_ms": 1742,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1813,7 +1813,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-tokyo.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 4838,
+      "elapsed_ms": 5062,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1822,7 +1822,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 967,
+      "elapsed_ms": 2623,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1833,7 +1833,7 @@
       "redirects": [
         "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc"
       ],
-      "elapsed_ms": 1613,
+      "elapsed_ms": 1320,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1844,7 +1844,7 @@
       "redirects": [
         "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b3d23a516a6d563fb3"
       ],
-      "elapsed_ms": 1098,
+      "elapsed_ms": 815,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1855,7 +1855,7 @@
       "redirects": [
         "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b0d23a516a6d563f7c"
       ],
-      "elapsed_ms": 1275,
+      "elapsed_ms": 1365,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1866,7 +1866,7 @@
       "redirects": [
         "https://www.emb-tokyo.gov.lk/en/posts/6aa7b0b5d23a516a6d413909"
       ],
-      "elapsed_ms": 1030,
+      "elapsed_ms": 1697,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1877,7 +1877,7 @@
       "redirects": [
         "https://www.emb-tokyo.gov.lk/en/posts/6a9fb5d0bd192e21580d7aed"
       ],
-      "elapsed_ms": 1086,
+      "elapsed_ms": 1145,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1886,7 +1886,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-tokyo.gov.lk/en/terms-and-conditions",
       "redirects": [],
-      "elapsed_ms": 1068,
+      "elapsed_ms": 1943,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1895,7 +1895,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-tokyo.gov.lk/en/data-request",
       "redirects": [],
-      "elapsed_ms": 1008,
+      "elapsed_ms": 1357,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1903,86 +1903,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-tokyo.gov.lk/en",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-01-2672e0df3d92.html",
-      "sha256": "2672e0df3d92d487335fc82abdcaa7df5e73c4b7d3251717f1df2531e06f8eb2",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-01-933ef259862b.html",
+      "sha256": "933ef259862b0dec638f664a4bb97f0cc5a4f9eda6e91a776b56e98caeeb8b75",
       "bytes": 362948
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-02-a7e17436e37d.html",
-      "sha256": "a7e17436e37d547f2f66a4bd5ebb0734a8b26309a303611050540f7647a09aa9",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-02-346e14d5b26d.html",
+      "sha256": "346e14d5b26d2e25d52d6da7640f8204f91be58e4f40697051bc6ee89137b6dc",
       "bytes": 362948
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-03-e11e8c3e67b0.html",
-      "sha256": "e11e8c3e67b09ff0a0ba120197bd4ae755297ca88ab68a113ce3c1f3fb83732b",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-03-25349306a6db.html",
+      "sha256": "25349306a6db3a6058371479ed5527f64cb60c53b36fd1bb4e28d33c449f3ed6",
       "bytes": 362948
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-04-ed15c5f6a185.html",
-      "sha256": "ed15c5f6a185fb6b9573395e4296f51ba42b3ff8c5cc7c596aa3e54cad5769f0",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-04-134fad334503.html",
+      "sha256": "134fad334503cfea5054deb0bbbd95c0479e5e3d9b31e414d2d300fa4d6fb26f",
       "bytes": 362948
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/contact-us",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-05-fa6810cddff3.html",
-      "sha256": "fa6810cddff3c14752ceb54467bbea52f03811a4aaa29dfb935aa2232293cd63",
-      "bytes": 116144
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-05-18a6357d27bd.html",
+      "sha256": "18a6357d27bdf9daaa99c894ca681f03d55101c794e1a2817280853626f379f9",
+      "bytes": 116044
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/appointment",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-06-b2ccda22bf2c.html",
-      "sha256": "b2ccda22bf2c17af6b57837d297dd726ccb98a6b9e215a82d852e8ac10c800af",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-06-7ca266eb8b20.html",
+      "sha256": "7ca266eb8b2091e3415f515b0c3c95bd3b0c28255f444f3f60163bb7b7416054",
       "bytes": 1000000
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-07-d015bfb1794b.html",
-      "sha256": "d015bfb1794bffb862ac4b7485419e4f4670f243559699fc288d9eb75bdf5411",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-07-f40c8002c8aa.html",
+      "sha256": "f40c8002c8aa90c52515177096090358d9663bd1a5c49a7646bbccfea1a6dbfb",
       "bytes": 238161
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/posts/6ab5e02a5cac91b27b0dbdfc",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-08-0277e80d11be.html",
-      "sha256": "0277e80d11be9c73314f4fac1689903920829ade7674708310adfa25a36900ec",
-      "bytes": 122286
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-08-4a47fd28bc85.html",
+      "sha256": "4a47fd28bc8578f2b2f7a8a0927016d6864bc66fb4ac4d85e98d032e372464d5",
+      "bytes": 122386
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b3d23a516a6d563fb3",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-09-a56b9fffc444.html",
-      "sha256": "a56b9fffc44477815e2c1c7221776c77aea4af1bd2e53832406047c04d4a4a89",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-09-812f2d9875d4.html",
+      "sha256": "812f2d9875d43806124c79775a97f55d6ceca167e5d13053e8271bf9f8bf96b3",
       "bytes": 118465
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/posts/6aa8b1b0d23a516a6d563f7c",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-10-3c4610a1cc4e.html",
-      "sha256": "3c4610a1cc4efa3ad55fe25f54b5b41b13528b26e46556c8ca91788b1915dd70",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-10-8d3085aedbaa.html",
+      "sha256": "8d3085aedbaae6426ec4848440d3f699557c1dbba5dd2ffe7a2d4a253b306785",
       "bytes": 124255
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/posts/6aa7b0b5d23a516a6d413909",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-11-7fb6b5963bd2.html",
-      "sha256": "7fb6b5963bd29fbfe3e2661ae3e50fcb1e4bcc7a2735bc98f49cf47f842d8a14",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-11-59a8e8b7c704.html",
+      "sha256": "59a8e8b7c704c3c5d2f2fd1db6db85f0b17c09c250eb91d8a731b16f922b8272",
       "bytes": 120434
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/posts/6a9fb5d0bd192e21580d7aed",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-12-00974bda4ed2.html",
-      "sha256": "00974bda4ed250f142485a1bb41aa0cec8d10b8728d7b602a85ab1ebde0ee530",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-12-2b917ffa8765.html",
+      "sha256": "2b917ffa876523606861048886d567df2597955bda1d426b68ec7696ec70f342",
       "bytes": 121003
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/terms-and-conditions",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-13-611fca801af3.html",
-      "sha256": "611fca801af3c8067a7de75e354cd497dcf0600a2787d674359e253bfed07574",
-      "bytes": 132105
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-13-7935b3cf1e8c.html",
+      "sha256": "7935b3cf1e8ccfc58169c2adf5b515169a9aaa01ab3a823edcc67da92e423875",
+      "bytes": 132205
     },
     {
       "url": "https://www.emb-tokyo.gov.lk/en/data-request",
-      "path": "audit.output/emb-tokyo.gov.lk/20260926.0630/snapshots/page-14-1f7323c8d936.html",
-      "sha256": "1f7323c8d936440b6742d2383480860cd867c9b6b72173e4631748343522ea4f",
+      "path": "audit.output/emb-tokyo.gov.lk/20260927.0636/snapshots/page-14-f9d5d7bb2a47.html",
+      "sha256": "f9d5d7bb2a473fa7ad9e614f7f011aa7f679aaeffa8b2bec8e9fe95c6af33e88",
       "bytes": 112945
     }
   ],
@@ -2069,7 +2069,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: 2-1-54, Takanawa, Minato-ku, Tokyo 108-0074 Register as a Sri Lankan Abroad If you are a Sri Lankan living abroad, you m; Phone: 0304093868 (20 phone numbers found); Email: john@example.com (8 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: 2-1-54, Takanawa, Minato-ku, Tokyo 108-0074 Register as a Sri Lankan Abroad If you are a Sri Lankan living abroad, you m; Phone: 03-3440- 6911 (20 phone numbers found); Email: slemb.tokyo@mfa.gov.lk (8 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2082,7 +2082,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0304093868 (20 phone numbers found); Email: john@example.com (8 email addresses found)"
+          "reason": "Phone: 03-3440- 6911 (20 phone numbers found); Email: slemb.tokyo@mfa.gov.lk (8 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2161,7 +2161,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "1ca07c51-e74a-4c40-b645-c05759f6ba01",
+  "audit_id": "fe373f72-7665-4e89-ae18-febd9ea810d6",
   "url": "https://www.smib.lk/",
   "normalized_url": "https://www.smib.lk/",
-  "started_at": "2026-09-26T06:27:25.106017+05:30",
-  "completed_at": "2026-09-26T06:27:54.068280+05:30",
+  "started_at": "2026-09-27T06:33:11.241503+05:30",
+  "completed_at": "2026-09-27T06:33:36.714792+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:27:25.961476+05:30"
+      "observed_at": "2026-09-27T06:33:11.751097+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:27:25.961496+05:30"
+      "observed_at": "2026-09-27T06:33:11.751118+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:27:27.262005+05:30"
+      "observed_at": "2026-09-27T06:33:12.406722+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.smib.lk/en",
       "source": "https://www.smib.lk/",
-      "observed_at": "2026-09-26T06:27:53.619442+05:30"
+      "observed_at": "2026-09-27T06:33:36.100601+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.smib.lk/en",
       "source": "http://www.smib.lk/",
-      "observed_at": "2026-09-26T06:27:53.619462+05:30"
+      "observed_at": "2026-09-27T06:33:36.100620+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.smib.lk/en",
       "source": "https://www.smib.lk/",
-      "observed_at": "2026-09-26T06:27:53.619465+05:30"
+      "observed_at": "2026-09-27T06:33:36.100625+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.smib.lk/en",
       "source": "http://www.smib.lk/",
-      "observed_at": "2026-09-26T06:27:53.619468+05:30"
+      "observed_at": "2026-09-27T06:33:36.100628+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.smib.lk/en/contact-us",
       "source": "https://www.smib.lk/en/contact-us",
-      "observed_at": "2026-09-26T06:27:53.619470+05:30"
+      "observed_at": "2026-09-27T06:33:36.100631+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.smib.lk/si",
       "source": "https://www.smib.lk/si",
-      "observed_at": "2026-09-26T06:27:53.619472+05:30"
+      "observed_at": "2026-09-27T06:33:36.100634+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.smib.lk/ta",
       "source": "https://www.smib.lk/ta",
-      "observed_at": "2026-09-26T06:27:53.619474+05:30"
+      "observed_at": "2026-09-27T06:33:36.100636+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.smib.lk/en/loan-rates",
       "source": "https://www.smib.lk/en/loan-rates",
-      "observed_at": "2026-09-26T06:27:53.619477+05:30"
+      "observed_at": "2026-09-27T06:33:36.100639+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.smib.lk/en/savings-deposits-rates",
       "source": "https://www.smib.lk/en/savings-deposits-rates",
-      "observed_at": "2026-09-26T06:27:53.619479+05:30"
+      "observed_at": "2026-09-27T06:33:36.100641+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.smib.lk/en/senior-citizen-fd-rates",
       "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
-      "observed_at": "2026-09-26T06:27:53.619481+05:30"
+      "observed_at": "2026-09-27T06:33:36.100644+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.smib.lk/en/procurement",
       "source": "https://www.smib.lk/en/procurement",
-      "observed_at": "2026-09-26T06:27:53.619483+05:30"
+      "observed_at": "2026-09-27T06:33:36.100647+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.smib.lk/en/about-smib",
       "source": "https://www.smib.lk/en/about-smib",
-      "observed_at": "2026-09-26T06:27:53.619485+05:30"
+      "observed_at": "2026-09-27T06:33:36.100649+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.smib.lk/en/board-of-directors",
       "source": "https://www.smib.lk/en/board-of-directors",
-      "observed_at": "2026-09-26T06:27:53.619487+05:30"
+      "observed_at": "2026-09-27T06:33:36.100652+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.smib.lk/en/management",
       "source": "https://www.smib.lk/en/management",
-      "observed_at": "2026-09-26T06:27:53.619489+05:30"
+      "observed_at": "2026-09-27T06:33:36.100654+05:30"
     },
     {
       "check": "phone",
@@ -150,10 +150,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -168,10 +168,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -231,10 +231,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -249,10 +249,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -312,10 +312,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -330,10 +330,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -393,10 +393,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -411,10 +411,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -460,33 +460,6 @@
       "source": "https://www.smib.lk/en",
       "data": {
         "value": "https://www.smib.lk/upload/reports/supplier-registration-application-for-the-year-2026.pdf"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0008305927",
-      "source": "https://www.smib.lk/en/contact-us",
-      "data": {
-        "value": "0008305927"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
-      "source": "https://www.smib.lk/en/contact-us",
-      "data": {
-        "value": "011-2575031 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2573561 ",
-      "source": "https://www.smib.lk/en/contact-us",
-      "data": {
-        "value": "011-2573561 "
       }
     },
     {
@@ -501,10 +474,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2573561 ",
       "source": "https://www.smib.lk/en/contact-us",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2573561 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0008305927",
+      "source": "https://www.smib.lk/en/contact-us",
+      "data": {
+        "value": "0008305927"
       }
     },
     {
@@ -514,6 +496,24 @@
       "source": "https://www.smib.lk/en/contact-us",
       "data": {
         "value": "1922"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-7722722-",
+      "source": "https://www.smib.lk/en/contact-us",
+      "data": {
+        "value": "011-7722722-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2575031 ",
+      "source": "https://www.smib.lk/en/contact-us",
+      "data": {
+        "value": "011-2575031 "
       }
     },
     {
@@ -573,10 +573,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/si",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -591,10 +591,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/si",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -645,10 +645,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/ta",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -663,10 +663,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/ta",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -717,10 +717,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en/loan-rates",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -735,10 +735,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en/loan-rates",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -807,10 +807,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en/savings-deposits-rates",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -825,10 +825,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en/savings-deposits-rates",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -874,42 +874,6 @@
       "source": "https://www.smib.lk/en/savings-deposits-rates",
       "data": {
         "value": "https://www.smib.lk/upload/reports/supplier-registration-application-for-the-year-2026.pdf"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 8.08 7.25 7.50 ",
-      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
-      "data": {
-        "value": "0 8.08 7.25 7.50 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0008305927",
-      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
-      "data": {
-        "value": "0008305927"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
-      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
-      "data": {
-        "value": "011-2575031 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-7722722-",
-      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
-      "data": {
-        "value": "011-7722722-"
       }
     },
     {
@@ -924,19 +888,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00 7.70 7.25 7.5",
+      "detail": "Published phone: 0008305927",
       "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
       "data": {
-        "value": "00 7.70 7.25 7.5"
+        "value": "0008305927"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00 7.12 6.75 6.9",
+      "detail": "Published phone: 00 7.70 7.25 7.5",
       "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
       "data": {
-        "value": "00 7.12 6.75 6.9"
+        "value": "00 7.70 7.25 7.5"
       }
     },
     {
@@ -951,10 +915,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011-7722722-",
+      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
+      "data": {
+        "value": "011-7722722-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 7.99 7.25 7.5",
       "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
       "data": {
         "value": "00 7.99 7.25 7.5"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 7.12 6.75 6.9",
+      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
+      "data": {
+        "value": "00 7.12 6.75 6.9"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2575031 ",
+      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
+      "data": {
+        "value": "011-2575031 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 8.08 7.25 7.50 ",
+      "source": "https://www.smib.lk/en/senior-citizen-fd-rates",
+      "data": {
+        "value": "0 8.08 7.25 7.50 "
       }
     },
     {
@@ -1014,10 +1014,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en/procurement",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -1032,10 +1032,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en/procurement",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -1095,10 +1095,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en/about-smib",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -1113,10 +1113,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en/about-smib",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -1176,10 +1176,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en/board-of-directors",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -1194,10 +1194,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en/board-of-directors",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -1266,10 +1266,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-7722722-",
+      "detail": "Published phone: 011-2575031 ",
       "source": "https://www.smib.lk/en/management",
       "data": {
-        "value": "011-7722722-"
+        "value": "011-2575031 "
       }
     },
     {
@@ -1284,10 +1284,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2575031 ",
+      "detail": "Published phone: 011-7722722-",
       "source": "https://www.smib.lk/en/management",
       "data": {
-        "value": "011-2575031 "
+        "value": "011-7722722-"
       }
     },
     {
@@ -1371,7 +1371,7 @@
       "redirects": [
         "https://www.smib.lk/en"
       ],
-      "elapsed_ms": 882,
+      "elapsed_ms": 632,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1383,7 +1383,7 @@
         "https://www.smib.lk/",
         "https://www.smib.lk/en"
       ],
-      "elapsed_ms": 1094,
+      "elapsed_ms": 1004,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1394,7 +1394,7 @@
       "redirects": [
         "https://www.smib.lk/en"
       ],
-      "elapsed_ms": 888,
+      "elapsed_ms": 561,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1406,7 +1406,7 @@
         "https://www.smib.lk/",
         "https://www.smib.lk/en"
       ],
-      "elapsed_ms": 5888,
+      "elapsed_ms": 561,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1415,7 +1415,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/contact-us",
       "redirects": [],
-      "elapsed_ms": 872,
+      "elapsed_ms": 560,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1424,7 +1424,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/si",
       "redirects": [],
-      "elapsed_ms": 880,
+      "elapsed_ms": 603,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1433,7 +1433,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/ta",
       "redirects": [],
-      "elapsed_ms": 842,
+      "elapsed_ms": 806,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1442,7 +1442,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/loan-rates",
       "redirects": [],
-      "elapsed_ms": 832,
+      "elapsed_ms": 816,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1451,7 +1451,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/savings-deposits-rates",
       "redirects": [],
-      "elapsed_ms": 873,
+      "elapsed_ms": 587,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1460,7 +1460,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/senior-citizen-fd-rates",
       "redirects": [],
-      "elapsed_ms": 875,
+      "elapsed_ms": 1003,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1469,7 +1469,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/procurement",
       "redirects": [],
-      "elapsed_ms": 881,
+      "elapsed_ms": 1433,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1478,7 +1478,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/about-smib",
       "redirects": [],
-      "elapsed_ms": 892,
+      "elapsed_ms": 2307,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1487,7 +1487,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/board-of-directors",
       "redirects": [],
-      "elapsed_ms": 856,
+      "elapsed_ms": 602,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1496,7 +1496,7 @@
       "status_code": 200,
       "final_url": "https://www.smib.lk/en/management",
       "redirects": [],
-      "elapsed_ms": 878,
+      "elapsed_ms": 553,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1504,86 +1504,86 @@
   "snapshots": [
     {
       "url": "https://www.smib.lk/en",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-01-5e29afc870cc.html",
-      "sha256": "5e29afc870cc2e3819db2b39ce1e4fb8624f15259aac19f900a64d87bb8965bc",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-01-93ef0e616ee7.html",
+      "sha256": "93ef0e616ee79ca0f1e15a6debc9725e65af8b34294e70509123e78a7cc3a0f2",
       "bytes": 166249
     },
     {
       "url": "https://www.smib.lk/en",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-02-aecc2f0fe892.html",
-      "sha256": "aecc2f0fe89275851edc3eaff3ea0fb97f78f923264e96e1ce3d4a0d124135f5",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-02-6078c383fc6f.html",
+      "sha256": "6078c383fc6f2a8d5c6a704e2e5cb42de667031b35ad0c9bd3997ed9019e2e72",
       "bytes": 166249
     },
     {
       "url": "https://www.smib.lk/en",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-03-f93f57069b94.html",
-      "sha256": "f93f57069b9458eaf6880d10f1fd9742d446a7604232bca30fa915d850e27694",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-03-664a94ccca27.html",
+      "sha256": "664a94ccca2707576644372fccbb9d1d9cd5aa9e87665fe173a9caddd01d05fe",
       "bytes": 166249
     },
     {
       "url": "https://www.smib.lk/en",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-04-54f68d2b95de.html",
-      "sha256": "54f68d2b95decd3bff701be5312adca13a3951f8735aa35c62d2102ee6b4a538",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-04-e6782f990d5d.html",
+      "sha256": "e6782f990d5d1988976f9bc2d4c31e0409c34e7fa4375e29a88ab1cf7e11d6c2",
       "bytes": 166249
     },
     {
       "url": "https://www.smib.lk/en/contact-us",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-05-4ac650ec29e2.html",
-      "sha256": "4ac650ec29e259d9a5696e9af5d918216b0d5713369aa853fa7ceaa46a6fb1e7",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-05-a086cfef3f40.html",
+      "sha256": "a086cfef3f40aa5e7746b0a97aaa6cda20e2a8645307153a32e215cad74fbc21",
       "bytes": 83660
     },
     {
       "url": "https://www.smib.lk/si",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-06-595286ce16f5.html",
-      "sha256": "595286ce16f57993e4b4fa3b40634de492f689d8d19a532c7b56a2cdc6458e29",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-06-753d165ab955.html",
+      "sha256": "753d165ab955328735546fa5a9439f544e0450ee862cc184664bde8ffd584a02",
       "bytes": 184554
     },
     {
       "url": "https://www.smib.lk/ta",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-07-61b9c25f4e4b.html",
-      "sha256": "61b9c25f4e4b53ca9e833e370a0dcd47b833f048f26d6b4314298e8535740c86",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-07-3a632a9e5f3f.html",
+      "sha256": "3a632a9e5f3f6a745be9d4911375f6b66f1735f63ad64854b25425a79d5e614d",
       "bytes": 190330
     },
     {
       "url": "https://www.smib.lk/en/loan-rates",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-08-ba72ca945745.html",
-      "sha256": "ba72ca94574590c2745ea91d0039847a98f90efc1d310f72accf5a5f26ff57bd",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-08-574a572df045.html",
+      "sha256": "574a572df045d89ba285eb972a7adfadfc3cb01a72871199630c45b0b7a40f01",
       "bytes": 123627
     },
     {
       "url": "https://www.smib.lk/en/savings-deposits-rates",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-09-2c8baa80674f.html",
-      "sha256": "2c8baa80674feeb8eeeec91e07374d9241d93f5a753b8234d3cfbfe6bf4707ea",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-09-510850d26d74.html",
+      "sha256": "510850d26d746955b213779b25d3473e3fcc73e99feb201a0692401ff2ff37fe",
       "bytes": 69600
     },
     {
       "url": "https://www.smib.lk/en/senior-citizen-fd-rates",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-10-820eceedc7d8.html",
-      "sha256": "820eceedc7d87379fb43eedbceecf5e045b08bed663f6b484548f9d7b58791b1",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-10-78571b171225.html",
+      "sha256": "78571b171225bda5e93f13a6da85a05583b0d4e592b5987ca23f38b1dcaedd3b",
       "bytes": 71653
     },
     {
       "url": "https://www.smib.lk/en/procurement",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-11-05441983e1a5.html",
-      "sha256": "05441983e1a5a66cf1ca7e09e7e6cf9ee6573e3d5cf4846c62bea3c32b4b6426",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-11-58fbded5d5ff.html",
+      "sha256": "58fbded5d5ff4a8da22b6a2370089489bfc7048c95315d7a297d752ba00d3ab3",
       "bytes": 92603
     },
     {
       "url": "https://www.smib.lk/en/about-smib",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-12-184e7837e891.html",
-      "sha256": "184e7837e891949557eaede650085dff37209d5a3ad815dce0b6bb2032b28962",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-12-57a9b1893c37.html",
+      "sha256": "57a9b1893c376c51433bfdbad34a097a3a2a25ab638a948ad06930ae544ace54",
       "bytes": 88613
     },
     {
       "url": "https://www.smib.lk/en/board-of-directors",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-13-9374b3fd4c0e.html",
-      "sha256": "9374b3fd4c0eecdd98af882b4bf2a94ba7d3ecfadfb576b851a21a180c26136e",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-13-70f3eb8a10cd.html",
+      "sha256": "70f3eb8a10cd6a378c3b7d73d282cac2cde80969f1ea21ed2e4b49cb4e47719f",
       "bytes": 89745
     },
     {
       "url": "https://www.smib.lk/en/management",
-      "path": "audit.output/www.smib.lk/20260926.0627/snapshots/page-14-dec77d27df81.html",
-      "sha256": "dec77d27df81fc8d331b0776c6c272edbcd5619bf7bcaeede6f0a86abb023800",
+      "path": "audit.output/www.smib.lk/20260927.0633/snapshots/page-14-b8b1b52f0afe.html",
+      "sha256": "b8b1b52f0afedfb47f36414bab9140a61db803130a90cfac4380ff18365b600a",
       "bytes": 75279
     }
   ],
@@ -1762,7 +1762,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

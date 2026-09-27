@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "802d25b2-10f2-4579-91a4-4e88c8acf490",
+  "audit_id": "615632f3-fd12-4067-bbc0-2aae9056bf7d",
   "url": "https://emb-manila.gov.lk",
   "normalized_url": "https://emb-manila.gov.lk/",
-  "started_at": "2026-09-26T06:31:22.136713+05:30",
-  "completed_at": "2026-09-26T06:31:59.570032+05:30",
+  "started_at": "2026-09-27T06:36:39.452493+05:30",
+  "completed_at": "2026-09-27T06:37:22.102738+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -17,132 +17,123 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:31:22.735832+05:30"
+      "observed_at": "2026-09-27T06:36:39.847468+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:31:22.735853+05:30"
+      "observed_at": "2026-09-27T06:36:39.847489+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:31:23.396902+05:30"
+      "observed_at": "2026-09-27T06:36:40.584473+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-manila.gov.lk/en",
       "source": "https://emb-manila.gov.lk/",
-      "observed_at": "2026-09-26T06:31:58.126047+05:30"
+      "observed_at": "2026-09-27T06:37:20.213385+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-manila.gov.lk/en",
       "source": "http://emb-manila.gov.lk/",
-      "observed_at": "2026-09-26T06:31:58.126067+05:30"
+      "observed_at": "2026-09-27T06:37:20.213404+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-manila.gov.lk/en",
       "source": "https://emb-manila.gov.lk/",
-      "observed_at": "2026-09-26T06:31:58.126071+05:30"
+      "observed_at": "2026-09-27T06:37:20.213409+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-manila.gov.lk/en",
       "source": "http://emb-manila.gov.lk/",
-      "observed_at": "2026-09-26T06:31:58.126073+05:30"
+      "observed_at": "2026-09-27T06:37:20.213412+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-manila.gov.lk/en/contact",
       "source": "https://www.emb-manila.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:31:58.126076+05:30"
+      "observed_at": "2026-09-27T06:37:20.213415+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-manila.gov.lk/en/bilateral-relations",
       "source": "https://www.emb-manila.gov.lk/en/bilateral-relations",
-      "observed_at": "2026-09-26T06:31:58.126078+05:30"
+      "observed_at": "2026-09-27T06:37:20.213418+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-manila.gov.lk/en/visit-srilanka",
       "source": "https://www.emb-manila.gov.lk/en/visit-srilanka",
-      "observed_at": "2026-09-26T06:31:58.126081+05:30"
+      "observed_at": "2026-09-27T06:37:20.213421+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-manila.gov.lk/en/invest-in-srilanka",
       "source": "https://www.emb-manila.gov.lk/en/invest-in-srilanka",
-      "observed_at": "2026-09-26T06:31:58.126083+05:30"
+      "observed_at": "2026-09-27T06:37:20.213424+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-manila.gov.lk/en/appointment",
       "source": "https://www.emb-manila.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:31:58.126085+05:30"
+      "observed_at": "2026-09-27T06:37:20.213427+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
-      "observed_at": "2026-09-26T06:31:58.126088+05:30"
+      "observed_at": "2026-09-27T06:37:20.213430+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
-      "observed_at": "2026-09-26T06:31:58.126090+05:30"
+      "observed_at": "2026-09-27T06:37:20.213433+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
-      "observed_at": "2026-09-26T06:31:58.126093+05:30"
+      "observed_at": "2026-09-27T06:37:20.213435+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
-      "observed_at": "2026-09-26T06:31:58.126095+05:30"
+      "observed_at": "2026-09-27T06:37:20.213438+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
-      "observed_at": "2026-09-26T06:31:58.126098+05:30"
+      "observed_at": "2026-09-27T06:37:20.213440+05:30"
     },
     {
       "check": "generic_hosting",
       "status": "fail",
       "detail": "Detected generic hosting marker: under construction",
       "source": "https://www.emb-manila.gov.lk/en"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0325954594",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "0325954594"
-      }
     },
     {
       "check": "phone",
@@ -172,66 +163,6 @@
       }
     },
     {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "postal_address",
-      "status": "pass",
-      "detail": "Published postal address: Line 1\\\",\\\"back_to_home_button\\\":\\\"Back to Home\\\",\\\"powered_by\\\":\\\"Powered by\\\",\\\"created_on_label\\\":\\\"Created On\\\",\\\"ca",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "Line 1\\\",\\\"back_to_home_button\\\":\\\"Back to Home\\\",\\\"powered_by\\\":\\\"Powered by\\\",\\\"created_on_label\\\":\\\"Created On\\\",\\\"ca"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "fees_and_payment",
-      "status": "pass",
-      "detail": "Published fees and payment: rs,",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "rs,"
-      }
-    },
-    {
-      "check": "generic_hosting",
-      "status": "fail",
-      "detail": "Detected generic hosting marker: under construction",
-      "source": "https://www.emb-manila.gov.lk/en"
-    },
-    {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 0325954594",
@@ -241,30 +172,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0300000000",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
       "source": "https://www.emb-manila.gov.lk/en",
       "data": {
-        "value": "0300000000"
+        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +63288120125",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
       "source": "https://www.emb-manila.gov.lk/en",
       "data": {
-        "value": "+63288120125"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +63288120124",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "+63288120124"
+        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -274,24 +196,6 @@
       "source": "https://www.emb-manila.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -330,15 +234,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0325954594",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "0325954594"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0300000000",
       "source": "https://www.emb-manila.gov.lk/en",
       "data": {
@@ -364,30 +259,39 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0325954594",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "0325954594"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -426,11 +330,98 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0300000000",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "0300000000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +63288120125",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "+63288120125"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +63288120124",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "+63288120124"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0325954594",
       "source": "https://www.emb-manila.gov.lk/en",
       "data": {
         "value": "0325954594"
       }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Line 1\\\",\\\"back_to_home_button\\\":\\\"Back to Home\\\",\\\"powered_by\\\":\\\"Powered by\\\",\\\"created_on_label\\\":\\\"Created On\\\",\\\"ca",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "Line 1\\\",\\\"back_to_home_button\\\":\\\"Back to Home\\\",\\\"powered_by\\\":\\\"Powered by\\\",\\\"created_on_label\\\":\\\"Created On\\\",\\\"ca"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "rs,"
+      }
+    },
+    {
+      "check": "generic_hosting",
+      "status": "fail",
+      "detail": "Detected generic hosting marker: under construction",
+      "source": "https://www.emb-manila.gov.lk/en"
     },
     {
       "check": "phone",
@@ -460,30 +451,39 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0325954594",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "0325954594"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -525,19 +525,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
       "source": "https://www.emb-manila.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/contact",
       "data": {
-        "value": "slemb.manila@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -579,19 +579,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
       "source": "https://www.emb-manila.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "slemb.manila@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -633,19 +633,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
       "source": "https://www.emb-manila.gov.lk/en/visit-srilanka",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/visit-srilanka",
       "data": {
-        "value": "slemb.manila@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -687,19 +687,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
       "source": "https://www.emb-manila.gov.lk/en/invest-in-srilanka",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/invest-in-srilanka",
       "data": {
-        "value": "slemb.manila@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -750,28 +750,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/appointment",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -840,28 +840,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -930,28 +930,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -1020,28 +1020,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -1110,28 +1110,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -1200,28 +1200,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.manila@mfa.gov.lk",
+      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
+      "data": {
+        "value": "slemb.manila@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.manila@mfa.gov.lk",
-      "source": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
-      "data": {
-        "value": "slemb.manila@mfa.gov.lk"
       }
     },
     {
@@ -1306,7 +1306,7 @@
         "https://www.emb-manila.gov.lk/",
         "https://www.emb-manila.gov.lk/en"
       ],
-      "elapsed_ms": 3705,
+      "elapsed_ms": 1870,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1318,7 +1318,7 @@
         "https://www.emb-manila.gov.lk/",
         "https://www.emb-manila.gov.lk/en"
       ],
-      "elapsed_ms": 2985,
+      "elapsed_ms": 2008,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1330,7 +1330,7 @@
         "https://www.emb-manila.gov.lk/",
         "https://www.emb-manila.gov.lk/en"
       ],
-      "elapsed_ms": 1894,
+      "elapsed_ms": 2390,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1342,7 +1342,7 @@
         "https://www.emb-manila.gov.lk/",
         "https://www.emb-manila.gov.lk/en"
       ],
-      "elapsed_ms": 926,
+      "elapsed_ms": 1929,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1351,7 +1351,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1115,
+      "elapsed_ms": 2229,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1360,7 +1360,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/bilateral-relations",
       "redirects": [],
-      "elapsed_ms": 734,
+      "elapsed_ms": 1446,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1369,7 +1369,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/visit-srilanka",
       "redirects": [],
-      "elapsed_ms": 734,
+      "elapsed_ms": 1747,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1378,7 +1378,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/invest-in-srilanka",
       "redirects": [],
-      "elapsed_ms": 1087,
+      "elapsed_ms": 792,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1387,7 +1387,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2195,
+      "elapsed_ms": 3091,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1396,7 +1396,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
       "redirects": [],
-      "elapsed_ms": 3042,
+      "elapsed_ms": 2117,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1405,7 +1405,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
       "redirects": [],
-      "elapsed_ms": 1729,
+      "elapsed_ms": 2183,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1414,7 +1414,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
       "redirects": [],
-      "elapsed_ms": 1746,
+      "elapsed_ms": 3109,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1423,7 +1423,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
       "redirects": [],
-      "elapsed_ms": 1636,
+      "elapsed_ms": 3811,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1432,7 +1432,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
       "redirects": [],
-      "elapsed_ms": 2437,
+      "elapsed_ms": 1818,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1440,86 +1440,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-manila.gov.lk/en",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-01-0aaae63cd73c.html",
-      "sha256": "0aaae63cd73cce3009c788399b2ed3a0c924a87813dc358455e0a7559d51618b",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-01-a33bfcbf5afb.html",
+      "sha256": "a33bfcbf5afbe70b55edf887bc465d74b484d5431963d31fa4cf990f41917155",
       "bytes": 334753
     },
     {
       "url": "https://www.emb-manila.gov.lk/en",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-02-bc2bc8b3aba6.html",
-      "sha256": "bc2bc8b3aba6964578a2ff2376f7af52a47625fdc763025737c701e009614a6c",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-02-8b4f95a96aa8.html",
+      "sha256": "8b4f95a96aa87c000acf08b2571792fa83863bbb58606aa978bf6bdc1e5e0491",
       "bytes": 334753
     },
     {
       "url": "https://www.emb-manila.gov.lk/en",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-03-8934d01e111a.html",
-      "sha256": "8934d01e111ab560ba2849c8e2d8a80baceaf790eb5feb1f79d02fdaed518ba9",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-03-06958a5ceb53.html",
+      "sha256": "06958a5ceb53250d82399c0a761dde8c4a12b6d363595ed6f073f723af7a9ed5",
       "bytes": 334753
     },
     {
       "url": "https://www.emb-manila.gov.lk/en",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-04-95ccf387b301.html",
-      "sha256": "95ccf387b301d6317468bb45f6444f13990a271c25bb62749b8c2e29e854101c",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-04-9838de757ca2.html",
+      "sha256": "9838de757ca2b6dde86e96017111537fded25e59c2459bc14e86070bb9079b6d",
       "bytes": 334753
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/contact",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-05-0d706596ca66.html",
-      "sha256": "0d706596ca66544a0fd2bfded4e8c90ab4db45a12bcb4282b047247cffdd2610",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-05-d6a7b0376c16.html",
+      "sha256": "d6a7b0376c1656d09665142c95a9f39a9503a84d7008ac5797671661a8135e8d",
       "bytes": 98130
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/bilateral-relations",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-06-0042467aba65.html",
-      "sha256": "0042467aba650f73cc86c09e5d79386158d10acc1cebfcc6ea600827a0059f4e",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-06-94e9b01c7f91.html",
+      "sha256": "94e9b01c7f913051deeffe40931de919d1f0f9bfcf44ff1fb0f6fc0024ecbb5d",
       "bytes": 97952
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/visit-srilanka",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-07-0414351ea3d6.html",
-      "sha256": "0414351ea3d606017a073fff9154e3f0e04e563d5131d44fc7acc48095b24372",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-07-f783e4b726ec.html",
+      "sha256": "f783e4b726ecabcbc91f5d99fec736d15484c29565918108f34c52411f269154",
       "bytes": 92181
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/invest-in-srilanka",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-08-3a774ff2c117.html",
-      "sha256": "3a774ff2c1172688fd3ac6e262dbbbc6466500f8671dc4a6977219f6245cdd3d",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-08-f5b9ad36a502.html",
+      "sha256": "f5b9ad36a50272ec27ecc074f1b9a7ea2235c1aae226a450fb1bd939bf107688",
       "bytes": 96129
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/appointment",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-09-d6fb06bc0a8b.html",
-      "sha256": "d6fb06bc0a8b5367e2151e3f88bc24b217de8bd3c1d021d9a94a8b31c802ec16",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-09-2b006ad23d7f.html",
+      "sha256": "2b006ad23d7fdab137f877ff099ab23909fa9722395aefea5be508f8467fc52d",
       "bytes": 217989
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c5e49d00a731f21c218e",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-10-61ce062485fe.html",
-      "sha256": "61ce062485fe09ebdb4ec4daa84e9c8d4b674589395b5953f1e9f65f80b9d72f",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-10-5c801f949473.html",
+      "sha256": "5c801f949473d1880e4b5079605569ebf35b75ee26c2ae074ded443ebc0a7d57",
       "bytes": 218144
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a450677d67983055d05a4e2",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-11-9f855d51840a.html",
-      "sha256": "9f855d51840abd6b695652aaa28f25640b170ae19406b18e5aa879501d3c9d45",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-11-9369837258e5.html",
+      "sha256": "9369837258e511eeb16d57216a7e3911e3eba485c5ce3675bfd46101f896c31b",
       "bytes": 218144
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c6029d00a731f21c21d8",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-12-d8c553063c50.html",
-      "sha256": "d8c553063c5039f877c036371cfc1d682803a7f7e9f90309c8556b1f7d5c6748",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-12-d91d762f983c.html",
+      "sha256": "d91d762f983c2eb4118f5e0139f2921c6fa6fa2e25300ceb8b045518ffcbf58c",
       "bytes": 218144
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c671d67983055d056180",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-13-016b38fb55ce.html",
-      "sha256": "016b38fb55ce8cf23cd9de56d8d69c62a60276d6b6cafbf3377b200b82e40c16",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-13-b71af7307115.html",
+      "sha256": "b71af7307115c68079c4493ba444c9ed214e01c338ede14707cba4ced5927075",
       "bytes": 218144
     },
     {
       "url": "https://www.emb-manila.gov.lk/en/appointment?serviceId=6a44c7809d00a731f21c24c5",
-      "path": "audit.output/emb-manila.gov.lk/20260926.0631/snapshots/page-14-2d2a6263e990.html",
-      "sha256": "2d2a6263e990e949fffd70fee7571ae47dad0da278beca83b5bbbd972fb6a1e9",
+      "path": "audit.output/emb-manila.gov.lk/20260927.0636/snapshots/page-14-5818985d2905.html",
+      "sha256": "5818985d2905ce4da8e474c09cf4bee8c28b31cf2aef6142bc2b714fb349709e",
       "bytes": 218144
     }
   ],
@@ -1636,7 +1636,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

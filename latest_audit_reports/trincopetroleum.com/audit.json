@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "2e1a7bab-e5f1-41bf-b903-c97033101233",
+  "audit_id": "ba94c40d-3d35-48d3-8ccd-a80c8533b815",
   "url": "https://trincopetroleum.com/",
   "normalized_url": "https://trincopetroleum.com/",
-  "started_at": "2026-09-26T06:20:45.552122+05:30",
-  "completed_at": "2026-09-26T06:20:49.796284+05:30",
+  "started_at": "2026-09-27T06:27:26.406806+05:30",
+  "completed_at": "2026-09-27T06:27:30.286648+05:30",
   "result": {
     "status": "inconclusive",
     "confidence": 0.5,
@@ -20,47 +20,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:20:45.981446+05:30"
+      "observed_at": "2026-09-27T06:27:26.617162+05:30"
     },
     {
       "check": "domain_registration",
       "status": "pass",
       "detail": "Domain registered",
-      "observed_at": "2026-09-26T06:20:45.981453+05:30"
+      "observed_at": "2026-09-27T06:27:26.617172+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:20:46.445134+05:30"
+      "observed_at": "2026-09-27T06:27:27.002223+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 202 at https://trincopetroleum.com/",
       "source": "https://trincopetroleum.com/",
-      "observed_at": "2026-09-26T06:20:49.795334+05:30"
+      "observed_at": "2026-09-27T06:27:30.285496+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 202 at http://trincopetroleum.com/",
       "source": "http://trincopetroleum.com/",
-      "observed_at": "2026-09-26T06:20:49.795355+05:30"
+      "observed_at": "2026-09-27T06:27:30.285515+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 202 at https://trincopetroleum.com/",
       "source": "https://trincopetroleum.com/",
-      "observed_at": "2026-09-26T06:20:49.795360+05:30"
+      "observed_at": "2026-09-27T06:27:30.285519+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 202 at http://trincopetroleum.com/",
       "source": "http://trincopetroleum.com/",
-      "observed_at": "2026-09-26T06:20:49.795364+05:30"
+      "observed_at": "2026-09-27T06:27:30.285523+05:30"
     },
     {
       "check": "page_text",
@@ -96,7 +96,7 @@
       "status_code": 202,
       "final_url": "https://trincopetroleum.com/",
       "redirects": [],
-      "elapsed_ms": 613,
+      "elapsed_ms": 372,
       "content_type": "text/html",
       "error": null
     },
@@ -105,7 +105,7 @@
       "status_code": 202,
       "final_url": "http://trincopetroleum.com/",
       "redirects": [],
-      "elapsed_ms": 266,
+      "elapsed_ms": 169,
       "content_type": "text/html",
       "error": null
     },
@@ -114,7 +114,7 @@
       "status_code": 202,
       "final_url": "https://trincopetroleum.com/",
       "redirects": [],
-      "elapsed_ms": 564,
+      "elapsed_ms": 385,
       "content_type": "text/html",
       "error": null
     },
@@ -123,7 +123,7 @@
       "status_code": 202,
       "final_url": "http://trincopetroleum.com/",
       "redirects": [],
-      "elapsed_ms": 266,
+      "elapsed_ms": 239,
       "content_type": "text/html",
       "error": null
     }
@@ -131,27 +131,27 @@
   "snapshots": [
     {
       "url": "https://trincopetroleum.com/",
-      "path": "audit.output/trincopetroleum.com/20260926.0620/snapshots/page-01-19d7260d0c5e.html",
-      "sha256": "19d7260d0c5e59d901f7ef302cd3751ccbfab84f110586481755cc5af9ef60a2",
-      "bytes": 168
+      "path": "audit.output/trincopetroleum.com/20260927.0627/snapshots/page-01-94eac89614d4.html",
+      "sha256": "94eac89614d44ae00946880aa39441da1269fc28abd14cf03f69a41c3aeea362",
+      "bytes": 167
     },
     {
       "url": "http://trincopetroleum.com/",
-      "path": "audit.output/trincopetroleum.com/20260926.0620/snapshots/page-02-c6cac329a988.html",
-      "sha256": "c6cac329a988e663d50b334a671d755cfd54543fb4176b86c35bb9037602daec",
-      "bytes": 168
+      "path": "audit.output/trincopetroleum.com/20260927.0627/snapshots/page-02-c12c50d31980.html",
+      "sha256": "c12c50d3198016525021b157e850503a9f7cbb0aabc37b959d5155c7ddc7c8f4",
+      "bytes": 167
     },
     {
       "url": "https://trincopetroleum.com/",
-      "path": "audit.output/trincopetroleum.com/20260926.0620/snapshots/page-03-b62d5a764601.html",
-      "sha256": "b62d5a76460199c8d5148d27ac27513b71ffd54cdbfa7a04d2ebf9afc84912ed",
-      "bytes": 168
+      "path": "audit.output/trincopetroleum.com/20260927.0627/snapshots/page-03-abcbaf4732dd.html",
+      "sha256": "abcbaf4732dd70ac944e48c3e82d9c19c862e86fc043d4f7762a466ac218a473",
+      "bytes": 167
     },
     {
       "url": "http://trincopetroleum.com/",
-      "path": "audit.output/trincopetroleum.com/20260926.0620/snapshots/page-04-7f573cf4ad91.html",
-      "sha256": "7f573cf4ad913ff9cf2e1bd25cb72e4e98d9400993e2eda9e679c0641b27dad4",
-      "bytes": 168
+      "path": "audit.output/trincopetroleum.com/20260927.0627/snapshots/page-04-9c638ce72572.html",
+      "sha256": "9c638ce725723e7d492ed55dbd474f422ed2a505edde2debb79d1441585d01ad",
+      "bytes": 167
     }
   ],
   "reviewer_decisions": [],
@@ -267,7 +267,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

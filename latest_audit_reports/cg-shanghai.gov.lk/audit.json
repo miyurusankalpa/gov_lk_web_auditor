@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "8e6f0ddb-b3c6-4e28-ad1d-850ee242c17d",
+  "audit_id": "5172798e-4144-4011-8ce4-3f8937c02cf1",
   "url": "https://cg-shanghai.gov.lk",
   "normalized_url": "https://cg-shanghai.gov.lk/",
-  "started_at": "2026-09-26T06:30:00.918503+05:30",
-  "completed_at": "2026-09-26T06:30:42.135668+05:30",
+  "started_at": "2026-09-27T06:35:38.329752+05:30",
+  "completed_at": "2026-09-27T06:36:25.791884+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,135 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:30:01.304470+05:30"
+      "observed_at": "2026-09-27T06:35:38.726053+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:30:01.304489+05:30"
+      "observed_at": "2026-09-27T06:35:38.726074+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:30:01.880395+05:30"
+      "observed_at": "2026-09-27T06:35:39.441991+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.cg-shanghai.gov.lk/en",
       "source": "https://cg-shanghai.gov.lk/",
-      "observed_at": "2026-09-26T06:30:41.045175+05:30"
+      "observed_at": "2026-09-27T06:36:22.830956+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.cg-shanghai.gov.lk/en",
       "source": "http://cg-shanghai.gov.lk/",
-      "observed_at": "2026-09-26T06:30:41.045196+05:30"
+      "observed_at": "2026-09-27T06:36:22.830974+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.cg-shanghai.gov.lk/en",
       "source": "https://cg-shanghai.gov.lk/",
-      "observed_at": "2026-09-26T06:30:41.045199+05:30"
+      "observed_at": "2026-09-27T06:36:22.830978+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.cg-shanghai.gov.lk/en",
       "source": "http://cg-shanghai.gov.lk/",
-      "observed_at": "2026-09-26T06:30:41.045202+05:30"
+      "observed_at": "2026-09-27T06:36:22.830981+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.cg-shanghai.gov.lk/en/contact",
       "source": "https://www.cg-shanghai.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:30:41.045204+05:30"
+      "observed_at": "2026-09-27T06:36:22.830984+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.cg-shanghai.gov.lk/en/staff",
       "source": "https://www.cg-shanghai.gov.lk/en/staff",
-      "observed_at": "2026-09-26T06:30:41.045206+05:30"
+      "observed_at": "2026-09-27T06:36:22.830986+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.cg-shanghai.gov.lk/en/trade-and-investment",
       "source": "https://www.cg-shanghai.gov.lk/en/trade-and-investment",
-      "observed_at": "2026-09-26T06:30:41.045209+05:30"
+      "observed_at": "2026-09-27T06:36:22.830990+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.cg-shanghai.gov.lk/en/cutural-and-tourism-promotions",
       "source": "https://www.cg-shanghai.gov.lk/en/cutural-and-tourism-promotions",
-      "observed_at": "2026-09-26T06:30:41.045211+05:30"
+      "observed_at": "2026-09-27T06:36:22.830993+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.cg-shanghai.gov.lk/en/appointment",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:30:41.045214+05:30"
+      "observed_at": "2026-09-27T06:36:22.830995+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
       "source": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
-      "observed_at": "2026-09-26T06:30:41.045216+05:30"
+      "observed_at": "2026-09-27T06:36:22.830998+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
       "source": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
-      "observed_at": "2026-09-26T06:30:41.045219+05:30"
+      "observed_at": "2026-09-27T06:36:22.831001+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
       "source": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
-      "observed_at": "2026-09-26T06:30:41.045221+05:30"
+      "observed_at": "2026-09-27T06:36:22.831004+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
       "source": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
-      "observed_at": "2026-09-26T06:30:41.045224+05:30"
+      "observed_at": "2026-09-27T06:36:22.831006+05:30"
     },
     {
       "check": "http",
       "status": "pass",
-      "detail": "Probe 14: HTTP 200 at https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
-      "source": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
-      "observed_at": "2026-09-26T06:30:41.045226+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0659590771",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659590771"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0086-21-62376672",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "+0086-21-62376672"
-      }
+      "detail": "Probe 14: HTTP 200 at https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
+      "source": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
+      "observed_at": "2026-09-27T06:36:22.831009+05:30"
     },
     {
       "check": "phone",
@@ -168,19 +150,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +86-21-62376672",
+      "detail": "Published phone: +0086-21-62376672",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
-        "value": "+86-21-62376672"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0659613263",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659613263"
+        "value": "+0086-21-62376672"
       }
     },
     {
@@ -204,6 +177,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0659613263",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659613263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +86-21-62376672",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "+86-21-62376672"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0659590771",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659590771"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0086)-21-6237",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
@@ -222,28 +222,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
@@ -267,24 +267,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0659590771",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659590771"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0086-21-62376672",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "+0086-21-62376672"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0086-21-6237",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
@@ -294,19 +276,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +86-21-62376672",
+      "detail": "Published phone: +0086-21-62376672",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
-        "value": "+86-21-62376672"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0659613263",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659613263"
+        "value": "+0086-21-62376672"
       }
     },
     {
@@ -330,6 +303,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0659613263",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659613263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +86-21-62376672",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "+86-21-62376672"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0659590771",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659590771"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0086)-21-6237",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
@@ -348,28 +348,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
@@ -393,24 +393,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0659590771",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659590771"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0086-21-62376672",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "+0086-21-62376672"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0086-21-6237",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
@@ -420,19 +402,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +86-21-62376672",
+      "detail": "Published phone: +0086-21-62376672",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
-        "value": "+86-21-62376672"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0659613263",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659613263"
+        "value": "+0086-21-62376672"
       }
     },
     {
@@ -456,6 +429,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0659613263",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659613263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +86-21-62376672",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "+86-21-62376672"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0659590771",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659590771"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0086)-21-6237",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
@@ -474,28 +474,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
@@ -519,24 +519,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0659590771",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659590771"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0086-21-62376672",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "+0086-21-62376672"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0086-21-6237",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
@@ -546,19 +528,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +86-21-62376672",
+      "detail": "Published phone: +0086-21-62376672",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
-        "value": "+86-21-62376672"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0659613263",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "0659613263"
+        "value": "+0086-21-62376672"
       }
     },
     {
@@ -582,6 +555,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0659613263",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659613263"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +86-21-62376672",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "+86-21-62376672"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0659590771",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "0659590771"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0086)-21-6237",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
@@ -600,28 +600,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "source": "https://www.cg-shanghai.gov.lk/en",
+      "data": {
+        "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en",
-      "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
@@ -654,19 +654,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
       "source": "https://www.cg-shanghai.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en/contact",
       "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -699,19 +699,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
       "source": "https://www.cg-shanghai.gov.lk/en/staff",
       "data": {
-        "value": "john@example.com"
+        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en/staff",
       "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -744,19 +744,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
       "source": "https://www.cg-shanghai.gov.lk/en/trade-and-investment",
       "data": {
-        "value": "john@example.com"
+        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en/trade-and-investment",
       "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -798,19 +798,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
       "source": "https://www.cg-shanghai.gov.lk/en/cutural-and-tourism-promotions",
       "data": {
-        "value": "john@example.com"
+        "value": "slcg.shanghai@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcg.shanghai@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.cg-shanghai.gov.lk/en/cutural-and-tourism-promotions",
       "data": {
-        "value": "slcg.shanghai@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -852,15 +852,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0573411510",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment",
-      "data": {
-        "value": "0573411510"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0989974492",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment",
       "data": {
@@ -868,12 +859,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0573411510",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "0573411510"
       }
     },
     {
@@ -883,6 +874,15 @@
       "source": "https://www.cg-shanghai.gov.lk/en/appointment",
       "data": {
         "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -969,15 +969,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0573411510",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
-      "data": {
-        "value": "0573411510"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0989974492",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
       "data": {
@@ -985,12 +976,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0573411510",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
       "data": {
-        "value": "john@example.com"
+        "value": "0573411510"
       }
     },
     {
@@ -1000,6 +991,15 @@
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
       "data": {
         "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1086,15 +1086,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0573411510",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
-      "data": {
-        "value": "0573411510"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0989974492",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
       "data": {
@@ -1102,12 +1093,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0573411510",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
       "data": {
-        "value": "john@example.com"
+        "value": "0573411510"
       }
     },
     {
@@ -1117,6 +1108,15 @@
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
       "data": {
         "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1203,15 +1203,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0573411510",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
-      "data": {
-        "value": "0573411510"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0989974492",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
       "data": {
@@ -1219,12 +1210,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0573411510",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
       "data": {
-        "value": "john@example.com"
+        "value": "0573411510"
       }
     },
     {
@@ -1234,6 +1225,15 @@
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
       "data": {
         "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1320,15 +1320,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0573411510",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
-      "data": {
-        "value": "0573411510"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0989974492",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
       "data": {
@@ -1336,12 +1327,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0573411510",
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
       "data": {
-        "value": "john@example.com"
+        "value": "0573411510"
       }
     },
     {
@@ -1351,6 +1342,15 @@
       "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
       "data": {
         "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1420,7 +1420,7 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +86-21-62376672",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "+86-21-62376672"
       }
@@ -1429,7 +1429,7 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 0990117802",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "0990117802"
       }
@@ -1437,44 +1437,44 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0573411510",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
-      "data": {
-        "value": "0573411510"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0989974492",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "0989974492"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "detail": "Published phone: 0573411510",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
-        "value": "john@example.com"
+        "value": "0573411510"
       }
     },
     {
       "check": "email",
       "status": "pass",
       "detail": "Published email: slcg.shanghai@mfa.gov.lk",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "slcg.shanghai@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
       "detail": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "(Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid"
       }
@@ -1483,7 +1483,7 @@
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: division",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "division"
       }
@@ -1492,7 +1492,7 @@
       "check": "eligibility_criteria",
       "status": "pass",
       "detail": "Published eligibility criteria: eligibility",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "eligibility"
       }
@@ -1501,7 +1501,7 @@
       "check": "required_documents",
       "status": "pass",
       "detail": "Published required documents: required documents",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "required documents"
       }
@@ -1510,7 +1510,7 @@
       "check": "legal_basis",
       "status": "pass",
       "detail": "Published legal basis: regulations",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "regulations"
       }
@@ -1519,7 +1519,7 @@
       "check": "fees_and_payment",
       "status": "pass",
       "detail": "Published fees and payment: Free of Charge",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "Free of Charge"
       }
@@ -1528,7 +1528,7 @@
       "check": "processing_time",
       "status": "pass",
       "detail": "Published processing time: 6 months",
-      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "source": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "data": {
         "value": "6 months"
       }
@@ -1570,7 +1570,7 @@
         "https://www.cg-shanghai.gov.lk/",
         "https://www.cg-shanghai.gov.lk/en"
       ],
-      "elapsed_ms": 2144,
+      "elapsed_ms": 2130,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1582,7 +1582,7 @@
         "https://www.cg-shanghai.gov.lk/",
         "https://www.cg-shanghai.gov.lk/en"
       ],
-      "elapsed_ms": 776,
+      "elapsed_ms": 1420,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1594,7 +1594,7 @@
         "https://www.cg-shanghai.gov.lk/",
         "https://www.cg-shanghai.gov.lk/en"
       ],
-      "elapsed_ms": 1845,
+      "elapsed_ms": 1536,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1606,7 +1606,7 @@
         "https://www.cg-shanghai.gov.lk/",
         "https://www.cg-shanghai.gov.lk/en"
       ],
-      "elapsed_ms": 886,
+      "elapsed_ms": 883,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1615,7 +1615,7 @@
       "status_code": 200,
       "final_url": "https://www.cg-shanghai.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 830,
+      "elapsed_ms": 1173,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1624,7 +1624,7 @@
       "status_code": 200,
       "final_url": "https://www.cg-shanghai.gov.lk/en/staff",
       "redirects": [],
-      "elapsed_ms": 1233,
+      "elapsed_ms": 1290,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1633,7 +1633,7 @@
       "status_code": 200,
       "final_url": "https://www.cg-shanghai.gov.lk/en/trade-and-investment",
       "redirects": [],
-      "elapsed_ms": 1078,
+      "elapsed_ms": 1661,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1642,7 +1642,7 @@
       "status_code": 200,
       "final_url": "https://www.cg-shanghai.gov.lk/en/cutural-and-tourism-promotions",
       "redirects": [],
-      "elapsed_ms": 1178,
+      "elapsed_ms": 1494,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1651,7 +1651,7 @@
       "status_code": 200,
       "final_url": "https://www.cg-shanghai.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 3020,
+      "elapsed_ms": 2063,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1662,7 +1662,7 @@
       "redirects": [
         "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85"
       ],
-      "elapsed_ms": 2333,
+      "elapsed_ms": 2873,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1673,7 +1673,7 @@
       "redirects": [
         "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2"
       ],
-      "elapsed_ms": 2168,
+      "elapsed_ms": 2725,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1684,7 +1684,7 @@
       "redirects": [
         "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf"
       ],
-      "elapsed_ms": 2777,
+      "elapsed_ms": 2839,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1695,18 +1695,18 @@
       "redirects": [
         "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b"
       ],
-      "elapsed_ms": 2487,
+      "elapsed_ms": 2339,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
     {
-      "url": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "url": "https://cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "status_code": 200,
-      "final_url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
+      "final_url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
       "redirects": [
-        "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b"
+        "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3"
       ],
-      "elapsed_ms": 2163,
+      "elapsed_ms": 3527,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1714,86 +1714,86 @@
   "snapshots": [
     {
       "url": "https://www.cg-shanghai.gov.lk/en",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-01-3aedb8cbc317.html",
-      "sha256": "3aedb8cbc317a40d991c99fd6f1097b69e7ea1b8d9ff64f038c14613af78406a",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-01-231d06d7df58.html",
+      "sha256": "231d06d7df5869e8f58ea4535feaead500aca37692e525ff840cb5cde9f8abbc",
       "bytes": 295604
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-02-6e029c16962e.html",
-      "sha256": "6e029c16962e5b79e70dbbafc0e9dfa8216079641a4ecfb35b4342f6ecf83d38",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-02-86e7a540379a.html",
+      "sha256": "86e7a540379ad65918df912a315df744cbfab6705df77167c2df48a12cc6e986",
       "bytes": 295604
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-03-469c6f09b7d7.html",
-      "sha256": "469c6f09b7d752c905464858c6644c111cb5a3e3ecdede502a14679ecf335e41",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-03-94e439c0145b.html",
+      "sha256": "94e439c0145b0a116787066a75bba4028f090db3d7a64f697d41c8c480e45752",
       "bytes": 295604
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-04-efc7ad4dd33b.html",
-      "sha256": "efc7ad4dd33b4ca66ced723c277895c7a78c42886c4827d4797bb8f1dc6c8bac",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-04-387554cd12ba.html",
+      "sha256": "387554cd12bab3b2e7772ba58745967821ccea310dd6e6062e1bd99ac86397fc",
       "bytes": 295604
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/contact",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-05-78524759145e.html",
-      "sha256": "78524759145e7b4fc0c40a76bf87410515573fa48bc0c2161bc206abcf079e01",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-05-1c46432c2897.html",
+      "sha256": "1c46432c28970ab0075761262fe0f8e891c7ba60cd9880c7e4decf5453899fb1",
       "bytes": 96638
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/staff",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-06-9c6db427b6f7.html",
-      "sha256": "9c6db427b6f775d08a7c56e136b87cfd0b6d4b3c9a985c427aba950a07d4feb1",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-06-208b2f2f5e54.html",
+      "sha256": "208b2f2f5e540c56bc2be10ff6c9533eb27e210022449d337f52e68d8ad7a7f2",
       "bytes": 88691
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/trade-and-investment",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-07-f20efedfc4b6.html",
-      "sha256": "f20efedfc4b6bbc3429c9a4c4f67a232a3b468dfeb608b2431ae557fefd9e2c2",
-      "bytes": 105684
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-07-2f706e9c9474.html",
+      "sha256": "2f706e9c9474ecdf8037dcdddea7801395f523c9f554f3beb729c4235e4ee636",
+      "bytes": 105584
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/cutural-and-tourism-promotions",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-08-4c79ea943e8b.html",
-      "sha256": "4c79ea943e8b81726935b728898543950e916d6ea0a68fc24c5cce3f641f8bc3",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-08-1f1c8a2304ac.html",
+      "sha256": "1f1c8a2304ac7da2c7100c7d9af72c459cd3f42b85c39525e904f0398aa572f1",
       "bytes": 94924
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/appointment",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-09-86d999090ee4.html",
-      "sha256": "86d999090ee425433a7dd837827cb55fe82341591a83c2b8cea39c1cf5dc6157",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-09-3c60fde6b5d5.html",
+      "sha256": "3c60fde6b5d51c36a58562323eef1b6731100cc8cb0dda42b58ab279c967233b",
       "bytes": 238527
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913ef54dd22c8f260a85",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-10-6cbfb946fd31.html",
-      "sha256": "6cbfb946fd3145d4205c2a4d66067d5793d6131d2da7ee004e59c068abad5706",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-10-098986b51fce.html",
+      "sha256": "098986b51fcea6d3eb471cc9e84fef3fb256383436703be0360af8651545bac7",
       "bytes": 238682
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26913556cd48627f23d1f2",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-11-a14a2b7e849a.html",
-      "sha256": "a14a2b7e849a4d21a47e363f6ba50991309c311fd7d4085283312f4627a7d47d",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-11-88761d40b5b6.html",
+      "sha256": "88761d40b5b6d03acf035f7ba5910b205cf1ca28a9c910e1d87cf26263d588da",
       "bytes": 238682
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a269146f54dd22c8f260acf",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-12-af62ce7db237.html",
-      "sha256": "af62ce7db23737c129f3166869fa1f13dcc351ee3853c32d348fde3202c198ad",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-12-715e02b3c2c5.html",
+      "sha256": "715e02b3c2c5ccd985206792a0f0f5e145fbdeacefe01677c0ffc19367be7bb5",
       "bytes": 238682
     },
     {
       "url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912e56cd48627f23d19b",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-13-ac95a104bb9f.html",
-      "sha256": "ac95a104bb9f30a239a97f7bac90b267ab2eeede6afcf9ea30e9d858ee33e5aa",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-13-bdc10f5f6d86.html",
+      "sha256": "bdc10f5f6d8616a02cb1d9a76c9b7b3d818c31efd50ff3f026f8359091dec509",
       "bytes": 238682
     },
     {
-      "url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26912256cd48627f23d11b",
-      "path": "audit.output/cg-shanghai.gov.lk/20260926.0630/snapshots/page-14-dfd8ff003662.html",
-      "sha256": "dfd8ff003662944349291a44c3302ac4c51960cee4a9d3200f9d73dee72b157b",
+      "url": "https://www.cg-shanghai.gov.lk/en/appointment?serviceId=6a26911b56cd48627f23d0d3",
+      "path": "audit.output/cg-shanghai.gov.lk/20260927.0635/snapshots/page-14-a06a6998b634.html",
+      "sha256": "a06a6998b63422590507365240c2b54c781f4be9f93fc7ed8c07e208c836e3c0",
       "bytes": 238682
     }
   ],
@@ -1880,7 +1880,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Room 202, Building A, Shanghai Mixc, 1799 Wuzhong Road, Shanghai, 201103, People's Republic of China Telephone: ( 0086)-; Phone: 0659590771 (12 phone numbers found); Email: john@example.com (2 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: Room 202, Building A, Shanghai Mixc, 1799 Wuzhong Road, Shanghai, 201103, People's Republic of China Telephone: ( 0086)-; Phone: 0086-21-6237 (12 phone numbers found); Email: slcg.shanghai@mfa.gov.lk (2 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1893,7 +1893,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0659590771 (12 phone numbers found); Email: john@example.com (2 email addresses found)"
+          "reason": "Phone: 0086-21-6237 (12 phone numbers found); Email: slcg.shanghai@mfa.gov.lk (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1972,7 +1972,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,8 +1,8 @@
 # Website Audit: https://www.gjrti.gov.lk/
 
-- Completed: 2026-09-26 06:40
+- Completed: 2026-09-27 06:46
 - Overall result: 🟠 Level 2
-- Vantage: 134.33.77.208 (US, github-actions)
+- Vantage: 20.55.47.112 (US, github-actions)
 
 ## ⚫ Level 0: ✅
 
@@ -33,12 +33,12 @@ Public DNS resolved; No parked-domain marker found; No defacement marker found; 
 
 To pass `🟠 Level 2`, citizens must be able to identify and contact the correct office for the service they need.
 
-Published postal address: No 73/ 5 A, Awissawella Old Road,Welivita, Kaduwela .icon-with-text-shortcode.icon-text-id-e494cf36b202d76d7e240daa99581; Phone: +94-11 25 79 180 (59 phone numbers found); Email: info@gjrti.gov.lk (27 email addresses found); Published named responsibility: director
+Published postal address: No 73/ 5 A, Awissawella Old Road,Welivita, Kaduwela .icon-with-text-shortcode.icon-text-id-e494cf36b202d76d7e240daa99581; Phone: 0835138675 (59 phone numbers found); Email: info@gjrti.gov.lk (27 email addresses found); Published named responsibility: director
 
 | Test | Result | Details |
 | --- | --- | --- |
 | postal_address | ✅ | Published postal address: No 73/ 5 A, Awissawella Old Road,Welivita, Kaduwela .icon-with-text-shortcode.icon-text-id-e494cf36b202d76d7e240daa99581 |
-| reachable_contacts | ✅ | Phone: +94-11 25 79 180 (59 phone numbers found); Email: info@gjrti.gov.lk (27 email addresses found) |
+| reachable_contacts | ✅ | Phone: 0835138675 (59 phone numbers found); Email: info@gjrti.gov.lk (27 email addresses found) |
 | named_responsibility | ✅ | Published named responsibility: director |
 
 ## 🟢 Level 3: ❓

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "87d84a3a-6800-4a70-860a-304a98b87852",
+  "audit_id": "deddb908-59c7-4bb0-b12c-13c21ef1f504",
   "url": "https://mpc.kdu.ac.lk/",
   "normalized_url": "https://mpc.kdu.ac.lk/",
-  "started_at": "2026-09-26T06:10:16.375561+05:30",
-  "completed_at": "2026-09-26T06:10:20.267373+05:30",
+  "started_at": "2026-09-27T06:15:56.944683+05:30",
+  "completed_at": "2026-09-27T06:16:00.397476+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -17,118 +17,127 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:10:17.085201+05:30"
+      "observed_at": "2026-09-27T06:15:57.220573+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:10:17.085219+05:30"
+      "observed_at": "2026-09-27T06:15:57.220591+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:10:17.129290+05:30"
+      "observed_at": "2026-09-27T06:15:57.228966+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 1: HTTP 403 at https://mpc.kdu.ac.lk/",
       "source": "https://mpc.kdu.ac.lk/",
-      "observed_at": "2026-09-26T06:10:20.168512+05:30"
+      "observed_at": "2026-09-27T06:16:00.275715+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 2: HTTP 403 at http://mpc.kdu.ac.lk/",
       "source": "http://mpc.kdu.ac.lk/",
-      "observed_at": "2026-09-26T06:10:20.168530+05:30"
+      "observed_at": "2026-09-27T06:16:00.275732+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 3: HTTP 403 at https://mpc.kdu.ac.lk/",
       "source": "https://mpc.kdu.ac.lk/",
-      "observed_at": "2026-09-26T06:10:20.168533+05:30"
+      "observed_at": "2026-09-27T06:16:00.275736+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 4: HTTP 403 at http://mpc.kdu.ac.lk/",
       "source": "http://mpc.kdu.ac.lk/",
-      "observed_at": "2026-09-26T06:10:20.168537+05:30"
+      "observed_at": "2026-09-27T06:16:00.275739+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383217-1.0.1.",
+      "detail": "Published phone: 0469957-1.2.1.",
       "source": "https://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0383217-1.0.1."
+        "value": "0469957-1.2.1."
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383217-1.2.1.",
+      "detail": "Published phone: 0469957-1.0.1.",
       "source": "https://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0383217-1.2.1."
+        "value": "0469957-1.0.1."
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383218-1.2.1.",
+      "detail": "Published phone: 0469958-1.2.1.",
       "source": "http://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0383218-1.2.1."
+        "value": "0469958-1.2.1."
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0-179038321",
+      "detail": "Published phone: 0469958-1.0.1.",
       "source": "http://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0-179038321"
+        "value": "0469958-1.0.1."
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383219-1.0.1.",
+      "detail": "Published phone: 0469959-1.0.1.",
       "source": "https://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0383219-1.0.1."
+        "value": "0469959-1.0.1."
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383219-1.2.1.",
+      "detail": "Published phone: 0469959-1.2.1.",
       "source": "https://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0383219-1.2.1."
+        "value": "0469959-1.2.1."
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383220-1.2.1.",
-      "source": "http://mpc.kdu.ac.lk/",
+      "detail": "Published phone: 0-179046995",
+      "source": "https://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0383220-1.2.1."
+        "value": "0-179046995"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383220-1.0.1.",
+      "detail": "Published phone: 0469960-1.0.1.",
       "source": "http://mpc.kdu.ac.lk/",
       "data": {
-        "value": "0383220-1.0.1."
+        "value": "0469960-1.0.1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0469960-1.2.1.",
+      "source": "http://mpc.kdu.ac.lk/",
+      "data": {
+        "value": "0469960-1.2.1."
       }
     },
     {
@@ -141,7 +150,7 @@
       "check": "persistent_http_failure",
       "status": "fail",
       "detail": "Every repeated HTTP probe failed: [403, 403, 403, 403]",
-      "observed_at": "2026-09-26T06:10:20.266545+05:30"
+      "observed_at": "2026-09-27T06:16:00.396742+05:30"
     }
   ],
   "observations": [
@@ -174,7 +183,7 @@
       "status_code": 403,
       "final_url": "https://mpc.kdu.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 59,
+      "elapsed_ms": 21,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -183,7 +192,7 @@
       "status_code": 403,
       "final_url": "http://mpc.kdu.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 235,
+      "elapsed_ms": 29,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -192,7 +201,7 @@
       "status_code": 403,
       "final_url": "https://mpc.kdu.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 61,
+      "elapsed_ms": 22,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -201,7 +210,7 @@
       "status_code": 403,
       "final_url": "http://mpc.kdu.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 33,
+      "elapsed_ms": 39,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -209,27 +218,27 @@
   "snapshots": [
     {
       "url": "https://mpc.kdu.ac.lk/",
-      "path": "audit.output/mpc.kdu.ac.lk/20260926.0610/snapshots/page-01-70d190d911bf.html",
-      "sha256": "70d190d911bf135b5114794e7466dd5ec64b36c72ef3663dfc8bab0486262a63",
+      "path": "audit.output/mpc.kdu.ac.lk/20260927.0615/snapshots/page-01-bf247650145b.html",
+      "sha256": "bf247650145bc6508ab22b7fb7567525881a3e460eb8a8b687d3789f591f45ca",
       "bytes": 5387
     },
     {
       "url": "http://mpc.kdu.ac.lk/",
-      "path": "audit.output/mpc.kdu.ac.lk/20260926.0610/snapshots/page-02-8e594da83483.html",
-      "sha256": "8e594da83483bd558acd9a195db34b2d84d10d99abd5e0bbfa7e6e798b82d7ae",
-      "bytes": 5365
+      "path": "audit.output/mpc.kdu.ac.lk/20260927.0615/snapshots/page-02-51e196603d5b.html",
+      "sha256": "51e196603d5b3719755659a44c24fa37716ec77ea0c4599d29c2c77d03c19c0f",
+      "bytes": 5344
     },
     {
       "url": "https://mpc.kdu.ac.lk/",
-      "path": "audit.output/mpc.kdu.ac.lk/20260926.0610/snapshots/page-03-d5d481107d89.html",
-      "sha256": "d5d481107d89bceb5efcc4be2f93b846167cd777259d3756e6d684f4a18a0086",
+      "path": "audit.output/mpc.kdu.ac.lk/20260927.0615/snapshots/page-03-610aeb68af49.html",
+      "sha256": "610aeb68af49133d3285db51aaef774c692f4b3979c4fd9aacbf11f0afac8a5c",
       "bytes": 5387
     },
     {
       "url": "http://mpc.kdu.ac.lk/",
-      "path": "audit.output/mpc.kdu.ac.lk/20260926.0610/snapshots/page-04-2b5fa1d506e8.html",
-      "sha256": "2b5fa1d506e89997f0adf0251099accaf93afcb4ec017e4eabd951bd0c51bcd9",
-      "bytes": 5365
+      "path": "audit.output/mpc.kdu.ac.lk/20260927.0615/snapshots/page-04-534725b90f02.html",
+      "sha256": "534725b90f0244e1d0058e6f2fc5f936b58e53d47cf799dc34ef7f7f14ba4a9c",
+      "bytes": 5344
     }
   ],
   "reviewer_decisions": [],
@@ -345,7 +354,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

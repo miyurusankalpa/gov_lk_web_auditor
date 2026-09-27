@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "02b478ac-af6d-4542-a36d-8aa579ded3e3",
+  "audit_id": "fa4f480e-befa-4d55-8dba-4e1a72dd4673",
   "url": "https://www.attorneygeneral.gov.lk/",
   "normalized_url": "https://www.attorneygeneral.gov.lk/",
-  "started_at": "2026-09-26T06:41:23.582100+05:30",
-  "completed_at": "2026-09-26T06:41:43.992189+05:30",
+  "started_at": "2026-09-27T06:46:47.472768+05:30",
+  "completed_at": "2026-09-27T06:47:08.682770+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,134 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:41:24.097487+05:30"
+      "observed_at": "2026-09-27T06:46:48.116971+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:41:24.097508+05:30"
+      "observed_at": "2026-09-27T06:46:48.116991+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:41:24.460537+05:30"
+      "observed_at": "2026-09-27T06:46:48.419417+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://agd.gov.lk/",
       "source": "https://www.attorneygeneral.gov.lk/",
-      "observed_at": "2026-09-26T06:41:42.251977+05:30"
+      "observed_at": "2026-09-27T06:47:07.230458+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://agd.gov.lk/",
       "source": "http://www.attorneygeneral.gov.lk/",
-      "observed_at": "2026-09-26T06:41:42.251993+05:30"
+      "observed_at": "2026-09-27T06:47:07.230475+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://agd.gov.lk/",
       "source": "https://www.attorneygeneral.gov.lk/",
-      "observed_at": "2026-09-26T06:41:42.251996+05:30"
+      "observed_at": "2026-09-27T06:47:07.230480+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://agd.gov.lk/",
       "source": "http://www.attorneygeneral.gov.lk/",
-      "observed_at": "2026-09-26T06:41:42.251999+05:30"
+      "observed_at": "2026-09-27T06:47:07.230482+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
       "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
-      "observed_at": "2026-09-26T06:41:42.252001+05:30"
+      "observed_at": "2026-09-27T06:47:07.230485+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "observed_at": "2026-09-26T06:41:42.252004+05:30"
+      "observed_at": "2026-09-27T06:47:07.230488+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
-      "observed_at": "2026-09-26T06:41:42.252006+05:30"
+      "observed_at": "2026-09-27T06:47:07.230491+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
-      "observed_at": "2026-09-26T06:41:42.252009+05:30"
+      "observed_at": "2026-09-27T06:47:07.230494+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://agd.gov.lk/state-attorneys-division/",
       "source": "https://agd.gov.lk/state-attorneys-division/",
-      "observed_at": "2026-09-26T06:41:42.252011+05:30"
+      "observed_at": "2026-09-27T06:47:07.230497+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://agd.gov.lk/the-officers/",
       "source": "https://agd.gov.lk/the-officers/",
-      "observed_at": "2026-09-26T06:41:42.252013+05:30"
+      "observed_at": "2026-09-27T06:47:07.230500+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://agd.gov.lk/general-contacts/",
       "source": "https://agd.gov.lk/general-contacts/",
-      "observed_at": "2026-09-26T06:41:42.252015+05:30"
+      "observed_at": "2026-09-27T06:47:07.230503+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
       "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
-      "observed_at": "2026-09-26T06:41:42.252018+05:30"
+      "observed_at": "2026-09-27T06:47:07.230506+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
       "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
-      "observed_at": "2026-09-26T06:41:42.252020+05:30"
+      "observed_at": "2026-09-27T06:47:07.230508+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
       "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
-      "observed_at": "2026-09-26T06:41:42.252022+05:30"
+      "observed_at": "2026-09-27T06:47:07.230511+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000 ",
+      "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 9000 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
+        "value": "000949-5-158"
       }
     },
     {
@@ -168,15 +159,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285173561",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0285173561"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0285207695",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -186,37 +168,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000949-5-158",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "000949-5-158"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285292255",
+      "detail": "Published phone: +94 (11) 214 7888",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "0285292255"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0720648494",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0720648494"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "031386639-1."
+        "value": "+94 (11) 214 7888"
       }
     },
     {
@@ -231,6 +195,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0285292255",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285292255"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0285173561",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285173561"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -240,10 +222,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
+      "detail": "Published phone: 0720648494",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 7888"
+        "value": "0720648494"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000 ",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "+94 (11) 214 9000 "
       }
     },
     {
@@ -271,6 +262,15 @@
       "source": "https://agd.gov.lk/",
       "data": {
         "value": "0820610790"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -303,19 +303,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000 ",
+      "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 9000 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
+        "value": "000949-5-158"
       }
     },
     {
@@ -330,15 +321,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285173561",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0285173561"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0285207695",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -348,37 +330,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000949-5-158",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "000949-5-158"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285292255",
+      "detail": "Published phone: +94 (11) 214 7888",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "0285292255"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0720648494",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0720648494"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "031386639-1."
+        "value": "+94 (11) 214 7888"
       }
     },
     {
@@ -393,6 +357,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0285292255",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285292255"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0285173561",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285173561"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -402,10 +384,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
+      "detail": "Published phone: 0720648494",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 7888"
+        "value": "0720648494"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000 ",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "+94 (11) 214 9000 "
       }
     },
     {
@@ -433,6 +424,15 @@
       "source": "https://agd.gov.lk/",
       "data": {
         "value": "0820610790"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -465,19 +465,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000 ",
+      "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 9000 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
+        "value": "000949-5-158"
       }
     },
     {
@@ -492,15 +483,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285173561",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0285173561"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0285207695",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -510,37 +492,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000949-5-158",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "000949-5-158"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285292255",
+      "detail": "Published phone: +94 (11) 214 7888",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "0285292255"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0720648494",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0720648494"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "031386639-1."
+        "value": "+94 (11) 214 7888"
       }
     },
     {
@@ -555,6 +519,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0285292255",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285292255"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0285173561",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285173561"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -564,10 +546,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
+      "detail": "Published phone: 0720648494",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 7888"
+        "value": "0720648494"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000 ",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "+94 (11) 214 9000 "
       }
     },
     {
@@ -595,6 +586,15 @@
       "source": "https://agd.gov.lk/",
       "data": {
         "value": "0820610790"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -627,19 +627,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000 ",
+      "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 9000 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
+        "value": "000949-5-158"
       }
     },
     {
@@ -654,15 +645,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285173561",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0285173561"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0285207695",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -672,37 +654,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000949-5-158",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "000949-5-158"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0285292255",
+      "detail": "Published phone: +94 (11) 214 7888",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "0285292255"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0720648494",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "0720648494"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/",
-      "data": {
-        "value": "031386639-1."
+        "value": "+94 (11) 214 7888"
       }
     },
     {
@@ -717,6 +681,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0285292255",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285292255"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0285173561",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "0285173561"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000",
       "source": "https://agd.gov.lk/",
       "data": {
@@ -726,10 +708,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
+      "detail": "Published phone: 0720648494",
       "source": "https://agd.gov.lk/",
       "data": {
-        "value": "+94 (11) 214 7888"
+        "value": "0720648494"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000 ",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "+94 (11) 214 9000 "
       }
     },
     {
@@ -760,6 +751,15 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/",
+      "data": {
+        "value": "031386639-1."
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: administration@agd.gov.lk",
@@ -784,15 +784,6 @@
       "source": "https://agd.gov.lk/",
       "data": {
         "value": "regulations"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -816,28 +807,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 031386639-1.",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
       "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
-      "data": {
-        "value": "+94 (11) 214 9000"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -852,10 +825,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000 ",
       "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
       "data": {
         "value": "+94 (11) 214 9000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000",
+      "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
+      "data": {
+        "value": "+94 (11) 214 9000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -879,6 +879,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 000949-5-158",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
+      "data": {
+        "value": "000949-5-158"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
       "data": {
@@ -888,10 +897,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000949-5-158",
+      "detail": "Published phone: +94 (11) 214 7888",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
       "data": {
-        "value": "000949-5-158"
+        "value": "+94 (11) 214 7888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0178038911",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
+      "data": {
+        "value": "0178038911"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000 ",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
+      "data": {
+        "value": "+94 (11) 214 9000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0178395309",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
+      "data": {
+        "value": "0178395309"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
+      "data": {
+        "value": "+94 (11) 214 9000"
       }
     },
     {
@@ -913,60 +967,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "data": {
-        "value": "+94 (11) 214 9000"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "data": {
-        "value": "+94 (11) 214 7888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0178395309",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "data": {
-        "value": "0178395309"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0178038911",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "data": {
-        "value": "0178038911"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000 ",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "data": {
-        "value": "+94 (11) 214 9000 "
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: administration@agd.gov.lk",
@@ -982,15 +982,6 @@
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
       "data": {
         "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -1005,37 +996,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0815185973",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
       "data": {
-        "value": "0815185973"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
-      "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
-      "data": {
-        "value": "+94 (11) 214 9000"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -1050,10 +1014,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000 ",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
       "data": {
         "value": "+94 (11) 214 9000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
+      "data": {
+        "value": "+94 (11) 214 9000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
+      "data": {
+        "value": "031386639-1."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0815185973",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
+      "data": {
+        "value": "0815185973"
       }
     },
     {
@@ -1072,6 +1072,15 @@
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
       "data": {
         "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000949-5-158",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
+      "data": {
+        "value": "000949-5-158"
       }
     },
     {
@@ -1095,19 +1104,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000949-5-158",
+      "detail": "Published phone: +94 (11) 214 7888",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
       "data": {
-        "value": "000949-5-158"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
-      "data": {
-        "value": "031386639-1."
+        "value": "+94 (11) 214 7888"
       }
     },
     {
@@ -1122,6 +1122,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000 ",
+      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
+      "data": {
+        "value": "+94 (11) 214 9000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
       "data": {
@@ -1131,19 +1140,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
+      "detail": "Published phone: 031386639-1.",
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
       "data": {
-        "value": "+94 (11) 214 7888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000 ",
-      "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
-      "data": {
-        "value": "+94 (11) 214 9000 "
+        "value": "031386639-1."
       }
     },
     {
@@ -1162,15 +1162,6 @@
       "source": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
       "data": {
         "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/state-attorneys-division/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -1194,19 +1185,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 031386639-1.",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/state-attorneys-division/",
       "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/state-attorneys-division/",
-      "data": {
-        "value": "+94 (11) 214 9000"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -1234,6 +1216,24 @@
       "source": "https://agd.gov.lk/state-attorneys-division/",
       "data": {
         "value": "+94 (11) 214 9000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000",
+      "source": "https://agd.gov.lk/state-attorneys-division/",
+      "data": {
+        "value": "+94 (11) 214 9000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/state-attorneys-division/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -1266,10 +1266,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 000949-5-158",
+      "source": "https://agd.gov.lk/the-officers/",
+      "data": {
+        "value": "000949-5-158"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/the-officers/",
       "data": {
         "value": "+94 (11) 243 6421 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888",
+      "source": "https://agd.gov.lk/the-officers/",
+      "data": {
+        "value": "+94 (11) 214 7888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/the-officers/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
       }
     },
     {
@@ -1284,28 +1311,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000949-5-158",
+      "detail": "Published phone: +94 (11) 214 9000 ",
       "source": "https://agd.gov.lk/the-officers/",
       "data": {
-        "value": "000949-5-158"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/the-officers/",
-      "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/the-officers/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
+        "value": "+94 (11) 214 9000 "
       }
     },
     {
@@ -1320,19 +1329,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
+      "detail": "Published phone: 031386639-1.",
       "source": "https://agd.gov.lk/the-officers/",
       "data": {
-        "value": "+94 (11) 214 7888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000 ",
-      "source": "https://agd.gov.lk/the-officers/",
-      "data": {
-        "value": "+94 (11) 214 9000 "
+        "value": "031386639-1."
       }
     },
     {
@@ -1365,73 +1365,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(11)2149000 ",
-      "source": "https://agd.gov.lk/general-contacts/",
-      "data": {
-        "value": "+94(11)2149000 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/general-contacts/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0816259252",
-      "source": "https://agd.gov.lk/general-contacts/",
-      "data": {
-        "value": "0816259252"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/general-contacts/",
       "data": {
         "value": "000949-5-158"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 031386639-1.",
-      "source": "https://agd.gov.lk/general-contacts/",
-      "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/general-contacts/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/general-contacts/",
-      "data": {
-        "value": "+94 (11) 214 9000"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888",
-      "source": "https://agd.gov.lk/general-contacts/",
-      "data": {
-        "value": "+94 (11) 214 7888"
       }
     },
     {
@@ -1446,6 +1383,42 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 (11) 243 6421 ",
+      "source": "https://agd.gov.lk/general-contacts/",
+      "data": {
+        "value": "+94 (11) 243 6421 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888",
+      "source": "https://agd.gov.lk/general-contacts/",
+      "data": {
+        "value": "+94 (11) 214 7888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/general-contacts/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94(11)2149000 ",
+      "source": "https://agd.gov.lk/general-contacts/",
+      "data": {
+        "value": "+94(11)2149000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000 ",
       "source": "https://agd.gov.lk/general-contacts/",
       "data": {
@@ -1453,12 +1426,39 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: supremecourt.unit@agd.gov.lk",
+      "detail": "Published phone: +94 (11) 214 9000",
       "source": "https://agd.gov.lk/general-contacts/",
       "data": {
-        "value": "supremecourt.unit@agd.gov.lk"
+        "value": "+94 (11) 214 9000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0816259252",
+      "source": "https://agd.gov.lk/general-contacts/",
+      "data": {
+        "value": "0816259252"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/general-contacts/",
+      "data": {
+        "value": "031386639-1."
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: courtofappeal.civil@agd.gov.lk",
+      "source": "https://agd.gov.lk/general-contacts/",
+      "data": {
+        "value": "courtofappeal.civil@agd.gov.lk"
       }
     },
     {
@@ -1473,19 +1473,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: courtofappeal.criminal@agd.gov.lk",
+      "detail": "Published email: supremecourt.unit@agd.gov.lk",
       "source": "https://agd.gov.lk/general-contacts/",
       "data": {
-        "value": "courtofappeal.criminal@agd.gov.lk"
+        "value": "supremecourt.unit@agd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: courtofappeal.civil@agd.gov.lk",
+      "detail": "Published email: courtofappeal.criminal@agd.gov.lk",
       "source": "https://agd.gov.lk/general-contacts/",
       "data": {
-        "value": "courtofappeal.civil@agd.gov.lk"
+        "value": "courtofappeal.criminal@agd.gov.lk"
       }
     },
     {
@@ -1509,15 +1509,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
       "data": {
@@ -1527,28 +1518,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 031386639-1.",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
       "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
-      "data": {
-        "value": "+94 (11) 214 9000"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -1563,6 +1536,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000 ",
       "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
       "data": {
@@ -1570,12 +1552,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: mail@email.com",
+      "detail": "Published phone: +94 (11) 214 9000",
       "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
       "data": {
-        "value": "mail@email.com"
+        "value": "+94 (11) 214 9000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -1612,6 +1603,15 @@
       "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
       "data": {
         "value": "courtofappeal.civil@agd.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mail@email.com",
+      "source": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
+      "data": {
+        "value": "mail@email.com"
       }
     },
     {
@@ -1644,15 +1644,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
       "data": {
@@ -1662,28 +1653,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 031386639-1.",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
       "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
-      "data": {
-        "value": "+94 (11) 214 9000"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -1698,10 +1671,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000 ",
       "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
       "data": {
         "value": "+94 (11) 214 9000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000",
+      "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
+      "data": {
+        "value": "+94 (11) 214 9000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -1761,15 +1761,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (11) 243 6421 ",
-      "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
-      "data": {
-        "value": "+94 (11) 243 6421 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 000949-5-158",
       "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
       "data": {
@@ -1779,28 +1770,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 031386639-1.",
+      "detail": "Published phone: +94 (11) 243 6421 ",
       "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
       "data": {
-        "value": "031386639-1."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 7888 ",
-      "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
-      "data": {
-        "value": "+94 (11) 214 7888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (11) 214 9000",
-      "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
-      "data": {
-        "value": "+94 (11) 214 9000"
+        "value": "+94 (11) 243 6421 "
       }
     },
     {
@@ -1815,10 +1788,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 (11) 214 7888 ",
+      "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
+      "data": {
+        "value": "+94 (11) 214 7888 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 (11) 214 9000 ",
       "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
       "data": {
         "value": "+94 (11) 214 9000 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (11) 214 9000",
+      "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
+      "data": {
+        "value": "+94 (11) 214 9000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031386639-1.",
+      "source": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
+      "data": {
+        "value": "031386639-1."
       }
     },
     {
@@ -1893,7 +1893,7 @@
       "redirects": [
         "https://agd.gov.lk/"
       ],
-      "elapsed_ms": 694,
+      "elapsed_ms": 775,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1905,7 +1905,7 @@
         "https://www.attorneygeneral.gov.lk/",
         "https://agd.gov.lk/"
       ],
-      "elapsed_ms": 1022,
+      "elapsed_ms": 933,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1916,7 +1916,7 @@
       "redirects": [
         "https://agd.gov.lk/"
       ],
-      "elapsed_ms": 710,
+      "elapsed_ms": 1057,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1928,7 +1928,7 @@
         "https://www.attorneygeneral.gov.lk/",
         "https://agd.gov.lk/"
       ],
-      "elapsed_ms": 794,
+      "elapsed_ms": 728,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1937,7 +1937,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
       "redirects": [],
-      "elapsed_ms": 963,
+      "elapsed_ms": 362,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1946,7 +1946,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
       "redirects": [],
-      "elapsed_ms": 742,
+      "elapsed_ms": 774,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1955,7 +1955,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
       "redirects": [],
-      "elapsed_ms": 622,
+      "elapsed_ms": 398,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1964,7 +1964,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
       "redirects": [],
-      "elapsed_ms": 607,
+      "elapsed_ms": 395,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1973,7 +1973,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/state-attorneys-division/",
       "redirects": [],
-      "elapsed_ms": 606,
+      "elapsed_ms": 654,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1982,7 +1982,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/the-officers/",
       "redirects": [],
-      "elapsed_ms": 636,
+      "elapsed_ms": 659,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1991,7 +1991,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/general-contacts/",
       "redirects": [],
-      "elapsed_ms": 632,
+      "elapsed_ms": 679,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2000,7 +2000,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
       "redirects": [],
-      "elapsed_ms": 631,
+      "elapsed_ms": 419,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2009,7 +2009,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
       "redirects": [],
-      "elapsed_ms": 603,
+      "elapsed_ms": 431,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2018,7 +2018,7 @@
       "status_code": 200,
       "final_url": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
       "redirects": [],
-      "elapsed_ms": 841,
+      "elapsed_ms": 665,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -2026,86 +2026,86 @@
   "snapshots": [
     {
       "url": "https://agd.gov.lk/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-01-8903e2167ba4.html",
-      "sha256": "8903e2167ba4b249eb3ee8de062d8f4406f7a1c100771e0e5dd9b6d91384f8a8",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-01-303aa5f1361c.html",
+      "sha256": "303aa5f1361c0b530453c2f5a211c6f74f238f06a776aa90bb8bd83b35343f4d",
       "bytes": 123809
     },
     {
       "url": "https://agd.gov.lk/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-02-8903e2167ba4.html",
-      "sha256": "8903e2167ba4b249eb3ee8de062d8f4406f7a1c100771e0e5dd9b6d91384f8a8",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-02-303aa5f1361c.html",
+      "sha256": "303aa5f1361c0b530453c2f5a211c6f74f238f06a776aa90bb8bd83b35343f4d",
       "bytes": 123809
     },
     {
       "url": "https://agd.gov.lk/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-03-8903e2167ba4.html",
-      "sha256": "8903e2167ba4b249eb3ee8de062d8f4406f7a1c100771e0e5dd9b6d91384f8a8",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-03-303aa5f1361c.html",
+      "sha256": "303aa5f1361c0b530453c2f5a211c6f74f238f06a776aa90bb8bd83b35343f4d",
       "bytes": 123809
     },
     {
       "url": "https://agd.gov.lk/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-04-8903e2167ba4.html",
-      "sha256": "8903e2167ba4b249eb3ee8de062d8f4406f7a1c100771e0e5dd9b6d91384f8a8",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-04-303aa5f1361c.html",
+      "sha256": "303aa5f1361c0b530453c2f5a211c6f74f238f06a776aa90bb8bd83b35343f4d",
       "bytes": 123809
     },
     {
       "url": "https://agd.gov.lk/evolution-of-the-office-of-the-ag/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-05-0c0101ee68bd.html",
-      "sha256": "0c0101ee68bd02acbdd86deaf9b57e23ad21db861ab54f1aff7eb7ae69a2c9bb",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-05-fc88f9d685ba.html",
+      "sha256": "fc88f9d685ba071399cafb386edbfac7dd652305fa043eacc3043906decdc61d",
       "bytes": 97356
     },
     {
       "url": "https://agd.gov.lk/permanent-office-holders-of-the-office-of-ag/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-06-bd9faa83c87e.html",
-      "sha256": "bd9faa83c87e9cd00d36d2d92618608c769adb375c3c68ee9642e2441159d090",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-06-bf2b99e4b7e1.html",
+      "sha256": "bf2b99e4b7e18d366b0db7d2835901b4cc6ada5f61927d8a42cf09f5189b151c",
       "bytes": 116675
     },
     {
       "url": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sg/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-07-b3edc1725c81.html",
-      "sha256": "b3edc1725c81a7db962569f581ae8848a5eaea531e76819281f50a57045d505a",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-07-4d24f169efc4.html",
+      "sha256": "4d24f169efc4c1c72ba7d2991c3fa35abe5923e3e68ec915d1640a51ef9a070b",
       "bytes": 94189
     },
     {
       "url": "https://agd.gov.lk/permanent-office-holders-of-the-officer-of-sa/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-08-3eca6fc8e1d0.html",
-      "sha256": "3eca6fc8e1d08cd3ac5e2c9bcd3a1331a16fcb47561ed141e294e570852a6204",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-08-44791b2eafe1.html",
+      "sha256": "44791b2eafe14a14694f11afdaa31d0674dba1bb6bb1a73ec675687293f6702d",
       "bytes": 95395
     },
     {
       "url": "https://agd.gov.lk/state-attorneys-division/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-09-64c0a463fb7d.html",
-      "sha256": "64c0a463fb7d3ad778a09a3ac38ffb5d1b9cff48a234af7805d94d72d031c5cd",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-09-1b31f86efee7.html",
+      "sha256": "1b31f86efee762cebcb4166e8c1bdfd9a225d37af077ab9250670f82dfdba846",
       "bytes": 95357
     },
     {
       "url": "https://agd.gov.lk/the-officers/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-10-27ecf18440f9.html",
-      "sha256": "27ecf18440f9b0ad5016992a4b3d13fa2c12c710f90c2bf652387099d28a5f76",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-10-d26477928024.html",
+      "sha256": "d26477928024fb7deec777056ee2bd1fb6d58e44bfe71faa3a26804c18c0ca2d",
       "bytes": 133748
     },
     {
       "url": "https://agd.gov.lk/general-contacts/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-11-aca1cff6ce76.html",
-      "sha256": "aca1cff6ce765828d5bdeb5b92d0b4d213ce8345e99fb5d0036ff0a6e67eaff4",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-11-d5e2890f2a34.html",
+      "sha256": "d5e2890f2a34ba55aba67f8bf70161786900d6b9e90ab9a664ad00b68a6b3cfe",
       "bytes": 94887
     },
     {
       "url": "https://agd.gov.lk/contact-details-regarding-e-filing-cases/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-12-59e68b9286ae.html",
-      "sha256": "59e68b9286aea935e86098f33d3dc530ad9506e7e846ef1d5165243add9ded36",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-12-a1a92c3d5d54.html",
+      "sha256": "a1a92c3d5d541a62d3db8ef52aa98e2d0f05c284e155d0cbb3f4582c96dafa81",
       "bytes": 102083
     },
     {
       "url": "https://agd.gov.lk/application-for-the-post-of-junior-assistant-state-attorney-2026-attorney-generals-department/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-13-01e32120de7c.html",
-      "sha256": "01e32120de7cfdf523547dd4b295e79c0965f71dab51f5c53ae2cd8d0bca0d81",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-13-c0aff2740dfa.html",
+      "sha256": "c0aff2740dfa7c8d3ef0663ef2b5b57d3f16d73572418e53ebac33060583bc10",
       "bytes": 105080
     },
     {
       "url": "https://agd.gov.lk/applications-for-apprenticeship-at-the-attorney-generals-department/",
-      "path": "audit.output/www.attorneygeneral.gov.lk/20260926.0641/snapshots/page-14-66049cfe92cf.html",
-      "sha256": "66049cfe92cfda03a98d4b26c3303147b8206c35689f0d436b88f21ca06afe9c",
+      "path": "audit.output/www.attorneygeneral.gov.lk/20260927.0646/snapshots/page-14-525f62c58459.html",
+      "sha256": "525f62c58459d39bdbc680b5e15734fae4c077ed67a47eb91e3cb4f3805b9b50",
       "bytes": 102583
     }
   ],
@@ -2192,7 +2192,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Old Building Attorney General’s Department P.O.BOX: 502 Colombo 12 New Building Attorney General’s Department No. 159, S; Phone: +94 (11) 214 9000 (24 phone numbers found); Email: administration@agd.gov.lk (5 email addresses found); Published named responsibility: division",
+      "reason": "Published postal address: Old Building Attorney General’s Department P.O.BOX: 502 Colombo 12 New Building Attorney General’s Department No. 159, S; Phone: 000949-5-158 (24 phone numbers found); Email: administration@agd.gov.lk (5 email addresses found); Published named responsibility: division",
       "executed": true,
       "checks": [
         {
@@ -2205,7 +2205,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 (11) 214 9000 (24 phone numbers found); Email: administration@agd.gov.lk (5 email addresses found)"
+          "reason": "Phone: 000949-5-158 (24 phone numbers found); Email: administration@agd.gov.lk (5 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2284,7 +2284,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "be57c7dc-14e3-4f7d-8ef5-4234eab708cb",
+  "audit_id": "376024d0-dfba-4b97-9325-348ee53435a1",
   "url": "http://www.nhsl.health.gov.lk/",
   "normalized_url": "http://www.nhsl.health.gov.lk/",
-  "started_at": "2026-09-26T06:36:37.488016+05:30",
-  "completed_at": "2026-09-26T06:37:05.538438+05:30",
+  "started_at": "2026-09-27T06:41:58.101284+05:30",
+  "completed_at": "2026-09-27T06:42:30.157519+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -18,117 +18,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:36:37.856706+05:30"
+      "observed_at": "2026-09-27T06:41:58.508810+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:36:37.856726+05:30"
+      "observed_at": "2026-09-27T06:41:58.508829+05:30"
     },
     {
       "check": "tls_expired",
       "status": "fail",
       "detail": "TLS certificate has expired",
-      "observed_at": "2026-09-26T06:36:38.876843+05:30"
+      "observed_at": "2026-09-27T06:41:59.512503+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1010)",
       "source": "https://www.nhsl.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:05.352080+05:30"
+      "observed_at": "2026-09-27T06:42:29.773527+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at http://www.nhsl.health.gov.lk/",
       "source": "http://www.nhsl.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:05.352096+05:30"
+      "observed_at": "2026-09-27T06:42:29.773554+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 3: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1010)",
       "source": "https://www.nhsl.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:05.352101+05:30"
+      "observed_at": "2026-09-27T06:42:29.773563+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at http://www.nhsl.health.gov.lk/",
       "source": "http://www.nhsl.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:05.352104+05:30"
+      "observed_at": "2026-09-27T06:42:29.773570+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?lang=si",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?lang=si",
-      "observed_at": "2026-09-26T06:37:05.352106+05:30"
+      "observed_at": "2026-09-27T06:42:29.773577+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?lang=ta",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?lang=ta",
-      "observed_at": "2026-09-26T06:37:05.352109+05:30"
+      "observed_at": "2026-09-27T06:42:29.773586+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?lang=en",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?lang=en",
-      "observed_at": "2026-09-26T06:37:05.352111+05:30"
+      "observed_at": "2026-09-27T06:42:29.773590+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234",
-      "observed_at": "2026-09-26T06:37:05.352113+05:30"
+      "observed_at": "2026-09-27T06:42:29.773595+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?option=com_xmap&view=html&id=1&Itemid=327&lang=en",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_xmap&view=html&id=1&Itemid=327",
-      "observed_at": "2026-09-26T06:37:05.352115+05:30"
+      "observed_at": "2026-09-27T06:42:29.773599+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=153:contact-us&catid=9:needs-and-tips&Itemid=213&lang=en",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=153:contact-us&catid=9:needs-and-tips&Itemid=213",
-      "observed_at": "2026-09-26T06:37:05.352118+05:30"
+      "observed_at": "2026-09-27T06:42:29.773604+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslsms&lang=en",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslsms",
-      "observed_at": "2026-09-26T06:37:05.352120+05:30"
+      "observed_at": "2026-09-27T06:42:29.773610+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslrequrest&lang=en",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslrequrest&lang=en",
-      "observed_at": "2026-09-26T06:37:05.352122+05:30"
+      "observed_at": "2026-09-27T06:42:29.773616+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=reset&lang=si",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=reset&lang=si",
-      "observed_at": "2026-09-26T06:37:05.352124+05:30"
+      "observed_at": "2026-09-27T06:42:29.773621+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=remind&lang=si",
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=remind&lang=si",
-      "observed_at": "2026-09-26T06:37:05.352126+05:30"
+      "observed_at": "2026-09-27T06:42:29.773627+05:30"
     },
     {
       "check": "named_responsibility",
@@ -272,6 +272,24 @@
       "source": "http://www.nhsl.health.gov.lk/web/index.php?lang=en",
       "data": {
         "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411-2693510 ",
+      "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en",
+      "data": {
+        "value": "+9411-2693510 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411-2691111 ",
+      "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en",
+      "data": {
+        "value": "+9411-2691111 "
       }
     },
     {
@@ -281,24 +299,6 @@
       "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en",
       "data": {
         "value": "0112686143 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411-2691111 ",
-      "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en",
-      "data": {
-        "value": "+9411-2691111 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411-2693510 ",
-      "source": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en",
-      "data": {
-        "value": "+9411-2693510 "
       }
     },
     {
@@ -533,7 +533,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1314,
+      "elapsed_ms": 1339,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -551,7 +551,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1053,
+      "elapsed_ms": 2367,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -560,7 +560,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/web/index.php?lang=si",
       "redirects": [],
-      "elapsed_ms": 2475,
+      "elapsed_ms": 2408,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -569,7 +569,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/web/index.php?lang=ta",
       "redirects": [],
-      "elapsed_ms": 2074,
+      "elapsed_ms": 2348,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -578,7 +578,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/web/index.php?lang=en",
       "redirects": [],
-      "elapsed_ms": 2036,
+      "elapsed_ms": 2359,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -589,7 +589,7 @@
       "redirects": [
         "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en"
       ],
-      "elapsed_ms": 1861,
+      "elapsed_ms": 1991,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -600,7 +600,7 @@
       "redirects": [
         "http://www.nhsl.health.gov.lk/web/index.php?option=com_xmap&view=html&id=1&Itemid=327&lang=en"
       ],
-      "elapsed_ms": 1709,
+      "elapsed_ms": 2098,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -611,7 +611,7 @@
       "redirects": [
         "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=153:contact-us&catid=9:needs-and-tips&Itemid=213&lang=en"
       ],
-      "elapsed_ms": 1560,
+      "elapsed_ms": 1488,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -622,7 +622,7 @@
       "redirects": [
         "http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslsms&lang=en"
       ],
-      "elapsed_ms": 1438,
+      "elapsed_ms": 1423,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -631,7 +631,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslrequrest&lang=en",
       "redirects": [],
-      "elapsed_ms": 1083,
+      "elapsed_ms": 1099,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -640,7 +640,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=reset&lang=si",
       "redirects": [],
-      "elapsed_ms": 1441,
+      "elapsed_ms": 1465,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -649,7 +649,7 @@
       "status_code": 200,
       "final_url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=remind&lang=si",
       "redirects": [],
-      "elapsed_ms": 1169,
+      "elapsed_ms": 2034,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -657,74 +657,74 @@
   "snapshots": [
     {
       "url": "http://www.nhsl.health.gov.lk/",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-01-db920b47e2b8.html",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-01-db920b47e2b8.html",
       "sha256": "db920b47e2b85051621ffc99d9b205040035fcf3bfd59ec785fb504894add3ba",
       "bytes": 4206
     },
     {
       "url": "http://www.nhsl.health.gov.lk/",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-02-db920b47e2b8.html",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-02-db920b47e2b8.html",
       "sha256": "db920b47e2b85051621ffc99d9b205040035fcf3bfd59ec785fb504894add3ba",
       "bytes": 4206
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?lang=si",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-03-aaadacec503e.html",
-      "sha256": "aaadacec503e19da95e7960a1178354d9f80989f555f7db7df2b6cd28b5f15f9",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-03-ef21b114a94e.html",
+      "sha256": "ef21b114a94e7cb40242f24eb95cf062e67626586eabd136e48025524f96c748",
       "bytes": 55978
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?lang=ta",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-04-5bb66f5eae01.html",
-      "sha256": "5bb66f5eae012293cd5e833d08a3a4c13cd575c7c1d1f150d03145f7f51bd8fe",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-04-7cc519fed59e.html",
+      "sha256": "7cc519fed59e781b329ca0df9e1c1021f0c539d3bc8c16366dd895415ee45eae",
       "bytes": 54958
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?lang=en",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-05-246adb2823c3.html",
-      "sha256": "246adb2823c3f835679c45f688d398644edee3f9ab4d8363ab963f8a85e5382b",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-05-cf592fb0554c.html",
+      "sha256": "cf592fb0554cefbea5a1de2f3af629b41c976cbceb1be4953fa6d8c40e0a8c06",
       "bytes": 54857
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=73&Itemid=234&lang=en",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-06-ea66e5ddef9b.html",
-      "sha256": "ea66e5ddef9bab6fd12dd6524a48f926be888b671e361ef5c8cf6d27c3d3bcf8",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-06-3a137a12775c.html",
+      "sha256": "3a137a12775c3a1490f09ae3294f3e4f049d16a8a2885d76b47d19e8bdd227eb",
       "bytes": 31285
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_xmap&view=html&id=1&Itemid=327&lang=en",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-07-e54a49f34f77.html",
-      "sha256": "e54a49f34f7719747bbf46407ce85f73f41fcf272c2c2c1ad1df2adbf1caab74",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-07-bfaabff18214.html",
+      "sha256": "bfaabff182145b5a9989b1754502da641fa7d2ae67b7783dc7b53184d64ff6ea",
       "bytes": 28318
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_content&view=article&id=153:contact-us&catid=9:needs-and-tips&Itemid=213&lang=en",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-08-127442593348.html",
-      "sha256": "127442593348d3c937751f7ed926e3b0ef56d812651a08812b4736d521e359ad",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-08-95ddcecf47a9.html",
+      "sha256": "95ddcecf47a9d94435cb2b29bf5bb279cb5303432501da05c1e4a9e2ed0eaceb",
       "bytes": 26865
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslsms&lang=en",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-09-1811ad2b1429.html",
-      "sha256": "1811ad2b1429a72dfe1a2434fd314478655dc9282c6b173d365771bacb8dc86a",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-09-da42795b8132.html",
+      "sha256": "da42795b8132412c7df3d1b45fd52bdefed55e30d514457c0acf9a51d64cc184",
       "bytes": 39066
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_nhsl&view=nhslrequrest&lang=en",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-10-8c15f7534b57.html",
-      "sha256": "8c15f7534b57e27c23766d9991a64b616081f16eaa8a16c0eba84349b4e35fcf",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-10-399bdd92d348.html",
+      "sha256": "399bdd92d348005810da6068d4a700081344b01f5a8e73c983ffc20609135874",
       "bytes": 30925
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=reset&lang=si",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-11-4742ba99dd70.html",
-      "sha256": "4742ba99dd70769a7ac17d195309b9c570aa2237a65a0207869557e4535fd273",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-11-5f255bc7e197.html",
+      "sha256": "5f255bc7e1974171a367e5b62f143aa6e38e77a8adb1091691d22471dd48fae1",
       "bytes": 28108
     },
     {
       "url": "http://www.nhsl.health.gov.lk/web/index.php?option=com_users&view=remind&lang=si",
-      "path": "audit.output/www.nhsl.health.gov.lk/20260926.0636/snapshots/page-12-45e101216fc9.html",
-      "sha256": "45e101216fc9aa4a549274112a22d2a08d6af1f2c1808aca9cfcc759b6fe937b",
+      "path": "audit.output/www.nhsl.health.gov.lk/20260927.0641/snapshots/page-12-8f4a0f4d7ab8.html",
+      "sha256": "8f4a0f4d7ab8a46b1a227e9dc1f5013d9ade1bb50fb72ece1a888f917244a21f",
       "bytes": 28367
     }
   ],
@@ -841,7 +841,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

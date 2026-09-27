@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "85dbb649-8382-4440-930b-b098ce90022d",
+  "audit_id": "a4b814dd-8ff3-473b-b855-227288cb2247",
   "url": "https://emb-havana.gov.lk",
   "normalized_url": "https://emb-havana.gov.lk/",
-  "started_at": "2026-09-26T06:33:36.638904+05:30",
-  "completed_at": "2026-09-26T06:34:23.930595+05:30",
+  "started_at": "2026-09-27T06:38:44.214702+05:30",
+  "completed_at": "2026-09-27T06:39:37.809914+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:33:37.464735+05:30"
+      "observed_at": "2026-09-27T06:38:44.596781+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:33:37.464753+05:30"
+      "observed_at": "2026-09-27T06:38:44.596801+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:33:38.089607+05:30"
+      "observed_at": "2026-09-27T06:38:45.351014+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-havana.gov.lk/en",
       "source": "https://emb-havana.gov.lk/",
-      "observed_at": "2026-09-26T06:34:22.583865+05:30"
+      "observed_at": "2026-09-27T06:39:36.038268+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-havana.gov.lk/en",
       "source": "http://emb-havana.gov.lk/",
-      "observed_at": "2026-09-26T06:34:22.583884+05:30"
+      "observed_at": "2026-09-27T06:39:36.038287+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-havana.gov.lk/en",
       "source": "https://emb-havana.gov.lk/",
-      "observed_at": "2026-09-26T06:34:22.583888+05:30"
+      "observed_at": "2026-09-27T06:39:36.038291+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-havana.gov.lk/en",
       "source": "http://emb-havana.gov.lk/",
-      "observed_at": "2026-09-26T06:34:22.583890+05:30"
+      "observed_at": "2026-09-27T06:39:36.038295+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-havana.gov.lk/en/contact",
       "source": "https://www.emb-havana.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:34:22.583892+05:30"
+      "observed_at": "2026-09-27T06:39:36.038319+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
       "source": "https://emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
-      "observed_at": "2026-09-26T06:34:22.583894+05:30"
+      "observed_at": "2026-09-27T06:39:36.038323+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
       "source": "https://emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
-      "observed_at": "2026-09-26T06:34:22.583897+05:30"
+      "observed_at": "2026-09-27T06:39:36.038326+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
       "source": "https://emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
-      "observed_at": "2026-09-26T06:34:22.583899+05:30"
+      "observed_at": "2026-09-27T06:39:36.038329+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
       "source": "https://emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
-      "observed_at": "2026-09-26T06:34:22.583901+05:30"
+      "observed_at": "2026-09-27T06:39:36.038332+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
       "source": "https://emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
-      "observed_at": "2026-09-26T06:34:22.583903+05:30"
+      "observed_at": "2026-09-27T06:39:36.038335+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
       "source": "https://emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
-      "observed_at": "2026-09-26T06:34:22.583905+05:30"
+      "observed_at": "2026-09-27T06:39:36.038338+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-havana.gov.lk/en/allPosts?category=News",
       "source": "https://www.emb-havana.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:34:22.583907+05:30"
+      "observed_at": "2026-09-27T06:39:36.038340+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-havana.gov.lk/en/posts/6a8570d6e2cc9e022ede65a0",
       "source": "https://www.emb-havana.gov.lk/posts/6a8570d6e2cc9e022ede65a0",
-      "observed_at": "2026-09-26T06:34:22.583909+05:30"
+      "observed_at": "2026-09-27T06:39:36.038343+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-havana.gov.lk/en/posts/6a853c19e2cc9e022edde93e",
       "source": "https://www.emb-havana.gov.lk/posts/6a853c19e2cc9e022edde93e",
-      "observed_at": "2026-09-26T06:34:22.583911+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0247472946",
-      "source": "https://www.emb-havana.gov.lk/en",
-      "data": {
-        "value": "0247472946"
-      }
+      "observed_at": "2026-09-27T06:39:36.038346+05:30"
     },
     {
       "check": "phone",
@@ -157,12 +148,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0247472946",
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0247472946"
       }
     },
     {
@@ -172,6 +163,15 @@
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -204,15 +204,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0247472946",
-      "source": "https://www.emb-havana.gov.lk/en",
-      "data": {
-        "value": "0247472946"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
@@ -220,12 +211,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0247472946",
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0247472946"
       }
     },
     {
@@ -235,6 +226,15 @@
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -267,15 +267,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0247472946",
-      "source": "https://www.emb-havana.gov.lk/en",
-      "data": {
-        "value": "0247472946"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
@@ -283,12 +274,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0247472946",
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0247472946"
       }
     },
     {
@@ -298,6 +289,15 @@
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -330,15 +330,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0247472946",
-      "source": "https://www.emb-havana.gov.lk/en",
-      "data": {
-        "value": "0247472946"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
@@ -346,12 +337,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0247472946",
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0247472946"
       }
     },
     {
@@ -361,6 +352,15 @@
       "source": "https://www.emb-havana.gov.lk/en",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -393,15 +393,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0247472946",
-      "source": "https://www.emb-havana.gov.lk/en/contact",
-      "data": {
-        "value": "0247472946"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en/contact",
       "data": {
@@ -409,12 +400,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0247472946",
       "source": "https://www.emb-havana.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "0247472946"
       }
     },
     {
@@ -424,6 +415,15 @@
       "source": "https://www.emb-havana.gov.lk/en/contact",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en/contact",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -447,19 +447,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112422994",
+      "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
       "data": {
-        "value": "0112422994"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112439185",
-      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
-      "data": {
-        "value": "0112439185"
+        "value": "+5372042562"
       }
     },
     {
@@ -474,10 +465,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +5372042562",
+      "detail": "Published phone: 0112013072",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
       "data": {
-        "value": "+5372042562"
+        "value": "0112013072"
       }
     },
     {
@@ -492,10 +483,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112013072",
+      "detail": "Published phone: 0112422994",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
       "data": {
-        "value": "0112013072"
+        "value": "0112422994"
       }
     },
     {
@@ -508,12 +499,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0112439185",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
       "data": {
-        "value": "john@example.com"
+        "value": "0112439185"
       }
     },
     {
@@ -523,6 +514,15 @@
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -591,19 +591,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112422994",
+      "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
       "data": {
-        "value": "0112422994"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112439185",
-      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
-      "data": {
-        "value": "0112439185"
+        "value": "+5372042562"
       }
     },
     {
@@ -618,10 +609,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +5372042562",
+      "detail": "Published phone: 0112013072",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
       "data": {
-        "value": "+5372042562"
+        "value": "0112013072"
       }
     },
     {
@@ -636,10 +627,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112013072",
+      "detail": "Published phone: 0112422994",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
       "data": {
-        "value": "0112013072"
+        "value": "0112422994"
       }
     },
     {
@@ -652,12 +643,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0112439185",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
       "data": {
-        "value": "john@example.com"
+        "value": "0112439185"
       }
     },
     {
@@ -667,6 +658,15 @@
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -735,19 +735,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112422994",
+      "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
       "data": {
-        "value": "0112422994"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112439185",
-      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
-      "data": {
-        "value": "0112439185"
+        "value": "+5372042562"
       }
     },
     {
@@ -762,10 +753,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +5372042562",
+      "detail": "Published phone: 0112013072",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
       "data": {
-        "value": "+5372042562"
+        "value": "0112013072"
       }
     },
     {
@@ -780,10 +771,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112013072",
+      "detail": "Published phone: 0112422994",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
       "data": {
-        "value": "0112013072"
+        "value": "0112422994"
       }
     },
     {
@@ -796,12 +787,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0112439185",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
       "data": {
-        "value": "john@example.com"
+        "value": "0112439185"
       }
     },
     {
@@ -811,6 +802,15 @@
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -879,19 +879,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112422994",
+      "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
       "data": {
-        "value": "0112422994"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112439185",
-      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
-      "data": {
-        "value": "0112439185"
+        "value": "+5372042562"
       }
     },
     {
@@ -906,10 +897,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +5372042562",
+      "detail": "Published phone: 0112013072",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
       "data": {
-        "value": "+5372042562"
+        "value": "0112013072"
       }
     },
     {
@@ -924,10 +915,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112013072",
+      "detail": "Published phone: 0112422994",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
       "data": {
-        "value": "0112013072"
+        "value": "0112422994"
       }
     },
     {
@@ -940,12 +931,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0112439185",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
       "data": {
-        "value": "john@example.com"
+        "value": "0112439185"
       }
     },
     {
@@ -955,6 +946,15 @@
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1023,19 +1023,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112422994",
+      "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
       "data": {
-        "value": "0112422994"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112439185",
-      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
-      "data": {
-        "value": "0112439185"
+        "value": "+5372042562"
       }
     },
     {
@@ -1050,10 +1041,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +5372042562",
+      "detail": "Published phone: 0112013072",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
       "data": {
-        "value": "+5372042562"
+        "value": "0112013072"
       }
     },
     {
@@ -1068,10 +1059,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112013072",
+      "detail": "Published phone: 0112422994",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
       "data": {
-        "value": "0112013072"
+        "value": "0112422994"
       }
     },
     {
@@ -1084,12 +1075,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0112439185",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
       "data": {
-        "value": "john@example.com"
+        "value": "0112439185"
       }
     },
     {
@@ -1099,6 +1090,15 @@
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1167,19 +1167,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112422994",
+      "detail": "Published phone: +5372042562",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
       "data": {
-        "value": "0112422994"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112439185",
-      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
-      "data": {
-        "value": "0112439185"
+        "value": "+5372042562"
       }
     },
     {
@@ -1194,10 +1185,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +5372042562",
+      "detail": "Published phone: 0112013072",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
       "data": {
-        "value": "+5372042562"
+        "value": "0112013072"
       }
     },
     {
@@ -1212,10 +1203,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112013072",
+      "detail": "Published phone: 0112422994",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
       "data": {
-        "value": "0112013072"
+        "value": "0112422994"
       }
     },
     {
@@ -1228,12 +1219,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0112439185",
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
       "data": {
-        "value": "john@example.com"
+        "value": "0112439185"
       }
     },
     {
@@ -1243,6 +1234,15 @@
       "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
       "data": {
         "value": "slemb.havana@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1320,19 +1320,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.havana@mfa.gov.lk",
       "source": "https://www.emb-havana.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.havana@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.havana@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-havana.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "slemb.havana@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1365,19 +1365,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.havana@mfa.gov.lk",
       "source": "https://www.emb-havana.gov.lk/en/posts/6a8570d6e2cc9e022ede65a0",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.havana@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.havana@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-havana.gov.lk/en/posts/6a8570d6e2cc9e022ede65a0",
       "data": {
-        "value": "slemb.havana@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1410,19 +1410,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.havana@mfa.gov.lk",
       "source": "https://www.emb-havana.gov.lk/en/posts/6a853c19e2cc9e022edde93e",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.havana@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.havana@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-havana.gov.lk/en/posts/6a853c19e2cc9e022edde93e",
       "data": {
-        "value": "slemb.havana@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1480,7 +1480,7 @@
         "https://www.emb-havana.gov.lk/",
         "https://www.emb-havana.gov.lk/en"
       ],
-      "elapsed_ms": 1828,
+      "elapsed_ms": 2238,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1492,7 +1492,7 @@
         "https://www.emb-havana.gov.lk/",
         "https://www.emb-havana.gov.lk/en"
       ],
-      "elapsed_ms": 736,
+      "elapsed_ms": 1840,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1504,7 +1504,7 @@
         "https://www.emb-havana.gov.lk/",
         "https://www.emb-havana.gov.lk/en"
       ],
-      "elapsed_ms": 804,
+      "elapsed_ms": 2354,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1516,7 +1516,7 @@
         "https://www.emb-havana.gov.lk/",
         "https://www.emb-havana.gov.lk/en"
       ],
-      "elapsed_ms": 2085,
+      "elapsed_ms": 2452,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1525,7 +1525,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-havana.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1136,
+      "elapsed_ms": 1123,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1536,7 +1536,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c"
       ],
-      "elapsed_ms": 4416,
+      "elapsed_ms": 2676,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1547,7 +1547,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b"
       ],
-      "elapsed_ms": 4307,
+      "elapsed_ms": 3178,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1558,7 +1558,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0"
       ],
-      "elapsed_ms": 2731,
+      "elapsed_ms": 3412,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1569,7 +1569,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d"
       ],
-      "elapsed_ms": 2062,
+      "elapsed_ms": 2284,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1580,7 +1580,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2"
       ],
-      "elapsed_ms": 3722,
+      "elapsed_ms": 5221,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1591,7 +1591,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e"
       ],
-      "elapsed_ms": 2795,
+      "elapsed_ms": 2384,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1600,7 +1600,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-havana.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 1716,
+      "elapsed_ms": 770,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1611,7 +1611,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/posts/6a8570d6e2cc9e022ede65a0"
       ],
-      "elapsed_ms": 944,
+      "elapsed_ms": 1027,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1622,7 +1622,7 @@
       "redirects": [
         "https://www.emb-havana.gov.lk/en/posts/6a853c19e2cc9e022edde93e"
       ],
-      "elapsed_ms": 774,
+      "elapsed_ms": 988,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1630,86 +1630,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-havana.gov.lk/en",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-01-5379641ac301.html",
-      "sha256": "5379641ac301bc4f55adf52a04c7ba50c27a1ac8180398ba11cf6030321083b5",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-01-7b78b3c276be.html",
+      "sha256": "7b78b3c276be634442e9dda896abab5515be86f9c15d815b6e9669876f44c38a",
       "bytes": 282758
     },
     {
       "url": "https://www.emb-havana.gov.lk/en",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-02-cf1e0a9fedf1.html",
-      "sha256": "cf1e0a9fedf125d968b05167b29862bba5c9f795dbea2f5e5f0fd64d5520ff52",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-02-85374d9583e4.html",
+      "sha256": "85374d9583e48b6cc882f46cdfb28433ba332be7b139a417be5e09b78bff9d52",
       "bytes": 282758
     },
     {
       "url": "https://www.emb-havana.gov.lk/en",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-03-4c916231a383.html",
-      "sha256": "4c916231a383b4fea6f7911c4b725e86a3b9676cc9dfb80fbeaba2436e0cb762",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-03-ac528784acfc.html",
+      "sha256": "ac528784acfcb10fb0762bc20fd3f29a4f01998f34dfd0a8d38b3d04be31d9db",
       "bytes": 282758
     },
     {
       "url": "https://www.emb-havana.gov.lk/en",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-04-371813e70aff.html",
-      "sha256": "371813e70aff3cf243170dc8295ce40c08accd479b6ce16080440709a5058006",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-04-e417f668d97e.html",
+      "sha256": "e417f668d97ea9de7bd5de8c808ab43fd107b132bab83a97f23b953412f040d9",
       "bytes": 282758
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/contact",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-05-a7da741db944.html",
-      "sha256": "a7da741db944f8a2c07eeaaf4940c441fc93d2b10f5aaffa94c38a89d0503757",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-05-62e5c67eb447.html",
+      "sha256": "62e5c67eb447001196d42c72267f41febb5bd2cc490ece2eb60a7f975fd3e8f0",
       "bytes": 104662
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537e2c53da0f59bce8d2c",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-06-13ae7d6812b3.html",
-      "sha256": "13ae7d6812b3c23588a5d3920176071bff92632c8d06fc97aea634e54b8a894a",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-06-2eddd7437c5d.html",
+      "sha256": "2eddd7437c5dd9252d735740ca405c23ec80e5cab77c35934f3b395b35d0c38e",
       "bytes": 331979
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a85323fc53da0f59bce7d9b",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-07-b4fe5b8bb43d.html",
-      "sha256": "b4fe5b8bb43d050c48123fe755d6a9db773a4a68e2f0c56925dffbcdcb887e3b",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-07-1f02f4fa2533.html",
+      "sha256": "1f02f4fa2533ccbc30f0ca54adf454f429890965fccc706c502c1ea79787d3f4",
       "bytes": 331979
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537d2e2cc9e022edde4b0",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-08-bf88b1d52766.html",
-      "sha256": "bf88b1d527663e8bc8e1e1f87f59f31d4c62ea7a8bbbbbffd18a3fd7966afb9a",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-08-81e4132d7b73.html",
+      "sha256": "81e4132d7b7393b139c0ecfcfcd1c1f730f116735d1abba127a2ab9d14954cc0",
       "bytes": 331979
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8537fce2cc9e022edde52d",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-09-1037a69205ff.html",
-      "sha256": "1037a69205ffbce06a5ef8cea7e1186201ad52bea0e707f9d5fbf5d31bd8729b",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-09-cbb63b3f0818.html",
+      "sha256": "cbb63b3f0818a3b778d0d06f42e8722cfd47be9a002314125c2a73612af3cba5",
       "bytes": 331979
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8532f0c53da0f59bce81c2",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-10-19637d095893.html",
-      "sha256": "19637d095893b0b3371149a279e0e06888eba03f05f76a8dc70a2f0598720dc2",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-10-57c66f3d747b.html",
+      "sha256": "57c66f3d747b8d1f09bf44a0e88f197d17275788b4382f831b0458e1aebd77e3",
       "bytes": 331979
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/appointment?serviceId=6a8539acc53da0f59bce8f5e",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-11-a9bdf893c995.html",
-      "sha256": "a9bdf893c99525d6da6643cdb907b4a3807516ce9760ef618653883fdae53ebf",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-11-e49155647d2a.html",
+      "sha256": "e49155647d2ab11583401ae527a1fd3d523c73fb7a0ddb240ca6992975ba4969",
       "bytes": 331979
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-12-c1271c9e22bd.html",
-      "sha256": "c1271c9e22bd0796f50b404fb0f23669846ea1b8ba33021ba17c7449856556f6",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-12-df9099eb247d.html",
+      "sha256": "df9099eb247d30d8477290f022fb723197f9f04e8801f16d164e3d353100d209",
       "bytes": 161363
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/posts/6a8570d6e2cc9e022ede65a0",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-13-ab7df30b44bd.html",
-      "sha256": "ab7df30b44bdcd78f98fc976cf4113743d8826cf0825a7820a24af1d9926cd4f",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-13-71829ccbfa5e.html",
+      "sha256": "71829ccbfa5e6f95bfca5becd3ab2693c66304ac710f31555b2377863aa2d8ba",
       "bytes": 102498
     },
     {
       "url": "https://www.emb-havana.gov.lk/en/posts/6a853c19e2cc9e022edde93e",
-      "path": "audit.output/emb-havana.gov.lk/20260926.0633/snapshots/page-14-436d0c1456fa.html",
-      "sha256": "436d0c1456faa34e341886569e0f34ff8d7d4bef3f54e2435aaab785fbe3fdbf",
+      "path": "audit.output/emb-havana.gov.lk/20260927.0638/snapshots/page-14-4587005c24eb.html",
+      "sha256": "4587005c24eb0416007c807aba79db02d501afa5056333059afec4b02424c21a",
       "bytes": 101543
     }
   ],
@@ -1796,7 +1796,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: 5ta Avenida, e/30 y 32 # 3004, Miramar, Havana, Cuba. Tel: +53 72042562 , +53 72141125 Email: slemb.havana@mfa.gov.lk Re; Phone: 0247472946 (8 phone numbers found); Email: john@example.com (2 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: 5ta Avenida, e/30 y 32 # 3004, Miramar, Havana, Cuba. Tel: +53 72042562 , +53 72141125 Email: slemb.havana@mfa.gov.lk Re; Phone: +5372042562 (8 phone numbers found); Email: slemb.havana@mfa.gov.lk (2 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1809,7 +1809,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0247472946 (8 phone numbers found); Email: john@example.com (2 email addresses found)"
+          "reason": "Phone: +5372042562 (8 phone numbers found); Email: slemb.havana@mfa.gov.lk (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1888,7 +1888,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

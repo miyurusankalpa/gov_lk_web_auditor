@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "51b483e0-65c8-4b0b-aa22-034d4db99610",
+  "audit_id": "d32e3d6f-759c-47d5-a3c9-dce5d4012da0",
   "url": "https://emb-beirut.gov.lk",
   "normalized_url": "https://emb-beirut.gov.lk/",
-  "started_at": "2026-09-26T06:34:40.797817+05:30",
-  "completed_at": "2026-09-26T06:35:31.221550+05:30",
+  "started_at": "2026-09-27T06:39:49.365640+05:30",
+  "completed_at": "2026-09-27T06:40:44.156578+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:34:43.945511+05:30"
+      "observed_at": "2026-09-27T06:39:49.771939+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:34:43.945530+05:30"
+      "observed_at": "2026-09-27T06:39:49.771961+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:34:44.334047+05:30"
+      "observed_at": "2026-09-27T06:39:50.492390+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-beirut.gov.lk/en",
       "source": "https://emb-beirut.gov.lk/",
-      "observed_at": "2026-09-26T06:35:29.164994+05:30"
+      "observed_at": "2026-09-27T06:40:41.344847+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-beirut.gov.lk/en",
       "source": "http://emb-beirut.gov.lk/",
-      "observed_at": "2026-09-26T06:35:29.165014+05:30"
+      "observed_at": "2026-09-27T06:40:41.344866+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-beirut.gov.lk/en",
       "source": "https://emb-beirut.gov.lk/",
-      "observed_at": "2026-09-26T06:35:29.165018+05:30"
+      "observed_at": "2026-09-27T06:40:41.344870+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-beirut.gov.lk/en",
       "source": "http://emb-beirut.gov.lk/",
-      "observed_at": "2026-09-26T06:35:29.165020+05:30"
+      "observed_at": "2026-09-27T06:40:41.344873+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-beirut.gov.lk/en/contact",
       "source": "https://www.emb-beirut.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:35:29.165023+05:30"
+      "observed_at": "2026-09-27T06:40:41.344876+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-beirut.gov.lk/en/bilateral-relations",
       "source": "https://www.emb-beirut.gov.lk/en/bilateral-relations",
-      "observed_at": "2026-09-26T06:35:29.165025+05:30"
+      "observed_at": "2026-09-27T06:40:41.344879+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
-      "observed_at": "2026-09-26T06:35:29.165027+05:30"
+      "observed_at": "2026-09-27T06:40:41.344882+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
-      "observed_at": "2026-09-26T06:35:29.165030+05:30"
+      "observed_at": "2026-09-27T06:40:41.344885+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
-      "observed_at": "2026-09-26T06:35:29.165032+05:30"
+      "observed_at": "2026-09-27T06:40:41.344888+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
-      "observed_at": "2026-09-26T06:35:29.165034+05:30"
+      "observed_at": "2026-09-27T06:40:41.344891+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
-      "observed_at": "2026-09-26T06:35:29.165036+05:30"
+      "observed_at": "2026-09-27T06:40:41.344894+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
-      "observed_at": "2026-09-26T06:35:29.165038+05:30"
+      "observed_at": "2026-09-27T06:40:41.344897+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
-      "observed_at": "2026-09-26T06:35:29.165041+05:30"
+      "observed_at": "2026-09-27T06:40:41.344899+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
       "source": "https://emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
-      "observed_at": "2026-09-26T06:35:29.165043+05:30"
+      "observed_at": "2026-09-27T06:40:41.344902+05:30"
     },
     {
       "check": "phone",
@@ -159,6 +159,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00 961 54572",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "00 961 54572"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +9615457261",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
@@ -175,12 +184,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00 961 54572",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
-        "value": "00 961 54572"
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -190,24 +208,6 @@
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -258,6 +258,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00 961 54572",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "00 961 54572"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +9615457261",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
@@ -274,12 +283,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00 961 54572",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
-        "value": "00 961 54572"
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -289,24 +307,6 @@
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -357,6 +357,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00 961 54572",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "00 961 54572"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +9615457261",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
@@ -373,12 +382,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00 961 54572",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
-        "value": "00 961 54572"
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -388,24 +406,6 @@
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -456,6 +456,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00 961 54572",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "00 961 54572"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +9615457261",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
@@ -472,12 +481,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00 961 54572",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
-        "value": "00 961 54572"
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -487,24 +505,6 @@
       "source": "https://www.emb-beirut.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -541,6 +541,15 @@
       "source": "https://www.emb-beirut.gov.lk/en/contact",
       "data": {
         "value": "+9615457226"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0156973230",
+      "source": "https://www.emb-beirut.gov.lk/en/contact",
+      "data": {
+        "value": "0156973230"
       }
     },
     {
@@ -553,12 +562,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0156973230",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
       "source": "https://www.emb-beirut.gov.lk/en/contact",
       "data": {
-        "value": "0156973230"
+        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -568,15 +577,6 @@
       "source": "https://www.emb-beirut.gov.lk/en/contact",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/contact",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -618,19 +618,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
       "source": "https://www.emb-beirut.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -681,28 +681,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -789,28 +789,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -897,28 +897,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -1005,28 +1005,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -1113,28 +1113,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -1221,28 +1221,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -1329,28 +1329,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -1437,28 +1437,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.beirut@mfa.gov.lk",
+      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
+      "data": {
+        "value": "slemb.beirut@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.beirut@mfa.gov.lk",
-      "source": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
-      "data": {
-        "value": "slemb.beirut@mfa.gov.lk"
       }
     },
     {
@@ -1561,7 +1561,7 @@
         "https://www.emb-beirut.gov.lk/",
         "https://www.emb-beirut.gov.lk/en"
       ],
-      "elapsed_ms": 3032,
+      "elapsed_ms": 2825,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1573,7 +1573,7 @@
         "https://www.emb-beirut.gov.lk/",
         "https://www.emb-beirut.gov.lk/en"
       ],
-      "elapsed_ms": 2058,
+      "elapsed_ms": 1810,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1585,7 +1585,7 @@
         "https://www.emb-beirut.gov.lk/",
         "https://www.emb-beirut.gov.lk/en"
       ],
-      "elapsed_ms": 777,
+      "elapsed_ms": 820,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1597,7 +1597,7 @@
         "https://www.emb-beirut.gov.lk/",
         "https://www.emb-beirut.gov.lk/en"
       ],
-      "elapsed_ms": 724,
+      "elapsed_ms": 1310,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1606,7 +1606,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-beirut.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1012,
+      "elapsed_ms": 1125,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1615,7 +1615,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-beirut.gov.lk/en/bilateral-relations",
       "redirects": [],
-      "elapsed_ms": 837,
+      "elapsed_ms": 1307,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1626,7 +1626,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70"
       ],
-      "elapsed_ms": 2811,
+      "elapsed_ms": 3420,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1637,7 +1637,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba"
       ],
-      "elapsed_ms": 3799,
+      "elapsed_ms": 3329,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1648,7 +1648,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21"
       ],
-      "elapsed_ms": 2707,
+      "elapsed_ms": 2934,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1659,7 +1659,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9"
       ],
-      "elapsed_ms": 3457,
+      "elapsed_ms": 2564,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1670,7 +1670,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1"
       ],
-      "elapsed_ms": 2400,
+      "elapsed_ms": 3773,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1681,7 +1681,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb"
       ],
-      "elapsed_ms": 2673,
+      "elapsed_ms": 2846,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1692,7 +1692,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab"
       ],
-      "elapsed_ms": 2589,
+      "elapsed_ms": 3258,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1703,7 +1703,7 @@
       "redirects": [
         "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049"
       ],
-      "elapsed_ms": 2380,
+      "elapsed_ms": 2538,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1711,86 +1711,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-beirut.gov.lk/en",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-01-62b87a19cfd3.html",
-      "sha256": "62b87a19cfd3a46f0dc159aedb381fe98a09e13bc447aec411c7cba31ded40cb",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-01-304aac85042e.html",
+      "sha256": "304aac85042e50fc045a224f7c91b252da4f28ad56df8c455250a3c08f0c0679",
       "bytes": 342430
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-02-7cc2b7101aae.html",
-      "sha256": "7cc2b7101aae356f2c1ab830dd90b151b00a4c22ac53fa1b93cf0f064457423d",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-02-b7783bf711cd.html",
+      "sha256": "b7783bf711cd505f3b9d127a0c430f77193f8fce68708d8bbede1664fa6dde95",
       "bytes": 342430
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-03-395ac72c5b4b.html",
-      "sha256": "395ac72c5b4b9e61101d7465f60013effb71278339b7adba56a634d3947a1079",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-03-8a105324f60f.html",
+      "sha256": "8a105324f60f3786b300e6dfe245987f3ccaed7fbf992f1b40d3f9a671cdc0cd",
       "bytes": 342430
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-04-b5c8caba18a1.html",
-      "sha256": "b5c8caba18a1c6b804b7212ff5020472e4ff9e596065af647c2d80e8fee85816",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-04-8899aef8b3a8.html",
+      "sha256": "8899aef8b3a8a633e18140f4f6b155220abc4d3ebe8c94950e346437cf52a653",
       "bytes": 342430
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/contact",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-05-43242596a765.html",
-      "sha256": "43242596a76594c0387daf0f1a0836242183eb701dca61ee099ddcd3f2ddf7c6",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-05-ec42f6fc8333.html",
+      "sha256": "ec42f6fc8333a50daabecab8ea12def462a05985d2c4190345884fd0e8439799",
       "bytes": 128683
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/bilateral-relations",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-06-0c03d60f4de1.html",
-      "sha256": "0c03d60f4de102c51753e657377fceef676cc433e47fa78b3b15c767bbe20fd0",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-06-36d417d43b1e.html",
+      "sha256": "36d417d43b1e8c66f2e6d1fb9c608a9bf376427e7c72431592187090fd1fbcb1",
       "bytes": 121133
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1629995494d71a49ad70",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-07-95991978a40d.html",
-      "sha256": "95991978a40da1f8d33a0857c0b3081083d80d943de54b467d96f0351dd0974b",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-07-12a53d637699.html",
+      "sha256": "12a53d63769932a14570d07857719c154bd10ce372b6b2eef26c0d936e48cf4b",
       "bytes": 344710
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1633c56bbae6622a9cba",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-08-b0f56df9322e.html",
-      "sha256": "b0f56df9322e9021eecbe163d777f3728f5091c80c0ce1d841a389276b009309",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-08-0db60b534382.html",
+      "sha256": "0db60b5343827bd961e66577bf80bdf2f29bc853e2c8a0cc7722f6d7e464ef5d",
       "bytes": 344710
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1643c56bbae6622a9d21",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-09-4a64734b82cb.html",
-      "sha256": "4a64734b82cb11663ece51510bd3cd3791a6bfcbf08deaf8f54d490707c19e29",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-09-b879a6fcd8ac.html",
+      "sha256": "b879a6fcd8ac0fa320438833a0d61f7c1cac51e5d548fe89f17aa992890f8373",
       "bytes": 344710
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1650995494d71a49add9",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-10-e0f6b7bed42f.html",
-      "sha256": "e0f6b7bed42faa95f7b160545f42dead929474d88c742161f6239024894d2184",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-10-adf505ea29e5.html",
+      "sha256": "adf505ea29e5b561dd520448b8660c510b5ccf7b6c700e863db69ebfc4f559a3",
       "bytes": 344710
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b166dc56bbae6622a9da1",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-11-0ada41d64b38.html",
-      "sha256": "0ada41d64b38cb289ab317f69854e9f9e0d085d68b4782de2eea8bd0dda21358",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-11-967ed8ebfb31.html",
+      "sha256": "967ed8ebfb31703818a4bc5610ef57ed2146d018fc49115e3181f031c7a14291",
       "bytes": 344710
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16ab995494d71a49aecb",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-12-bf09a4872293.html",
-      "sha256": "bf09a4872293491f4112de945d418d5217c63019b2bbc0e1196b0e968bdc9417",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-12-809cebaf023b.html",
+      "sha256": "809cebaf023b9e8cce062ec5bdb352d1c188190cae4566a0bfa3e53283b2d835",
       "bytes": 344710
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b16e5995494d71a49afab",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-13-c3cc126c8361.html",
-      "sha256": "c3cc126c83610c22e9c0f651addd486de0a51d1d7084730c83b01f7f8c64e56b",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-13-c6d2ea2648ec.html",
+      "sha256": "c6d2ea2648ec83e124b625c48e474184a46b02f9a60b2fb4680392cbe39ed48e",
       "bytes": 344710
     },
     {
       "url": "https://www.emb-beirut.gov.lk/en/appointment?serviceId=6a7b1706995494d71a49b049",
-      "path": "audit.output/emb-beirut.gov.lk/20260926.0634/snapshots/page-14-bd54a4210e3a.html",
-      "sha256": "bd54a4210e3ad137412c281dbfa5a14ad4a1f86938b41182eff68e69fe527c2f",
+      "path": "audit.output/emb-beirut.gov.lk/20260927.0639/snapshots/page-14-b1ec7deb9d88.html",
+      "sha256": "b1ec7deb9d884e5232594c2ebaddd2be53700a0e6c5e14849479bd99d428e839",
       "bytes": 344710
     }
   ],
@@ -1877,7 +1877,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Line 2\\\",\\\"validation_dob_future\\\":\\\"Date of birth cannot be in the future\\\",\\\"validation_email_valid\\\":\\\"Please enter a; Phone: +9615457226 (7 phone numbers found); Email: john@example.com (2 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: Line 2\\\",\\\"validation_dob_future\\\":\\\"Date of birth cannot be in the future\\\",\\\"validation_email_valid\\\":\\\"Please enter a; Phone: +9615457226 (7 phone numbers found); Email: slemb.beirut@mfa.gov.lk (2 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1890,7 +1890,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +9615457226 (7 phone numbers found); Email: john@example.com (2 email addresses found)"
+          "reason": "Phone: +9615457226 (7 phone numbers found); Email: slemb.beirut@mfa.gov.lk (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1969,7 +1969,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

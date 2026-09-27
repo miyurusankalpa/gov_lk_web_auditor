@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "06b35d13-5cc4-4169-94b6-5a8406271cf1",
+  "audit_id": "0227f40c-1fcd-4d13-aa0e-2bd3b83fb105",
   "url": "http://www.ruh.ac.lk/",
   "normalized_url": "http://www.ruh.ac.lk/",
-  "started_at": "2026-09-26T06:14:10.336838+05:30",
-  "completed_at": "2026-09-26T06:15:13.769633+05:30",
+  "started_at": "2026-09-27T06:20:48.386845+05:30",
+  "completed_at": "2026-09-27T06:21:51.460641+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -17,47 +17,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:14:10.985835+05:30"
+      "observed_at": "2026-09-27T06:20:48.768097+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:14:10.985853+05:30"
+      "observed_at": "2026-09-27T06:20:48.768116+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:14:11.653125+05:30"
+      "observed_at": "2026-09-27T06:20:49.419303+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)",
       "source": "https://www.ruh.ac.lk/",
-      "observed_at": "2026-09-26T06:15:13.769473+05:30"
+      "observed_at": "2026-09-27T06:21:51.460480+05:30"
     },
     {
       "check": "http",
       "status": "error",
       "detail": "Probe 2: [Errno 101] Network is unreachable",
       "source": "http://www.ruh.ac.lk/",
-      "observed_at": "2026-09-26T06:15:13.769495+05:30"
+      "observed_at": "2026-09-27T06:21:51.460498+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 3: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)",
       "source": "https://www.ruh.ac.lk/",
-      "observed_at": "2026-09-26T06:15:13.769499+05:30"
+      "observed_at": "2026-09-27T06:21:51.460503+05:30"
     },
     {
       "check": "http",
       "status": "error",
       "detail": "Probe 4: [Errno 101] Network is unreachable",
       "source": "http://www.ruh.ac.lk/",
-      "observed_at": "2026-09-26T06:15:13.769502+05:30"
+      "observed_at": "2026-09-27T06:21:51.460506+05:30"
     }
   ],
   "observations": [
@@ -234,7 +234,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

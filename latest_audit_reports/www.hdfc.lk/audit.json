@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "9e2600fe-a48d-4a85-a500-37bfa23ff8c2",
+  "audit_id": "9b62c15a-dc1a-485a-a473-071054aae4f7",
   "url": "https://www.hdfc.lk/",
   "normalized_url": "https://www.hdfc.lk/",
-  "started_at": "2026-09-26T06:26:01.191078+05:30",
-  "completed_at": "2026-09-26T06:26:20.603654+05:30",
+  "started_at": "2026-09-27T06:31:53.328946+05:30",
+  "completed_at": "2026-09-27T06:32:18.328847+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,126 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:26:01.953185+05:30"
+      "observed_at": "2026-09-27T06:31:55.853953+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:26:01.953203+05:30"
+      "observed_at": "2026-09-27T06:31:55.853974+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:26:01.968453+05:30"
+      "observed_at": "2026-09-27T06:31:55.868293+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.hdfc.lk/",
       "source": "https://www.hdfc.lk/",
-      "observed_at": "2026-09-26T06:26:20.235150+05:30"
+      "observed_at": "2026-09-27T06:32:17.810940+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.hdfc.lk/",
       "source": "http://www.hdfc.lk/",
-      "observed_at": "2026-09-26T06:26:20.235174+05:30"
+      "observed_at": "2026-09-27T06:32:17.810959+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.hdfc.lk/",
       "source": "https://www.hdfc.lk/",
-      "observed_at": "2026-09-26T06:26:20.235177+05:30"
+      "observed_at": "2026-09-27T06:32:17.810964+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.hdfc.lk/",
       "source": "http://www.hdfc.lk/",
-      "observed_at": "2026-09-26T06:26:20.235180+05:30"
+      "observed_at": "2026-09-27T06:32:17.810967+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.hdfc.lk/contact",
       "source": "https://www.hdfc.lk/contact",
-      "observed_at": "2026-09-26T06:26:20.235183+05:30"
+      "observed_at": "2026-09-27T06:32:17.810970+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.hdfc.lk/about",
       "source": "https://www.hdfc.lk/about",
-      "observed_at": "2026-09-26T06:26:20.235185+05:30"
+      "observed_at": "2026-09-27T06:32:17.810973+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.hdfc.lk/about/sustainability-&-csr",
       "source": "https://www.hdfc.lk/about/sustainability-&-csr",
-      "observed_at": "2026-09-26T06:26:20.235188+05:30"
+      "observed_at": "2026-09-27T06:32:17.810976+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.hdfc.lk/about/awards",
       "source": "https://www.hdfc.lk/about/awards",
-      "observed_at": "2026-09-26T06:26:20.235191+05:30"
+      "observed_at": "2026-09-27T06:32:17.810979+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.hdfc.lk/about/newsroom",
       "source": "https://www.hdfc.lk/about/newsroom",
-      "observed_at": "2026-09-26T06:26:20.235193+05:30"
+      "observed_at": "2026-09-27T06:32:17.810982+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.hdfc.lk/about/financials",
       "source": "https://www.hdfc.lk/about/financials",
-      "observed_at": "2026-09-26T06:26:20.235195+05:30"
+      "observed_at": "2026-09-27T06:32:17.810985+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.hdfc.lk/about/bank-policies",
       "source": "https://www.hdfc.lk/about/bank-policies",
-      "observed_at": "2026-09-26T06:26:20.235198+05:30"
+      "observed_at": "2026-09-27T06:32:17.810988+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.hdfc.lk/rates-&-tarfiffs",
       "source": "https://www.hdfc.lk/rates-&-tarfiffs",
-      "observed_at": "2026-09-26T06:26:20.235200+05:30"
+      "observed_at": "2026-09-27T06:32:17.810991+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.hdfc.lk/branch",
       "source": "https://www.hdfc.lk/branch",
-      "observed_at": "2026-09-26T06:26:20.235202+05:30"
+      "observed_at": "2026-09-27T06:32:17.810994+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.hdfc.lk/applications",
       "source": "https://www.hdfc.lk/applications",
-      "observed_at": "2026-09-26T06:26:20.235204+05:30"
+      "observed_at": "2026-09-27T06:32:17.810997+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2447354 "
+      }
     },
     {
       "check": "phone",
@@ -166,12 +175,192 @@
       }
     },
     {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@hdfc.lk",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "info@hdfc.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: Rs.25,",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "Rs.25,"
+      }
+    },
+    {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 011 2447354 ",
       "source": "https://www.hdfc.lk/",
       "data": {
         "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2356800",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2356800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2446392 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2446392 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 356800 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "0112 356800 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@hdfc.lk",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "info@hdfc.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: Rs.25,",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "Rs.25,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2356800",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2356800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2446392 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2446392 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 356800 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "0112 356800 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@hdfc.lk",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "info@hdfc.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: Rs.25,",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "Rs.25,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2356800",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2356800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2446392 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "011 2446392 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 356800 ",
+      "source": "https://www.hdfc.lk/",
+      "data": {
+        "value": "0112 356800 "
       }
     },
     {
@@ -205,7 +394,7 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 011 2356800",
-      "source": "https://www.hdfc.lk/",
+      "source": "https://www.hdfc.lk/contact",
       "data": {
         "value": "011 2356800"
       }
@@ -213,217 +402,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011 2446392 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2446392 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 356800 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "0112 356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@hdfc.lk",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "info@hdfc.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "fees_and_payment",
-      "status": "pass",
-      "detail": "Published fees and payment: Rs.25,",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "Rs.25,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2356800",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2356800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2446392 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2446392 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 356800 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "0112 356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@hdfc.lk",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "info@hdfc.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "fees_and_payment",
-      "status": "pass",
-      "detail": "Published fees and payment: Rs.25,",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "Rs.25,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2356800",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2356800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2446392 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2446392 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 356800 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "0112 356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@hdfc.lk",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "info@hdfc.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "fees_and_payment",
-      "status": "pass",
-      "detail": "Published fees and payment: Rs.25,",
-      "source": "https://www.hdfc.lk/",
-      "data": {
-        "value": "Rs.25,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94-11-2447354 ",
+      "detail": "Published phone: +94112446241",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "+94-11-2447354 "
+        "value": "+94112446241"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2446392 ",
+      "detail": "Published phone: +94- 11-2356800",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "+94-11-2446392 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112356800 (",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "0112356800 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0777901312",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "0777901312"
+        "value": "+94- 11-2356800"
       }
     },
     {
@@ -438,19 +429,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011 2446392 ",
+      "detail": "Published phone: 0112 356800 ",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "011 2446392 "
+        "value": "0112 356800 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2356800",
+      "detail": "Published phone: +94-11-2356800 (ext 1212)",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "+94-11-2356800"
+        "value": "+94-11-2356800 (ext 1212)"
       }
     },
     {
@@ -474,73 +465,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94- 11-2356800",
+      "detail": "Published phone: +94-11-2447354 ",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "+94- 11-2356800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112446241",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "+94112446241"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94-11-2356800 (ext 1212)",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "+94-11-2356800 (ext 1212)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112356800",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "+94112356800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94- 11-2356800 ",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "+94- 11-2356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94-11-2356800 (ext 1902)",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "+94-11-2356800 (ext 1902)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0777901312 ",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "0777901312 "
+        "value": "+94-11-2447354 "
       }
     },
     {
@@ -555,10 +483,82 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011 2356800",
+      "detail": "Published phone: +94112356800",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "011 2356800"
+        "value": "+94112356800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0777901312 ",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "0777901312 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2356800",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "+94-11-2356800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94- 11-2356800 ",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "+94- 11-2356800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0777901312",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "0777901312"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2446392 ",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "011 2446392 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2356800 (ext 1902)",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "+94-11-2356800 (ext 1902)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94-11-2356800 (",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "+94-11-2356800 ("
       }
     },
     {
@@ -573,55 +573,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 356800 ",
+      "detail": "Published phone: 0112356800 (",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "0112 356800 "
+        "value": "0112356800 ("
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2356800 (",
+      "detail": "Published phone: +94-11-2446392 ",
       "source": "https://www.hdfc.lk/contact",
       "data": {
-        "value": "+94-11-2356800 ("
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: kithsiriw@yahoo.com",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "kithsiriw@yahoo.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: anura.h@hdfc.lk",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "anura.h@hdfc.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: poornima.l@hdfc.lk",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "poornima.l@hdfc.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: chairman@hdfc.lk",
-      "source": "https://www.hdfc.lk/contact",
-      "data": {
-        "value": "chairman@hdfc.lk"
+        "value": "+94-11-2446392 "
       }
     },
     {
@@ -636,10 +600,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: poornima.l@hdfc.lk",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "poornima.l@hdfc.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: hemal.l@hdfc.lk",
       "source": "https://www.hdfc.lk/contact",
       "data": {
         "value": "hemal.l@hdfc.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chairman@hdfc.lk",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "chairman@hdfc.lk"
       }
     },
     {
@@ -654,10 +636,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: anura.h@hdfc.lk",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "anura.h@hdfc.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: palika.p@hdfc.lk",
       "source": "https://www.hdfc.lk/contact",
       "data": {
         "value": "palika.p@hdfc.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: kithsiriw@yahoo.com",
+      "source": "https://www.hdfc.lk/contact",
+      "data": {
+        "value": "kithsiriw@yahoo.com"
       }
     },
     {
@@ -681,6 +681,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/about",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 2356800",
       "source": "https://www.hdfc.lk/about",
       "data": {
@@ -703,15 +712,6 @@
       "source": "https://www.hdfc.lk/about",
       "data": {
         "value": "0112 356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/about",
-      "data": {
-        "value": "011 2447354 "
       }
     },
     {
@@ -735,6 +735,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/about/sustainability-&-csr",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 2356800",
       "source": "https://www.hdfc.lk/about/sustainability-&-csr",
       "data": {
@@ -757,15 +766,6 @@
       "source": "https://www.hdfc.lk/about/sustainability-&-csr",
       "data": {
         "value": "0112 356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/about/sustainability-&-csr",
-      "data": {
-        "value": "011 2447354 "
       }
     },
     {
@@ -798,6 +798,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/about/awards",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 2356800",
       "source": "https://www.hdfc.lk/about/awards",
       "data": {
@@ -823,15 +832,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/about/awards",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@hdfc.lk",
@@ -847,6 +847,15 @@
       "source": "https://www.hdfc.lk/about/awards",
       "data": {
         "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/about/newsroom",
+      "data": {
+        "value": "011 2447354 "
       }
     },
     {
@@ -877,15 +886,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/about/newsroom",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@hdfc.lk",
@@ -901,6 +901,15 @@
       "source": "https://www.hdfc.lk/about/newsroom",
       "data": {
         "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/about/financials",
+      "data": {
+        "value": "011 2447354 "
       }
     },
     {
@@ -931,15 +940,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/about/financials",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@hdfc.lk",
@@ -955,6 +955,15 @@
       "source": "https://www.hdfc.lk/about/financials",
       "data": {
         "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/about/bank-policies",
+      "data": {
+        "value": "011 2447354 "
       }
     },
     {
@@ -985,15 +994,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/about/bank-policies",
-      "data": {
-        "value": "011 2447354 "
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@hdfc.lk",
@@ -1014,28 +1014,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 4.89 5 250",
+      "detail": "Published phone: 000 2.96 3.00 1",
       "source": "https://www.hdfc.lk/rates-&-tarfiffs",
       "data": {
-        "value": "000 4.89 5 250"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2446392 ",
-      "source": "https://www.hdfc.lk/rates-&-tarfiffs",
-      "data": {
-        "value": "011 2446392 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2356800",
-      "source": "https://www.hdfc.lk/rates-&-tarfiffs",
-      "data": {
-        "value": "011 2356800"
+        "value": "000 2.96 3.00 1"
       }
     },
     {
@@ -1050,10 +1032,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 3.45 3.50 1",
+      "detail": "Published phone: 011 2356800",
       "source": "https://www.hdfc.lk/rates-&-tarfiffs",
       "data": {
-        "value": "000 3.45 3.50 1"
+        "value": "011 2356800"
       }
     },
     {
@@ -1068,6 +1050,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011 2446392 ",
+      "source": "https://www.hdfc.lk/rates-&-tarfiffs",
+      "data": {
+        "value": "011 2446392 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0112 356800 ",
       "source": "https://www.hdfc.lk/rates-&-tarfiffs",
       "data": {
@@ -1077,10 +1068,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 2.96 3.00 1",
+      "detail": "Published phone: 000 4.89 5 250",
       "source": "https://www.hdfc.lk/rates-&-tarfiffs",
       "data": {
-        "value": "000 2.96 3.00 1"
+        "value": "000 4.89 5 250"
       }
     },
     {
@@ -1099,6 +1090,15 @@
       "source": "https://www.hdfc.lk/rates-&-tarfiffs",
       "data": {
         "value": "000 5.84 6 500"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000 3.45 3.50 1",
+      "source": "https://www.hdfc.lk/rates-&-tarfiffs",
+      "data": {
+        "value": "000 3.45 3.50 1"
       }
     },
     {
@@ -1140,6 +1140,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/branch",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 2356800",
       "source": "https://www.hdfc.lk/branch",
       "data": {
@@ -1162,15 +1171,6 @@
       "source": "https://www.hdfc.lk/branch",
       "data": {
         "value": "0112 356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/branch",
-      "data": {
-        "value": "011 2447354 "
       }
     },
     {
@@ -1194,6 +1194,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011 2447354 ",
+      "source": "https://www.hdfc.lk/applications",
+      "data": {
+        "value": "011 2447354 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 2356800",
       "source": "https://www.hdfc.lk/applications",
       "data": {
@@ -1216,15 +1225,6 @@
       "source": "https://www.hdfc.lk/applications",
       "data": {
         "value": "0112 356800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2447354 ",
-      "source": "https://www.hdfc.lk/applications",
-      "data": {
-        "value": "011 2447354 "
       }
     },
     {
@@ -1274,18 +1274,18 @@
     {
       "host": "www.hdfc.lk",
       "addresses": [
-        "18.238.96.19",
-        "18.238.96.27",
-        "18.238.96.77",
-        "18.238.96.90",
-        "2600:9000:2776:4800:1f:6e99:ba40:93a1",
-        "2600:9000:2776:9200:1f:6e99:ba40:93a1",
-        "2600:9000:2776:9a00:1f:6e99:ba40:93a1",
-        "2600:9000:2776:b200:1f:6e99:ba40:93a1",
-        "2600:9000:2776:c00:1f:6e99:ba40:93a1",
-        "2600:9000:2776:c800:1f:6e99:ba40:93a1",
-        "2600:9000:2776:dc00:1f:6e99:ba40:93a1",
-        "2600:9000:2776:f400:1f:6e99:ba40:93a1"
+        "2600:9000:215a:4200:1f:6e99:ba40:93a1",
+        "2600:9000:215a:4e00:1f:6e99:ba40:93a1",
+        "2600:9000:215a:800:1f:6e99:ba40:93a1",
+        "2600:9000:215a:9200:1f:6e99:ba40:93a1",
+        "2600:9000:215a:9800:1f:6e99:ba40:93a1",
+        "2600:9000:215a:a400:1f:6e99:ba40:93a1",
+        "2600:9000:215a:e00:1f:6e99:ba40:93a1",
+        "2600:9000:215a:e800:1f:6e99:ba40:93a1",
+        "52.85.193.127",
+        "52.85.193.34",
+        "52.85.193.74",
+        "52.85.193.78"
       ],
       "status": "resolved",
       "detail": "Public DNS resolved"
@@ -1308,7 +1308,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/",
       "redirects": [],
-      "elapsed_ms": 1388,
+      "elapsed_ms": 1596,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1319,7 +1319,7 @@
       "redirects": [
         "https://www.hdfc.lk/"
       ],
-      "elapsed_ms": 1350,
+      "elapsed_ms": 1556,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1328,7 +1328,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/",
       "redirects": [],
-      "elapsed_ms": 17,
+      "elapsed_ms": 1666,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1339,7 +1339,7 @@
       "redirects": [
         "https://www.hdfc.lk/"
       ],
-      "elapsed_ms": 674,
+      "elapsed_ms": 1631,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1348,7 +1348,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/contact",
       "redirects": [],
-      "elapsed_ms": 1309,
+      "elapsed_ms": 1575,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1357,7 +1357,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/about",
       "redirects": [],
-      "elapsed_ms": 1238,
+      "elapsed_ms": 1590,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1366,7 +1366,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/about/sustainability-&-csr",
       "redirects": [],
-      "elapsed_ms": 1350,
+      "elapsed_ms": 1587,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1375,7 +1375,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/about/awards",
       "redirects": [],
-      "elapsed_ms": 614,
+      "elapsed_ms": 681,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1384,7 +1384,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/about/newsroom",
       "redirects": [],
-      "elapsed_ms": 687,
+      "elapsed_ms": 634,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1393,7 +1393,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/about/financials",
       "redirects": [],
-      "elapsed_ms": 681,
+      "elapsed_ms": 647,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1402,7 +1402,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/about/bank-policies",
       "redirects": [],
-      "elapsed_ms": 634,
+      "elapsed_ms": 861,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1411,7 +1411,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/rates-&-tarfiffs",
       "redirects": [],
-      "elapsed_ms": 1603,
+      "elapsed_ms": 1855,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1420,7 +1420,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/branch",
       "redirects": [],
-      "elapsed_ms": 1077,
+      "elapsed_ms": 1248,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1429,7 +1429,7 @@
       "status_code": 200,
       "final_url": "https://www.hdfc.lk/applications",
       "redirects": [],
-      "elapsed_ms": 850,
+      "elapsed_ms": 1435,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1437,86 +1437,86 @@
   "snapshots": [
     {
       "url": "https://www.hdfc.lk/",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-01-a9d380b96f0b.html",
-      "sha256": "a9d380b96f0bb4bab5d8cd0b3ba5fe781a90fd48f11d054a73136cec4d135c4e",
-      "bytes": 125640
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-01-37b36f8d076a.html",
+      "sha256": "37b36f8d076a07e10238b11da62ddc194ce3363c487a571a0fbbca05785c3869",
+      "bytes": 125642
     },
     {
       "url": "https://www.hdfc.lk/",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-02-a01509e04b4f.html",
-      "sha256": "a01509e04b4ffdeccf2a03f76632691ff9ee2e682bd5c615fae92d349a3098f9",
-      "bytes": 125640
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-02-d0d8377dfeea.html",
+      "sha256": "d0d8377dfeea39535b88cfa1d5777da682e793bfe7c9b64fbfb3aaef142e3ac9",
+      "bytes": 125644
     },
     {
       "url": "https://www.hdfc.lk/",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-03-a01509e04b4f.html",
-      "sha256": "a01509e04b4ffdeccf2a03f76632691ff9ee2e682bd5c615fae92d349a3098f9",
-      "bytes": 125640
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-03-b1aba41b500c.html",
+      "sha256": "b1aba41b500c851b80887e6ef2cec6ae3ec9133c0f982e999ffeb343f2806132",
+      "bytes": 125642
     },
     {
       "url": "https://www.hdfc.lk/",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-04-1d61a7aba60d.html",
-      "sha256": "1d61a7aba60d8bdbde5c74ab28f99a33c79426e0a9f23919e7e6305c4992f16e",
-      "bytes": 125638
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-04-ce12188c8531.html",
+      "sha256": "ce12188c853167f6ca2c9d791043f32f2a19061c5b8cf76f46e709a71248d8d2",
+      "bytes": 125644
     },
     {
       "url": "https://www.hdfc.lk/contact",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-05-dde11a577ca8.html",
-      "sha256": "dde11a577ca8cc888afa0b7feb1ede23a31c135a3c076b9c8dd41f5391cf6b18",
-      "bytes": 156608
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-05-77c7c1e444f2.html",
+      "sha256": "77c7c1e444f20fec70d1a74f5d7e48591bd9c5221c1f150feee2f916beee639b",
+      "bytes": 156603
     },
     {
       "url": "https://www.hdfc.lk/about",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-06-03d748544a77.html",
-      "sha256": "03d748544a774017f35f5d31fb684adf07af53a549f1e6b76bd27e92f8414cbf",
-      "bytes": 112684
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-06-9b95a894f156.html",
+      "sha256": "9b95a894f156fd259c9703644e0f72ba203fe7843378b0db553fecd6d57355fd",
+      "bytes": 112679
     },
     {
       "url": "https://www.hdfc.lk/about/sustainability-&-csr",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-07-cd1c48921653.html",
-      "sha256": "cd1c48921653acef52b9f912ea4d9514cb5db4191bbc42c55863acde7273831d",
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-07-ad73a963a7a6.html",
+      "sha256": "ad73a963a7a69df92ac95095309c60724c2729c1b8c6bdc9e3f96ea47b3e773d",
       "bytes": 99424
     },
     {
       "url": "https://www.hdfc.lk/about/awards",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-08-b9b40691fc93.html",
-      "sha256": "b9b40691fc93379d8530a4d52563b3951edfda47f3e95665fefd3278a587d5a0",
-      "bytes": 97203
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-08-7d792648d5d4.html",
+      "sha256": "7d792648d5d4eaca08175c060700293e557b53a40c825a6e4e1ba8f1d5e8849d",
+      "bytes": 97208
     },
     {
       "url": "https://www.hdfc.lk/about/newsroom",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-09-48c05505275e.html",
-      "sha256": "48c05505275eb2667d63739bb95a2b932f81c092665169fab4e217a1754ed71d",
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-09-88f251a5131e.html",
+      "sha256": "88f251a5131e1ec21d849c3780e6312b70ff365eedd53148d13e9f1a4be261fd",
       "bytes": 106283
     },
     {
       "url": "https://www.hdfc.lk/about/financials",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-10-188b9e5cd71c.html",
-      "sha256": "188b9e5cd71c5058bda4c6dece70f73ff0eb5c36180b5e06d7d3aa730f1c616f",
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-10-afb7e100dad4.html",
+      "sha256": "afb7e100dad467bfa7c0386bd90e3c0a7edc06919449d9f975f9b56137705ac2",
       "bytes": 110926
     },
     {
       "url": "https://www.hdfc.lk/about/bank-policies",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-11-96a8f90c4593.html",
-      "sha256": "96a8f90c45933cdf90560d222d44853af63f1bb041fac8c8560f9dfeb9d0c0d8",
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-11-66585d83f31f.html",
+      "sha256": "66585d83f31f9dca660e12b9f62ef855dff8ed9fca69be0af1a98e79ea6ec642",
       "bytes": 128537
     },
     {
       "url": "https://www.hdfc.lk/rates-&-tarfiffs",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-12-a99bcec642f7.html",
-      "sha256": "a99bcec642f77ff95105fe82886cf8b9454667c3fdd2def8094ecea73097eae7",
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-12-75ea88e46d34.html",
+      "sha256": "75ea88e46d34fe7c1011a239b2fd3ff3cb52d7e25d28b50f370bd805343f34df",
       "bytes": 223136
     },
     {
       "url": "https://www.hdfc.lk/branch",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-13-42c51461afb0.html",
-      "sha256": "42c51461afb0e5e765b4a66f2d7b03ba5a356a12034f567c219df2f889a9c5d1",
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-13-29170e198648.html",
+      "sha256": "29170e198648124acb45bb8f97fff4127cdeac0dc8302659100117f8e14a7f2f",
       "bytes": 95222
     },
     {
       "url": "https://www.hdfc.lk/applications",
-      "path": "audit.output/www.hdfc.lk/20260926.0626/snapshots/page-14-8cb64014024a.html",
-      "sha256": "8cb64014024ac4ccc65c0920644466659f505dc10250c44a18bacfade407c232",
+      "path": "audit.output/www.hdfc.lk/20260927.0631/snapshots/page-14-05a5ac20e8c2.html",
+      "sha256": "05a5ac20e8c224e53f6271fea7a439e421b6da16f69ca012f7780c5e00d5f5da",
       "bytes": 176612
     }
   ],
@@ -1616,7 +1616,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 011 2356800 (25 phone numbers found); Email: info@hdfc.lk (9 email addresses found)"
+          "reason": "Phone: 011 2447354 (25 phone numbers found); Email: info@hdfc.lk (9 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1652,7 +1652,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

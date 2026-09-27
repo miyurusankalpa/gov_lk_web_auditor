@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "5599a098-fe77-4624-ab02-c3ea5a58b30c",
+  "audit_id": "992047af-69a6-4d56-b0f3-5631d364a2ea",
   "url": "https://coconutsrilanka.lk/",
   "normalized_url": "https://coconutsrilanka.lk/",
-  "started_at": "2026-09-26T06:43:22.716650+05:30",
-  "completed_at": "2026-09-26T06:43:27.472836+05:30",
+  "started_at": "2026-09-27T06:48:21.812792+05:30",
+  "completed_at": "2026-09-27T06:48:25.166849+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -17,47 +17,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:43:24.368017+05:30"
+      "observed_at": "2026-09-27T06:48:22.101813+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:43:24.368037+05:30"
+      "observed_at": "2026-09-27T06:48:22.101833+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:43:24.410059+05:30"
+      "observed_at": "2026-09-27T06:48:22.120719+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 1: HTTP 403 at https://coconutsrilanka.lk/",
       "source": "https://coconutsrilanka.lk/",
-      "observed_at": "2026-09-26T06:43:27.458601+05:30"
+      "observed_at": "2026-09-27T06:48:25.149601+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 2: HTTP 403 at http://coconutsrilanka.lk/",
       "source": "http://coconutsrilanka.lk/",
-      "observed_at": "2026-09-26T06:43:27.458622+05:30"
+      "observed_at": "2026-09-27T06:48:25.149619+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 3: HTTP 403 at https://coconutsrilanka.lk/",
       "source": "https://coconutsrilanka.lk/",
-      "observed_at": "2026-09-26T06:43:27.458627+05:30"
+      "observed_at": "2026-09-27T06:48:25.149623+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 4: HTTP 403 at http://coconutsrilanka.lk/",
       "source": "http://coconutsrilanka.lk/",
-      "observed_at": "2026-09-26T06:43:27.458631+05:30"
+      "observed_at": "2026-09-27T06:48:25.149626+05:30"
     },
     {
       "check": "postal_address",
@@ -98,14 +98,14 @@
     {
       "check": "page_text",
       "status": "pass",
-      "detail": "Substantive page content: 683 visible characters across 4 pages",
+      "detail": "Substantive page content: 682 visible characters across 4 pages",
       "source": "https://coconutsrilanka.lk/"
     },
     {
       "check": "persistent_http_failure",
       "status": "fail",
       "detail": "Every repeated HTTP probe failed: [403, 403, 403, 403]",
-      "observed_at": "2026-09-26T06:43:27.472083+05:30"
+      "observed_at": "2026-09-27T06:48:25.166099+05:30"
     }
   ],
   "observations": [
@@ -138,7 +138,7 @@
       "status_code": 403,
       "final_url": "https://coconutsrilanka.lk/",
       "redirects": [],
-      "elapsed_ms": 752,
+      "elapsed_ms": 22,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -147,7 +147,7 @@
       "status_code": 403,
       "final_url": "http://coconutsrilanka.lk/",
       "redirects": [],
-      "elapsed_ms": 49,
+      "elapsed_ms": 17,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -156,7 +156,7 @@
       "status_code": 403,
       "final_url": "https://coconutsrilanka.lk/",
       "redirects": [],
-      "elapsed_ms": 75,
+      "elapsed_ms": 21,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -165,7 +165,7 @@
       "status_code": 403,
       "final_url": "http://coconutsrilanka.lk/",
       "redirects": [],
-      "elapsed_ms": 41,
+      "elapsed_ms": 20,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -173,27 +173,27 @@
   "snapshots": [
     {
       "url": "https://coconutsrilanka.lk/",
-      "path": "audit.output/coconutsrilanka.lk/20260926.0643/snapshots/page-01-421c91f8c1a3.html",
-      "sha256": "421c91f8c1a31e68b59ef791707b9d3d4fd36218f3e60c3983402c53d3968c62",
-      "bytes": 8165
+      "path": "audit.output/coconutsrilanka.lk/20260927.0648/snapshots/page-01-058a9e606b5e.html",
+      "sha256": "058a9e606b5eacfd34c309eee50399f42f7bb317c866583c2080806b8248c170",
+      "bytes": 8164
     },
     {
       "url": "http://coconutsrilanka.lk/",
-      "path": "audit.output/coconutsrilanka.lk/20260926.0643/snapshots/page-02-a889e509e735.html",
-      "sha256": "a889e509e7357a826d89b617338482d6fc531c807312a943ec28cd9d2560c001",
-      "bytes": 8165
+      "path": "audit.output/coconutsrilanka.lk/20260927.0648/snapshots/page-02-718ae9173ecd.html",
+      "sha256": "718ae9173ecd0943527b371ebf15f81f877166f9daeb2d128189ceaf8630a202",
+      "bytes": 8164
     },
     {
       "url": "https://coconutsrilanka.lk/",
-      "path": "audit.output/coconutsrilanka.lk/20260926.0643/snapshots/page-03-65cbe3aef966.html",
-      "sha256": "65cbe3aef9663fc7c137f5826b55e3967b4368016f0de8b8314b6dfbef1b9052",
-      "bytes": 8165
+      "path": "audit.output/coconutsrilanka.lk/20260927.0648/snapshots/page-03-5c7fbeca5a71.html",
+      "sha256": "5c7fbeca5a71ae233532bb1b5fd2334516fe380344b3fb97389781d3ab520c4f",
+      "bytes": 8164
     },
     {
       "url": "http://coconutsrilanka.lk/",
-      "path": "audit.output/coconutsrilanka.lk/20260926.0643/snapshots/page-04-11513eb763b5.html",
-      "sha256": "11513eb763b5c2a54d765fbdfcb9f2ae64be6e43d806f87e96c99f32adb7ca05",
-      "bytes": 8165
+      "path": "audit.output/coconutsrilanka.lk/20260927.0648/snapshots/page-04-eb7dd79e5a30.html",
+      "sha256": "eb7dd79e5a309f2b40d071e2ad705cf6a55930e33641cf13d8cded0995a3e314",
+      "bytes": 8164
     }
   ],
   "reviewer_decisions": [],
@@ -309,7 +309,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

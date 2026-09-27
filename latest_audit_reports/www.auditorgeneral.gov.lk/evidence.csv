@@ -1,8 +1,11 @@
 check,status,detail,source,observed_at
-dns,pass,Public DNS resolved,,2026-09-26T07:12:39.501923+05:30
-domain_registration,error,Domain is absent from RDAP,,2026-09-26T07:12:39.501944+05:30
-tls,error,timed out,,2026-09-26T07:12:49.730431+05:30
-tls_browser_error,fail,"Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.auditorgeneral.gov.lk'. (_ssl.c:1010)",https://www.auditorgeneral.gov.lk/,2026-09-26T07:14:21.501417+05:30
-http,error,Probe 2: timed out,http://www.auditorgeneral.gov.lk/,2026-09-26T07:14:21.501442+05:30
-http,error,Probe 3: timed out,https://www.auditorgeneral.gov.lk/,2026-09-26T07:14:21.501447+05:30
-http,error,Probe 4: timed out,http://www.auditorgeneral.gov.lk/,2026-09-26T07:14:21.501452+05:30
+dns,pass,Public DNS resolved,,2026-09-27T07:07:06.260991+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T07:07:06.261015+05:30
+tls,error,timed out,,2026-09-27T07:07:16.523180+05:30
+tls_browser_error,fail,"Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.auditorgeneral.gov.lk'. (_ssl.c:1010)",https://www.auditorgeneral.gov.lk/,2026-09-27T07:09:25.348586+05:30
+http,pass,Probe 2: HTTP 200 at http://www.auditorgeneral.gov.lk/,http://www.auditorgeneral.gov.lk/,2026-09-27T07:09:25.348610+05:30
+http,error,Probe 3: timed out,https://www.auditorgeneral.gov.lk/,2026-09-27T07:09:25.348616+05:30
+http,pass,Probe 4: HTTP 200 at http://www.auditorgeneral.gov.lk/,http://www.auditorgeneral.gov.lk/,2026-09-27T07:09:25.348621+05:30
+named_responsibility,pass,Published named responsibility: department,http://www.auditorgeneral.gov.lk/,
+named_responsibility,pass,Published named responsibility: department,http://www.auditorgeneral.gov.lk/,
+page_text,fail,Only 173 visible characters across 2 pages; below substance threshold 200,https://www.auditorgeneral.gov.lk/,

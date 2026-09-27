@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "b4968891-b15a-48be-b4ac-c9fb601814e2",
+  "audit_id": "58c58282-5613-463b-9798-fccfb27815b7",
   "url": "https://www.industry.gov.lk",
   "normalized_url": "https://www.industry.gov.lk/",
-  "started_at": "2026-09-26T07:03:17.003142+05:30",
-  "completed_at": "2026-09-26T07:03:46.158623+05:30",
+  "started_at": "2026-09-27T07:02:02.657902+05:30",
+  "completed_at": "2026-09-27T07:02:36.679378+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T07:03:18.308456+05:30"
+      "observed_at": "2026-09-27T07:02:03.487715+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T07:03:18.308476+05:30"
+      "observed_at": "2026-09-27T07:02:03.487733+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T07:03:19.597085+05:30"
+      "observed_at": "2026-09-27T07:02:04.685222+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.industry.gov.lk/",
       "source": "https://www.industry.gov.lk/",
-      "observed_at": "2026-09-26T07:03:45.808835+05:30"
+      "observed_at": "2026-09-27T07:02:36.246122+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.industry.gov.lk/",
       "source": "http://www.industry.gov.lk/",
-      "observed_at": "2026-09-26T07:03:45.808852+05:30"
+      "observed_at": "2026-09-27T07:02:36.246142+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.industry.gov.lk/",
       "source": "https://www.industry.gov.lk/",
-      "observed_at": "2026-09-26T07:03:45.808856+05:30"
+      "observed_at": "2026-09-27T07:02:36.246147+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.industry.gov.lk/",
       "source": "http://www.industry.gov.lk/",
-      "observed_at": "2026-09-26T07:03:45.808858+05:30"
+      "observed_at": "2026-09-27T07:02:36.246150+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.industry.gov.lk/web/si/%e0%b6%b8%e0%b7%94%e0%b6%bd%e0%b7%8a-%e0%b6%b4%e0%b7%92%e0%b6%a7%e0%b7%94%e0%b7%80/",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%b8%e0%b7%94%e0%b6%bd%e0%b7%8a-%e0%b6%b4%e0%b7%92%e0%b6%a7%e0%b7%94%e0%b7%80/",
-      "observed_at": "2026-09-26T07:03:45.808860+05:30"
+      "observed_at": "2026-09-27T07:02:36.246153+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.industry.gov.lk/web/ta/home-new-tamil/",
       "source": "https://www.industry.gov.lk/web/ta/home-new-tamil/",
-      "observed_at": "2026-09-26T07:03:45.808863+05:30"
+      "observed_at": "2026-09-27T07:02:36.246156+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.industry.gov.lk/web/",
       "source": "https://www.industry.gov.lk/web/",
-      "observed_at": "2026-09-26T07:03:45.808865+05:30"
+      "observed_at": "2026-09-27T07:02:36.246158+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.industry.gov.lk/web/si/%e0%b7%84%e0%b7%90%e0%b6%b3%e0%b7%92%e0%b6%b1%e0%b7%8a%e0%b7%80%e0%b7%93%e0%b6%b8/",
       "source": "https://www.industry.gov.lk/web/si/%e0%b7%84%e0%b7%90%e0%b6%b3%e0%b7%92%e0%b6%b1%e0%b7%8a%e0%b7%80%e0%b7%93%e0%b6%b8/",
-      "observed_at": "2026-09-26T07:03:45.808867+05:30"
+      "observed_at": "2026-09-27T07:02:36.246161+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
-      "observed_at": "2026-09-26T07:03:45.808869+05:30"
+      "observed_at": "2026-09-27T07:02:36.246164+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%b1%e0%b7%92%e0%b6%ba%e0%b7%9d%e0%b6%a2%e0%b7%8a%e0%b6%ba-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%b1%e0%b7%92%e0%b6%ba%e0%b7%9d%e0%b6%a2%e0%b7%8a%e0%b6%ba-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
-      "observed_at": "2026-09-26T07:03:45.808871+05:30"
+      "observed_at": "2026-09-27T07:02:36.246167+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
-      "observed_at": "2026-09-26T07:03:45.808873+05:30"
+      "observed_at": "2026-09-27T07:02:36.246170+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "observed_at": "2026-09-26T07:03:45.808876+05:30"
+      "observed_at": "2026-09-27T07:02:36.246173+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.industry.gov.lk/web/si/%e0%b6%b4%e0%b6%b1%e0%b6%ad%e0%b7%8a/",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%b4%e0%b6%b1%e0%b6%ad%e0%b7%8a/",
-      "observed_at": "2026-09-26T07:03:45.808877+05:30"
+      "observed_at": "2026-09-27T07:02:36.246176+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.industry.gov.lk/web/organizational-structure/",
       "source": "https://www.industry.gov.lk/web/organizational-structure/",
-      "observed_at": "2026-09-26T07:03:45.808880+05:30"
+      "observed_at": "2026-09-27T07:02:36.246179+05:30"
     },
     {
       "check": "phone",
@@ -150,19 +150,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%b8%e0%b7%94%e0%b6%bd%e0%b7%8a-%e0%b6%b4%e0%b7%92%e0%b6%a7%e0%b7%94%e0%b7%80/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%b8%e0%b7%94%e0%b6%bd%e0%b7%8a-%e0%b6%b4%e0%b7%92%e0%b6%a7%e0%b7%94%e0%b7%80/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -204,19 +204,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/ta/home-new-tamil/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/ta/home-new-tamil/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -258,19 +258,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -321,19 +321,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b7%84%e0%b7%90%e0%b6%b3%e0%b7%92%e0%b6%b1%e0%b7%8a%e0%b7%80%e0%b7%93%e0%b6%b8/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/si/%e0%b7%84%e0%b7%90%e0%b6%b3%e0%b7%92%e0%b6%b1%e0%b7%8a%e0%b7%80%e0%b7%93%e0%b6%b8/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -366,10 +366,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392150",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "data": {
-        "value": "112392150"
+        "value": "+94 112 392150 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 392149 ",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
+      "data": {
+        "value": "+94 112 392149 "
       }
     },
     {
@@ -384,19 +393,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392150",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392150"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392149 ",
+      "detail": "Published phone: 0944023661",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "data": {
-        "value": "+94 112 392149 "
+        "value": "0944023661"
       }
     },
     {
@@ -438,19 +447,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%b1%e0%b7%92%e0%b6%ba%e0%b7%9d%e0%b6%a2%e0%b7%8a%e0%b6%ba-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%b1%e0%b7%92%e0%b6%ba%e0%b7%9d%e0%b6%a2%e0%b7%8a%e0%b6%ba-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -501,19 +510,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -528,10 +537,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@industry.gov.lk",
+      "detail": "Published email: info@industry.gov.lk",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
       "data": {
-        "value": "secretary@industry.gov.lk"
+        "value": "info@industry.gov.lk"
       }
     },
     {
@@ -546,10 +555,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: info@industry.gov.lk",
+      "detail": "Published email: secretary@industry.gov.lk",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
       "data": {
-        "value": "info@industry.gov.lk"
+        "value": "secretary@industry.gov.lk"
       }
     },
     {
@@ -564,46 +573,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "+94 112 392150 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03 77734301",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "03 77734301"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112607002 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
         "value": "0112607002 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 04. 71447144",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "04. 71447144"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 112392149",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "112392149"
       }
     },
     {
@@ -618,109 +591,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02. 77387923",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "02. 77387923"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 112392150",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "112392150"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05. 77124502",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "05. 77124502"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0. 773634735 ",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "0. 773634735 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05 77359510",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "05 77359510"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05. 77734301",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "05. 77734301"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0717378800 ",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "0717378800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0714817185 ",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "0714817185 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0. 767002931 ",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "0. 767002931 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0712481481 ",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "0712481481 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05. 77748994",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "05. 77748994"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 392149 ",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "+94 112 392149 "
+        "value": "112392149"
       }
     },
     {
@@ -735,10 +609,145 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 05. 07773788",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "05. 07773788"
+        "value": "+94 112 392150 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0717378800 ",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "0717378800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05 77359510",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "05 77359510"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 112392150",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "112392150"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05. 77748994",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "05. 77748994"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 04. 71447144",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "04. 71447144"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05 71832976",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "05 71832976"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05. 77734301",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "05. 77734301"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0714817185 ",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "0714817185 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05. 77124502",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "05. 77124502"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0. 767002931 ",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "0. 767002931 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 392149 ",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "+94 112 392149 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0712481481 ",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "0712481481 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 02. 77387923",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "02. 77387923"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0. 773634735 ",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "0. 773634735 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03 77734301",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "03 77734301"
       }
     },
     {
@@ -753,19 +762,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 05 71832976",
+      "detail": "Published phone: 05. 07773788",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "05 71832976"
+        "value": "05. 07773788"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chaminda@uom.lk",
+      "detail": "Published email: ndthisera@gmail.com",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "chaminda@uom.lk"
+        "value": "ndthisera@gmail.com"
       }
     },
     {
@@ -780,91 +789,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: info@industry.gov.lk",
+      "detail": "Published email: lucky@janrichlk.com",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "info@industry.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: chairman@laksala.gov.lk",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "chairman@laksala.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: lalithwijenayaka@gmail.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "lalithwijenayaka@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: rmsupali@gmail.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "rmsupali@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: anandakumarsge29@gmail.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "anandakumarsge29@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: shankarsivasothy@gmail.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "shankarsivasothy@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: chaminda@uom.lk.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "chaminda@uom.lk.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: gppeiris361@gmail.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "gppeiris361@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: nesanrdb5@gmail.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "nesanrdb5@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dhinuk@gmail.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "dhinuk@gmail.com"
+        "value": "lucky@janrichlk.com"
       }
     },
     {
@@ -879,28 +807,46 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: ndcchairman73@gmail.com",
+      "detail": "Published email: chairman@gsmb.gov.lk",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "ndcchairman73@gmail.com"
+        "value": "chairman@gsmb.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chairman@edb.gov.lk",
+      "detail": "Published email: info@industry.gov.lk",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "chairman@edb.gov.lk"
+        "value": "info@industry.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: gwfer@ou.ac.lk",
+      "detail": "Published email: chaminda@uom.lk",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "gwfer@ou.ac.lk"
+        "value": "chaminda@uom.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chairman@laksala.gov.lk",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "chairman@laksala.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: shankarsivasothy@gmail.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "shankarsivasothy@gmail.com"
       }
     },
     {
@@ -924,46 +870,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: hpanagoda54@gmail.com",
+      "detail": "Published email: rmsupali@gmail.com",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "hpanagoda54@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: lucky@janrichlk.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "lucky@janrichlk.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: chairman@gsmb.gov.lk",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "chairman@gsmb.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: kumarabandara@rklssrilanka.com",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "kumarabandara@rklssrilanka.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: ayesha@uom.lk",
-      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "data": {
-        "value": "ayesha@uom.lk"
+        "value": "rmsupali@gmail.com"
       }
     },
     {
@@ -978,6 +888,69 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: kumarabandara@rklssrilanka.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "kumarabandara@rklssrilanka.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chairman@edb.gov.lk",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "chairman@edb.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: anandakumarsge29@gmail.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "anandakumarsge29@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: lalithwijenayaka@gmail.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "lalithwijenayaka@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dhinuk@gmail.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "dhinuk@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ndcchairman73@gmail.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "ndcchairman73@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ayesha@uom.lk",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "ayesha@uom.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: chairmanbcclanka@gmail.com",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
@@ -987,10 +960,46 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: ndthisera@gmail.com",
+      "detail": "Published email: nesanrdb5@gmail.com",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "data": {
-        "value": "ndthisera@gmail.com"
+        "value": "nesanrdb5@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: gwfer@ou.ac.lk",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "gwfer@ou.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chaminda@uom.lk.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "chaminda@uom.lk.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: gppeiris361@gmail.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "gppeiris361@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: hpanagoda54@gmail.com",
+      "source": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
+      "data": {
+        "value": "hpanagoda54@gmail.com"
       }
     },
     {
@@ -1023,19 +1032,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%b4%e0%b6%b1%e0%b6%ad%e0%b7%8a/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/si/%e0%b6%b4%e0%b6%b1%e0%b6%ad%e0%b7%8a/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -1077,19 +1086,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 112392149",
+      "detail": "Published phone: +94 112 392150 ",
       "source": "https://www.industry.gov.lk/web/organizational-structure/",
       "data": {
-        "value": "112392149"
+        "value": "+94 112 392150 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 392150 ",
+      "detail": "Published phone: 112392149",
       "source": "https://www.industry.gov.lk/web/organizational-structure/",
       "data": {
-        "value": "+94 112 392150 "
+        "value": "112392149"
       }
     },
     {
@@ -1162,7 +1171,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1706,
+      "elapsed_ms": 985,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1173,7 +1182,7 @@
       "redirects": [
         "https://www.industry.gov.lk/"
       ],
-      "elapsed_ms": 1015,
+      "elapsed_ms": 1487,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1182,7 +1191,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1012,
+      "elapsed_ms": 1445,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1193,7 +1202,7 @@
       "redirects": [
         "https://www.industry.gov.lk/"
       ],
-      "elapsed_ms": 1504,
+      "elapsed_ms": 1438,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1202,7 +1211,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/si/%e0%b6%b8%e0%b7%94%e0%b6%bd%e0%b7%8a-%e0%b6%b4%e0%b7%92%e0%b6%a7%e0%b7%94%e0%b7%80/",
       "redirects": [],
-      "elapsed_ms": 2274,
+      "elapsed_ms": 1714,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1211,7 +1220,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/ta/home-new-tamil/",
       "redirects": [],
-      "elapsed_ms": 1583,
+      "elapsed_ms": 1605,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1220,7 +1229,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/",
       "redirects": [],
-      "elapsed_ms": 1656,
+      "elapsed_ms": 1601,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1229,7 +1238,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/si/%e0%b7%84%e0%b7%90%e0%b6%b3%e0%b7%92%e0%b6%b1%e0%b7%8a%e0%b7%80%e0%b7%93%e0%b6%b8/",
       "redirects": [],
-      "elapsed_ms": 2009,
+      "elapsed_ms": 1937,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1238,7 +1247,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "redirects": [],
-      "elapsed_ms": 1496,
+      "elapsed_ms": 1951,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1247,7 +1256,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%b1%e0%b7%92%e0%b6%ba%e0%b7%9d%e0%b6%a2%e0%b7%8a%e0%b6%ba-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
       "redirects": [],
-      "elapsed_ms": 1485,
+      "elapsed_ms": 2244,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1256,7 +1265,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
       "redirects": [],
-      "elapsed_ms": 1490,
+      "elapsed_ms": 1479,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1265,7 +1274,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
       "redirects": [],
-      "elapsed_ms": 1438,
+      "elapsed_ms": 1446,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1274,7 +1283,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/si/%e0%b6%b4%e0%b6%b1%e0%b6%ad%e0%b7%8a/",
       "redirects": [],
-      "elapsed_ms": 1463,
+      "elapsed_ms": 1480,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1283,7 +1292,7 @@
       "status_code": 200,
       "final_url": "https://www.industry.gov.lk/web/organizational-structure/",
       "redirects": [],
-      "elapsed_ms": 1508,
+      "elapsed_ms": 1488,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1291,86 +1300,86 @@
   "snapshots": [
     {
       "url": "https://www.industry.gov.lk/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-01-216f3da97674.html",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-01-216f3da97674.html",
       "sha256": "216f3da97674ca86d71cd212faa83a7f2018a864bf5e8a8d23ba3fb7a86d0d48",
       "bytes": 3870
     },
     {
       "url": "https://www.industry.gov.lk/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-02-216f3da97674.html",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-02-216f3da97674.html",
       "sha256": "216f3da97674ca86d71cd212faa83a7f2018a864bf5e8a8d23ba3fb7a86d0d48",
       "bytes": 3870
     },
     {
       "url": "https://www.industry.gov.lk/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-03-216f3da97674.html",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-03-216f3da97674.html",
       "sha256": "216f3da97674ca86d71cd212faa83a7f2018a864bf5e8a8d23ba3fb7a86d0d48",
       "bytes": 3870
     },
     {
       "url": "https://www.industry.gov.lk/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-04-216f3da97674.html",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-04-216f3da97674.html",
       "sha256": "216f3da97674ca86d71cd212faa83a7f2018a864bf5e8a8d23ba3fb7a86d0d48",
       "bytes": 3870
     },
     {
       "url": "https://www.industry.gov.lk/web/si/%e0%b6%b8%e0%b7%94%e0%b6%bd%e0%b7%8a-%e0%b6%b4%e0%b7%92%e0%b6%a7%e0%b7%94%e0%b7%80/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-05-aa232147e95c.html",
-      "sha256": "aa232147e95cf3546963ca1a3871ba191453af7ed85487efc56b3a1d73cce90b",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-05-bade8423d744.html",
+      "sha256": "bade8423d7442441d24b47d6c3fc2c5ff0fbbc42c66fd6d55c7000455250e660",
       "bytes": 134818
     },
     {
       "url": "https://www.industry.gov.lk/web/ta/home-new-tamil/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-06-a71c8248a13a.html",
-      "sha256": "a71c8248a13a7262824022c5dd40002a09e77038efc05962edd46b3fe1e26d74",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-06-b2ab0b508c29.html",
+      "sha256": "b2ab0b508c290cf8a62cc9fbbac95e90fdfab06c96cb8221779d5294da073572",
       "bytes": 131689
     },
     {
       "url": "https://www.industry.gov.lk/web/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-07-b3dc231ab1f1.html",
-      "sha256": "b3dc231ab1f13a0dff544d0a828eacf0a77c95855535106bc990d07427ee53bc",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-07-dde4d8b1c821.html",
+      "sha256": "dde4d8b1c821c4adfeaefb9a134248fb1050e4f4dfe9a7933729e028bf4cbaa7",
       "bytes": 124426
     },
     {
       "url": "https://www.industry.gov.lk/web/si/%e0%b7%84%e0%b7%90%e0%b6%b3%e0%b7%92%e0%b6%b1%e0%b7%8a%e0%b7%80%e0%b7%93%e0%b6%b8/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-08-79032bce3307.html",
-      "sha256": "79032bce33077241286dcda80e9ebda2197f9a3e4ff7f7393992a171951d1601",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-08-a6d2030fd214.html",
+      "sha256": "a6d2030fd214c302842a9c8a890bc4a5ddd861afaa98c3d30432191acf52a87b",
       "bytes": 94825
     },
     {
       "url": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-09-b287e64241e3.html",
-      "sha256": "b287e64241e3c31ccb0cd86be295b6867bc40e6ba55b9d8a56a790a8dbc8dd41",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-09-79e170ab1bdb.html",
+      "sha256": "79e170ab1bdbbac7a59316c06bee8a68025110e18b16660bb6a1d126f0cfeadb",
       "bytes": 84211
     },
     {
       "url": "https://www.industry.gov.lk/web/si/%e0%b6%9c%e0%b6%bb%e0%b7%94-%e0%b6%b1%e0%b7%92%e0%b6%ba%e0%b7%9d%e0%b6%a2%e0%b7%8a%e0%b6%ba-%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%ad%e0%b7%94%e0%b6%b8%e0%b7%8f/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-10-62fe346cba29.html",
-      "sha256": "62fe346cba2921f883833833abc383b0400850b4c93228a4d45ad49c490a6335",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-10-3c14da0aea27.html",
+      "sha256": "3c14da0aea2780dc58441575a72c8d2c99bd4d7284cf3451764ca29b7f2a646f",
       "bytes": 82006
     },
     {
       "url": "https://www.industry.gov.lk/web/si/%e0%b6%85%e0%b6%b8%e0%b7%8f%e0%b6%ad%e0%b7%8a%e0%b6%ba%e0%b6%82%e0%b7%81-%e0%b6%bd%e0%b7%9a%e0%b6%9a%e0%b6%b8%e0%b7%8a/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-11-09eef4470c38.html",
-      "sha256": "09eef4470c381ae11060cecd7d0b581a5b7e0bdf76f9291fd5437408cc9eb885",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-11-0e686f321999.html",
+      "sha256": "0e686f321999c7491124539aa02994278b475a6cae7f963992a82e687a0d7464",
       "bytes": 82081
     },
     {
       "url": "https://www.industry.gov.lk/web/si/%e0%b6%9a%e0%b6%bb%e0%b7%8a%e0%b6%b8%e0%b7%8f%e0%b6%b1%e0%b7%8a%e0%b6%ad-%e0%b7%84%e0%b7%8f-%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%80%e0%b7%83%e0%b7%8f%e0%b6%ba%e0%b6%9a%e0%b6%ad%e0%b7%8a%e0%b7%80/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-12-d7d2e50e1ae0.html",
-      "sha256": "d7d2e50e1ae0ee31f988cfbc6c8a7cdf1d416ce5c142a1f1de7a620b350d7273",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-12-6f366a59882e.html",
+      "sha256": "6f366a59882ee65737320d3293387fcfc2371f393dd6bfcded927f79f2953aa3",
       "bytes": 91075
     },
     {
       "url": "https://www.industry.gov.lk/web/si/%e0%b6%b4%e0%b6%b1%e0%b6%ad%e0%b7%8a/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-13-d24fec8735b8.html",
-      "sha256": "d24fec8735b8227db3dfe23f5211f2afa7873e67c182cce21eb40d0f41f2e6ba",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-13-8cb9db9e0c1f.html",
+      "sha256": "8cb9db9e0c1f500eb04e585c2b958d33c8a8db81be0092eb3fdf5affbd704fce",
       "bytes": 89324
     },
     {
       "url": "https://www.industry.gov.lk/web/organizational-structure/",
-      "path": "audit.output/www.industry.gov.lk/20260926.0703/snapshots/page-14-827419471b73.html",
-      "sha256": "827419471b733b8b91ef0cc98221d621a59a7c4a8529904bee722e0a6be409d4",
+      "path": "audit.output/www.industry.gov.lk/20260927.0702/snapshots/page-14-77c822b0c2a9.html",
+      "sha256": "77c822b0c2a9694b3baee776125e25c45fe86cd638084b781c00638c9c93739f",
       "bytes": 69147
     }
   ],
@@ -1457,7 +1466,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: No. 73/1, ගාලු පාර, කොළඹ 03, ශ්‍රී ලංකාව. දුරකථන අංක: +94 112 392149 +94 112 392150 විද්‍යුත් තැපැල: info@industry.gov.lk; Phone: 112392150 (22 phone numbers found); Email: info@industry.gov.lk (30 email addresses found); Published named responsibility: division",
+      "reason": "Published postal address: No. 73/1, ගාලු පාර, කොළඹ 03, ශ්‍රී ලංකාව. දුරකථන අංක: +94 112 392149 +94 112 392150 විද්‍යුත් තැපැල: info@industry.gov.lk; Phone: 112392150 (23 phone numbers found); Email: info@industry.gov.lk (30 email addresses found); Published named responsibility: division",
       "executed": true,
       "checks": [
         {
@@ -1470,7 +1479,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 112392150 (22 phone numbers found); Email: info@industry.gov.lk (30 email addresses found)"
+          "reason": "Phone: 112392150 (23 phone numbers found); Email: info@industry.gov.lk (30 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1549,7 +1558,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

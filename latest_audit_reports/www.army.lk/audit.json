@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "cccb1b1d-dee8-47c5-b871-3427c73e2979",
+  "audit_id": "f1b33079-b2a6-4a31-bd08-da98d3027359",
   "url": "https://www.army.lk/",
   "normalized_url": "https://www.army.lk/",
-  "started_at": "2026-09-26T06:11:21.911734+05:30",
-  "completed_at": "2026-09-26T06:11:44.551828+05:30",
+  "started_at": "2026-09-27T06:16:40.857906+05:30",
+  "completed_at": "2026-09-27T06:17:07.767238+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:11:22.119900+05:30"
+      "observed_at": "2026-09-27T06:16:41.104839+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:11:22.119918+05:30"
+      "observed_at": "2026-09-27T06:16:41.104861+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:11:22.149470+05:30"
+      "observed_at": "2026-09-27T06:16:41.113639+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.army.lk/",
       "source": "https://www.army.lk/",
-      "observed_at": "2026-09-26T06:11:43.942454+05:30"
+      "observed_at": "2026-09-27T06:17:06.890936+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.army.lk/",
       "source": "http://www.army.lk/",
-      "observed_at": "2026-09-26T06:11:43.942473+05:30"
+      "observed_at": "2026-09-27T06:17:06.890964+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.army.lk/",
       "source": "https://www.army.lk/",
-      "observed_at": "2026-09-26T06:11:43.942477+05:30"
+      "observed_at": "2026-09-27T06:17:06.890971+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.army.lk/",
       "source": "http://www.army.lk/",
-      "observed_at": "2026-09-26T06:11:43.942479+05:30"
+      "observed_at": "2026-09-27T06:17:06.890976+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.army.lk/service",
       "source": "https://www.army.lk/service",
-      "observed_at": "2026-09-26T06:11:43.942482+05:30"
+      "observed_at": "2026-09-27T06:17:06.890981+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.army.lk/officer",
       "source": "https://www.army.lk/officer",
-      "observed_at": "2026-09-26T06:11:43.942484+05:30"
+      "observed_at": "2026-09-27T06:17:06.890986+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.army.lk/contact-us",
       "source": "https://www.army.lk/contact-us",
-      "observed_at": "2026-09-26T06:11:43.942486+05:30"
+      "observed_at": "2026-09-27T06:17:06.890991+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.army.lk/news/commander-army-commends-distinguished-service-retiring-major-general-1",
       "source": "https://www.army.lk/news/commander-army-commends-distinguished-service-retiring-major-general-1",
-      "observed_at": "2026-09-26T06:11:43.942489+05:30"
+      "observed_at": "2026-09-27T06:17:06.890997+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.army.lk/si",
       "source": "https://www.army.lk/si",
-      "observed_at": "2026-09-26T06:11:43.942491+05:30"
+      "observed_at": "2026-09-27T06:17:06.891002+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.army.lk/ta",
       "source": "https://www.army.lk/ta",
-      "observed_at": "2026-09-26T06:11:43.942493+05:30"
+      "observed_at": "2026-09-27T06:17:06.891007+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.army.lk/commander",
       "source": "https://www.army.lk/commander",
-      "observed_at": "2026-09-26T06:11:43.942496+05:30"
+      "observed_at": "2026-09-27T06:17:06.891012+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.army.lk/army_flag",
       "source": "https://www.army.lk/army_flag",
-      "observed_at": "2026-09-26T06:11:43.942498+05:30"
+      "observed_at": "2026-09-27T06:17:06.891018+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.army.lk/army_song",
       "source": "https://www.army.lk/army_song",
-      "observed_at": "2026-09-26T06:11:43.942500+05:30"
+      "observed_at": "2026-09-27T06:17:06.891023+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.army.lk/establishments",
       "source": "https://www.army.lk/establishments",
-      "observed_at": "2026-09-26T06:11:43.942502+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
-      "source": "https://www.army.lk/",
-      "data": {
-        "value": "+94 11 243 2682 - "
-      }
+      "observed_at": "2026-09-27T06:17:06.891028+05:30"
     },
     {
       "check": "phone",
@@ -154,6 +145,15 @@
       "source": "https://www.army.lk/",
       "data": {
         "value": "+94 11 207 6967"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 243 2682 - ",
+      "source": "https://www.army.lk/",
+      "data": {
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -213,19 +213,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -285,19 +285,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -357,19 +357,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -429,19 +429,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/service",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/service",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -496,15 +496,6 @@
       "source": "https://www.army.lk/service",
       "data": {
         "value": "rs,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
-      "source": "https://www.army.lk/officer",
-      "data": {
-        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -514,6 +505,15 @@
       "source": "https://www.army.lk/officer",
       "data": {
         "value": "+94 11 207 6967"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 243 2682 - ",
+      "source": "https://www.army.lk/officer",
+      "data": {
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -582,19 +582,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: 0112086006 ",
       "source": "https://www.army.lk/contact-us",
       "data": {
-        "value": "+94 11 243 2682 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 57381 5738",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0 57381 5738"
+        "value": "0112086006 "
       }
     },
     {
@@ -609,109 +600,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112086008 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086008 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112086004 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086004 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112086002 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086002 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 76 690 7749",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "+94 76 690 7749"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112086006 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086006 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112432682-",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "+94112432682-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112086009 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086009 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94766907749 ",
       "source": "https://www.army.lk/contact-us",
       "data": {
         "value": "+94766907749 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112086001 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086001 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112086005 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086005 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112086010 ",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "0112086010 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
-      "source": "https://www.army.lk/contact-us",
-      "data": {
-        "value": "+94 11 207 6967"
       }
     },
     {
@@ -726,6 +618,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 243 2682 - ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "+94 11 243 2682 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112086005 ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0112086005 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0112086003 ",
       "source": "https://www.army.lk/contact-us",
       "data": {
@@ -733,12 +643,93 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slarmymedia@gmail.com",
+      "detail": "Published phone: +94 76 690 7749",
       "source": "https://www.army.lk/contact-us",
       "data": {
-        "value": "slarmymedia@gmail.com"
+        "value": "+94 76 690 7749"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112086002 ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0112086002 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112086008 ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0112086008 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112086009 ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0112086009 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 207 6967",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "+94 11 207 6967"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112432682-",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "+94112432682-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 57381 5738",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0 57381 5738"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112086010 ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0112086010 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112086004 ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0112086004 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112086001 ",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "0112086001 "
       }
     },
     {
@@ -748,6 +739,15 @@
       "source": "https://www.army.lk/contact-us",
       "data": {
         "value": "info@army.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slarmymedia@gmail.com",
+      "source": "https://www.army.lk/contact-us",
+      "data": {
+        "value": "slarmymedia@gmail.com"
       }
     },
     {
@@ -798,19 +798,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/news/commander-army-commends-distinguished-service-retiring-major-general-1",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/news/commander-army-commends-distinguished-service-retiring-major-general-1",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -870,15 +870,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
-      "source": "https://www.army.lk/si",
-      "data": {
-        "value": "+94 11 243 2682 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/si",
       "data": {
@@ -888,10 +879,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 76 690 7749",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/si",
       "data": {
-        "value": "+94 76 690 7749"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -904,6 +895,15 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 76 690 7749",
+      "source": "https://www.army.lk/si",
+      "data": {
+        "value": "+94 76 690 7749"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@army.lk",
@@ -942,15 +942,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
-      "source": "https://www.army.lk/ta",
-      "data": {
-        "value": "+94 11 243 2682 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/ta",
       "data": {
@@ -960,10 +951,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 76 690 7749",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/ta",
       "data": {
-        "value": "+94 76 690 7749"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -976,6 +967,15 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 76 690 7749",
+      "source": "https://www.army.lk/ta",
+      "data": {
+        "value": "+94 76 690 7749"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@army.lk",
@@ -1014,19 +1014,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/commander",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/commander",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -1086,19 +1086,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/army_flag",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/army_flag",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -1158,19 +1158,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 243 2682 - ",
+      "detail": "Published phone: +94 11 207 6967",
       "source": "https://www.army.lk/army_song",
       "data": {
-        "value": "+94 11 243 2682 - "
+        "value": "+94 11 207 6967"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
+      "detail": "Published phone: +94 11 243 2682 - ",
       "source": "https://www.army.lk/army_song",
       "data": {
-        "value": "+94 11 207 6967"
+        "value": "+94 11 243 2682 - "
       }
     },
     {
@@ -1225,6 +1225,15 @@
       "source": "https://www.army.lk/army_song",
       "data": {
         "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 207 6967",
+      "source": "https://www.army.lk/establishments",
+      "data": {
+        "value": "+94 11 207 6967"
       }
     },
     {
@@ -1234,15 +1243,6 @@
       "source": "https://www.army.lk/establishments",
       "data": {
         "value": "+94 11 243 2682 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 207 6967",
-      "source": "https://www.army.lk/establishments",
-      "data": {
-        "value": "+94 11 207 6967"
       }
     },
     {
@@ -1302,7 +1302,7 @@
     {
       "check": "page_text",
       "status": "pass",
-      "detail": "Substantive page content: 9983 visible characters across 14 pages",
+      "detail": "Substantive page content: 10178 visible characters across 14 pages",
       "source": "https://www.army.lk/"
     }
   ],
@@ -1336,7 +1336,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/",
       "redirects": [],
-      "elapsed_ms": 1742,
+      "elapsed_ms": 1322,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1347,7 +1347,7 @@
       "redirects": [
         "https://www.army.lk/"
       ],
-      "elapsed_ms": 1257,
+      "elapsed_ms": 1407,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1356,7 +1356,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/",
       "redirects": [],
-      "elapsed_ms": 2116,
+      "elapsed_ms": 1332,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1367,7 +1367,7 @@
       "redirects": [
         "https://www.army.lk/"
       ],
-      "elapsed_ms": 1759,
+      "elapsed_ms": 2653,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1376,7 +1376,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/service",
       "redirects": [],
-      "elapsed_ms": 994,
+      "elapsed_ms": 457,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1385,7 +1385,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/officer",
       "redirects": [],
-      "elapsed_ms": 1492,
+      "elapsed_ms": 1044,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1394,7 +1394,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/contact-us",
       "redirects": [],
-      "elapsed_ms": 1734,
+      "elapsed_ms": 1087,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1403,7 +1403,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/news/commander-army-commends-distinguished-service-retiring-major-general-1",
       "redirects": [],
-      "elapsed_ms": 971,
+      "elapsed_ms": 1259,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1412,7 +1412,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/si",
       "redirects": [],
-      "elapsed_ms": 1535,
+      "elapsed_ms": 1372,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1421,7 +1421,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/ta",
       "redirects": [],
-      "elapsed_ms": 1504,
+      "elapsed_ms": 3819,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1430,7 +1430,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/commander",
       "redirects": [],
-      "elapsed_ms": 959,
+      "elapsed_ms": 973,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1439,7 +1439,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/army_flag",
       "redirects": [],
-      "elapsed_ms": 949,
+      "elapsed_ms": 3754,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1448,7 +1448,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/army_song",
       "redirects": [],
-      "elapsed_ms": 1477,
+      "elapsed_ms": 1104,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1457,7 +1457,7 @@
       "status_code": 200,
       "final_url": "https://www.army.lk/establishments",
       "redirects": [],
-      "elapsed_ms": 1024,
+      "elapsed_ms": 1359,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1465,87 +1465,87 @@
   "snapshots": [
     {
       "url": "https://www.army.lk/",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-01-d047ac980b1a.html",
-      "sha256": "d047ac980b1ab8b324c7d7587834d09bb6f24a78c06c15f73a362d232cc25ad5",
-      "bytes": 115222
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-01-facd36352c8d.html",
+      "sha256": "facd36352c8dd697c5897635ec13811110a0386b13ef9f14d59810c6380e4df2",
+      "bytes": 115241
     },
     {
       "url": "https://www.army.lk/",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-02-41500e34af0d.html",
-      "sha256": "41500e34af0df0a37c4e357626b5f35b9bceff2218098880c68eda4397bcb090",
-      "bytes": 115222
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-02-845f74b5da26.html",
+      "sha256": "845f74b5da26c364f73bfa3174e64ed4de9695dd79505c1dc79ae6f92cf8f691",
+      "bytes": 115241
     },
     {
       "url": "https://www.army.lk/",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-03-7170dfd52c48.html",
-      "sha256": "7170dfd52c484197570d8509ce334fab0807593ba790cea5c81c8ee922ca2c37",
-      "bytes": 115222
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-03-f9a85bddce9a.html",
+      "sha256": "f9a85bddce9a68a2feba71883be5dbe88550e55ef68350fba7d26fc25c83bf03",
+      "bytes": 115241
     },
     {
       "url": "https://www.army.lk/",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-04-b5a20cbc3d71.html",
-      "sha256": "b5a20cbc3d7129bbaae497ad5a2dda5a332250057b4547000717f07d7dddb791",
-      "bytes": 115222
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-04-26d61b73b2a5.html",
+      "sha256": "26d61b73b2a5fd11d9f991c15ecff4d794910f75531e71aa7f839b3266ba8aa3",
+      "bytes": 115241
     },
     {
       "url": "https://www.army.lk/service",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-05-d7ad12436fbb.html",
-      "sha256": "d7ad12436fbbf834155070857c8b86973a4970efa8a586f9c28e0f06508cb55b",
-      "bytes": 68896
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-05-3a69815b4fa4.html",
+      "sha256": "3a69815b4fa4e14f00f94cafd49125e80ac729fc163694925b7c926cf4eb5148",
+      "bytes": 68944
     },
     {
       "url": "https://www.army.lk/officer",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-06-c6ea93e2c55b.html",
-      "sha256": "c6ea93e2c55be5850218255a542391f441d28f0e1a8af01800b685190e856f0f",
-      "bytes": 82875
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-06-228a3e722884.html",
+      "sha256": "228a3e722884329b37741a6f17e3a0ae6689879fc1c1b429b7a144f6e2fdee79",
+      "bytes": 82923
     },
     {
       "url": "https://www.army.lk/contact-us",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-07-63876ffbf1cc.html",
-      "sha256": "63876ffbf1cc061f62bfcceb057cef8560efd8a36d97651f4c4ced015bebb668",
-      "bytes": 76537
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-07-d55596730d5c.html",
+      "sha256": "d55596730d5c59150553a928f9b404ae0fc725ece8047776f9930d90792ae4ed",
+      "bytes": 76585
     },
     {
       "url": "https://www.army.lk/news/commander-army-commends-distinguished-service-retiring-major-general-1",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-08-5a14712ab73c.html",
-      "sha256": "5a14712ab73cb4da03ac471571d35578506886f1fdad5225b7b43713ce416552",
-      "bytes": 86147
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-08-c4260dc76aad.html",
+      "sha256": "c4260dc76aad717c16a0debc1d0c4400de0920baef78642e63980adf87203aec",
+      "bytes": 86195
     },
     {
       "url": "https://www.army.lk/si",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-09-285c0d7c2df4.html",
-      "sha256": "285c0d7c2df4272723e7caf20a9b2655d80c1bbda654d4ca5d66513b44f8951f",
-      "bytes": 138541
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-09-2b4d70de2325.html",
+      "sha256": "2b4d70de232507232a005820b72f5887ff74c73d9f4d767f9fe2d16680117986",
+      "bytes": 139291
     },
     {
       "url": "https://www.army.lk/ta",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-10-f6c7247200f0.html",
-      "sha256": "f6c7247200f04392507242aaebaa28d0d1d67b917db8fb878f917a309669275c",
-      "bytes": 137021
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-10-9980e457401a.html",
+      "sha256": "9980e457401acb9c43478d3f3fb846f70aba8b7acdc489d7879337e5ef6b2d63",
+      "bytes": 137568
     },
     {
       "url": "https://www.army.lk/commander",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-11-d59740c2faea.html",
-      "sha256": "d59740c2faea67d0f7b63f4666679f1ea1dab52552929108bb3d051144165a08",
-      "bytes": 73058
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-11-7f8af6cbab2d.html",
+      "sha256": "7f8af6cbab2dcedb1066ad19d89a8742d338c2a150642ffd2661d91112333947",
+      "bytes": 73106
     },
     {
       "url": "https://www.army.lk/army_flag",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-12-60349b869d78.html",
-      "sha256": "60349b869d78b870081dd59d223a42bb1f5be0b610b624226f6567b336697b40",
-      "bytes": 70198
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-12-d67700eeeda3.html",
+      "sha256": "d67700eeeda3aae44c012475a5aae691c41668214e76f33b79483268b011c48f",
+      "bytes": 70246
     },
     {
       "url": "https://www.army.lk/army_song",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-13-b4e2d4638ea0.html",
-      "sha256": "b4e2d4638ea0f8686ec97b850662bbc0a2a62e45c4d55b503eaab3657a421d06",
-      "bytes": 68399
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-13-1dd0fc0980b6.html",
+      "sha256": "1dd0fc0980b68cbdce6393cdf4e7a02507fda99b02e376f6c6649a6577423fa7",
+      "bytes": 68447
     },
     {
       "url": "https://www.army.lk/establishments",
-      "path": "audit.output/www.army.lk/20260926.0611/snapshots/page-14-4c16aa1122e6.html",
-      "sha256": "4c16aa1122e6df418ba0f038256692ab59a9c4ed7beb51e2818addb20850068e",
-      "bytes": 112996
+      "path": "audit.output/www.army.lk/20260927.0616/snapshots/page-14-ff11e6d8996c.html",
+      "sha256": "ff11e6d8996cb1157e93a35bc439bddfd0ce1d85091c1f1795312effacbe138a",
+      "bytes": 113044
     }
   ],
   "reviewer_decisions": [],
@@ -1644,7 +1644,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 11 243 2682 - (18 phone numbers found); Email: info@army.lk (3 email addresses found)"
+          "reason": "Phone: +94 11 207 6967 (18 phone numbers found); Email: info@army.lk (3 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1680,7 +1680,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

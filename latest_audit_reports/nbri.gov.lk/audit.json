@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "b4bf078f-f303-4666-bf70-7101a7b8f504",
+  "audit_id": "95c6a2de-a402-4806-bb1b-de5ef7c5f625",
   "url": "https://nbri.gov.lk/",
   "normalized_url": "https://nbri.gov.lk/",
-  "started_at": "2026-09-26T06:10:23.693122+05:30",
-  "completed_at": "2026-09-26T06:10:46.066929+05:30",
+  "started_at": "2026-09-27T06:16:01.112110+05:30",
+  "completed_at": "2026-09-27T06:16:23.712719+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,125 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:10:24.002964+05:30"
+      "observed_at": "2026-09-27T06:16:01.491559+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:10:24.002983+05:30"
+      "observed_at": "2026-09-27T06:16:01.491581+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:10:24.331184+05:30"
+      "observed_at": "2026-09-27T06:16:01.770222+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://nbri.gov.lk/index.php?lang=en",
       "source": "https://nbri.gov.lk/",
-      "observed_at": "2026-09-26T06:10:44.969944+05:30"
+      "observed_at": "2026-09-27T06:16:22.195452+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://nbri.gov.lk/index.php?lang=en",
       "source": "http://nbri.gov.lk/",
-      "observed_at": "2026-09-26T06:10:44.969961+05:30"
+      "observed_at": "2026-09-27T06:16:22.195470+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://nbri.gov.lk/index.php?lang=en",
       "source": "https://nbri.gov.lk/",
-      "observed_at": "2026-09-26T06:10:44.969965+05:30"
+      "observed_at": "2026-09-27T06:16:22.195475+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://nbri.gov.lk/index.php?lang=en",
       "source": "http://nbri.gov.lk/",
-      "observed_at": "2026-09-26T06:10:44.969968+05:30"
+      "observed_at": "2026-09-27T06:16:22.195478+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://nbri.gov.lk/index.php?lang=en",
       "source": "https://nbri.gov.lk/index.php",
-      "observed_at": "2026-09-26T06:10:44.969970+05:30"
+      "observed_at": "2026-09-27T06:16:22.195482+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://nbri.gov.lk/index.php?option=com_contact&view=contact&id=1&Itemid=183&lang=en",
       "source": "https://nbri.gov.lk/index.php?option=com_contact&view=contact&id=1&Itemid=183&lang=en",
-      "observed_at": "2026-09-26T06:10:44.969973+05:30"
+      "observed_at": "2026-09-27T06:16:22.195484+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://nbri.gov.lk/index.php?lang=si",
       "source": "https://nbri.gov.lk/index.php?lang=si",
-      "observed_at": "2026-09-26T06:10:44.969975+05:30"
+      "observed_at": "2026-09-27T06:16:22.195487+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://nbri.gov.lk/index.php?lang=ta",
       "source": "https://nbri.gov.lk/index.php?lang=ta",
-      "observed_at": "2026-09-26T06:10:44.969977+05:30"
+      "observed_at": "2026-09-27T06:16:22.195490+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://nbri.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "observed_at": "2026-09-26T06:10:44.969979+05:30"
+      "observed_at": "2026-09-27T06:16:22.195493+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
-      "observed_at": "2026-09-26T06:10:44.969981+05:30"
+      "observed_at": "2026-09-27T06:16:22.195496+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://nbri.gov.lk/index.php?option=com_content&view=article&id=33&Itemid=187&lang=en",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=33&Itemid=187&lang=en",
-      "observed_at": "2026-09-26T06:10:44.969984+05:30"
+      "observed_at": "2026-09-27T06:16:22.195499+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://nbri.gov.lk/index.php?option=com_content&view=article&id=34&Itemid=188&lang=en",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=34&Itemid=188&lang=en",
-      "observed_at": "2026-09-26T06:10:44.969986+05:30"
+      "observed_at": "2026-09-27T06:16:22.195502+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://nbri.gov.lk/index.php?option=com_content&view=article&id=546&Itemid=526&lang=en",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=546&Itemid=526&lang=en",
-      "observed_at": "2026-09-26T06:10:44.969988+05:30"
+      "observed_at": "2026-09-27T06:16:22.195504+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://nbri.gov.lk/index.php?option=com_xmap&view=html&id=1&Itemid=165&lang=en",
       "source": "https://nbri.gov.lk/index.php?option=com_xmap&view=html&id=1&Itemid=165&lang=en",
-      "observed_at": "2026-09-26T06:10:44.969990+05:30"
+      "observed_at": "2026-09-27T06:16:22.195507+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -159,19 +159,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak13191').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak81761').i",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak13191').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak81761').i"
       }
     },
     {
@@ -195,10 +195,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -213,19 +213,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak88021').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak14431').i",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak88021').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak14431').i"
       }
     },
     {
@@ -249,10 +249,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -267,19 +267,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak31686').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak68448').i",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak31686').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak68448').i"
       }
     },
     {
@@ -303,10 +303,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -321,19 +321,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak34439').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak62031').i",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak34439').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak62031').i"
       }
     },
     {
@@ -357,10 +357,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -375,19 +375,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak42785').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak49257').i",
       "source": "https://nbri.gov.lk/index.php?lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak42785').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak49257').i"
       }
     },
     {
@@ -438,19 +438,19 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 24 September 2026",
+      "detail": "Published published update date: 26 September 2026",
       "source": "https://nbri.gov.lk/index.php?option=com_contact&view=contact&id=1&Itemid=183&lang=en",
       "data": {
-        "value": "24 September 2026"
+        "value": "26 September 2026"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?lang=si",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -465,19 +465,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?lang=si",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak39008').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak8542').in",
       "source": "https://nbri.gov.lk/index.php?lang=si",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak39008').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak8542').in"
       }
     },
     {
@@ -501,10 +501,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?lang=ta",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -519,10 +519,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?lang=ta",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
@@ -555,10 +555,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 588946",
+      "detail": "Published phone: +94 112 081 721",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
-        "value": "+94 112 588946"
+        "value": "+94 112 081 721"
       }
     },
     {
@@ -573,19 +573,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 081 721",
+      "detail": "Published phone: +94 112 588946",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
-        "value": "+94 112 081 721"
+        "value": "+94 112 588946"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak96200').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak8797').in",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak96200').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak8797').in"
       }
     },
     {
@@ -609,15 +609,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000.00 08.08.2",
-      "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
-      "data": {
-        "value": "000.00 08.08.2"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 000.00 21.06.2",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
       "data": {
@@ -636,10 +627,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 05 2018-05-25 ",
+      "detail": "Published phone: 000.00 08.08.2",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
       "data": {
-        "value": "05 2018-05-25 "
+        "value": "000.00 08.08.2"
       }
     },
     {
@@ -649,6 +640,15 @@
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
       "data": {
         "value": "011-2588946 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05 2018-05-25 ",
+      "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
+      "data": {
+        "value": "05 2018-05-25 "
       }
     },
     {
@@ -699,10 +699,10 @@
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak90993').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak95757').i",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=33&Itemid=187&lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak90993').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak95757').i"
       }
     },
     {
@@ -717,19 +717,19 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 24 September 2026",
+      "detail": "Published published update date: 26 September 2026",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=33&Itemid=187&lang=en",
       "data": {
-        "value": "24 September 2026"
+        "value": "26 September 2026"
       }
     },
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak25174').i",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak27828').i",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=34&Itemid=188&lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak25174').i"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak27828').i"
       }
     },
     {
@@ -780,10 +780,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 24 September 2026",
+      "detail": "Published published update date: 26 September 2026",
       "source": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=546&Itemid=526&lang=en",
       "data": {
-        "value": "24 September 2026"
+        "value": "26 September 2026"
       }
     },
     {
@@ -798,10 +798,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 24 September 2026",
+      "detail": "Published published update date: 26 September 2026",
       "source": "https://nbri.gov.lk/index.php?option=com_xmap&view=html&id=1&Itemid=165&lang=en",
       "data": {
-        "value": "24 September 2026"
+        "value": "26 September 2026"
       }
     },
     {
@@ -840,7 +840,7 @@
       "redirects": [
         "https://nbri.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 845,
+      "elapsed_ms": 466,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -852,7 +852,7 @@
         "https://nbri.gov.lk/",
         "https://nbri.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 516,
+      "elapsed_ms": 440,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -863,7 +863,7 @@
       "redirects": [
         "https://nbri.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 518,
+      "elapsed_ms": 458,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -875,7 +875,7 @@
         "https://nbri.gov.lk/",
         "https://nbri.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 484,
+      "elapsed_ms": 207,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -886,7 +886,7 @@
       "redirects": [
         "https://nbri.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 522,
+      "elapsed_ms": 221,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -895,7 +895,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?option=com_contact&view=contact&id=1&Itemid=183&lang=en",
       "redirects": [],
-      "elapsed_ms": 250,
+      "elapsed_ms": 393,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -904,7 +904,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?lang=si",
       "redirects": [],
-      "elapsed_ms": 509,
+      "elapsed_ms": 250,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -913,7 +913,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?lang=ta",
       "redirects": [],
-      "elapsed_ms": 479,
+      "elapsed_ms": 433,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -922,7 +922,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "redirects": [],
-      "elapsed_ms": 510,
+      "elapsed_ms": 494,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -931,7 +931,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
       "redirects": [],
-      "elapsed_ms": 345,
+      "elapsed_ms": 110,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -940,7 +940,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=33&Itemid=187&lang=en",
       "redirects": [],
-      "elapsed_ms": 292,
+      "elapsed_ms": 127,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -949,7 +949,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=34&Itemid=188&lang=en",
       "redirects": [],
-      "elapsed_ms": 297,
+      "elapsed_ms": 355,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -958,7 +958,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=546&Itemid=526&lang=en",
       "redirects": [],
-      "elapsed_ms": 243,
+      "elapsed_ms": 103,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -967,7 +967,7 @@
       "status_code": 200,
       "final_url": "https://nbri.gov.lk/index.php?option=com_xmap&view=html&id=1&Itemid=165&lang=en",
       "redirects": [],
-      "elapsed_ms": 328,
+      "elapsed_ms": 147,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -975,86 +975,86 @@
   "snapshots": [
     {
       "url": "https://nbri.gov.lk/index.php?lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-01-4cba68f1fb52.html",
-      "sha256": "4cba68f1fb52e1722d0e475768ce82d51a84206f5b254e71c05c1a7955541102",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-01-cb4ddf7ad5b4.html",
+      "sha256": "cb4ddf7ad5b4d3cae5b4e0dd0864b99221758ef89b4e23f4c15b234c57d67ef3",
       "bytes": 367112
     },
     {
       "url": "https://nbri.gov.lk/index.php?lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-02-1eb11a05df24.html",
-      "sha256": "1eb11a05df2421b5c1bc7f297b1ed1e54810510dd0cfb7a77c4e7df916c030bd",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-02-61964be15135.html",
+      "sha256": "61964be151351b8ef6fca07c0abd2866485b47fcb014043c881e0a61a0b19b3b",
+      "bytes": 367103
+    },
+    {
+      "url": "https://nbri.gov.lk/index.php?lang=en",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-03-c32c94a63a9a.html",
+      "sha256": "c32c94a63a9ab9f9c4362909664652c719ef33397e1b3684c2dbc95c3ee43ecc",
       "bytes": 367112
     },
     {
       "url": "https://nbri.gov.lk/index.php?lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-03-7fc20b3eecb1.html",
-      "sha256": "7fc20b3eecb1ea749819e8c2be016772af3f41858c71a9374754db33604cb360",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-04-1d84877b709b.html",
+      "sha256": "1d84877b709bc5f9d1be9964affd01a5671031ce213449206020fff6b95dbbe6",
       "bytes": 367112
     },
     {
       "url": "https://nbri.gov.lk/index.php?lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-04-6240948fab3a.html",
-      "sha256": "6240948fab3a42c94729cac2d397eb50e2a745554c892785872c1adf8e7abec2",
-      "bytes": 367112
-    },
-    {
-      "url": "https://nbri.gov.lk/index.php?lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-05-fb036e290864.html",
-      "sha256": "fb036e2908649df4fa80ca4aadc324397e36ea66f8438804d8d4e37afd922511",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-05-3e83e79211ae.html",
+      "sha256": "3e83e79211aeaefcf9c4c345cc015989d744706f80e2850207a6a337f3ddec01",
       "bytes": 367112
     },
     {
       "url": "https://nbri.gov.lk/index.php?option=com_contact&view=contact&id=1&Itemid=183&lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-06-d8b429879126.html",
-      "sha256": "d8b4298791267f731bad779b39bef4100c3abe87e92073be1de3728e46372867",
-      "bytes": 41750
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-06-570a8d23a8f6.html",
+      "sha256": "570a8d23a8f6f84a49d246bde3ea29ff0ad373531dc4d7958b39182fd76f72c1",
+      "bytes": 41736
     },
     {
       "url": "https://nbri.gov.lk/index.php?lang=si",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-07-f14651507fdc.html",
-      "sha256": "f14651507fdcbbfaa0c022360c128721d0c1dfd327a13830e147cdfd60bdb60b",
-      "bytes": 367069
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-07-311647f381a1.html",
+      "sha256": "311647f381a1607172f081be644979e7fbbbbe58a9d6da72239c59d9906042a9",
+      "bytes": 367060
     },
     {
       "url": "https://nbri.gov.lk/index.php?lang=ta",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-08-176dbc1fc0fc.html",
-      "sha256": "176dbc1fc0fca07790af891eeb06f9fcebe5c8fe2f87d2cb3c0204facfd9b48c",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-08-9cf5611c18fe.html",
+      "sha256": "9cf5611c18fee35295f951f529af4cc14a1c5743c80fb2f39c5f3b72b00b8c55",
       "bytes": 369242
     },
     {
       "url": "https://nbri.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-09-48435258922b.html",
-      "sha256": "48435258922b4f6b35037e5f13ea2391c26c01048cfc41872fbdcb48f4c66a16",
-      "bytes": 367589
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-09-f4a4126fc838.html",
+      "sha256": "f4a4126fc83863d2f61700eb942394e744be74931b88b05d1dc93aad013fcd0c",
+      "bytes": 367580
     },
     {
       "url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=32&Itemid=186&lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-10-2e9fa1ddeb12.html",
-      "sha256": "2e9fa1ddeb125ede6d6426b1c21c3460a04c7d9bded477ab1d8b2f50bd660158",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-10-12fb36f7d370.html",
+      "sha256": "12fb36f7d370c6cd3c53279bbc33d0174e546811a979df6fe7deb44e484aa8de",
       "bytes": 167714
     },
     {
       "url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=33&Itemid=187&lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-11-809be7a51337.html",
-      "sha256": "809be7a513375bfe16548e6101f75c8f48377e736db8d90b9450c10d5351fbf6",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-11-2c1115e1481e.html",
+      "sha256": "2c1115e1481ee649b077c88308114c0b5f12a503a605db8ffec826f6b1bb7948",
       "bytes": 111312
     },
     {
       "url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=34&Itemid=188&lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-12-087ed7fe37e2.html",
-      "sha256": "087ed7fe37e28063f3595eada21e3c9a387243da75ed91ef1fb27591bc21c74f",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-12-e7f2e4134680.html",
+      "sha256": "e7f2e41346802476a349553760dedf9489d6adfda569fc91d2f9461da72b249a",
       "bytes": 66406
     },
     {
       "url": "https://nbri.gov.lk/index.php?option=com_content&view=article&id=546&Itemid=526&lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-13-2c4e9e318efb.html",
-      "sha256": "2c4e9e318efbe1887f659dd3cb981098910557a773cb009beb8ea0e19556aa3a",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-13-5168390cfc08.html",
+      "sha256": "5168390cfc080328387bd599c9e2f80181d48fe9c6f853015b436f992dbd7cbf",
       "bytes": 35827
     },
     {
       "url": "https://nbri.gov.lk/index.php?option=com_xmap&view=html&id=1&Itemid=165&lang=en",
-      "path": "audit.output/nbri.gov.lk/20260926.0610/snapshots/page-14-ff1eaef3a660.html",
-      "sha256": "ff1eaef3a660827101794b296596662b0bbc45fc3faad32f67b6a49c8521e7bf",
+      "path": "audit.output/nbri.gov.lk/20260927.0616/snapshots/page-14-4b256dc62937.html",
+      "sha256": "4b256dc629373a8f4fdc4c276f61e50b970df59e29e9f14fc766ac3bb30e5fd2",
       "bytes": 55193
     }
   ],
@@ -1148,7 +1148,7 @@
           "name": "postal_address",
           "level": 2,
           "status": "pass",
-          "reason": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak13191').i"
+          "reason": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. //<!-- document.getElementById('cloak81761').i"
         },
         {
           "name": "reachable_contacts",
@@ -1190,7 +1190,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

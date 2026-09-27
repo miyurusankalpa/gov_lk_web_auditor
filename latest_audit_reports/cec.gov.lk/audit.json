@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "33f64896-56af-4aa7-bc0c-f17c569c3f58",
+  "audit_id": "784a9054-25c6-4467-a148-1a53f5432a59",
   "url": "https://cec.gov.lk/",
   "normalized_url": "https://cec.gov.lk/",
-  "started_at": "2026-09-26T06:52:34.165191+05:30",
-  "completed_at": "2026-09-26T06:52:52.569628+05:30",
+  "started_at": "2026-09-27T06:53:48.248048+05:30",
+  "completed_at": "2026-09-27T06:54:06.895398+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:52:34.479525+05:30"
+      "observed_at": "2026-09-27T06:53:48.639944+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:52:34.479543+05:30"
+      "observed_at": "2026-09-27T06:53:48.639965+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:52:34.843570+05:30"
+      "observed_at": "2026-09-27T06:53:48.910690+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://cec.gov.lk/",
       "source": "https://cec.gov.lk/",
-      "observed_at": "2026-09-26T06:52:52.466889+05:30"
+      "observed_at": "2026-09-27T06:54:06.751412+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at http://cec.gov.lk/",
       "source": "http://cec.gov.lk/",
-      "observed_at": "2026-09-26T06:52:52.466907+05:30"
+      "observed_at": "2026-09-27T06:54:06.751430+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://cec.gov.lk/",
       "source": "https://cec.gov.lk/",
-      "observed_at": "2026-09-26T06:52:52.466911+05:30"
+      "observed_at": "2026-09-27T06:54:06.751435+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at http://cec.gov.lk/",
       "source": "http://cec.gov.lk/",
-      "observed_at": "2026-09-26T06:52:52.466913+05:30"
+      "observed_at": "2026-09-27T06:54:06.751439+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://cec.gov.lk/web/index.php?lang=si",
       "source": "https://cec.gov.lk/web/index.php?lang=si",
-      "observed_at": "2026-09-26T06:52:52.466915+05:30"
+      "observed_at": "2026-09-27T06:54:06.751442+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://cec.gov.lk/web/index.php?lang=ta",
       "source": "https://cec.gov.lk/web/index.php?lang=ta",
-      "observed_at": "2026-09-26T06:52:52.466918+05:30"
+      "observed_at": "2026-09-27T06:54:06.751445+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://cec.gov.lk/web/index.php?lang=en",
       "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "observed_at": "2026-09-26T06:52:52.466919+05:30"
+      "observed_at": "2026-09-27T06:54:06.751448+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://cec.gov.lk/web/index.php?lang=si",
       "source": "http://cec.gov.lk/web/index.php?lang=si",
-      "observed_at": "2026-09-26T06:52:52.466921+05:30"
+      "observed_at": "2026-09-27T06:54:06.751451+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://cec.gov.lk/web/index.php?lang=ta",
       "source": "http://cec.gov.lk/web/index.php?lang=ta",
-      "observed_at": "2026-09-26T06:52:52.466924+05:30"
+      "observed_at": "2026-09-27T06:54:06.751454+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://cec.gov.lk/web/index.php?lang=en",
       "source": "http://cec.gov.lk/web/index.php?lang=en",
-      "observed_at": "2026-09-26T06:52:52.466926+05:30"
+      "observed_at": "2026-09-27T06:54:06.751457+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://cec.gov.lk/web/index.php?lang=en",
       "source": "https://cec.gov.lk/web/index.php",
-      "observed_at": "2026-09-26T06:52:52.466928+05:30"
+      "observed_at": "2026-09-27T06:54:06.751460+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
-      "observed_at": "2026-09-26T06:52:52.466930+05:30"
+      "observed_at": "2026-09-27T06:54:06.751463+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://cec.gov.lk/web/index.php?option=com_content&view=article&id=56&Itemid=219&lang=si",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=56&Itemid=219&lang=si",
-      "observed_at": "2026-09-26T06:52:52.466933+05:30"
+      "observed_at": "2026-09-27T06:54:06.751466+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://cec.gov.lk/web/index.php?option=com_content&view=article&id=57&Itemid=220&lang=si",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=57&Itemid=220&lang=si",
-      "observed_at": "2026-09-26T06:52:52.466935+05:30"
+      "observed_at": "2026-09-27T06:54:06.751468+05:30"
     },
     {
       "check": "phone",
@@ -150,19 +150,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
+      "detail": "Published phone: +94 11 2396206 ",
       "source": "https://cec.gov.lk/web/index.php?lang=si",
       "data": {
-        "value": "08 2026-09-26 "
+        "value": "+94 11 2396206 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2396206 ",
+      "detail": "Published phone: 0.55.47.112 20",
       "source": "https://cec.gov.lk/web/index.php?lang=si",
       "data": {
-        "value": "+94 11 2396206 "
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "025 7292 164"
       }
     },
     {
@@ -177,6 +186,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 161252 702",
+      "source": "https://cec.gov.lk/web/index.php?lang=ta",
+      "data": {
+        "value": "0 161252 702"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2396208 ",
       "source": "https://cec.gov.lk/web/index.php?lang=ta",
       "data": {
@@ -186,19 +204,154 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
+      "detail": "Published phone: +94 11 2396206 ",
       "source": "https://cec.gov.lk/web/index.php?lang=ta",
       "data": {
-        "value": "08 2026-09-26 "
+        "value": "+94 11 2396206 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 331 1526 16",
+      "detail": "Published phone: 0.55.47.112 20",
       "source": "https://cec.gov.lk/web/index.php?lang=ta",
       "data": {
-        "value": "0 331 1526 16"
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cec.gov1@gmail.com",
+      "source": "https://cec.gov.lk/web/index.php?lang=ta",
+      "data": {
+        "value": "cec.gov1@gmail.com"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 027 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "027 7292 164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2396208 ",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "+94 11 2396208 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2396206 ",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "+94 11 2396206 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cec.gov1@gmail.com",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "cec.gov1@gmail.com"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 028 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "028 7292 164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2396208 ",
+      "source": "https://cec.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "+94 11 2396208 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2396206 ",
+      "source": "https://cec.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "+94 11 2396206 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "https://cec.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cec.gov1@gmail.com",
+      "source": "https://cec.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "cec.gov1@gmail.com"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 029 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?lang=ta",
+      "data": {
+        "value": "029 7292 164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2396208 ",
+      "source": "https://cec.gov.lk/web/index.php?lang=ta",
+      "data": {
+        "value": "+94 11 2396208 "
       }
     },
     {
@@ -208,6 +361,15 @@
       "source": "https://cec.gov.lk/web/index.php?lang=ta",
       "data": {
         "value": "+94 11 2396206 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "https://cec.gov.lk/web/index.php?lang=ta",
+      "data": {
+        "value": "0.55.47.112 20"
       }
     },
     {
@@ -231,10 +393,64 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
+      "detail": "Published phone: +94 11 2396206 ",
       "source": "https://cec.gov.lk/web/index.php?lang=en",
       "data": {
-        "value": "08 2026-09-26 "
+        "value": "+94 11 2396206 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 030 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "030 7292 164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cec.gov1@gmail.com",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "cec.gov1@gmail.com"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: circular",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "circular"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 031 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "031 7292 164"
       }
     },
     {
@@ -244,6 +460,33 @@
       "source": "https://cec.gov.lk/web/index.php?lang=en",
       "data": {
         "value": "+94 11 2396206 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 219 1725 16",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "0 219 1725 16"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2396208 ",
+      "source": "https://cec.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "+94 11 2396208 "
       }
     },
     {
@@ -277,207 +520,9 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +94 11 2396208 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=si",
-      "data": {
-        "value": "+94 11 2396208 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=si",
-      "data": {
-        "value": "08 2026-09-26 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396206 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=si",
-      "data": {
-        "value": "+94 11 2396206 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cec.gov1@gmail.com",
-      "source": "https://cec.gov.lk/web/index.php?lang=si",
-      "data": {
-        "value": "cec.gov1@gmail.com"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396208 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=ta",
-      "data": {
-        "value": "+94 11 2396208 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=ta",
-      "data": {
-        "value": "08 2026-09-26 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396206 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=ta",
-      "data": {
-        "value": "+94 11 2396206 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cec.gov1@gmail.com",
-      "source": "https://cec.gov.lk/web/index.php?lang=ta",
-      "data": {
-        "value": "cec.gov1@gmail.com"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396208 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "+94 11 2396208 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "08 2026-09-26 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396206 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "+94 11 2396206 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 161252 683",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "0 161252 683"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cec.gov1@gmail.com",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "cec.gov1@gmail.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: circular",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "circular"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396208 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "+94 11 2396208 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "08 2026-09-26 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396206 ",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "+94 11 2396206 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cec.gov1@gmail.com",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "cec.gov1@gmail.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: circular",
-      "source": "https://cec.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "circular"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2396208 ",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "data": {
         "value": "+94 11 2396208 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
-      "source": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
-      "data": {
-        "value": "08 2026-09-26 "
       }
     },
     {
@@ -487,6 +532,24 @@
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "data": {
         "value": "+94 11 2396206 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.55.47.112 20",
+      "source": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
+      "data": {
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 032 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
+      "data": {
+        "value": "032 7292 164"
       }
     },
     {
@@ -510,19 +573,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
+      "detail": "Published phone: +94 11 2396206 ",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=56&Itemid=219&lang=si",
       "data": {
-        "value": "08 2026-09-26 "
+        "value": "+94 11 2396206 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2396206 ",
+      "detail": "Published phone: 0.55.47.112 20",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=56&Itemid=219&lang=si",
       "data": {
-        "value": "+94 11 2396206 "
+        "value": "0.55.47.112 20"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 033 7292 164",
+      "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=56&Itemid=219&lang=si",
+      "data": {
+        "value": "033 7292 164"
       }
     },
     {
@@ -537,10 +609,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 7292 16450",
+      "detail": "Published phone: 034 7292 164",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=57&Itemid=220&lang=si",
       "data": {
-        "value": "0 7292 16450"
+        "value": "034 7292 164"
       }
     },
     {
@@ -555,19 +627,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08 2026-09-26 ",
+      "detail": "Published phone: +94 11 2396206 ",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=57&Itemid=220&lang=si",
       "data": {
-        "value": "08 2026-09-26 "
+        "value": "+94 11 2396206 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2396206 ",
+      "detail": "Published phone: 0.55.47.112 20",
       "source": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=57&Itemid=220&lang=si",
       "data": {
-        "value": "+94 11 2396206 "
+        "value": "0.55.47.112 20"
       }
     },
     {
@@ -582,7 +654,7 @@
     {
       "check": "page_text",
       "status": "pass",
-      "detail": "Substantive page content: 3133 visible characters across 14 pages",
+      "detail": "Substantive page content: 3132 visible characters across 14 pages",
       "source": "https://cec.gov.lk/"
     }
   ],
@@ -613,7 +685,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 380,
+      "elapsed_ms": 259,
       "content_type": "text/html",
       "error": null
     },
@@ -622,7 +694,7 @@
       "status_code": 200,
       "final_url": "http://cec.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 318,
+      "elapsed_ms": 272,
       "content_type": "text/html",
       "error": null
     },
@@ -631,7 +703,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 369,
+      "elapsed_ms": 260,
       "content_type": "text/html",
       "error": null
     },
@@ -640,7 +712,7 @@
       "status_code": 200,
       "final_url": "http://cec.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 111,
+      "elapsed_ms": 12,
       "content_type": "text/html",
       "error": null
     },
@@ -649,7 +721,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/web/index.php?lang=si",
       "redirects": [],
-      "elapsed_ms": 946,
+      "elapsed_ms": 1208,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -658,7 +730,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/web/index.php?lang=ta",
       "redirects": [],
-      "elapsed_ms": 223,
+      "elapsed_ms": 364,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -667,7 +739,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/web/index.php?lang=en",
       "redirects": [],
-      "elapsed_ms": 449,
+      "elapsed_ms": 81,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -678,7 +750,7 @@
       "redirects": [
         "https://cec.gov.lk/web/index.php?lang=si"
       ],
-      "elapsed_ms": 424,
+      "elapsed_ms": 68,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -689,7 +761,7 @@
       "redirects": [
         "https://cec.gov.lk/web/index.php?lang=ta"
       ],
-      "elapsed_ms": 221,
+      "elapsed_ms": 466,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -700,7 +772,7 @@
       "redirects": [
         "https://cec.gov.lk/web/index.php?lang=en"
       ],
-      "elapsed_ms": 257,
+      "elapsed_ms": 160,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -711,7 +783,7 @@
       "redirects": [
         "https://cec.gov.lk/web/index.php?lang=en"
       ],
-      "elapsed_ms": 216,
+      "elapsed_ms": 68,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -720,7 +792,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "redirects": [],
-      "elapsed_ms": 212,
+      "elapsed_ms": 69,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -729,7 +801,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=56&Itemid=219&lang=si",
       "redirects": [],
-      "elapsed_ms": 221,
+      "elapsed_ms": 204,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -738,7 +810,7 @@
       "status_code": 200,
       "final_url": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=57&Itemid=220&lang=si",
       "redirects": [],
-      "elapsed_ms": 224,
+      "elapsed_ms": 69,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -746,87 +818,87 @@
   "snapshots": [
     {
       "url": "https://cec.gov.lk/",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-01-9538afb46879.html",
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-01-9538afb46879.html",
       "sha256": "9538afb4687926828777e570d2ffae006b98972f5d3aab58d7880f02fe0a5cd6",
       "bytes": 2548
     },
     {
       "url": "http://cec.gov.lk/",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-02-9538afb46879.html",
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-02-9538afb46879.html",
       "sha256": "9538afb4687926828777e570d2ffae006b98972f5d3aab58d7880f02fe0a5cd6",
       "bytes": 2548
     },
     {
       "url": "https://cec.gov.lk/",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-03-9538afb46879.html",
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-03-9538afb46879.html",
       "sha256": "9538afb4687926828777e570d2ffae006b98972f5d3aab58d7880f02fe0a5cd6",
       "bytes": 2548
     },
     {
       "url": "http://cec.gov.lk/",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-04-9538afb46879.html",
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-04-9538afb46879.html",
       "sha256": "9538afb4687926828777e570d2ffae006b98972f5d3aab58d7880f02fe0a5cd6",
       "bytes": 2548
     },
     {
       "url": "https://cec.gov.lk/web/index.php?lang=si",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-05-6440dd815b91.html",
-      "sha256": "6440dd815b91c96f9c17a3c6bd6d4b9cfcee15cd184773b82d5cd478bbbeb0b2",
-      "bytes": 40891
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-05-250545bc2a3a.html",
+      "sha256": "250545bc2a3a05188e1e9db32c09861d2c7719972e78855d5265b5cb6e93c4dd",
+      "bytes": 40889
     },
     {
       "url": "https://cec.gov.lk/web/index.php?lang=ta",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-06-f56777e2b9da.html",
-      "sha256": "f56777e2b9dadee39f54797d8fb6e09dedb0ed782007d6333966f951f0458cc6",
-      "bytes": 41832
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-06-b5a3c0c5d74a.html",
+      "sha256": "b5a3c0c5d74a3e3ee0a3255f4f4c198d59c021768f0362d119d4561dd3fc24ec",
+      "bytes": 41830
     },
     {
       "url": "https://cec.gov.lk/web/index.php?lang=en",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-07-93ede02d42ae.html",
-      "sha256": "93ede02d42aebb4a1fd38b584bf45308cc6a49ee75584305879d0189c197ddb2",
-      "bytes": 37814
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-07-edb1eb82be97.html",
+      "sha256": "edb1eb82be971623bf8768f31fd37d7a43907a91f15b08b86059b4deb59937c5",
+      "bytes": 37812
     },
     {
       "url": "https://cec.gov.lk/web/index.php?lang=si",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-08-2a121cf18b01.html",
-      "sha256": "2a121cf18b018f59c79ba4b6fe0ccdcf051ba15299df91fbe376cd03f7180bee",
-      "bytes": 40891
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-08-ac0752014c68.html",
+      "sha256": "ac0752014c683dad56c2f82b37d80d5dcef1cc1993f37b4e90a49beca47fa1a6",
+      "bytes": 40889
     },
     {
       "url": "https://cec.gov.lk/web/index.php?lang=ta",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-09-9a4f37dca56d.html",
-      "sha256": "9a4f37dca56d405535f9d2feccdc3c6b7e2ba3f201df6823cdf1708f7ffa2026",
-      "bytes": 41832
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-09-fcae346d2af2.html",
+      "sha256": "fcae346d2af2274be422a77cd861e7aba3545dbfb97d0bac5ab88bb11ea05a65",
+      "bytes": 41830
     },
     {
       "url": "https://cec.gov.lk/web/index.php?lang=en",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-10-4c047ef96263.html",
-      "sha256": "4c047ef96263290d81f9083a87b125eb63465d85f7f34af30cfee2c0b063a804",
-      "bytes": 37814
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-10-828700c4ffb3.html",
+      "sha256": "828700c4ffb3bb3f4ea599589fc78f220cf8800c38368c1cf563557e7b471bff",
+      "bytes": 37812
     },
     {
       "url": "https://cec.gov.lk/web/index.php?lang=en",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-11-c238a3a7754d.html",
-      "sha256": "c238a3a7754dab8d00c30c65c799e064097dbab2c98471d1a3208798eff53959",
-      "bytes": 37814
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-11-557d0e5499df.html",
+      "sha256": "557d0e5499df13a873be707107953a4edc8b7642e16c6907c5f6202f9fc5388f",
+      "bytes": 37813
     },
     {
       "url": "https://cec.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-12-1c997d3224d3.html",
-      "sha256": "1c997d3224d3ec3b61c8f82da935e043254d5ecbf9308281eb8931cd1be1c3bc",
-      "bytes": 41165
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-12-ede3ba4ecb16.html",
+      "sha256": "ede3ba4ecb1611eadfd86ddf96b71797d95b64716d4a14c4fd0a27aa665f6d1c",
+      "bytes": 41164
     },
     {
       "url": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=56&Itemid=219&lang=si",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-13-2bce3812305d.html",
-      "sha256": "2bce3812305dd9d3eda592c3bde5310c0056fcdbf618df124a073fecbbcd378f",
-      "bytes": 40608
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-13-ec67d072ed06.html",
+      "sha256": "ec67d072ed06bdcabd0f0cbddfedc4ab832a8578502434bea50c132df7044277",
+      "bytes": 40607
     },
     {
       "url": "https://cec.gov.lk/web/index.php?option=com_content&view=article&id=57&Itemid=220&lang=si",
-      "path": "audit.output/cec.gov.lk/20260926.0652/snapshots/page-14-80d66e5d64ff.html",
-      "sha256": "80d66e5d64ffef594d6a7e777d085a6d0d558fc29bc2dff12d409932e5976daf",
-      "bytes": 36239
+      "path": "audit.output/cec.gov.lk/20260927.0653/snapshots/page-14-90a949facfcb.html",
+      "sha256": "90a949facfcbfe8a3ecf599327140eb0cfc2b9d0df6b3390fcd66a626d0fde8a",
+      "bytes": 36238
     }
   ],
   "reviewer_decisions": [],
@@ -925,7 +997,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 11 2396208 (6 phone numbers found); Email: cec.gov1@gmail.com"
+          "reason": "Phone: +94 11 2396208 (14 phone numbers found); Email: cec.gov1@gmail.com"
         },
         {
           "name": "named_responsibility",
@@ -961,7 +1033,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

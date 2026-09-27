@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "8756b56e-cd66-4f16-ac43-906646a8b059",
+  "audit_id": "9be9016a-9b53-4b22-b3a6-7a656d8b799b",
   "url": "https://hc-ottawa.gov.lk",
   "normalized_url": "https://hc-ottawa.gov.lk/",
-  "started_at": "2026-09-26T06:33:35.657469+05:30",
-  "completed_at": "2026-09-26T06:34:15.574705+05:30",
+  "started_at": "2026-09-27T06:38:37.375339+05:30",
+  "completed_at": "2026-09-27T06:39:17.340513+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,125 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:33:36.021424+05:30"
+      "observed_at": "2026-09-27T06:38:37.787965+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:33:36.021442+05:30"
+      "observed_at": "2026-09-27T06:38:37.787984+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:33:36.662179+05:30"
+      "observed_at": "2026-09-27T06:38:38.532617+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.hc-ottawa.gov.lk/en",
       "source": "https://hc-ottawa.gov.lk/",
-      "observed_at": "2026-09-26T06:34:14.252457+05:30"
+      "observed_at": "2026-09-27T06:39:15.679596+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.hc-ottawa.gov.lk/en",
       "source": "http://hc-ottawa.gov.lk/",
-      "observed_at": "2026-09-26T06:34:14.252475+05:30"
+      "observed_at": "2026-09-27T06:39:15.679613+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.hc-ottawa.gov.lk/en",
       "source": "https://hc-ottawa.gov.lk/",
-      "observed_at": "2026-09-26T06:34:14.252479+05:30"
+      "observed_at": "2026-09-27T06:39:15.679618+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.hc-ottawa.gov.lk/en",
       "source": "http://hc-ottawa.gov.lk/",
-      "observed_at": "2026-09-26T06:34:14.252481+05:30"
+      "observed_at": "2026-09-27T06:39:15.679621+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.hc-ottawa.gov.lk/en/contact",
       "source": "https://www.hc-ottawa.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:34:14.252484+05:30"
+      "observed_at": "2026-09-27T06:39:15.679624+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.hc-ottawa.gov.lk/en/visa-application-service",
       "source": "https://hc-ottawa.gov.lk/en/visa-application-service",
-      "observed_at": "2026-09-26T06:34:14.252486+05:30"
+      "observed_at": "2026-09-27T06:39:15.679627+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.hc-ottawa.gov.lk/en/passport-application-service",
       "source": "https://hc-ottawa.gov.lk/en/passport-application-service",
-      "observed_at": "2026-09-26T06:34:14.252488+05:30"
+      "observed_at": "2026-09-27T06:39:15.679629+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.hc-ottawa.gov.lk/en/other-services",
       "source": "https://hc-ottawa.gov.lk/en/other-services",
-      "observed_at": "2026-09-26T06:34:14.252491+05:30"
+      "observed_at": "2026-09-27T06:39:15.679632+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.hc-ottawa.gov.lk/en/canada-relations",
       "source": "https://www.hc-ottawa.gov.lk/en/canada-relations",
-      "observed_at": "2026-09-26T06:34:14.252493+05:30"
+      "observed_at": "2026-09-27T06:39:15.679635+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.hc-ottawa.gov.lk/en/visit-srilanka",
       "source": "https://www.hc-ottawa.gov.lk/en/visit-srilanka",
-      "observed_at": "2026-09-26T06:34:14.252495+05:30"
+      "observed_at": "2026-09-27T06:39:15.679638+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.hc-ottawa.gov.lk/en/downloads",
       "source": "https://www.hc-ottawa.gov.lk/en/downloads",
-      "observed_at": "2026-09-26T06:34:14.252497+05:30"
+      "observed_at": "2026-09-27T06:39:15.679640+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.hc-ottawa.gov.lk/en/appointment",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:34:14.252499+05:30"
+      "observed_at": "2026-09-27T06:39:15.679643+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e530fd5474bf919d55302",
       "source": "https://hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e530fd5474bf919d55302",
-      "observed_at": "2026-09-26T06:34:14.252501+05:30"
+      "observed_at": "2026-09-27T06:39:15.679646+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e528998968874584ba0b7",
       "source": "https://hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e528998968874584ba0b7",
-      "observed_at": "2026-09-26T06:34:14.252503+05:30"
+      "observed_at": "2026-09-27T06:39:15.679648+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049638801",
+      "detail": "Published phone: 0049682306",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049638801"
+        "value": "0049682306"
       }
     },
     {
@@ -159,100 +159,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0003610802",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0003610802"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +1 613 233 8449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+1 613 233 8449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049746898",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049746898"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +16132337821",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
         "value": "+16132337821"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049583182",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049583182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05-28707707",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "05-28707707"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0989688745",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0989688745"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00.54967435",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "00.54967435"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0874-3311-41",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0874-3311-41"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03764-6253-4",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "03764-6253-4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +16132338449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+16132338449"
       }
     },
     {
@@ -276,6 +186,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 05-28707707",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "05-28707707"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0049539620",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
@@ -285,10 +204,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049682306",
+      "detail": "Published phone: 0003610802",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049682306"
+        "value": "0003610802"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049746898",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049746898"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0874-3311-41",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0874-3311-41"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0989688745",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0989688745"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +1 613 233 8449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+1 613 233 8449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03764-6253-4",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "03764-6253-4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049638801",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049638801"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00.54967435",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "00.54967435"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +16132338449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+16132338449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049583182",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049583182"
       }
     },
     {
@@ -312,19 +312,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhc.ottawa@mfa.gov.lk"
+        "value": "slhcit@rogers.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "slhc.ottawa@mfa.gov.lk"
       }
     },
     {
@@ -375,10 +375,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049638801",
+      "detail": "Published phone: 0049682306",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049638801"
+        "value": "0049682306"
       }
     },
     {
@@ -393,100 +393,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0003610802",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0003610802"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +1 613 233 8449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+1 613 233 8449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049746898",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049746898"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +16132337821",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
         "value": "+16132337821"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049583182",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049583182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05-28707707",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "05-28707707"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0989688745",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0989688745"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00.54967435",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "00.54967435"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0874-3311-41",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0874-3311-41"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03764-6253-4",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "03764-6253-4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +16132338449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+16132338449"
       }
     },
     {
@@ -510,6 +420,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 05-28707707",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "05-28707707"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0049539620",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
@@ -519,10 +438,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049682306",
+      "detail": "Published phone: 0003610802",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049682306"
+        "value": "0003610802"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049746898",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049746898"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0874-3311-41",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0874-3311-41"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0989688745",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0989688745"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +1 613 233 8449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+1 613 233 8449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03764-6253-4",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "03764-6253-4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049638801",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049638801"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00.54967435",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "00.54967435"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +16132338449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+16132338449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049583182",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049583182"
       }
     },
     {
@@ -546,19 +546,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhc.ottawa@mfa.gov.lk"
+        "value": "slhcit@rogers.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "slhc.ottawa@mfa.gov.lk"
       }
     },
     {
@@ -609,10 +609,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049638801",
+      "detail": "Published phone: 0049682306",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049638801"
+        "value": "0049682306"
       }
     },
     {
@@ -627,100 +627,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0003610802",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0003610802"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +1 613 233 8449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+1 613 233 8449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049746898",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049746898"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +16132337821",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
         "value": "+16132337821"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049583182",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049583182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05-28707707",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "05-28707707"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0989688745",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0989688745"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00.54967435",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "00.54967435"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0874-3311-41",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0874-3311-41"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03764-6253-4",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "03764-6253-4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +16132338449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+16132338449"
       }
     },
     {
@@ -744,6 +654,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 05-28707707",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "05-28707707"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0049539620",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
@@ -753,10 +672,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049682306",
+      "detail": "Published phone: 0003610802",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049682306"
+        "value": "0003610802"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049746898",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049746898"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0874-3311-41",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0874-3311-41"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0989688745",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0989688745"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +1 613 233 8449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+1 613 233 8449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03764-6253-4",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "03764-6253-4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049638801",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049638801"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00.54967435",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "00.54967435"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +16132338449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+16132338449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049583182",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049583182"
       }
     },
     {
@@ -780,19 +780,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhc.ottawa@mfa.gov.lk"
+        "value": "slhcit@rogers.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "slhc.ottawa@mfa.gov.lk"
       }
     },
     {
@@ -843,10 +843,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049638801",
+      "detail": "Published phone: 0049682306",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049638801"
+        "value": "0049682306"
       }
     },
     {
@@ -861,100 +861,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0003610802",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0003610802"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +1 613 233 8449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+1 613 233 8449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049746898",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049746898"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +16132337821",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
         "value": "+16132337821"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0049583182",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0049583182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05-28707707",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "05-28707707"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0989688745",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0989688745"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00.54967435",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "00.54967435"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0874-3311-41",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "0874-3311-41"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03764-6253-4",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "03764-6253-4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +16132338449",
-      "source": "https://www.hc-ottawa.gov.lk/en",
-      "data": {
-        "value": "+16132338449"
       }
     },
     {
@@ -978,6 +888,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 05-28707707",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "05-28707707"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0049539620",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
@@ -987,10 +906,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0049682306",
+      "detail": "Published phone: 0003610802",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "0049682306"
+        "value": "0003610802"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049746898",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049746898"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0874-3311-41",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0874-3311-41"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0989688745",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0989688745"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +1 613 233 8449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+1 613 233 8449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03764-6253-4",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "03764-6253-4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049638801",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049638801"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00.54967435",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "00.54967435"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +16132338449",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "+16132338449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0049583182",
+      "source": "https://www.hc-ottawa.gov.lk/en",
+      "data": {
+        "value": "0049583182"
       }
     },
     {
@@ -1014,19 +1014,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhc.ottawa@mfa.gov.lk"
+        "value": "slhcit@rogers.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: slhc.ottawa@mfa.gov.lk",
       "source": "https://www.hc-ottawa.gov.lk/en",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "slhc.ottawa@mfa.gov.lk"
       }
     },
     {
@@ -1077,15 +1077,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +1 613 233 8449",
-      "source": "https://www.hc-ottawa.gov.lk/en/contact",
-      "data": {
-        "value": "+1 613 233 8449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 00.54967435",
       "source": "https://www.hc-ottawa.gov.lk/en/contact",
       "data": {
@@ -1093,12 +1084,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published phone: +1 613 233 8449",
       "source": "https://www.hc-ottawa.gov.lk/en/contact",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "+1 613 233 8449"
       }
     },
     {
@@ -1108,6 +1099,15 @@
       "source": "https://www.hc-ottawa.gov.lk/en/contact",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhcit@rogers.com",
+      "source": "https://www.hc-ottawa.gov.lk/en/contact",
+      "data": {
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1149,19 +1149,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-ottawa.gov.lk/en/visa-application-service",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en/visa-application-service",
       "data": {
-        "value": "john@example.com"
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1189,15 +1189,6 @@
       "source": "https://www.hc-ottawa.gov.lk/en/visa-application-service",
       "data": {
         "value": "rs,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +1 613 233 8449",
-      "source": "https://www.hc-ottawa.gov.lk/en/passport-application-service",
-      "data": {
-        "value": "+1 613 233 8449"
       }
     },
     {
@@ -1210,12 +1201,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published phone: +1 613 233 8449",
       "source": "https://www.hc-ottawa.gov.lk/en/passport-application-service",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "+1 613 233 8449"
       }
     },
     {
@@ -1225,6 +1216,15 @@
       "source": "https://www.hc-ottawa.gov.lk/en/passport-application-service",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhcit@rogers.com",
+      "source": "https://www.hc-ottawa.gov.lk/en/passport-application-service",
+      "data": {
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1266,19 +1266,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-ottawa.gov.lk/en/other-services",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en/other-services",
       "data": {
-        "value": "john@example.com"
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1320,19 +1320,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-ottawa.gov.lk/en/canada-relations",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en/canada-relations",
       "data": {
-        "value": "john@example.com"
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1383,19 +1383,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-ottawa.gov.lk/en/visit-srilanka",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en/visit-srilanka",
       "data": {
-        "value": "john@example.com"
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1437,19 +1437,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-ottawa.gov.lk/en/downloads",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en/downloads",
       "data": {
-        "value": "john@example.com"
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1491,132 +1491,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112388189",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94112388189"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0406518559",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0406518559"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0464068883",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0464068883"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0384530771",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0384530771"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0570601757",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0570601757"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112388184",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94112388184"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0811249962",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0811249962"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0989688745",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0989688745"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11) 2388619",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94 11) 2388619"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0472820024",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0472820024"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11) 2388195",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94 11) 2388195"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0462865546",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0462865546"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0457038687",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "0457038687"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00-94- 11 23 29 ",
-      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "data": {
-        "value": "00-94- 11 23 29 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94112329773",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
@@ -1626,10 +1500,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00-94 -11 24 33 ",
+      "detail": "Published phone: 0653392655",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
-        "value": "00-94 -11 24 33 "
+        "value": "0653392655"
       }
     },
     {
@@ -1644,10 +1518,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0809852983",
+      "detail": "Published phone: 0811249962",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
-        "value": "0809852983"
+        "value": "0811249962"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00-94 -11 24 33 ",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "00-94 -11 24 33 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570601757",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "0570601757"
       }
     },
     {
@@ -1662,19 +1554,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +1 613 233 8449",
+      "detail": "Published phone: +94 11) 2388195",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
-        "value": "+1 613 233 8449"
+        "value": "+94 11) 2388195"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112388463",
+      "detail": "Published phone: 0457038687",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
-        "value": "+94112388463"
+        "value": "0457038687"
       }
     },
     {
@@ -1689,28 +1581,118 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0653392655",
+      "detail": "Published phone: +1 613 233 8449",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
-        "value": "0653392655"
+        "value": "+1 613 233 8449"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published phone: 0462865546",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "0462865546"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published phone: +94112388463",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "+94112388463"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0406518559",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "0406518559"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00-94- 11 23 29 ",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "00-94- 11 23 29 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112388189",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "+94112388189"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0464068883",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "0464068883"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0989688745",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "0989688745"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0472820024",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "0472820024"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0809852983",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "0809852983"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11) 2388619",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "+94 11) 2388619"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0384530771",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "0384530771"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112388184",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "+94112388184"
       }
     },
     {
@@ -1720,6 +1702,24 @@
       "source": "https://www.hc-ottawa.gov.lk/en/appointment",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhcit@rogers.com",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "slhcit@rogers.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhcit@rogers.com",
+      "source": "https://www.hc-ottawa.gov.lk/en/appointment",
+      "data": {
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1797,19 +1797,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e530fd5474bf919d55302",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e530fd5474bf919d55302",
       "data": {
-        "value": "john@example.com"
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1851,19 +1851,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhcit@rogers.com",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e528998968874584ba0b7",
       "data": {
-        "value": "slhcit@rogers.com"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhcit@rogers.com",
       "source": "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e528998968874584ba0b7",
       "data": {
-        "value": "john@example.com"
+        "value": "slhcit@rogers.com"
       }
     },
     {
@@ -1930,7 +1930,7 @@
         "https://www.hc-ottawa.gov.lk/",
         "https://www.hc-ottawa.gov.lk/en"
       ],
-      "elapsed_ms": 2332,
+      "elapsed_ms": 2026,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1942,7 +1942,7 @@
         "https://www.hc-ottawa.gov.lk/",
         "https://www.hc-ottawa.gov.lk/en"
       ],
-      "elapsed_ms": 1043,
+      "elapsed_ms": 1519,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1954,7 +1954,7 @@
         "https://www.hc-ottawa.gov.lk/",
         "https://www.hc-ottawa.gov.lk/en"
       ],
-      "elapsed_ms": 924,
+      "elapsed_ms": 1185,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1966,7 +1966,7 @@
         "https://www.hc-ottawa.gov.lk/",
         "https://www.hc-ottawa.gov.lk/en"
       ],
-      "elapsed_ms": 2850,
+      "elapsed_ms": 1458,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1975,7 +1975,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-ottawa.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 3753,
+      "elapsed_ms": 1341,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1986,7 +1986,7 @@
       "redirects": [
         "https://www.hc-ottawa.gov.lk/en/visa-application-service"
       ],
-      "elapsed_ms": 1207,
+      "elapsed_ms": 872,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1997,7 +1997,7 @@
       "redirects": [
         "https://www.hc-ottawa.gov.lk/en/passport-application-service"
       ],
-      "elapsed_ms": 922,
+      "elapsed_ms": 924,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2008,7 +2008,7 @@
       "redirects": [
         "https://www.hc-ottawa.gov.lk/en/other-services"
       ],
-      "elapsed_ms": 802,
+      "elapsed_ms": 2110,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2017,7 +2017,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-ottawa.gov.lk/en/canada-relations",
       "redirects": [],
-      "elapsed_ms": 4276,
+      "elapsed_ms": 1751,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2026,7 +2026,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-ottawa.gov.lk/en/visit-srilanka",
       "redirects": [],
-      "elapsed_ms": 1938,
+      "elapsed_ms": 1683,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2035,7 +2035,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-ottawa.gov.lk/en/downloads",
       "redirects": [],
-      "elapsed_ms": 1135,
+      "elapsed_ms": 810,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2044,7 +2044,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-ottawa.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 3239,
+      "elapsed_ms": 3934,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2055,7 +2055,7 @@
       "redirects": [
         "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e530fd5474bf919d55302"
       ],
-      "elapsed_ms": 705,
+      "elapsed_ms": 1950,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2066,7 +2066,7 @@
       "redirects": [
         "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e528998968874584ba0b7"
       ],
-      "elapsed_ms": 853,
+      "elapsed_ms": 852,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2074,86 +2074,86 @@
   "snapshots": [
     {
       "url": "https://www.hc-ottawa.gov.lk/en",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-01-7a2eca882c23.html",
-      "sha256": "7a2eca882c2389a0daac03fcfb43d2a7b43ece28203e39b2014ec494f7cb1f3a",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-01-ee9e4b9009dd.html",
+      "sha256": "ee9e4b9009ddeb41dc85a4238802627a0c2192f215a06b091564964f0604e201",
       "bytes": 367706
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-02-81de039d0644.html",
-      "sha256": "81de039d064459c1c7c74cf7637142dd03a60d1d72649e788ca76e036d075b40",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-02-e4c7e236bd0c.html",
+      "sha256": "e4c7e236bd0c82d7122412cc49e4f57a74742336093198a788bd61b979053757",
       "bytes": 367706
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-03-d12660467011.html",
-      "sha256": "d1266046701114174d240c766b4aadd5caf16e46c16d2d87790c61c32329e94a",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-03-c5493efbc395.html",
+      "sha256": "c5493efbc395b16380e9406f1128f9841491c294f3f7e1f838a0de2933ba7a9f",
       "bytes": 367706
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-04-d939a12bc041.html",
-      "sha256": "d939a12bc041eee40a518df830e5a95ba954adae131d25733a13583c360078d3",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-04-488363a735bd.html",
+      "sha256": "488363a735bde2738f42c910dc1768f1c6cb4473a1afdee2ce4aef232adf724e",
       "bytes": 367706
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/contact",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-05-a6b79d1e1ad7.html",
-      "sha256": "a6b79d1e1ad7ee2f025963fd3c3fc77a2f661160066fc3828d7d0b54fa3abec0",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-05-bdc77cb09eef.html",
+      "sha256": "bdc77cb09eeff15f4e7fceb99d18de870f12adccefb14b8164c2dd56ac94edb5",
       "bytes": 106926
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/visa-application-service",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-06-526e4f2eeeb5.html",
-      "sha256": "526e4f2eeeb51cc7f265e9c94a993d2af0105d503a4a7e993e756ce807333dc4",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-06-ec0d03c9586e.html",
+      "sha256": "ec0d03c9586e90de3329e2fac23f8fb2267c75ef515b978cf08254a4459fb6a1",
       "bytes": 101019
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/passport-application-service",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-07-219834cb77c0.html",
-      "sha256": "219834cb77c00145a70f6606c96e16c97680a3b30c0cc68602cf7d77e968111d",
-      "bytes": 99069
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-07-6f290ba7c166.html",
+      "sha256": "6f290ba7c1663c04c591e4a0c613bebb11d6b7c02af4d342cdbb2fffc2ec75bd",
+      "bytes": 98969
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/other-services",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-08-677de72595e4.html",
-      "sha256": "677de72595e4a4ba0470af8d254c489077f1b14f214d2290928ca43cb05364d5",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-08-e3a4151c05c3.html",
+      "sha256": "e3a4151c05c3398d62474e2d957660ceae95dac0a70a9970a264bd03a15c41b8",
       "bytes": 99959
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/canada-relations",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-09-8850d1a70461.html",
-      "sha256": "8850d1a704616e4dfcc4deef1728a151ab0f1ad5a37db91c0e43d160acd0524a",
-      "bytes": 103884
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-09-1ed0abf42c9f.html",
+      "sha256": "1ed0abf42c9f703adf199c7736cde5c259bdc538296a3ca4c38090e9eb8a502f",
+      "bytes": 103984
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/visit-srilanka",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-10-bda908759d27.html",
-      "sha256": "bda908759d27ed79cbe4fbb8e790d18b3e46f6eaebf3fe6b1f954a0acdeca9b3",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-10-e6f67d66e546.html",
+      "sha256": "e6f67d66e5464ae89c6481cdf2bd84283823e3f7f40769399fcfc874dbcb95be",
       "bytes": 181150
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/downloads",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-11-f7cd0ae5194c.html",
-      "sha256": "f7cd0ae5194cc9075352c5f4ee6a0bb47415dc868e5ccdacaf0e80832841b40c",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-11-54331bf857b3.html",
+      "sha256": "54331bf857b334d1ad2fb2888a5c720d8d59ad9d2f83909dc906221efa490fe2",
       "bytes": 123554
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/appointment",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-12-d3f414649ed5.html",
-      "sha256": "d3f414649ed51ca0e45ead4e79d33daff9766d8cb341f43e98cad80711e28332",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-12-708e86826e18.html",
+      "sha256": "708e86826e18e2cd5c0e4a6985b224e9e8fef074eb4f0ebcdd2cf9546db9a233",
       "bytes": 589730
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e530fd5474bf919d55302",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-13-353e3cf3342e.html",
-      "sha256": "353e3cf3342e1e860e4c6f561a9ed47874c3c5d42466411441361e0a638023d7",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-13-61e9d45904dc.html",
+      "sha256": "61e9d45904dcc405fb2e51ba345f92ad282031b131ddee551d162dcc7b00f813",
       "bytes": 97809
     },
     {
       "url": "https://www.hc-ottawa.gov.lk/en/appointment?page=2&serviceId=6a1e528998968874584ba0b7",
-      "path": "audit.output/hc-ottawa.gov.lk/20260926.0633/snapshots/page-14-680569bc079a.html",
-      "sha256": "680569bc079ac9166fe260f7b78af62202963c467fdaee5c7ee82c72777d66d1",
+      "path": "audit.output/hc-ottawa.gov.lk/20260927.0638/snapshots/page-14-bb674065f107.html",
+      "sha256": "bb674065f1077f3bdaeb7f5b025460f97020f66bcab97b262950bbc0c09f7f84",
       "bytes": 97809
     }
   ],
@@ -2240,7 +2240,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: 333, Laurier Avenue West, Suite 1204, Ottawa, Ontario. K1P 1C1. Google Map Tel: 613 233 8449 , 613 2337821 Fax : 613 238; Phone: 0049638801 (39 phone numbers found); Email: slhcit@rogers.com (3 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: 333, Laurier Avenue West, Suite 1204, Ottawa, Ontario. K1P 1C1. Google Map Tel: 613 233 8449 , 613 2337821 Fax : 613 238; Phone: 0049682306 (39 phone numbers found); Email: slhcit@rogers.com (3 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2253,7 +2253,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0049638801 (39 phone numbers found); Email: slhcit@rogers.com (3 email addresses found)"
+          "reason": "Phone: 0049682306 (39 phone numbers found); Email: slhcit@rogers.com (3 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2332,7 +2332,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

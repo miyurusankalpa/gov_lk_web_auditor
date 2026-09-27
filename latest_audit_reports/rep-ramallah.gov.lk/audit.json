@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "5762e348-db0b-44d9-9074-a193bd49c05a",
+  "audit_id": "6a8d3f2d-3c18-481d-a754-0f0c8eafab71",
   "url": "https://rep-ramallah.gov.lk",
   "normalized_url": "https://rep-ramallah.gov.lk/",
-  "started_at": "2026-09-26T06:35:08.245530+05:30",
-  "completed_at": "2026-09-26T06:35:41.592335+05:30",
+  "started_at": "2026-09-27T06:39:59.598839+05:30",
+  "completed_at": "2026-09-27T06:40:37.837647+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,143 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:35:09.454484+05:30"
+      "observed_at": "2026-09-27T06:40:00.010233+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:35:09.454500+05:30"
+      "observed_at": "2026-09-27T06:40:00.010251+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:35:10.214035+05:30"
+      "observed_at": "2026-09-27T06:40:00.718622+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.rep-ramallah.gov.lk/en",
       "source": "https://rep-ramallah.gov.lk/",
-      "observed_at": "2026-09-26T06:35:40.523374+05:30"
+      "observed_at": "2026-09-27T06:40:35.355032+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.rep-ramallah.gov.lk/en",
       "source": "http://rep-ramallah.gov.lk/",
-      "observed_at": "2026-09-26T06:35:40.523391+05:30"
+      "observed_at": "2026-09-27T06:40:35.355048+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.rep-ramallah.gov.lk/en",
       "source": "https://rep-ramallah.gov.lk/",
-      "observed_at": "2026-09-26T06:35:40.523394+05:30"
+      "observed_at": "2026-09-27T06:40:35.355052+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.rep-ramallah.gov.lk/en",
       "source": "http://rep-ramallah.gov.lk/",
-      "observed_at": "2026-09-26T06:35:40.523397+05:30"
+      "observed_at": "2026-09-27T06:40:35.355056+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.rep-ramallah.gov.lk/en/representative-office-staff",
       "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
-      "observed_at": "2026-09-26T06:35:40.523399+05:30"
+      "observed_at": "2026-09-27T06:40:35.355059+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.rep-ramallah.gov.lk/en/contact",
       "source": "https://www.rep-ramallah.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:35:40.523402+05:30"
+      "observed_at": "2026-09-27T06:40:35.355062+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.rep-ramallah.gov.lk/en/about",
       "source": "https://www.rep-ramallah.gov.lk/en/about",
-      "observed_at": "2026-09-26T06:35:40.523404+05:30"
+      "observed_at": "2026-09-27T06:40:35.355065+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.rep-ramallah.gov.lk/en/mission",
       "source": "https://www.rep-ramallah.gov.lk/en/mission",
-      "observed_at": "2026-09-26T06:35:40.523406+05:30"
+      "observed_at": "2026-09-27T06:40:35.355067+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.rep-ramallah.gov.lk/en/vision",
       "source": "https://www.rep-ramallah.gov.lk/en/vision",
-      "observed_at": "2026-09-26T06:35:40.523409+05:30"
+      "observed_at": "2026-09-27T06:40:35.355070+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.rep-ramallah.gov.lk/en/history",
       "source": "https://www.rep-ramallah.gov.lk/en/history",
-      "observed_at": "2026-09-26T06:35:40.523411+05:30"
+      "observed_at": "2026-09-27T06:40:35.355073+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
       "source": "https://rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
-      "observed_at": "2026-09-26T06:35:40.523413+05:30"
+      "observed_at": "2026-09-27T06:40:35.355076+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
       "source": "https://rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
-      "observed_at": "2026-09-26T06:35:40.523416+05:30"
+      "observed_at": "2026-09-27T06:40:35.355079+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.rep-ramallah.gov.lk/en/allPosts?category=News",
       "source": "https://www.rep-ramallah.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:35:40.523418+05:30"
+      "observed_at": "2026-09-27T06:40:35.355081+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.rep-ramallah.gov.lk/en/posts/6a840e23c53da0f59bcd538e",
       "source": "https://www.rep-ramallah.gov.lk/posts/6a840e23c53da0f59bcd538e",
-      "observed_at": "2026-09-26T06:35:40.523420+05:30"
+      "observed_at": "2026-09-27T06:40:35.355084+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +97222904271",
+      "detail": "Published phone: 0097222902",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "+97222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00972-2-2902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "00972-2-2902"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222904",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222904"
+        "value": "0097222902"
       }
     },
     {
@@ -177,6 +159,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00972-2-2902",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "00972-2-2902"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00972-2-2904",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
@@ -186,19 +177,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0097222904271",
+      "detail": "Published phone: +97222904271",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "0097222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222902"
+        "value": "+97222904271"
       }
     },
     {
@@ -211,30 +193,48 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904271",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904271"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -267,28 +267,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +97222904271",
+      "detail": "Published phone: 0097222902",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "+97222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00972-2-2902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "00972-2-2902"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222904",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222904"
+        "value": "0097222902"
       }
     },
     {
@@ -303,6 +285,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00972-2-2902",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "00972-2-2902"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00972-2-2904",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
@@ -312,19 +303,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0097222904271",
+      "detail": "Published phone: +97222904271",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "0097222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222902"
+        "value": "+97222904271"
       }
     },
     {
@@ -337,30 +319,48 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904271",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904271"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -393,28 +393,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +97222904271",
+      "detail": "Published phone: 0097222902",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "+97222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00972-2-2902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "00972-2-2902"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222904",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222904"
+        "value": "0097222902"
       }
     },
     {
@@ -429,6 +411,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00972-2-2902",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "00972-2-2902"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00972-2-2904",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
@@ -438,19 +429,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0097222904271",
+      "detail": "Published phone: +97222904271",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "0097222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222902"
+        "value": "+97222904271"
       }
     },
     {
@@ -463,30 +445,48 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904271",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904271"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -519,28 +519,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +97222904271",
+      "detail": "Published phone: 0097222902",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "+97222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00972-2-2902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "00972-2-2902"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222904",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222904"
+        "value": "0097222902"
       }
     },
     {
@@ -555,6 +537,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00972-2-2902",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "00972-2-2902"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00972-2-2904",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
@@ -564,19 +555,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0097222904271",
+      "detail": "Published phone: +97222904271",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
-        "value": "0097222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0097222902",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "0097222902"
+        "value": "+97222904271"
       }
     },
     {
@@ -589,30 +571,48 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0097222904271",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "0097222904271"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -640,6 +640,24 @@
       "source": "https://www.rep-ramallah.gov.lk/en",
       "data": {
         "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +97022904271",
+      "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
+      "data": {
+        "value": "+97022904271"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +97222904271",
+      "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
+      "data": {
+        "value": "+97222904271"
       }
     },
     {
@@ -654,15 +672,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +97222904271",
-      "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
-      "data": {
-        "value": "+97222904271"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 00972-2-2902",
       "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
       "data": {
@@ -670,12 +679,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +97022904271",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
       "data": {
-        "value": "+97022904271"
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -685,24 +703,6 @@
       "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -726,19 +726,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/contact",
       "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -762,19 +762,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/about",
       "data": {
-        "value": "john@example.com"
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/about",
       "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -798,19 +798,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/mission",
       "data": {
-        "value": "john@example.com"
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/mission",
       "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -834,19 +834,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/vision",
       "data": {
-        "value": "john@example.com"
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/vision",
       "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -870,19 +870,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/history",
       "data": {
-        "value": "john@example.com"
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/history",
       "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -915,28 +915,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -1014,28 +1014,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
+      "data": {
+        "value": "slrep.palestine@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
-      "source": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
-      "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
@@ -1104,19 +1104,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "john@example.com"
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1147,6 +1147,15 @@
       }
     },
     {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 2026-08-05",
+      "source": "https://www.rep-ramallah.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "2026-08-05"
+      }
+    },
+    {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +97222904271",
@@ -1158,19 +1167,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slrep.palestine@mfa.gov.lk",
       "source": "https://www.rep-ramallah.gov.lk/en/posts/6a840e23c53da0f59bcd538e",
       "data": {
-        "value": "john@example.com"
+        "value": "slrep.palestine@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slrep.palestine@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.rep-ramallah.gov.lk/en/posts/6a840e23c53da0f59bcd538e",
       "data": {
-        "value": "slrep.palestine@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1219,7 +1228,7 @@
         "https://www.rep-ramallah.gov.lk/",
         "https://www.rep-ramallah.gov.lk/en"
       ],
-      "elapsed_ms": 4274,
+      "elapsed_ms": 2819,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1231,7 +1240,7 @@
         "https://www.rep-ramallah.gov.lk/",
         "https://www.rep-ramallah.gov.lk/en"
       ],
-      "elapsed_ms": 1076,
+      "elapsed_ms": 2799,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1243,7 +1252,7 @@
         "https://www.rep-ramallah.gov.lk/",
         "https://www.rep-ramallah.gov.lk/en"
       ],
-      "elapsed_ms": 900,
+      "elapsed_ms": 1008,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1255,7 +1264,7 @@
         "https://www.rep-ramallah.gov.lk/",
         "https://www.rep-ramallah.gov.lk/en"
       ],
-      "elapsed_ms": 1799,
+      "elapsed_ms": 1434,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1264,7 +1273,7 @@
       "status_code": 200,
       "final_url": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
       "redirects": [],
-      "elapsed_ms": 994,
+      "elapsed_ms": 1195,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1273,7 +1282,7 @@
       "status_code": 200,
       "final_url": "https://www.rep-ramallah.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 706,
+      "elapsed_ms": 1428,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1282,7 +1291,7 @@
       "status_code": 200,
       "final_url": "https://www.rep-ramallah.gov.lk/en/about",
       "redirects": [],
-      "elapsed_ms": 926,
+      "elapsed_ms": 1235,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1291,7 +1300,7 @@
       "status_code": 200,
       "final_url": "https://www.rep-ramallah.gov.lk/en/mission",
       "redirects": [],
-      "elapsed_ms": 1801,
+      "elapsed_ms": 1484,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1300,7 +1309,7 @@
       "status_code": 200,
       "final_url": "https://www.rep-ramallah.gov.lk/en/vision",
       "redirects": [],
-      "elapsed_ms": 737,
+      "elapsed_ms": 1399,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1309,7 +1318,7 @@
       "status_code": 200,
       "final_url": "https://www.rep-ramallah.gov.lk/en/history",
       "redirects": [],
-      "elapsed_ms": 776,
+      "elapsed_ms": 1018,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1320,7 +1329,7 @@
       "redirects": [
         "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731"
       ],
-      "elapsed_ms": 1676,
+      "elapsed_ms": 1850,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1331,7 +1340,7 @@
       "redirects": [
         "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70"
       ],
-      "elapsed_ms": 1432,
+      "elapsed_ms": 2120,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1340,7 +1349,7 @@
       "status_code": 200,
       "final_url": "https://www.rep-ramallah.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 1125,
+      "elapsed_ms": 1029,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1351,7 +1360,7 @@
       "redirects": [
         "https://www.rep-ramallah.gov.lk/en/posts/6a840e23c53da0f59bcd538e"
       ],
-      "elapsed_ms": 812,
+      "elapsed_ms": 1891,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1359,86 +1368,86 @@
   "snapshots": [
     {
       "url": "https://www.rep-ramallah.gov.lk/en",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-01-2bb2de5dddf7.html",
-      "sha256": "2bb2de5dddf77549a04e74a7727090aae9d07771fdb0c5710f896db047db38b1",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-01-0c6504a79ef9.html",
+      "sha256": "0c6504a79ef9b05cbb5e4edf28ab3eab93ceae3a2d9d32528c7f2702fd37e9a6",
       "bytes": 276977
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-02-4c6e313c06e9.html",
-      "sha256": "4c6e313c06e97547b241c49713dcfdb7227ae8db9873503163e798247ae9fd78",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-02-77d684b120dd.html",
+      "sha256": "77d684b120ddb0217646bb1d500d1440e5ac1dabafe3336a8818e6a59985ecd4",
       "bytes": 276977
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-03-2b15a6e2f2b8.html",
-      "sha256": "2b15a6e2f2b8c0af8b8794e4e61f8138451b53966b40b7a3284a2980e1b66756",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-03-a86f8270f390.html",
+      "sha256": "a86f8270f39099b00c9ff5e6cc44a2370e71cd5495a3ddb00cfb33b01ac164d9",
       "bytes": 276977
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-04-d2b577f1c4f0.html",
-      "sha256": "d2b577f1c4f0d192ab14403ae32119aa699b1b70154b495b12029ab64c6f6c13",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-04-8fd3ff81f8d3.html",
+      "sha256": "8fd3ff81f8d310eaad4da0a2ad05e7f2d9370f1c6d67fc791f9e2168cf11ca21",
       "bytes": 276977
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/representative-office-staff",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-05-129cec544567.html",
-      "sha256": "129cec5445671305400a4efb91e9810856d3705f69f762ff3493b4ecae26ed02",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-05-60d4d64ac444.html",
+      "sha256": "60d4d64ac444cf1e715ab1275eab2519040862c32c05ea451da1f30dbc34f5c1",
       "bytes": 80439
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/contact",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-06-3596e0f21911.html",
-      "sha256": "3596e0f2191183d5d3e424a19a536885542a107fc36df2b026ea81d5a87ec2fd",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-06-de53dafa5ea0.html",
+      "sha256": "de53dafa5ea09a205a7750963fc025a855234dc58aedb97e3f80869fa34eb07e",
       "bytes": 85806
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/about",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-07-6602b2049781.html",
-      "sha256": "6602b20497817b9cd788694ff88a4314fa921871a4e6fc0e50406bf1562f48e0",
-      "bytes": 81536
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-07-f0b7d0a39a5f.html",
+      "sha256": "f0b7d0a39a5f7441db3a260b23faf77e86cf12a21498c5cedc6d44c8a7a55a95",
+      "bytes": 81636
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/mission",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-08-b74a6c117be4.html",
-      "sha256": "b74a6c117be4009a3e936f94b9f0e100971e4ae7514097e577658177713f9251",
-      "bytes": 81014
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-08-22b7211a4f94.html",
+      "sha256": "22b7211a4f949d63a7f71c7df7ec972531a73541293d1ce50e6cb7cc840cb481",
+      "bytes": 81114
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/vision",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-09-137f870c7db1.html",
-      "sha256": "137f870c7db1b8c73ee557343d1815a0a6a1f692d595c9eb1d45ffce8ebdfc2d",
-      "bytes": 77386
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-09-3ffd9b4727ad.html",
+      "sha256": "3ffd9b4727adb80bbe0941fac40f580ecd730176caac34978fd6beea97a4836f",
+      "bytes": 77286
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/history",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-10-2ab564477c69.html",
-      "sha256": "2ab564477c69684f6368416c1d7dc6de6c807435a8f3a358615f61cee373fb7d",
-      "bytes": 93466
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-10-bac9e977a804.html",
+      "sha256": "bac9e977a80497c0e36901fcc940b7e953af35d162d3fa0cc9e8d981089680e4",
+      "bytes": 93566
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a83e513c53da0f59bccf731",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-11-55ed14bdf3bd.html",
-      "sha256": "55ed14bdf3bd7cbb9c3c382f7fd790e5a3d72ae9a1eef260db924eeda0f79f2f",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-11-d346a4e84748.html",
+      "sha256": "d346a4e84748942ec6ad2fc75151c53c3da52115188bf6e004cc43496360a269",
       "bytes": 167124
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/appointment?serviceId=6a82db12e2cc9e022edb6d70",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-12-2b6a0c1c8f94.html",
-      "sha256": "2b6a0c1c8f940525a86a0f9b7cd67b1e1017bba3c01efa35c401dba54742f293",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-12-dedf62dbbc2f.html",
+      "sha256": "dedf62dbbc2fea29ebfcd8cc3748a4ae5a2fd580b8f0143178925ccd9fa87901",
       "bytes": 167124
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-13-2ebbf1ce5b64.html",
-      "sha256": "2ebbf1ce5b64d769e574d60f2f091d065bf1773a49c7b8504dfdfbd3354fd287",
-      "bytes": 170025
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-13-24060d30a121.html",
+      "sha256": "24060d30a121d7b5925e0855b6748b59062f2554253a6e248b0ec9c69dd0e92d",
+      "bytes": 171321
     },
     {
       "url": "https://www.rep-ramallah.gov.lk/en/posts/6a840e23c53da0f59bcd538e",
-      "path": "audit.output/rep-ramallah.gov.lk/20260926.0635/snapshots/page-14-244efbf7d7fc.html",
-      "sha256": "244efbf7d7fcf9c71dd9dcf817f944b634b23c2a710b7bb93429b2755e46a2ba",
+      "path": "audit.output/rep-ramallah.gov.lk/20260927.0639/snapshots/page-14-e4da052d2562.html",
+      "sha256": "e4da052d2562ad8277b74bf5a45ccd23902450b0b41781ced6942e418b03336e",
       "bytes": 88088
     }
   ],
@@ -1525,7 +1534,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Villa Azzam Al-Ajjoully H.E. Mahinda Rajapaksa Road, Ain Arik Crossing/ Beitunia Ramallah & Al-Bireh Governorate Palesti; Phone: +97222904271 (10 phone numbers found); Email: john@example.com (2 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: Villa Azzam Al-Ajjoully H.E. Mahinda Rajapaksa Road, Ain Arik Crossing/ Beitunia Ramallah & Al-Bireh Governorate Palesti; Phone: 0097222902 (10 phone numbers found); Email: slrep.palestine@mfa.gov.lk (2 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1538,7 +1547,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +97222904271 (10 phone numbers found); Email: john@example.com (2 email addresses found)"
+          "reason": "Phone: 0097222902 (10 phone numbers found); Email: slrep.palestine@mfa.gov.lk (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1552,7 +1561,7 @@
       "level": 3,
       "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
       "status": "inconclusive",
-      "reason": "No passing legal basis evidence found; No passing downloadable form evidence found; No passing published update date evidence found",
+      "reason": "No passing legal basis evidence found; No passing downloadable form evidence found",
       "executed": true,
       "checks": [
         {
@@ -1594,8 +1603,8 @@
         {
           "name": "published_update_date",
           "level": 3,
-          "status": "inconclusive",
-          "reason": "No passing published update date evidence found"
+          "status": "pass",
+          "reason": "Published published update date: 2026-08-05"
         }
       ]
     },
@@ -1617,7 +1626,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

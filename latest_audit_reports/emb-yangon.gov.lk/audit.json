@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "32d9e96c-7443-4f96-b38f-5c268c263b07",
+  "audit_id": "de906789-cea4-4495-b469-75c571d1d6dc",
   "url": "https://emb-yangon.gov.lk",
   "normalized_url": "https://emb-yangon.gov.lk/",
-  "started_at": "2026-09-26T06:30:45.870644+05:30",
-  "completed_at": "2026-09-26T06:31:31.106508+05:30",
+  "started_at": "2026-09-27T06:36:11.397463+05:30",
+  "completed_at": "2026-09-27T06:36:56.270338+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:30:46.246483+05:30"
+      "observed_at": "2026-09-27T06:36:11.794928+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:30:46.246504+05:30"
+      "observed_at": "2026-09-27T06:36:11.794950+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:30:46.981766+05:30"
+      "observed_at": "2026-09-27T06:36:12.511039+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-yangon.gov.lk/en",
       "source": "https://emb-yangon.gov.lk/",
-      "observed_at": "2026-09-26T06:31:29.630220+05:30"
+      "observed_at": "2026-09-27T06:36:54.370271+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-yangon.gov.lk/en",
       "source": "http://emb-yangon.gov.lk/",
-      "observed_at": "2026-09-26T06:31:29.630240+05:30"
+      "observed_at": "2026-09-27T06:36:54.370284+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-yangon.gov.lk/en",
       "source": "https://emb-yangon.gov.lk/",
-      "observed_at": "2026-09-26T06:31:29.630244+05:30"
+      "observed_at": "2026-09-27T06:36:54.370289+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-yangon.gov.lk/en",
       "source": "http://emb-yangon.gov.lk/",
-      "observed_at": "2026-09-26T06:31:29.630246+05:30"
+      "observed_at": "2026-09-27T06:36:54.370292+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
       "source": "https://emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
-      "observed_at": "2026-09-26T06:31:29.630249+05:30"
+      "observed_at": "2026-09-27T06:36:54.370294+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
       "source": "https://emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
-      "observed_at": "2026-09-26T06:31:29.630251+05:30"
+      "observed_at": "2026-09-27T06:36:54.370297+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
       "source": "https://emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
-      "observed_at": "2026-09-26T06:31:29.630253+05:30"
+      "observed_at": "2026-09-27T06:36:54.370314+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
       "source": "https://emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
-      "observed_at": "2026-09-26T06:31:29.630255+05:30"
+      "observed_at": "2026-09-27T06:36:54.370318+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
       "source": "https://emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
-      "observed_at": "2026-09-26T06:31:29.630267+05:30"
+      "observed_at": "2026-09-27T06:36:54.370321+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
       "source": "https://emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
-      "observed_at": "2026-09-26T06:31:29.630269+05:30"
+      "observed_at": "2026-09-27T06:36:54.370323+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-yangon.gov.lk/en/allPosts?category=News",
       "source": "https://www.emb-yangon.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:31:29.630272+05:30"
+      "observed_at": "2026-09-27T06:36:54.370326+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-yangon.gov.lk/en/posts/6a7b4ba7995494d71a49f423",
       "source": "https://www.emb-yangon.gov.lk/posts/6a7b4ba7995494d71a49f423",
-      "observed_at": "2026-09-26T06:31:29.630274+05:30"
+      "observed_at": "2026-09-27T06:36:54.370329+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2",
       "source": "https://www.emb-yangon.gov.lk/posts/6a7b4ba4995494d71a49f3f2",
-      "observed_at": "2026-09-26T06:31:29.630277+05:30"
+      "observed_at": "2026-09-27T06:36:54.370331+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-yangon.gov.lk/en/posts/6a7b4ba1995494d71a49f39f",
       "source": "https://www.emb-yangon.gov.lk/posts/6a7b4ba1995494d71a49f39f",
-      "observed_at": "2026-09-26T06:31:29.630279+05:30"
+      "observed_at": "2026-09-27T06:36:54.370334+05:30"
     },
     {
       "check": "phone",
@@ -150,19 +150,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9512314325",
+      "detail": "Published phone: 0.579152030",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "+9512314325"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9518222812",
-      "source": "https://www.emb-yangon.gov.lk/en",
-      "data": {
-        "value": "+9518222812"
+        "value": "0.579152030"
       }
     },
     {
@@ -177,10 +168,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.579152030",
+      "detail": "Published phone: +9518222812",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "0.579152030"
+        "value": "+9518222812"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9512314325",
+      "source": "https://www.emb-yangon.gov.lk/en",
+      "data": {
+        "value": "+9512314325"
       }
     },
     {
@@ -258,19 +258,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9512314325",
+      "detail": "Published phone: 0.579152030",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "+9512314325"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9518222812",
-      "source": "https://www.emb-yangon.gov.lk/en",
-      "data": {
-        "value": "+9518222812"
+        "value": "0.579152030"
       }
     },
     {
@@ -285,10 +276,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.579152030",
+      "detail": "Published phone: +9518222812",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "0.579152030"
+        "value": "+9518222812"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9512314325",
+      "source": "https://www.emb-yangon.gov.lk/en",
+      "data": {
+        "value": "+9512314325"
       }
     },
     {
@@ -366,19 +366,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9512314325",
+      "detail": "Published phone: 0.579152030",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "+9512314325"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9518222812",
-      "source": "https://www.emb-yangon.gov.lk/en",
-      "data": {
-        "value": "+9518222812"
+        "value": "0.579152030"
       }
     },
     {
@@ -393,10 +384,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.579152030",
+      "detail": "Published phone: +9518222812",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "0.579152030"
+        "value": "+9518222812"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9512314325",
+      "source": "https://www.emb-yangon.gov.lk/en",
+      "data": {
+        "value": "+9512314325"
       }
     },
     {
@@ -474,19 +474,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9512314325",
+      "detail": "Published phone: 0.579152030",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "+9512314325"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9518222812",
-      "source": "https://www.emb-yangon.gov.lk/en",
-      "data": {
-        "value": "+9518222812"
+        "value": "0.579152030"
       }
     },
     {
@@ -501,10 +492,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.579152030",
+      "detail": "Published phone: +9518222812",
       "source": "https://www.emb-yangon.gov.lk/en",
       "data": {
-        "value": "0.579152030"
+        "value": "+9518222812"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9512314325",
+      "source": "https://www.emb-yangon.gov.lk/en",
+      "data": {
+        "value": "+9512314325"
       }
     },
     {
@@ -573,6 +573,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0046 8 66365",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
+      "data": {
+        "value": "0046 8 66365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00951 23143",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
       "data": {
@@ -582,10 +591,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0095122281",
+      "detail": "Published phone: +94115333365",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
       "data": {
-        "value": "0095122281"
+        "value": "+94115333365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 82228",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
+      "data": {
+        "value": "00951 82228"
       }
     },
     {
@@ -600,10 +618,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115333365",
+      "detail": "Published phone: +94115361952",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
       "data": {
-        "value": "+94115333365"
+        "value": "+94115361952"
       }
     },
     {
@@ -627,15 +645,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00951 82228",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
-      "data": {
-        "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94115339287",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
       "data": {
@@ -645,19 +654,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115361952",
+      "detail": "Published phone: 0095122281",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
       "data": {
-        "value": "+94115361952"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0046 8 66365",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
-      "data": {
-        "value": "0046 8 66365"
+        "value": "0095122281"
       }
     },
     {
@@ -726,6 +726,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0046 8 66365",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
+      "data": {
+        "value": "0046 8 66365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00951 23143",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
       "data": {
@@ -735,10 +744,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0095122281",
+      "detail": "Published phone: +94115333365",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
       "data": {
-        "value": "0095122281"
+        "value": "+94115333365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 82228",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
+      "data": {
+        "value": "00951 82228"
       }
     },
     {
@@ -753,10 +771,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115333365",
+      "detail": "Published phone: +94115361952",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
       "data": {
-        "value": "+94115333365"
+        "value": "+94115361952"
       }
     },
     {
@@ -780,15 +798,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00951 82228",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
-      "data": {
-        "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94115339287",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
       "data": {
@@ -798,19 +807,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115361952",
+      "detail": "Published phone: 0095122281",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
       "data": {
-        "value": "+94115361952"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0046 8 66365",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
-      "data": {
-        "value": "0046 8 66365"
+        "value": "0095122281"
       }
     },
     {
@@ -879,6 +879,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0046 8 66365",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
+      "data": {
+        "value": "0046 8 66365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00951 23143",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
       "data": {
@@ -888,10 +897,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0095122281",
+      "detail": "Published phone: +94115333365",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
       "data": {
-        "value": "0095122281"
+        "value": "+94115333365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 82228",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
+      "data": {
+        "value": "00951 82228"
       }
     },
     {
@@ -906,10 +924,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115333365",
+      "detail": "Published phone: +94115361952",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
       "data": {
-        "value": "+94115333365"
+        "value": "+94115361952"
       }
     },
     {
@@ -933,15 +951,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00951 82228",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
-      "data": {
-        "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94115339287",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
       "data": {
@@ -951,19 +960,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115361952",
+      "detail": "Published phone: 0095122281",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
       "data": {
-        "value": "+94115361952"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0046 8 66365",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
-      "data": {
-        "value": "0046 8 66365"
+        "value": "0095122281"
       }
     },
     {
@@ -1032,6 +1032,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0046 8 66365",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
+      "data": {
+        "value": "0046 8 66365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00951 23143",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
       "data": {
@@ -1041,10 +1050,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0095122281",
+      "detail": "Published phone: +94115333365",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
       "data": {
-        "value": "0095122281"
+        "value": "+94115333365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 82228",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
+      "data": {
+        "value": "00951 82228"
       }
     },
     {
@@ -1059,10 +1077,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115333365",
+      "detail": "Published phone: +94115361952",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
       "data": {
-        "value": "+94115333365"
+        "value": "+94115361952"
       }
     },
     {
@@ -1086,15 +1104,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00951 82228",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
-      "data": {
-        "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94115339287",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
       "data": {
@@ -1104,19 +1113,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115361952",
+      "detail": "Published phone: 0095122281",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
       "data": {
-        "value": "+94115361952"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0046 8 66365",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
-      "data": {
-        "value": "0046 8 66365"
+        "value": "0095122281"
       }
     },
     {
@@ -1185,6 +1185,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0046 8 66365",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
+      "data": {
+        "value": "0046 8 66365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00951 23143",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
       "data": {
@@ -1194,10 +1203,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0095122281",
+      "detail": "Published phone: +94115333365",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
       "data": {
-        "value": "0095122281"
+        "value": "+94115333365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 82228",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
+      "data": {
+        "value": "00951 82228"
       }
     },
     {
@@ -1212,10 +1230,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115333365",
+      "detail": "Published phone: +94115361952",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
       "data": {
-        "value": "+94115333365"
+        "value": "+94115361952"
       }
     },
     {
@@ -1239,15 +1257,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00951 82228",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
-      "data": {
-        "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94115339287",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
       "data": {
@@ -1257,19 +1266,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115361952",
+      "detail": "Published phone: 0095122281",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
       "data": {
-        "value": "+94115361952"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0046 8 66365",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
-      "data": {
-        "value": "0046 8 66365"
+        "value": "0095122281"
       }
     },
     {
@@ -1338,6 +1338,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0046 8 66365",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
+      "data": {
+        "value": "0046 8 66365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00951 23143",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
       "data": {
@@ -1347,10 +1356,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0095122281",
+      "detail": "Published phone: +94115333365",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
       "data": {
-        "value": "0095122281"
+        "value": "+94115333365"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 82228",
+      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
+      "data": {
+        "value": "00951 82228"
       }
     },
     {
@@ -1365,10 +1383,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115333365",
+      "detail": "Published phone: +94115361952",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
       "data": {
-        "value": "+94115333365"
+        "value": "+94115361952"
       }
     },
     {
@@ -1392,15 +1410,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00951 82228",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
-      "data": {
-        "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94115339287",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
       "data": {
@@ -1410,19 +1419,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94115361952",
+      "detail": "Published phone: 0095122281",
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
       "data": {
-        "value": "+94115361952"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0046 8 66365",
-      "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
-      "data": {
-        "value": "0046 8 66365"
+        "value": "0095122281"
       }
     },
     {
@@ -1486,6 +1486,15 @@
       "source": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
       "data": {
         "value": "24 hours"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 23143",
+      "source": "https://www.emb-yangon.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "00951 23143"
       }
     },
     {
@@ -1504,15 +1513,6 @@
       "source": "https://www.emb-yangon.gov.lk/en/allPosts?category=News",
       "data": {
         "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00951 23143",
-      "source": "https://www.emb-yangon.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "00951 23143"
       }
     },
     {
@@ -1572,6 +1572,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00951 23143",
+      "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba7995494d71a49f423",
+      "data": {
+        "value": "00951 23143"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +9518222812",
       "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba7995494d71a49f423",
       "data": {
@@ -1585,15 +1594,6 @@
       "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba7995494d71a49f423",
       "data": {
         "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00951 23143",
-      "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba7995494d71a49f423",
-      "data": {
-        "value": "00951 23143"
       }
     },
     {
@@ -1635,6 +1635,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00951 23143",
+      "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2",
+      "data": {
+        "value": "00951 23143"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +9518222812",
       "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2",
       "data": {
@@ -1648,15 +1657,6 @@
       "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2",
       "data": {
         "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00951 23143",
-      "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2",
-      "data": {
-        "value": "00951 23143"
       }
     },
     {
@@ -1693,6 +1693,15 @@
       "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2",
       "data": {
         "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00951 23143",
+      "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba1995494d71a49f39f",
+      "data": {
+        "value": "00951 23143"
       }
     },
     {
@@ -1711,15 +1720,6 @@
       "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba1995494d71a49f39f",
       "data": {
         "value": "00951 82228"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00951 23143",
-      "source": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba1995494d71a49f39f",
-      "data": {
-        "value": "00951 23143"
       }
     },
     {
@@ -1804,7 +1804,7 @@
         "https://www.emb-yangon.gov.lk/",
         "https://www.emb-yangon.gov.lk/en"
       ],
-      "elapsed_ms": 1403,
+      "elapsed_ms": 2484,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1816,7 +1816,7 @@
         "https://www.emb-yangon.gov.lk/",
         "https://www.emb-yangon.gov.lk/en"
       ],
-      "elapsed_ms": 1787,
+      "elapsed_ms": 784,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1828,7 +1828,7 @@
         "https://www.emb-yangon.gov.lk/",
         "https://www.emb-yangon.gov.lk/en"
       ],
-      "elapsed_ms": 919,
+      "elapsed_ms": 2732,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1840,7 +1840,7 @@
         "https://www.emb-yangon.gov.lk/",
         "https://www.emb-yangon.gov.lk/en"
       ],
-      "elapsed_ms": 1273,
+      "elapsed_ms": 1657,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1851,7 +1851,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254"
       ],
-      "elapsed_ms": 1772,
+      "elapsed_ms": 1535,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1862,7 +1862,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a"
       ],
-      "elapsed_ms": 2083,
+      "elapsed_ms": 2268,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1873,7 +1873,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd"
       ],
-      "elapsed_ms": 1441,
+      "elapsed_ms": 2257,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1884,7 +1884,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73"
       ],
-      "elapsed_ms": 2321,
+      "elapsed_ms": 1539,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1895,7 +1895,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51"
       ],
-      "elapsed_ms": 1829,
+      "elapsed_ms": 2157,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1906,7 +1906,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e"
       ],
-      "elapsed_ms": 1451,
+      "elapsed_ms": 1728,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1915,7 +1915,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-yangon.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 1064,
+      "elapsed_ms": 1095,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1926,7 +1926,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba7995494d71a49f423"
       ],
-      "elapsed_ms": 882,
+      "elapsed_ms": 867,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1937,7 +1937,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2"
       ],
-      "elapsed_ms": 2054,
+      "elapsed_ms": 1335,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1948,7 +1948,7 @@
       "redirects": [
         "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba1995494d71a49f39f"
       ],
-      "elapsed_ms": 7038,
+      "elapsed_ms": 1259,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1956,86 +1956,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-yangon.gov.lk/en",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-01-32b562a97865.html",
-      "sha256": "32b562a97865025bfacf6cb999d06324c8224149991767c0928bda7fd75371b6",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-01-52dd1b496342.html",
+      "sha256": "52dd1b49634266075b18720e349f27382cc900fe65c47424a30fc64d01c5a85d",
       "bytes": 330226
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-02-0d9479432a28.html",
-      "sha256": "0d9479432a28a5a09cd4b174636ddfe1a778d66fc30f7f9f7fef1be6af29466a",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-02-59e7fd1dc904.html",
+      "sha256": "59e7fd1dc904254cadc0c5568a0c73b993b12ebfdaa9822bf6ad43104633e9be",
       "bytes": 330226
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-03-b0a379976096.html",
-      "sha256": "b0a3799760963a9e8cbd8388669adc647b84a79b18b8588b439fcebeb40e0054",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-03-eddcba50212d.html",
+      "sha256": "eddcba50212d3891fa88f0bbb1ff66f3c373c96ec4e0199dc44daf967508f29f",
       "bytes": 330226
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-04-bde13b0cab1c.html",
-      "sha256": "bde13b0cab1ce297a38afd72bbf8271682026b2f12fad996c5ff55660b5066a4",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-04-cb1dc9d0b1f3.html",
+      "sha256": "cb1dc9d0b1f3160f4c94404a4d84e40c787bfce8342c41fe02a87f3db109a307",
       "bytes": 330226
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfadc56bbae66229e254",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-05-7f793a0281c0.html",
-      "sha256": "7f793a0281c023f498f6fbf2e2921762455c7b4a54bd7c9c3114dfc816a41da4",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-05-6b75bbf204b0.html",
+      "sha256": "6b75bbf204b0aa5586050dff266ad9f9d5e5485967368aa2307d267252605444",
       "bytes": 181167
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb0995494d71a48ef9a",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-06-1e995a1c003d.html",
-      "sha256": "1e995a1c003dc8ee9b754da31601701db017891f92e86ee9d6e979dba0cc66c6",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-06-4c12560481f7.html",
+      "sha256": "4c12560481f78f1742faf00d028141b5429b8bd2e32cc04c31de7b27d8125c19",
       "bytes": 181167
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfb3995494d71a48efdd",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-07-1ec605587695.html",
-      "sha256": "1ec605587695b42cd4124e7c2dc19e2f6fb068539513d1026ad6a6a6718a69cc",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-07-49f55ada5f90.html",
+      "sha256": "49f55ada5f9053f80ccfbc3b057a53e59e9904145409ee268b54f03806fab386",
       "bytes": 181167
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfab995494d71a48ef73",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-08-a2784ce0604b.html",
-      "sha256": "a2784ce0604b3799f6f112f47a926ad61aef5464c27af9b80ab37854d4814b69",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-08-a6db94985fa7.html",
+      "sha256": "a6db94985fa7d1ac13ca486dbf0d9fe56158a3bd8a16452c7bf327f51cc63c41",
       "bytes": 181167
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acfa9995494d71a48ef51",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-09-675eb5c464b2.html",
-      "sha256": "675eb5c464b2106cdb96ffcd0640c9c5023745a9f3465c7dadb72d6c5a95fc49",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-09-fab1e56a1df7.html",
+      "sha256": "fab1e56a1df74b85100f7c7a21ac29892901087ff742957dbf3728b7463df87f",
       "bytes": 181167
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/appointment?serviceId=6a7acf94995494d71a48ef2e",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-10-406850ea72d1.html",
-      "sha256": "406850ea72d133f80af9573da2736eebe733699f0978448090938fd0e955f5df",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-10-161f567258fe.html",
+      "sha256": "161f567258fee0bd55af6e509def25107bc65afa9174f0fed8f4fcd374304636",
       "bytes": 181167
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-11-506330d68a01.html",
-      "sha256": "506330d68a01abdffd8958d089ad7fb78f78d7f7017cd4a15e5e616d9d8c751b",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-11-d89369528d34.html",
+      "sha256": "d89369528d34afb76d9d13745b9b48df78c7c52b0ec8b6fd425e694f6be29126",
       "bytes": 200605
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba7995494d71a49f423",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-12-2a7daabeed5d.html",
-      "sha256": "2a7daabeed5da5387dba4c700bd2f701c13e553687d43e9c3d8f17211fe15eac",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-12-f37669daa226.html",
+      "sha256": "f37669daa22642f3309c084cf742218a59917ba9c1207e195d678e3230b70a83",
       "bytes": 96783
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba4995494d71a49f3f2",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-13-acf78205f67f.html",
-      "sha256": "acf78205f67f6b2a7bb6ee2264f8ab9388e87a9ef7ad4c0a6f53a79ab8974927",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-13-8c65116b72ab.html",
+      "sha256": "8c65116b72abeaf80beeb20bb8045c1723beebc7d07eb2c2b8c692eeeb1a583d",
       "bytes": 100401
     },
     {
       "url": "https://www.emb-yangon.gov.lk/en/posts/6a7b4ba1995494d71a49f39f",
-      "path": "audit.output/emb-yangon.gov.lk/20260926.0630/snapshots/page-14-551d745b0118.html",
-      "sha256": "551d745b01182fe7a8cea4f8a65aed9a678a80bf44d747c549da6b0be9c5adbc",
+      "path": "audit.output/emb-yangon.gov.lk/20260927.0636/snapshots/page-14-d0c5466f3973.html",
+      "sha256": "d0c5466f3973caa56180d632ff66e3def8bb05ad4777863345fb9d80c2bf3131",
       "bytes": 97237
     }
   ],
@@ -2214,7 +2214,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

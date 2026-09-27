@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "b939930d-48c6-4a22-8a32-ead0315cc906",
+  "audit_id": "04476030-e144-499c-8016-eb7b3d526f4d",
   "url": "https://www.sdc.gov.lk/",
   "normalized_url": "https://www.sdc.gov.lk/",
-  "started_at": "2026-09-26T06:27:33.296207+05:30",
-  "completed_at": "2026-09-26T06:33:11.450081+05:30",
+  "started_at": "2026-09-27T06:33:38.938534+05:30",
+  "completed_at": "2026-09-27T06:35:47.565180+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -14,7 +14,7 @@
       "site_not_defaced: No defacement marker found",
       "content_relevant: No unrelated-content marker found",
       "hosting_configured: No generic-hosting marker found",
-      "http_available: HTTPS probes passed; failing variants: http://www.sdc.gov.lk/: Probe 2: timed out; https://www.sdc.gov.lk/: Probe 3: [Errno 111] Connection refused; http://www.sdc.gov.lk/: Probe 4: [Errno 111] Connection refused",
+      "http_available: HTTPS probes passed; failing variants: http://www.sdc.gov.lk/: Probe 4: timed out",
       "redirect_related: No unrelated redirect found",
       "tls_browser_trusted: No browser-blocking TLS error found",
       "tls_not_expired: TLS certificate valid",
@@ -26,125 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:27:34.073546+05:30"
+      "observed_at": "2026-09-27T06:33:39.814811+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:27:34.073566+05:30"
+      "observed_at": "2026-09-27T06:33:39.814832+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:27:35.280774+05:30"
+      "observed_at": "2026-09-27T06:33:41.306386+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.sdc.gov.lk/",
       "source": "https://www.sdc.gov.lk/",
-      "observed_at": "2026-09-26T06:33:11.314409+05:30"
+      "observed_at": "2026-09-27T06:35:47.427588+05:30"
     },
     {
       "check": "http",
-      "status": "error",
-      "detail": "Probe 2: timed out",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at https://www.sdc.gov.lk/",
       "source": "http://www.sdc.gov.lk/",
-      "observed_at": "2026-09-26T06:33:11.314429+05:30"
+      "observed_at": "2026-09-27T06:35:47.427606+05:30"
     },
     {
       "check": "http",
-      "status": "error",
-      "detail": "Probe 3: [Errno 111] Connection refused",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.sdc.gov.lk/",
       "source": "https://www.sdc.gov.lk/",
-      "observed_at": "2026-09-26T06:33:11.314433+05:30"
+      "observed_at": "2026-09-27T06:35:47.427610+05:30"
     },
     {
       "check": "http",
       "status": "error",
-      "detail": "Probe 4: [Errno 111] Connection refused",
+      "detail": "Probe 4: timed out",
       "source": "http://www.sdc.gov.lk/",
-      "observed_at": "2026-09-26T06:33:11.314435+05:30"
+      "observed_at": "2026-09-27T06:35:47.427614+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.sdc.gov.lk/en/contact",
       "source": "https://www.sdc.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:33:11.314438+05:30"
+      "observed_at": "2026-09-27T06:35:47.427617+05:30"
     },
     {
       "check": "http",
       "status": "pass",
-      "detail": "Probe 6: HTTP 200 at https://www.sdc.gov.lk/ta",
+      "detail": "Probe 6: HTTP 200 at https://www.sdc.gov.lk/en",
+      "source": "https://www.sdc.gov.lk/en",
+      "observed_at": "2026-09-27T06:35:47.427620+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 7: HTTP 200 at https://www.sdc.gov.lk/si",
+      "source": "https://www.sdc.gov.lk/si",
+      "observed_at": "2026-09-27T06:35:47.427623+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 8: HTTP 200 at https://www.sdc.gov.lk/ta",
       "source": "https://www.sdc.gov.lk/ta",
-      "observed_at": "2026-09-26T06:33:11.314441+05:30"
+      "observed_at": "2026-09-27T06:35:47.427626+05:30"
     },
     {
       "check": "http",
       "status": "pass",
-      "detail": "Probe 7: HTTP 200 at https://www.sdc.gov.lk/en/",
+      "detail": "Probe 9: HTTP 200 at https://www.sdc.gov.lk/en/",
       "source": "https://www.sdc.gov.lk/en/",
-      "observed_at": "2026-09-26T06:33:11.314443+05:30"
+      "observed_at": "2026-09-27T06:35:47.427629+05:30"
     },
     {
       "check": "http",
       "status": "pass",
-      "detail": "Probe 8: HTTP 200 at https://www.sdc.gov.lk/en/director-general",
-      "source": "https://www.sdc.gov.lk/en/director-general",
-      "observed_at": "2026-09-26T06:33:11.314446+05:30"
+      "detail": "Probe 10: HTTP 200 at https://www.sdc.gov.lk/en/about",
+      "source": "https://www.sdc.gov.lk/en/about",
+      "observed_at": "2026-09-27T06:35:47.427632+05:30"
     },
     {
       "check": "http",
       "status": "pass",
-      "detail": "Probe 9: HTTP 200 at https://www.sdc.gov.lk/en/staff",
+      "detail": "Probe 11: HTTP 200 at https://www.sdc.gov.lk/en/leadership",
+      "source": "https://www.sdc.gov.lk/en/leadership",
+      "observed_at": "2026-09-27T06:35:47.427635+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 12: HTTP 200 at https://www.sdc.gov.lk/en/chairman",
+      "source": "https://www.sdc.gov.lk/en/chairman",
+      "observed_at": "2026-09-27T06:35:47.427637+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 13: HTTP 200 at https://www.sdc.gov.lk/en/council-members",
+      "source": "https://www.sdc.gov.lk/en/council-members",
+      "observed_at": "2026-09-27T06:35:47.427640+05:30"
+    },
+    {
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 14: HTTP 200 at https://www.sdc.gov.lk/en/staff",
       "source": "https://www.sdc.gov.lk/en/staff",
-      "observed_at": "2026-09-26T06:33:11.314448+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 10: HTTP 200 at https://www.sdc.gov.lk/en/sustainable-development-goals",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
-      "observed_at": "2026-09-26T06:33:11.314450+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 11: HTTP 200 at https://www.sdc.gov.lk/en/agencies/19/12",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "observed_at": "2026-09-26T06:33:11.314452+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 12: HTTP 200 at https://www.sdc.gov.lk/en/events",
-      "source": "https://www.sdc.gov.lk/en/events",
-      "observed_at": "2026-09-26T06:33:11.314455+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 13: HTTP 200 at https://www.sdc.gov.lk/en/faq-sdg",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "observed_at": "2026-09-26T06:33:11.314457+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 14: HTTP 200 at https://www.sdc.gov.lk/en/sdg-lka-25",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
-      "observed_at": "2026-09-26T06:33:11.314459+05:30"
+      "observed_at": "2026-09-27T06:35:47.427643+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
+      "detail": "Published phone: +94112885164",
       "source": "https://www.sdc.gov.lk/",
       "data": {
-        "value": "+94 11 288 5164 "
+        "value": "+94112885164"
       }
     },
     {
@@ -159,19 +159,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885241",
+      "detail": "Published phone: +94 11 288 5164 ",
       "source": "https://www.sdc.gov.lk/",
       "data": {
-        "value": "+94112885241"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885164",
+      "detail": "Published phone: +94112885241",
       "source": "https://www.sdc.gov.lk/",
       "data": {
-        "value": "+94112885164"
+        "value": "+94112885241"
       }
     },
     {
@@ -204,10 +204,136 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "+94112885164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 288 5241 ",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "+94 11 288 5241 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/contact",
+      "source": "https://www.sdc.gov.lk/",
       "data": {
         "value": "+94 11 288 5164 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "+94112885241"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdcsl.lk",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "info@sdcsl.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdc.gov.lk",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "info@sdc.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "+94112885164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 288 5241 ",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "+94 11 288 5241 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 288 5164 ",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "+94 11 288 5164 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "+94112885241"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdcsl.lk",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "info@sdcsl.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdc.gov.lk",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "info@sdc.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.sdc.gov.lk/",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/en/contact",
+      "data": {
+        "value": "+94112885164"
       }
     },
     {
@@ -222,19 +348,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885241",
+      "detail": "Published phone: +94 11 288 5164 ",
       "source": "https://www.sdc.gov.lk/en/contact",
       "data": {
-        "value": "+94112885241"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885164",
+      "detail": "Published phone: +94112885241",
       "source": "https://www.sdc.gov.lk/en/contact",
       "data": {
-        "value": "+94112885164"
+        "value": "+94112885241"
       }
     },
     {
@@ -276,10 +402,136 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/en",
+      "data": {
+        "value": "+94112885164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 288 5241 ",
+      "source": "https://www.sdc.gov.lk/en",
+      "data": {
+        "value": "+94 11 288 5241 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/ta",
+      "source": "https://www.sdc.gov.lk/en",
       "data": {
         "value": "+94 11 288 5164 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/en",
+      "data": {
+        "value": "+94112885241"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdcsl.lk",
+      "source": "https://www.sdc.gov.lk/en",
+      "data": {
+        "value": "info@sdcsl.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdc.gov.lk",
+      "source": "https://www.sdc.gov.lk/en",
+      "data": {
+        "value": "info@sdc.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.sdc.gov.lk/en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/si",
+      "data": {
+        "value": "+94112885164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 288 5241 ",
+      "source": "https://www.sdc.gov.lk/si",
+      "data": {
+        "value": "+94 11 288 5241 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 288 5164 ",
+      "source": "https://www.sdc.gov.lk/si",
+      "data": {
+        "value": "+94 11 288 5164 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/si",
+      "data": {
+        "value": "+94112885241"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdcsl.lk",
+      "source": "https://www.sdc.gov.lk/si",
+      "data": {
+        "value": "info@sdcsl.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@sdc.gov.lk",
+      "source": "https://www.sdc.gov.lk/si",
+      "data": {
+        "value": "info@sdc.gov.lk"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.sdc.gov.lk/si",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/ta",
+      "data": {
+        "value": "+94112885164"
       }
     },
     {
@@ -294,19 +546,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885241",
+      "detail": "Published phone: +94 11 288 5164 ",
       "source": "https://www.sdc.gov.lk/ta",
       "data": {
-        "value": "+94112885241"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885164",
+      "detail": "Published phone: +94112885241",
       "source": "https://www.sdc.gov.lk/ta",
       "data": {
-        "value": "+94112885164"
+        "value": "+94112885241"
       }
     },
     {
@@ -334,6 +586,24 @@
       "source": "https://www.sdc.gov.lk/ta",
       "data": {
         "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/en/",
+      "data": {
+        "value": "+94112885164"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 288 5241 ",
+      "source": "https://www.sdc.gov.lk/en/",
+      "data": {
+        "value": "+94 11 288 5241 "
       }
     },
     {
@@ -348,28 +618,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/",
-      "data": {
-        "value": "+94 11 288 5241 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94112885241",
       "source": "https://www.sdc.gov.lk/en/",
       "data": {
         "value": "+94112885241"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/",
-      "data": {
-        "value": "+94112885164"
       }
     },
     {
@@ -402,17 +654,17 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/director-general",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/en/about",
       "data": {
-        "value": "+94 11 288 5164 "
+        "value": "+94112885164"
       }
     },
     {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/director-general",
+      "source": "https://www.sdc.gov.lk/en/about",
       "data": {
         "value": "+94 11 288 5241 "
       }
@@ -420,26 +672,26 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885241",
-      "source": "https://www.sdc.gov.lk/en/director-general",
+      "detail": "Published phone: +94 11 288 5164 ",
+      "source": "https://www.sdc.gov.lk/en/about",
       "data": {
-        "value": "+94112885241"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/director-general",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/en/about",
       "data": {
-        "value": "+94112885164"
+        "value": "+94112885241"
       }
     },
     {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdcsl.lk",
-      "source": "https://www.sdc.gov.lk/en/director-general",
+      "source": "https://www.sdc.gov.lk/en/about",
       "data": {
         "value": "info@sdcsl.lk"
       }
@@ -448,7 +700,7 @@
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdc.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/director-general",
+      "source": "https://www.sdc.gov.lk/en/about",
       "data": {
         "value": "info@sdc.gov.lk"
       }
@@ -457,7 +709,7 @@
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: director",
-      "source": "https://www.sdc.gov.lk/en/director-general",
+      "source": "https://www.sdc.gov.lk/en/about",
       "data": {
         "value": "director"
       }
@@ -465,17 +717,17 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/staff",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/en/leadership",
       "data": {
-        "value": "+94 11 288 5164 "
+        "value": "+94112885164"
       }
     },
     {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/staff",
+      "source": "https://www.sdc.gov.lk/en/leadership",
       "data": {
         "value": "+94 11 288 5241 "
       }
@@ -483,26 +735,26 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885241",
-      "source": "https://www.sdc.gov.lk/en/staff",
+      "detail": "Published phone: +94 11 288 5164 ",
+      "source": "https://www.sdc.gov.lk/en/leadership",
       "data": {
-        "value": "+94112885241"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/staff",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/en/leadership",
       "data": {
-        "value": "+94112885164"
+        "value": "+94112885241"
       }
     },
     {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdcsl.lk",
-      "source": "https://www.sdc.gov.lk/en/staff",
+      "source": "https://www.sdc.gov.lk/en/leadership",
       "data": {
         "value": "info@sdcsl.lk"
       }
@@ -511,7 +763,7 @@
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdc.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/staff",
+      "source": "https://www.sdc.gov.lk/en/leadership",
       "data": {
         "value": "info@sdc.gov.lk"
       }
@@ -520,7 +772,7 @@
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: director",
-      "source": "https://www.sdc.gov.lk/en/staff",
+      "source": "https://www.sdc.gov.lk/en/leadership",
       "data": {
         "value": "director"
       }
@@ -528,17 +780,17 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
+      "detail": "Published phone: +94112885164",
+      "source": "https://www.sdc.gov.lk/en/chairman",
       "data": {
-        "value": "+94 11 288 5164 "
+        "value": "+94112885164"
       }
     },
     {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
+      "source": "https://www.sdc.gov.lk/en/chairman",
       "data": {
         "value": "+94 11 288 5241 "
       }
@@ -546,26 +798,26 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885241",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
+      "detail": "Published phone: +94 11 288 5164 ",
+      "source": "https://www.sdc.gov.lk/en/chairman",
       "data": {
-        "value": "+94112885241"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/en/chairman",
       "data": {
-        "value": "+94112885164"
+        "value": "+94112885241"
       }
     },
     {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdcsl.lk",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
+      "source": "https://www.sdc.gov.lk/en/chairman",
       "data": {
         "value": "info@sdcsl.lk"
       }
@@ -574,7 +826,7 @@
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdc.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
+      "source": "https://www.sdc.gov.lk/en/chairman",
       "data": {
         "value": "info@sdc.gov.lk"
       }
@@ -583,7 +835,7 @@
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: director",
-      "source": "https://www.sdc.gov.lk/en/sustainable-development-goals",
+      "source": "https://www.sdc.gov.lk/en/chairman",
       "data": {
         "value": "director"
       }
@@ -591,440 +843,8 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 01 112 484 85",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "01 112 484 85"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 147 000 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112 147 000 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2871672 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "011-2871672 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 484 500 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112 484 500 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113443169 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0113443169 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 886580 - ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112 886580 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 01 011-22066",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "01 011-22066"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11)2392607",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "+94 11)2392607"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112885241",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "+94112885241"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "+94 11 288 5164 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 880 500 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112 880 500 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112187050 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112187050 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0)112477915 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0)112477915 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00100 0112 1",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "00100 0112 1"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 887 349 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112 887 349 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05. 11250170",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "05. 11250170"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "+94112885164"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 484 613 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "+94 112 484 613 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0) 112 484 888 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0) 112 484 888 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 143 100 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112 143 100 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94(0) 11259568",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "+94(0) 11259568"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112186275 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "0112186275 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "+94 11 288 5241 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2581142",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "011 2581142"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 247 7000 ",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "011 247 7000 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@erd.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@erd.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: infor_center@slbfe.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "infor_center@slbfe.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@sdcsl.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@sdcsl.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: ips@ips.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "ips@ips.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dirssdss@gmail.com",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "dirssdss@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@sdc.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@sdc.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: contacts@labourdept.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "contacts@labourdept.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgnbd@nbd.treasury.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "dgnbd@nbd.treasury.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: msesecretary@sltnet.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "msesecretary@sltnet.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@nldb.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@nldb.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@pucsl.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@pucsl.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cbslgen@cbsl.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "cbslgen@cbsl.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dg@pmm.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "dg@pmm.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: epfhelpdesk@cbsl.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "epfhelpdesk@cbsl.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgtip@tipd.treasury.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "dgtip@tipd.treasury.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: information@statistics.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "information@statistics.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@mo.treasury.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@mo.treasury.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgnp@npd.treasury.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "dgnp@npd.treasury.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@ssb.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@ssb.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@afs.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "info@afs.gov.lk"
-      }
-    },
-    {
-      "check": "postal_address",
-      "status": "pass",
-      "detail": "Published postal address: not provided Phone Number not provided Email not provided Website not provided Sri Lanka Bureau of Foreign Employment 23",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "not provided Phone Number not provided Email not provided Website not provided Sri Lanka Bureau of Foreign Employment 23"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "fees_and_payment",
-      "status": "pass",
-      "detail": "Published fees and payment: rs,",
-      "source": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "data": {
-        "value": "rs,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/events",
+      "source": "https://www.sdc.gov.lk/en/council-members",
       "data": {
         "value": "+94112885164"
       }
@@ -1033,7 +853,7 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/events",
+      "source": "https://www.sdc.gov.lk/en/council-members",
       "data": {
         "value": "+94 11 288 5241 "
       }
@@ -1041,44 +861,26 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 020 2021 202",
-      "source": "https://www.sdc.gov.lk/en/events",
+      "detail": "Published phone: +94 11 288 5164 ",
+      "source": "https://www.sdc.gov.lk/en/council-members",
       "data": {
-        "value": "020 2021 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 023 2024 202",
-      "source": "https://www.sdc.gov.lk/en/events",
-      "data": {
-        "value": "023 2024 202"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +94112885241",
-      "source": "https://www.sdc.gov.lk/en/events",
+      "source": "https://www.sdc.gov.lk/en/council-members",
       "data": {
         "value": "+94112885241"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/events",
-      "data": {
-        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdcsl.lk",
-      "source": "https://www.sdc.gov.lk/en/events",
+      "source": "https://www.sdc.gov.lk/en/council-members",
       "data": {
         "value": "info@sdcsl.lk"
       }
@@ -1087,7 +889,7 @@
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdc.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/events",
+      "source": "https://www.sdc.gov.lk/en/council-members",
       "data": {
         "value": "info@sdc.gov.lk"
       }
@@ -1096,7 +898,7 @@
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: director",
-      "source": "https://www.sdc.gov.lk/en/events",
+      "source": "https://www.sdc.gov.lk/en/council-members",
       "data": {
         "value": "director"
       }
@@ -1104,89 +906,8 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "+94 11 288 5164 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "+94 11 288 5241 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112885241",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "+94112885241"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "+94112885164"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@sdcsl.lk",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "info@sdcsl.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@sdc.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "info@sdc.gov.lk"
-      }
-    },
-    {
-      "check": "postal_address",
-      "status": "pass",
-      "detail": "Published postal address: the root causes of the problems and not only the symptoms. The Sustainable Development Goals are the result of a negotia",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "the root causes of the problems and not only the symptoms. The Sustainable Development Goals are the result of a negotia"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.sdc.gov.lk/en/faq-sdg",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0639320436",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
-      "data": {
-        "value": "0639320436"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112885164",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
+      "source": "https://www.sdc.gov.lk/en/staff",
       "data": {
         "value": "+94112885164"
       }
@@ -1195,7 +916,7 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: +94 11 288 5241 ",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
+      "source": "https://www.sdc.gov.lk/en/staff",
       "data": {
         "value": "+94 11 288 5241 "
       }
@@ -1203,26 +924,26 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112885241",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
+      "detail": "Published phone: +94 11 288 5164 ",
+      "source": "https://www.sdc.gov.lk/en/staff",
       "data": {
-        "value": "+94112885241"
+        "value": "+94 11 288 5164 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 288 5164 ",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
+      "detail": "Published phone: +94112885241",
+      "source": "https://www.sdc.gov.lk/en/staff",
       "data": {
-        "value": "+94 11 288 5164 "
+        "value": "+94112885241"
       }
     },
     {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdcsl.lk",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
+      "source": "https://www.sdc.gov.lk/en/staff",
       "data": {
         "value": "info@sdcsl.lk"
       }
@@ -1231,7 +952,7 @@
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@sdc.gov.lk",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
+      "source": "https://www.sdc.gov.lk/en/staff",
       "data": {
         "value": "info@sdc.gov.lk"
       }
@@ -1240,7 +961,7 @@
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: director",
-      "source": "https://www.sdc.gov.lk/en/sdg-lka-25",
+      "source": "https://www.sdc.gov.lk/en/staff",
       "data": {
         "value": "director"
       }
@@ -1248,7 +969,7 @@
     {
       "check": "page_text",
       "status": "pass",
-      "detail": "Substantive page content: 9558 visible characters across 11 pages",
+      "detail": "Substantive page content: 4073 visible characters across 13 pages",
       "source": "https://www.sdc.gov.lk/"
     }
   ],
@@ -1279,7 +1000,27 @@
       "status_code": 200,
       "final_url": "https://www.sdc.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1503,
+      "elapsed_ms": 1761,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "http://www.sdc.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.sdc.gov.lk/",
+      "redirects": [
+        "https://www.sdc.gov.lk/"
+      ],
+      "elapsed_ms": 1743,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.sdc.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.sdc.gov.lk/",
+      "redirects": [],
+      "elapsed_ms": 1767,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1293,29 +1034,29 @@
       "error": "timed out"
     },
     {
-      "url": "https://www.sdc.gov.lk/",
-      "status_code": null,
-      "final_url": null,
-      "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "[Errno 111] Connection refused"
-    },
-    {
-      "url": "http://www.sdc.gov.lk/",
-      "status_code": null,
-      "final_url": null,
-      "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "[Errno 111] Connection refused"
-    },
-    {
       "url": "https://www.sdc.gov.lk/en/contact",
       "status_code": 200,
       "final_url": "https://www.sdc.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1020,
+      "elapsed_ms": 1772,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.sdc.gov.lk/en",
+      "status_code": 200,
+      "final_url": "https://www.sdc.gov.lk/en",
+      "redirects": [],
+      "elapsed_ms": 1779,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.sdc.gov.lk/si",
+      "status_code": 200,
+      "final_url": "https://www.sdc.gov.lk/si",
+      "redirects": [],
+      "elapsed_ms": 19953,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1324,7 +1065,7 @@
       "status_code": 200,
       "final_url": "https://www.sdc.gov.lk/ta",
       "redirects": [],
-      "elapsed_ms": 2014,
+      "elapsed_ms": 1033,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1333,16 +1074,43 @@
       "status_code": 200,
       "final_url": "https://www.sdc.gov.lk/en/",
       "redirects": [],
-      "elapsed_ms": 20744,
+      "elapsed_ms": 1786,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
     {
-      "url": "https://www.sdc.gov.lk/en/director-general",
+      "url": "https://www.sdc.gov.lk/en/about",
       "status_code": 200,
-      "final_url": "https://www.sdc.gov.lk/en/director-general",
+      "final_url": "https://www.sdc.gov.lk/en/about",
       "redirects": [],
-      "elapsed_ms": 1760,
+      "elapsed_ms": 19947,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.sdc.gov.lk/en/leadership",
+      "status_code": 200,
+      "final_url": "https://www.sdc.gov.lk/en/leadership",
+      "redirects": [],
+      "elapsed_ms": 2969,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.sdc.gov.lk/en/chairman",
+      "status_code": 200,
+      "final_url": "https://www.sdc.gov.lk/en/chairman",
+      "redirects": [],
+      "elapsed_ms": 1019,
+      "content_type": "text/html; charset=UTF-8",
+      "error": null
+    },
+    {
+      "url": "https://www.sdc.gov.lk/en/council-members",
+      "status_code": 200,
+      "final_url": "https://www.sdc.gov.lk/en/council-members",
+      "redirects": [],
+      "elapsed_ms": 1051,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1351,52 +1119,7 @@
       "status_code": 200,
       "final_url": "https://www.sdc.gov.lk/en/staff",
       "redirects": [],
-      "elapsed_ms": 1366,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/sustainable-development-goals",
-      "status_code": 200,
-      "final_url": "https://www.sdc.gov.lk/en/sustainable-development-goals",
-      "redirects": [],
-      "elapsed_ms": 1800,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "status_code": 200,
-      "final_url": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "redirects": [],
-      "elapsed_ms": 1733,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/events",
-      "status_code": 200,
-      "final_url": "https://www.sdc.gov.lk/en/events",
-      "redirects": [],
-      "elapsed_ms": 1684,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/faq-sdg",
-      "status_code": 200,
-      "final_url": "https://www.sdc.gov.lk/en/faq-sdg",
-      "redirects": [],
-      "elapsed_ms": 20624,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/sdg-lka-25",
-      "status_code": 200,
-      "final_url": "https://www.sdc.gov.lk/en/sdg-lka-25",
-      "redirects": [],
-      "elapsed_ms": 1022,
+      "elapsed_ms": 1004,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1404,69 +1127,81 @@
   "snapshots": [
     {
       "url": "https://www.sdc.gov.lk/",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-01-127c80646deb.html",
-      "sha256": "127c80646deb0276317ea1a8a849a87fb36f0256ccd12a11e7f37661ca2dd744",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-01-52ee23ee3a10.html",
+      "sha256": "52ee23ee3a1011102a16d21cda13408d4ba4f9c71708eecdb454756734f4a4d1",
+      "bytes": 21521
+    },
+    {
+      "url": "https://www.sdc.gov.lk/",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-02-52ee23ee3a10.html",
+      "sha256": "52ee23ee3a1011102a16d21cda13408d4ba4f9c71708eecdb454756734f4a4d1",
+      "bytes": 21521
+    },
+    {
+      "url": "https://www.sdc.gov.lk/",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-03-52ee23ee3a10.html",
+      "sha256": "52ee23ee3a1011102a16d21cda13408d4ba4f9c71708eecdb454756734f4a4d1",
       "bytes": 21521
     },
     {
       "url": "https://www.sdc.gov.lk/en/contact",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-02-9660f63a0195.html",
-      "sha256": "9660f63a01952cf74c5e63cac8b431cf5102fede08aff14ec4ab9cfa118599be",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-04-7d1ee551b42f.html",
+      "sha256": "7d1ee551b42fc557ffdc484c9c844b34de370ec389d94ef9b3672f11a022f5c6",
       "bytes": 15479
     },
     {
+      "url": "https://www.sdc.gov.lk/en",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-05-52ee23ee3a10.html",
+      "sha256": "52ee23ee3a1011102a16d21cda13408d4ba4f9c71708eecdb454756734f4a4d1",
+      "bytes": 21521
+    },
+    {
+      "url": "https://www.sdc.gov.lk/si",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-06-af847f9d1683.html",
+      "sha256": "af847f9d1683bfd8ec12dc85b9501632e73eefac5dcc9dbbb5eee28a54449514",
+      "bytes": 24711
+    },
+    {
       "url": "https://www.sdc.gov.lk/ta",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-03-72b024b0e9e6.html",
-      "sha256": "72b024b0e9e66d1bb47f5b545300da65ea861bb9d2852c71f784a78b5efcdd2a",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-07-29d12ee0dfc9.html",
+      "sha256": "29d12ee0dfc9dcd4e90de4ee841e5c41167e347531c9b8c84ee5dfeb989dca19",
       "bytes": 25111
     },
     {
       "url": "https://www.sdc.gov.lk/en/",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-04-127c80646deb.html",
-      "sha256": "127c80646deb0276317ea1a8a849a87fb36f0256ccd12a11e7f37661ca2dd744",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-08-52ee23ee3a10.html",
+      "sha256": "52ee23ee3a1011102a16d21cda13408d4ba4f9c71708eecdb454756734f4a4d1",
       "bytes": 21521
     },
     {
-      "url": "https://www.sdc.gov.lk/en/director-general",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-05-43c0632f1c0a.html",
-      "sha256": "43c0632f1c0af686e5954378618aa0a17b4a779e7cb19b2d01a916da9bd47ef6",
-      "bytes": 14322
+      "url": "https://www.sdc.gov.lk/en/about",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-09-45f1cba7e1ed.html",
+      "sha256": "45f1cba7e1edcef183711d41772846fe519b9715c06c5637d4158495efda839d",
+      "bytes": 23806
+    },
+    {
+      "url": "https://www.sdc.gov.lk/en/leadership",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-10-81fa4cc556dc.html",
+      "sha256": "81fa4cc556dc3bc226a438d6cfd4e4e12a85c344565efdf2c24559e314936c42",
+      "bytes": 13320
+    },
+    {
+      "url": "https://www.sdc.gov.lk/en/chairman",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-11-f4b9ed39d1bd.html",
+      "sha256": "f4b9ed39d1bdabbaa2bdce75ee30d57e5d162f00f7352ca803acdd5b14ccf7ef",
+      "bytes": 12686
+    },
+    {
+      "url": "https://www.sdc.gov.lk/en/council-members",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-12-0a07826804cd.html",
+      "sha256": "0a07826804cd54c7ff48663d36379e96cb89b023eb1eaecfdc0fec1f50a37164",
+      "bytes": 16120
     },
     {
       "url": "https://www.sdc.gov.lk/en/staff",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-06-fb535fbea80c.html",
-      "sha256": "fb535fbea80c84725bcd5c4da1086ab56dc7996bb478ef297903810e016978af",
+      "path": "audit.output/www.sdc.gov.lk/20260927.0633/snapshots/page-13-8e2fff6c1391.html",
+      "sha256": "8e2fff6c1391f1d6c0cbd895753c7ea9d3329e41c5c81da6c0c551d8e2d620c8",
       "bytes": 16010
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/sustainable-development-goals",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-07-43dda492e92c.html",
-      "sha256": "43dda492e92c907ac1bdfb1e947b7bd499de35fc37914a22b7b66560a2aa1b2f",
-      "bytes": 25328
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/agencies/19/12",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-08-a8415bf16d7c.html",
-      "sha256": "a8415bf16d7c57e99817adbbef18fe1f5bde0bb6e780f30977f8ebaa842a3dcb",
-      "bytes": 32336
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/events",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-09-fea7f5dfb725.html",
-      "sha256": "fea7f5dfb725199c4ea43f5e7ebee535c8c989f2d90a57767354539d6ecb4de3",
-      "bytes": 21295
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/faq-sdg",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-10-182e1d4bdb8e.html",
-      "sha256": "182e1d4bdb8e875f5894c3831ffdf3c0a40dc483398372cb65037b521dd7b523",
-      "bytes": 27699
-    },
-    {
-      "url": "https://www.sdc.gov.lk/en/sdg-lka-25",
-      "path": "audit.output/www.sdc.gov.lk/20260926.0627/snapshots/page-11-e3fd5556ed79.html",
-      "sha256": "e3fd5556ed79966418b1b5918f1ea0079f4a0f07eddbc039ce132419238a2532",
-      "bytes": 14653
     }
   ],
   "reviewer_decisions": [],
@@ -1483,7 +1218,7 @@
       "level": 1,
       "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
       "status": "pass",
-      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTPS probes passed; failing variants: http://www.sdc.gov.lk/: Probe 2: timed out; https://www.sdc.gov.lk/: Probe 3: [Errno 111] Connection refused; http://www.sdc.gov.lk/: Probe 4: [Errno 111] Connection refused; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTPS probes passed; failing variants: http://www.sdc.gov.lk/: Probe 4: timed out; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
       "executed": true,
       "checks": [
         {
@@ -1520,7 +1255,7 @@
           "name": "http_available",
           "level": 1,
           "status": "pass",
-          "reason": "HTTPS probes passed; failing variants: http://www.sdc.gov.lk/: Probe 2: timed out; https://www.sdc.gov.lk/: Probe 3: [Errno 111] Connection refused; http://www.sdc.gov.lk/: Probe 4: [Errno 111] Connection refused"
+          "reason": "HTTPS probes passed; failing variants: http://www.sdc.gov.lk/: Probe 4: timed out"
         },
         {
           "name": "redirect_related",
@@ -1552,7 +1287,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: 2nd Floor, Lake House Building, D.R Wijayawardana MW, Colombo 10, Sri Lanka; Phone: +94 11 288 5164 (28 phone numbers found); Email: info@sdcsl.lk (20 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: 2nd Floor, Lake House Building, D.R Wijayawardana MW, Colombo 10, Sri Lanka; Phone: +94112885164 (4 phone numbers found); Email: info@sdcsl.lk (2 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1565,7 +1300,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 11 288 5164 (28 phone numbers found); Email: info@sdcsl.lk (20 email addresses found)"
+          "reason": "Phone: +94112885164 (4 phone numbers found); Email: info@sdcsl.lk (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1579,7 +1314,7 @@
       "level": 3,
       "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
       "status": "inconclusive",
-      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing legal basis evidence found; No passing processing time evidence found; No passing downloadable form evidence found; No passing published update date evidence found",
+      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing fees and payment evidence found; No passing legal basis evidence found; No passing processing time evidence found; No passing downloadable form evidence found; No passing published update date evidence found",
       "executed": true,
       "checks": [
         {
@@ -1597,8 +1332,8 @@
         {
           "name": "fees_and_payment",
           "level": 3,
-          "status": "pass",
-          "reason": "Published fees and payment: rs,"
+          "status": "inconclusive",
+          "reason": "No passing fees and payment evidence found"
         },
         {
           "name": "legal_basis",
@@ -1644,7 +1379,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

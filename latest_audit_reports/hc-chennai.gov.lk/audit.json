@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "98ab9296-4952-492e-add2-9d8c762c97a0",
+  "audit_id": "bb81fab8-e595-4237-8ecb-3c6495dd16f2",
   "url": "https://hc-chennai.gov.lk",
   "normalized_url": "https://hc-chennai.gov.lk/",
-  "started_at": "2026-09-26T06:28:35.007340+05:30",
-  "completed_at": "2026-09-26T06:29:25.047297+05:30",
+  "started_at": "2026-09-27T06:34:39.259668+05:30",
+  "completed_at": "2026-09-27T06:35:31.483579+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,134 +26,134 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:28:35.393863+05:30"
+      "observed_at": "2026-09-27T06:34:39.688699+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:28:35.393883+05:30"
+      "observed_at": "2026-09-27T06:34:39.688718+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:28:36.034799+05:30"
+      "observed_at": "2026-09-27T06:34:40.420714+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.hc-chennai.gov.lk/en",
       "source": "https://hc-chennai.gov.lk/",
-      "observed_at": "2026-09-26T06:29:23.039918+05:30"
+      "observed_at": "2026-09-27T06:35:26.539060+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.hc-chennai.gov.lk/en",
       "source": "http://hc-chennai.gov.lk/",
-      "observed_at": "2026-09-26T06:29:23.039934+05:30"
+      "observed_at": "2026-09-27T06:35:26.539079+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.hc-chennai.gov.lk/en",
       "source": "https://hc-chennai.gov.lk/",
-      "observed_at": "2026-09-26T06:29:23.039938+05:30"
+      "observed_at": "2026-09-27T06:35:26.539084+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.hc-chennai.gov.lk/en",
       "source": "http://hc-chennai.gov.lk/",
-      "observed_at": "2026-09-26T06:29:23.039941+05:30"
+      "observed_at": "2026-09-27T06:35:26.539087+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.hc-chennai.gov.lk/en/contact",
       "source": "https://www.hc-chennai.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:29:23.039943+05:30"
+      "observed_at": "2026-09-27T06:35:26.539090+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.hc-chennai.gov.lk/en/passport-services",
       "source": "https://hc-chennai.gov.lk/en/passport-services",
-      "observed_at": "2026-09-26T06:29:23.039946+05:30"
+      "observed_at": "2026-09-27T06:35:26.539093+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment",
       "source": "https://www.hc-chennai.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:29:23.039948+05:30"
+      "observed_at": "2026-09-27T06:35:26.539095+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7",
       "source": "https://hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7",
-      "observed_at": "2026-09-26T06:29:23.039950+05:30"
+      "observed_at": "2026-09-27T06:35:26.539098+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3",
       "source": "https://hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3",
-      "observed_at": "2026-09-26T06:29:23.039953+05:30"
+      "observed_at": "2026-09-27T06:35:26.539101+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915",
       "source": "https://hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915",
-      "observed_at": "2026-09-26T06:29:23.039955+05:30"
+      "observed_at": "2026-09-27T06:35:26.539104+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf",
       "source": "https://hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf",
-      "observed_at": "2026-09-26T06:29:23.039958+05:30"
+      "observed_at": "2026-09-27T06:35:26.539107+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e",
       "source": "https://hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e",
-      "observed_at": "2026-09-26T06:29:23.039961+05:30"
+      "observed_at": "2026-09-27T06:35:26.539110+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345",
       "source": "https://hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345",
-      "observed_at": "2026-09-26T06:29:23.039963+05:30"
+      "observed_at": "2026-09-27T06:35:26.539112+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955",
       "source": "https://hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955",
-      "observed_at": "2026-09-26T06:29:23.039965+05:30"
+      "observed_at": "2026-09-27T06:35:26.539115+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +919840064128",
+      "detail": "Published phone: 0812679167",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+919840064128"
+        "value": "0812679167"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +914428252612",
+      "detail": "Published phone: 0813142402",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+914428252612"
+        "value": "0813142402"
       }
     },
     {
@@ -168,10 +168,64 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0812460423",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812460423"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0812086463",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0812086463"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0812710565",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812710565"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0651986654",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0651986654"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +914428252612",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+914428252612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +919840064128",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+919840064128"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +91 44 28241896",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+91 44 28241896"
       }
     },
     {
@@ -195,64 +249,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0651986654",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0651986654"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0813142402",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0813142402"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +91 44 28241896",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "+91 44 28241896"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812460423",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812460423"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0652357774",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0652357774"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812679167",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812679167"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812710565",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812710565"
       }
     },
     {
@@ -321,19 +321,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +919840064128",
+      "detail": "Published phone: 0812679167",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+919840064128"
+        "value": "0812679167"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +914428252612",
+      "detail": "Published phone: 0813142402",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+914428252612"
+        "value": "0813142402"
       }
     },
     {
@@ -348,10 +348,64 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0812460423",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812460423"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0812086463",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0812086463"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0812710565",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812710565"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0651986654",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0651986654"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +914428252612",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+914428252612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +919840064128",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+919840064128"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +91 44 28241896",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+91 44 28241896"
       }
     },
     {
@@ -375,64 +429,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0651986654",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0651986654"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0813142402",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0813142402"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +91 44 28241896",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "+91 44 28241896"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812460423",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812460423"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0652357774",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0652357774"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812679167",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812679167"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812710565",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812710565"
       }
     },
     {
@@ -501,19 +501,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +919840064128",
+      "detail": "Published phone: 0812679167",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+919840064128"
+        "value": "0812679167"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +914428252612",
+      "detail": "Published phone: 0813142402",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+914428252612"
+        "value": "0813142402"
       }
     },
     {
@@ -528,10 +528,64 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0812460423",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812460423"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0812086463",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0812086463"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0812710565",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812710565"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0651986654",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0651986654"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +914428252612",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+914428252612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +919840064128",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+919840064128"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +91 44 28241896",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+91 44 28241896"
       }
     },
     {
@@ -555,64 +609,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0651986654",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0651986654"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0813142402",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0813142402"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +91 44 28241896",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "+91 44 28241896"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812460423",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812460423"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0652357774",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0652357774"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812679167",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812679167"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812710565",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812710565"
       }
     },
     {
@@ -681,19 +681,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +919840064128",
+      "detail": "Published phone: 0812679167",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+919840064128"
+        "value": "0812679167"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +914428252612",
+      "detail": "Published phone: 0813142402",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
-        "value": "+914428252612"
+        "value": "0813142402"
       }
     },
     {
@@ -708,10 +708,64 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0812460423",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812460423"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0812086463",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0812086463"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0812710565",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0812710565"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0651986654",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "0651986654"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +914428252612",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+914428252612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +919840064128",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+919840064128"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +91 44 28241896",
+      "source": "https://www.hc-chennai.gov.lk/en",
+      "data": {
+        "value": "+91 44 28241896"
       }
     },
     {
@@ -735,64 +789,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0651986654",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0651986654"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0813142402",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0813142402"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +91 44 28241896",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "+91 44 28241896"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812460423",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812460423"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0652357774",
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "0652357774"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812679167",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812679167"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812710565",
-      "source": "https://www.hc-chennai.gov.lk/en",
-      "data": {
-        "value": "0812710565"
       }
     },
     {
@@ -856,15 +856,6 @@
       "source": "https://www.hc-chennai.gov.lk/en",
       "data": {
         "value": "rs,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +91 44 28241896",
-      "source": "https://www.hc-chennai.gov.lk/en/contact",
-      "data": {
-        "value": "+91 44 28241896"
       }
     },
     {
@@ -877,6 +868,15 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +91 44 28241896",
+      "source": "https://www.hc-chennai.gov.lk/en/contact",
+      "data": {
+        "value": "+91 44 28241896"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
@@ -978,19 +978,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -1023,19 +1023,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -1122,19 +1122,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -1167,19 +1167,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -1266,19 +1266,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -1311,19 +1311,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -1410,19 +1410,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -1455,19 +1455,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -1554,19 +1554,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -1599,19 +1599,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -1698,19 +1698,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -1743,19 +1743,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -1842,19 +1842,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -1887,19 +1887,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -1986,19 +1986,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112889540",
+      "detail": "Published phone: 0091 44 2824",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955",
       "data": {
-        "value": "+94112889540"
+        "value": "0091 44 2824"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0091 44 2824",
+      "detail": "Published phone: +94112889540",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955",
       "data": {
-        "value": "0091 44 2824"
+        "value": "+94112889540"
       }
     },
     {
@@ -2031,19 +2031,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
+      "detail": "Published email: chennaiconsular.d@gmail.com",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955",
       "data": {
-        "value": "sldhc.chennai@mfa.gov.lk"
+        "value": "chennaiconsular.d@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chennaiconsular.d@gmail.com",
+      "detail": "Published email: sldhc.chennai@mfa.gov.lk",
       "source": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955",
       "data": {
-        "value": "chennaiconsular.d@gmail.com"
+        "value": "sldhc.chennai@mfa.gov.lk"
       }
     },
     {
@@ -2164,7 +2164,7 @@
         "https://www.hc-chennai.gov.lk/",
         "https://www.hc-chennai.gov.lk/en"
       ],
-      "elapsed_ms": 7726,
+      "elapsed_ms": 2280,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2176,7 +2176,7 @@
         "https://www.hc-chennai.gov.lk/",
         "https://www.hc-chennai.gov.lk/en"
       ],
-      "elapsed_ms": 1691,
+      "elapsed_ms": 1317,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2188,7 +2188,7 @@
         "https://www.hc-chennai.gov.lk/",
         "https://www.hc-chennai.gov.lk/en"
       ],
-      "elapsed_ms": 935,
+      "elapsed_ms": 1750,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2200,7 +2200,7 @@
         "https://www.hc-chennai.gov.lk/",
         "https://www.hc-chennai.gov.lk/en"
       ],
-      "elapsed_ms": 1115,
+      "elapsed_ms": 1010,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2209,7 +2209,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-chennai.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 973,
+      "elapsed_ms": 1067,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2220,7 +2220,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/passport-services"
       ],
-      "elapsed_ms": 986,
+      "elapsed_ms": 773,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2229,7 +2229,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-chennai.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2291,
+      "elapsed_ms": 2279,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2240,7 +2240,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7"
       ],
-      "elapsed_ms": 2195,
+      "elapsed_ms": 2685,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2251,7 +2251,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3"
       ],
-      "elapsed_ms": 2116,
+      "elapsed_ms": 2282,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2262,7 +2262,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915"
       ],
-      "elapsed_ms": 2291,
+      "elapsed_ms": 2642,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2273,7 +2273,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf"
       ],
-      "elapsed_ms": 2077,
+      "elapsed_ms": 2270,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2284,7 +2284,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e"
       ],
-      "elapsed_ms": 3164,
+      "elapsed_ms": 2746,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2295,7 +2295,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345"
       ],
-      "elapsed_ms": 3287,
+      "elapsed_ms": 2754,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2306,7 +2306,7 @@
       "redirects": [
         "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955"
       ],
-      "elapsed_ms": 2836,
+      "elapsed_ms": 2390,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2314,86 +2314,86 @@
   "snapshots": [
     {
       "url": "https://www.hc-chennai.gov.lk/en",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-01-ae54576add52.html",
-      "sha256": "ae54576add522f43365da28548e3a90b8ba04dffda6e78247a86b5715ca6d50c",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-01-2e0faa6c5cef.html",
+      "sha256": "2e0faa6c5ceff12afd2bd68f004f0f6263f6fcf8acc73b258184511d938ab5eb",
       "bytes": 288645
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-02-c1c0baa27ae5.html",
-      "sha256": "c1c0baa27ae574d81de97fe40322c94bd2e4e0ec2f07fbabb222c90127725a6d",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-02-5c30c45b1473.html",
+      "sha256": "5c30c45b1473867d9541153731e74131b2d9031add932658d1f8abec54c9edb7",
       "bytes": 288645
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-03-fb12f9163b66.html",
-      "sha256": "fb12f9163b662df27f38fd41a3e048ad4be692b7d28b0d81876aaa2e8c5bc72e",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-03-df0414cd60ed.html",
+      "sha256": "df0414cd60edbc5e5c252072e5fd32aae506515ce0c68b61ecbd57fa5fc47e61",
       "bytes": 288645
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-04-91b5f3b5e507.html",
-      "sha256": "91b5f3b5e507c7fd0ec60b7e7161055047f9bc2825edf48d5fed2da6ad300ccb",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-04-b22ab173a203.html",
+      "sha256": "b22ab173a203e79e831adf1f607908e8084011eca8a5d8d62ac1daaa24cce568",
       "bytes": 288645
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/contact",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-05-e56799477a11.html",
-      "sha256": "e56799477a11c25d37cdd0f67fec14180f962d699273c5ef1500b97c08ba6f95",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-05-ce7549a8ea1c.html",
+      "sha256": "ce7549a8ea1cf177a473cba65f93430f10a5ceb6297ce9697857ca8a92ea8c8c",
       "bytes": 96184
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/passport-services",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-06-2e8b81e194a7.html",
-      "sha256": "2e8b81e194a714602f4adee2485509b6b95f11817be2ac41cdf4fd89bd3c1189",
-      "bytes": 88061
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-06-6e3a6b1103f5.html",
+      "sha256": "6e3a6b1103f59d5face98c6495498e9f74979b694136881381168ac9326d21eb",
+      "bytes": 88161
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-07-56bd59e93860.html",
-      "sha256": "56bd59e93860b1272b8baeadbab1666da32d8381300ff452d92ee886748c77b2",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-07-fcecbd66f9ed.html",
+      "sha256": "fcecbd66f9ed533686a67e090546094f979432153c509b420d8fd7b2bc80ab2b",
       "bytes": 310998
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf0f54dd22c8f25d8e7",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-08-54984d329b42.html",
-      "sha256": "54984d329b42b161e894c48033a0c134cff19a3898229e7dd5abd6e4f6bb41f0",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-08-2101f5b9fc38.html",
+      "sha256": "2101f5b9fc3854a570ab0024bf7c98652d8c7d3db203dce282e04a50fe7b953f",
       "bytes": 311153
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267ceef54dd22c8f25d8c3",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-09-21c924b691cd.html",
-      "sha256": "21c924b691cdf350b1f362f6d487dddd69223045c9f7bd7569b3d3f7598cc257",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-09-b0c0ed2b4511.html",
+      "sha256": "b0c0ed2b4511f155e34296e2a65d9f3b0aa695e9c0e8fbfdddbd20397a81c3ac",
       "bytes": 311153
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf5f54dd22c8f25d915",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-10-40777e84d024.html",
-      "sha256": "40777e84d0244f20f12f09f705929ff62b5cd95bd65492850160ba0a2fb6078c",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-10-db1acdf21bbf.html",
+      "sha256": "db1acdf21bbfc77e40758dd9f436e87cd734aa4c7b2389b63f3f6dd2265223d3",
       "bytes": 311153
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cb756cd48627f23a1cf",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-11-b409977f86fb.html",
-      "sha256": "b409977f86fb985439875e3664dd744925f724b1aed3684c8bd8824a60ecf590",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-11-5c23fcc46de9.html",
+      "sha256": "5c23fcc46de90bf7b5c074dab6b76ce7dd9361e736ac76624064d8b635b70c05",
       "bytes": 311153
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a269567f54dd22c8f26158e",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-12-d6474859717e.html",
-      "sha256": "d6474859717edc34688bef8fea6183f9ec8d977e12a139dec96addae5bd470b9",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-12-327be0303abc.html",
+      "sha256": "327be0303abc964ab82218608afb7b2109a6e6091dc1f0b3046a0e00ea40a723",
       "bytes": 311153
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf256cd48627f23a345",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-13-e521b8fb9893.html",
-      "sha256": "e521b8fb9893a1dc004a5ec29e5299a550da821443d07188d149c943a0ffce1f",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-13-415ee44dfb10.html",
+      "sha256": "415ee44dfb10ab46c945098a1489dac758f02eb7df34c5c3b7a478e8c297cee5",
       "bytes": 311153
     },
     {
       "url": "https://www.hc-chennai.gov.lk/en/appointment?serviceId=6a267cf9f54dd22c8f25d955",
-      "path": "audit.output/hc-chennai.gov.lk/20260926.0628/snapshots/page-14-c970f1e6ae70.html",
-      "sha256": "c970f1e6ae705a9d0a13b0c75c455389f1613db1fb5fea872d243551ef81afc2",
+      "path": "audit.output/hc-chennai.gov.lk/20260927.0634/snapshots/page-14-0b49a979f79a.html",
+      "sha256": "0b49a979f79a2af8f5b72a47c55dcf8a72e824b6afd17f114f470a8bf7017fb2",
       "bytes": 311153
     }
   ],
@@ -2480,7 +2480,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Sri Lanka Deputy High Commission No. 56, Sterling Road Nungambakkam Chennai - 600 034 Phone: +91 44 28241896 , +91 44 28; Phone: +919840064128 (17 phone numbers found); Email: john@example.com (5 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: Sri Lanka Deputy High Commission No. 56, Sterling Road Nungambakkam Chennai - 600 034 Phone: +91 44 28241896 , +91 44 28; Phone: 0812679167 (17 phone numbers found); Email: john@example.com (5 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2493,7 +2493,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +919840064128 (17 phone numbers found); Email: john@example.com (5 email addresses found)"
+          "reason": "Phone: 0812679167 (17 phone numbers found); Email: john@example.com (5 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2572,7 +2572,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "a0ac0d75-8e75-42c5-9335-3876b04e3692",
+  "audit_id": "5d982a9e-8079-4931-b9f0-d914fee160c9",
   "url": "https://bmc.lk/en",
   "normalized_url": "https://bmc.lk/en",
-  "started_at": "2026-09-26T06:39:04.719590+05:30",
-  "completed_at": "2026-09-26T06:39:19.048841+05:30",
+  "started_at": "2026-09-27T06:44:17.062077+05:30",
+  "completed_at": "2026-09-27T06:44:28.646714+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,82 +26,82 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:39:05.062078+05:30"
+      "observed_at": "2026-09-27T06:44:17.309545+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:39:05.062099+05:30"
+      "observed_at": "2026-09-27T06:44:17.309565+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:39:05.259943+05:30"
+      "observed_at": "2026-09-27T06:44:17.422953+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://bmc.lk/en",
       "source": "https://bmc.lk/en",
-      "observed_at": "2026-09-26T06:39:16.724462+05:30"
+      "observed_at": "2026-09-27T06:44:28.433236+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://bmc.lk/en",
       "source": "http://bmc.lk/en",
-      "observed_at": "2026-09-26T06:39:16.724481+05:30"
+      "observed_at": "2026-09-27T06:44:28.433254+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://bmc.lk/en",
       "source": "https://bmc.lk/en",
-      "observed_at": "2026-09-26T06:39:16.724487+05:30"
+      "observed_at": "2026-09-27T06:44:28.433258+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://bmc.lk/en",
       "source": "http://bmc.lk/en",
-      "observed_at": "2026-09-26T06:39:16.724490+05:30"
+      "observed_at": "2026-09-27T06:44:28.433262+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://bmc.lk/en/contact",
       "source": "https://bmc.lk/en/contact",
-      "observed_at": "2026-09-26T06:39:16.724494+05:30"
+      "observed_at": "2026-09-27T06:44:28.433264+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://bmc.lk/en/about",
       "source": "https://bmc.lk/en/about",
-      "observed_at": "2026-09-26T06:39:16.724496+05:30"
+      "observed_at": "2026-09-27T06:44:28.433267+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://bmc.lk/en/history",
       "source": "https://bmc.lk/en/history",
-      "observed_at": "2026-09-26T06:39:16.724498+05:30"
+      "observed_at": "2026-09-27T06:44:28.433270+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://bmc.lk/en/leadership",
       "source": "https://bmc.lk/en/leadership",
-      "observed_at": "2026-09-26T06:39:16.724500+05:30"
+      "observed_at": "2026-09-27T06:44:28.433273+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://bmc.lk/en/news-events",
       "source": "https://bmc.lk/en/news-events",
-      "observed_at": "2026-09-26T06:39:16.724504+05:30"
+      "observed_at": "2026-09-27T06:44:28.433275+05:30"
     },
     {
       "check": "phone",
@@ -124,19 +124,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -196,19 +196,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -268,19 +268,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -340,19 +340,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -394,55 +394,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011 263 7340 ",
-      "source": "https://bmc.lk/en/contact",
-      "data": {
-        "value": "011 263 7340 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 047 226 1620 ",
-      "source": "https://bmc.lk/en/contact",
-      "data": {
-        "value": "047 226 1620 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en/contact",
       "data": {
         "value": "+94 11 232 6701 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2 326 701 ",
-      "source": "https://bmc.lk/en/contact",
-      "data": {
-        "value": "+94 11 2 326 701 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0484562807",
-      "source": "https://bmc.lk/en/contact",
-      "data": {
-        "value": "0484562807"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 065 222 2023 ",
-      "source": "https://bmc.lk/en/contact",
-      "data": {
-        "value": "065 222 2023 "
       }
     },
     {
@@ -457,19 +412,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 047 222 5395 ",
+      "detail": "Published phone: 041 223 2366 ",
       "source": "https://bmc.lk/en/contact",
       "data": {
-        "value": "047 222 5395 "
+        "value": "041 223 2366 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 041 223 2366 ",
+      "detail": "Published phone: 065 222 2023 ",
       "source": "https://bmc.lk/en/contact",
       "data": {
-        "value": "041 223 2366 "
+        "value": "065 222 2023 "
       }
     },
     {
@@ -484,28 +439,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 081 222 3855 ",
+      "detail": "Published phone: +94 11 2 326 701 ",
       "source": "https://bmc.lk/en/contact",
       "data": {
-        "value": "081 222 3855 "
+        "value": "+94 11 2 326 701 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701",
+      "detail": "Published phone: 011 263 7340 ",
       "source": "https://bmc.lk/en/contact",
       "data": {
-        "value": "+94 11 232 6701"
+        "value": "011 263 7340 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 034 222 1031 ",
+      "detail": "Published phone: 047 222 5395 ",
       "source": "https://bmc.lk/en/contact",
       "data": {
-        "value": "034 222 1031 "
+        "value": "047 222 5395 "
       }
     },
     {
@@ -520,10 +475,55 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 232 6701",
+      "source": "https://bmc.lk/en/contact",
+      "data": {
+        "value": "+94 11 232 6701"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 045 222 6180 ",
       "source": "https://bmc.lk/en/contact",
       "data": {
         "value": "045 222 6180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0484562807",
+      "source": "https://bmc.lk/en/contact",
+      "data": {
+        "value": "0484562807"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 047 226 1620 ",
+      "source": "https://bmc.lk/en/contact",
+      "data": {
+        "value": "047 226 1620 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 081 222 3855 ",
+      "source": "https://bmc.lk/en/contact",
+      "data": {
+        "value": "081 222 3855 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 034 222 1031 ",
+      "source": "https://bmc.lk/en/contact",
+      "data": {
+        "value": "034 222 1031 "
       }
     },
     {
@@ -592,19 +592,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en/about",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en/about",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -664,19 +664,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en/history",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en/history",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -736,19 +736,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en/leadership",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en/leadership",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -808,19 +808,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 232 6701 ",
+      "detail": "Published phone: 0484562807",
       "source": "https://bmc.lk/en/news-events",
       "data": {
-        "value": "+94 11 232 6701 "
+        "value": "0484562807"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0484562807",
+      "detail": "Published phone: +94 11 232 6701 ",
       "source": "https://bmc.lk/en/news-events",
       "data": {
-        "value": "0484562807"
+        "value": "+94 11 232 6701 "
       }
     },
     {
@@ -893,7 +893,7 @@
       "status_code": 200,
       "final_url": "https://bmc.lk/en",
       "redirects": [],
-      "elapsed_ms": 1755,
+      "elapsed_ms": 1795,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -904,7 +904,7 @@
       "redirects": [
         "https://bmc.lk/en"
       ],
-      "elapsed_ms": 333,
+      "elapsed_ms": 209,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -913,7 +913,7 @@
       "status_code": 200,
       "final_url": "https://bmc.lk/en",
       "redirects": [],
-      "elapsed_ms": 260,
+      "elapsed_ms": 168,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -924,7 +924,7 @@
       "redirects": [
         "https://bmc.lk/en"
       ],
-      "elapsed_ms": 315,
+      "elapsed_ms": 165,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -933,7 +933,7 @@
       "status_code": 200,
       "final_url": "https://bmc.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 268,
+      "elapsed_ms": 131,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -942,7 +942,7 @@
       "status_code": 200,
       "final_url": "https://bmc.lk/en/about",
       "redirects": [],
-      "elapsed_ms": 407,
+      "elapsed_ms": 104,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -951,7 +951,7 @@
       "status_code": 200,
       "final_url": "https://bmc.lk/en/history",
       "redirects": [],
-      "elapsed_ms": 247,
+      "elapsed_ms": 89,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -960,7 +960,7 @@
       "status_code": 200,
       "final_url": "https://bmc.lk/en/leadership",
       "redirects": [],
-      "elapsed_ms": 251,
+      "elapsed_ms": 165,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -969,7 +969,7 @@
       "status_code": 200,
       "final_url": "https://bmc.lk/en/news-events",
       "redirects": [],
-      "elapsed_ms": 458,
+      "elapsed_ms": 171,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -977,56 +977,56 @@
   "snapshots": [
     {
       "url": "https://bmc.lk/en",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-01-d0b2e9db5047.html",
-      "sha256": "d0b2e9db5047d3681cf805d71db99c68978bdadcedba257fb9393c6c1a16d404",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-01-cec724192482.html",
+      "sha256": "cec724192482e65185f194bc6c5e9afeee20a7374d27a0240b4b2415b79a879f",
       "bytes": 105692
     },
     {
       "url": "https://bmc.lk/en",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-02-5de4bbf87378.html",
-      "sha256": "5de4bbf873784bca4160b63da3241a55126155f59303fc548c51009247febae5",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-02-03f5a364796a.html",
+      "sha256": "03f5a364796af420821e494045a16ca64513e001f6adf28dc9235d5becfd94bf",
       "bytes": 105692
     },
     {
       "url": "https://bmc.lk/en",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-03-5923bd3f1d3c.html",
-      "sha256": "5923bd3f1d3cbf59c32a674589775b48cc7c213ec8e91826d6f2775b32cbcfda",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-03-2707ea3f2e69.html",
+      "sha256": "2707ea3f2e694fbc9fa8c747a754a56eef083b06943af2bab3078011cb428954",
       "bytes": 105692
     },
     {
       "url": "https://bmc.lk/en",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-04-63dbea0fcc87.html",
-      "sha256": "63dbea0fcc87ac2fee107f883d095a89ede8dad317808ec88465239724473ca1",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-04-3905878b0b02.html",
+      "sha256": "3905878b0b020e501800d94871b417e8b04fd5fd1adbaca3340b891fdb0a18b7",
       "bytes": 105692
     },
     {
       "url": "https://bmc.lk/en/contact",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-05-743f76c30dac.html",
-      "sha256": "743f76c30dace5c09c81b915c12a45d31ee0dc8b4e2d80e4cebded01428b52b7",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-05-7048e74f9545.html",
+      "sha256": "7048e74f954527a101f7282624243c2cd037e9111ea872a097f5e1c0a5200edf",
       "bytes": 65620
     },
     {
       "url": "https://bmc.lk/en/about",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-06-2512827bb847.html",
-      "sha256": "2512827bb84762403bb3841ae616558ebc049d551d4384c89b57a17c6c9bea68",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-06-7e63d946bf45.html",
+      "sha256": "7e63d946bf4543d431927cdbf3cdd59882f62b8e9f31cf118071a4a2c942c4d2",
       "bytes": 64995
     },
     {
       "url": "https://bmc.lk/en/history",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-07-facf4ff0c4b8.html",
-      "sha256": "facf4ff0c4b818fc1ebda8ba22e08d0373dd005e777f9f7fb145efa1b19693a7",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-07-ec3c9e04099f.html",
+      "sha256": "ec3c9e04099ff4baecf989b395d116630581d962fdf580dc2fa4fd8ffab18873",
       "bytes": 72158
     },
     {
       "url": "https://bmc.lk/en/leadership",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-08-eb675aa7c40b.html",
-      "sha256": "eb675aa7c40b191f0d4cff309dfd489922c2e94d9586adcd4ea8f64340fcb81a",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-08-045397e060e9.html",
+      "sha256": "045397e060e9ab82bd8cf252e460549506fd5f2fb5cf758b7247f3aa3345feab",
       "bytes": 54395
     },
     {
       "url": "https://bmc.lk/en/news-events",
-      "path": "audit.output/bmc.lk/20260926.0639/snapshots/page-09-7d1bca3b861a.html",
-      "sha256": "7d1bca3b861a3af77db116b517cd4ebf43ef62067fe1826a8c74daba935294ee",
+      "path": "audit.output/bmc.lk/20260927.0644/snapshots/page-09-ff2c078c3225.html",
+      "sha256": "ff2c078c3225c0139bde8139deca05d16b0dbe96df86a91a8fb7db29ef4986d5",
       "bytes": 58077
     }
   ],
@@ -1205,7 +1205,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

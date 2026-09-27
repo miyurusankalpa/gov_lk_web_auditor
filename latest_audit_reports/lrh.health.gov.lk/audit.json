@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "1f4a6181-7a35-4717-ad25-3d09678f97b1",
+  "audit_id": "e9e2b6b3-f34c-4fef-a85d-0ab5e4ed9bee",
   "url": "https://lrh.health.gov.lk/",
   "normalized_url": "https://lrh.health.gov.lk/",
-  "started_at": "2026-09-26T06:37:12.303926+05:30",
-  "completed_at": "2026-09-26T06:37:41.417290+05:30",
+  "started_at": "2026-09-27T06:42:30.155863+05:30",
+  "completed_at": "2026-09-27T06:43:06.141117+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:37:12.908562+05:30"
+      "observed_at": "2026-09-27T06:42:30.445003+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:37:12.908578+05:30"
+      "observed_at": "2026-09-27T06:42:30.445026+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:37:13.643221+05:30"
+      "observed_at": "2026-09-27T06:42:30.891515+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://lrh.health.gov.lk/",
       "source": "https://lrh.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:40.904906+05:30"
+      "observed_at": "2026-09-27T06:43:04.012466+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://lrh.health.gov.lk/",
       "source": "http://lrh.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:40.904923+05:30"
+      "observed_at": "2026-09-27T06:43:04.012485+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://lrh.health.gov.lk/",
       "source": "https://lrh.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:40.904927+05:30"
+      "observed_at": "2026-09-27T06:43:04.012489+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://lrh.health.gov.lk/",
       "source": "http://lrh.health.gov.lk/",
-      "observed_at": "2026-09-26T06:37:40.904930+05:30"
+      "observed_at": "2026-09-27T06:43:04.012492+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://lrh.health.gov.lk/autism-services/",
       "source": "https://lrh.health.gov.lk/autism-services/",
-      "observed_at": "2026-09-26T06:37:40.904932+05:30"
+      "observed_at": "2026-09-27T06:43:04.012495+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://lrh.health.gov.lk/departments/",
       "source": "https://lrh.health.gov.lk/departments/",
-      "observed_at": "2026-09-26T06:37:40.904935+05:30"
+      "observed_at": "2026-09-27T06:43:04.012498+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://lrh.health.gov.lk/departments4/outpatientdepartment/",
       "source": "https://lrh.health.gov.lk/departments4/outpatientdepartment/",
-      "observed_at": "2026-09-26T06:37:40.904937+05:30"
+      "observed_at": "2026-09-27T06:43:04.012500+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://lrh.health.gov.lk/departments4/clinic-section/",
       "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
-      "observed_at": "2026-09-26T06:37:40.904939+05:30"
+      "observed_at": "2026-09-27T06:43:04.012503+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://lrh.health.gov.lk/departments4/special-services-2/",
       "source": "https://lrh.health.gov.lk/departments4/special-services-2/",
-      "observed_at": "2026-09-26T06:37:40.904942+05:30"
+      "observed_at": "2026-09-27T06:43:04.012505+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://lrh.health.gov.lk/departments4/specialist-services-2/",
       "source": "https://lrh.health.gov.lk/departments4/specialist-services-2/",
-      "observed_at": "2026-09-26T06:37:40.904944+05:30"
+      "observed_at": "2026-09-27T06:43:04.012509+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
       "source": "https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
-      "observed_at": "2026-09-26T06:37:40.904947+05:30"
+      "observed_at": "2026-09-27T06:43:04.012511+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://lrh.health.gov.lk/departments4/laboratory-services-2/",
       "source": "https://lrh.health.gov.lk/departments4/laboratory-services-2/",
-      "observed_at": "2026-09-26T06:37:40.904949+05:30"
+      "observed_at": "2026-09-27T06:43:04.012514+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://lrh.health.gov.lk/departments4/paediatric-radiology/",
       "source": "https://lrh.health.gov.lk/departments4/paediatric-radiology/",
-      "observed_at": "2026-09-26T06:37:40.904951+05:30"
+      "observed_at": "2026-09-27T06:43:04.012517+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://lrh.health.gov.lk/departments4/blood-bank/",
       "source": "https://lrh.health.gov.lk/departments4/blood-bank/",
-      "observed_at": "2026-09-26T06:37:40.904953+05:30"
+      "observed_at": "2026-09-27T06:43:04.012519+05:30"
     },
     {
       "check": "phone",
@@ -145,15 +145,6 @@
       "source": "https://lrh.health.gov.lk/",
       "data": {
         "value": "0000008180"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/",
-      "data": {
-        "value": "0212707519"
       }
     },
     {
@@ -181,6 +172,15 @@
       "source": "https://lrh.health.gov.lk/",
       "data": {
         "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -222,15 +222,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/",
-      "data": {
-        "value": "0212707519"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0539140313",
       "source": "https://lrh.health.gov.lk/",
       "data": {
@@ -253,6 +244,15 @@
       "source": "https://lrh.health.gov.lk/",
       "data": {
         "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -294,15 +294,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/",
-      "data": {
-        "value": "0212707519"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0539140313",
       "source": "https://lrh.health.gov.lk/",
       "data": {
@@ -325,6 +316,15 @@
       "source": "https://lrh.health.gov.lk/",
       "data": {
         "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -366,15 +366,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/",
-      "data": {
-        "value": "0212707519"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0539140313",
       "source": "https://lrh.health.gov.lk/",
       "data": {
@@ -397,6 +388,15 @@
       "source": "https://lrh.health.gov.lk/",
       "data": {
         "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -447,19 +447,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/autism-services/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/autism-services/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -483,10 +474,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/autism-services/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/autism-services/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -537,19 +537,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -573,10 +564,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -618,19 +618,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments4/outpatientdepartment/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments4/outpatientdepartment/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -654,10 +645,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments4/outpatientdepartment/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments4/outpatientdepartment/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -681,6 +681,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0703316163 ",
+      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
+      "data": {
+        "value": "0703316163 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0000008180",
       "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
       "data": {
@@ -699,10 +708,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2693712 ",
+      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
+      "data": {
+        "value": "+94 11 2693712 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0703105985 ",
       "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
       "data": {
         "value": "0703105985 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0539140313",
+      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
+      "data": {
+        "value": "0539140313"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0000000000",
+      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
+      "data": {
+        "value": "0000000000"
       }
     },
     {
@@ -721,42 +757,6 @@
       "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
       "data": {
         "value": "0212707519"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0539140313",
-      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
-      "data": {
-        "value": "0539140313"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0703316163 ",
-      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
-      "data": {
-        "value": "0703316163 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0000000000",
-      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
-      "data": {
-        "value": "0000000000"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
-      "source": "https://lrh.health.gov.lk/departments4/clinic-section/",
-      "data": {
-        "value": "+94 11 2693712 "
       }
     },
     {
@@ -807,19 +807,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments4/special-services-2/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments4/special-services-2/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -843,10 +834,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments4/special-services-2/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments4/special-services-2/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -888,19 +888,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments4/specialist-services-2/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments4/specialist-services-2/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -924,10 +915,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments4/specialist-services-2/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments4/specialist-services-2/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -969,19 +969,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -1005,10 +996,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -1050,19 +1050,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments4/laboratory-services-2/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments4/laboratory-services-2/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -1086,10 +1077,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments4/laboratory-services-2/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments4/laboratory-services-2/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -1131,19 +1131,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments4/paediatric-radiology/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments4/paediatric-radiology/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -1167,10 +1158,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments4/paediatric-radiology/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments4/paediatric-radiology/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -1221,19 +1221,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0954586231",
+      "detail": "Published phone: +94 11 2693712 ",
       "source": "https://lrh.health.gov.lk/departments4/blood-bank/",
       "data": {
-        "value": "0954586231"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0212707519",
-      "source": "https://lrh.health.gov.lk/departments4/blood-bank/",
-      "data": {
-        "value": "0212707519"
+        "value": "+94 11 2693712 "
       }
     },
     {
@@ -1257,10 +1248,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2693712 ",
+      "detail": "Published phone: 0954586231",
       "source": "https://lrh.health.gov.lk/departments4/blood-bank/",
       "data": {
-        "value": "+94 11 2693712 "
+        "value": "0954586231"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0212707519",
+      "source": "https://lrh.health.gov.lk/departments4/blood-bank/",
+      "data": {
+        "value": "0212707519"
       }
     },
     {
@@ -1324,7 +1324,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 760,
+      "elapsed_ms": 637,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1335,7 +1335,7 @@
       "redirects": [
         "https://lrh.health.gov.lk/"
       ],
-      "elapsed_ms": 3157,
+      "elapsed_ms": 636,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1344,7 +1344,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 5446,
+      "elapsed_ms": 386,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1355,7 +1355,7 @@
       "redirects": [
         "https://lrh.health.gov.lk/"
       ],
-      "elapsed_ms": 547,
+      "elapsed_ms": 5556,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1364,7 +1364,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/autism-services/",
       "redirects": [],
-      "elapsed_ms": 583,
+      "elapsed_ms": 7618,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1373,7 +1373,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments/",
       "redirects": [],
-      "elapsed_ms": 742,
+      "elapsed_ms": 2765,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1382,7 +1382,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/outpatientdepartment/",
       "redirects": [],
-      "elapsed_ms": 571,
+      "elapsed_ms": 381,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1391,7 +1391,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/clinic-section/",
       "redirects": [],
-      "elapsed_ms": 584,
+      "elapsed_ms": 667,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1400,8 +1400,8 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/special-services-2/",
       "redirects": [],
-      "elapsed_ms": 615,
-      "content_type": "text/html; charset=utf-8",
+      "elapsed_ms": 2235,
+      "content_type": "text/html; charset=UTF-8",
       "error": null
     },
     {
@@ -1409,7 +1409,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/specialist-services-2/",
       "redirects": [],
-      "elapsed_ms": 779,
+      "elapsed_ms": 404,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1418,8 +1418,8 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
       "redirects": [],
-      "elapsed_ms": 2309,
-      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 617,
+      "content_type": "text/html; charset=utf-8",
       "error": null
     },
     {
@@ -1427,7 +1427,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/laboratory-services-2/",
       "redirects": [],
-      "elapsed_ms": 550,
+      "elapsed_ms": 377,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1436,7 +1436,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/paediatric-radiology/",
       "redirects": [],
-      "elapsed_ms": 689,
+      "elapsed_ms": 403,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1445,7 +1445,7 @@
       "status_code": 200,
       "final_url": "https://lrh.health.gov.lk/departments4/blood-bank/",
       "redirects": [],
-      "elapsed_ms": 612,
+      "elapsed_ms": 641,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1453,87 +1453,87 @@
   "snapshots": [
     {
       "url": "https://lrh.health.gov.lk/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-01-1e3573462780.html",
-      "sha256": "1e35734627809b38adfdf759a800c1d52058879fddda7df777f12147db4e197b",
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-01-71f4ae399351.html",
+      "sha256": "71f4ae3993510e7fb5fc529597e976c39939363009a0d2009641c140621fc0db",
       "bytes": 75112
     },
     {
       "url": "https://lrh.health.gov.lk/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-02-1e3573462780.html",
-      "sha256": "1e35734627809b38adfdf759a800c1d52058879fddda7df777f12147db4e197b",
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-02-71f4ae399351.html",
+      "sha256": "71f4ae3993510e7fb5fc529597e976c39939363009a0d2009641c140621fc0db",
       "bytes": 75112
     },
     {
       "url": "https://lrh.health.gov.lk/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-03-1e3573462780.html",
-      "sha256": "1e35734627809b38adfdf759a800c1d52058879fddda7df777f12147db4e197b",
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-03-71f4ae399351.html",
+      "sha256": "71f4ae3993510e7fb5fc529597e976c39939363009a0d2009641c140621fc0db",
       "bytes": 75112
     },
     {
       "url": "https://lrh.health.gov.lk/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-04-1e3573462780.html",
-      "sha256": "1e35734627809b38adfdf759a800c1d52058879fddda7df777f12147db4e197b",
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-04-71f4ae399351.html",
+      "sha256": "71f4ae3993510e7fb5fc529597e976c39939363009a0d2009641c140621fc0db",
       "bytes": 75112
     },
     {
       "url": "https://lrh.health.gov.lk/autism-services/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-05-325855c52531.html",
-      "sha256": "325855c52531490d7292905b3417742ef745c355792dc6bfdb05b2fed790ccb1",
-      "bytes": 78838
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-05-47f6f1d323c6.html",
+      "sha256": "47f6f1d323c6c18c4481e9cceb2993bc34f5e6b96cdf50cf3cb4991c0f49c298",
+      "bytes": 78852
     },
     {
       "url": "https://lrh.health.gov.lk/departments/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-06-52d30f60ed77.html",
-      "sha256": "52d30f60ed775370cdb66d1035a1bdf1c752f1c8ffbc484652060550fd4025ef",
-      "bytes": 84548
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-06-e238541104af.html",
+      "sha256": "e238541104affa928b571344c473bd79e384a0a2e25c998853068d8dbef0b4c3",
+      "bytes": 84555
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/outpatientdepartment/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-07-bf3581cadbd0.html",
-      "sha256": "bf3581cadbd01345f9778d3b5240455bd6dc233ec41ce59c4d761d8110fb27fc",
-      "bytes": 76626
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-07-ae9a72cad384.html",
+      "sha256": "ae9a72cad3844cf2bdaf7c09b134d407b161d08f25600b4d451a2f9e5b1ec184",
+      "bytes": 76638
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/clinic-section/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-08-881012f0915b.html",
-      "sha256": "881012f0915b95bc74102c7bb5fac67fcbd16ed9eb0bea3d2364b1a72d719b9a",
-      "bytes": 102839
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-08-5019c772a428.html",
+      "sha256": "5019c772a42869b2b0b62cfde08aa2484bc7da5d12103ac3ae3c7fbb5fc6a8f5",
+      "bytes": 102827
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/special-services-2/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-09-72a3941cf8b6.html",
-      "sha256": "72a3941cf8b6c9fe1d48e55a0f1a98463c3cc27f83000c39d3d9e4ce3ba392a8",
-      "bytes": 80187
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-09-57034caa18e2.html",
+      "sha256": "57034caa18e25dd86beb4bc10ca48f571087babffb0d03229aa5c5672da5eca5",
+      "bytes": 80175
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/specialist-services-2/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-10-a38ebca2a159.html",
-      "sha256": "a38ebca2a159783711987eab1587df65823bc8c73fd62731f092ecbbab27c070",
-      "bytes": 88506
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-10-326949325314.html",
+      "sha256": "326949325314000e149cc4e53a971c3ebac663a0aee0e5b3d577c906a6794fcc",
+      "bytes": 88518
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/operating-theatres-and-intensive-care-units-2/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-11-04f2efd377b4.html",
-      "sha256": "04f2efd377b4238f7e94f3d66e80d2c19961896a0a7307b85553902a3d349eef",
-      "bytes": 77990
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-11-edacad68ce2d.html",
+      "sha256": "edacad68ce2da0a77a459a1ccd74c1affe9acb6ed4395e1b15fc76a69fc80417",
+      "bytes": 78002
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/laboratory-services-2/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-12-32bd6d3d01fb.html",
-      "sha256": "32bd6d3d01fb11807ba29d87f6eabe66f25f621200cff7127594a420775ccaee",
-      "bytes": 76451
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-12-3cf659e4b8ba.html",
+      "sha256": "3cf659e4b8ba43805991eea17ab4693e37aeb8a2ce550149c14fbf7babbd0013",
+      "bytes": 76463
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/paediatric-radiology/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-13-e9053262ca85.html",
-      "sha256": "e9053262ca852342e51e8a8b04de167c1f6902b24804e4703136bfb55ce4a6af",
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-13-9d4ee38ddbe9.html",
+      "sha256": "9d4ee38ddbe95f17fa9165e1d9b26a84c70dc30309c4badf2373197757514cf5",
       "bytes": 83224
     },
     {
       "url": "https://lrh.health.gov.lk/departments4/blood-bank/",
-      "path": "audit.output/lrh.health.gov.lk/20260926.0637/snapshots/page-14-e57a3a0ccae5.html",
-      "sha256": "e57a3a0ccae5ba1426e896579ef3e6c920d1234bc628857609b0f7bf53394996",
-      "bytes": 81183
+      "path": "audit.output/lrh.health.gov.lk/20260927.0642/snapshots/page-14-b0f18768a0cf.html",
+      "sha256": "b0f18768a0cfdfb59473e5daacb7aceacee88908531cb4bc197d46bad84b9754",
+      "bytes": 81157
     }
   ],
   "reviewer_decisions": [],
@@ -1668,7 +1668,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

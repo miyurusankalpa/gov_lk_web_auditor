@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "d646f5e9-492d-446e-8e04-111576a244c4",
+  "audit_id": "382e1715-e37a-4fa0-826b-2ece145e5c9a",
   "url": "https://www.languagesdept.gov.lk/",
   "normalized_url": "https://www.languagesdept.gov.lk/",
-  "started_at": "2026-09-26T06:41:29.725388+05:30",
-  "completed_at": "2026-09-26T06:41:47.328136+05:30",
+  "started_at": "2026-09-27T06:46:56.255600+05:30",
+  "completed_at": "2026-09-27T06:47:16.755652+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:41:30.250949+05:30"
+      "observed_at": "2026-09-27T06:46:56.653257+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:41:30.250967+05:30"
+      "observed_at": "2026-09-27T06:46:56.653281+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:41:30.758784+05:30"
+      "observed_at": "2026-09-27T06:46:57.403190+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.languagesdept.gov.lk/",
       "source": "https://www.languagesdept.gov.lk/",
-      "observed_at": "2026-09-26T06:41:46.775725+05:30"
+      "observed_at": "2026-09-27T06:47:14.044967+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at http://www.languagesdept.gov.lk/",
       "source": "http://www.languagesdept.gov.lk/",
-      "observed_at": "2026-09-26T06:41:46.775738+05:30"
+      "observed_at": "2026-09-27T06:47:14.044986+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.languagesdept.gov.lk/",
       "source": "https://www.languagesdept.gov.lk/",
-      "observed_at": "2026-09-26T06:41:46.775742+05:30"
+      "observed_at": "2026-09-27T06:47:14.044990+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at http://www.languagesdept.gov.lk/",
       "source": "http://www.languagesdept.gov.lk/",
-      "observed_at": "2026-09-26T06:41:46.775744+05:30"
+      "observed_at": "2026-09-27T06:47:14.044993+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.languagesdept.gov.lk/web/index.php?lang=si",
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=si",
-      "observed_at": "2026-09-26T06:41:46.775747+05:30"
+      "observed_at": "2026-09-27T06:47:14.044996+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=ta",
-      "observed_at": "2026-09-26T06:41:46.775749+05:30"
+      "observed_at": "2026-09-27T06:47:14.045000+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.languagesdept.gov.lk/web/index.php?lang=en",
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=en",
-      "observed_at": "2026-09-26T06:41:46.775751+05:30"
+      "observed_at": "2026-09-27T06:47:14.045002+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at http://www.languagesdept.gov.lk/web/index.php?lang=si",
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=si",
-      "observed_at": "2026-09-26T06:41:46.775754+05:30"
+      "observed_at": "2026-09-27T06:47:14.045005+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at http://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=ta",
-      "observed_at": "2026-09-26T06:41:46.775756+05:30"
+      "observed_at": "2026-09-27T06:47:14.045008+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at http://www.languagesdept.gov.lk/web/index.php?lang=en",
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=en",
-      "observed_at": "2026-09-26T06:41:46.775758+05:30"
+      "observed_at": "2026-09-27T06:47:14.045011+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "observed_at": "2026-09-26T06:41:46.775760+05:30"
+      "observed_at": "2026-09-27T06:47:14.045014+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
-      "observed_at": "2026-09-26T06:41:46.775763+05:30"
+      "observed_at": "2026-09-27T06:47:14.045017+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
-      "observed_at": "2026-09-26T06:41:46.775765+05:30"
+      "observed_at": "2026-09-27T06:47:14.045020+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=article&id=9&Itemid=128&lang=si",
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=article&id=9&Itemid=128&lang=si",
-      "observed_at": "2026-09-26T06:41:46.775766+05:30"
+      "observed_at": "2026-09-27T06:47:14.045023+05:30"
     },
     {
       "check": "named_responsibility",
@@ -177,15 +177,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "https://www.languagesdept.gov.lk/web/index.php?lang=si",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=si",
       "data": {
@@ -199,6 +190,15 @@
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=si",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "https://www.languagesdept.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -231,15 +231,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "https://www.languagesdept.gov.lk/web/index.php?lang=ta",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "data": {
@@ -253,6 +244,15 @@
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "https://www.languagesdept.gov.lk/web/index.php?lang=ta",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -294,15 +294,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "https://www.languagesdept.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=en",
       "data": {
@@ -316,6 +307,15 @@
       "source": "https://www.languagesdept.gov.lk/web/index.php?lang=en",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "https://www.languagesdept.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -384,15 +384,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "http://www.languagesdept.gov.lk/web/index.php?lang=si",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=si",
       "data": {
@@ -406,6 +397,15 @@
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=si",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "http://www.languagesdept.gov.lk/web/index.php?lang=si",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -438,15 +438,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "http://www.languagesdept.gov.lk/web/index.php?lang=ta",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "data": {
@@ -460,6 +451,15 @@
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "http://www.languagesdept.gov.lk/web/index.php?lang=ta",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -501,15 +501,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "http://www.languagesdept.gov.lk/web/index.php?lang=en",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=en",
       "data": {
@@ -523,6 +514,15 @@
       "source": "http://www.languagesdept.gov.lk/web/index.php?lang=en",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "http://www.languagesdept.gov.lk/web/index.php?lang=en",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -591,15 +591,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
@@ -613,6 +604,15 @@
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -681,15 +681,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
       "data": {
@@ -703,6 +694,15 @@
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -744,15 +744,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 023 2022 202",
-      "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
-      "data": {
-        "value": "023 2022 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 026 2025 202",
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "data": {
@@ -766,6 +757,15 @@
       "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "data": {
         "value": "+94 112 888 934 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 2022 202",
+      "source": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
+      "data": {
+        "value": "023 2022 202"
       }
     },
     {
@@ -865,7 +865,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1042,
+      "elapsed_ms": 981,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -874,7 +874,7 @@
       "status_code": 200,
       "final_url": "http://www.languagesdept.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 848,
+      "elapsed_ms": 765,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -883,7 +883,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 739,
+      "elapsed_ms": 970,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -892,7 +892,7 @@
       "status_code": 200,
       "final_url": "http://www.languagesdept.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 727,
+      "elapsed_ms": 756,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -901,7 +901,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/web/index.php?lang=si",
       "redirects": [],
-      "elapsed_ms": 1226,
+      "elapsed_ms": 1214,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -910,7 +910,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "redirects": [],
-      "elapsed_ms": 986,
+      "elapsed_ms": 990,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -919,7 +919,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/web/index.php?lang=en",
       "redirects": [],
-      "elapsed_ms": 1245,
+      "elapsed_ms": 1250,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -928,7 +928,7 @@
       "status_code": 200,
       "final_url": "http://www.languagesdept.gov.lk/web/index.php?lang=si",
       "redirects": [],
-      "elapsed_ms": 675,
+      "elapsed_ms": 943,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -937,7 +937,7 @@
       "status_code": 200,
       "final_url": "http://www.languagesdept.gov.lk/web/index.php?lang=ta",
       "redirects": [],
-      "elapsed_ms": 691,
+      "elapsed_ms": 773,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -946,7 +946,7 @@
       "status_code": 200,
       "final_url": "http://www.languagesdept.gov.lk/web/index.php?lang=en",
       "redirects": [],
-      "elapsed_ms": 739,
+      "elapsed_ms": 705,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -955,7 +955,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "redirects": [],
-      "elapsed_ms": 1356,
+      "elapsed_ms": 1220,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -964,7 +964,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
       "redirects": [],
-      "elapsed_ms": 1166,
+      "elapsed_ms": 966,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -973,7 +973,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
       "redirects": [],
-      "elapsed_ms": 1212,
+      "elapsed_ms": 985,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -982,7 +982,7 @@
       "status_code": 200,
       "final_url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=article&id=9&Itemid=128&lang=si",
       "redirects": [],
-      "elapsed_ms": 980,
+      "elapsed_ms": 1225,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -990,86 +990,86 @@
   "snapshots": [
     {
       "url": "https://www.languagesdept.gov.lk/",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-01-994996095f5b.html",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-01-994996095f5b.html",
       "sha256": "994996095f5bb57f289b3ca06af98c70896b9020edafd014849053e8556bcd9e",
       "bytes": 5700
     },
     {
       "url": "http://www.languagesdept.gov.lk/",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-02-994996095f5b.html",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-02-994996095f5b.html",
       "sha256": "994996095f5bb57f289b3ca06af98c70896b9020edafd014849053e8556bcd9e",
       "bytes": 5700
     },
     {
       "url": "https://www.languagesdept.gov.lk/",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-03-994996095f5b.html",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-03-994996095f5b.html",
       "sha256": "994996095f5bb57f289b3ca06af98c70896b9020edafd014849053e8556bcd9e",
       "bytes": 5700
     },
     {
       "url": "http://www.languagesdept.gov.lk/",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-04-994996095f5b.html",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-04-994996095f5b.html",
       "sha256": "994996095f5bb57f289b3ca06af98c70896b9020edafd014849053e8556bcd9e",
       "bytes": 5700
     },
     {
       "url": "https://www.languagesdept.gov.lk/web/index.php?lang=si",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-05-bd1326c4eaab.html",
-      "sha256": "bd1326c4eaab26b8e91634a312c200b2bd46b9353db61a0881b1651c8efabf30",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-05-20e2f240991c.html",
+      "sha256": "20e2f240991c4adf884b37e34b94a11564a94ef74924d1a04ee9224f14e5a5a8",
       "bytes": 88795
     },
     {
       "url": "https://www.languagesdept.gov.lk/web/index.php?lang=ta",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-06-5bffbad9c8fb.html",
-      "sha256": "5bffbad9c8fbb8a6ac2f852065b4ac4027af5cbe07cd128643cbe015c6449ce1",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-06-d0d5e00b91b5.html",
+      "sha256": "d0d5e00b91b54a2cf109ddfe1290aebb2d747782ad39d9ef73729a79c0679ada",
       "bytes": 90990
     },
     {
       "url": "https://www.languagesdept.gov.lk/web/index.php?lang=en",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-07-5722149ee8ff.html",
-      "sha256": "5722149ee8ffa577be76c2bbc154a942ee07d9e2509884c0abdebbfab3a9c9b6",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-07-76a3bbfb4f2e.html",
+      "sha256": "76a3bbfb4f2eeebc62b0272264b2cf4a51b098267480e6802f47371d4074f334",
       "bytes": 81780
     },
     {
       "url": "http://www.languagesdept.gov.lk/web/index.php?lang=si",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-08-effa66b38393.html",
-      "sha256": "effa66b38393d099c4b3dc55487dd5e67922412d0e36a9bdb4b4ffc1fa2db5df",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-08-7c8f73d2e2df.html",
+      "sha256": "7c8f73d2e2df149084b2c1bbc2db9c5e465375779691605cf65c19c95673a7eb",
       "bytes": 88793
     },
     {
       "url": "http://www.languagesdept.gov.lk/web/index.php?lang=ta",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-09-b8a033b8ec30.html",
-      "sha256": "b8a033b8ec308ffd322b4d5e9e3a940655dccee42764b6617cf56990d0b3249e",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-09-61b03c2e0042.html",
+      "sha256": "61b03c2e0042df74ea09a744f5f8bf1cbb3cf2d6b941e7b78ec4b1922e1fc1d0",
       "bytes": 90988
     },
     {
       "url": "http://www.languagesdept.gov.lk/web/index.php?lang=en",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-10-25eda972165e.html",
-      "sha256": "25eda972165ef1155602ec7aa1fafb00d1a619f408f53d187eea3b7ea9793aa3",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-10-5457c10ac5f9.html",
+      "sha256": "5457c10ac5f9cecbf1fd8d0df6bfbef9c7081492ac624b515a4a85a596c66d19",
       "bytes": 81777
     },
     {
       "url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-11-eb55f41fc868.html",
-      "sha256": "eb55f41fc868ad01bf02c7c4c871edb8d5ab88e27b56ebfd98e183bc76592ae5",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-11-cc34f40508e2.html",
+      "sha256": "cc34f40508e2c8d37bac0166364503a209f6befc05e21ac744511a512eaa0c5a",
       "bytes": 82054
     },
     {
       "url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=ta",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-12-abe1de15a0aa.html",
-      "sha256": "abe1de15a0aa53626af63da6c438b7b5574d8aac419f76952c36fceb143d2fd5",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-12-c56553eeec2e.html",
+      "sha256": "c56553eeec2e7eba403601cd38d261d7be300d8cb02ca13ca41c368f8da78715",
       "bytes": 91220
     },
     {
       "url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=featured&Itemid=101&lang=si",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-13-193f97da880d.html",
-      "sha256": "193f97da880d0d7df4b1b5d4b0b642fed8dfa0866877305ce326201889dd9359",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-13-4181e429d387.html",
+      "sha256": "4181e429d387f692ae76279f045291a01d512c5ceefe17b00979076553bc4425",
       "bytes": 89025
     },
     {
       "url": "https://www.languagesdept.gov.lk/web/index.php?option=com_content&view=article&id=9&Itemid=128&lang=si",
-      "path": "audit.output/www.languagesdept.gov.lk/20260926.0641/snapshots/page-14-7b7e464e53ec.html",
-      "sha256": "7b7e464e53ec783f21f2dbe0a186f5c8a8c0eaf8239b04bb770d4c105504f199",
+      "path": "audit.output/www.languagesdept.gov.lk/20260927.0646/snapshots/page-14-af9ad54d5f09.html",
+      "sha256": "af9ad54d5f094065ac917f4c6de7334f8025d0f9cb21c24b249622edac8cba08",
       "bytes": 28810
     }
   ],
@@ -1156,7 +1156,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: “Bhasha Mandiraya”, No 341/7, Kotte Road, Rajagiriya, Sri Lanka. Phone & Email +94 112 888 934 languages.dept.ad04@gmail; Phone: 023 2022 202 (4 phone numbers found); Email: languages.dept.ad04@gmail.com; Published named responsibility: department",
+      "reason": "Published postal address: “Bhasha Mandiraya”, No 341/7, Kotte Road, Rajagiriya, Sri Lanka. Phone & Email +94 112 888 934 languages.dept.ad04@gmail; Phone: 026 2025 202 (4 phone numbers found); Email: languages.dept.ad04@gmail.com; Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1169,7 +1169,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 023 2022 202 (4 phone numbers found); Email: languages.dept.ad04@gmail.com"
+          "reason": "Phone: 026 2025 202 (4 phone numbers found); Email: languages.dept.ad04@gmail.com"
         },
         {
           "name": "named_responsibility",
@@ -1248,7 +1248,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

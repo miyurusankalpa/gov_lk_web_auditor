@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "feaca67b-f523-45ab-a17b-cf1408a8088d",
+  "audit_id": "8dbc2fb0-72e2-42ea-bdd1-da6621c54f1c",
   "url": "https://publictrustee.gov.lk/",
   "normalized_url": "https://publictrustee.gov.lk/",
-  "started_at": "2026-09-26T06:08:56.562176+05:30",
-  "completed_at": "2026-09-26T06:09:04.537334+05:30",
+  "started_at": "2026-09-27T06:14:55.841385+05:30",
+  "completed_at": "2026-09-27T06:15:01.296256+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -18,47 +18,71 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:08:57.001705+05:30"
+      "observed_at": "2026-09-27T06:14:56.255867+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:08:57.001723+05:30"
+      "observed_at": "2026-09-27T06:14:56.255886+05:30"
     },
     {
       "check": "tls_expired",
       "status": "fail",
       "detail": "TLS certificate has expired",
-      "observed_at": "2026-09-26T06:08:57.753530+05:30"
+      "observed_at": "2026-09-27T06:14:57.030663+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
       "source": "https://publictrustee.gov.lk/",
-      "observed_at": "2026-09-26T06:09:04.537179+05:30"
+      "observed_at": "2026-09-27T06:15:01.164962+05:30"
     },
     {
-      "check": "tls_browser_error",
-      "status": "fail",
-      "detail": "Probe 2: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://publictrustee.gov.lk/",
       "source": "http://publictrustee.gov.lk/",
-      "observed_at": "2026-09-26T06:09:04.537194+05:30"
+      "observed_at": "2026-09-27T06:15:01.164980+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 3: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
       "source": "https://publictrustee.gov.lk/",
-      "observed_at": "2026-09-26T06:09:04.537197+05:30"
+      "observed_at": "2026-09-27T06:15:01.164985+05:30"
     },
     {
-      "check": "tls_browser_error",
-      "status": "fail",
-      "detail": "Probe 4: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+      "check": "http",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://publictrustee.gov.lk/",
       "source": "http://publictrustee.gov.lk/",
-      "observed_at": "2026-09-26T06:09:04.537200+05:30"
+      "observed_at": "2026-09-27T06:15:01.164989+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://publictrustee.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://publictrustee.gov.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "fail",
+      "detail": "Only 80 visible characters across 2 pages; below substance threshold 200",
+      "source": "https://publictrustee.gov.lk/"
     }
   ],
   "observations": [
@@ -94,12 +118,12 @@
     },
     {
       "url": "http://publictrustee.gov.lk/",
-      "status_code": null,
-      "final_url": null,
+      "status_code": 200,
+      "final_url": "http://publictrustee.gov.lk/",
       "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
+      "elapsed_ms": 804,
+      "content_type": "text/html",
+      "error": null
     },
     {
       "url": "https://publictrustee.gov.lk/",
@@ -112,15 +136,28 @@
     },
     {
       "url": "http://publictrustee.gov.lk/",
-      "status_code": null,
-      "final_url": null,
+      "status_code": 200,
+      "final_url": "http://publictrustee.gov.lk/",
       "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
+      "elapsed_ms": 813,
+      "content_type": "text/html",
+      "error": null
     }
   ],
-  "snapshots": [],
+  "snapshots": [
+    {
+      "url": "http://publictrustee.gov.lk/",
+      "path": "audit.output/publictrustee.gov.lk/20260927.0614/snapshots/page-01-fc564749866a.html",
+      "sha256": "fc564749866a8fa256cd97af1c70e5df86fbeb247d6d98cee2f9fae51ac7721c",
+      "bytes": 11886
+    },
+    {
+      "url": "http://publictrustee.gov.lk/",
+      "path": "audit.output/publictrustee.gov.lk/20260927.0614/snapshots/page-02-553a72001251.html",
+      "sha256": "553a72001251fe0a4ea47d3e19cfacaafe20e9781b6c4f1b6c6211ec7e357176",
+      "bytes": 11930
+    }
+  ],
   "reviewer_decisions": [],
   "levels": [
     {
@@ -148,37 +185,37 @@
           "name": "domain_not_parked",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 2 pages; below substance threshold 200"
         },
         {
           "name": "site_not_defaced",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 2 pages; below substance threshold 200"
         },
         {
           "name": "content_relevant",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 2 pages; below substance threshold 200"
         },
         {
           "name": "hosting_configured",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 2 pages; below substance threshold 200"
         },
         {
           "name": "http_available",
           "level": 1,
-          "status": "inconclusive",
-          "reason": "HTTP checks did not run"
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
         },
         {
           "name": "redirect_related",
           "level": 1,
-          "status": "inconclusive",
-          "reason": "No redirect result was available"
+          "status": "pass",
+          "reason": "No unrelated redirect found"
         },
         {
           "name": "tls_browser_trusted",
@@ -234,7 +271,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

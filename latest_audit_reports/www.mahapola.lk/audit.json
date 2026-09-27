@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "b4294278-31dc-4c0a-88eb-ae5235a5cfc6",
+  "audit_id": "877c654b-cd51-4e19-92f1-a32c4a34dc61",
   "url": "https://www.mahapola.lk",
   "normalized_url": "https://www.mahapola.lk/",
-  "started_at": "2026-09-26T06:53:23.471533+05:30",
-  "completed_at": "2026-09-26T06:53:57.636094+05:30",
+  "started_at": "2026-09-27T06:54:53.974422+05:30",
+  "completed_at": "2026-09-27T06:55:27.874390+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:53:23.776638+05:30"
+      "observed_at": "2026-09-27T06:54:54.125078+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:53:23.776657+05:30"
+      "observed_at": "2026-09-27T06:54:54.125097+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:53:24.696575+05:30"
+      "observed_at": "2026-09-27T06:54:54.847233+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.mahapola.lk/index.php?lang=en",
       "source": "https://www.mahapola.lk/",
-      "observed_at": "2026-09-26T06:53:57.342854+05:30"
+      "observed_at": "2026-09-27T06:55:27.476602+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.mahapola.lk/index.php?lang=en",
       "source": "http://www.mahapola.lk/",
-      "observed_at": "2026-09-26T06:53:57.342877+05:30"
+      "observed_at": "2026-09-27T06:55:27.476621+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.mahapola.lk/index.php?lang=en",
       "source": "https://www.mahapola.lk/",
-      "observed_at": "2026-09-26T06:53:57.342881+05:30"
+      "observed_at": "2026-09-27T06:55:27.476626+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.mahapola.lk/index.php?lang=en",
       "source": "http://www.mahapola.lk/",
-      "observed_at": "2026-09-26T06:53:57.342884+05:30"
+      "observed_at": "2026-09-27T06:55:27.476629+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342886+05:30"
+      "observed_at": "2026-09-27T06:55:27.476633+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342888+05:30"
+      "observed_at": "2026-09-27T06:55:27.476636+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342891+05:30"
+      "observed_at": "2026-09-27T06:55:27.476639+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342893+05:30"
+      "observed_at": "2026-09-27T06:55:27.476641+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342896+05:30"
+      "observed_at": "2026-09-27T06:55:27.476644+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342898+05:30"
+      "observed_at": "2026-09-27T06:55:27.476647+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342900+05:30"
+      "observed_at": "2026-09-27T06:55:27.476649+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342902+05:30"
+      "observed_at": "2026-09-27T06:55:27.476652+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342904+05:30"
+      "observed_at": "2026-09-27T06:55:27.476655+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
-      "observed_at": "2026-09-26T06:53:57.342906+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
+      "observed_at": "2026-09-27T06:55:27.476658+05:30"
     },
     {
       "check": "phone",
@@ -172,6 +163,15 @@
       "source": "https://www.mahapola.lk/index.php?lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -222,15 +222,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?lang=en",
       "data": {
@@ -253,6 +244,15 @@
       "source": "https://www.mahapola.lk/index.php?lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -303,15 +303,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?lang=en",
       "data": {
@@ -334,6 +325,15 @@
       "source": "https://www.mahapola.lk/index.php?lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -384,15 +384,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?lang=en",
       "data": {
@@ -415,6 +406,15 @@
       "source": "https://www.mahapola.lk/index.php?lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -465,15 +465,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
@@ -496,6 +487,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -555,15 +555,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
       "data": {
@@ -586,6 +577,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -636,15 +636,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
       "data": {
@@ -667,6 +658,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -726,15 +726,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
       "data": {
@@ -757,6 +748,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -798,28 +798,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011 268 5548 ",
+      "detail": "Published phone: 078 180 0888 (",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
       "data": {
-        "value": "011 268 5548 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 685 011 ",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
-      "data": {
-        "value": "0112 685 011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 268 5011 ",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
-      "data": {
-        "value": "011 268 5011 "
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -834,19 +816,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 4 703000 ",
+      "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
       "data": {
-        "value": "+94 11 4 703000 "
+        "value": "0112 685 011 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
+      "detail": "Published phone: 011 268 5548 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
       "data": {
-        "value": "078 180 0888 ("
+        "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 268 5011 ",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
+      "data": {
+        "value": "011 268 5011 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 4 703000 ",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
+      "data": {
+        "value": "+94 11 4 703000 "
       }
     },
     {
@@ -888,15 +888,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
       "data": {
@@ -919,6 +910,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -969,15 +969,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
       "data": {
@@ -1000,6 +991,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -1050,15 +1050,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
       "data": {
@@ -1081,6 +1072,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -1140,15 +1140,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 078 180 0888 (",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
-      "data": {
-        "value": "078 180 0888 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 685 011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
       "data": {
@@ -1171,6 +1162,15 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
       "data": {
         "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 078 180 0888 (",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
+      "data": {
+        "value": "078 180 0888 ("
       }
     },
     {
@@ -1212,33 +1212,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 230 3650 ",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
-      "data": {
-        "value": "+94 11 230 3650 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 268 5548 ",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
-      "data": {
-        "value": "011 268 5548 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 685 011 ",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
-      "data": {
-        "value": "0112 685 011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 2675 524 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
       "data": {
@@ -1257,24 +1230,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0499385924",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
-      "data": {
-        "value": "0499385924"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 268 5011 ",
-      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
-      "data": {
-        "value": "011 268 5011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 268 8011 ",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
       "data": {
@@ -1288,6 +1243,42 @@
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
       "data": {
         "value": "078 180 0888 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 685 011 ",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
+      "data": {
+        "value": "0112 685 011 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 268 5548 ",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
+      "data": {
+        "value": "011 268 5548 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 230 3650 ",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
+      "data": {
+        "value": "+94 11 230 3650 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 268 5011 ",
+      "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
+      "data": {
+        "value": "011 268 5011 "
       }
     },
     {
@@ -1320,10 +1311,10 @@
     {
       "check": "postal_address",
       "status": "pass",
-      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak01a6430c6636a636",
+      "detail": "Published postal address: is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak874aaa5ce7bba07a",
       "source": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
       "data": {
-        "value": "is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak01a6430c6636a636"
+        "value": "is being protected from spambots. You need JavaScript enabled to view it. document.getElementById('cloak874aaa5ce7bba07a"
       }
     },
     {
@@ -1380,7 +1371,7 @@
       "redirects": [
         "https://www.mahapola.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 1925,
+      "elapsed_ms": 1924,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1392,7 +1383,7 @@
         "https://www.mahapola.lk/",
         "https://www.mahapola.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 1558,
+      "elapsed_ms": 1553,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1403,7 +1394,7 @@
       "redirects": [
         "https://www.mahapola.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 1558,
+      "elapsed_ms": 1575,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1415,7 +1406,7 @@
         "https://www.mahapola.lk/",
         "https://www.mahapola.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 1637,
+      "elapsed_ms": 1556,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1424,7 +1415,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "redirects": [],
-      "elapsed_ms": 2043,
+      "elapsed_ms": 1922,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1433,7 +1424,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
       "redirects": [],
-      "elapsed_ms": 1885,
+      "elapsed_ms": 1854,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1442,7 +1433,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
       "redirects": [],
-      "elapsed_ms": 1883,
+      "elapsed_ms": 1916,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1451,7 +1442,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
       "redirects": [],
-      "elapsed_ms": 1871,
+      "elapsed_ms": 1890,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1460,7 +1451,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
       "redirects": [],
-      "elapsed_ms": 1903,
+      "elapsed_ms": 1883,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1469,7 +1460,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
       "redirects": [],
-      "elapsed_ms": 1953,
+      "elapsed_ms": 1900,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1478,7 +1469,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
       "redirects": [],
-      "elapsed_ms": 1870,
+      "elapsed_ms": 1968,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1487,7 +1478,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
       "redirects": [],
-      "elapsed_ms": 1868,
+      "elapsed_ms": 2133,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1496,7 +1487,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
       "redirects": [],
-      "elapsed_ms": 1878,
+      "elapsed_ms": 1875,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1505,7 +1496,7 @@
       "status_code": 200,
       "final_url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
       "redirects": [],
-      "elapsed_ms": 1867,
+      "elapsed_ms": 1887,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1513,86 +1504,86 @@
   "snapshots": [
     {
       "url": "https://www.mahapola.lk/index.php?lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-01-a8f1dc3c77ca.html",
-      "sha256": "a8f1dc3c77ca278f5879517292c6114d19741e6386b4b5fc6b4e713b2b132d03",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-01-dcbda7da9dfe.html",
+      "sha256": "dcbda7da9dfe6dee46933c7c1f58af6cc36a39bdbf485dd28668f372d6b21d5d",
       "bytes": 60365
     },
     {
       "url": "https://www.mahapola.lk/index.php?lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-02-29240fe320c4.html",
-      "sha256": "29240fe320c4229f49d63e99e1985af68631710c4e91d001c3b21bfff5032525",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-02-6d9c1ce2954a.html",
+      "sha256": "6d9c1ce2954a034a32b7f2d3b0cdfa6789a719651a280840c3c65e93b52b500f",
       "bytes": 60364
     },
     {
       "url": "https://www.mahapola.lk/index.php?lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-03-29240fe320c4.html",
-      "sha256": "29240fe320c4229f49d63e99e1985af68631710c4e91d001c3b21bfff5032525",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-03-6d9c1ce2954a.html",
+      "sha256": "6d9c1ce2954a034a32b7f2d3b0cdfa6789a719651a280840c3c65e93b52b500f",
       "bytes": 60364
     },
     {
       "url": "https://www.mahapola.lk/index.php?lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-04-29240fe320c4.html",
-      "sha256": "29240fe320c4229f49d63e99e1985af68631710c4e91d001c3b21bfff5032525",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-04-6d9c1ce2954a.html",
+      "sha256": "6d9c1ce2954a034a32b7f2d3b0cdfa6789a719651a280840c3c65e93b52b500f",
       "bytes": 60364
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-05-1758980f56af.html",
-      "sha256": "1758980f56af5321e0048e4f48731d5f6ae57849cfd8ac667eda573ed38779a7",
-      "bytes": 72366
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-05-5617d1eee433.html",
+      "sha256": "5617d1eee433bc9ad31c9fcd2aac9498bc38dbb6b541e2ff61cb83eb45080b6f",
+      "bytes": 72094
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=9&Itemid=127&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-06-6f7805cf2396.html",
-      "sha256": "6f7805cf2396e09e0c2e2c8406b35485cdd08dfef6974dcf5b25c6dd8225963d",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-06-7155dc45dc77.html",
+      "sha256": "7155dc45dc77c5481130423db9fe0b6906a571a4167d3cb51f2f405ffc91f4bf",
       "bytes": 61288
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=61&Itemid=173&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-07-61c2556b436c.html",
-      "sha256": "61c2556b436cc89fa457efd31c32fc5aa06fe5b4a551495240bcc87b38bc7537",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-07-e1db9d53f0d0.html",
+      "sha256": "e1db9d53f0d0cd6969f261ca20b4c0b4645c428f7a1644fd80bc5c369b1fd8c9",
       "bytes": 81909
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=10&Itemid=202&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-08-dba83efa9b4d.html",
-      "sha256": "dba83efa9b4d88689c80e24ffa9418915e6464ba658dc0256f992d137597d7a3",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-08-bad372f7dd4d.html",
+      "sha256": "bad372f7dd4daf296fb9b75a8c5e9fb7b64d96239d53ae030726f44a06ad6d74",
       "bytes": 60082
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=16&Itemid=130&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-09-6cd89f834269.html",
-      "sha256": "6cd89f834269a223ef74f992df491125e61a563c34aea4798506dfa7d2e0c3ec",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-09-b3707fdb337f.html",
+      "sha256": "b3707fdb337f9f94b8c0e04214e49c24e2cd8be3cd0b654f82aa3ab7a9f63b7a",
       "bytes": 62195
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=66&Itemid=186&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-10-0d0d0a3cf660.html",
-      "sha256": "0d0d0a3cf6601f3b0a75eef92a04409029f35734f91ba41af368f6a78cedc1f9",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-10-919fe1e6609c.html",
+      "sha256": "919fe1e6609c660b18c8fd092f6ef964063b8067e2b7387afbc05dc6c01ddfa5",
       "bytes": 58662
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=85&Itemid=204&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-11-b8b9846bd469.html",
-      "sha256": "b8b9846bd4695cecb4df57ff8aeda1c2fbd28e1be27b4115e26ca420b0c19423",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-11-df5cad407a64.html",
+      "sha256": "df5cad407a64e96eed8ddaa28c8f2057f8c34599f0d2e4b899e0e342b7c03528",
       "bytes": 58292
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=52&Itemid=201&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-12-9d18e95fcc0f.html",
-      "sha256": "9d18e95fcc0f43e7aa91d46dbd30605035d042558114e6ce6167f8b2655db042",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-12-82c9794c28f1.html",
+      "sha256": "82c9794c28f18a960971b4e8c86f10be10ac47345fa460f7ddbfb096c218c1d8",
       "bytes": 62310
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=17&Itemid=131&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-13-800d91cc9573.html",
-      "sha256": "800d91cc9573ed96727916519b2679437d134fc2d22e425bdbf774dc44dba2e8",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-13-9f600a160414.html",
+      "sha256": "9f600a160414d0ccbd32ef6eab82aebaf2233e49f42b149b3338e0cd9aee6d3f",
       "bytes": 57317
     },
     {
       "url": "https://www.mahapola.lk/index.php?option=com_content&view=article&id=22&Itemid=143&lang=en",
-      "path": "audit.output/www.mahapola.lk/20260926.0653/snapshots/page-14-66618e74b5d8.html",
-      "sha256": "66618e74b5d84c7f23ab9b1b624e9df801c2ef9bb48a3491c621a46db2fc146b",
+      "path": "audit.output/www.mahapola.lk/20260927.0654/snapshots/page-14-9f67b9acf882.html",
+      "sha256": "9f67b9acf882dfadf8d28f5553e5fefd55b4021e66b936cb675e8367a51ac81a",
       "bytes": 72958
     }
   ],
@@ -1679,7 +1670,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: 8th Floor, CWE Secretariat Building 27, Vauxhall Street, Colombo 02, Sri Lanka; Phone: 078 180 0888 ( (12 phone numbers found); Email: mahapola@mahapola.lk (2 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: 8th Floor, CWE Secretariat Building 27, Vauxhall Street, Colombo 02, Sri Lanka; Phone: 0112 685 011 (11 phone numbers found); Email: mahapola@mahapola.lk (2 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1692,7 +1683,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 078 180 0888 ( (12 phone numbers found); Email: mahapola@mahapola.lk (2 email addresses found)"
+          "reason": "Phone: 0112 685 011 (11 phone numbers found); Email: mahapola@mahapola.lk (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1771,7 +1762,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

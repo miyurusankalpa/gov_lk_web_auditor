@@ -1,8 +1,8 @@
 # Website Audit: https://bmc.lk/en
 
-- Completed: 2026-09-26 06:39
+- Completed: 2026-09-27 06:44
 - Overall result: 🟠 Level 2
-- Vantage: 134.33.77.208 (US, github-actions)
+- Vantage: 20.55.47.112 (US, github-actions)
 
 ## ⚫ Level 0: ✅
 

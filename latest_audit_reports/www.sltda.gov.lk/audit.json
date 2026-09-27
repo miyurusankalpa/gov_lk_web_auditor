@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "43a6b8a6-9ca4-49dd-8ee2-a2188f36e75c",
+  "audit_id": "ce99e6de-54b0-4f35-b14a-16e4c8b3e992",
   "url": "https://www.sltda.gov.lk/",
   "normalized_url": "https://www.sltda.gov.lk/",
-  "started_at": "2026-09-26T06:36:18.705442+05:30",
-  "completed_at": "2026-09-26T06:36:46.093824+05:30",
+  "started_at": "2026-09-27T06:41:37.269612+05:30",
+  "completed_at": "2026-09-27T06:42:07.681762+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -17,125 +17,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:36:19.191669+05:30"
+      "observed_at": "2026-09-27T06:41:37.909047+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:36:19.191690+05:30"
+      "observed_at": "2026-09-27T06:41:37.909065+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:36:19.904289+05:30"
+      "observed_at": "2026-09-27T06:41:38.723371+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.sltda.gov.lk/en",
       "source": "https://www.sltda.gov.lk/",
-      "observed_at": "2026-09-26T06:36:45.677428+05:30"
+      "observed_at": "2026-09-27T06:42:06.150900+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at http://www.sltda.gov.lk/",
       "source": "http://www.sltda.gov.lk/",
-      "observed_at": "2026-09-26T06:36:45.677447+05:30"
+      "observed_at": "2026-09-27T06:42:06.150920+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.sltda.gov.lk/en",
       "source": "https://www.sltda.gov.lk/",
-      "observed_at": "2026-09-26T06:36:45.677450+05:30"
+      "observed_at": "2026-09-27T06:42:06.150924+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at http://www.sltda.gov.lk/",
       "source": "http://www.sltda.gov.lk/",
-      "observed_at": "2026-09-26T06:36:45.677453+05:30"
+      "observed_at": "2026-09-27T06:42:06.150927+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.sltda.gov.lk/en/contact",
       "source": "https://www.sltda.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:36:45.677456+05:30"
+      "observed_at": "2026-09-27T06:42:06.150930+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.sltda.gov.lk/en/gem-jewellery-authority-registered-service-providers",
       "source": "https://www.sltda.gov.lk/en/gem-jewellery-authority-registered-service-providers",
-      "observed_at": "2026-09-26T06:36:45.677458+05:30"
+      "observed_at": "2026-09-27T06:42:06.150933+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.sltda.gov.lk/en",
       "source": "https://www.sltda.gov.lk",
-      "observed_at": "2026-09-26T06:36:45.677461+05:30"
+      "observed_at": "2026-09-27T06:42:06.150935+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.sltda.gov.lk/en/about-us",
       "source": "https://www.sltda.gov.lk/en/about-us",
-      "observed_at": "2026-09-26T06:36:45.677463+05:30"
+      "observed_at": "2026-09-27T06:42:06.150938+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.sltda.gov.lk/en/statistics",
       "source": "https://www.sltda.gov.lk/en/statistics",
-      "observed_at": "2026-09-26T06:36:45.677465+05:30"
+      "observed_at": "2026-09-27T06:42:06.150940+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.sltda.gov.lk/en/sustainable-tourism",
       "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "observed_at": "2026-09-26T06:36:45.677467+05:30"
+      "observed_at": "2026-09-27T06:42:06.150943+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.sltda.gov.lk/en/investor-relations-unit",
       "source": "https://www.sltda.gov.lk/en/investor-relations-unit",
-      "observed_at": "2026-09-26T06:36:45.677470+05:30"
+      "observed_at": "2026-09-27T06:42:06.150946+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.sltda.gov.lk/en/download-2",
       "source": "https://www.sltda.gov.lk/en/download-2",
-      "observed_at": "2026-09-26T06:36:45.677472+05:30"
+      "observed_at": "2026-09-27T06:42:06.150949+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.sltda.gov.lk/en/register-with-us",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "observed_at": "2026-09-26T06:36:45.677474+05:30"
+      "observed_at": "2026-09-27T06:42:06.150951+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.sltda.gov.lk/en",
       "source": "https://www.sltda.gov.lk/en/fuel-assistance-program",
-      "observed_at": "2026-09-26T06:36:45.677477+05:30"
+      "observed_at": "2026-09-27T06:42:06.150954+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112426800"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -150,10 +150,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -168,10 +168,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -228,10 +228,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112426800"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -246,10 +246,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -264,10 +264,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -324,19 +324,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en/contact",
       "data": {
-        "value": "+94 112426800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 238 22 09 ",
-      "source": "https://www.sltda.gov.lk/en/contact",
-      "data": {
-        "value": "+94 11 238 22 09 "
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -346,15 +337,6 @@
       "source": "https://www.sltda.gov.lk/en/contact",
       "data": {
         "value": "1912"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
-      "source": "https://www.sltda.gov.lk/en/contact",
-      "data": {
-        "value": "+94 112 426800 "
       }
     },
     {
@@ -369,6 +351,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 242 1052 ",
+      "source": "https://www.sltda.gov.lk/en/contact",
+      "data": {
+        "value": "+94 11 242 1052 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 242 1052",
       "source": "https://www.sltda.gov.lk/en/contact",
       "data": {
@@ -378,10 +369,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en/contact",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -396,19 +387,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 242 1052 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en/contact",
       "data": {
-        "value": "+94 11 242 1052 "
+        "value": "+94 112 426800 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: dptd@srilanka.travel",
+      "detail": "Published phone: +94 11 238 22 09 ",
       "source": "https://www.sltda.gov.lk/en/contact",
       "data": {
-        "value": "dptd@srilanka.travel"
+        "value": "+94 11 238 22 09 "
       }
     },
     {
@@ -418,6 +409,15 @@
       "source": "https://www.sltda.gov.lk/en/contact",
       "data": {
         "value": "info@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dptd@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/contact",
+      "data": {
+        "value": "dptd@srilanka.travel"
       }
     },
     {
@@ -441,10 +441,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en/gem-jewellery-authority-registered-service-providers",
       "data": {
-        "value": "+94 112426800"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -459,10 +459,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en/gem-jewellery-authority-registered-service-providers",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -477,10 +477,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en/gem-jewellery-authority-registered-service-providers",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -513,10 +513,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112426800"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -531,10 +531,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -549,10 +549,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -594,46 +594,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "+94 112426800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 544534 ",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "+94 112 544534 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426800( ",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "+94 112 426800( "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
         "value": "+94 112 444165 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 011 426800 ( ",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "+94 011 426800 ( "
       }
     },
     {
@@ -657,37 +621,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 436321 ",
+      "detail": "Published phone: +94 011 426800 ( ",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "+94 112 436321 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112426800 (",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "0112426800 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "+94 112 426800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426800 ( ",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "+94 112 426800 ( "
+        "value": "+94 011 426800 ( "
       }
     },
     {
@@ -702,6 +639,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 244000",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "+94 112 244000"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112426800 (",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "0112426800 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112426800",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "+94 112426800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 1990",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
@@ -711,91 +675,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 244000",
+      "detail": "Published phone: +94 112 426800( ",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "+94 112 244000"
+        "value": "+94 112 426800( "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: tharangar@srilanka.travel",
+      "detail": "Published phone: +94 112 544534 ",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "tharangar@srilanka.travel"
+        "value": "+94 112 544534 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: shanthi@ramadacolombo.com",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "shanthi@ramadacolombo.com"
+        "value": "+94 112 426800 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: manjulaw@srilanka.travel",
+      "detail": "Published phone: +94 112 436321 ",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "manjulaw@srilanka.travel"
+        "value": "+94 112 436321 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: karthiv@srilanka.travel",
+      "detail": "Published phone: +94 112 426800 ( ",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "karthiv@srilanka.travel"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: chinthaka.a@srilanka.travel",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "chinthaka.a@srilanka.travel"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: udana@srilanka.travel",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "udana@srilanka.travel"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: nihal.muhandiram@ekhohotels.com",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "nihal.muhandiram@ekhohotels.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: nishad@wayfarers.lk",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "nishad@wayfarers.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slnaseer67@gmail.com",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "slnaseer67@gmail.com"
+        "value": "+94 112 426800 ( "
       }
     },
     {
@@ -810,37 +729,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: inoka@srilanka.travel",
+      "detail": "Published email: nishad@wayfarers.lk",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "inoka@srilanka.travel"
+        "value": "nishad@wayfarers.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: info@srilanka.travel",
+      "detail": "Published email: nihal.muhandiram@ekhohotels.com",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "info@srilanka.travel"
+        "value": "nihal.muhandiram@ekhohotels.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: krishanthab@srilanka.travel",
+      "detail": "Published email: manjulaw@srilanka.travel",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "krishanthab@srilanka.travel"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: samanthap@srilanka.travel",
-      "source": "https://www.sltda.gov.lk/en/about-us",
-      "data": {
-        "value": "samanthap@srilanka.travel"
+        "value": "manjulaw@srilanka.travel"
       }
     },
     {
@@ -855,10 +765,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: duminda@traveloutlook.lk",
+      "detail": "Published email: karthiv@srilanka.travel",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
-        "value": "duminda@traveloutlook.lk"
+        "value": "karthiv@srilanka.travel"
       }
     },
     {
@@ -873,10 +783,100 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slnaseer67@gmail.com",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "slnaseer67@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "info@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: dg@srilanka.travel",
       "source": "https://www.sltda.gov.lk/en/about-us",
       "data": {
         "value": "dg@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: shanthi@ramadacolombo.com",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "shanthi@ramadacolombo.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: duminda@traveloutlook.lk",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "duminda@traveloutlook.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: krishanthab@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "krishanthab@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: udana@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "udana@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: tharangar@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "tharangar@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: inoka@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "inoka@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chinthaka.a@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "chinthaka.a@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: samanthap@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/about-us",
+      "data": {
+        "value": "samanthap@srilanka.travel"
       }
     },
     {
@@ -900,10 +900,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en/statistics",
       "data": {
-        "value": "+94 112426800"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -918,10 +918,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en/statistics",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -936,10 +936,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en/statistics",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -972,10 +972,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: 070 111 1881 ",
       "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
       "data": {
-        "value": "+94 112426800"
+        "value": "070 111 1881 "
       }
     },
     {
@@ -990,82 +990,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 045- 222 3154 ",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "045- 222 3154 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077 794 7500 ",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "077 794 7500 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 1912",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "1912"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077 387 7269 ",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "077 387 7269 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 091- 222 4072 ",
       "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
       "data": {
         "value": "091- 222 4072 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "+94 112 426800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026 222 8884 ",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "026 222 8884 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112426800 ",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "0112426800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 081-238 7118 ",
-      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "data": {
-        "value": "081-238 7118 "
       }
     },
     {
@@ -1089,10 +1017,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 1990",
+      "detail": "Published phone: 1912",
       "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
       "data": {
-        "value": "1990"
+        "value": "1912"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 045- 222 3154 ",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "045- 222 3154 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 081-238 7118 ",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "081-238 7118 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 026 222 8884 ",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "026 222 8884 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112426800",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "+94 112426800"
       }
     },
     {
@@ -1107,19 +1071,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 070 111 1881 ",
+      "detail": "Published phone: 0112426800 ",
       "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
       "data": {
-        "value": "070 111 1881 "
+        "value": "0112426800 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info.nstc@srilanka.travel",
+      "detail": "Published phone: 1990",
       "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
       "data": {
-        "value": "info.nstc@srilanka.travel"
+        "value": "1990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426800 ",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "+94 112 426800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077 387 7269 ",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "077 387 7269 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077 794 7500 ",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "077 794 7500 "
       }
     },
     {
@@ -1138,6 +1129,15 @@
       "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
       "data": {
         "value": "info.nstc@srilnaka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info.nstc@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/sustainable-tourism",
+      "data": {
+        "value": "info.nstc@srilanka.travel"
       }
     },
     {
@@ -1188,10 +1188,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en/investor-relations-unit",
       "data": {
-        "value": "+94 112426800"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -1206,10 +1206,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en/investor-relations-unit",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -1224,10 +1224,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en/investor-relations-unit",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -1269,19 +1269,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en/download-2",
       "data": {
-        "value": "+94 112426800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 018 2017 201",
-      "source": "https://www.sltda.gov.lk/en/download-2",
-      "data": {
-        "value": "018 2017 201"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -1305,19 +1296,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: 024 2023 202",
       "source": "https://www.sltda.gov.lk/en/download-2",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "024 2023 202"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en/download-2",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112426800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 018 2017 201",
+      "source": "https://www.sltda.gov.lk/en/download-2",
+      "data": {
+        "value": "018 2017 201"
       }
     },
     {
@@ -1332,10 +1332,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 024 2023 202",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en/download-2",
       "data": {
-        "value": "024 2023 202"
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -1386,37 +1386,82 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112426987",
+      "detail": "Published phone: +94 112 426 957",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "0112426987"
+        "value": "+94 112 426 957"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112-426 800/Ext:395",
+      "detail": "Published phone: 0112426998 ",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "0112-426 800/Ext:395"
+        "value": "0112426998 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: 1912",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "1912"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112426850",
+      "detail": "Published phone: +94 112 426 947 ",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "0112426850"
+        "value": "+94 112 426 947 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 908",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 908"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 971 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 971 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 957 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 957 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112426989 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "0112426989 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 975 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 975 "
       }
     },
     {
@@ -1440,6 +1485,51 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 426 807 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 807 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 800",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 444165 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 444165 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112426987 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "0112426987 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112426850",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "0112426850"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0112426851",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
@@ -1449,37 +1539,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426 977 ",
+      "detail": "Published phone: +94 112 426 945 ",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "+94 112 426 977 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 945",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 945"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 908",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 908"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 975 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 975 "
+        "value": "+94 112 426 945 "
       }
     },
     {
@@ -1494,37 +1557,64 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426 947 ",
+      "detail": "Published phone: 0112426987",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "+94 112 426 947 "
+        "value": "0112426987"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426 971 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "+94 112 426 971 "
+        "value": "+94 112 426800 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426 977",
+      "detail": "Published phone: +94 112 426 977 ",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "+94 112 426 977"
+        "value": "+94 112 426 977 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 1912",
+      "detail": "Published phone: +94 112 426 808",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "1912"
+        "value": "+94 112 426 808"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 945",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 945"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 807",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 807"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112426800",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112426800"
       }
     },
     {
@@ -1548,163 +1638,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112-426 800",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "0112-426 800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112426987 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "0112426987 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 800",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112426998",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "0112426998"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 808",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 808"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 112 426 800 | Ext:395",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
         "value": "+94 112 426 800 | Ext:395"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 800 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112426998 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "0112426998 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 808 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 808 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 444165 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112426800",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112426800"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 807",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 807"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 957",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 957"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112426989",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "0112426989"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112426939 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "0112426939 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 807 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 807 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 945 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 945 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 426 957 ",
-      "source": "https://www.sltda.gov.lk/en/register-with-us",
-      "data": {
-        "value": "+94 112 426 957 "
       }
     },
     {
@@ -1719,6 +1656,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 426 977",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 977"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 112 426 947",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
@@ -1728,10 +1674,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112426989 ",
+      "detail": "Published phone: 0112426989",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "0112426989 "
+        "value": "0112426989"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112-426 800",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "0112-426 800"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112-426 800/Ext:395",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "0112-426 800/Ext:395"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 808 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 808 "
       }
     },
     {
@@ -1744,12 +1717,30 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: otblshelp@srilanka.travel",
+      "detail": "Published phone: 0112426998",
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
-        "value": "otblshelp@srilanka.travel"
+        "value": "0112426998"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 426 800 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "+94 112 426 800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112426939 ",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "0112426939 "
       }
     },
     {
@@ -1759,6 +1750,15 @@
       "source": "https://www.sltda.gov.lk/en/register-with-us",
       "data": {
         "value": "info@srilanka.travel"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: otblshelp@srilanka.travel",
+      "source": "https://www.sltda.gov.lk/en/register-with-us",
+      "data": {
+        "value": "otblshelp@srilanka.travel"
       }
     },
     {
@@ -1827,10 +1827,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112426800",
+      "detail": "Published phone: +94 112 444165 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112426800"
+        "value": "+94 112 444165 "
       }
     },
     {
@@ -1845,10 +1845,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 426800 ",
+      "detail": "Published phone: +94 112426800",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 426800 "
+        "value": "+94 112426800"
       }
     },
     {
@@ -1863,10 +1863,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 444165 ",
+      "detail": "Published phone: +94 112 426800 ",
       "source": "https://www.sltda.gov.lk/en",
       "data": {
-        "value": "+94 112 444165 "
+        "value": "+94 112 426800 "
       }
     },
     {
@@ -1941,7 +1941,7 @@
       "redirects": [
         "https://www.sltda.gov.lk/en"
       ],
-      "elapsed_ms": 1514,
+      "elapsed_ms": 1776,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1950,7 +1950,7 @@
       "status_code": 200,
       "final_url": "http://www.sltda.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 509,
+      "elapsed_ms": 484,
       "content_type": "text/html",
       "error": null
     },
@@ -1961,7 +1961,7 @@
       "redirects": [
         "https://www.sltda.gov.lk/en"
       ],
-      "elapsed_ms": 1785,
+      "elapsed_ms": 1720,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1970,7 +1970,7 @@
       "status_code": 200,
       "final_url": "http://www.sltda.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 489,
+      "elapsed_ms": 718,
       "content_type": "text/html",
       "error": null
     },
@@ -1979,7 +1979,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1255,
+      "elapsed_ms": 1245,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1988,7 +1988,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/gem-jewellery-authority-registered-service-providers",
       "redirects": [],
-      "elapsed_ms": 1232,
+      "elapsed_ms": 1461,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1999,7 +1999,7 @@
       "redirects": [
         "https://www.sltda.gov.lk/en"
       ],
-      "elapsed_ms": 1651,
+      "elapsed_ms": 1465,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2008,7 +2008,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/about-us",
       "redirects": [],
-      "elapsed_ms": 1351,
+      "elapsed_ms": 1284,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2017,7 +2017,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/statistics",
       "redirects": [],
-      "elapsed_ms": 1493,
+      "elapsed_ms": 1287,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2026,7 +2026,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/sustainable-tourism",
       "redirects": [],
-      "elapsed_ms": 1698,
+      "elapsed_ms": 1708,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2035,7 +2035,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/investor-relations-unit",
       "redirects": [],
-      "elapsed_ms": 1258,
+      "elapsed_ms": 1253,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2044,7 +2044,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/download-2",
       "redirects": [],
-      "elapsed_ms": 1466,
+      "elapsed_ms": 1698,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2053,7 +2053,7 @@
       "status_code": 200,
       "final_url": "https://www.sltda.gov.lk/en/register-with-us",
       "redirects": [],
-      "elapsed_ms": 2036,
+      "elapsed_ms": 2165,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2064,7 +2064,7 @@
       "redirects": [
         "https://www.sltda.gov.lk/en"
       ],
-      "elapsed_ms": 1505,
+      "elapsed_ms": 1578,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -2072,86 +2072,86 @@
   "snapshots": [
     {
       "url": "https://www.sltda.gov.lk/en",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-01-7c95429990cd.html",
-      "sha256": "7c95429990cdf7d65830ab52d0527945521edb8f8d2008b4275b771ac5987515",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-01-69543f9eccfa.html",
+      "sha256": "69543f9eccfafb7b5efac87ecf31b3d02d392dd99d835aa63510c859255ddbd4",
       "bytes": 135421
     },
     {
       "url": "http://www.sltda.gov.lk/",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-02-6faef4d5d777.html",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-02-6faef4d5d777.html",
       "sha256": "6faef4d5d777fdcaa653766b0ac8b9ed32d0fd87f7dcd79f02ff524dd1b0eb69",
       "bytes": 10671
     },
     {
       "url": "https://www.sltda.gov.lk/en",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-03-b6c76ec1132b.html",
-      "sha256": "b6c76ec1132b1f003e2ebe1c07af24e53c69cf273799605b0d05e214c59f5e3d",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-03-567b79a1a1c0.html",
+      "sha256": "567b79a1a1c0de2df50785ae46066c1b91ae5f04e86846bbb477d0f80c4089eb",
       "bytes": 135421
     },
     {
       "url": "http://www.sltda.gov.lk/",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-04-6faef4d5d777.html",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-04-6faef4d5d777.html",
       "sha256": "6faef4d5d777fdcaa653766b0ac8b9ed32d0fd87f7dcd79f02ff524dd1b0eb69",
       "bytes": 10671
     },
     {
       "url": "https://www.sltda.gov.lk/en/contact",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-05-117e3c897528.html",
-      "sha256": "117e3c897528ce03971796deda72134db022c06e5e21147f24eb2f4478cd829d",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-05-8d81c9f21b40.html",
+      "sha256": "8d81c9f21b40d21e14ae36df25999cc6086d133066070936f51f6720192d2e9b",
       "bytes": 50790
     },
     {
       "url": "https://www.sltda.gov.lk/en/gem-jewellery-authority-registered-service-providers",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-06-867de4639fee.html",
-      "sha256": "867de4639fee47c185064b5e5d9e862e615225a02b8a773dc22b2db30fa759c6",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-06-b1f48edb8226.html",
+      "sha256": "b1f48edb82268e28233e267798b9b843006f6fe017d4ee180a1a914d2cf3896e",
       "bytes": 40068
     },
     {
       "url": "https://www.sltda.gov.lk/en",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-07-e1ea68a5b6cb.html",
-      "sha256": "e1ea68a5b6cbaf5427b49475f457688934ac35006504b5001f71c7ed7d7c297c",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-07-9d31f62db04b.html",
+      "sha256": "9d31f62db04b17d8689d9c74f07276d2fbad7ff4ab69072d9a9f25bf5d4d9c2f",
       "bytes": 135421
     },
     {
       "url": "https://www.sltda.gov.lk/en/about-us",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-08-3e8f90744921.html",
-      "sha256": "3e8f9074492130c7f13b096ccbdfac9e65575b9dc7bc63eb9540f63a0127cdc6",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-08-13e8f16797da.html",
+      "sha256": "13e8f16797dabe88489ecdcba620d0e028c44368abc3dbc5735f78dfec08d6ae",
       "bytes": 74690
     },
     {
       "url": "https://www.sltda.gov.lk/en/statistics",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-09-f7c55b20f275.html",
-      "sha256": "f7c55b20f2753dafefdbc15b481aecf07334514d9c0797f41dc779e6d2f3eae9",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-09-47484f68e4c7.html",
+      "sha256": "47484f68e4c7ef5a98a055df8a2399964a23188188f2cf0e57a390340058720e",
       "bytes": 52459
     },
     {
       "url": "https://www.sltda.gov.lk/en/sustainable-tourism",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-10-5a9444aa19b8.html",
-      "sha256": "5a9444aa19b8fbb3b0e73f9e7998662b884dd46fcd699828e7ed55077443986b",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-10-5a829593c690.html",
+      "sha256": "5a829593c690c6b2b290c7af169ec3970279022d8a02463dce08ebab3f11b436",
       "bytes": 164646
     },
     {
       "url": "https://www.sltda.gov.lk/en/investor-relations-unit",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-11-10e6d3fd9298.html",
-      "sha256": "10e6d3fd9298598e1d1ac50d6665a2087ea70eee4cd3e543f2684cb3329adef8",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-11-48a8bacc190f.html",
+      "sha256": "48a8bacc190f39ce084e3fd02d6a507f633ab0dc1838552b03f1caf301aba6e7",
       "bytes": 67246
     },
     {
       "url": "https://www.sltda.gov.lk/en/download-2",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-12-e39a536d1a55.html",
-      "sha256": "e39a536d1a552076a61be2efd558366bce94ed60d1d8dd7a7f5740b306e3bbf5",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-12-48eec2f52950.html",
+      "sha256": "48eec2f52950fe908d11a825050e788427589194d2e869e0e9e6be91fdf3405d",
       "bytes": 108244
     },
     {
       "url": "https://www.sltda.gov.lk/en/register-with-us",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-13-8fd089e838d0.html",
-      "sha256": "8fd089e838d080c4098363b68eb4b1a50aa2fb576a3ad5ee0def1447dacb2de3",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-13-960618102d4f.html",
+      "sha256": "960618102d4fdacb0ba6d2869ae499e00c616d85eb0e47224ca96bce542a699f",
       "bytes": 343973
     },
     {
       "url": "https://www.sltda.gov.lk/en",
-      "path": "audit.output/www.sltda.gov.lk/20260926.0636/snapshots/page-14-16c177998351.html",
-      "sha256": "16c1779983510f7d9ab62e392f1abd024773755c01233e3368f244702d1a091d",
+      "path": "audit.output/www.sltda.gov.lk/20260927.0641/snapshots/page-14-e08ec59cfc01.html",
+      "sha256": "e08ec59cfc01348c0a8ae20fa180f17127cb1349438b4a3f10f56a13de2177da",
       "bytes": 135421
     }
   ],
@@ -2268,7 +2268,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

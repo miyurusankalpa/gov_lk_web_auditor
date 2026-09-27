@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "cff56330-7b3d-4842-afde-57ddf6d9147d",
+  "audit_id": "064d1117-01f1-49f9-9d0b-492554b19de9",
   "url": "https://emb-brussels.gov.lk",
   "normalized_url": "https://emb-brussels.gov.lk/",
-  "started_at": "2026-09-26T06:31:55.129049+05:30",
-  "completed_at": "2026-09-26T06:32:44.338235+05:30",
+  "started_at": "2026-09-27T06:37:01.634885+05:30",
+  "completed_at": "2026-09-27T06:37:58.300726+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,143 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:31:56.993779+05:30"
+      "observed_at": "2026-09-27T06:37:02.570659+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:31:56.993801+05:30"
+      "observed_at": "2026-09-27T06:37:02.570682+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:31:57.627969+05:30"
+      "observed_at": "2026-09-27T06:37:03.309474+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-brussels.gov.lk/en",
       "source": "https://emb-brussels.gov.lk/",
-      "observed_at": "2026-09-26T06:32:42.149804+05:30"
+      "observed_at": "2026-09-27T06:37:55.380056+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-brussels.gov.lk/en",
       "source": "http://emb-brussels.gov.lk/",
-      "observed_at": "2026-09-26T06:32:42.149855+05:30"
+      "observed_at": "2026-09-27T06:37:55.380075+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-brussels.gov.lk/en",
       "source": "https://emb-brussels.gov.lk/",
-      "observed_at": "2026-09-26T06:32:42.149859+05:30"
+      "observed_at": "2026-09-27T06:37:55.380080+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-brussels.gov.lk/en",
       "source": "http://emb-brussels.gov.lk/",
-      "observed_at": "2026-09-26T06:32:42.149862+05:30"
+      "observed_at": "2026-09-27T06:37:55.380083+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-brussels.gov.lk/en/contact",
       "source": "https://www.emb-brussels.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:32:42.149864+05:30"
+      "observed_at": "2026-09-27T06:37:55.380086+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment",
       "source": "https://www.emb-brussels.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:32:42.149867+05:30"
+      "observed_at": "2026-09-27T06:37:55.380088+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
       "source": "https://emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
-      "observed_at": "2026-09-26T06:32:42.149869+05:30"
+      "observed_at": "2026-09-27T06:37:55.380091+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
       "source": "https://emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
-      "observed_at": "2026-09-26T06:32:42.149872+05:30"
+      "observed_at": "2026-09-27T06:37:55.380094+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
       "source": "https://emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
-      "observed_at": "2026-09-26T06:32:42.149875+05:30"
+      "observed_at": "2026-09-27T06:37:55.380096+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
       "source": "https://emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
-      "observed_at": "2026-09-26T06:32:42.149877+05:30"
+      "observed_at": "2026-09-27T06:37:55.380099+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
       "source": "https://emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
-      "observed_at": "2026-09-26T06:32:42.149880+05:30"
+      "observed_at": "2026-09-27T06:37:55.380102+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
       "source": "https://emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
-      "observed_at": "2026-09-26T06:32:42.149882+05:30"
+      "observed_at": "2026-09-27T06:37:55.380104+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
       "source": "https://emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
-      "observed_at": "2026-09-26T06:32:42.149885+05:30"
+      "observed_at": "2026-09-27T06:37:55.380107+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-brussels.gov.lk/en/allPosts?category=News",
       "source": "https://www.emb-brussels.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:32:42.149887+05:30"
+      "observed_at": "2026-09-27T06:37:55.380110+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 042.6108159",
+      "detail": "Published phone: +3223445394",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "042.6108159"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0641690837",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0641690837"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.817473171",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0.817473171"
+        "value": "+3223445394"
       }
     },
     {
@@ -177,10 +159,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445394",
+      "detail": "Published phone: 0641690837",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445394"
+        "value": "0641690837"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +3223445585",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "+3223445585"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 042.6108159",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "042.6108159"
       }
     },
     {
@@ -195,19 +195,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445585",
+      "detail": "Published phone: 0.817473171",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445585"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular@srilankaembassy.be",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "consular@srilankaembassy.be"
+        "value": "0.817473171"
       }
     },
     {
@@ -217,6 +208,15 @@
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
         "value": "slemb.brussels@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular@srilankaembassy.be",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "consular@srilankaembassy.be"
       }
     },
     {
@@ -267,28 +267,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 042.6108159",
+      "detail": "Published phone: +3223445394",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "042.6108159"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0641690837",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0641690837"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.817473171",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0.817473171"
+        "value": "+3223445394"
       }
     },
     {
@@ -303,10 +285,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445394",
+      "detail": "Published phone: 0641690837",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445394"
+        "value": "0641690837"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +3223445585",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "+3223445585"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 042.6108159",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "042.6108159"
       }
     },
     {
@@ -321,19 +321,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445585",
+      "detail": "Published phone: 0.817473171",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445585"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular@srilankaembassy.be",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "consular@srilankaembassy.be"
+        "value": "0.817473171"
       }
     },
     {
@@ -343,6 +334,15 @@
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
         "value": "slemb.brussels@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular@srilankaembassy.be",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "consular@srilankaembassy.be"
       }
     },
     {
@@ -393,28 +393,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 042.6108159",
+      "detail": "Published phone: +3223445394",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "042.6108159"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0641690837",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0641690837"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.817473171",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0.817473171"
+        "value": "+3223445394"
       }
     },
     {
@@ -429,10 +411,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445394",
+      "detail": "Published phone: 0641690837",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445394"
+        "value": "0641690837"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +3223445585",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "+3223445585"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 042.6108159",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "042.6108159"
       }
     },
     {
@@ -447,19 +447,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445585",
+      "detail": "Published phone: 0.817473171",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445585"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular@srilankaembassy.be",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "consular@srilankaembassy.be"
+        "value": "0.817473171"
       }
     },
     {
@@ -469,6 +460,15 @@
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
         "value": "slemb.brussels@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular@srilankaembassy.be",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "consular@srilankaembassy.be"
       }
     },
     {
@@ -519,28 +519,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 042.6108159",
+      "detail": "Published phone: +3223445394",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "042.6108159"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0641690837",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0641690837"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.817473171",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "0.817473171"
+        "value": "+3223445394"
       }
     },
     {
@@ -555,10 +537,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445394",
+      "detail": "Published phone: 0641690837",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445394"
+        "value": "0641690837"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +3223445585",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "+3223445585"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 042.6108159",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "042.6108159"
       }
     },
     {
@@ -573,19 +573,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445585",
+      "detail": "Published phone: 0.817473171",
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
-        "value": "+3223445585"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular@srilankaembassy.be",
-      "source": "https://www.emb-brussels.gov.lk/en",
-      "data": {
-        "value": "consular@srilankaembassy.be"
+        "value": "0.817473171"
       }
     },
     {
@@ -595,6 +586,15 @@
       "source": "https://www.emb-brussels.gov.lk/en",
       "data": {
         "value": "slemb.brussels@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular@srilankaembassy.be",
+      "source": "https://www.emb-brussels.gov.lk/en",
+      "data": {
+        "value": "consular@srilankaembassy.be"
       }
     },
     {
@@ -654,6 +654,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/contact",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 042.6108159",
       "source": "https://www.emb-brussels.gov.lk/en/contact",
       "data": {
@@ -661,15 +670,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/contact",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -681,10 +681,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -699,10 +699,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/contact",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -721,6 +721,15 @@
       "source": "https://www.emb-brussels.gov.lk/en/contact",
       "data": {
         "value": "division"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment",
+      "data": {
+        "value": "+3223445394"
       }
     },
     {
@@ -751,15 +760,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -771,10 +771,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -789,10 +789,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -852,6 +852,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 94 11 2393",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
       "data": {
@@ -877,15 +886,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -897,10 +897,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -915,10 +915,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -978,6 +978,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 94 11 2393",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
       "data": {
@@ -1003,15 +1012,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -1023,10 +1023,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -1041,10 +1041,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -1104,6 +1104,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 94 11 2393",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
       "data": {
@@ -1129,15 +1138,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -1149,10 +1149,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -1167,10 +1167,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -1230,6 +1230,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 94 11 2393",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
       "data": {
@@ -1255,15 +1264,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -1275,10 +1275,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -1293,10 +1293,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -1356,6 +1356,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 94 11 2393",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
       "data": {
@@ -1381,15 +1390,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -1401,10 +1401,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -1419,10 +1419,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -1482,6 +1482,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 94 11 2393",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
       "data": {
@@ -1507,15 +1516,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -1527,10 +1527,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -1545,10 +1545,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -1608,6 +1608,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +3223445394",
+      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
+      "data": {
+        "value": "+3223445394"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 00 94 11 2393",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
       "data": {
@@ -1633,15 +1642,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +3223445394",
-      "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
-      "data": {
-        "value": "+3223445394"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: consular@srilankaembassy.be",
@@ -1653,10 +1653,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -1671,10 +1671,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -1743,10 +1743,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 04-7264-4494-",
+      "detail": "Published phone: +3223445394",
       "source": "https://www.emb-brussels.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "04-7264-4494-"
+        "value": "+3223445394"
       }
     },
     {
@@ -1761,10 +1761,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +3223445394",
+      "detail": "Published phone: 04-7264-4494-",
       "source": "https://www.emb-brussels.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "+3223445394"
+        "value": "04-7264-4494-"
       }
     },
     {
@@ -1779,10 +1779,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: secretariat@srilankaembassy.be",
       "source": "https://www.emb-brussels.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "john@example.com"
+        "value": "secretariat@srilankaembassy.be"
       }
     },
     {
@@ -1797,10 +1797,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretariat@srilankaembassy.be",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-brussels.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "secretariat@srilankaembassy.be"
+        "value": "john@example.com"
       }
     },
     {
@@ -1858,7 +1858,7 @@
         "https://www.emb-brussels.gov.lk/",
         "https://www.emb-brussels.gov.lk/en"
       ],
-      "elapsed_ms": 2603,
+      "elapsed_ms": 1760,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1870,7 +1870,7 @@
         "https://www.emb-brussels.gov.lk/",
         "https://www.emb-brussels.gov.lk/en"
       ],
-      "elapsed_ms": 1064,
+      "elapsed_ms": 1012,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1882,7 +1882,7 @@
         "https://www.emb-brussels.gov.lk/",
         "https://www.emb-brussels.gov.lk/en"
       ],
-      "elapsed_ms": 2195,
+      "elapsed_ms": 3189,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1894,7 +1894,7 @@
         "https://www.emb-brussels.gov.lk/",
         "https://www.emb-brussels.gov.lk/en"
       ],
-      "elapsed_ms": 2295,
+      "elapsed_ms": 2955,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1903,7 +1903,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-brussels.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1065,
+      "elapsed_ms": 1263,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1912,7 +1912,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-brussels.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 1973,
+      "elapsed_ms": 2267,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1923,7 +1923,7 @@
       "redirects": [
         "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a"
       ],
-      "elapsed_ms": 2708,
+      "elapsed_ms": 2821,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1934,7 +1934,7 @@
       "redirects": [
         "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34"
       ],
-      "elapsed_ms": 2980,
+      "elapsed_ms": 2878,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1945,7 +1945,7 @@
       "redirects": [
         "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346"
       ],
-      "elapsed_ms": 2278,
+      "elapsed_ms": 2850,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1956,7 +1956,7 @@
       "redirects": [
         "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9"
       ],
-      "elapsed_ms": 2299,
+      "elapsed_ms": 3273,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1967,7 +1967,7 @@
       "redirects": [
         "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8"
       ],
-      "elapsed_ms": 2223,
+      "elapsed_ms": 2118,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1978,7 +1978,7 @@
       "redirects": [
         "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445"
       ],
-      "elapsed_ms": 3143,
+      "elapsed_ms": 3259,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1989,7 +1989,7 @@
       "redirects": [
         "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1"
       ],
-      "elapsed_ms": 2558,
+      "elapsed_ms": 2757,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1998,7 +1998,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-brussels.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 1287,
+      "elapsed_ms": 1344,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2006,86 +2006,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-brussels.gov.lk/en",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-01-e746d96c9ffe.html",
-      "sha256": "e746d96c9ffec2c43ac5bebf3db1fad8d8ef9b7ee31cbf4c876b3f2b9aa36265",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-01-ac75c1aa6b8b.html",
+      "sha256": "ac75c1aa6b8b859e3e500852fef2402b14961f1d1f62f1ce9892118e5ee04fb5",
       "bytes": 341951
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-02-0621863b976a.html",
-      "sha256": "0621863b976ae9bb370b635f5c4752c893788ba717918a23bab8769d714ed16b",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-02-68381e0632f6.html",
+      "sha256": "68381e0632f65e6b24305981e1a69da6ad9c8618ba368503bd1b77899c84d73d",
       "bytes": 341951
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-03-a4fcc4c818b6.html",
-      "sha256": "a4fcc4c818b60564d65dce413b8252705eed3ca255529a5825aaadf85ad94d05",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-03-5011a3112a64.html",
+      "sha256": "5011a3112a64446924873b437b81567635c0e9b1ef0620c22fff5a2d3d71e8aa",
       "bytes": 341951
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-04-27a70e7c5be0.html",
-      "sha256": "27a70e7c5be0650b20686bc50b476590c5daeb29dbb400053f6a43608c731c39",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-04-6a902f3e859d.html",
+      "sha256": "6a902f3e859dc0aa75e63ee34b2a549843089d752ee5e9a66277af8d3f22644f",
       "bytes": 341951
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/contact",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-05-8fbf90baf2e0.html",
-      "sha256": "8fbf90baf2e0b4512d1dcfd147fa82804d68851c2b33bdd1a259c893762a70d8",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-05-745545696ff4.html",
+      "sha256": "745545696ff4f1d57f20642af310bc6b58410397a93746b38fa7042eea62833f",
       "bytes": 103685
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-06-2499a81e1a0e.html",
-      "sha256": "2499a81e1a0eb7738561f3c33e0aaac11e17a5529ae96dab8d6fff24ee0cc836",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-06-b4d57d64bd22.html",
+      "sha256": "b4d57d64bd22b28966ca1568d319244dc51b2d5d4748c1f147910511f760d2d5",
       "bytes": 298575
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670f5d3805f51a64caf23a",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-07-8729e2a8e63e.html",
-      "sha256": "8729e2a8e63e096bb3ee42975162cd57c3cac0776e13f45f187b11314bd2449d",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-07-5dae976977fc.html",
+      "sha256": "5dae976977fc505818d433b4f1f5fe235415c27d670819ec8c57f03e58d65c44",
       "bytes": 298730
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670fe7e93815d2d127bb34",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-08-dd3f57b6a805.html",
-      "sha256": "dd3f57b6a805259e554ad48f988b73bb4abf5863a8122f1633fffe4a5988c020",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-08-5478b54edf35.html",
+      "sha256": "5478b54edf3591f726f43195fad98ed732d05dd47a3509717da336c31b3166cb",
       "bytes": 298730
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a670ffc3805f51a64caf346",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-09-22082414db8e.html",
-      "sha256": "22082414db8e299737e527529881d490e15cabaf5b4080cf1dfe81e5b538e634",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-09-099ce9137661.html",
+      "sha256": "099ce91376619a7e525250ab89e93b007615e7e25a1bec66fc0f605ffbc047bc",
       "bytes": 298730
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67101a3805f51a64caf3a9",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-10-a5c3814ba001.html",
-      "sha256": "a5c3814ba001f6d2ab740038c6221f9fcb85180c383d11b0877463ea9a3dccd5",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-10-db5b6c4c3605.html",
+      "sha256": "db5b6c4c360521867872439714b1cbaa965d5062fb013e30af8047d36dcdf6c1",
       "bytes": 298730
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a671027e93815d2d127bbc8",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-11-cd9f9ea00cac.html",
-      "sha256": "cd9f9ea00cac00cbb869e798e545e158cd6a3bf2e8869382c49110d307613c54",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-11-fa994d1a744f.html",
+      "sha256": "fa994d1a744f1b493345aa1b36c5da10c520ed0226e76dc18e654a3abc1f61c7",
       "bytes": 298730
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a6710363805f51a64caf445",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-12-d6fa000638bd.html",
-      "sha256": "d6fa000638bdc6704d8beafa778ed7911142bf325d73dbecb15bc6b1b7d27e50",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-12-253e17321ea3.html",
+      "sha256": "253e17321ea381a6db966b900f287e63eabf6cc0ea3c95841e71506929f1b4b5",
       "bytes": 298730
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/appointment?serviceId=6a67103d3805f51a64caf4d1",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-13-b34df6a010e9.html",
-      "sha256": "b34df6a010e943525f3cde51b902ad82a36b6571ac3631ddd357ec40333fb714",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-13-2acfb26ffc12.html",
+      "sha256": "2acfb26ffc124f0f4419e8a824fe439602d4f4c7ffe5ba04327f44634fe0c045",
       "bytes": 298730
     },
     {
       "url": "https://www.emb-brussels.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/emb-brussels.gov.lk/20260926.0631/snapshots/page-14-83f35cffcc2b.html",
-      "sha256": "83f35cffcc2b5d658aa25cc38db61547fcd0585e2e64c25b3911afdf582e529d",
+      "path": "audit.output/emb-brussels.gov.lk/20260927.0637/snapshots/page-14-8da63329bbb3.html",
+      "sha256": "8da63329bbb378ef748647414c226d9d41a3275479c62b3099191aca85d83e13",
       "bytes": 210369
     }
   ],
@@ -2172,7 +2172,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: 27, Rue Jules Lejeune, 1050 Brussels, Belgium Telephone: +32 2 344 53 94 , +32 2 344 55 85 Email: slemb.brussels@mfa.gov; Phone: 042.6108159 (10 phone numbers found); Email: consular@srilankaembassy.be (4 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: 27, Rue Jules Lejeune, 1050 Brussels, Belgium Telephone: +32 2 344 53 94 , +32 2 344 55 85 Email: slemb.brussels@mfa.gov; Phone: +3223445394 (10 phone numbers found); Email: slemb.brussels@mfa.gov.lk (4 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2185,7 +2185,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 042.6108159 (10 phone numbers found); Email: consular@srilankaembassy.be (4 email addresses found)"
+          "reason": "Phone: +3223445394 (10 phone numbers found); Email: slemb.brussels@mfa.gov.lk (4 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2264,7 +2264,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

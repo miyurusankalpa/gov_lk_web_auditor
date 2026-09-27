@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "6636c9c4-c777-4bf8-b076-865dcbead2a8",
+  "audit_id": "95cb260d-0e6c-499b-b3b9-65e7d1042a2d",
   "url": "https://emb-paris.gov.lk",
   "normalized_url": "https://emb-paris.gov.lk/",
-  "started_at": "2026-09-26T06:32:03.490384+05:30",
-  "completed_at": "2026-09-26T06:32:40.167135+05:30",
+  "started_at": "2026-09-27T06:37:07.303262+05:30",
+  "completed_at": "2026-09-27T06:37:53.817651+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -17,141 +17,123 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:32:04.058322+05:30"
+      "observed_at": "2026-09-27T06:37:07.924678+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:32:04.058345+05:30"
+      "observed_at": "2026-09-27T06:37:07.924698+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:32:04.677746+05:30"
+      "observed_at": "2026-09-27T06:37:08.644508+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-paris.gov.lk/en",
       "source": "https://emb-paris.gov.lk/",
-      "observed_at": "2026-09-26T06:32:38.846863+05:30"
+      "observed_at": "2026-09-27T06:37:48.503041+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-paris.gov.lk/en",
       "source": "http://emb-paris.gov.lk/",
-      "observed_at": "2026-09-26T06:32:38.846884+05:30"
+      "observed_at": "2026-09-27T06:37:48.503059+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-paris.gov.lk/en",
       "source": "https://emb-paris.gov.lk/",
-      "observed_at": "2026-09-26T06:32:38.846887+05:30"
+      "observed_at": "2026-09-27T06:37:48.503064+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-paris.gov.lk/en",
       "source": "http://emb-paris.gov.lk/",
-      "observed_at": "2026-09-26T06:32:38.846889+05:30"
+      "observed_at": "2026-09-27T06:37:48.503067+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-paris.gov.lk/en/ppt-services",
       "source": "https://emb-paris.gov.lk/en/ppt-services",
-      "observed_at": "2026-09-26T06:32:38.846892+05:30"
+      "observed_at": "2026-09-27T06:37:48.503070+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-paris.gov.lk/en/other-consular-services",
       "source": "https://www.emb-paris.gov.lk/en/other-consular-services",
-      "observed_at": "2026-09-26T06:32:38.846894+05:30"
+      "observed_at": "2026-09-27T06:37:48.503073+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-paris.gov.lk/en/appointment",
       "source": "https://www.emb-paris.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:32:38.846897+05:30"
+      "observed_at": "2026-09-27T06:37:48.503076+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-paris.gov.lk/en/visa-eta",
       "source": "https://emb-paris.gov.lk/en/visa-eta",
-      "observed_at": "2026-09-26T06:32:38.846899+05:30"
+      "observed_at": "2026-09-27T06:37:48.503079+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-paris.gov.lk/en/registration-of-birth",
       "source": "https://emb-paris.gov.lk/en/registration-of-birth",
-      "observed_at": "2026-09-26T06:32:38.846901+05:30"
+      "observed_at": "2026-09-27T06:37:48.503082+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-paris.gov.lk/en/registration-of-death",
       "source": "https://emb-paris.gov.lk/en/registration-of-death",
-      "observed_at": "2026-09-26T06:32:38.846903+05:30"
+      "observed_at": "2026-09-27T06:37:48.503085+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-paris.gov.lk/en/dual",
       "source": "https://www.emb-paris.gov.lk/en/dual",
-      "observed_at": "2026-09-26T06:32:38.846905+05:30"
+      "observed_at": "2026-09-27T06:37:48.503088+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-paris.gov.lk/en/bmd-online",
       "source": "https://www.emb-paris.gov.lk/en/bmd-online",
-      "observed_at": "2026-09-26T06:32:38.846907+05:30"
+      "observed_at": "2026-09-27T06:37:48.503090+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-paris.gov.lk/en/allPosts?category=News",
       "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:32:38.846909+05:30"
+      "observed_at": "2026-09-27T06:37:48.503093+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
       "source": "https://www.emb-paris.gov.lk/posts/6ab256005cac91b27bc26834",
-      "observed_at": "2026-09-26T06:32:38.846911+05:30"
+      "observed_at": "2026-09-27T06:37:48.503096+05:30"
     },
     {
       "check": "generic_hosting",
       "status": "fail",
       "detail": "Detected generic hosting marker: under construction",
       "source": "https://www.emb-paris.gov.lk/en"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0155733131",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0155733131"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072249719",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0072249719"
-      }
     },
     {
       "check": "phone",
@@ -165,19 +147,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +330155733131",
+      "detail": "Published phone: 0)1 55 73 31 31",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "+330155733131"
+        "value": "0)1 55 73 31 31"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0)1 55 73 31 31",
+      "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0)1 55 73 31 31"
+        "value": "+330155733131"
       }
     },
     {
@@ -201,10 +183,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0668511-176",
+      "detail": "Published phone: 0072249719",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0668511-176"
+        "value": "0072249719"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0155733131",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "0155733131"
       }
     },
     {
@@ -217,12 +208,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.paris@mfa.gov.lk",
+      "detail": "Published phone: 0668511-176",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "consular.paris@mfa.gov.lk"
+        "value": "0668511-176"
       }
     },
     {
@@ -246,10 +237,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: consular.paris@mfa.gov.lk",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "consular.paris@mfa.gov.lk"
       }
     },
     {
@@ -259,6 +250,15 @@
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
         "value": "commercial@srilankaembassy.fr"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -297,24 +297,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0155733131"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072249719",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0072249719"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
@@ -324,19 +306,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +330155733131",
+      "detail": "Published phone: 0)1 55 73 31 31",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "+330155733131"
+        "value": "0)1 55 73 31 31"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0)1 55 73 31 31",
+      "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0)1 55 73 31 31"
+        "value": "+330155733131"
       }
     },
     {
@@ -360,10 +342,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0668511-176",
+      "detail": "Published phone: 0072249719",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0668511-176"
+        "value": "0072249719"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0155733131",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "0155733131"
       }
     },
     {
@@ -376,12 +367,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.paris@mfa.gov.lk",
+      "detail": "Published phone: 0668511-176",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "consular.paris@mfa.gov.lk"
+        "value": "0668511-176"
       }
     },
     {
@@ -405,10 +396,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: consular.paris@mfa.gov.lk",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "consular.paris@mfa.gov.lk"
       }
     },
     {
@@ -418,6 +409,15 @@
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
         "value": "commercial@srilankaembassy.fr"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -456,24 +456,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0155733131"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072249719",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0072249719"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
@@ -483,19 +465,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +330155733131",
+      "detail": "Published phone: 0)1 55 73 31 31",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "+330155733131"
+        "value": "0)1 55 73 31 31"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0)1 55 73 31 31",
+      "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0)1 55 73 31 31"
+        "value": "+330155733131"
       }
     },
     {
@@ -519,10 +501,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0668511-176",
+      "detail": "Published phone: 0072249719",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0668511-176"
+        "value": "0072249719"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0155733131",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "0155733131"
       }
     },
     {
@@ -535,12 +526,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.paris@mfa.gov.lk",
+      "detail": "Published phone: 0668511-176",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "consular.paris@mfa.gov.lk"
+        "value": "0668511-176"
       }
     },
     {
@@ -564,10 +555,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: consular.paris@mfa.gov.lk",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "consular.paris@mfa.gov.lk"
       }
     },
     {
@@ -577,6 +568,15 @@
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
         "value": "commercial@srilankaembassy.fr"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -615,24 +615,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0155733131"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072249719",
-      "source": "https://www.emb-paris.gov.lk/en",
-      "data": {
-        "value": "0072249719"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
@@ -642,19 +624,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +330155733131",
+      "detail": "Published phone: 0)1 55 73 31 31",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "+330155733131"
+        "value": "0)1 55 73 31 31"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0)1 55 73 31 31",
+      "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0)1 55 73 31 31"
+        "value": "+330155733131"
       }
     },
     {
@@ -678,10 +660,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0668511-176",
+      "detail": "Published phone: 0072249719",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "0668511-176"
+        "value": "0072249719"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0155733131",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "0155733131"
       }
     },
     {
@@ -694,12 +685,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.paris@mfa.gov.lk",
+      "detail": "Published phone: 0668511-176",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "consular.paris@mfa.gov.lk"
+        "value": "0668511-176"
       }
     },
     {
@@ -723,10 +714,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: consular.paris@mfa.gov.lk",
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "consular.paris@mfa.gov.lk"
       }
     },
     {
@@ -736,6 +727,15 @@
       "source": "https://www.emb-paris.gov.lk/en",
       "data": {
         "value": "commercial@srilankaembassy.fr"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -777,19 +777,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131 ",
+      "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/ppt-services",
       "data": {
-        "value": "0155733131 "
+        "value": "+330155733131"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +330155733131",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/ppt-services",
       "data": {
-        "value": "+330155733131"
+        "value": "0155733131 "
       }
     },
     {
@@ -804,19 +804,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.paris@mfa.gov.lk",
       "source": "https://www.emb-paris.gov.lk/en/ppt-services",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.paris@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.paris@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-paris.gov.lk/en/ppt-services",
       "data": {
-        "value": "slemb.paris@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -858,15 +858,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131 ",
-      "source": "https://www.emb-paris.gov.lk/en/other-consular-services",
-      "data": {
-        "value": "0155733131 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/other-consular-services",
       "data": {
@@ -874,12 +865,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/other-consular-services",
       "data": {
-        "value": "john@example.com"
+        "value": "0155733131 "
       }
     },
     {
@@ -889,6 +880,15 @@
       "source": "https://www.emb-paris.gov.lk/en/other-consular-services",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/other-consular-services",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -930,15 +930,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131 ",
-      "source": "https://www.emb-paris.gov.lk/en/appointment",
-      "data": {
-        "value": "0155733131 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/appointment",
       "data": {
@@ -946,12 +937,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "0155733131 "
       }
     },
     {
@@ -961,6 +952,15 @@
       "source": "https://www.emb-paris.gov.lk/en/appointment",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/appointment",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1002,15 +1002,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131 ",
-      "source": "https://www.emb-paris.gov.lk/en/visa-eta",
-      "data": {
-        "value": "0155733131 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/visa-eta",
       "data": {
@@ -1018,12 +1009,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/visa-eta",
       "data": {
-        "value": "john@example.com"
+        "value": "0155733131 "
       }
     },
     {
@@ -1033,6 +1024,15 @@
       "source": "https://www.emb-paris.gov.lk/en/visa-eta",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/visa-eta",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1110,15 +1110,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131 ",
-      "source": "https://www.emb-paris.gov.lk/en/registration-of-birth",
-      "data": {
-        "value": "0155733131 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/registration-of-birth",
       "data": {
@@ -1126,12 +1117,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/registration-of-birth",
       "data": {
-        "value": "john@example.com"
+        "value": "0155733131 "
       }
     },
     {
@@ -1141,6 +1132,15 @@
       "source": "https://www.emb-paris.gov.lk/en/registration-of-birth",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/registration-of-birth",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1182,37 +1182,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131",
+      "detail": "Published phone: 0094-11-2446",
       "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
       "data": {
-        "value": "0155733131"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0155733131 ",
-      "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
-      "data": {
-        "value": "0155733131 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +330155733131",
-      "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
-      "data": {
-        "value": "+330155733131"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094-11-2473",
-      "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
-      "data": {
-        "value": "0094-11-2473"
+        "value": "0094-11-2446"
       }
     },
     {
@@ -1227,19 +1200,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0094-11-2446",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
       "data": {
-        "value": "0094-11-2446"
+        "value": "0155733131 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0094-11-2473",
       "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
       "data": {
-        "value": "john@example.com"
+        "value": "0094-11-2473"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +330155733131",
+      "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
+      "data": {
+        "value": "+330155733131"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0155733131",
+      "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
+      "data": {
+        "value": "0155733131"
       }
     },
     {
@@ -1249,6 +1240,15 @@
       "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/registration-of-death",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1326,15 +1326,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131 ",
-      "source": "https://www.emb-paris.gov.lk/en/dual",
-      "data": {
-        "value": "0155733131 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/dual",
       "data": {
@@ -1342,12 +1333,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/dual",
       "data": {
-        "value": "john@example.com"
+        "value": "0155733131 "
       }
     },
     {
@@ -1357,6 +1348,15 @@
       "source": "https://www.emb-paris.gov.lk/en/dual",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/dual",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1416,15 +1416,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131 ",
-      "source": "https://www.emb-paris.gov.lk/en/bmd-online",
-      "data": {
-        "value": "0155733131 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/bmd-online",
       "data": {
@@ -1432,12 +1423,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/bmd-online",
       "data": {
-        "value": "john@example.com"
+        "value": "0155733131 "
       }
     },
     {
@@ -1447,6 +1438,15 @@
       "source": "https://www.emb-paris.gov.lk/en/bmd-online",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/bmd-online",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1485,24 +1485,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0155733131",
-      "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "0155733131"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072249719",
-      "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "0072249719"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0155733131 ",
       "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
       "data": {
@@ -1530,19 +1512,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0072249719",
+      "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "0072249719"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0155733131",
+      "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "0155733131"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0668511-176",
       "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
       "data": {
         "value": "0668511-176"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -1555,12 +1546,21 @@
       }
     },
     {
-      "check": "postal_address",
+      "check": "email",
       "status": "pass",
-      "detail": "Published postal address: to the Embassy staff, the Ambassador-designate highlighted the longstanding, vibrant relations between Sri Lanka and Fra",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "to the Embassy staff, the Ambassador-designate highlighted the longstanding, vibrant relations between Sri Lanka and Fra"
+        "value": "john@example.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid",
+      "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "(Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid"
       }
     },
     {
@@ -1582,30 +1582,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "published_update_date",
       "status": "pass",
-      "detail": "Published phone: 0155733131",
-      "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
+      "detail": "Published published update date: 15 September 2026",
+      "source": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "0155733131"
+        "value": "15 September 2026"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0072168505",
+      "detail": "Published phone: 0072240904",
       "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
       "data": {
-        "value": "0072168505"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072230473",
-      "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
-      "data": {
-        "value": "0072230473"
+        "value": "0072240904"
       }
     },
     {
@@ -1620,10 +1611,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0072230473",
+      "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
+      "data": {
+        "value": "0072230473"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +330155733131",
       "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
       "data": {
         "value": "+330155733131"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0072168505",
+      "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
+      "data": {
+        "value": "0072168505"
       }
     },
     {
@@ -1647,19 +1656,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0072240904",
+      "detail": "Published phone: 0155733131",
       "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
       "data": {
-        "value": "0072240904"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
-      "data": {
-        "value": "john@example.com"
+        "value": "0155733131"
       }
     },
     {
@@ -1669,6 +1669,15 @@
       "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
       "data": {
         "value": "slemb.paris@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1735,7 +1744,7 @@
         "https://www.emb-paris.gov.lk/",
         "https://www.emb-paris.gov.lk/en"
       ],
-      "elapsed_ms": 2995,
+      "elapsed_ms": 1835,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1747,7 +1756,7 @@
         "https://www.emb-paris.gov.lk/",
         "https://www.emb-paris.gov.lk/en"
       ],
-      "elapsed_ms": 2746,
+      "elapsed_ms": 3071,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1759,7 +1768,7 @@
         "https://www.emb-paris.gov.lk/",
         "https://www.emb-paris.gov.lk/en"
       ],
-      "elapsed_ms": 3485,
+      "elapsed_ms": 1415,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1771,7 +1780,7 @@
         "https://www.emb-paris.gov.lk/",
         "https://www.emb-paris.gov.lk/en"
       ],
-      "elapsed_ms": 911,
+      "elapsed_ms": 1966,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1782,7 +1791,7 @@
       "redirects": [
         "https://www.emb-paris.gov.lk/en/ppt-services"
       ],
-      "elapsed_ms": 766,
+      "elapsed_ms": 1693,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1791,7 +1800,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-paris.gov.lk/en/other-consular-services",
       "redirects": [],
-      "elapsed_ms": 794,
+      "elapsed_ms": 828,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1800,7 +1809,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-paris.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 1263,
+      "elapsed_ms": 2013,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1811,7 +1820,7 @@
       "redirects": [
         "https://www.emb-paris.gov.lk/en/visa-eta"
       ],
-      "elapsed_ms": 1857,
+      "elapsed_ms": 1440,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1822,7 +1831,7 @@
       "redirects": [
         "https://www.emb-paris.gov.lk/en/registration-of-birth"
       ],
-      "elapsed_ms": 911,
+      "elapsed_ms": 1665,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1833,7 +1842,7 @@
       "redirects": [
         "https://www.emb-paris.gov.lk/en/registration-of-death"
       ],
-      "elapsed_ms": 1207,
+      "elapsed_ms": 1492,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1842,7 +1851,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-paris.gov.lk/en/dual",
       "redirects": [],
-      "elapsed_ms": 1636,
+      "elapsed_ms": 2765,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1851,7 +1860,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-paris.gov.lk/en/bmd-online",
       "redirects": [],
-      "elapsed_ms": 894,
+      "elapsed_ms": 963,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1860,7 +1869,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 1095,
+      "elapsed_ms": 982,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1871,7 +1880,7 @@
       "redirects": [
         "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834"
       ],
-      "elapsed_ms": 1558,
+      "elapsed_ms": 2769,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1879,86 +1888,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-paris.gov.lk/en",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-01-4e9caa885d6c.html",
-      "sha256": "4e9caa885d6c75c157171fff5886e9166afac63bbf0d5f6d3bd209829ddeaf55",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-01-6b4ab8f65f12.html",
+      "sha256": "6b4ab8f65f12d5e91976cc8e9876b9241c7ff46fb2c523e95c3841858e134e3b",
       "bytes": 372929
     },
     {
       "url": "https://www.emb-paris.gov.lk/en",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-02-74b6ec2eb548.html",
-      "sha256": "74b6ec2eb548c3e34e5916370732618eb898410a16bf1f2b816e579ad8e3e592",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-02-3fa10f6beffc.html",
+      "sha256": "3fa10f6beffc1417742ab29022d8c2fe34af0c1f666c451dd71251029cacab90",
       "bytes": 372929
     },
     {
       "url": "https://www.emb-paris.gov.lk/en",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-03-b691cade827e.html",
-      "sha256": "b691cade827ec17f543bc23dda2acd9581611a5b92e272a74f599e309c3e5238",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-03-b6879e667ab2.html",
+      "sha256": "b6879e667ab2f68f75a8dec325f828163763fa8c98b49d1e9ecf3e9536ad9483",
       "bytes": 372929
     },
     {
       "url": "https://www.emb-paris.gov.lk/en",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-04-571db51e3080.html",
-      "sha256": "571db51e30804aac9c73e74ce0e86d0515c24287fa5d71bee9178502af7383a2",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-04-b51805fdb29f.html",
+      "sha256": "b51805fdb29ff961d4a66362fce28a8cef6a925470070cb960122e72391fe95a",
       "bytes": 372929
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/ppt-services",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-05-97e688984f59.html",
-      "sha256": "97e688984f59d08740da9a9d1e5f955d244500eb43408bb70f30e91a1a6cbdad",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-05-c41f9990dce5.html",
+      "sha256": "c41f9990dce59ff5152ebc9efe21eefe7e6290d886f29a3dc806bc4ebb3a3d3d",
       "bytes": 105860
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/other-consular-services",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-06-62a1079a01c0.html",
-      "sha256": "62a1079a01c0f865634180522d2ba64f9896266637137aaf101bef564e5b8de1",
-      "bytes": 110181
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-06-3eb647764146.html",
+      "sha256": "3eb647764146052ed8da32411b53af6d04527dbbdfc86e28e48a11422c608a8e",
+      "bytes": 110281
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/appointment",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-07-93d6c86f6c8d.html",
-      "sha256": "93d6c86f6c8d94dee5eb2f60d2f093007726adc4ee4713118dbd6587561c70a0",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-07-95d33c09376a.html",
+      "sha256": "95d33c09376aed98671ff308d1b110800ed6886de1664ece5f062ff1134ce94b",
       "bytes": 112128
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/visa-eta",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-08-775217b07e7b.html",
-      "sha256": "775217b07e7b5adf299bf0bcdda5e6e72d034f1b76286cbbcca0177b21d63edd",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-08-c9aaee98474a.html",
+      "sha256": "c9aaee98474a6336351bc95440c3caf62827c65448d76028c8cb47abc0b54da8",
       "bytes": 141390
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/registration-of-birth",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-09-2344e87e2ecb.html",
-      "sha256": "2344e87e2ecb3dfdfa27447ecbb1b83dd42eeba7c549c91dc62217a591912c38",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-09-6efa59505647.html",
+      "sha256": "6efa595056475785555e8b20dc7334150267749bfcf992ab0d0ca4cfc811ddf2",
       "bytes": 131819
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/registration-of-death",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-10-a7fe668fb6d0.html",
-      "sha256": "a7fe668fb6d0b6a9553168f47397a0e63f49ad604915e71e27a58caf690ca1be",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-10-da964e312855.html",
+      "sha256": "da964e312855bb891b6bdef0287e4e188295e572b97b261317f154c9ccf2bdcc",
       "bytes": 130502
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/dual",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-11-7139801e6868.html",
-      "sha256": "7139801e6868cf1ada6c67a0dd27fa42baccf0919d52da5ca3ac50c7e1e5f1b6",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-11-cb05e67c7bfe.html",
+      "sha256": "cb05e67c7bfe39dced7065a7ff7c3a7806c7f1badd0b92e573d1cfa75a60cd62",
       "bytes": 143610
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/bmd-online",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-12-4937ed0ef8ec.html",
-      "sha256": "4937ed0ef8ec6eb0fbfd69bb095e510d47a38aec5bd0e797b580ba61eb5bda78",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-12-9667a668d753.html",
+      "sha256": "9667a668d75344fee167e3aa00f3ed656e5d44e5cf258c45630bc2e09a48383a",
       "bytes": 102789
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-13-260e99468959.html",
-      "sha256": "260e994689590437b041696dfb5f2718978c797bbef30e509c570e85ccc7197b",
-      "bytes": 220546
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-13-f2b99f307ec8.html",
+      "sha256": "f2b99f307ec831b73eab39a3a73bb98002ff767a22ba30aa70ff105e33c61c9a",
+      "bytes": 221685
     },
     {
       "url": "https://www.emb-paris.gov.lk/en/posts/6ab256005cac91b27bc26834",
-      "path": "audit.output/emb-paris.gov.lk/20260926.0632/snapshots/page-14-182750c9f2f0.html",
-      "sha256": "182750c9f2f0e81a97302f8b2309f3bc4581a0cd8202812ec669c50d0188fd1a",
+      "path": "audit.output/emb-paris.gov.lk/20260927.0637/snapshots/page-14-b2f5c8bebc2b.html",
+      "sha256": "b2f5c8bebc2bd00aeaaa2b6b415429982109b41eab8f34545bee783ebfbdae30",
       "bytes": 119034
     }
   ],
@@ -2075,7 +2084,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

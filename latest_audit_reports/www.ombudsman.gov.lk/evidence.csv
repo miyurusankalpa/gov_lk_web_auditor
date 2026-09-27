@@ -1,12 +1,13 @@
 check,status,detail,source,observed_at
-dns,pass,Public DNS resolved,,2026-09-26T07:15:19.211070+05:30
-domain_registration,error,Domain is absent from RDAP,,2026-09-26T07:15:19.211091+05:30
-tls,pass,TLS certificate valid,,2026-09-26T07:15:19.857604+05:30
-http,fail,Probe 1: HTTP 500 at https://www.ombudsman.gov.lk/,https://www.ombudsman.gov.lk/,2026-09-26T07:16:06.369029+05:30
-http,fail,Probe 2: HTTP 500 at http://www.ombudsman.gov.lk/,http://www.ombudsman.gov.lk/,2026-09-26T07:16:06.369049+05:30
-http,error,Probe 3: Server disconnected without sending a response.,https://www.ombudsman.gov.lk/,2026-09-26T07:16:06.369053+05:30
-http,fail,Probe 4: HTTP 500 at http://www.ombudsman.gov.lk/,http://www.ombudsman.gov.lk/,2026-09-26T07:16:06.369056+05:30
-email,pass,Published email: webmaster@ombudsman.gov.lk,https://www.ombudsman.gov.lk/,
-email,pass,Published email: webmaster@ombudsman.gov.lk,http://www.ombudsman.gov.lk/,
-email,pass,Published email: webmaster@ombudsman.gov.lk,http://www.ombudsman.gov.lk/,
-page_text,pass,Substantive page content: 521 visible characters across 3 pages,https://www.ombudsman.gov.lk/,
+dns,pass,Public DNS resolved,,2026-09-27T07:08:01.155045+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-27T07:08:01.155065+05:30
+tls,pass,TLS certificate valid,,2026-09-27T07:08:01.964555+05:30
+http,pass,Probe 1: HTTP 200 at https://www.ombudsman.gov.lk/,https://www.ombudsman.gov.lk/,2026-09-27T07:08:06.892084+05:30
+http,pass,Probe 2: HTTP 200 at http://www.ombudsman.gov.lk/,http://www.ombudsman.gov.lk/,2026-09-27T07:08:06.892107+05:30
+http,pass,Probe 3: HTTP 200 at https://www.ombudsman.gov.lk/,https://www.ombudsman.gov.lk/,2026-09-27T07:08:06.892114+05:30
+http,pass,Probe 4: HTTP 200 at http://www.ombudsman.gov.lk/,http://www.ombudsman.gov.lk/,2026-09-27T07:08:06.892120+05:30
+phone,pass,Published phone: 0950635027,https://www.ombudsman.gov.lk/,
+phone,pass,Published phone: 0950635027,http://www.ombudsman.gov.lk/,
+phone,pass,Published phone: 0950635027,https://www.ombudsman.gov.lk/,
+phone,pass,Published phone: 0950635027,http://www.ombudsman.gov.lk/,
+page_text,fail,Only 80 visible characters across 4 pages; below substance threshold 200,https://www.ombudsman.gov.lk/,

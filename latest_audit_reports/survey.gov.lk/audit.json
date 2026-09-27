@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "c86e8623-d56e-4497-a695-9e46637d8d0a",
+  "audit_id": "b395ccd9-c6a6-4c60-be11-65422c868f9d",
   "url": "https://survey.gov.lk/",
   "normalized_url": "https://survey.gov.lk/",
-  "started_at": "2026-09-26T06:08:02.061963+05:30",
-  "completed_at": "2026-09-26T06:08:35.644531+05:30",
+  "started_at": "2026-09-27T06:13:39.260683+05:30",
+  "completed_at": "2026-09-27T06:14:19.888406+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:08:05.056659+05:30"
+      "observed_at": "2026-09-27T06:13:40.339279+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:08:05.056679+05:30"
+      "observed_at": "2026-09-27T06:13:40.339412+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:08:06.029336+05:30"
+      "observed_at": "2026-09-27T06:13:41.579539+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://survey.gov.lk/",
       "source": "https://survey.gov.lk/",
-      "observed_at": "2026-09-26T06:08:35.306645+05:30"
+      "observed_at": "2026-09-27T06:14:18.328805+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://survey.gov.lk/",
       "source": "http://survey.gov.lk/",
-      "observed_at": "2026-09-26T06:08:35.306665+05:30"
+      "observed_at": "2026-09-27T06:14:18.328825+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://survey.gov.lk/",
       "source": "https://survey.gov.lk/",
-      "observed_at": "2026-09-26T06:08:35.306668+05:30"
+      "observed_at": "2026-09-27T06:14:18.328829+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://survey.gov.lk/",
       "source": "http://survey.gov.lk/",
-      "observed_at": "2026-09-26T06:08:35.306671+05:30"
+      "observed_at": "2026-09-27T06:14:18.328832+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://survey.gov.lk/sdweb/home.php",
       "source": "https://survey.gov.lk/sdweb/change_lang.php?ln=si&url=home.php",
-      "observed_at": "2026-09-26T06:08:35.306673+05:30"
+      "observed_at": "2026-09-27T06:14:18.328835+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://survey.gov.lk/sdweb/home.php",
       "source": "https://survey.gov.lk/sdweb/change_lang.php?ln=tml&url=home.php",
-      "observed_at": "2026-09-26T06:08:35.306676+05:30"
+      "observed_at": "2026-09-27T06:14:18.328838+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://survey.gov.lk/sdweb/home.php",
       "source": "https://survey.gov.lk/sdweb/change_lang.php?ln=en&url=home.php",
-      "observed_at": "2026-09-26T06:08:35.306678+05:30"
+      "observed_at": "2026-09-27T06:14:18.328841+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
-      "observed_at": "2026-09-26T06:08:35.306679+05:30"
+      "observed_at": "2026-09-27T06:14:18.328844+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
-      "observed_at": "2026-09-26T06:08:35.306682+05:30"
+      "observed_at": "2026-09-27T06:14:18.328847+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
-      "observed_at": "2026-09-26T06:08:35.306684+05:30"
+      "observed_at": "2026-09-27T06:14:18.328850+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
-      "observed_at": "2026-09-26T06:08:35.306686+05:30"
+      "observed_at": "2026-09-27T06:14:18.328852+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
-      "observed_at": "2026-09-26T06:08:35.306689+05:30"
+      "observed_at": "2026-09-27T06:14:18.328855+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
-      "observed_at": "2026-09-26T06:08:35.306691+05:30"
+      "observed_at": "2026-09-27T06:14:18.328857+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
-      "observed_at": "2026-09-26T06:08:35.306692+05:30"
+      "observed_at": "2026-09-27T06:14:18.328860+05:30"
     },
     {
       "check": "named_responsibility",
@@ -172,24 +172,6 @@
       "source": "https://survey.gov.lk/",
       "data": {
         "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/home.php",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/home.php",
-      "data": {
-        "value": "011 2369015 "
       }
     },
     {
@@ -211,21 +193,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -244,6 +226,24 @@
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/home.php",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/home.php",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -258,24 +258,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/home.php",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/home.php",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
@@ -292,21 +274,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -325,6 +307,24 @@
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/home.php",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/home.php",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -366,24 +366,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/home.php",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/home.php",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
@@ -400,21 +382,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -433,6 +415,24 @@
       "source": "https://survey.gov.lk/sdweb/home.php",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/home.php",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/home.php",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -474,24 +474,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
       "data": {
@@ -508,21 +490,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -541,6 +523,24 @@
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -591,24 +591,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
       "data": {
@@ -625,21 +607,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -658,6 +640,24 @@
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -699,24 +699,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
       "data": {
@@ -733,21 +715,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -766,6 +748,24 @@
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -807,24 +807,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
       "data": {
@@ -841,21 +823,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -874,6 +856,24 @@
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -915,24 +915,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
       "data": {
@@ -949,21 +931,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -982,6 +964,24 @@
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -1023,24 +1023,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
       "data": {
@@ -1057,21 +1039,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -1090,6 +1072,24 @@
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -1131,24 +1131,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011) 2 36 9011 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
-      "data": {
-        "value": "011) 2 36 9011 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2369015 ",
-      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
-      "data": {
-        "value": "011 2369015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 2 36 9011",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
       "data": {
@@ -1165,21 +1147,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: sd_csc@survey.gov.lk",
+      "detail": "Published phone: 011) 2 36 9011 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
       "data": {
-        "value": "sd_csc@survey.gov.lk"
+        "value": "011) 2 36 9011 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: #",
+      "detail": "Published phone: 011 2369015 ",
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
       "data": {
-        "value": "#"
+        "value": "011 2369015 "
       }
     },
     {
@@ -1198,6 +1180,24 @@
       "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
       "data": {
         "value": "sureydepartment.csc.@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: #",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
+      "data": {
+        "value": "#"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sd_csc@survey.gov.lk",
+      "source": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
+      "data": {
+        "value": "sd_csc@survey.gov.lk"
       }
     },
     {
@@ -1270,7 +1270,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1019,
+      "elapsed_ms": 1439,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1281,7 +1281,7 @@
       "redirects": [
         "https://survey.gov.lk/"
       ],
-      "elapsed_ms": 1279,
+      "elapsed_ms": 1187,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1290,7 +1290,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 809,
+      "elapsed_ms": 694,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1301,7 +1301,7 @@
       "redirects": [
         "https://survey.gov.lk/"
       ],
-      "elapsed_ms": 1313,
+      "elapsed_ms": 689,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1312,7 +1312,7 @@
       "redirects": [
         "https://survey.gov.lk/sdweb/home.php"
       ],
-      "elapsed_ms": 1858,
+      "elapsed_ms": 2745,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1323,7 +1323,7 @@
       "redirects": [
         "https://survey.gov.lk/sdweb/home.php"
       ],
-      "elapsed_ms": 1831,
+      "elapsed_ms": 2301,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1334,7 +1334,7 @@
       "redirects": [
         "https://survey.gov.lk/sdweb/home.php"
       ],
-      "elapsed_ms": 2311,
+      "elapsed_ms": 2303,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1343,7 +1343,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
       "redirects": [],
-      "elapsed_ms": 1578,
+      "elapsed_ms": 1850,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1352,7 +1352,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
       "redirects": [],
-      "elapsed_ms": 1950,
+      "elapsed_ms": 1383,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1361,7 +1361,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
       "redirects": [],
-      "elapsed_ms": 1460,
+      "elapsed_ms": 1328,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1370,7 +1370,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
       "redirects": [],
-      "elapsed_ms": 1561,
+      "elapsed_ms": 2287,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1379,7 +1379,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
       "redirects": [],
-      "elapsed_ms": 1567,
+      "elapsed_ms": 1385,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1388,7 +1388,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
       "redirects": [],
-      "elapsed_ms": 1570,
+      "elapsed_ms": 1422,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1397,7 +1397,7 @@
       "status_code": 200,
       "final_url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
       "redirects": [],
-      "elapsed_ms": 1526,
+      "elapsed_ms": 1391,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1405,86 +1405,86 @@
   "snapshots": [
     {
       "url": "https://survey.gov.lk/",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-01-0407a8f29388.html",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-01-0407a8f29388.html",
       "sha256": "0407a8f2938852e96d2c6bc52e081e0896d86cbb0daa289c440d9986b8310fb7",
       "bytes": 6634
     },
     {
       "url": "https://survey.gov.lk/",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-02-0407a8f29388.html",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-02-0407a8f29388.html",
       "sha256": "0407a8f2938852e96d2c6bc52e081e0896d86cbb0daa289c440d9986b8310fb7",
       "bytes": 6634
     },
     {
       "url": "https://survey.gov.lk/",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-03-0407a8f29388.html",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-03-0407a8f29388.html",
       "sha256": "0407a8f2938852e96d2c6bc52e081e0896d86cbb0daa289c440d9986b8310fb7",
       "bytes": 6634
     },
     {
       "url": "https://survey.gov.lk/",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-04-0407a8f29388.html",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-04-0407a8f29388.html",
       "sha256": "0407a8f2938852e96d2c6bc52e081e0896d86cbb0daa289c440d9986b8310fb7",
       "bytes": 6634
     },
     {
       "url": "https://survey.gov.lk/sdweb/home.php",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-05-9e937a37d1e4.html",
-      "sha256": "9e937a37d1e42d2f0f8c3012b0a85f73d6f3e1c7bf94062f5b3c531676e3cb8d",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-05-0dfa73daadf6.html",
+      "sha256": "0dfa73daadf6ba829ab2798ec6756081be987d6187c1ffec78348f2b9b74df2c",
       "bytes": 179987
     },
     {
       "url": "https://survey.gov.lk/sdweb/home.php",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-06-879424fb202a.html",
-      "sha256": "879424fb202a83debfe0d3ef56ce75371f5aec4f60227106df25c96e8336c283",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-06-6a2f42ac186c.html",
+      "sha256": "6a2f42ac186ca44ddc079d47952cd7066f608d817e20e54f01b78eb283519bfc",
       "bytes": 167335
     },
     {
       "url": "https://survey.gov.lk/sdweb/home.php",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-07-694233dd6210.html",
-      "sha256": "694233dd62105b863a41bbfe15738c4d949a790a1730bcf1c5eca75ce8a66b63",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-07-d265641b6767.html",
+      "sha256": "d265641b6767a9204a7690be4d9f82d21129e96b1a0bd8c062b251732a77349f",
       "bytes": 160946
     },
     {
       "url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=817122c8f9f9958a8a7688733ed95c9c58fcb688&l=s",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-08-234dd1c8a27f.html",
-      "sha256": "234dd1c8a27fa52b30df3b0eca2a359786f3b88c30d31cd499fa8ca02f9078d9",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-08-60f0f83ea557.html",
+      "sha256": "60f0f83ea55722bf83c34154f25a1b5d0d68ba81c057bdd1a1c24955f286843d",
       "bytes": 79777
     },
     {
       "url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=6e1880f44d8da29c58503d0342b63fb78f5b976a&l=s",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-09-26efebb53500.html",
-      "sha256": "26efebb5350069297697e8e121014c26736cac59312930fff12ad2f6b5c07806",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-09-68939dcd83dd.html",
+      "sha256": "68939dcd83ddd918af103f9c11929d1b13f3c96b667b2defd9635d252aaa5fe4",
       "bytes": 77363
     },
     {
       "url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=cb7afe2917d655f4e9f34a161ae46c1985ff3e18&l=s",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-10-733fc4fe114a.html",
-      "sha256": "733fc4fe114a6a7e1b836d226695814cde09587878a45f1ef7c7edb356a6c795",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-10-e18fddcb3d06.html",
+      "sha256": "e18fddcb3d06a17a01989ea7036b21e0eda7ad065ba45e84dcd0518fa008470b",
       "bytes": 76770
     },
     {
       "url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=ff423d5d6a8d28a252358b8b5eeb053477b9c5e7&l=s",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-11-e9282572726b.html",
-      "sha256": "e9282572726b94c52b490663ef5695cf1760cf94615c23b02658d2817c6b8d4b",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-11-96dca1a782b5.html",
+      "sha256": "96dca1a782b5f875e2ee5dd0bc1ea4bb2e5a6e8d773b76f78659f5b6eea2d5b2",
       "bytes": 77822
     },
     {
       "url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=5f5cd6934735e284da3ca2fe58fd5382927937e5&l=s",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-12-75b285cfaa86.html",
-      "sha256": "75b285cfaa86aedd5af6869348c544bc42267189bbfd7a14324179b48a6f0136",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-12-5d17a9f427c8.html",
+      "sha256": "5d17a9f427c8685f7060bb53736d081d809c341eb41085c13dc388b65f96292c",
       "bytes": 89742
     },
     {
       "url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=49278bc604c4e7c0cf333be2ed2b39a22911bb6d&l=s",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-13-6c4ca5183f5c.html",
-      "sha256": "6c4ca5183f5cb620cf888be9f6caa7795e2722ba1852928f0f2f033f8e0ba0ba",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-13-1997b738f6ea.html",
+      "sha256": "1997b738f6ea8db8e851ea80a0f7b6a15134cb9b52c16ae6c5d14b98a7028990",
       "bytes": 76425
     },
     {
       "url": "https://survey.gov.lk/sdweb/pages_service_land_info.php?id=996a0ced6a6f56bc18ba444143388e5ef9594d32&l=s",
-      "path": "audit.output/survey.gov.lk/20260926.0608/snapshots/page-14-24daf343e9c1.html",
-      "sha256": "24daf343e9c197b33f756ac150aa85716d1f7177f7ea191d55f31c98287765c1",
+      "path": "audit.output/survey.gov.lk/20260927.0613/snapshots/page-14-ec35ad2e2f6f.html",
+      "sha256": "ec35ad2e2f6f0d3b0e56544c27c3e0e0891d2e223903930494243ae654273112",
       "bytes": 80500
     }
   ],
@@ -1571,7 +1571,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: survey.gov.lk No 150, Bernad Soysa Road, Narahenpita, Colombo 05, Sri Lanka; Phone: 011) 2 36 9011 (4 phone numbers found); Email: sd_csc@survey.gov.lk (4 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: survey.gov.lk No 150, Bernad Soysa Road, Narahenpita, Colombo 05, Sri Lanka; Phone: +9411 2 36 9011 (4 phone numbers found); Email: sg@survey.gov.lk (4 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1584,7 +1584,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 011) 2 36 9011 (4 phone numbers found); Email: sd_csc@survey.gov.lk (4 email addresses found)"
+          "reason": "Phone: +9411 2 36 9011 (4 phone numbers found); Email: sg@survey.gov.lk (4 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1663,7 +1663,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

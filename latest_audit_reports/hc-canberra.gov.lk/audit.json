@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "441d1f11-95cb-4b6d-8480-dd3da875fe17",
+  "audit_id": "6db42329-cb89-412e-bcdc-f7713a42b3c3",
   "url": "https://hc-canberra.gov.lk",
   "normalized_url": "https://hc-canberra.gov.lk/",
-  "started_at": "2026-09-26T06:29:56.383453+05:30",
-  "completed_at": "2026-09-26T06:30:37.526506+05:30",
+  "started_at": "2026-09-27T06:35:28.191631+05:30",
+  "completed_at": "2026-09-27T06:36:06.000565+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:29:56.937924+05:30"
+      "observed_at": "2026-09-27T06:35:29.057345+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:29:56.937945+05:30"
+      "observed_at": "2026-09-27T06:35:29.057364+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:29:57.566211+05:30"
+      "observed_at": "2026-09-27T06:35:30.042377+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.hc-canberra.gov.lk/en",
       "source": "https://hc-canberra.gov.lk/",
-      "observed_at": "2026-09-26T06:30:34.768463+05:30"
+      "observed_at": "2026-09-27T06:36:03.069034+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.hc-canberra.gov.lk/en",
       "source": "http://hc-canberra.gov.lk/",
-      "observed_at": "2026-09-26T06:30:34.768483+05:30"
+      "observed_at": "2026-09-27T06:36:03.069052+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.hc-canberra.gov.lk/en",
       "source": "https://hc-canberra.gov.lk/",
-      "observed_at": "2026-09-26T06:30:34.768486+05:30"
+      "observed_at": "2026-09-27T06:36:03.069056+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.hc-canberra.gov.lk/en",
       "source": "http://hc-canberra.gov.lk/",
-      "observed_at": "2026-09-26T06:30:34.768489+05:30"
+      "observed_at": "2026-09-27T06:36:03.069060+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.hc-canberra.gov.lk/en/contact",
       "source": "https://www.hc-canberra.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:30:34.768491+05:30"
+      "observed_at": "2026-09-27T06:36:03.069063+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.hc-canberra.gov.lk/en/appointment",
       "source": "https://www.hc-canberra.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:30:34.768495+05:30"
+      "observed_at": "2026-09-27T06:36:03.069066+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.hc-canberra.gov.lk/en/newpassport-1",
       "source": "https://hc-canberra.gov.lk/en/newpassport-1",
-      "observed_at": "2026-09-26T06:30:34.768497+05:30"
+      "observed_at": "2026-09-27T06:36:03.069068+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.hc-canberra.gov.lk/en/nplost",
       "source": "https://hc-canberra.gov.lk/en/nplost",
-      "observed_at": "2026-09-26T06:30:34.768499+05:30"
+      "observed_at": "2026-09-27T06:36:03.069071+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.hc-canberra.gov.lk/en/birth",
       "source": "https://www.hc-canberra.gov.lk/en/birth",
-      "observed_at": "2026-09-26T06:30:34.768502+05:30"
+      "observed_at": "2026-09-27T06:36:03.069074+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.hc-canberra.gov.lk/en/npchildren",
       "source": "https://hc-canberra.gov.lk/en/npchildren",
-      "observed_at": "2026-09-26T06:30:34.768504+05:30"
+      "observed_at": "2026-09-27T06:36:03.069076+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.hc-canberra.gov.lk/en/dualcitizenship",
       "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
-      "observed_at": "2026-09-26T06:30:34.768507+05:30"
+      "observed_at": "2026-09-27T06:36:03.069079+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.hc-canberra.gov.lk/en/death",
       "source": "https://www.hc-canberra.gov.lk/en/death",
-      "observed_at": "2026-09-26T06:30:34.768509+05:30"
+      "observed_at": "2026-09-27T06:36:03.069082+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.hc-canberra.gov.lk/en/marriage",
       "source": "https://www.hc-canberra.gov.lk/en/marriage",
-      "observed_at": "2026-09-26T06:30:34.768511+05:30"
+      "observed_at": "2026-09-27T06:36:03.069085+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.hc-canberra.gov.lk/en/allPosts?category=News",
       "source": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:30:34.768514+05:30"
+      "observed_at": "2026-09-27T06:36:03.069087+05:30"
     },
     {
       "check": "phone",
@@ -145,15 +145,6 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "01473-5160-4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0324948746",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "0324948746"
       }
     },
     {
@@ -177,24 +168,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3760",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 02-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -213,6 +186,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 02-6198-3756 ",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "02-6198-3756 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -222,55 +204,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3756 ",
+      "detail": "Published phone: 0324948746",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "02-6198-3756 "
+        "value": "0324948746"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "john@example.com"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -280,6 +235,51 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "slhccbracct@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -321,15 +321,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0324948746",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "0324948746"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -343,24 +334,6 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "044-8987302"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760 "
       }
     },
     {
@@ -384,6 +357,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 02-6198-3756 ",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "02-6198-3756 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -393,55 +375,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3756 ",
+      "detail": "Published phone: 0324948746",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "02-6198-3756 "
+        "value": "0324948746"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "john@example.com"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -451,6 +406,51 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "slhccbracct@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -492,15 +492,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0324948746",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "0324948746"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -514,24 +505,6 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "044-8987302"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760 "
       }
     },
     {
@@ -555,6 +528,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 02-6198-3756 ",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "02-6198-3756 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -564,55 +546,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3756 ",
+      "detail": "Published phone: 0324948746",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "02-6198-3756 "
+        "value": "0324948746"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "john@example.com"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -622,6 +577,51 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "slhccbracct@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -663,15 +663,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0324948746",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "0324948746"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -685,24 +676,6 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "044-8987302"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "02-6198-3760 "
       }
     },
     {
@@ -726,6 +699,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 02-6198-3756 ",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "02-6198-3756 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
@@ -735,55 +717,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3756 ",
+      "detail": "Published phone: 0324948746",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "02-6198-3756 "
+        "value": "0324948746"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-canberra.gov.lk/en",
-      "data": {
-        "value": "john@example.com"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -793,6 +748,51 @@
       "source": "https://www.hc-canberra.gov.lk/en",
       "data": {
         "value": "slhccbracct@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -825,15 +825,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +61-2-6198-3756",
-      "source": "https://www.hc-canberra.gov.lk/en/contact",
-      "data": {
-        "value": "+61-2-6198-3756"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en/contact",
       "data": {
@@ -841,12 +832,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "+61-2-6198-3756"
       }
     },
     {
@@ -856,6 +847,15 @@
       "source": "https://www.hc-canberra.gov.lk/en/contact",
       "data": {
         "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en/contact",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -888,15 +888,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +61-2-6198-3756",
-      "source": "https://www.hc-canberra.gov.lk/en/appointment",
-      "data": {
-        "value": "+61-2-6198-3756"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en/appointment",
       "data": {
@@ -904,12 +895,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "+61-2-6198-3756"
       }
     },
     {
@@ -919,6 +910,15 @@
       "source": "https://www.hc-canberra.gov.lk/en/appointment",
       "data": {
         "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en/appointment",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -960,60 +960,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +61-2-6198-3756",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "+61-2-6198-3756"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 5624509",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "+94 81 5624509"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 5624509 ",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "+94 81 5624509 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 5676344 ",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "+94 25 5676344 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 415412212",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "+94 415412212"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 415412212 ",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "+94 415412212 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 25 5676344",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
@@ -1023,28 +969,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 37 5550562 ",
+      "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
-        "value": "+94 37 5550562 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 37 5550563 ",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "+94 37 5550563 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "02-6198-3760 "
+        "value": "+61-2-6198-3756"
       }
     },
     {
@@ -1059,10 +987,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0002853452",
+      "detail": "Published phone: +94 37 5550563 ",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
-        "value": "0002853452"
+        "value": "+94 37 5550563 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 5329230 ",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "+94 11 5329230 "
       }
     },
     {
@@ -1077,6 +1014,42 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 415412212 ",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "+94 415412212 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 81 5624509 ",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "+94 81 5624509 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 37 5550562 ",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "+94 37 5550562 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 81 5624509",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "+94 81 5624509"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 02-6198-3756 ",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
@@ -1086,64 +1059,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 5329230 ",
+      "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
-        "value": "+94 11 5329230 "
+        "value": "0002853452"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: admin@slhcaust.org",
+      "detail": "Published phone: +94 415412212",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
-        "value": "admin@slhcaust.org"
+        "value": "+94 415412212"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "detail": "Published phone: +94 25 5676344 ",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "+94 25 5676344 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: consular.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "consular.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cons1@slhcaust.org",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "cons1@slhcaust.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -1158,10 +1104,64 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: cons1@slhcaust.org",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "cons1@slhcaust.org"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consular.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "consular.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: admin@slhcaust.org",
+      "source": "https://www.hc-canberra.gov.lk/en/newpassport-1",
+      "data": {
+        "value": "admin@slhcaust.org"
       }
     },
     {
@@ -1230,19 +1230,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
+      "detail": "Published phone: 02-6198-3756 ",
       "source": "https://www.hc-canberra.gov.lk/en/nplost",
       "data": {
-        "value": "02-6198-3760 "
+        "value": "02-6198-3756 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3756 ",
+      "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en/nplost",
       "data": {
-        "value": "02-6198-3756 "
+        "value": "0002853452"
       }
     },
     {
@@ -1257,37 +1257,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0002853452",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en/nplost",
       "data": {
-        "value": "0002853452"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: admin@slhcaust.org",
-      "source": "https://www.hc-canberra.gov.lk/en/nplost",
-      "data": {
-        "value": "admin@slhcaust.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/nplost",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/nplost",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -1302,10 +1275,37 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/nplost",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-canberra.gov.lk/en/nplost",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/nplost",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: admin@slhcaust.org",
+      "source": "https://www.hc-canberra.gov.lk/en/nplost",
+      "data": {
+        "value": "admin@slhcaust.org"
       }
     },
     {
@@ -1365,28 +1365,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3760",
-      "source": "https://www.hc-canberra.gov.lk/en/birth",
-      "data": {
-        "value": "02-6198-3760"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en/birth",
-      "data": {
-        "value": "02-6198-3760 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 02-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en/birth",
       "data": {
         "value": "02-6198-3756"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 02-6198-3756 ",
+      "source": "https://www.hc-canberra.gov.lk/en/birth",
+      "data": {
+        "value": "02-6198-3756 "
       }
     },
     {
@@ -1401,19 +1392,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3756 ",
+      "detail": "Published phone: 02-6198-3760",
       "source": "https://www.hc-canberra.gov.lk/en/birth",
       "data": {
-        "value": "02-6198-3756 "
+        "value": "02-6198-3760"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en/birth",
       "data": {
-        "value": "john@example.com"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -1432,6 +1423,15 @@
       "source": "https://www.hc-canberra.gov.lk/en/birth",
       "data": {
         "value": "mail@slcgmel.org"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en/birth",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1482,28 +1482,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0684251576",
+      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
+      "data": {
+        "value": "0684251576"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en/npchildren",
       "data": {
         "value": "+61-2-6198-3756"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
-      "data": {
-        "value": "02-6198-3760 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0002853452",
-      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
-      "data": {
-        "value": "0002853452"
       }
     },
     {
@@ -1518,37 +1509,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0684251576",
+      "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en/npchildren",
       "data": {
-        "value": "0684251576"
+        "value": "0002853452"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: admin@slhcaust.org",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en/npchildren",
       "data": {
-        "value": "admin@slhcaust.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -1563,10 +1536,37 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-canberra.gov.lk/en/npchildren",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: admin@slhcaust.org",
+      "source": "https://www.hc-canberra.gov.lk/en/npchildren",
+      "data": {
+        "value": "admin@slhcaust.org"
       }
     },
     {
@@ -1635,10 +1635,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02 6198 3756",
+      "detail": "Published phone: 02 6198 3760 ",
       "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
       "data": {
-        "value": "02 6198 3756"
+        "value": "02 6198 3760 "
       }
     },
     {
@@ -1662,28 +1662,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 02 6198 3756",
+      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
+      "data": {
+        "value": "02 6198 3756"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 707 101 030",
       "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
       "data": {
         "value": "+94 707 101 030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02 6198 3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
-      "data": {
-        "value": "02 6198 3760 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 707 101 030 ",
-      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
-      "data": {
-        "value": "+94 707 101 030 "
       }
     },
     {
@@ -1698,10 +1689,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 1153 290 00",
+      "detail": "Published phone: +94 707 101 030 ",
       "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
       "data": {
-        "value": "+94 1153 290 00"
+        "value": "+94 707 101 030 "
       }
     },
     {
@@ -1711,6 +1702,33 @@
       "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
       "data": {
         "value": "02 6198 3756 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 1153 290 00",
+      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
+      "data": {
+        "value": "+94 1153 290 00"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mail@slcgmel.org",
+      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
+      "data": {
+        "value": "mail@slcgmel.org"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mail@slcgmel.org",
+      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
+      "data": {
+        "value": "mail@slcgmel.org"
       }
     },
     {
@@ -1734,28 +1752,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mail@slcgmel.org",
-      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
-      "data": {
-        "value": "mail@slcgmel.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mail@slcgmel.org",
-      "source": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
-      "data": {
-        "value": "mail@slcgmel.org"
       }
     },
     {
@@ -1824,15 +1824,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 275 525",
-      "source": "https://www.hc-canberra.gov.lk/en/death",
-      "data": {
-        "value": "+94 112 275 525"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en/death",
       "data": {
@@ -1842,37 +1833,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3760",
+      "detail": "Published phone: +94 112 275 525",
       "source": "https://www.hc-canberra.gov.lk/en/death",
       "data": {
-        "value": "02-6198-3760"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 525 ",
-      "source": "https://www.hc-canberra.gov.lk/en/death",
-      "data": {
-        "value": "+94 112 275 525 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en/death",
-      "data": {
-        "value": "02-6198-3760 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094 21 2215",
-      "source": "https://www.hc-canberra.gov.lk/en/death",
-      "data": {
-        "value": "0094 21 2215"
+        "value": "+94 112 275 525"
       }
     },
     {
@@ -1887,19 +1851,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0002853452",
+      "detail": "Published phone: 02-6198-3756 ",
       "source": "https://www.hc-canberra.gov.lk/en/death",
       "data": {
-        "value": "0002853452"
+        "value": "02-6198-3756 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 02-6198-3756 ",
+      "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en/death",
       "data": {
-        "value": "02-6198-3756 "
+        "value": "0002853452"
       }
     },
     {
@@ -1912,12 +1876,39 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 275 525 ",
       "source": "https://www.hc-canberra.gov.lk/en/death",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 275 525 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094 21 2215",
+      "source": "https://www.hc-canberra.gov.lk/en/death",
+      "data": {
+        "value": "0094 21 2215"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 02-6198-3760",
+      "source": "https://www.hc-canberra.gov.lk/en/death",
+      "data": {
+        "value": "02-6198-3760"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 02-6198-3760 ",
+      "source": "https://www.hc-canberra.gov.lk/en/death",
+      "data": {
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -1936,6 +1927,15 @@
       "source": "https://www.hc-canberra.gov.lk/en/death",
       "data": {
         "value": "mail@slcgmel.org"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-canberra.gov.lk/en/death",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -2004,28 +2004,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0684251576",
+      "source": "https://www.hc-canberra.gov.lk/en/marriage",
+      "data": {
+        "value": "0684251576"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +61-2-6198-3756",
       "source": "https://www.hc-canberra.gov.lk/en/marriage",
       "data": {
         "value": "+61-2-6198-3756"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-6198-3760 ",
-      "source": "https://www.hc-canberra.gov.lk/en/marriage",
-      "data": {
-        "value": "02-6198-3760 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0002853452",
-      "source": "https://www.hc-canberra.gov.lk/en/marriage",
-      "data": {
-        "value": "0002853452"
       }
     },
     {
@@ -2040,28 +2031,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0684251576",
+      "detail": "Published phone: 0002853452",
       "source": "https://www.hc-canberra.gov.lk/en/marriage",
       "data": {
-        "value": "0684251576"
+        "value": "0002853452"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "detail": "Published phone: 02-6198-3760 ",
       "source": "https://www.hc-canberra.gov.lk/en/marriage",
       "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/marriage",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
+        "value": "02-6198-3760 "
       }
     },
     {
@@ -2071,6 +2053,33 @@
       "source": "https://www.hc-canberra.gov.lk/en/marriage",
       "data": {
         "value": "mail@slcgmel.org"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mail@slcgmel.org",
+      "source": "https://www.hc-canberra.gov.lk/en/marriage",
+      "data": {
+        "value": "mail@slcgmel.org"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/marriage",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
+      "source": "https://www.hc-canberra.gov.lk/en/marriage",
+      "data": {
+        "value": "slhc.canberra@mfa.gov.lk"
       }
     },
     {
@@ -2080,15 +2089,6 @@
       "source": "https://www.hc-canberra.gov.lk/en/marriage",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mail@slcgmel.org",
-      "source": "https://www.hc-canberra.gov.lk/en/marriage",
-      "data": {
-        "value": "mail@slcgmel.org"
       }
     },
     {
@@ -2121,6 +2121,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0002853452",
+      "source": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "0002853452"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 01473-5160-4",
       "source": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
       "data": {
@@ -2146,12 +2155,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0002853452",
+      "detail": "Published email: slhc.canberra@mfa.gov.lk",
       "source": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "0002853452"
+        "value": "slhc.canberra@mfa.gov.lk"
       }
     },
     {
@@ -2161,15 +2170,6 @@
       "source": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.canberra@mfa.gov.lk",
-      "source": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "slhc.canberra@mfa.gov.lk"
       }
     },
     {
@@ -2236,7 +2236,7 @@
         "https://www.hc-canberra.gov.lk/",
         "https://www.hc-canberra.gov.lk/en"
       ],
-      "elapsed_ms": 3524,
+      "elapsed_ms": 1872,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2248,7 +2248,7 @@
         "https://www.hc-canberra.gov.lk/",
         "https://www.hc-canberra.gov.lk/en"
       ],
-      "elapsed_ms": 2180,
+      "elapsed_ms": 2406,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2260,7 +2260,7 @@
         "https://www.hc-canberra.gov.lk/",
         "https://www.hc-canberra.gov.lk/en"
       ],
-      "elapsed_ms": 1296,
+      "elapsed_ms": 1587,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2272,7 +2272,7 @@
         "https://www.hc-canberra.gov.lk/",
         "https://www.hc-canberra.gov.lk/en"
       ],
-      "elapsed_ms": 977,
+      "elapsed_ms": 1476,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2281,7 +2281,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-canberra.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1089,
+      "elapsed_ms": 1033,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2290,7 +2290,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-canberra.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 1576,
+      "elapsed_ms": 1560,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2301,7 +2301,7 @@
       "redirects": [
         "https://www.hc-canberra.gov.lk/en/newpassport-1"
       ],
-      "elapsed_ms": 1184,
+      "elapsed_ms": 1379,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2312,7 +2312,7 @@
       "redirects": [
         "https://www.hc-canberra.gov.lk/en/nplost"
       ],
-      "elapsed_ms": 1107,
+      "elapsed_ms": 858,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2321,7 +2321,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-canberra.gov.lk/en/birth",
       "redirects": [],
-      "elapsed_ms": 2193,
+      "elapsed_ms": 1733,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2332,7 +2332,7 @@
       "redirects": [
         "https://www.hc-canberra.gov.lk/en/npchildren"
       ],
-      "elapsed_ms": 3821,
+      "elapsed_ms": 1287,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2341,7 +2341,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
       "redirects": [],
-      "elapsed_ms": 1745,
+      "elapsed_ms": 917,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2350,7 +2350,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-canberra.gov.lk/en/death",
       "redirects": [],
-      "elapsed_ms": 1158,
+      "elapsed_ms": 1391,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2359,7 +2359,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-canberra.gov.lk/en/marriage",
       "redirects": [],
-      "elapsed_ms": 2230,
+      "elapsed_ms": 1346,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2368,7 +2368,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 2892,
+      "elapsed_ms": 1471,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2376,86 +2376,86 @@
   "snapshots": [
     {
       "url": "https://www.hc-canberra.gov.lk/en",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-01-af18476410c8.html",
-      "sha256": "af18476410c844f5f9ef896967af2571377571328f184a9e482cb1c6d1e69821",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-01-4b924841b3f2.html",
+      "sha256": "4b924841b3f2872e923846de135fe6e9c87d49c23249efc4130e264ff99f10be",
       "bytes": 341837
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-02-5c3ca4ee8d71.html",
-      "sha256": "5c3ca4ee8d7114c520696495ad3fba0f7776daddfb25e018f1a5a2b2213eafb4",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-02-17923bf87cbb.html",
+      "sha256": "17923bf87cbbfca85bf5caa8404708c4f2ef8a88a06d62809d1e1dac806a16de",
       "bytes": 341837
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-03-8d866986a90f.html",
-      "sha256": "8d866986a90f0c8f1785ec0c4df2275755bb33ae0a933aaffd741da5a78cf93f",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-03-9a80a06cf303.html",
+      "sha256": "9a80a06cf30312469ae8fdf7518c1121bdafb6fc6816836a2d484c3064f09cfb",
       "bytes": 341837
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-04-b481aa29df16.html",
-      "sha256": "b481aa29df1663792927080bc5c10cff7e8a7b2d30bcbf6ca1140492be074eeb",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-04-ddb8bf4c10fb.html",
+      "sha256": "ddb8bf4c10fbb33e4250e80ac408b420be0ad19ab413306d6bab8279aa24cd7c",
       "bytes": 341837
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/contact",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-05-d62d76f38e66.html",
-      "sha256": "d62d76f38e6696c5057b4574b8f5bfb7e87cfdb1e51296fd395f129c89dfe99a",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-05-4d0b0133c3c2.html",
+      "sha256": "4d0b0133c3c2c85790d63379fc021e9c39676f6e5be6460a2aad4f3e857cc1c9",
       "bytes": 100164
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/appointment",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-06-b97fb7f5b0b3.html",
-      "sha256": "b97fb7f5b0b34e9ca884060015c63ec8dd08e501eb14a0b01b76349d20763431",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-06-bfa0f68d2bf2.html",
+      "sha256": "bfa0f68d2bf274d216e3a6b071e9643240e6d1d94090ee779a13d88c7e9ebaa6",
       "bytes": 102018
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/newpassport-1",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-07-53dc0f492ea5.html",
-      "sha256": "53dc0f492ea56c99e2b7fbaa53932a0c65d18e086ab468cf98a75b229fbb586a",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-07-bc01b2fdf549.html",
+      "sha256": "bc01b2fdf5499931df0994f656f4ea0ea7532ea6b0c587b993b9550b32021d60",
       "bytes": 189152
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/nplost",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-08-e8f6ad2bf489.html",
-      "sha256": "e8f6ad2bf489dbd4ad91077ac197a315009645dd8592b53029a3ccc1aae442f0",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-08-49ea7474b29d.html",
+      "sha256": "49ea7474b29de5979f1dcbc5d34cb6ea724720b25807481f7d96dcff44db6780",
       "bytes": 129952
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/birth",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-09-3bc83e882e02.html",
-      "sha256": "3bc83e882e02df8658c380aee225054eb37e16bbb88b769a89491fad4d76e039",
-      "bytes": 133399
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-09-71cd88b48c1d.html",
+      "sha256": "71cd88b48c1d796fed42a3932022983469be683d71a3074187e44d9a9358bb52",
+      "bytes": 133499
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/npchildren",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-10-091972c525b8.html",
-      "sha256": "091972c525b8e027efb2ffe076827d5b669b3b978dbdb23934083f12a37234e8",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-10-02f937c0892f.html",
+      "sha256": "02f937c0892f9f8930e2574c318029ea3448fb2bf2867aa871a42dda04acc087",
       "bytes": 176074
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/dualcitizenship",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-11-a8352884c03a.html",
-      "sha256": "a8352884c03a653d871e1758534209184c943ababa8f8f39fad4bba3a90637ce",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-11-5a6f917c830b.html",
+      "sha256": "5a6f917c830b931535442716096c1c1a978a32d3e81972882f69a1b1bf21b28c",
       "bytes": 174951
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/death",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-12-8a69f14a5621.html",
-      "sha256": "8a69f14a5621475569c65f1dd53d164a9dd8f99df39f932aa0b37965a6307282",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-12-e6478b66d403.html",
+      "sha256": "e6478b66d403237acd36e7d002a1c1bebe5075d5d6dd2deef3b5dab9ed8ea28f",
       "bytes": 144048
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/marriage",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-13-eb88eab1467e.html",
-      "sha256": "eb88eab1467ea3a0266462469fe7f7c1cc8383e989b1f17bec17cfb8fc39ef2c",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-13-4a8997ad36bc.html",
+      "sha256": "4a8997ad36bcb2a2d6189880817407e5f553a5a60e54d86c2bcf3a488d182b2d",
       "bytes": 133455
     },
     {
       "url": "https://www.hc-canberra.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/hc-canberra.gov.lk/20260926.0629/snapshots/page-14-73e91747e9ab.html",
-      "sha256": "73e91747e9ab84424306133ec6763eaa172e382bd8d7b38385dd04c2f9d2449a",
+      "path": "audit.output/hc-canberra.gov.lk/20260927.0635/snapshots/page-14-6f405f76737f.html",
+      "sha256": "6f405f76737f8a8168ec760fc212e0162f900b65fb297c440e5a29ae936c1c63",
       "bytes": 165826
     }
   ],
@@ -2542,7 +2542,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Sri Lanka High Commission 61, Hampton Circuit, Yarralumla, ACT 2600 Tel No: +61 02-6198-3756 Fax No: +61 02-6198-3760 Em; Phone: 01473-5160-4 (22 phone numbers found); Email: slhc.canberra@mfa.gov.lk (8 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: Sri Lanka High Commission 61, Hampton Circuit, Yarralumla, ACT 2600 Tel No: +61 02-6198-3756 Fax No: +61 02-6198-3760 Em; Phone: 01473-5160-4 (22 phone numbers found); Email: slhccbracct@gmail.com (8 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2555,7 +2555,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 01473-5160-4 (22 phone numbers found); Email: slhc.canberra@mfa.gov.lk (8 email addresses found)"
+          "reason": "Phone: 01473-5160-4 (22 phone numbers found); Email: slhccbracct@gmail.com (8 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2634,7 +2634,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

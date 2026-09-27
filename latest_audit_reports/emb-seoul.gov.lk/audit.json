@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "2ebac8b5-aeac-4b23-b784-971d6261c30c",
+  "audit_id": "b9c0a5d3-9727-4c26-9eb2-cbc61675e9d1",
   "url": "https://emb-seoul.gov.lk",
   "normalized_url": "https://emb-seoul.gov.lk/",
-  "started_at": "2026-09-26T06:31:02.487708+05:30",
-  "completed_at": "2026-09-26T06:31:51.065597+05:30",
+  "started_at": "2026-09-27T06:36:31.131787+05:30",
+  "completed_at": "2026-09-27T06:37:18.422638+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,126 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:31:03.323761+05:30"
+      "observed_at": "2026-09-27T06:36:31.551670+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:31:03.323781+05:30"
+      "observed_at": "2026-09-27T06:36:31.551691+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:31:03.964835+05:30"
+      "observed_at": "2026-09-27T06:36:32.267839+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-seoul.gov.lk/en",
       "source": "https://emb-seoul.gov.lk/",
-      "observed_at": "2026-09-26T06:31:49.037328+05:30"
+      "observed_at": "2026-09-27T06:37:14.690994+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-seoul.gov.lk/en",
       "source": "http://emb-seoul.gov.lk/",
-      "observed_at": "2026-09-26T06:31:49.037349+05:30"
+      "observed_at": "2026-09-27T06:37:14.691013+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-seoul.gov.lk/en",
       "source": "https://emb-seoul.gov.lk/",
-      "observed_at": "2026-09-26T06:31:49.037353+05:30"
+      "observed_at": "2026-09-27T06:37:14.691018+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-seoul.gov.lk/en",
       "source": "http://emb-seoul.gov.lk/",
-      "observed_at": "2026-09-26T06:31:49.037355+05:30"
+      "observed_at": "2026-09-27T06:37:14.691021+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-seoul.gov.lk/en/study-in-korea",
       "source": "https://www.emb-seoul.gov.lk/en/study-in-korea",
-      "observed_at": "2026-09-26T06:31:49.037357+05:30"
+      "observed_at": "2026-09-27T06:37:14.691024+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-seoul.gov.lk/en/visit-srilanka",
       "source": "https://www.emb-seoul.gov.lk/en/visit-srilanka",
-      "observed_at": "2026-09-26T06:31:49.037360+05:30"
+      "observed_at": "2026-09-27T06:37:14.691028+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-seoul.gov.lk/en/appointment",
       "source": "https://www.emb-seoul.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:31:49.037362+05:30"
+      "observed_at": "2026-09-27T06:37:14.691031+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f69c53805f51a64c2cabe",
       "source": "https://emb-seoul.gov.lk/en/appointment?serviceId=6a5f69c53805f51a64c2cabe",
-      "observed_at": "2026-09-26T06:31:49.037364+05:30"
+      "observed_at": "2026-09-27T06:37:14.691034+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f6d12e93815d2d11fc5e9",
       "source": "https://emb-seoul.gov.lk/en/appointment?serviceId=6a5f6d12e93815d2d11fc5e9",
-      "observed_at": "2026-09-26T06:31:49.037366+05:30"
+      "observed_at": "2026-09-27T06:37:14.691037+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-seoul.gov.lk/en/birth-registration",
       "source": "https://emb-seoul.gov.lk/en/birth-registration",
-      "observed_at": "2026-09-26T06:31:49.037368+05:30"
+      "observed_at": "2026-09-27T06:37:14.691040+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-seoul.gov.lk/en/death-registration",
       "source": "https://emb-seoul.gov.lk/en/death-registration",
-      "observed_at": "2026-09-26T06:31:49.037371+05:30"
+      "observed_at": "2026-09-27T06:37:14.691043+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-seoul.gov.lk/en/marriage-registration",
       "source": "https://emb-seoul.gov.lk/en/marriage-registration",
-      "observed_at": "2026-09-26T06:31:49.037373+05:30"
+      "observed_at": "2026-09-27T06:37:14.691045+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f7c313805f51a64c2f70a",
       "source": "https://emb-seoul.gov.lk/en/appointment?serviceId=6a5f7c313805f51a64c2f70a",
-      "observed_at": "2026-09-26T06:31:49.037375+05:30"
+      "observed_at": "2026-09-27T06:37:14.691048+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-seoul.gov.lk/en/allPosts?category=News",
       "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:31:49.037377+05:30"
+      "observed_at": "2026-09-27T06:37:14.691051+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0601-4436-86",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0601-4436-86"
+      }
     },
     {
       "check": "phone",
@@ -145,42 +154,6 @@
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "0473349-278"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072-4263-87",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0072-4263-87"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0561899549",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0561899549"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +82027942968",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027942968"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 01-4503-9736-",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "01-4503-9736-"
       }
     },
     {
@@ -195,24 +168,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +82027352966",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027352966"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00813457-80",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "00813457-80"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 021-4324-875",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
@@ -222,10 +177,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0130271910",
+      "detail": "Published phone: 0561899549",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0130271910"
+        "value": "0561899549"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-4503-9736-",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "01-4503-9736-"
       }
     },
     {
@@ -240,10 +204,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0601-4436-86",
+      "detail": "Published phone: 0130271910",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0601-4436-86"
+        "value": "0130271910"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027352966",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027352966"
       }
     },
     {
@@ -256,12 +229,57 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00813457-80",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "00813457-80"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027942968",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027942968"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0072-4263-87",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0072-4263-87"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: slemb.seoul@mfa.gov.lk",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "slemb.seoul@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
       }
     },
     {
@@ -280,24 +298,6 @@
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
       }
     },
     {
@@ -330,46 +330,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0601-4436-86",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0601-4436-86"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0473349-278",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "0473349-278"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072-4263-87",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0072-4263-87"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0561899549",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0561899549"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +82027942968",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027942968"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 01-4503-9736-",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "01-4503-9736-"
       }
     },
     {
@@ -384,24 +357,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +82027352966",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027352966"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00813457-80",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "00813457-80"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 021-4324-875",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
@@ -411,10 +366,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0130271910",
+      "detail": "Published phone: 0561899549",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0130271910"
+        "value": "0561899549"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-4503-9736-",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "01-4503-9736-"
       }
     },
     {
@@ -429,10 +393,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0601-4436-86",
+      "detail": "Published phone: 0130271910",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0601-4436-86"
+        "value": "0130271910"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027352966",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027352966"
       }
     },
     {
@@ -445,12 +418,57 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00813457-80",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "00813457-80"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027942968",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027942968"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0072-4263-87",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0072-4263-87"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: slemb.seoul@mfa.gov.lk",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "slemb.seoul@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
       }
     },
     {
@@ -469,24 +487,6 @@
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
       }
     },
     {
@@ -519,46 +519,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0601-4436-86",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0601-4436-86"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0473349-278",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "0473349-278"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072-4263-87",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0072-4263-87"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0561899549",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0561899549"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +82027942968",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027942968"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 01-4503-9736-",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "01-4503-9736-"
       }
     },
     {
@@ -573,24 +546,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +82027352966",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027352966"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00813457-80",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "00813457-80"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 021-4324-875",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
@@ -600,10 +555,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0130271910",
+      "detail": "Published phone: 0561899549",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0130271910"
+        "value": "0561899549"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-4503-9736-",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "01-4503-9736-"
       }
     },
     {
@@ -618,10 +582,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0601-4436-86",
+      "detail": "Published phone: 0130271910",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0601-4436-86"
+        "value": "0130271910"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027352966",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027352966"
       }
     },
     {
@@ -634,12 +607,57 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00813457-80",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "00813457-80"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027942968",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027942968"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0072-4263-87",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0072-4263-87"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: slemb.seoul@mfa.gov.lk",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "slemb.seoul@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
       }
     },
     {
@@ -658,24 +676,6 @@
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
       }
     },
     {
@@ -708,46 +708,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0601-4436-86",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0601-4436-86"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0473349-278",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "0473349-278"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0072-4263-87",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0072-4263-87"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0561899549",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "0561899549"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +82027942968",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027942968"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 01-4503-9736-",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "01-4503-9736-"
       }
     },
     {
@@ -762,24 +735,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +82027352966",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "+82027352966"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00813457-80",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "00813457-80"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 021-4324-875",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
@@ -789,10 +744,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0130271910",
+      "detail": "Published phone: 0561899549",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0130271910"
+        "value": "0561899549"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 01-4503-9736-",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "01-4503-9736-"
       }
     },
     {
@@ -807,10 +771,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0601-4436-86",
+      "detail": "Published phone: 0130271910",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
-        "value": "0601-4436-86"
+        "value": "0130271910"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027352966",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027352966"
       }
     },
     {
@@ -823,12 +796,57 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00813457-80",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "00813457-80"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +82027942968",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "+82027942968"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0072-4263-87",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "0072-4263-87"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: slemb.seoul@mfa.gov.lk",
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "slemb.seoul@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: mission@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en",
+      "data": {
+        "value": "mission@slembkr.org"
       }
     },
     {
@@ -847,24 +865,6 @@
       "source": "https://www.emb-seoul.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mission@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en",
-      "data": {
-        "value": "mission@slembkr.org"
       }
     },
     {
@@ -901,15 +901,6 @@
       "source": "https://www.emb-seoul.gov.lk/en/study-in-korea",
       "data": {
         "value": "+82027352966"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.seoul@mfa.gov.lk",
-      "source": "https://www.emb-seoul.gov.lk/en/study-in-korea",
-      "data": {
-        "value": "slemb.seoul@mfa.gov.lk"
       }
     },
     {
@@ -928,6 +919,15 @@
       "source": "https://www.emb-seoul.gov.lk/en/study-in-korea",
       "data": {
         "value": "slsa_korea@hotmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.seoul@mfa.gov.lk",
+      "source": "https://www.emb-seoul.gov.lk/en/study-in-korea",
+      "data": {
+        "value": "slemb.seoul@mfa.gov.lk"
       }
     },
     {
@@ -1329,6 +1329,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +82027942968",
+      "source": "https://www.emb-seoul.gov.lk/en/birth-registration",
+      "data": {
+        "value": "+82027942968"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +82027352967",
       "source": "https://www.emb-seoul.gov.lk/en/birth-registration",
       "data": {
@@ -1336,12 +1345,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +82027942968",
+      "detail": "Published email: cons.head@slembkr.org",
       "source": "https://www.emb-seoul.gov.lk/en/birth-registration",
       "data": {
-        "value": "+82027942968"
+        "value": "cons.head@slembkr.org"
       }
     },
     {
@@ -1356,28 +1365,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: cons.head@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en/birth-registration",
-      "data": {
-        "value": "cons.head@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cons.head@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en/birth-registration",
-      "data": {
-        "value": "cons.head@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-seoul.gov.lk/en/birth-registration",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cons.head@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en/birth-registration",
+      "data": {
+        "value": "cons.head@slembkr.org"
       }
     },
     {
@@ -1419,6 +1419,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +82027942968",
+      "source": "https://www.emb-seoul.gov.lk/en/death-registration",
+      "data": {
+        "value": "+82027942968"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +82027352967",
       "source": "https://www.emb-seoul.gov.lk/en/death-registration",
       "data": {
@@ -1426,12 +1435,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +82027942968",
+      "detail": "Published email: cons.head@slembkr.org",
       "source": "https://www.emb-seoul.gov.lk/en/death-registration",
       "data": {
-        "value": "+82027942968"
+        "value": "cons.head@slembkr.org"
       }
     },
     {
@@ -1446,28 +1455,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: cons.head@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en/death-registration",
-      "data": {
-        "value": "cons.head@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cons.head@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en/death-registration",
-      "data": {
-        "value": "cons.head@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-seoul.gov.lk/en/death-registration",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cons.head@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en/death-registration",
+      "data": {
+        "value": "cons.head@slembkr.org"
       }
     },
     {
@@ -1509,6 +1509,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +82027942968",
+      "source": "https://www.emb-seoul.gov.lk/en/marriage-registration",
+      "data": {
+        "value": "+82027942968"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +82027352967",
       "source": "https://www.emb-seoul.gov.lk/en/marriage-registration",
       "data": {
@@ -1516,12 +1525,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +82027942968",
+      "detail": "Published email: cons.head@slembkr.org",
       "source": "https://www.emb-seoul.gov.lk/en/marriage-registration",
       "data": {
-        "value": "+82027942968"
+        "value": "cons.head@slembkr.org"
       }
     },
     {
@@ -1536,28 +1545,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: cons.head@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en/marriage-registration",
-      "data": {
-        "value": "cons.head@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cons.head@slembkr.org",
-      "source": "https://www.emb-seoul.gov.lk/en/marriage-registration",
-      "data": {
-        "value": "cons.head@slembkr.org"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-seoul.gov.lk/en/marriage-registration",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cons.head@slembkr.org",
+      "source": "https://www.emb-seoul.gov.lk/en/marriage-registration",
+      "data": {
+        "value": "cons.head@slembkr.org"
       }
     },
     {
@@ -1680,6 +1680,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0601-4436-86",
+      "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "0601-4436-86"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0473349-278",
       "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
       "data": {
@@ -1689,10 +1698,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0072-4263-87",
+      "detail": "Published phone: 021-4324-875",
       "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "0072-4263-87"
+        "value": "021-4324-875"
       }
     },
     {
@@ -1702,6 +1711,15 @@
       "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
       "data": {
         "value": "01-4503-9736-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0130271910",
+      "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "0130271910"
       }
     },
     {
@@ -1725,28 +1743,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0601-4436-86",
+      "detail": "Published phone: 0072-4263-87",
       "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "0601-4436-86"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 021-4324-875",
-      "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "021-4324-875"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0130271910",
-      "source": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "0130271910"
+        "value": "0072-4263-87"
       }
     },
     {
@@ -1831,7 +1831,7 @@
         "https://www.emb-seoul.gov.lk/",
         "https://www.emb-seoul.gov.lk/en"
       ],
-      "elapsed_ms": 3041,
+      "elapsed_ms": 2746,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1843,7 +1843,7 @@
         "https://www.emb-seoul.gov.lk/",
         "https://www.emb-seoul.gov.lk/en"
       ],
-      "elapsed_ms": 2184,
+      "elapsed_ms": 1043,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1855,7 +1855,7 @@
         "https://www.emb-seoul.gov.lk/",
         "https://www.emb-seoul.gov.lk/en"
       ],
-      "elapsed_ms": 1416,
+      "elapsed_ms": 1740,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1867,7 +1867,7 @@
         "https://www.emb-seoul.gov.lk/",
         "https://www.emb-seoul.gov.lk/en"
       ],
-      "elapsed_ms": 2905,
+      "elapsed_ms": 1711,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1876,7 +1876,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-seoul.gov.lk/en/study-in-korea",
       "redirects": [],
-      "elapsed_ms": 7550,
+      "elapsed_ms": 764,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1885,7 +1885,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-seoul.gov.lk/en/visit-srilanka",
       "redirects": [],
-      "elapsed_ms": 1627,
+      "elapsed_ms": 1620,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1894,7 +1894,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-seoul.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 3410,
+      "elapsed_ms": 2427,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1905,7 +1905,7 @@
       "redirects": [
         "https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f69c53805f51a64c2cabe"
       ],
-      "elapsed_ms": 2298,
+      "elapsed_ms": 1912,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1916,7 +1916,7 @@
       "redirects": [
         "https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f6d12e93815d2d11fc5e9"
       ],
-      "elapsed_ms": 2159,
+      "elapsed_ms": 2697,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1927,7 +1927,7 @@
       "redirects": [
         "https://www.emb-seoul.gov.lk/en/birth-registration"
       ],
-      "elapsed_ms": 1077,
+      "elapsed_ms": 787,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1938,7 +1938,7 @@
       "redirects": [
         "https://www.emb-seoul.gov.lk/en/death-registration"
       ],
-      "elapsed_ms": 1293,
+      "elapsed_ms": 1145,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1949,7 +1949,7 @@
       "redirects": [
         "https://www.emb-seoul.gov.lk/en/marriage-registration"
       ],
-      "elapsed_ms": 720,
+      "elapsed_ms": 1832,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1960,7 +1960,7 @@
       "redirects": [
         "https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f7c313805f51a64c2f70a"
       ],
-      "elapsed_ms": 2123,
+      "elapsed_ms": 2187,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1969,7 +1969,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 773,
+      "elapsed_ms": 2186,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1977,86 +1977,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-seoul.gov.lk/en",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-01-1ac6a3d349b7.html",
-      "sha256": "1ac6a3d349b7fb62e4652efdd0ce2e662570c6b1597e428ab5cd1416aa6c3281",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-01-3f75b22f65bb.html",
+      "sha256": "3f75b22f65bbaccc6950fe94e71b20bbde8d9c84896882e3439140606573e8b3",
       "bytes": 429949
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-02-c7ff4b73b662.html",
-      "sha256": "c7ff4b73b662616faa3dc8548439b23194c614b0f377f7674ceffe8c8bc159bd",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-02-9305982754a7.html",
+      "sha256": "9305982754a7b6ba9443b3af5aa1ed4f9a0fbfda66faf8a6ed7c61f17912c820",
       "bytes": 429949
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-03-757f73eeef40.html",
-      "sha256": "757f73eeef4053d1802043d45ee57096a3b7e2228924541199d47fbfa7efd965",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-03-0b7f9be2feac.html",
+      "sha256": "0b7f9be2feacc1a26fffbec861b9a085312291ed9cebfeb1e061a312b165090b",
       "bytes": 429949
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-04-bb7147dc017c.html",
-      "sha256": "bb7147dc017c897d1a771b5b69a1612a8b06f591809151c97043af683f891484",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-04-9101e71b85e2.html",
+      "sha256": "9101e71b85e2a0fd3686eaf42b1c439987faba1bbcfb12d646889b28bdc33427",
       "bytes": 429949
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/study-in-korea",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-05-fad57360526d.html",
-      "sha256": "fad57360526df3886189f4e9572475f14bc99b87c5be4ab2bae8e18bdda6ce44",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-05-3025f3e7be47.html",
+      "sha256": "3025f3e7be472234a086d9d05add9e125211096b1d08482df5a58fc1d39477fc",
       "bytes": 157713
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/visit-srilanka",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-06-c92b0c8dbb42.html",
-      "sha256": "c92b0c8dbb4201fc4765bbd5e49ba3c99936a315eb2f0fc9862a0e114b05d646",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-06-f0516ac032ea.html",
+      "sha256": "f0516ac032ead52917072beb327a03fa14c6d691f27232f4adbf8ce5aad2700d",
       "bytes": 115635
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/appointment",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-07-f0f1528c76bd.html",
-      "sha256": "f0f1528c76bdb619df908f7ceb8cb991944d44dae61b4c1e78a2b14305a398ba",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-07-3e18e9c08e2d.html",
+      "sha256": "3e18e9c08e2d8986bacfdc3ce6d0f1608bcaf9e267d1d16e5c10dfa957130c02",
       "bytes": 278067
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f69c53805f51a64c2cabe",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-08-c99aae8c0e0b.html",
-      "sha256": "c99aae8c0e0b9ab4bc15238307ef806cdcf137a34800e0f842049fc1fb6f8023",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-08-14f29d1bc6a9.html",
+      "sha256": "14f29d1bc6a963e928cadf6d0e9ffd925f5b7a36f77d767aedd8e571736f8923",
       "bytes": 278222
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f6d12e93815d2d11fc5e9",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-09-1bee04747f8e.html",
-      "sha256": "1bee04747f8e0c08e404a0e880237662d98028620f18f2e1d00fd771ed6852fd",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-09-db305b06bd58.html",
+      "sha256": "db305b06bd58352cddba8b4b08673ba3fb9eacc96c6511a523a2a60cc58b33de",
       "bytes": 278222
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/birth-registration",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-10-4894d5e962a9.html",
-      "sha256": "4894d5e962a93626a9bf385f13cf3ea8768e1aa75a1f35779527c37f22832d9f",
-      "bytes": 104577
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-10-92b16a19aea6.html",
+      "sha256": "92b16a19aea637b1d243ac963f9c3d56c50b263699b35f8a4933267e77e32184",
+      "bytes": 104477
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/death-registration",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-11-fa29b0ff8980.html",
-      "sha256": "fa29b0ff898067f8863d7d4dcc8d465485bec8b58291f888f7343a63a20fcd3b",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-11-44a758953d03.html",
+      "sha256": "44a758953d03392c93fba3e044050d5348276f039316f4f6235011b2f746fcfd",
       "bytes": 103353
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/marriage-registration",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-12-63499efbf526.html",
-      "sha256": "63499efbf5260271d42f81b6b54ec90a739ec4e3ef6b44038a40f239adcb9b08",
-      "bytes": 106112
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-12-402e23acde5b.html",
+      "sha256": "402e23acde5baeb5f64897fe3b41557f5aa5405392d7862c1f0178d9d9e76b29",
+      "bytes": 106012
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/appointment?serviceId=6a5f7c313805f51a64c2f70a",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-13-daa113c02209.html",
-      "sha256": "daa113c02209c06e48dff459c93d1f40046316c8a889f9b3514d7c1971a5cffd",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-13-8c33b8a17e38.html",
+      "sha256": "8c33b8a17e381a9d3463c1697b6f0d2377802076ad74d75f19a58693f8bbf7aa",
       "bytes": 278222
     },
     {
       "url": "https://www.emb-seoul.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/emb-seoul.gov.lk/20260926.0631/snapshots/page-14-e18f318849fb.html",
-      "sha256": "e18f318849fbbc4047269f8d56560211b25e20515ed02ecbd3347cc6049177c4",
+      "path": "audit.output/emb-seoul.gov.lk/20260927.0636/snapshots/page-14-583ff685963d.html",
+      "sha256": "583ff685963d3985b88612f56ce2a0369f7a4770dfbe27539d36c084f02b6efd",
       "bytes": 281052
     }
   ],
@@ -2143,7 +2143,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: No.39, Dongho-ro 10-gil, Jung-gu, Seoul 04590 Republic of Korea Phone Numbers: (+82) 02-735-2966 , 02-735-2967 , 02-794-; Phone: 0473349-278 (13 phone numbers found); Email: slemb.seoul@mfa.gov.lk (5 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: No.39, Dongho-ro 10-gil, Jung-gu, Seoul 04590 Republic of Korea Phone Numbers: (+82) 02-735-2966 , 02-735-2967 , 02-794-; Phone: 0601-4436-86 (13 phone numbers found); Email: mission@slembkr.org (5 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2156,7 +2156,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0473349-278 (13 phone numbers found); Email: slemb.seoul@mfa.gov.lk (5 email addresses found)"
+          "reason": "Phone: 0601-4436-86 (13 phone numbers found); Email: mission@slembkr.org (5 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2235,7 +2235,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

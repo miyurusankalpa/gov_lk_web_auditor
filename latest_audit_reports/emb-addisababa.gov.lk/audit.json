@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "3c934083-526f-4e1a-a895-498c30f0003c",
+  "audit_id": "c24ccd8f-2112-493d-9d84-6ae0518966a1",
   "url": "https://emb-addisababa.gov.lk",
   "normalized_url": "https://emb-addisababa.gov.lk/",
-  "started_at": "2026-09-26T06:35:34.860873+05:30",
-  "completed_at": "2026-09-26T06:36:13.747602+05:30",
+  "started_at": "2026-09-27T06:40:42.354556+05:30",
+  "completed_at": "2026-09-27T06:41:29.401701+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:35:35.369087+05:30"
+      "observed_at": "2026-09-27T06:40:43.243658+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:35:35.369104+05:30"
+      "observed_at": "2026-09-27T06:40:43.243681+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:35:35.949638+05:30"
+      "observed_at": "2026-09-27T06:40:44.128617+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-addisababa.gov.lk/en",
       "source": "https://emb-addisababa.gov.lk/",
-      "observed_at": "2026-09-26T06:36:12.325849+05:30"
+      "observed_at": "2026-09-27T06:41:25.387003+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-addisababa.gov.lk/en",
       "source": "http://emb-addisababa.gov.lk/",
-      "observed_at": "2026-09-26T06:36:12.325869+05:30"
+      "observed_at": "2026-09-27T06:41:25.387022+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-addisababa.gov.lk/en",
       "source": "https://emb-addisababa.gov.lk/",
-      "observed_at": "2026-09-26T06:36:12.325873+05:30"
+      "observed_at": "2026-09-27T06:41:25.387027+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-addisababa.gov.lk/en",
       "source": "http://emb-addisababa.gov.lk/",
-      "observed_at": "2026-09-26T06:36:12.325876+05:30"
+      "observed_at": "2026-09-27T06:41:25.387029+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-addisababa.gov.lk/en/contact",
       "source": "https://www.emb-addisababa.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:36:12.325878+05:30"
+      "observed_at": "2026-09-27T06:41:25.387032+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-addisababa.gov.lk/en/our-leadership",
       "source": "https://www.emb-addisababa.gov.lk/en/our-leadership",
-      "observed_at": "2026-09-26T06:36:12.325881+05:30"
+      "observed_at": "2026-09-27T06:41:25.387035+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-addisababa.gov.lk/en/our-community-in-ethiopia",
       "source": "https://www.emb-addisababa.gov.lk/en/our-community-in-ethiopia",
-      "observed_at": "2026-09-26T06:36:12.325883+05:30"
+      "observed_at": "2026-09-27T06:41:25.387037+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-addisababa.gov.lk/en/bilateral-relations",
       "source": "https://www.emb-addisababa.gov.lk/en/bilateral-relations",
-      "observed_at": "2026-09-26T06:36:12.325886+05:30"
+      "observed_at": "2026-09-27T06:41:25.387040+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-addisababa.gov.lk/en/multilateral-relations",
       "source": "https://www.emb-addisababa.gov.lk/en/multilateral-relations",
-      "observed_at": "2026-09-26T06:36:12.325888+05:30"
+      "observed_at": "2026-09-27T06:41:25.387043+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-addisababa.gov.lk/en/appointment",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:36:12.325890+05:30"
+      "observed_at": "2026-09-27T06:41:25.387046+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "source": "https://emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "observed_at": "2026-09-26T06:36:12.325893+05:30"
+      "observed_at": "2026-09-27T06:41:25.387049+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "source": "https://emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "observed_at": "2026-09-26T06:36:12.325895+05:30"
+      "observed_at": "2026-09-27T06:41:25.387052+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "source": "https://emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "observed_at": "2026-09-26T06:36:12.325897+05:30"
+      "observed_at": "2026-09-27T06:41:25.387054+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "source": "https://emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "observed_at": "2026-09-26T06:36:12.325899+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0337080449",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "0337080449"
-      }
+      "observed_at": "2026-09-27T06:41:25.387057+05:30"
     },
     {
       "check": "phone",
@@ -154,15 +145,6 @@
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "052578-9694-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154785",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "+251116154785"
       }
     },
     {
@@ -177,10 +159,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0337080449",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "0337080449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +251116154681",
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154785",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "+251116154785"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -190,24 +208,6 @@
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -240,28 +240,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0337080449",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "0337080449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 052578-9694-",
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "052578-9694-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154785",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "+251116154785"
       }
     },
     {
@@ -276,10 +258,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0337080449",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "0337080449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +251116154681",
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154785",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "+251116154785"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -289,24 +307,6 @@
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -339,28 +339,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0337080449",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "0337080449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 052578-9694-",
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "052578-9694-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154785",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "+251116154785"
       }
     },
     {
@@ -375,10 +357,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0337080449",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "0337080449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +251116154681",
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154785",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "+251116154785"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -388,24 +406,6 @@
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -438,28 +438,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0337080449",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "0337080449"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 052578-9694-",
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "052578-9694-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154785",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "+251116154785"
       }
     },
     {
@@ -474,10 +456,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0337080449",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "0337080449"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +251116154681",
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154785",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "+251116154785"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en",
+      "data": {
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -487,24 +505,6 @@
       "source": "https://www.emb-addisababa.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
-      "source": "https://www.emb-addisababa.gov.lk/en",
-      "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -546,19 +546,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/contact",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -591,19 +591,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/our-leadership",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/our-leadership",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -636,19 +636,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/our-community-in-ethiopia",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/our-community-in-ethiopia",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -681,19 +681,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -726,19 +726,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/multilateral-relations",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/multilateral-relations",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -762,42 +762,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0006556536",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "0006556536"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889489",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94112889489"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112334304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94112334304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889488",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94112889488"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 112 889 488",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
@@ -807,64 +771,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 18365 91",
+      "detail": "Published phone: +94 112 889 489",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
-        "value": "000 18365 91"
+        "value": "+94 112 889 489"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 183 659 1",
+      "detail": "Published phone: 0006556536",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
-        "value": "000 183 659 1"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 334 304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "+94 112 334 304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 000 655 653 6",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "000 655 653 6"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094 11 5329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "0094 11 5329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094115329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "0094115329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154681",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "data": {
-        "value": "+251116154681"
+        "value": "0006556536"
       }
     },
     {
@@ -879,19 +798,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 889 489",
+      "detail": "Published phone: 000 183 659 1",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
-        "value": "+94 112 889 489"
+        "value": "000 183 659 1"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: contvisa@immigration.gov.lk",
+      "detail": "Published phone: 000 18365 91",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
-        "value": "contvisa@immigration.gov.lk"
+        "value": "000 18365 91"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112334304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "+94112334304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 334 304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "+94 112 334 304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154681",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094115329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "0094115329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000 655 653 6",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "000 655 653 6"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889488",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "+94112889488"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889489",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "+94112889489"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094 11 5329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "0094 11 5329"
       }
     },
     {
@@ -906,6 +897,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: contvisa@immigration.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment",
+      "data": {
+        "value": "contvisa@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
@@ -915,10 +915,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -933,10 +933,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -996,42 +996,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0006556536",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "0006556536"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889489",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "+94112889489"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112334304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "+94112334304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889488",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "+94112889488"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 112 889 488",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
@@ -1041,64 +1005,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 18365 91",
+      "detail": "Published phone: +94 112 889 489",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
-        "value": "000 18365 91"
+        "value": "+94 112 889 489"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 183 659 1",
+      "detail": "Published phone: 0006556536",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
-        "value": "000 183 659 1"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 334 304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "+94 112 334 304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 000 655 653 6",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "000 655 653 6"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094 11 5329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "0094 11 5329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094115329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "0094115329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154681",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "data": {
-        "value": "+251116154681"
+        "value": "0006556536"
       }
     },
     {
@@ -1113,19 +1032,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 889 489",
+      "detail": "Published phone: 000 183 659 1",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
-        "value": "+94 112 889 489"
+        "value": "000 183 659 1"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: contvisa@immigration.gov.lk",
+      "detail": "Published phone: 000 18365 91",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
-        "value": "contvisa@immigration.gov.lk"
+        "value": "000 18365 91"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112334304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "+94112334304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 334 304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "+94 112 334 304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154681",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094115329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "0094115329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000 655 653 6",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "000 655 653 6"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889488",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "+94112889488"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889489",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "+94112889489"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094 11 5329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "0094 11 5329"
       }
     },
     {
@@ -1140,6 +1131,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: contvisa@immigration.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
+      "data": {
+        "value": "contvisa@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
@@ -1149,10 +1149,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -1167,10 +1167,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1230,42 +1230,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0006556536",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "0006556536"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889489",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "+94112889489"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112334304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "+94112334304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889488",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "+94112889488"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 112 889 488",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
@@ -1275,64 +1239,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 18365 91",
+      "detail": "Published phone: +94 112 889 489",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
-        "value": "000 18365 91"
+        "value": "+94 112 889 489"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 183 659 1",
+      "detail": "Published phone: 0006556536",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
-        "value": "000 183 659 1"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 334 304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "+94 112 334 304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 000 655 653 6",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "000 655 653 6"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094 11 5329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "0094 11 5329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094115329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "0094115329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154681",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "data": {
-        "value": "+251116154681"
+        "value": "0006556536"
       }
     },
     {
@@ -1347,19 +1266,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 889 489",
+      "detail": "Published phone: 000 183 659 1",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
-        "value": "+94 112 889 489"
+        "value": "000 183 659 1"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: contvisa@immigration.gov.lk",
+      "detail": "Published phone: 000 18365 91",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
-        "value": "contvisa@immigration.gov.lk"
+        "value": "000 18365 91"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112334304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "+94112334304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 334 304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "+94 112 334 304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154681",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094115329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "0094115329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000 655 653 6",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "000 655 653 6"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889488",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "+94112889488"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889489",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "+94112889489"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094 11 5329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "0094 11 5329"
       }
     },
     {
@@ -1374,6 +1365,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: contvisa@immigration.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
+      "data": {
+        "value": "contvisa@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
@@ -1383,10 +1383,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -1401,10 +1401,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1464,42 +1464,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0006556536",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "0006556536"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889489",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "+94112889489"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112334304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "+94112334304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889488",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "+94112889488"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 112 889 488",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
@@ -1509,64 +1473,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 18365 91",
+      "detail": "Published phone: +94 112 889 489",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
-        "value": "000 18365 91"
+        "value": "+94 112 889 489"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 183 659 1",
+      "detail": "Published phone: 0006556536",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
-        "value": "000 183 659 1"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 334 304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "+94 112 334 304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 000 655 653 6",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "000 655 653 6"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094 11 5329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "0094 11 5329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094115329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "0094115329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154681",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "data": {
-        "value": "+251116154681"
+        "value": "0006556536"
       }
     },
     {
@@ -1581,19 +1500,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 889 489",
+      "detail": "Published phone: 000 183 659 1",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
-        "value": "+94 112 889 489"
+        "value": "000 183 659 1"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: contvisa@immigration.gov.lk",
+      "detail": "Published phone: 000 18365 91",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
-        "value": "contvisa@immigration.gov.lk"
+        "value": "000 18365 91"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112334304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "+94112334304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 334 304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "+94 112 334 304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154681",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094115329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "0094115329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000 655 653 6",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "000 655 653 6"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889488",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "+94112889488"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889489",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "+94112889489"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094 11 5329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "0094 11 5329"
       }
     },
     {
@@ -1608,6 +1599,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: contvisa@immigration.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
+      "data": {
+        "value": "contvisa@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
@@ -1617,10 +1617,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -1635,10 +1635,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1698,42 +1698,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0006556536",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "0006556536"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889489",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "+94112889489"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112334304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "+94112334304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112889488",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "+94112889488"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 112 889 488",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
@@ -1743,64 +1707,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 18365 91",
+      "detail": "Published phone: +94 112 889 489",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
-        "value": "000 18365 91"
+        "value": "+94 112 889 489"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 000 183 659 1",
+      "detail": "Published phone: 0006556536",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
-        "value": "000 183 659 1"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 334 304",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "+94 112 334 304"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 000 655 653 6",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "000 655 653 6"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094 11 5329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "0094 11 5329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094115329",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "0094115329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +251116154681",
-      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "data": {
-        "value": "+251116154681"
+        "value": "0006556536"
       }
     },
     {
@@ -1815,19 +1734,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 889 489",
+      "detail": "Published phone: 000 183 659 1",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
-        "value": "+94 112 889 489"
+        "value": "000 183 659 1"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: contvisa@immigration.gov.lk",
+      "detail": "Published phone: 000 18365 91",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
-        "value": "contvisa@immigration.gov.lk"
+        "value": "000 18365 91"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112334304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "+94112334304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 334 304",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "+94 112 334 304"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +251116154681",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "+251116154681"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094115329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "0094115329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000 655 653 6",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "000 655 653 6"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889488",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "+94112889488"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112889489",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "+94112889489"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094 11 5329",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "0094 11 5329"
       }
     },
     {
@@ -1842,6 +1833,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: contvisa@immigration.gov.lk",
+      "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
+      "data": {
+        "value": "contvisa@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
@@ -1851,10 +1851,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.addisababa@mfa.gov.lk"
       }
     },
     {
@@ -1869,10 +1869,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.addisababa@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
       "data": {
-        "value": "slemb.addisababa@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1966,7 +1966,7 @@
         "https://www.emb-addisababa.gov.lk/",
         "https://www.emb-addisababa.gov.lk/en"
       ],
-      "elapsed_ms": 2402,
+      "elapsed_ms": 1667,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1978,7 +1978,7 @@
         "https://www.emb-addisababa.gov.lk/",
         "https://www.emb-addisababa.gov.lk/en"
       ],
-      "elapsed_ms": 1882,
+      "elapsed_ms": 1057,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1990,7 +1990,7 @@
         "https://www.emb-addisababa.gov.lk/",
         "https://www.emb-addisababa.gov.lk/en"
       ],
-      "elapsed_ms": 749,
+      "elapsed_ms": 1021,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2002,7 +2002,7 @@
         "https://www.emb-addisababa.gov.lk/",
         "https://www.emb-addisababa.gov.lk/en"
       ],
-      "elapsed_ms": 2672,
+      "elapsed_ms": 808,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2011,7 +2011,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-addisababa.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1291,
+      "elapsed_ms": 2152,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2020,7 +2020,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-addisababa.gov.lk/en/our-leadership",
       "redirects": [],
-      "elapsed_ms": 1513,
+      "elapsed_ms": 1175,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2029,7 +2029,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-addisababa.gov.lk/en/our-community-in-ethiopia",
       "redirects": [],
-      "elapsed_ms": 936,
+      "elapsed_ms": 963,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2038,7 +2038,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-addisababa.gov.lk/en/bilateral-relations",
       "redirects": [],
-      "elapsed_ms": 889,
+      "elapsed_ms": 2122,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2047,7 +2047,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-addisababa.gov.lk/en/multilateral-relations",
       "redirects": [],
-      "elapsed_ms": 901,
+      "elapsed_ms": 2032,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2056,7 +2056,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-addisababa.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2482,
+      "elapsed_ms": 2427,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2067,7 +2067,7 @@
       "redirects": [
         "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03"
       ],
-      "elapsed_ms": 2380,
+      "elapsed_ms": 3443,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2078,7 +2078,7 @@
       "redirects": [
         "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024"
       ],
-      "elapsed_ms": 2128,
+      "elapsed_ms": 2566,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2089,7 +2089,7 @@
       "redirects": [
         "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3"
       ],
-      "elapsed_ms": 2931,
+      "elapsed_ms": 2888,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2100,7 +2100,7 @@
       "redirects": [
         "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab"
       ],
-      "elapsed_ms": 2584,
+      "elapsed_ms": 3223,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2108,86 +2108,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-addisababa.gov.lk/en",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-01-7989bc37e4fc.html",
-      "sha256": "7989bc37e4fca492db1d999b79db7b9f87588bc5b430e6a8f5f95d058731c9bb",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-01-26d1b02032a0.html",
+      "sha256": "26d1b02032a0ddb293cd41515246d890ec26d7df423d38b415d7e32d767a5847",
       "bytes": 319029
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-02-b5aec40bd270.html",
-      "sha256": "b5aec40bd2701e74fe19f97aceb3f4ce88bdf0e639585b72aed1795eed5784c4",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-02-7c05bbcbca41.html",
+      "sha256": "7c05bbcbca41004c62fabc9592c09bfb3c657531888ffd019a117e223c038c4c",
       "bytes": 319029
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-03-eec392cfa2b6.html",
-      "sha256": "eec392cfa2b69a7fa284601d0f6c8ad4723246e93b45ade33a191c54c2f0cf92",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-03-1f03f5bbfb6a.html",
+      "sha256": "1f03f5bbfb6a15281bb0d6fc386b95340f40cc227b52f98e2606df320a06bc40",
       "bytes": 319029
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-04-1e0660cb69b0.html",
-      "sha256": "1e0660cb69b060143443a9edfbc951a0fcba72021e512e7bf092953ebbecd8a6",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-04-ac2ee5c1c08c.html",
+      "sha256": "ac2ee5c1c08cfb56f251ca692700d2f8400c4b9b8b87a13774d63d5fd8e1166a",
       "bytes": 319029
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/contact",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-05-29171112c143.html",
-      "sha256": "29171112c1435ed2d8d0ec0648875c3556743a41079cd39091532b7dff43c668",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-05-82a8bdf83425.html",
+      "sha256": "82a8bdf834258d48519083201e987a194e7bbadf4d0077370e93f389b726ad61",
       "bytes": 92637
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/our-leadership",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-06-224f0c3d34ec.html",
-      "sha256": "224f0c3d34ec5ed3e7b64ae50f5c8d46656ead53f9a7a062ea46896531821373",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-06-5953eda458c5.html",
+      "sha256": "5953eda458c51ef1c9182603cb27a3e1809b49843150f745b2204acf3a4bd8b6",
       "bytes": 98401
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/our-community-in-ethiopia",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-07-60da2bbd9dbe.html",
-      "sha256": "60da2bbd9dbe63f45f3a10fe079cdf04d0e80ceb8ba15008fc6b953d121d8791",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-07-e94fc6a1196b.html",
+      "sha256": "e94fc6a1196ba58b0fad79ec02c964238898b882800590613ad9b736c19a21bb",
       "bytes": 86875
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/bilateral-relations",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-08-22fbb053579c.html",
-      "sha256": "22fbb053579cd2aac4b9389be515739de8223f4ea4e7db5419b4df330ccbf6d3",
-      "bytes": 92223
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-08-41105efbe48d.html",
+      "sha256": "41105efbe48de097a2b3506ae5935158c46608e528b1cc6cc9772619b523c6dc",
+      "bytes": 92123
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/multilateral-relations",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-09-4e0235229ef3.html",
-      "sha256": "4e0235229ef3ae4cdb81fa0d78204bcc8908f589b2f6d10ed0772ff02521b873",
-      "bytes": 90676
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-09-f1d0bbc57601.html",
+      "sha256": "f1d0bbc5760131ce23fd5d3d8701dd5241fb1dc7a8b0d2727c64f066fc19686c",
+      "bytes": 90576
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/appointment",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-10-3c83b9590f4f.html",
-      "sha256": "3c83b9590f4fb1297845c4373627f14f3074ec891f13b1183127b37060324933",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-10-283699b7df97.html",
+      "sha256": "283699b7df97f0e0d00454953f7310fdebaf56e01465c28c8a4ade7f46607ff2",
       "bytes": 310978
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709e4e995494d71a3e5a03",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-11-873cdd31afce.html",
-      "sha256": "873cdd31afce14efca55218f5e1c41b6a86b79b3d819d122d9bca96cb714cd2f",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-11-cd5eb8ea5eec.html",
+      "sha256": "cd5eb8ea5eecfc78554055916ce40717b74b4be14d6d38fb7ad4130866f7714b",
       "bytes": 311133
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7088e8995494d71a3e5024",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-12-5983632d2b9f.html",
-      "sha256": "5983632d2b9f83397fccc424b06a03099bd2adeaa071360012461ac8c9bc3688",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-12-779ef4b294bc.html",
+      "sha256": "779ef4b294bc99c6ec4a81d65ab8522fd64ae062cfaf1a4dbe5710958539abfe",
       "bytes": 311133
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a7080ecc56bbae6621f2be3",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-13-8635173361fe.html",
-      "sha256": "8635173361fe81fe91693605280034c4a45c1ec054a1cb7431264cddce2bb537",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-13-0f2055c99a6c.html",
+      "sha256": "0f2055c99a6cf353c63ea08520e53a296014500cb3dd63b7756ae769e3adb5b3",
       "bytes": 311133
     },
     {
       "url": "https://www.emb-addisababa.gov.lk/en/appointment?serviceId=6a709ecfc56bbae6621f3bab",
-      "path": "audit.output/emb-addisababa.gov.lk/20260926.0635/snapshots/page-14-d6a52ed447a7.html",
-      "sha256": "d6a52ed447a787504610c11b5f54aa9f5ce782a34823707fd78db15dd63fa3e7",
+      "path": "audit.output/emb-addisababa.gov.lk/20260927.0640/snapshots/page-14-0c17dc04fdf0.html",
+      "sha256": "0c17dc04fdf031eda49e892b31dde1be6022b9b8318b68867d8abcecd566acdc",
       "bytes": 311133
     }
   ],
@@ -2274,7 +2274,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: P.O. Box 5738 (GPO), Bole Sub City, Kebele 02, House No. 875, Addis Ababa, Ethiopia Tel: +251-116154681 , +251-116154785; Phone: 0337080449 (18 phone numbers found); Email: john@example.com (4 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: P.O. Box 5738 (GPO), Bole Sub City, Kebele 02, House No. 875, Addis Ababa, Ethiopia Tel: +251-116154681 , +251-116154785; Phone: 052578-9694- (18 phone numbers found); Email: slemb.addisababa@mfa.gov.lk (4 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2287,7 +2287,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0337080449 (18 phone numbers found); Email: john@example.com (4 email addresses found)"
+          "reason": "Phone: 052578-9694- (18 phone numbers found); Email: slemb.addisababa@mfa.gov.lk (4 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2366,7 +2366,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

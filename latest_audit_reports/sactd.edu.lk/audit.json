@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "7b4cf61c-e061-4577-981b-dbf2ea36fba5",
+  "audit_id": "19f4101c-5afe-4b55-b992-22e6b17fd9be",
   "url": "https://sactd.edu.lk/",
   "normalized_url": "https://sactd.edu.lk/",
-  "started_at": "2026-09-26T06:19:20.372624+05:30",
-  "completed_at": "2026-09-26T06:20:03.194074+05:30",
+  "started_at": "2026-09-27T06:25:57.728790+05:30",
+  "completed_at": "2026-09-27T06:26:36.404444+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:19:20.961949+05:30"
+      "observed_at": "2026-09-27T06:25:57.986491+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:19:20.961964+05:30"
+      "observed_at": "2026-09-27T06:25:57.986510+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:19:21.009697+05:30"
+      "observed_at": "2026-09-27T06:25:57.996798+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://sactd.edu.lk/",
       "source": "https://sactd.edu.lk/",
-      "observed_at": "2026-09-26T06:20:01.772038+05:30"
+      "observed_at": "2026-09-27T06:26:34.568096+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://sactd.edu.lk/",
       "source": "http://sactd.edu.lk/",
-      "observed_at": "2026-09-26T06:20:01.772056+05:30"
+      "observed_at": "2026-09-27T06:26:34.568115+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://sactd.edu.lk/",
       "source": "https://sactd.edu.lk/",
-      "observed_at": "2026-09-26T06:20:01.772060+05:30"
+      "observed_at": "2026-09-27T06:26:34.568120+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://sactd.edu.lk/",
       "source": "http://sactd.edu.lk/",
-      "observed_at": "2026-09-26T06:20:01.772062+05:30"
+      "observed_at": "2026-09-27T06:26:34.568123+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://sactd.edu.lk/contact/",
       "source": "https://sactd.edu.lk/contact/",
-      "observed_at": "2026-09-26T06:20:01.772065+05:30"
+      "observed_at": "2026-09-27T06:26:34.568126+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://sactd.edu.lk",
       "source": "https://sactd.edu.lk",
-      "observed_at": "2026-09-26T06:20:01.772067+05:30"
+      "observed_at": "2026-09-27T06:26:34.568129+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://sactd.edu.lk/about/",
       "source": "https://sactd.edu.lk/about/",
-      "observed_at": "2026-09-26T06:20:01.772069+05:30"
+      "observed_at": "2026-09-27T06:26:34.568132+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://sactd.edu.lk/our-team/",
       "source": "https://sactd.edu.lk/our-team/",
-      "observed_at": "2026-09-26T06:20:01.772071+05:30"
+      "observed_at": "2026-09-27T06:26:34.568135+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://sactd.edu.lk/wp-content/uploads/2026/02/SACTD-Prospectus-2026.pdf",
       "source": "https://sactd.edu.lk/wp-content/uploads/2026/02/SACTD-Prospectus-2026.pdf",
-      "observed_at": "2026-09-26T06:20:01.772073+05:30"
+      "observed_at": "2026-09-27T06:26:34.568138+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://sactd.edu.lk/__trashed-5__trashed/",
       "source": "https://sactd.edu.lk/__trashed-5__trashed/",
-      "observed_at": "2026-09-26T06:20:01.772075+05:30"
+      "observed_at": "2026-09-27T06:26:34.568141+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://sactd.edu.lk/showcase-layout-2/",
       "source": "https://sactd.edu.lk/showcase-layout-2/",
-      "observed_at": "2026-09-26T06:20:01.772077+05:30"
+      "observed_at": "2026-09-27T06:26:34.568143+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://sactd.edu.lk/lecture-hall/",
       "source": "https://sactd.edu.lk/lecture-hall/",
-      "observed_at": "2026-09-26T06:20:01.772079+05:30"
+      "observed_at": "2026-09-27T06:26:34.568146+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://sactd.edu.lk/hostel-complex/",
       "source": "https://sactd.edu.lk/hostel-complex/",
-      "observed_at": "2026-09-26T06:20:01.772081+05:30"
+      "observed_at": "2026-09-27T06:26:34.568149+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://sactd.edu.lk/showcase-5/",
       "source": "https://sactd.edu.lk/showcase-5/",
-      "observed_at": "2026-09-26T06:20:01.772083+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00000000 50",
-      "source": "https://sactd.edu.lk/",
-      "data": {
-        "value": "00000000 50"
-      }
+      "observed_at": "2026-09-27T06:26:34.568151+05:30"
     },
     {
       "check": "phone",
@@ -163,6 +154,15 @@
       "source": "https://sactd.edu.lk/",
       "data": {
         "value": "+94 11 760 1357 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00000000 50",
+      "source": "https://sactd.edu.lk/",
+      "data": {
+        "value": "00000000 50"
       }
     },
     {
@@ -177,15 +177,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00000000 50",
-      "source": "https://sactd.edu.lk/",
-      "data": {
-        "value": "00000000 50"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0000000000",
       "source": "https://sactd.edu.lk/",
       "data": {
@@ -199,6 +190,15 @@
       "source": "https://sactd.edu.lk/",
       "data": {
         "value": "+94 11 760 1357 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00000000 50",
+      "source": "https://sactd.edu.lk/",
+      "data": {
+        "value": "00000000 50"
       }
     },
     {
@@ -213,15 +213,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00000000 50",
-      "source": "https://sactd.edu.lk/",
-      "data": {
-        "value": "00000000 50"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0000000000",
       "source": "https://sactd.edu.lk/",
       "data": {
@@ -235,6 +226,15 @@
       "source": "https://sactd.edu.lk/",
       "data": {
         "value": "+94 11 760 1357 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00000000 50",
+      "source": "https://sactd.edu.lk/",
+      "data": {
+        "value": "00000000 50"
       }
     },
     {
@@ -249,15 +249,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00000000 50",
-      "source": "https://sactd.edu.lk/",
-      "data": {
-        "value": "00000000 50"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0000000000",
       "source": "https://sactd.edu.lk/",
       "data": {
@@ -271,6 +262,15 @@
       "source": "https://sactd.edu.lk/",
       "data": {
         "value": "+94 11 760 1357 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00000000 50",
+      "source": "https://sactd.edu.lk/",
+      "data": {
+        "value": "00000000 50"
       }
     },
     {
@@ -294,15 +294,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-117601353 ",
-      "source": "https://sactd.edu.lk/contact/",
-      "data": {
-        "value": "+94-117601353 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 760 1357 ",
       "source": "https://sactd.edu.lk/contact/",
       "data": {
@@ -312,10 +303,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00000000 50",
-      "source": "https://sactd.edu.lk",
+      "detail": "Published phone: +94-117601353 ",
+      "source": "https://sactd.edu.lk/contact/",
       "data": {
-        "value": "00000000 50"
+        "value": "+94-117601353 "
       }
     },
     {
@@ -334,6 +325,15 @@
       "source": "https://sactd.edu.lk",
       "data": {
         "value": "+94 11 760 1357 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00000000 50",
+      "source": "https://sactd.edu.lk",
+      "data": {
+        "value": "00000000 50"
       }
     },
     {
@@ -375,19 +375,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.0 7.8299813 ",
+      "detail": "Published phone: 0 0 2482 3510",
       "source": "https://sactd.edu.lk/wp-content/uploads/2026/02/SACTD-Prospectus-2026.pdf",
       "data": {
-        "value": "0.0 7.8299813 "
+        "value": "0 0 2482 3510"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 2482 3510",
+      "detail": "Published phone: 0.0 7.8299813 ",
       "source": "https://sactd.edu.lk/wp-content/uploads/2026/02/SACTD-Prospectus-2026.pdf",
       "data": {
-        "value": "0 0 2482 3510"
+        "value": "0.0 7.8299813 "
       }
     },
     {
@@ -490,7 +490,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/",
       "redirects": [],
-      "elapsed_ms": 2891,
+      "elapsed_ms": 2905,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -501,7 +501,7 @@
       "redirects": [
         "https://sactd.edu.lk/"
       ],
-      "elapsed_ms": 3259,
+      "elapsed_ms": 2268,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -510,7 +510,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/",
       "redirects": [],
-      "elapsed_ms": 2975,
+      "elapsed_ms": 2481,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -521,7 +521,7 @@
       "redirects": [
         "https://sactd.edu.lk/"
       ],
-      "elapsed_ms": 2343,
+      "elapsed_ms": 2402,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -530,7 +530,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/contact/",
       "redirects": [],
-      "elapsed_ms": 2218,
+      "elapsed_ms": 1880,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -539,7 +539,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk",
       "redirects": [],
-      "elapsed_ms": 1931,
+      "elapsed_ms": 2351,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -548,7 +548,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/about/",
       "redirects": [],
-      "elapsed_ms": 2262,
+      "elapsed_ms": 1649,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -557,7 +557,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/our-team/",
       "redirects": [],
-      "elapsed_ms": 4345,
+      "elapsed_ms": 2447,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -566,7 +566,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/wp-content/uploads/2026/02/SACTD-Prospectus-2026.pdf",
       "redirects": [],
-      "elapsed_ms": 969,
+      "elapsed_ms": 1054,
       "content_type": "application/pdf",
       "error": null
     },
@@ -575,7 +575,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/__trashed-5__trashed/",
       "redirects": [],
-      "elapsed_ms": 2264,
+      "elapsed_ms": 2052,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -584,7 +584,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/showcase-layout-2/",
       "redirects": [],
-      "elapsed_ms": 2105,
+      "elapsed_ms": 1813,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -593,7 +593,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/lecture-hall/",
       "redirects": [],
-      "elapsed_ms": 1890,
+      "elapsed_ms": 2002,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -602,7 +602,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/hostel-complex/",
       "redirects": [],
-      "elapsed_ms": 2203,
+      "elapsed_ms": 2071,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -611,7 +611,7 @@
       "status_code": 200,
       "final_url": "https://sactd.edu.lk/showcase-5/",
       "redirects": [],
-      "elapsed_ms": 2369,
+      "elapsed_ms": 2126,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -619,86 +619,86 @@
   "snapshots": [
     {
       "url": "https://sactd.edu.lk/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-01-f06f6ab9ae91.html",
-      "sha256": "f06f6ab9ae91eb8fb79f62c17eea89fb7ac96c011e866f40236593109619f92a",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-01-5d4170c41ca6.html",
+      "sha256": "5d4170c41ca6e3e037880d6659e5f9c0a1e5da968a07520de1ad5c02d5541c00",
       "bytes": 315512
     },
     {
       "url": "https://sactd.edu.lk/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-02-f06f6ab9ae91.html",
-      "sha256": "f06f6ab9ae91eb8fb79f62c17eea89fb7ac96c011e866f40236593109619f92a",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-02-5d4170c41ca6.html",
+      "sha256": "5d4170c41ca6e3e037880d6659e5f9c0a1e5da968a07520de1ad5c02d5541c00",
       "bytes": 315512
     },
     {
       "url": "https://sactd.edu.lk/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-03-f06f6ab9ae91.html",
-      "sha256": "f06f6ab9ae91eb8fb79f62c17eea89fb7ac96c011e866f40236593109619f92a",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-03-5d4170c41ca6.html",
+      "sha256": "5d4170c41ca6e3e037880d6659e5f9c0a1e5da968a07520de1ad5c02d5541c00",
       "bytes": 315512
     },
     {
       "url": "https://sactd.edu.lk/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-04-f06f6ab9ae91.html",
-      "sha256": "f06f6ab9ae91eb8fb79f62c17eea89fb7ac96c011e866f40236593109619f92a",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-04-5d4170c41ca6.html",
+      "sha256": "5d4170c41ca6e3e037880d6659e5f9c0a1e5da968a07520de1ad5c02d5541c00",
       "bytes": 315512
     },
     {
       "url": "https://sactd.edu.lk/contact/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-05-39d7989d5c4f.html",
-      "sha256": "39d7989d5c4f99e6a7890b4b075ddd518a3d08bc127fd19ae5649c41af1567cb",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-05-335ee417172e.html",
+      "sha256": "335ee417172e709b4cfd26255f3c991c6a063c32cee97c9c0723651ff1c88404",
       "bytes": 165499
     },
     {
       "url": "https://sactd.edu.lk",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-06-f06f6ab9ae91.html",
-      "sha256": "f06f6ab9ae91eb8fb79f62c17eea89fb7ac96c011e866f40236593109619f92a",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-06-5d4170c41ca6.html",
+      "sha256": "5d4170c41ca6e3e037880d6659e5f9c0a1e5da968a07520de1ad5c02d5541c00",
       "bytes": 315512
     },
     {
       "url": "https://sactd.edu.lk/about/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-07-a7dfe6f6d178.html",
-      "sha256": "a7dfe6f6d17814c624428c41a8900b7a56f95e0cda8ff5fff69983f82f7f3a65",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-07-9c147e81f1fe.html",
+      "sha256": "9c147e81f1fef8ab25500ebc3bfdf966f7fe516e969c738c042eec5b2a10ff84",
       "bytes": 193198
     },
     {
       "url": "https://sactd.edu.lk/our-team/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-08-f153e478e812.html",
-      "sha256": "f153e478e8121744b60a4a8a0cefa29030d79c2d0ce5abcc560d04cfb55d7960",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-08-4993ccbb57f6.html",
+      "sha256": "4993ccbb57f620348685e50a9ecbaa48709e88da332cc013500664b878726773",
       "bytes": 220201
     },
     {
       "url": "https://sactd.edu.lk/wp-content/uploads/2026/02/SACTD-Prospectus-2026.pdf",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-09-cee5081702bf.html",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-09-cee5081702bf.html",
       "sha256": "cee5081702bf32f83291c0ca28d2fa48375d93a0b96ebf755ba2712e62961307",
       "bytes": 1770935
     },
     {
       "url": "https://sactd.edu.lk/__trashed-5__trashed/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-10-15a3940dcf92.html",
-      "sha256": "15a3940dcf9278f1cfbec3cf084f92d534026c4fdb680526ae4dd0671d7cee47",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-10-35b9234de1a9.html",
+      "sha256": "35b9234de1a9500688b3109a1ad239c59b686fb77c76166cf2799bb2eeedcd9d",
       "bytes": 165598
     },
     {
       "url": "https://sactd.edu.lk/showcase-layout-2/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-11-87ccdb001cac.html",
-      "sha256": "87ccdb001cac818ff468545612ba36fc4f593d006ba5bedd9ec68759fe115b64",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-11-e4797d2bc4dd.html",
+      "sha256": "e4797d2bc4dd97372a4cc6cb6d653dbbb6c8f283137c918da0c9767d62df0c6f",
       "bytes": 169842
     },
     {
       "url": "https://sactd.edu.lk/lecture-hall/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-12-2e58766b8445.html",
-      "sha256": "2e58766b84457ca0176a8335c8e563e798878c4cc183bec1aecad91764a4c694",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-12-3e5fa3e94a44.html",
+      "sha256": "3e5fa3e94a44816b181cb73037556097cdb148033fec64242a49e08e333bc85c",
       "bytes": 170229
     },
     {
       "url": "https://sactd.edu.lk/hostel-complex/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-13-63c6efcceb1f.html",
-      "sha256": "63c6efcceb1fd7944d90cb68b93bf14034384865aac27f1251e501febf5b92d1",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-13-c5d31d362ee8.html",
+      "sha256": "c5d31d362ee8a14694e3dc49628c9956904d2562ac36dc2b37f7e15cc03cc06f",
       "bytes": 171621
     },
     {
       "url": "https://sactd.edu.lk/showcase-5/",
-      "path": "audit.output/sactd.edu.lk/20260926.0619/snapshots/page-14-a602f31fbaf9.html",
-      "sha256": "a602f31fbaf99f1fce4a9e0840e466a2f1ba2a7f854802bf3c08a6c769a22e14",
+      "path": "audit.output/sactd.edu.lk/20260927.0625/snapshots/page-14-0d09e4c127df.html",
+      "sha256": "0d09e4c127df21e7787b1e7f2e1d6b2e041c9b97e5016ee11f7b1a27ee085ac6",
       "bytes": 173724
     }
   ],
@@ -834,7 +834,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

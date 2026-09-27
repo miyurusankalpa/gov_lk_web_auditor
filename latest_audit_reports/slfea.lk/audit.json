@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "452dc674-7384-4356-89de-244d4d7c74a4",
+  "audit_id": "00bac05d-6659-46b1-9411-2726be88839a",
   "url": "https://slfea.lk/",
   "normalized_url": "https://slfea.lk/",
-  "started_at": "2026-09-26T06:35:56.512323+05:30",
-  "completed_at": "2026-09-26T06:36:59.213040+05:30",
+  "started_at": "2026-09-27T06:41:17.632346+05:30",
+  "completed_at": "2026-09-27T06:42:17.105298+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,134 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:35:57.164429+05:30"
+      "observed_at": "2026-09-27T06:41:17.949709+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:35:57.164448+05:30"
+      "observed_at": "2026-09-27T06:41:17.949730+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:35:57.208781+05:30"
+      "observed_at": "2026-09-27T06:41:17.962150+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://slfea.lk/",
       "source": "https://slfea.lk/",
-      "observed_at": "2026-09-26T06:36:58.758468+05:30"
+      "observed_at": "2026-09-27T06:42:16.381340+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 2: HTTP 522 at http://slfea.lk/",
       "source": "http://slfea.lk/",
-      "observed_at": "2026-09-26T06:36:58.758489+05:30"
+      "observed_at": "2026-09-27T06:42:16.381359+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://slfea.lk/",
       "source": "https://slfea.lk/",
-      "observed_at": "2026-09-26T06:36:58.758493+05:30"
+      "observed_at": "2026-09-27T06:42:16.381363+05:30"
     },
     {
       "check": "http",
       "status": "fail",
       "detail": "Probe 4: HTTP 522 at http://slfea.lk/",
       "source": "http://slfea.lk/",
-      "observed_at": "2026-09-26T06:36:58.758496+05:30"
+      "observed_at": "2026-09-27T06:42:16.381367+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://slfea.lk/contact-us/",
       "source": "https://slfea.lk/contact-us/",
-      "observed_at": "2026-09-26T06:36:58.758498+05:30"
+      "observed_at": "2026-09-27T06:42:16.381370+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://slfea.lk/about-slfea/",
       "source": "https://slfea.lk/about-slfea/",
-      "observed_at": "2026-09-26T06:36:58.758501+05:30"
+      "observed_at": "2026-09-27T06:42:16.381373+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://slfea.lk/chairman-message/",
       "source": "https://slfea.lk/chairman-message/",
-      "observed_at": "2026-09-26T06:36:58.758503+05:30"
+      "observed_at": "2026-09-27T06:42:16.381376+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://slfea.lk/gm-message/",
       "source": "https://slfea.lk/gm-message/",
-      "observed_at": "2026-09-26T06:36:58.758506+05:30"
+      "observed_at": "2026-09-27T06:42:16.381378+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://slfea.lk/general-manager-message/",
       "source": "https://slfea.lk/general-manager-message/",
-      "observed_at": "2026-09-26T06:36:58.758508+05:30"
+      "observed_at": "2026-09-27T06:42:16.381381+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://slfea.lk/our-team/",
       "source": "https://slfea.lk/our-team/",
-      "observed_at": "2026-09-26T06:36:58.758510+05:30"
+      "observed_at": "2026-09-27T06:42:16.381384+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://slfea.lk/ticketing/",
       "source": "https://slfea.lk/ticketing/",
-      "observed_at": "2026-09-26T06:36:58.758512+05:30"
+      "observed_at": "2026-09-27T06:42:16.381387+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://slfea.lk/recruitment/",
       "source": "https://slfea.lk/recruitment/",
-      "observed_at": "2026-09-26T06:36:58.758514+05:30"
+      "observed_at": "2026-09-27T06:42:16.381389+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://slfea.lk/vacancies/",
       "source": "https://slfea.lk/vacancies/",
-      "observed_at": "2026-09-26T06:36:58.758517+05:30"
+      "observed_at": "2026-09-27T06:42:16.381392+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://slfea.lk/news-notices/",
       "source": "https://slfea.lk/news-notices/",
-      "observed_at": "2026-09-26T06:36:58.758519+05:30"
+      "observed_at": "2026-09-27T06:42:16.381395+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
+      "detail": "Published phone: 070 678 8110",
       "source": "https://slfea.lk/",
       "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/",
-      "data": {
-        "value": "(+94) 11 280 8200"
+        "value": "070 678 8110"
       }
     },
     {
@@ -186,10 +177,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -208,15 +217,6 @@
       "source": "https://slfea.lk/",
       "data": {
         "value": "011 280 8200"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/",
-      "data": {
-        "value": "070 678 8110"
       }
     },
     {
@@ -240,19 +240,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
+      "detail": "Published phone: 070 678 8110",
       "source": "https://slfea.lk/",
       "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/",
-      "data": {
-        "value": "(+94) 11 280 8200"
+        "value": "070 678 8110"
       }
     },
     {
@@ -285,10 +276,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -307,15 +316,6 @@
       "source": "https://slfea.lk/",
       "data": {
         "value": "011 280 8200"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/",
-      "data": {
-        "value": "070 678 8110"
       }
     },
     {
@@ -339,19 +339,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
+      "detail": "Published phone: 070 678 8110",
       "source": "https://slfea.lk/contact-us/",
       "data": {
-        "value": "+94) 11 280 8200 "
+        "value": "070 678 8110"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
+      "detail": "Published phone: (+94) 70 678 8110",
       "source": "https://slfea.lk/contact-us/",
       "data": {
-        "value": "(+94) 11 280 8200"
+        "value": "(+94) 70 678 8110"
       }
     },
     {
@@ -366,15 +366,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: (+94) 70 678 8110",
-      "source": "https://slfea.lk/contact-us/",
-      "data": {
-        "value": "(+94) 70 678 8110"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94) 11 280 7400 ",
       "source": "https://slfea.lk/contact-us/",
       "data": {
@@ -393,10 +384,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/contact-us/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/contact-us/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/contact-us/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -415,15 +424,6 @@
       "source": "https://slfea.lk/contact-us/",
       "data": {
         "value": "011 280 8200"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/contact-us/",
-      "data": {
-        "value": "070 678 8110"
       }
     },
     {
@@ -438,19 +438,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
+      "detail": "Published phone: 070 678 8110",
       "source": "https://slfea.lk/about-slfea/",
       "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/about-slfea/",
-      "data": {
-        "value": "(+94) 11 280 8200"
+        "value": "070 678 8110"
       }
     },
     {
@@ -483,10 +474,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/about-slfea/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/about-slfea/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/about-slfea/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -511,27 +520,9 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/about-slfea/",
+      "source": "https://slfea.lk/chairman-message/",
       "data": {
         "value": "070 678 8110"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
-      "source": "https://slfea.lk/chairman-message/",
-      "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/chairman-message/",
-      "data": {
-        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -564,10 +555,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/chairman-message/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/chairman-message/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/chairman-message/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -592,27 +601,9 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/chairman-message/",
+      "source": "https://slfea.lk/gm-message/",
       "data": {
         "value": "070 678 8110"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
-      "source": "https://slfea.lk/gm-message/",
-      "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/gm-message/",
-      "data": {
-        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -645,10 +636,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/gm-message/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/gm-message/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/gm-message/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -673,27 +682,9 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/gm-message/",
+      "source": "https://slfea.lk/general-manager-message/",
       "data": {
         "value": "070 678 8110"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
-      "source": "https://slfea.lk/general-manager-message/",
-      "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/general-manager-message/",
-      "data": {
-        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -726,10 +717,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/general-manager-message/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/general-manager-message/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/general-manager-message/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -754,27 +763,9 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/general-manager-message/",
+      "source": "https://slfea.lk/our-team/",
       "data": {
         "value": "070 678 8110"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
-      "source": "https://slfea.lk/our-team/",
-      "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/our-team/",
-      "data": {
-        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -807,10 +798,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/our-team/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/our-team/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/our-team/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -829,15 +838,6 @@
       "source": "https://slfea.lk/our-team/",
       "data": {
         "value": "011 280 8200"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/our-team/",
-      "data": {
-        "value": "070 678 8110"
       }
     },
     {
@@ -852,19 +852,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
+      "detail": "Published phone: 070 678 8110",
       "source": "https://slfea.lk/ticketing/",
       "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/ticketing/",
-      "data": {
-        "value": "(+94) 11 280 8200"
+        "value": "070 678 8110"
       }
     },
     {
@@ -897,10 +888,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/ticketing/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/ticketing/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/ticketing/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -925,27 +934,9 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/ticketing/",
+      "source": "https://slfea.lk/recruitment/",
       "data": {
         "value": "070 678 8110"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
-      "source": "https://slfea.lk/recruitment/",
-      "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/recruitment/",
-      "data": {
-        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -978,10 +969,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/recruitment/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/recruitment/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/recruitment/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -1000,15 +1009,6 @@
       "source": "https://slfea.lk/recruitment/",
       "data": {
         "value": "011 280 8200"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/recruitment/",
-      "data": {
-        "value": "070 678 8110"
       }
     },
     {
@@ -1023,19 +1023,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
+      "detail": "Published phone: 070 678 8110",
       "source": "https://slfea.lk/vacancies/",
       "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/vacancies/",
-      "data": {
-        "value": "(+94) 11 280 8200"
+        "value": "070 678 8110"
       }
     },
     {
@@ -1068,10 +1059,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/vacancies/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/vacancies/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/vacancies/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -1096,27 +1105,9 @@
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/vacancies/",
+      "source": "https://slfea.lk/news-notices/",
       "data": {
         "value": "070 678 8110"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 11 280 8200 ",
-      "source": "https://slfea.lk/news-notices/",
-      "data": {
-        "value": "+94) 11 280 8200 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: (+94) 11 280 8200",
-      "source": "https://slfea.lk/news-notices/",
-      "data": {
-        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -1149,10 +1140,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94) 11 280 8200 ",
+      "source": "https://slfea.lk/news-notices/",
+      "data": {
+        "value": "+94) 11 280 8200 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 011 280 7400",
       "source": "https://slfea.lk/news-notices/",
       "data": {
         "value": "011 280 7400"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: (+94) 11 280 8200",
+      "source": "https://slfea.lk/news-notices/",
+      "data": {
+        "value": "(+94) 11 280 8200"
       }
     },
     {
@@ -1171,15 +1180,6 @@
       "source": "https://slfea.lk/news-notices/",
       "data": {
         "value": "011 280 8200"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 070 678 8110",
-      "source": "https://slfea.lk/news-notices/",
-      "data": {
-        "value": "070 678 8110"
       }
     },
     {
@@ -1219,7 +1219,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/",
       "redirects": [],
-      "elapsed_ms": 721,
+      "elapsed_ms": 504,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1228,7 +1228,7 @@
       "status_code": 522,
       "final_url": "http://slfea.lk/",
       "redirects": [],
-      "elapsed_ms": 19563,
+      "elapsed_ms": 19749,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1237,7 +1237,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/",
       "redirects": [],
-      "elapsed_ms": 707,
+      "elapsed_ms": 518,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1246,7 +1246,7 @@
       "status_code": 522,
       "final_url": "http://slfea.lk/",
       "redirects": [],
-      "elapsed_ms": 19449,
+      "elapsed_ms": 19513,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1255,7 +1255,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/contact-us/",
       "redirects": [],
-      "elapsed_ms": 666,
+      "elapsed_ms": 386,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1264,7 +1264,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/about-slfea/",
       "redirects": [],
-      "elapsed_ms": 700,
+      "elapsed_ms": 227,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1273,7 +1273,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/chairman-message/",
       "redirects": [],
-      "elapsed_ms": 2625,
+      "elapsed_ms": 1104,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1282,7 +1282,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/gm-message/",
       "redirects": [],
-      "elapsed_ms": 668,
+      "elapsed_ms": 756,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1291,7 +1291,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/general-manager-message/",
       "redirects": [],
-      "elapsed_ms": 239,
+      "elapsed_ms": 387,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1300,7 +1300,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/our-team/",
       "redirects": [],
-      "elapsed_ms": 690,
+      "elapsed_ms": 637,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1309,7 +1309,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/ticketing/",
       "redirects": [],
-      "elapsed_ms": 1786,
+      "elapsed_ms": 3673,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1318,7 +1318,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/recruitment/",
       "redirects": [],
-      "elapsed_ms": 6808,
+      "elapsed_ms": 3132,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1327,7 +1327,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/vacancies/",
       "redirects": [],
-      "elapsed_ms": 659,
+      "elapsed_ms": 129,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1336,7 +1336,7 @@
       "status_code": 200,
       "final_url": "https://slfea.lk/news-notices/",
       "redirects": [],
-      "elapsed_ms": 3183,
+      "elapsed_ms": 2875,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1344,86 +1344,86 @@
   "snapshots": [
     {
       "url": "https://slfea.lk/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-01-7e774236e592.html",
-      "sha256": "7e774236e592ef204312efc3aeabc9e3564031a31751aea738950cbbe74f9de5",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-01-8f0feb609acc.html",
+      "sha256": "8f0feb609acc64e9aff8c7951d3042400750f8b21223741bfd5c2fdb2af8bcb9",
       "bytes": 184710
     },
     {
       "url": "http://slfea.lk/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-02-5ad545ed4f38.html",
-      "sha256": "5ad545ed4f383fcf9b3327cbbbb454d6d03372bf141131af476bd75156255191",
-      "bytes": 7205
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-02-e9e4b9b47a94.html",
+      "sha256": "e9e4b9b47a94080d480d840f1c1ae4a33857e0328f760779274ba73fdcf682d4",
+      "bytes": 7200
     },
     {
       "url": "https://slfea.lk/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-03-703135032441.html",
-      "sha256": "703135032441d14f41f9fc604d3146aa794f9a7648d6e626a83dd703343b51b5",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-03-49d4da179ad0.html",
+      "sha256": "49d4da179ad0be8243c34fddcae5eb02eca52460a70cc96b729afea83de58fea",
       "bytes": 184710
     },
     {
       "url": "http://slfea.lk/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-04-9a5f285343da.html",
-      "sha256": "9a5f285343da237b7167158b4f9adca9d963c7961d1734ac8995d8c739d917eb",
-      "bytes": 7205
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-04-8418572f4138.html",
+      "sha256": "8418572f4138cf2aaa6c7808eae4e4f2b3a67d4becdc70c41e9753c2145deb7d",
+      "bytes": 7200
     },
     {
       "url": "https://slfea.lk/contact-us/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-05-d54969e3b8c7.html",
-      "sha256": "d54969e3b8c72bfd30767ffbfb1d50e4223b7716085b574a9f906f394fa61c0f",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-05-39b8e45085e4.html",
+      "sha256": "39b8e45085e4013369b4200614353a2eed464a2f32f1af71fe9ef094a0b24278",
       "bytes": 96096
     },
     {
       "url": "https://slfea.lk/about-slfea/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-06-b47881737a72.html",
-      "sha256": "b47881737a720f6977a2146a1b1c8075e566ed067bb79cf9c9beb1836fd64b7f",
-      "bytes": 95467
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-06-506242d997f3.html",
+      "sha256": "506242d997f36800f06e30be28c8251d2cbeaaa3140f9338005a025fd8d0913f",
+      "bytes": 95466
     },
     {
       "url": "https://slfea.lk/chairman-message/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-07-735895159114.html",
-      "sha256": "7358951591145a7f1d24c4b4e9e84b6d34224f40f2b2b0c61e67ec8663de5def",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-07-6ee5390b826f.html",
+      "sha256": "6ee5390b826f4ac5e4a69cc41fcd1eadcceaea39e15ef07e87e4d1c6c1e38394",
       "bytes": 73951
     },
     {
       "url": "https://slfea.lk/gm-message/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-08-85c9b6c1255c.html",
-      "sha256": "85c9b6c1255c1f0311616d13164407dc6c98c21319cdb99288b14abd14fe7ed6",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-08-a685d1d00b5b.html",
+      "sha256": "a685d1d00b5bbf6f60975f1ec72d150a8d4f996e2ae1221ca6c80d7d8ff61b74",
       "bytes": 77611
     },
     {
       "url": "https://slfea.lk/general-manager-message/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-09-0caeb7450af3.html",
-      "sha256": "0caeb7450af33e029a3d7315f8193211db8edc1393055d32306e67d8c6c19f1c",
-      "bytes": 74498
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-09-84053fe24f84.html",
+      "sha256": "84053fe24f84aa643e72418f340263260067128e149168c45577085450d1611e",
+      "bytes": 74499
     },
     {
       "url": "https://slfea.lk/our-team/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-10-36bb87cdfec4.html",
-      "sha256": "36bb87cdfec4b9dc86730970f6a1f6fb47e21d9ecb36d584511d588120ab8458",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-10-67517e84889e.html",
+      "sha256": "67517e84889ec113e0c86dd6123acba430ee2bdc4d90a23d8f76daf840755b0b",
       "bytes": 99759
     },
     {
       "url": "https://slfea.lk/ticketing/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-11-e759278a8905.html",
-      "sha256": "e759278a8905ee10efc3eedec0ed5edc5772f58750b6968260b152a1b9b56ae5",
-      "bytes": 181326
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-11-b3f6c6bb691b.html",
+      "sha256": "b3f6c6bb691b900499a88f6a3d43081965880c35961d6aae3dcdb8a05bffd13e",
+      "bytes": 181196
     },
     {
       "url": "https://slfea.lk/recruitment/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-12-2a88dd538897.html",
-      "sha256": "2a88dd538897460c9634ae28e8d19d8f79e29173d21cac214d54099b36954a8c",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-12-05496ae31074.html",
+      "sha256": "05496ae31074e0455d9a126f1f5bc0a5979e6ea29e1fb1054cc1fb3224f8c640",
       "bytes": 91953
     },
     {
       "url": "https://slfea.lk/vacancies/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-13-48c97b4e6686.html",
-      "sha256": "48c97b4e6686be2b327261018c050a45e368099a8bc0fd19e598328fb171db45",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-13-b0fef14758b0.html",
+      "sha256": "b0fef14758b0de97ba622bd73c2cb0abba8d19ca4ac22b440d70275aade22e0a",
       "bytes": 77972
     },
     {
       "url": "https://slfea.lk/news-notices/",
-      "path": "audit.output/slfea.lk/20260926.0635/snapshots/page-14-abad6b6a03a9.html",
-      "sha256": "abad6b6a03a97ff94a4eb2ea52c5826b7c5a528e218011574b98c928da65dad7",
+      "path": "audit.output/slfea.lk/20260927.0641/snapshots/page-14-88027007275d.html",
+      "sha256": "88027007275d71740af427510d3a3a3c0e648e630b9e94ab0d4fdd8bbbe4f8c3",
       "bytes": 88665
     }
   ],
@@ -1559,7 +1559,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

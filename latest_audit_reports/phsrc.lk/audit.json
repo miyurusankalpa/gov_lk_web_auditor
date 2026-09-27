@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "badb539d-ea69-4f37-9ec8-52b6525b415b",
+  "audit_id": "f2e1357a-f5c0-4159-87ee-f9351ce4bd61",
   "url": "https://phsrc.lk/",
   "normalized_url": "https://phsrc.lk/",
-  "started_at": "2026-09-26T06:38:14.857525+05:30",
-  "completed_at": "2026-09-26T06:39:00.434095+05:30",
+  "started_at": "2026-09-27T06:43:30.204488+05:30",
+  "completed_at": "2026-09-27T06:44:15.413330+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:38:16.563798+05:30"
+      "observed_at": "2026-09-27T06:43:30.904091+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:38:16.563816+05:30"
+      "observed_at": "2026-09-27T06:43:30.904111+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:38:18.056016+05:30"
+      "observed_at": "2026-09-27T06:43:32.005555+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://phsrc.lk/",
       "source": "https://phsrc.lk/",
-      "observed_at": "2026-09-26T06:38:59.849068+05:30"
+      "observed_at": "2026-09-27T06:44:14.612650+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at http://phsrc.lk/",
       "source": "http://phsrc.lk/",
-      "observed_at": "2026-09-26T06:38:59.849091+05:30"
+      "observed_at": "2026-09-27T06:44:14.612671+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://phsrc.lk/",
       "source": "https://phsrc.lk/",
-      "observed_at": "2026-09-26T06:38:59.849094+05:30"
+      "observed_at": "2026-09-27T06:44:14.612676+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at http://phsrc.lk/",
       "source": "http://phsrc.lk/",
-      "observed_at": "2026-09-26T06:38:59.849097+05:30"
+      "observed_at": "2026-09-27T06:44:14.612679+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.phsrc.lk/index.php",
       "source": "https://www.phsrc.lk/index.php",
-      "observed_at": "2026-09-26T06:38:59.849100+05:30"
+      "observed_at": "2026-09-27T06:44:14.612682+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.phsrc.lk/",
       "source": "https://www.phsrc.lk/",
-      "observed_at": "2026-09-26T06:38:59.849102+05:30"
+      "observed_at": "2026-09-27T06:44:14.612684+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=1",
       "source": "https://www.phsrc.lk/pages_e.php?id=1",
-      "observed_at": "2026-09-26T06:38:59.849104+05:30"
+      "observed_at": "2026-09-27T06:44:14.612687+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=2",
       "source": "https://www.phsrc.lk/pages_e.php?id=2",
-      "observed_at": "2026-09-26T06:38:59.849107+05:30"
+      "observed_at": "2026-09-27T06:44:14.612689+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=7",
       "source": "https://www.phsrc.lk/pages_e.php?id=7",
-      "observed_at": "2026-09-26T06:38:59.849109+05:30"
+      "observed_at": "2026-09-27T06:44:14.612692+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=5",
       "source": "https://www.phsrc.lk/pages_e.php?id=5",
-      "observed_at": "2026-09-26T06:38:59.849111+05:30"
+      "observed_at": "2026-09-27T06:44:14.612695+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=22",
       "source": "https://www.phsrc.lk/pages_e.php?id=22",
-      "observed_at": "2026-09-26T06:38:59.849114+05:30"
+      "observed_at": "2026-09-27T06:44:14.612697+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=14",
       "source": "https://www.phsrc.lk/pages_e.php?id=14",
-      "observed_at": "2026-09-26T06:38:59.849116+05:30"
+      "observed_at": "2026-09-27T06:44:14.612700+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=21",
       "source": "https://www.phsrc.lk/pages_e.php?id=21",
-      "observed_at": "2026-09-26T06:38:59.849118+05:30"
+      "observed_at": "2026-09-27T06:44:14.612703+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.phsrc.lk/pages_e.php?id=13",
       "source": "https://www.phsrc.lk/pages_e.php?id=13",
-      "observed_at": "2026-09-26T06:38:59.849120+05:30"
+      "observed_at": "2026-09-27T06:44:14.612706+05:30"
     },
     {
       "check": "phone",
@@ -793,7 +793,7 @@
       "status_code": 200,
       "final_url": "https://phsrc.lk/",
       "redirects": [],
-      "elapsed_ms": 2763,
+      "elapsed_ms": 2706,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -802,7 +802,7 @@
       "status_code": 200,
       "final_url": "http://phsrc.lk/",
       "redirects": [],
-      "elapsed_ms": 1819,
+      "elapsed_ms": 2454,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -811,7 +811,7 @@
       "status_code": 200,
       "final_url": "https://phsrc.lk/",
       "redirects": [],
-      "elapsed_ms": 3165,
+      "elapsed_ms": 3113,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -820,7 +820,7 @@
       "status_code": 200,
       "final_url": "http://phsrc.lk/",
       "redirects": [],
-      "elapsed_ms": 2306,
+      "elapsed_ms": 2389,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -829,7 +829,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/index.php",
       "redirects": [],
-      "elapsed_ms": 2258,
+      "elapsed_ms": 2834,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -838,7 +838,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/",
       "redirects": [],
-      "elapsed_ms": 2258,
+      "elapsed_ms": 3090,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -847,7 +847,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=1",
       "redirects": [],
-      "elapsed_ms": 2268,
+      "elapsed_ms": 2357,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -856,7 +856,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=2",
       "redirects": [],
-      "elapsed_ms": 2323,
+      "elapsed_ms": 2887,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -865,7 +865,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=7",
       "redirects": [],
-      "elapsed_ms": 2283,
+      "elapsed_ms": 2812,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -874,7 +874,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=5",
       "redirects": [],
-      "elapsed_ms": 2319,
+      "elapsed_ms": 2841,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -883,7 +883,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=22",
       "redirects": [],
-      "elapsed_ms": 2697,
+      "elapsed_ms": 2580,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -892,7 +892,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=14",
       "redirects": [],
-      "elapsed_ms": 2271,
+      "elapsed_ms": 2289,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -901,7 +901,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=21",
       "redirects": [],
-      "elapsed_ms": 3080,
+      "elapsed_ms": 2424,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -910,7 +910,7 @@
       "status_code": 200,
       "final_url": "https://www.phsrc.lk/pages_e.php?id=13",
       "redirects": [],
-      "elapsed_ms": 3716,
+      "elapsed_ms": 3730,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -918,86 +918,86 @@
   "snapshots": [
     {
       "url": "https://phsrc.lk/",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-01-b8e956f4e714.html",
-      "sha256": "b8e956f4e7142c041b5aa77e0b0f3dd5d54bc92be466f2d3f67db0942f3d8ca5",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-01-4808a4baf76a.html",
+      "sha256": "4808a4baf76a9ba09fce34496749d533f47366d2789db0af47506494e32d780d",
       "bytes": 28766
     },
     {
       "url": "http://phsrc.lk/",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-02-dc22b725a08f.html",
-      "sha256": "dc22b725a08f49f08a663fcd2186dced9cf5e0b305a42e4fc73fbfda6d7f1571",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-02-422e8d7558be.html",
+      "sha256": "422e8d7558bee3dac55a3267b423f90c3db7f161044b05b548c56e47a62ae0eb",
       "bytes": 28766
     },
     {
       "url": "https://phsrc.lk/",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-03-4f319153d6d3.html",
-      "sha256": "4f319153d6d3952a928b7b42786e37f176e27cd85e02c40e1525898cad1780f2",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-03-9b49863cbc47.html",
+      "sha256": "9b49863cbc4710933700ec1d806cde49b8968c62809c01d84b94ca1bd6e3809d",
       "bytes": 28766
     },
     {
       "url": "http://phsrc.lk/",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-04-53ac812b41c1.html",
-      "sha256": "53ac812b41c169b05e17f33d94bbe6259a848718c1604405de54cd090bb08e76",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-04-ba03540b7687.html",
+      "sha256": "ba03540b7687c8e46e4ba389c2cd1f83c87562f7af95b1bfc86204aa1906432c",
       "bytes": 28766
     },
     {
       "url": "https://www.phsrc.lk/index.php",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-05-cb3dec79c3ff.html",
-      "sha256": "cb3dec79c3ff0514c127b948b3d3000b4522e20ab5c580155d1162a915d97d49",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-05-1686defe985f.html",
+      "sha256": "1686defe985f798a8a4c16819e1a5fbf07e0721f661a9e078867e59fdcc14635",
       "bytes": 28766
     },
     {
       "url": "https://www.phsrc.lk/",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-06-435e07722c55.html",
-      "sha256": "435e07722c55ee167d4587dae2305ac2ead377f9d5407f17706fdb5f327dedd3",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-06-7b78c66f47ab.html",
+      "sha256": "7b78c66f47ab1f844ca12382052e571f0e5c232535d5468548d019e82214ee12",
       "bytes": 28766
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=1",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-07-c76b59229018.html",
-      "sha256": "c76b5922901855b412de921afb323b0bf2ce6e61c5f0237c5e31b2eafcb601e1",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-07-fb8896c50600.html",
+      "sha256": "fb8896c50600878c03ededfcb9e69d7b0e56bdb544c06c770786d75e7263af3d",
       "bytes": 14523
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=2",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-08-879484f65402.html",
-      "sha256": "879484f65402c20df73fc385b7b7fc34506b7a5741cf3acd07c1402c279531ed",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-08-c8f6c880ec2d.html",
+      "sha256": "c8f6c880ec2d3b48951c636aeb8578bf3a43da0d8bc437db22afd6b2c69bbac2",
       "bytes": 20241
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=7",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-09-f1d80c2bf2e9.html",
-      "sha256": "f1d80c2bf2e9633dad2e318c3d6b576f5e1dd5c22c27f6e564ec5b0e9147ce07",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-09-feb55e04c647.html",
+      "sha256": "feb55e04c6474b049d2ebe08322ee1276c771ff4a23a608533f061e56b56779b",
       "bytes": 13728
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=5",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-10-730aeeaab4f9.html",
-      "sha256": "730aeeaab4f93ed24b59e5d61d40fa453440b6d13be754bbd24320714542a442",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-10-e17ae002b9d1.html",
+      "sha256": "e17ae002b9d1785a4500df7accca0d6548ab91fc04900494beaafa45c5348df1",
       "bytes": 17517
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=22",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-11-c80e7b990133.html",
-      "sha256": "c80e7b9901335ce5ffcaf70f1064f46ab7c972887f9fef75abd5d74341f615ab",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-11-43c9b6bca02e.html",
+      "sha256": "43c9b6bca02e158c0bfbfe693e6604a99463add615e620d7649f32613556249c",
       "bytes": 13307
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=14",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-12-b826b19a346f.html",
-      "sha256": "b826b19a346f76d0009fd5c76dfff57f2a4cbd0e1d7d84bb8b36ea5e94219751",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-12-5465041cd2a8.html",
+      "sha256": "5465041cd2a8f3c29152b146b2889637c948be26e79f9458f9ebfac5c244fd95",
       "bytes": 13313
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=21",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-13-5e179068c952.html",
-      "sha256": "5e179068c952c4c2ef7b20909d54e84d78660067154fe0e8b73db980adf22b4b",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-13-b5cee5989435.html",
+      "sha256": "b5cee5989435b8b623248e90be3ea23404f6bd1d9979762b6ff91cfe5bb77253",
       "bytes": 13307
     },
     {
       "url": "https://www.phsrc.lk/pages_e.php?id=13",
-      "path": "audit.output/phsrc.lk/20260926.0638/snapshots/page-14-2dc57906fe1e.html",
-      "sha256": "2dc57906fe1e924923575703103a584a6a796cefaf7189cbf63da41f7d42f705",
+      "path": "audit.output/phsrc.lk/20260927.0643/snapshots/page-14-acc5943a8114.html",
+      "sha256": "acc5943a811484ced646fb3b8f8a96fe6ddfeb76cac3ae64b5f0038a69942b38",
       "bytes": 783638
     }
   ],
@@ -1176,7 +1176,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

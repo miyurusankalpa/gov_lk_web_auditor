@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "4eaa5472-7dc2-4176-baa9-4f74dd8bf9c3",
+  "audit_id": "1e46f571-aac0-4ce2-9155-280616580455",
   "url": "https://www.bankofceylon.co.uk",
   "normalized_url": "https://www.bankofceylon.co.uk/",
-  "started_at": "2026-09-26T06:22:22.203611+05:30",
-  "completed_at": "2026-09-26T06:22:44.793137+05:30",
+  "started_at": "2026-09-27T06:28:49.122496+05:30",
+  "completed_at": "2026-09-27T06:29:11.061553+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,135 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:22:23.747322+05:30"
+      "observed_at": "2026-09-27T06:28:49.828617+05:30"
     },
     {
       "check": "domain_registration",
       "status": "pass",
       "detail": "Domain registered",
-      "observed_at": "2026-09-26T06:22:23.747339+05:30"
+      "observed_at": "2026-09-27T06:28:49.828638+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:22:23.825989+05:30"
+      "observed_at": "2026-09-27T06:28:49.850591+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://bankofceylon.co.uk/",
       "source": "https://www.bankofceylon.co.uk/",
-      "observed_at": "2026-09-26T06:22:43.424071+05:30"
+      "observed_at": "2026-09-27T06:29:09.005559+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://bankofceylon.co.uk/",
       "source": "http://www.bankofceylon.co.uk/",
-      "observed_at": "2026-09-26T06:22:43.424092+05:30"
+      "observed_at": "2026-09-27T06:29:09.005578+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://bankofceylon.co.uk/",
       "source": "https://www.bankofceylon.co.uk/",
-      "observed_at": "2026-09-26T06:22:43.424095+05:30"
+      "observed_at": "2026-09-27T06:29:09.005582+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://bankofceylon.co.uk/",
       "source": "http://www.bankofceylon.co.uk/",
-      "observed_at": "2026-09-26T06:22:43.424098+05:30"
+      "observed_at": "2026-09-27T06:29:09.005585+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://bankofceylon.co.uk/services/",
       "source": "https://bankofceylon.co.uk/services/",
-      "observed_at": "2026-09-26T06:22:43.424100+05:30"
+      "observed_at": "2026-09-27T06:29:09.005588+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://bankofceylon.co.uk/contact-us/",
       "source": "https://bankofceylon.co.uk/contact-us/",
-      "observed_at": "2026-09-26T06:22:43.424102+05:30"
+      "observed_at": "2026-09-27T06:29:09.005591+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://bankofceylon.co.uk/services/money-remittance/",
       "source": "https://bankofceylon.co.uk/services/funds-remittance/",
-      "observed_at": "2026-09-26T06:22:43.424104+05:30"
+      "observed_at": "2026-09-27T06:29:09.005594+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://bankofceylon.co.uk/services/deposits/",
       "source": "https://bankofceylon.co.uk/services/deposits",
-      "observed_at": "2026-09-26T06:22:43.424106+05:30"
+      "observed_at": "2026-09-27T06:29:09.005597+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://bankofceylon.co.uk/services/money-remittance/",
       "source": "https://bankofceylon.co.uk/services/money-remittance/",
-      "observed_at": "2026-09-26T06:22:43.424109+05:30"
+      "observed_at": "2026-09-27T06:29:09.005600+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://bankofceylon.co.uk/services/loan-advances/",
       "source": "https://bankofceylon.co.uk/services/loan-advances/",
-      "observed_at": "2026-09-26T06:22:43.424111+05:30"
+      "observed_at": "2026-09-27T06:29:09.005603+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://bankofceylon.co.uk/services/trade-services/",
       "source": "https://bankofceylon.co.uk/services/trade-services/",
-      "observed_at": "2026-09-26T06:22:43.424113+05:30"
+      "observed_at": "2026-09-27T06:29:09.005605+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://bankofceylon.co.uk/services/treasury/",
       "source": "https://bankofceylon.co.uk/services/treasury/",
-      "observed_at": "2026-09-26T06:22:43.424115+05:30"
+      "observed_at": "2026-09-27T06:29:09.005608+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://bankofceylon.co.uk/services/trade-services/",
       "source": "https://bankofceylon.co.uk/trade-services",
-      "observed_at": "2026-09-26T06:22:43.424117+05:30"
+      "observed_at": "2026-09-27T06:29:09.005610+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://bankofceylon.co.uk/contact-us/",
       "source": "https://bankofceylon.co.uk/contact-us",
-      "observed_at": "2026-09-26T06:22:43.424119+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+442073771888"
-      }
+      "observed_at": "2026-09-27T06:29:09.005613+05:30"
     },
     {
       "check": "phone",
@@ -172,6 +154,24 @@
       "source": "https://bankofceylon.co.uk/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -231,24 +231,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/",
       "data": {
@@ -262,6 +244,24 @@
       "source": "https://bankofceylon.co.uk/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -321,24 +321,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/",
       "data": {
@@ -352,6 +334,24 @@
       "source": "https://bankofceylon.co.uk/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -411,24 +411,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/",
       "data": {
@@ -442,6 +424,24 @@
       "source": "https://bankofceylon.co.uk/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -501,24 +501,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/services/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/",
       "data": {
@@ -532,6 +514,24 @@
       "source": "https://bankofceylon.co.uk/services/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/services/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/services/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -573,6 +573,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0207 377 188",
+      "source": "https://bankofceylon.co.uk/contact-us/",
+      "data": {
+        "value": "0207 377 188"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +44207 377 1888",
+      "source": "https://bankofceylon.co.uk/contact-us/",
+      "data": {
+        "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +447350840624",
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
@@ -589,21 +607,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0207 377 188",
+      "detail": "Published email: info@bankofceylon.co.uk",
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
-        "value": "0207 377 188"
+        "value": "info@bankofceylon.co.uk"
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +44207 377 1888",
+      "detail": "Published email: cs@bankofceylon.co.uk",
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
-        "value": "+44207 377 1888"
+        "value": "cs@bankofceylon.co.uk"
       }
     },
     {
@@ -613,24 +631,6 @@
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
         "value": "customerservices@bankofceylon.co.uk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@bankofceylon.co.uk",
-      "source": "https://bankofceylon.co.uk/contact-us/",
-      "data": {
-        "value": "info@bankofceylon.co.uk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cs@bankofceylon.co.uk",
-      "source": "https://bankofceylon.co.uk/contact-us/",
-      "data": {
-        "value": "cs@bankofceylon.co.uk"
       }
     },
     {
@@ -654,24 +654,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/services/money-remittance/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/money-remittance/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/money-remittance/",
       "data": {
@@ -685,6 +667,24 @@
       "source": "https://bankofceylon.co.uk/services/money-remittance/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/services/money-remittance/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/services/money-remittance/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -726,24 +726,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/services/deposits/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/deposits/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/deposits/",
       "data": {
@@ -757,6 +739,24 @@
       "source": "https://bankofceylon.co.uk/services/deposits/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/services/deposits/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/services/deposits/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -816,24 +816,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/services/money-remittance/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/money-remittance/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/money-remittance/",
       "data": {
@@ -847,6 +829,24 @@
       "source": "https://bankofceylon.co.uk/services/money-remittance/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/services/money-remittance/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/services/money-remittance/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -888,6 +888,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +44207 377 1888",
+      "source": "https://bankofceylon.co.uk/services/loan-advances/",
+      "data": {
+        "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/loan-advances/",
       "data": {
@@ -906,15 +915,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/loan-advances/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +447350840624",
       "source": "https://bankofceylon.co.uk/services/loan-advances/",
       "data": {
@@ -924,10 +924,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +44207 377 1888",
+      "detail": "Published phone: +442073771888",
       "source": "https://bankofceylon.co.uk/services/loan-advances/",
       "data": {
-        "value": "+44207 377 1888"
+        "value": "+442073771888"
       }
     },
     {
@@ -969,24 +969,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/services/trade-services/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/trade-services/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/trade-services/",
       "data": {
@@ -1000,6 +982,24 @@
       "source": "https://bankofceylon.co.uk/services/trade-services/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/services/trade-services/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/services/trade-services/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -1041,24 +1041,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/services/treasury/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/treasury/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/treasury/",
       "data": {
@@ -1072,6 +1054,24 @@
       "source": "https://bankofceylon.co.uk/services/treasury/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/services/treasury/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/services/treasury/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -1113,24 +1113,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +447350840624",
-      "source": "https://bankofceylon.co.uk/services/trade-services/",
-      "data": {
-        "value": "+447350840624"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +442073771888",
-      "source": "https://bankofceylon.co.uk/services/trade-services/",
-      "data": {
-        "value": "+442073771888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0207 377 188",
       "source": "https://bankofceylon.co.uk/services/trade-services/",
       "data": {
@@ -1144,6 +1126,24 @@
       "source": "https://bankofceylon.co.uk/services/trade-services/",
       "data": {
         "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +447350840624",
+      "source": "https://bankofceylon.co.uk/services/trade-services/",
+      "data": {
+        "value": "+447350840624"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +442073771888",
+      "source": "https://bankofceylon.co.uk/services/trade-services/",
+      "data": {
+        "value": "+442073771888"
       }
     },
     {
@@ -1185,6 +1185,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0207 377 188",
+      "source": "https://bankofceylon.co.uk/contact-us/",
+      "data": {
+        "value": "0207 377 188"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +44207 377 1888",
+      "source": "https://bankofceylon.co.uk/contact-us/",
+      "data": {
+        "value": "+44207 377 1888"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +447350840624",
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
@@ -1201,21 +1219,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0207 377 188",
+      "detail": "Published email: info@bankofceylon.co.uk",
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
-        "value": "0207 377 188"
+        "value": "info@bankofceylon.co.uk"
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +44207 377 1888",
+      "detail": "Published email: cs@bankofceylon.co.uk",
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
-        "value": "+44207 377 1888"
+        "value": "cs@bankofceylon.co.uk"
       }
     },
     {
@@ -1225,24 +1243,6 @@
       "source": "https://bankofceylon.co.uk/contact-us/",
       "data": {
         "value": "customerservices@bankofceylon.co.uk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@bankofceylon.co.uk",
-      "source": "https://bankofceylon.co.uk/contact-us/",
-      "data": {
-        "value": "info@bankofceylon.co.uk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: cs@bankofceylon.co.uk",
-      "source": "https://bankofceylon.co.uk/contact-us/",
-      "data": {
-        "value": "cs@bankofceylon.co.uk"
       }
     },
     {
@@ -1299,7 +1299,7 @@
       "redirects": [
         "https://bankofceylon.co.uk/"
       ],
-      "elapsed_ms": 151,
+      "elapsed_ms": 45,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1311,7 +1311,7 @@
         "https://www.bankofceylon.co.uk/",
         "https://bankofceylon.co.uk/"
       ],
-      "elapsed_ms": 70,
+      "elapsed_ms": 63,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1322,7 +1322,7 @@
       "redirects": [
         "https://bankofceylon.co.uk/"
       ],
-      "elapsed_ms": 104,
+      "elapsed_ms": 47,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1334,7 +1334,7 @@
         "https://www.bankofceylon.co.uk/",
         "https://bankofceylon.co.uk/"
       ],
-      "elapsed_ms": 78,
+      "elapsed_ms": 46,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1343,7 +1343,7 @@
       "status_code": 200,
       "final_url": "https://bankofceylon.co.uk/services/",
       "redirects": [],
-      "elapsed_ms": 115,
+      "elapsed_ms": 54,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1352,7 +1352,7 @@
       "status_code": 200,
       "final_url": "https://bankofceylon.co.uk/contact-us/",
       "redirects": [],
-      "elapsed_ms": 74,
+      "elapsed_ms": 36,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1363,7 +1363,7 @@
       "redirects": [
         "https://bankofceylon.co.uk/services/money-remittance/"
       ],
-      "elapsed_ms": 635,
+      "elapsed_ms": 97,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1374,7 +1374,7 @@
       "redirects": [
         "https://bankofceylon.co.uk/services/deposits/"
       ],
-      "elapsed_ms": 79,
+      "elapsed_ms": 67,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1383,7 +1383,7 @@
       "status_code": 200,
       "final_url": "https://bankofceylon.co.uk/services/money-remittance/",
       "redirects": [],
-      "elapsed_ms": 75,
+      "elapsed_ms": 53,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1392,7 +1392,7 @@
       "status_code": 200,
       "final_url": "https://bankofceylon.co.uk/services/loan-advances/",
       "redirects": [],
-      "elapsed_ms": 604,
+      "elapsed_ms": 41,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1401,7 +1401,7 @@
       "status_code": 200,
       "final_url": "https://bankofceylon.co.uk/services/trade-services/",
       "redirects": [],
-      "elapsed_ms": 70,
+      "elapsed_ms": 45,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1410,7 +1410,7 @@
       "status_code": 200,
       "final_url": "https://bankofceylon.co.uk/services/treasury/",
       "redirects": [],
-      "elapsed_ms": 652,
+      "elapsed_ms": 48,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1421,7 +1421,7 @@
       "redirects": [
         "https://bankofceylon.co.uk/services/trade-services/"
       ],
-      "elapsed_ms": 56,
+      "elapsed_ms": 38,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1432,7 +1432,7 @@
       "redirects": [
         "https://bankofceylon.co.uk/contact-us/"
       ],
-      "elapsed_ms": 475,
+      "elapsed_ms": 38,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1440,87 +1440,87 @@
   "snapshots": [
     {
       "url": "https://bankofceylon.co.uk/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-01-07074eba611b.html",
-      "sha256": "07074eba611ba16e640ea5dc00952fe029e8bff191f7dfdeac11cda2de652e1c",
-      "bytes": 310446
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-01-77b9bb953cfc.html",
+      "sha256": "77b9bb953cfc9745d7e6d609ea00894928aae7cb96f6092a1b30786f983fbad7",
+      "bytes": 310453
     },
     {
       "url": "https://bankofceylon.co.uk/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-02-07074eba611b.html",
-      "sha256": "07074eba611ba16e640ea5dc00952fe029e8bff191f7dfdeac11cda2de652e1c",
-      "bytes": 310446
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-02-77b9bb953cfc.html",
+      "sha256": "77b9bb953cfc9745d7e6d609ea00894928aae7cb96f6092a1b30786f983fbad7",
+      "bytes": 310453
     },
     {
       "url": "https://bankofceylon.co.uk/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-03-07074eba611b.html",
-      "sha256": "07074eba611ba16e640ea5dc00952fe029e8bff191f7dfdeac11cda2de652e1c",
-      "bytes": 310446
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-03-77b9bb953cfc.html",
+      "sha256": "77b9bb953cfc9745d7e6d609ea00894928aae7cb96f6092a1b30786f983fbad7",
+      "bytes": 310453
     },
     {
       "url": "https://bankofceylon.co.uk/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-04-07074eba611b.html",
-      "sha256": "07074eba611ba16e640ea5dc00952fe029e8bff191f7dfdeac11cda2de652e1c",
-      "bytes": 310446
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-04-77b9bb953cfc.html",
+      "sha256": "77b9bb953cfc9745d7e6d609ea00894928aae7cb96f6092a1b30786f983fbad7",
+      "bytes": 310453
     },
     {
       "url": "https://bankofceylon.co.uk/services/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-05-52f4f01b1c84.html",
-      "sha256": "52f4f01b1c847f0b57d3279a355cdd3056a65656c6d8b5e5709e82e5b18fba86",
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-05-340764bbc531.html",
+      "sha256": "340764bbc531586caf68d5dacacf0e6e93f000889c94ff7f99593789f6fdab50",
       "bytes": 179031
     },
     {
       "url": "https://bankofceylon.co.uk/contact-us/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-06-ddebcc3e8cb9.html",
-      "sha256": "ddebcc3e8cb9abfdfb9dd15dbb0c86cb4573ecefbaf42b1106d744fee27ef62b",
-      "bytes": 181281
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-06-1b38858c6d5a.html",
+      "sha256": "1b38858c6d5afa44076fc989665920401f98feaf24880f11ffd941cc800b8458",
+      "bytes": 181288
     },
     {
       "url": "https://bankofceylon.co.uk/services/money-remittance/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-07-4947293e0d79.html",
-      "sha256": "4947293e0d7993bf011ca82dbf6f4695fa6dd8df76486f6a4b8e92d38d4640a5",
-      "bytes": 216938
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-07-ca57225d6865.html",
+      "sha256": "ca57225d68659212eeed7e548902eadd6bc5c0fe7e563d740050e26c7ad29a8a",
+      "bytes": 216945
     },
     {
       "url": "https://bankofceylon.co.uk/services/deposits/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-08-ddd6fd63346f.html",
-      "sha256": "ddd6fd63346f3b65491d5d0f29b2c7a0e3500b5f784a14a974a775ded7817136",
-      "bytes": 222122
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-08-2e6fcda021c5.html",
+      "sha256": "2e6fcda021c568e059b6797ab1e5a64881ceb174104a4c160ee8d9915483a34a",
+      "bytes": 222121
     },
     {
       "url": "https://bankofceylon.co.uk/services/money-remittance/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-09-4947293e0d79.html",
-      "sha256": "4947293e0d7993bf011ca82dbf6f4695fa6dd8df76486f6a4b8e92d38d4640a5",
-      "bytes": 216938
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-09-ca57225d6865.html",
+      "sha256": "ca57225d68659212eeed7e548902eadd6bc5c0fe7e563d740050e26c7ad29a8a",
+      "bytes": 216945
     },
     {
       "url": "https://bankofceylon.co.uk/services/loan-advances/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-10-687b7e21c4b4.html",
-      "sha256": "687b7e21c4b4e32663560fea5bd9a48da388f9f39a515f1cc448e51abd80e8ad",
-      "bytes": 222549
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-10-720c6babaaaa.html",
+      "sha256": "720c6babaaaa397bccbc5284f2efd7a5dd08d676ef2467c01add7932f6930967",
+      "bytes": 222555
     },
     {
       "url": "https://bankofceylon.co.uk/services/trade-services/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-11-a6bd0345f928.html",
-      "sha256": "a6bd0345f92830502da7b8a3a3fab20945667ab2ddcc260a027d851320b0b18a",
-      "bytes": 202685
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-11-a3f6656187bc.html",
+      "sha256": "a3f6656187bc587bbe98e082418fc5a26f61354fd2dbce098608da95ffe42546",
+      "bytes": 202692
     },
     {
       "url": "https://bankofceylon.co.uk/services/treasury/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-12-30eb2a64c70a.html",
-      "sha256": "30eb2a64c70a99478943aa59f5483559c548535333e39e2f4e23a8a1af6d4d88",
-      "bytes": 231300
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-12-87bc51ea670d.html",
+      "sha256": "87bc51ea670dc9fc39b6a5e29cc14835d22f81ce7c8dc7fe9c14a8c3354ecf97",
+      "bytes": 231307
     },
     {
       "url": "https://bankofceylon.co.uk/services/trade-services/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-13-a6bd0345f928.html",
-      "sha256": "a6bd0345f92830502da7b8a3a3fab20945667ab2ddcc260a027d851320b0b18a",
-      "bytes": 202685
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-13-a3f6656187bc.html",
+      "sha256": "a3f6656187bc587bbe98e082418fc5a26f61354fd2dbce098608da95ffe42546",
+      "bytes": 202692
     },
     {
       "url": "https://bankofceylon.co.uk/contact-us/",
-      "path": "audit.output/www.bankofceylon.co.uk/20260926.0622/snapshots/page-14-ddebcc3e8cb9.html",
-      "sha256": "ddebcc3e8cb9abfdfb9dd15dbb0c86cb4573ecefbaf42b1106d744fee27ef62b",
-      "bytes": 181281
+      "path": "audit.output/www.bankofceylon.co.uk/20260927.0628/snapshots/page-14-1b38858c6d5a.html",
+      "sha256": "1b38858c6d5afa44076fc989665920401f98feaf24880f11ffd941cc800b8458",
+      "bytes": 181288
     }
   ],
   "reviewer_decisions": [],
@@ -1606,7 +1606,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: and Head Office: 1 Devonshire Square, London EC2M 4WD Our Products Deposits Treasury Trade Services Loan & Advances Mone; Phone: +447350840624 (5 phone numbers found); Email: info@bankofceylon.co.uk (3 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: and Head Office: 1 Devonshire Square, London EC2M 4WD Our Products Deposits Treasury Trade Services Loan & Advances Mone; Phone: 0207 377 188 (5 phone numbers found); Email: info@bankofceylon.co.uk (3 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1619,7 +1619,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +447350840624 (5 phone numbers found); Email: info@bankofceylon.co.uk (3 email addresses found)"
+          "reason": "Phone: 0207 377 188 (5 phone numbers found); Email: info@bankofceylon.co.uk (3 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1698,7 +1698,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

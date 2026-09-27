@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "0156728f-0496-4d7c-989e-f1413eb06b10",
+  "audit_id": "fe0e8cfb-edc4-4796-90e1-a9dd6b7875e7",
   "url": "https://www.rdb.gov.lk",
   "normalized_url": "https://www.rdb.gov.lk/",
-  "started_at": "2026-09-26T06:50:49.009233+05:30",
-  "completed_at": "2026-09-26T06:50:56.329476+05:30",
+  "started_at": "2026-09-27T06:52:50.164562+05:30",
+  "completed_at": "2026-09-27T06:52:58.275155+05:30",
   "result": {
     "status": "inconclusive",
     "confidence": 0.5,
@@ -20,47 +20,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:50:49.381960+05:30"
+      "observed_at": "2026-09-27T06:52:50.534441+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:50:49.381976+05:30"
+      "observed_at": "2026-09-27T06:52:50.534465+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:50:50.099610+05:30"
+      "observed_at": "2026-09-27T06:52:51.281786+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.rdb.gov.lk/",
       "source": "https://www.rdb.gov.lk/",
-      "observed_at": "2026-09-26T06:50:56.327606+05:30"
+      "observed_at": "2026-09-27T06:52:58.272666+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.rdb.gov.lk/",
       "source": "http://www.rdb.gov.lk/",
-      "observed_at": "2026-09-26T06:50:56.327624+05:30"
+      "observed_at": "2026-09-27T06:52:58.272684+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.rdb.gov.lk/",
       "source": "https://www.rdb.gov.lk/",
-      "observed_at": "2026-09-26T06:50:56.327628+05:30"
+      "observed_at": "2026-09-27T06:52:58.272688+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.rdb.gov.lk/",
       "source": "http://www.rdb.gov.lk/",
-      "observed_at": "2026-09-26T06:50:56.327630+05:30"
+      "observed_at": "2026-09-27T06:52:58.272692+05:30"
     },
     {
       "check": "page_text",
@@ -96,7 +96,7 @@
       "status_code": 200,
       "final_url": "https://www.rdb.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 767,
+      "elapsed_ms": 993,
       "content_type": "text/html",
       "error": null
     },
@@ -107,7 +107,7 @@
       "redirects": [
         "https://www.rdb.gov.lk/"
       ],
-      "elapsed_ms": 771,
+      "elapsed_ms": 1002,
       "content_type": "text/html",
       "error": null
     },
@@ -116,7 +116,7 @@
       "status_code": 200,
       "final_url": "https://www.rdb.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 732,
+      "elapsed_ms": 981,
       "content_type": "text/html",
       "error": null
     },
@@ -127,7 +127,7 @@
       "redirects": [
         "https://www.rdb.gov.lk/"
       ],
-      "elapsed_ms": 962,
+      "elapsed_ms": 1000,
       "content_type": "text/html",
       "error": null
     }
@@ -135,25 +135,25 @@
   "snapshots": [
     {
       "url": "https://www.rdb.gov.lk/",
-      "path": "audit.output/www.rdb.gov.lk/20260926.0650/snapshots/page-01-a271a37bc3cc.html",
+      "path": "audit.output/www.rdb.gov.lk/20260927.0652/snapshots/page-01-a271a37bc3cc.html",
       "sha256": "a271a37bc3cc4eea44e0dd513fd2dbf2cad77ca3b72d09f523f3a15c55293dec",
       "bytes": 1057
     },
     {
       "url": "https://www.rdb.gov.lk/",
-      "path": "audit.output/www.rdb.gov.lk/20260926.0650/snapshots/page-02-a271a37bc3cc.html",
+      "path": "audit.output/www.rdb.gov.lk/20260927.0652/snapshots/page-02-a271a37bc3cc.html",
       "sha256": "a271a37bc3cc4eea44e0dd513fd2dbf2cad77ca3b72d09f523f3a15c55293dec",
       "bytes": 1057
     },
     {
       "url": "https://www.rdb.gov.lk/",
-      "path": "audit.output/www.rdb.gov.lk/20260926.0650/snapshots/page-03-a271a37bc3cc.html",
+      "path": "audit.output/www.rdb.gov.lk/20260927.0652/snapshots/page-03-a271a37bc3cc.html",
       "sha256": "a271a37bc3cc4eea44e0dd513fd2dbf2cad77ca3b72d09f523f3a15c55293dec",
       "bytes": 1057
     },
     {
       "url": "https://www.rdb.gov.lk/",
-      "path": "audit.output/www.rdb.gov.lk/20260926.0650/snapshots/page-04-a271a37bc3cc.html",
+      "path": "audit.output/www.rdb.gov.lk/20260927.0652/snapshots/page-04-a271a37bc3cc.html",
       "sha256": "a271a37bc3cc4eea44e0dd513fd2dbf2cad77ca3b72d09f523f3a15c55293dec",
       "bytes": 1057
     }
@@ -271,7 +271,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

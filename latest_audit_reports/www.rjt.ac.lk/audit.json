@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "d6a39bf7-8fbd-402b-a614-956365e1417f",
+  "audit_id": "a00c4a6e-d1a6-412e-95fa-936b803d8ffa",
   "url": "http://www.rjt.ac.lk/",
   "normalized_url": "http://www.rjt.ac.lk/",
-  "started_at": "2026-09-26T06:14:51.770683+05:30",
-  "completed_at": "2026-09-26T06:15:23.347726+05:30",
+  "started_at": "2026-09-27T06:21:17.432963+05:30",
+  "completed_at": "2026-09-27T06:21:53.099098+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:14:52.500248+05:30"
+      "observed_at": "2026-09-27T06:21:17.702818+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:14:52.500286+05:30"
+      "observed_at": "2026-09-27T06:21:17.702837+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:14:53.266317+05:30"
+      "observed_at": "2026-09-27T06:21:18.438050+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.rjt.ac.lk/",
       "source": "https://www.rjt.ac.lk/",
-      "observed_at": "2026-09-26T06:15:21.577719+05:30"
+      "observed_at": "2026-09-27T06:21:50.889170+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.rjt.ac.lk/",
       "source": "http://www.rjt.ac.lk/",
-      "observed_at": "2026-09-26T06:15:21.577742+05:30"
+      "observed_at": "2026-09-27T06:21:50.889190+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.rjt.ac.lk/",
       "source": "https://www.rjt.ac.lk/",
-      "observed_at": "2026-09-26T06:15:21.577746+05:30"
+      "observed_at": "2026-09-27T06:21:50.889194+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.rjt.ac.lk/",
       "source": "http://www.rjt.ac.lk/",
-      "observed_at": "2026-09-26T06:15:21.577748+05:30"
+      "observed_at": "2026-09-27T06:21:50.889197+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.rjt.ac.lk/university-officers/",
       "source": "https://www.rjt.ac.lk/university-officers/",
-      "observed_at": "2026-09-26T06:15:21.577751+05:30"
+      "observed_at": "2026-09-27T06:21:50.889200+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.rjt.ac.lk/physical-education-division/",
       "source": "https://www.rjt.ac.lk/physical-education-division/",
-      "observed_at": "2026-09-26T06:15:21.577753+05:30"
+      "observed_at": "2026-09-27T06:21:50.889203+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
       "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
-      "observed_at": "2026-09-26T06:15:21.577756+05:30"
+      "observed_at": "2026-09-27T06:21:50.889206+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.rjt.ac.lk/contacts-2/",
       "source": "https://www.rjt.ac.lk/contacts-2/",
-      "observed_at": "2026-09-26T06:15:21.577758+05:30"
+      "observed_at": "2026-09-27T06:21:50.889208+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.rjt.ac.lk/e-services/",
       "source": "https://www.rjt.ac.lk/e-services/",
-      "observed_at": "2026-09-26T06:15:21.577760+05:30"
+      "observed_at": "2026-09-27T06:21:50.889211+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.rjt.ac.lk/vision-and-mission/",
       "source": "https://www.rjt.ac.lk/vision-and-mission/",
-      "observed_at": "2026-09-26T06:15:21.577762+05:30"
+      "observed_at": "2026-09-27T06:21:50.889214+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.rjt.ac.lk/history/",
       "source": "https://www.rjt.ac.lk/history/",
-      "observed_at": "2026-09-26T06:15:21.577764+05:30"
+      "observed_at": "2026-09-27T06:21:50.889217+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.rjt.ac.lk/university-flag/",
       "source": "https://www.rjt.ac.lk/university-flag/",
-      "observed_at": "2026-09-26T06:15:21.577766+05:30"
+      "observed_at": "2026-09-27T06:21:50.889219+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.rjt.ac.lk/university-crest/",
       "source": "https://www.rjt.ac.lk/university-crest/",
-      "observed_at": "2026-09-26T06:15:21.577768+05:30"
+      "observed_at": "2026-09-27T06:21:50.889222+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.rjt.ac.lk/university-anthem/",
       "source": "https://www.rjt.ac.lk/university-anthem/",
-      "observed_at": "2026-09-26T06:15:21.577769+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
-      "source": "https://www.rjt.ac.lk/",
-      "data": {
-        "value": "+94 (25) 2266643 "
-      }
+      "observed_at": "2026-09-27T06:21:50.889224+05:30"
     },
     {
       "check": "phone",
@@ -154,6 +145,15 @@
       "source": "https://www.rjt.ac.lk/",
       "data": {
         "value": "+94 (25) 226 6512 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94(25)2266643",
+      "source": "https://www.rjt.ac.lk/",
+      "data": {
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -168,19 +168,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -213,19 +213,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -240,19 +240,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -285,19 +285,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -312,19 +312,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -357,19 +357,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -384,19 +384,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -424,60 +424,6 @@
       "source": "https://www.rjt.ac.lk/",
       "data": {
         "value": "rs3"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 226 6627 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 226 6627 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 226 6810 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 226 6810 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 2221610 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 2221610 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 2221610",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 2221610"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 226 6212",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 226 6212"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 226 6125 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 226 6125 "
       }
     },
     {
@@ -492,55 +438,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 25 2266644",
+      "detail": "Published phone: +94 25 2221610 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "+94 25 2266644"
+        "value": "+94 25 2221610 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 25 226 6212 ",
+      "detail": "Published phone: +94 25 226 6627 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "+94 25 226 6212 "
+        "value": "+94 25 226 6627 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 25 226 6694 ",
+      "detail": "Published phone: +94 25 226 6212",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "+94 25 226 6694 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 (25) 226 6512 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 226 6749 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 226 6749 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 222 1610 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 222 1610 "
+        "value": "+94 25 226 6212"
       }
     },
     {
@@ -555,10 +474,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 25 223 4462 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "+94 25 223 4462 "
+        "value": "+94(25)2266643"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94252266650",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94252266650"
       }
     },
     {
@@ -573,33 +501,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 25 223 4464 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 223 4464 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 226 6511 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 226 6511 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 2266644 ",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "+94 25 2266644 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 25 226 6130 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
@@ -609,19 +510,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 25 226 6749 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 25 226 6749 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 25 223 4462 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 25 223 4462 "
       }
     },
     {
@@ -636,37 +537,109 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94252266650",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "+94252266650"
+        "value": "+94 (25) 2266643 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: tcbamunu@tec.rjt.ac.lk",
+      "detail": "Published phone: +94 25 2266644 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "tcbamunu@tec.rjt.ac.lk"
+        "value": "+94 25 2266644 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: dean@ssh.rjt.ac.lk",
+      "detail": "Published phone: +94 25 226 6125 ",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "dean@ssh.rjt.ac.lk"
+        "value": "+94 25 226 6125 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: ssasoka@gmail.com",
+      "detail": "Published phone: +94 25 2221610",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "ssasoka@gmail.com"
+        "value": "+94 25 2221610"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (25) 226 6512 ",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 (25) 226 6512 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 222 1610 ",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 25 222 1610 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 226 6511 ",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 25 226 6511 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 226 6810 ",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 25 226 6810 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 2266644",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 25 2266644"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 223 4464 ",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 25 223 4464 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 226 6694 ",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 25 226 6694 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 226 6212 ",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "+94 25 226 6212 "
       }
     },
     {
@@ -681,33 +654,6 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: regofffice@rjt.ac.lk",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "regofffice@rjt.ac.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dean@agri.rjt.ac.lk",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "dean@agri.rjt.ac.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: librarian@rjt.ac.lk",
-      "source": "https://www.rjt.ac.lk/university-officers/",
-      "data": {
-        "value": "librarian@rjt.ac.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: dean.sshrusl@gmail.com",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
@@ -717,10 +663,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: dean@tec.rjt.ac.lk",
+      "detail": "Published email: regofffice@rjt.ac.lk",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "dean@tec.rjt.ac.lk"
+        "value": "regofffice@rjt.ac.lk"
       }
     },
     {
@@ -735,10 +681,64 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: ssasoka@gmail.com",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "ssasoka@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: librarian@rjt.ac.lk",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "librarian@rjt.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: vc@rjt.ac.lk",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "vc@rjt.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dean@agri.rjt.ac.lk",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "dean@agri.rjt.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: janaka@med.rjt.ac.lk",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
         "value": "janaka@med.rjt.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: tcbamunu@tec.rjt.ac.lk",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "tcbamunu@tec.rjt.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dean@tec.rjt.ac.lk",
+      "source": "https://www.rjt.ac.lk/university-officers/",
+      "data": {
+        "value": "dean@tec.rjt.ac.lk"
       }
     },
     {
@@ -753,10 +753,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: vc@rjt.ac.lk",
+      "detail": "Published email: dean@ssh.rjt.ac.lk",
       "source": "https://www.rjt.ac.lk/university-officers/",
       "data": {
-        "value": "vc@rjt.ac.lk"
+        "value": "dean@ssh.rjt.ac.lk"
       }
     },
     {
@@ -780,19 +780,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9425 226 6853 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/physical-education-division/",
       "data": {
-        "value": "+9425 226 6853 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/physical-education-division/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -807,15 +807,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
-      "source": "https://www.rjt.ac.lk/physical-education-division/",
-      "data": {
-        "value": "+94 (25) 226 6512 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94252266650",
       "source": "https://www.rjt.ac.lk/physical-education-division/",
       "data": {
@@ -825,19 +816,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/physical-education-division/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +9425 226 6853 ",
       "source": "https://www.rjt.ac.lk/physical-education-division/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+9425 226 6853 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (25) 226 6643 ",
+      "source": "https://www.rjt.ac.lk/physical-education-division/",
+      "data": {
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -888,19 +888,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 25 2266269 ",
+      "detail": "Published phone: +94 704352350 ",
       "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
       "data": {
-        "value": "+94 25 2266269 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
-      "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
-      "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 704352350 "
       }
     },
     {
@@ -915,6 +906,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94(25)2266643",
+      "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
+      "data": {
+        "value": "+94(25)2266643"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94252266650",
       "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
       "data": {
@@ -924,10 +924,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 704352350 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
       "data": {
-        "value": "+94 704352350 "
+        "value": "+94 (25) 2266643 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 2266269 ",
+      "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
+      "data": {
+        "value": "+94 25 2266269 "
       }
     },
     {
@@ -940,12 +949,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published email: info@rjt.ac.lk",
       "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "info@rjt.ac.lk"
       }
     },
     {
@@ -955,15 +964,6 @@
       "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
       "data": {
         "value": "ruslublc@rjt.ac.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@rjt.ac.lk",
-      "source": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
-      "data": {
-        "value": "info@rjt.ac.lk"
       }
     },
     {
@@ -1005,87 +1005,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266787 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266787 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266803 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266803 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266501 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266501 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-3132923 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-3132923 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266646 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266646 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266513 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266513 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266749 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266749 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266693 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266693 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9425 226 6511 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "+9425 226 6511 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 025-2266781 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
@@ -1095,91 +1014,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266532 ",
+      "detail": "Published phone: 025-2266511 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266532 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266577 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266577 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266780 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266780 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266853 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266853 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266650 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266650 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-3120074 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-3120074 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266649 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266649 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 071-4458929 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "071-4458929 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 071-5374698 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "071-5374698 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266694 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266694 "
+        "value": "025-2266511 "
       }
     },
     {
@@ -1194,10 +1032,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266802 ",
+      "detail": "Published phone: 025-2266312 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266802 "
+        "value": "025-2266312 "
       }
     },
     {
@@ -1212,73 +1050,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266312 ",
+      "detail": "Published phone: 025-2266787 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266312 "
+        "value": "025-2266787 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266792 ",
+      "detail": "Published phone: 025-2266321 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266792 "
+        "value": "025-2266321 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-3120768 ",
+      "detail": "Published phone: 025-2266532 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-3120768 "
+        "value": "025-2266532 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266647 ",
+      "detail": "Published phone: 025-2266693 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266647 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266811 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266811 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2236368 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2236368 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "+94 (25) 226 6512 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266163 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266163 "
+        "value": "025-2266693 "
       }
     },
     {
@@ -1293,19 +1095,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266757 ",
+      "detail": "Published phone: 025-2266651 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266757 "
+        "value": "025-2266651 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266812 ",
+      "detail": "Published phone: 025-2266501 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266812 "
+        "value": "025-2266501 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266317 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266317 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266694 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266694 "
       }
     },
     {
@@ -1329,136 +1149,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266321 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266321 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-3120078 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-3120078 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266644 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266644 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266511 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266511 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266311 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266311 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266725 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266725 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266744 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266744 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
         "value": "+94(25)2266643"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "+94 (25) 2266643 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266651 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266651 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266782 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266782 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266512 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266512 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266813 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266813 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266269 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266269 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-2266645 ",
-      "source": "https://www.rjt.ac.lk/contacts-2/",
-      "data": {
-        "value": "025-2266645 "
       }
     },
     {
@@ -1473,10 +1167,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 025-2266317 ",
+      "detail": "Published phone: 025-2266163 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "025-2266317 "
+        "value": "025-2266163 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266577 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266577 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266646 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266646 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266812 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266812 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266650 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266650 "
       }
     },
     {
@@ -1489,12 +1219,273 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: registrar@rjt.ac.lk",
+      "detail": "Published phone: 025-3120078 ",
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
-        "value": "registrar@rjt.ac.lk"
+        "value": "025-3120078 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2236368 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2236368 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9425 226 6511 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "+9425 226 6511 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-4458929 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "071-4458929 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-3132923 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-3132923 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-5374698 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "071-5374698 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266649 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266649 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (25) 2266643 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "+94 (25) 2266643 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-3120768 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-3120768 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266792 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266792 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266311 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266311 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266512 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266512 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266647 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266647 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266802 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266802 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266645 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266645 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266853 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266853 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (25) 226 6512 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "+94 (25) 226 6512 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266813 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266813 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266780 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266780 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266269 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266269 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266513 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266513 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266749 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266749 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266757 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266757 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-3120074 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-3120074 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266644 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266644 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266811 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266811 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266803 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266803 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266782 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266782 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266744 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266744 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-2266725 ",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "025-2266725 "
       }
     },
     {
@@ -1513,6 +1504,15 @@
       "source": "https://www.rjt.ac.lk/contacts-2/",
       "data": {
         "value": "ldd@rjt.ac.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: registrar@rjt.ac.lk",
+      "source": "https://www.rjt.ac.lk/contacts-2/",
+      "data": {
+        "value": "registrar@rjt.ac.lk"
       }
     },
     {
@@ -1545,19 +1545,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/e-services/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/e-services/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -1572,19 +1572,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/e-services/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/e-services/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -1617,19 +1617,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/vision-and-mission/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/vision-and-mission/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -1644,19 +1644,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/vision-and-mission/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/vision-and-mission/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -1689,19 +1689,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/history/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/history/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -1716,19 +1716,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/history/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/history/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -1770,19 +1770,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/university-flag/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/university-flag/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -1797,19 +1797,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/university-flag/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/university-flag/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -1842,19 +1842,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/university-crest/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/university-crest/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -1869,19 +1869,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/university-crest/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/university-crest/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -1914,19 +1914,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 2266643 ",
+      "detail": "Published phone: +94 (25) 226 6512 ",
       "source": "https://www.rjt.ac.lk/university-anthem/",
       "data": {
-        "value": "+94 (25) 2266643 "
+        "value": "+94 (25) 226 6512 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6512 ",
+      "detail": "Published phone: +94(25)2266643",
       "source": "https://www.rjt.ac.lk/university-anthem/",
       "data": {
-        "value": "+94 (25) 226 6512 "
+        "value": "+94(25)2266643"
       }
     },
     {
@@ -1941,19 +1941,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (25) 226 6643 ",
+      "detail": "Published phone: +94 (25) 2266643 ",
       "source": "https://www.rjt.ac.lk/university-anthem/",
       "data": {
-        "value": "+94 (25) 226 6643 "
+        "value": "+94 (25) 2266643 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94(25)2266643",
+      "detail": "Published phone: +94 (25) 226 6643 ",
       "source": "https://www.rjt.ac.lk/university-anthem/",
       "data": {
-        "value": "+94(25)2266643"
+        "value": "+94 (25) 226 6643 "
       }
     },
     {
@@ -2017,7 +2017,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 2044,
+      "elapsed_ms": 2035,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2028,7 +2028,7 @@
       "redirects": [
         "https://www.rjt.ac.lk/"
       ],
-      "elapsed_ms": 1695,
+      "elapsed_ms": 1755,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2037,7 +2037,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 1992,
+      "elapsed_ms": 2009,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2048,7 +2048,7 @@
       "redirects": [
         "https://www.rjt.ac.lk/"
       ],
-      "elapsed_ms": 1801,
+      "elapsed_ms": 2248,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2057,7 +2057,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/university-officers/",
       "redirects": [],
-      "elapsed_ms": 1686,
+      "elapsed_ms": 1878,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2066,7 +2066,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/physical-education-division/",
       "redirects": [],
-      "elapsed_ms": 1696,
+      "elapsed_ms": 1823,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2075,7 +2075,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
       "redirects": [],
-      "elapsed_ms": 1689,
+      "elapsed_ms": 1940,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2084,7 +2084,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/contacts-2/",
       "redirects": [],
-      "elapsed_ms": 1715,
+      "elapsed_ms": 1946,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2093,7 +2093,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/e-services/",
       "redirects": [],
-      "elapsed_ms": 1643,
+      "elapsed_ms": 1862,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2102,7 +2102,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/vision-and-mission/",
       "redirects": [],
-      "elapsed_ms": 1697,
+      "elapsed_ms": 2105,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2111,7 +2111,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/history/",
       "redirects": [],
-      "elapsed_ms": 1674,
+      "elapsed_ms": 1710,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2120,7 +2120,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/university-flag/",
       "redirects": [],
-      "elapsed_ms": 1660,
+      "elapsed_ms": 1846,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2129,7 +2129,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/university-crest/",
       "redirects": [],
-      "elapsed_ms": 1669,
+      "elapsed_ms": 1677,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2138,7 +2138,7 @@
       "status_code": 200,
       "final_url": "https://www.rjt.ac.lk/university-anthem/",
       "redirects": [],
-      "elapsed_ms": 1680,
+      "elapsed_ms": 1593,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -2146,86 +2146,86 @@
   "snapshots": [
     {
       "url": "https://www.rjt.ac.lk/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-01-4803c062a07f.html",
-      "sha256": "4803c062a07f09eb6a5d48299f1c814256c3d2a1a29135dcad2a74d81999adda",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-01-65f81be3bfda.html",
+      "sha256": "65f81be3bfdad3fe6a4efd113481f4fea1229e4c3a180e5db12445de5635d364",
       "bytes": 250691
     },
     {
       "url": "https://www.rjt.ac.lk/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-02-4803c062a07f.html",
-      "sha256": "4803c062a07f09eb6a5d48299f1c814256c3d2a1a29135dcad2a74d81999adda",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-02-65f81be3bfda.html",
+      "sha256": "65f81be3bfdad3fe6a4efd113481f4fea1229e4c3a180e5db12445de5635d364",
       "bytes": 250691
     },
     {
       "url": "https://www.rjt.ac.lk/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-03-4803c062a07f.html",
-      "sha256": "4803c062a07f09eb6a5d48299f1c814256c3d2a1a29135dcad2a74d81999adda",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-03-65f81be3bfda.html",
+      "sha256": "65f81be3bfdad3fe6a4efd113481f4fea1229e4c3a180e5db12445de5635d364",
       "bytes": 250691
     },
     {
       "url": "https://www.rjt.ac.lk/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-04-4803c062a07f.html",
-      "sha256": "4803c062a07f09eb6a5d48299f1c814256c3d2a1a29135dcad2a74d81999adda",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-04-65f81be3bfda.html",
+      "sha256": "65f81be3bfdad3fe6a4efd113481f4fea1229e4c3a180e5db12445de5635d364",
       "bytes": 250691
     },
     {
       "url": "https://www.rjt.ac.lk/university-officers/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-05-5333f7184ee8.html",
-      "sha256": "5333f7184ee8c7f97ee98010aac3ea054175c3936bd60263d6ad01323de8b763",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-05-51665e516ffe.html",
+      "sha256": "51665e516ffeb64fb010e2fe7bc56e0a8b391a03a6bad3971259f49e38682999",
       "bytes": 156067
     },
     {
       "url": "https://www.rjt.ac.lk/physical-education-division/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-06-1752cfa8de36.html",
-      "sha256": "1752cfa8de36c811ea78f1a59817ffe6917da0a53f964cf5817ad645e89e4803",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-06-cd15d6756d8b.html",
+      "sha256": "cd15d6756d8bea29c5ffb79c1d79cb09dcf5bea2a4c5f3a6c82a2cfd90b5d074",
       "bytes": 171710
     },
     {
       "url": "https://www.rjt.ac.lk/knowledge-and-technology-transfer-office/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-07-d579137c01c4.html",
-      "sha256": "d579137c01c43b803b3a02992c00a55db17b3f29ecfbe2580cbe8c12424b2cc4",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-07-6a53cbb3810b.html",
+      "sha256": "6a53cbb3810b579fc61e242b102d0296662a29fb2a5521f47c0f245544a1d139",
       "bytes": 169474
     },
     {
       "url": "https://www.rjt.ac.lk/contacts-2/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-08-f0a6aa2d2465.html",
-      "sha256": "f0a6aa2d2465fe761a232a23f35c54882559dd77850413eb659e3b29a1b9cea6",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-08-ef621d385623.html",
+      "sha256": "ef621d385623cfdeb8c393ff1b27f3016c7a718be5ee43a260e26950be5c6aaa",
       "bytes": 174500
     },
     {
       "url": "https://www.rjt.ac.lk/e-services/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-09-425345245009.html",
-      "sha256": "425345245009cc088182d8a0ea8bf690276ce5b7f481501b2c1542f67443535d",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-09-f228609b1d4e.html",
+      "sha256": "f228609b1d4ec9715680d42c5833ca75ae30be9c5a160bab7ef4ac26c6963560",
       "bytes": 168483
     },
     {
       "url": "https://www.rjt.ac.lk/vision-and-mission/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-10-5a905444e595.html",
-      "sha256": "5a905444e5953e0a071a2762bb28fd63107fa10b771e0406ce94dc64e2e4c166",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-10-c451eb14a748.html",
+      "sha256": "c451eb14a748fa156df1245d71abfbd3125eb330319b4b8501d9bbc4e1116a5e",
       "bytes": 153162
     },
     {
       "url": "https://www.rjt.ac.lk/history/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-11-e13cb639e67b.html",
-      "sha256": "e13cb639e67b33cb70db51bd050db37c7d891826be376fdb097880046c4b1bd2",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-11-a9169e4138c4.html",
+      "sha256": "a9169e4138c46d045083d905c7548886396781150d9202471fce86cf9c2f4a3a",
       "bytes": 163324
     },
     {
       "url": "https://www.rjt.ac.lk/university-flag/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-12-edc10e81a72b.html",
-      "sha256": "edc10e81a72b87746c28436ed69abba40f44aed18919ac76d1bd458104504a15",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-12-b6c5847dc930.html",
+      "sha256": "b6c5847dc9306c289f9bc124667d3e0e0480df8b579c437a52b285e14873f7dd",
       "bytes": 153298
     },
     {
       "url": "https://www.rjt.ac.lk/university-crest/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-13-4763aa4a1fd3.html",
-      "sha256": "4763aa4a1fd3ba0c0c7d02abb7502cd0168c33ff1608e328daf53fbfc0c677cc",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-13-5fe8b93eca9d.html",
+      "sha256": "5fe8b93eca9d86925bf5ece4a2caeca46f25703224fae739269183eb7a7daa37",
       "bytes": 155905
     },
     {
       "url": "https://www.rjt.ac.lk/university-anthem/",
-      "path": "audit.output/www.rjt.ac.lk/20260926.0614/snapshots/page-14-fdedd333a4c7.html",
-      "sha256": "fdedd333a4c7e235deb2f9f2b58fbdc91598e626c4846c2f2d6dfdc0c928f7c6",
+      "path": "audit.output/www.rjt.ac.lk/20260927.0621/snapshots/page-14-cc2cf1ca2409.html",
+      "sha256": "cc2cf1ca2409a642da65f51b96ef38d1346e6c4a0c8d745c80766abad72dd51c",
       "bytes": 152150
     }
   ],
@@ -2312,7 +2312,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: .address-item .address-icon::before, .team-slider-style4 .team-carousel .team-item:hover, #rs-header.header-transparent ; Phone: +94 (25) 2266643 (73 phone numbers found); Email: info@rjt.ac.lk (17 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: .address-item .address-icon::before, .team-slider-style4 .team-carousel .team-item:hover, #rs-header.header-transparent ; Phone: +94 (25) 226 6512 (73 phone numbers found); Email: info@rjt.ac.lk (17 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2325,7 +2325,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 (25) 2266643 (73 phone numbers found); Email: info@rjt.ac.lk (17 email addresses found)"
+          "reason": "Phone: +94 (25) 226 6512 (73 phone numbers found); Email: info@rjt.ac.lk (17 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2404,7 +2404,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

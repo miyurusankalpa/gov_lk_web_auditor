@@ -1,8 +1,8 @@
 # Website Audit: https://npd.treasury.gov.lk/
 
-- Completed: 2026-09-26 06:25
+- Completed: 2026-09-27 06:32
 - Overall result: ⚫ Level 0
-- Vantage: 134.33.77.208 (US, github-actions)
+- Vantage: 20.55.47.112 (US, github-actions)
 
 ## ⚫ Level 0: ✅
 

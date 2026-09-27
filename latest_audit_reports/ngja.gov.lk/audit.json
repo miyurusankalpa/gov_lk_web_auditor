@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "c88a8a16-424c-4a1b-9577-24f7f0b16f62",
+  "audit_id": "8bca4920-22a8-425e-8edf-d0cb64f73296",
   "url": "https://ngja.gov.lk/",
   "normalized_url": "https://ngja.gov.lk/",
-  "started_at": "2026-09-26T06:40:53.045307+05:30",
-  "completed_at": "2026-09-26T06:41:19.176779+05:30",
+  "started_at": "2026-09-27T06:46:19.728808+05:30",
+  "completed_at": "2026-09-27T06:46:50.272664+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:40:53.608212+05:30"
+      "observed_at": "2026-09-27T06:46:20.093211+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:40:53.608227+05:30"
+      "observed_at": "2026-09-27T06:46:20.093230+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:40:54.553431+05:30"
+      "observed_at": "2026-09-27T06:46:21.134852+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://ngja.gov.lk/",
       "source": "https://ngja.gov.lk/",
-      "observed_at": "2026-09-26T06:41:18.946489+05:30"
+      "observed_at": "2026-09-27T06:46:49.907495+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://ngja.gov.lk/",
       "source": "http://ngja.gov.lk/",
-      "observed_at": "2026-09-26T06:41:18.946507+05:30"
+      "observed_at": "2026-09-27T06:46:49.907522+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://ngja.gov.lk/",
       "source": "https://ngja.gov.lk/",
-      "observed_at": "2026-09-26T06:41:18.946510+05:30"
+      "observed_at": "2026-09-27T06:46:49.907531+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://ngja.gov.lk/",
       "source": "http://ngja.gov.lk/",
-      "observed_at": "2026-09-26T06:41:18.946513+05:30"
+      "observed_at": "2026-09-27T06:46:49.907537+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://ngja.gov.lk/business_services/licences/",
       "source": "https://ngja.gov.lk/business_services/licences/",
-      "observed_at": "2026-09-26T06:41:18.946516+05:30"
+      "observed_at": "2026-09-27T06:46:49.907544+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://ngja.gov.lk/contact/",
       "source": "https://ngja.gov.lk/contact/",
-      "observed_at": "2026-09-26T06:41:18.946519+05:30"
+      "observed_at": "2026-09-27T06:46:49.907550+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://ngja.gov.lk/enforcement_act/enforcement-activities-of-the-division/",
       "source": "https://ngja.gov.lk/enforcement_act/enforcement-activities-of-the-division/",
-      "observed_at": "2026-09-26T06:41:18.946521+05:30"
+      "observed_at": "2026-09-27T06:46:49.907555+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://ngja.gov.lk/services/",
       "source": "https://ngja.gov.lk/services/",
-      "observed_at": "2026-09-26T06:41:18.946524+05:30"
+      "observed_at": "2026-09-27T06:46:49.907561+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://ngja.gov.lk/business_services/gem-testing-and-valuation/",
       "source": "https://ngja.gov.lk/business_services/gem-testing-and-valuation/",
-      "observed_at": "2026-09-26T06:41:18.946526+05:30"
+      "observed_at": "2026-09-27T06:46:49.907566+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://ngja.gov.lk/business_services/jewellery-testing-and-valuation/",
       "source": "https://ngja.gov.lk/business_services/jewellery-testing-and-valuation/",
-      "observed_at": "2026-09-26T06:41:18.946528+05:30"
+      "observed_at": "2026-09-27T06:46:49.907572+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://ngja.gov.lk/business_services/minning-consultancy/",
       "source": "https://ngja.gov.lk/business_services/minning-consultancy/",
-      "observed_at": "2026-09-26T06:41:18.946530+05:30"
+      "observed_at": "2026-09-27T06:46:49.907578+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://ngja.gov.lk/",
       "source": "https://ngja.gov.lk/en/",
-      "observed_at": "2026-09-26T06:41:18.946533+05:30"
+      "observed_at": "2026-09-27T06:46:49.907584+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://ngja.gov.lk/si/",
       "source": "https://ngja.gov.lk/si/",
-      "observed_at": "2026-09-26T06:41:18.946535+05:30"
+      "observed_at": "2026-09-27T06:46:49.907589+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://ngja.gov.lk/ta/",
       "source": "https://ngja.gov.lk/ta/",
-      "observed_at": "2026-09-26T06:41:18.946537+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
-      "source": "https://ngja.gov.lk/",
-      "data": {
-        "value": "+94) 112 390 649("
-      }
+      "observed_at": "2026-09-27T06:46:49.907594+05:30"
     },
     {
       "check": "phone",
@@ -154,6 +145,15 @@
       "source": "https://ngja.gov.lk/",
       "data": {
         "value": "+94112390645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 390 649(",
+      "source": "https://ngja.gov.lk/",
+      "data": {
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -195,19 +195,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -249,19 +249,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -303,19 +303,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -361,33 +361,6 @@
       "source": "https://ngja.gov.lk/business_services/licences/",
       "data": {
         "value": "+94) 112 390 649("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112390645",
-      "source": "https://ngja.gov.lk/business_services/licences/",
-      "data": {
-        "value": "+94112390645"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94) 112 390 645 -",
-      "source": "https://ngja.gov.lk/business_services/licences/",
-      "data": {
-        "value": "+94) 112 390 645 -"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0506443677",
-      "source": "https://ngja.gov.lk/business_services/licences/",
-      "data": {
-        "value": "0506443677"
       }
     },
     {
@@ -400,6 +373,33 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 390 645 -",
+      "source": "https://ngja.gov.lk/business_services/licences/",
+      "data": {
+        "value": "+94) 112 390 645 -"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112390645",
+      "source": "https://ngja.gov.lk/business_services/licences/",
+      "data": {
+        "value": "+94112390645"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0506443677",
+      "source": "https://ngja.gov.lk/business_services/licences/",
+      "data": {
+        "value": "0506443677"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@ngja.gov.lk",
@@ -433,6 +433,24 @@
       "source": "https://ngja.gov.lk/contact/",
       "data": {
         "value": "+94) 112 390 649("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94) 112 390 645 -",
+      "source": "https://ngja.gov.lk/contact/",
+      "data": {
+        "value": "+94) 112 390 645 -"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 715507777 ",
+      "source": "https://ngja.gov.lk/contact/",
+      "data": {
+        "value": "+94 715507777 "
       }
     },
     {
@@ -465,28 +483,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 645 -",
-      "source": "https://ngja.gov.lk/contact/",
-      "data": {
-        "value": "+94) 112 390 645 -"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 094 11 23906",
       "source": "https://ngja.gov.lk/contact/",
       "data": {
         "value": "094 11 23906"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 715507777 ",
-      "source": "https://ngja.gov.lk/contact/",
-      "data": {
-        "value": "+94 715507777 "
       }
     },
     {
@@ -519,19 +519,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/enforcement_act/enforcement-activities-of-the-division/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/enforcement_act/enforcement-activities-of-the-division/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -573,19 +573,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/services/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/services/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -627,19 +627,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/business_services/gem-testing-and-valuation/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/business_services/gem-testing-and-valuation/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -676,6 +676,15 @@
       "source": "https://ngja.gov.lk/business_services/gem-testing-and-valuation/",
       "data": {
         "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112390645",
+      "source": "https://ngja.gov.lk/business_services/jewellery-testing-and-valuation/",
+      "data": {
+        "value": "+94112390645"
       }
     },
     {
@@ -694,15 +703,6 @@
       "source": "https://ngja.gov.lk/business_services/jewellery-testing-and-valuation/",
       "data": {
         "value": "0546439835"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112390645",
-      "source": "https://ngja.gov.lk/business_services/jewellery-testing-and-valuation/",
-      "data": {
-        "value": "+94112390645"
       }
     },
     {
@@ -753,19 +753,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/business_services/minning-consultancy/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/business_services/minning-consultancy/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -816,19 +816,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -870,19 +870,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/si/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/si/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -906,19 +906,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94) 112 390 649(",
+      "detail": "Published phone: +94112390645",
       "source": "https://ngja.gov.lk/ta/",
       "data": {
-        "value": "+94) 112 390 649("
+        "value": "+94112390645"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112390645",
+      "detail": "Published phone: +94) 112 390 649(",
       "source": "https://ngja.gov.lk/ta/",
       "data": {
-        "value": "+94112390645"
+        "value": "+94) 112 390 649("
       }
     },
     {
@@ -973,7 +973,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1470,
+      "elapsed_ms": 1489,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -985,7 +985,7 @@
         "https://www.ngja.gov.lk/",
         "https://ngja.gov.lk/"
       ],
-      "elapsed_ms": 1443,
+      "elapsed_ms": 1492,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -994,7 +994,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1216,
+      "elapsed_ms": 1476,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1006,7 +1006,7 @@
         "https://www.ngja.gov.lk/",
         "https://ngja.gov.lk/"
       ],
-      "elapsed_ms": 1245,
+      "elapsed_ms": 1539,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1015,7 +1015,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/business_services/licences/",
       "redirects": [],
-      "elapsed_ms": 1208,
+      "elapsed_ms": 1703,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1024,7 +1024,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/contact/",
       "redirects": [],
-      "elapsed_ms": 1228,
+      "elapsed_ms": 1521,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1033,7 +1033,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/enforcement_act/enforcement-activities-of-the-division/",
       "redirects": [],
-      "elapsed_ms": 1227,
+      "elapsed_ms": 1208,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1042,7 +1042,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/services/",
       "redirects": [],
-      "elapsed_ms": 1006,
+      "elapsed_ms": 1219,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1051,7 +1051,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/business_services/gem-testing-and-valuation/",
       "redirects": [],
-      "elapsed_ms": 1218,
+      "elapsed_ms": 1521,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1060,7 +1060,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/business_services/jewellery-testing-and-valuation/",
       "redirects": [],
-      "elapsed_ms": 1215,
+      "elapsed_ms": 1466,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1069,7 +1069,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/business_services/minning-consultancy/",
       "redirects": [],
-      "elapsed_ms": 1319,
+      "elapsed_ms": 1226,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1080,7 +1080,7 @@
       "redirects": [
         "https://ngja.gov.lk/"
       ],
-      "elapsed_ms": 1257,
+      "elapsed_ms": 1218,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1089,7 +1089,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/si/",
       "redirects": [],
-      "elapsed_ms": 1250,
+      "elapsed_ms": 1172,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1098,7 +1098,7 @@
       "status_code": 200,
       "final_url": "https://ngja.gov.lk/ta/",
       "redirects": [],
-      "elapsed_ms": 1216,
+      "elapsed_ms": 1437,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1106,86 +1106,86 @@
   "snapshots": [
     {
       "url": "https://ngja.gov.lk/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-01-baf2e523512e.html",
-      "sha256": "baf2e523512e4fe657c1c30bb00719b765ba3ad12b4ad6658c58ea8385ac37d7",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-01-47e3f8cafe68.html",
+      "sha256": "47e3f8cafe68371d9e77efb4b12387af44e422ba0c9b588995f2d7ce5af57d66",
       "bytes": 56345
     },
     {
       "url": "https://ngja.gov.lk/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-02-baf2e523512e.html",
-      "sha256": "baf2e523512e4fe657c1c30bb00719b765ba3ad12b4ad6658c58ea8385ac37d7",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-02-47e3f8cafe68.html",
+      "sha256": "47e3f8cafe68371d9e77efb4b12387af44e422ba0c9b588995f2d7ce5af57d66",
       "bytes": 56345
     },
     {
       "url": "https://ngja.gov.lk/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-03-baf2e523512e.html",
-      "sha256": "baf2e523512e4fe657c1c30bb00719b765ba3ad12b4ad6658c58ea8385ac37d7",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-03-47e3f8cafe68.html",
+      "sha256": "47e3f8cafe68371d9e77efb4b12387af44e422ba0c9b588995f2d7ce5af57d66",
       "bytes": 56345
     },
     {
       "url": "https://ngja.gov.lk/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-04-baf2e523512e.html",
-      "sha256": "baf2e523512e4fe657c1c30bb00719b765ba3ad12b4ad6658c58ea8385ac37d7",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-04-47e3f8cafe68.html",
+      "sha256": "47e3f8cafe68371d9e77efb4b12387af44e422ba0c9b588995f2d7ce5af57d66",
       "bytes": 56345
     },
     {
       "url": "https://ngja.gov.lk/business_services/licences/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-05-8b1b7212cf7a.html",
-      "sha256": "8b1b7212cf7aefce0d4daeb79f1d0925dcba1a6c1b0df61054a20f8cac32d870",
-      "bytes": 58691
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-05-ae7f78011f4a.html",
+      "sha256": "ae7f78011f4a5081c39c9269d16f214d0f9793e77575d836a3c2c4d90712151e",
+      "bytes": 59083
     },
     {
       "url": "https://ngja.gov.lk/contact/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-06-f37a0892aa3e.html",
-      "sha256": "f37a0892aa3e204007e91057641f5d0f5edaeb6f2982e9f0626333158a94ff48",
-      "bytes": 59076
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-06-fb8e25c9058a.html",
+      "sha256": "fb8e25c9058a02f039652c2a86c6a4be0abebefde4ac4a0fd67cc6bddd2646d9",
+      "bytes": 59495
     },
     {
       "url": "https://ngja.gov.lk/enforcement_act/enforcement-activities-of-the-division/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-07-b12f808e3c57.html",
-      "sha256": "b12f808e3c57a590d2c15bf236ba7ea58d52f35d48de1cbfa0ae8e97571c05ff",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-07-fa51bbee6d69.html",
+      "sha256": "fa51bbee6d692ac66c6f4fb5b2e7303e4eca9a859e682f6c1c60bd27bfda4cfc",
       "bytes": 56092
     },
     {
       "url": "https://ngja.gov.lk/services/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-08-823221d04a11.html",
-      "sha256": "823221d04a116a9719c5e663882a27707ec86ddbbb722e6939ac3ce793bfd362",
-      "bytes": 54564
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-08-1bd772ac620b.html",
+      "sha256": "1bd772ac620b03560ce7530abf689045e4758955ced4c71b15402e55aacc7a1f",
+      "bytes": 54983
     },
     {
       "url": "https://ngja.gov.lk/business_services/gem-testing-and-valuation/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-09-21ed25bbeba8.html",
-      "sha256": "21ed25bbeba811a1c4c02cb9966a76cc9972719b30a39fa2a2c788b562310e0c",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-09-fc48ba79b5f3.html",
+      "sha256": "fc48ba79b5f361dc815088ad24bf1628faf8948b880b1221d554f43f6ab3651c",
       "bytes": 57193
     },
     {
       "url": "https://ngja.gov.lk/business_services/jewellery-testing-and-valuation/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-10-30806c75027c.html",
-      "sha256": "30806c75027c064caf817bb33ec78a4e1e0b0e050653cc136fdb1790124c1de5",
-      "bytes": 57245
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-10-f571108bd586.html",
+      "sha256": "f571108bd58658a384c80b0c1177f5125a72e3cd368e045870b8b226dc89dc72",
+      "bytes": 56826
     },
     {
       "url": "https://ngja.gov.lk/business_services/minning-consultancy/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-11-7811b922db12.html",
-      "sha256": "7811b922db12d1439807470248ee9c86015e368c278a3bee97e89a453a28eeda",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-11-61b51ba8547b.html",
+      "sha256": "61b51ba8547b7dd4e0383e335a4fa89b585c9c563254f4b3bcf264f0b2e60e5a",
       "bytes": 56820
     },
     {
       "url": "https://ngja.gov.lk/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-12-baf2e523512e.html",
-      "sha256": "baf2e523512e4fe657c1c30bb00719b765ba3ad12b4ad6658c58ea8385ac37d7",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-12-47e3f8cafe68.html",
+      "sha256": "47e3f8cafe68371d9e77efb4b12387af44e422ba0c9b588995f2d7ce5af57d66",
       "bytes": 56345
     },
     {
       "url": "https://ngja.gov.lk/si/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-13-73438ea01dc0.html",
-      "sha256": "73438ea01dc09c68ef03a7a25cba01f718e1bcb4b05d30e839e3c4acfa6086f4",
-      "bytes": 57269
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-13-dc344510b2bb.html",
+      "sha256": "dc344510b2bb48eb391f96ea22e3ef9a94fa4f4cde99dd34f61e7cbc0547125b",
+      "bytes": 56850
     },
     {
       "url": "https://ngja.gov.lk/ta/",
-      "path": "audit.output/ngja.gov.lk/20260926.0640/snapshots/page-14-c9fc3e8d3dae.html",
-      "sha256": "c9fc3e8d3daed91305459fd3737db4a27e7ee34ef8496da42701fb38e7e2c230",
+      "path": "audit.output/ngja.gov.lk/20260927.0646/snapshots/page-14-73f0c472adb9.html",
+      "sha256": "73f0c472adb992f60fe2a036d9e78ca8ca3d3d786c79930a1c2988a120cc1fcb",
       "bytes": 58134
     }
   ],
@@ -1272,7 +1272,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Authority No 260,RTFC & WMC Building, Lake Drive, Colombo 05, Sri Lanka; Phone: +94) 112 390 649( (10 phone numbers found); Email: info@ngja.gov.lk; Published named responsibility: director",
+      "reason": "Published postal address: Authority No 260,RTFC & WMC Building, Lake Drive, Colombo 05, Sri Lanka; Phone: +94112390645 (10 phone numbers found); Email: info@ngja.gov.lk; Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1285,7 +1285,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94) 112 390 649( (10 phone numbers found); Email: info@ngja.gov.lk"
+          "reason": "Phone: +94112390645 (10 phone numbers found); Email: info@ngja.gov.lk"
         },
         {
           "name": "named_responsibility",
@@ -1364,7 +1364,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,8 +1,8 @@
 # Website Audit: https://digitalfreelancer.gov.lk/
 
-- Completed: 2026-09-26 06:18
+- Completed: 2026-09-27 06:19
 - Overall result: 🔴 Level 1
-- Vantage: 134.33.77.208 (US, github-actions)
+- Vantage: 20.55.47.112 (US, github-actions)
 
 ## ⚫ Level 0: ✅
 
@@ -33,11 +33,11 @@ Public DNS resolved; No parked-domain marker found; No defacement marker found; 
 
 To pass `🟠 Level 2`, citizens must be able to identify and contact the correct office for the service they need.
 
-No passing named responsibility evidence found
+No passing postal address evidence found; No passing named responsibility evidence found
 
 | Test | Result | Details |
 | --- | --- | --- |
-| postal_address | ✅ | Published postal address: 490 R. A. De Mel Mawatha, Colombo, 00300, Sri Lanka. Search for: Pages #457 (no title) Agenda Capacity Building Capacity |
+| postal_address | ❓ | No passing postal address evidence found |
 | reachable_contacts | ✅ | Phone: +94 112-369-099 (3 phone numbers found); Email: info@lightingdigital.gov.lk (2 email addresses found) |
 | named_responsibility | ❓ | No passing named responsibility evidence found |
 

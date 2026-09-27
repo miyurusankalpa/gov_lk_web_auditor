@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "a23e81fc-7a00-465f-98a0-6bb35d35f6b1",
+  "audit_id": "74e680e9-48e0-4247-bb74-d19e376c0399",
   "url": "https://omp.gov.lk/",
   "normalized_url": "https://omp.gov.lk/",
-  "started_at": "2026-09-26T06:42:34.458931+05:30",
-  "completed_at": "2026-09-26T06:42:42.316863+05:30",
+  "started_at": "2026-09-27T06:47:44.388110+05:30",
+  "completed_at": "2026-09-27T06:47:51.665127+05:30",
   "result": {
     "status": "inconclusive",
     "confidence": 0.5,
@@ -20,47 +20,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:42:34.820435+05:30"
+      "observed_at": "2026-09-27T06:47:44.790540+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:42:34.820452+05:30"
+      "observed_at": "2026-09-27T06:47:44.790562+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:42:35.523396+05:30"
+      "observed_at": "2026-09-27T06:47:45.448340+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://omp.gov.lk/",
       "source": "https://omp.gov.lk/",
-      "observed_at": "2026-09-26T06:42:42.309347+05:30"
+      "observed_at": "2026-09-27T06:47:51.655458+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://omp.gov.lk/",
       "source": "http://omp.gov.lk/",
-      "observed_at": "2026-09-26T06:42:42.309366+05:30"
+      "observed_at": "2026-09-27T06:47:51.655476+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://omp.gov.lk/",
       "source": "https://omp.gov.lk/",
-      "observed_at": "2026-09-26T06:42:42.309369+05:30"
+      "observed_at": "2026-09-27T06:47:51.655481+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://omp.gov.lk/",
       "source": "http://omp.gov.lk/",
-      "observed_at": "2026-09-26T06:42:42.309372+05:30"
+      "observed_at": "2026-09-27T06:47:51.655484+05:30"
     },
     {
       "check": "page_text",
@@ -96,7 +96,7 @@
       "status_code": 200,
       "final_url": "https://omp.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 985,
+      "elapsed_ms": 906,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -107,7 +107,7 @@
       "redirects": [
         "https://omp.gov.lk/"
       ],
-      "elapsed_ms": 755,
+      "elapsed_ms": 902,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -116,7 +116,7 @@
       "status_code": 200,
       "final_url": "https://omp.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 970,
+      "elapsed_ms": 646,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -127,7 +127,7 @@
       "redirects": [
         "https://omp.gov.lk/"
       ],
-      "elapsed_ms": 1024,
+      "elapsed_ms": 632,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -135,26 +135,26 @@
   "snapshots": [
     {
       "url": "https://omp.gov.lk/",
-      "path": "audit.output/omp.gov.lk/20260926.0642/snapshots/page-01-84546abd5855.html",
-      "sha256": "84546abd5855e5448efa778ab592c42f31976d7544ddb29fa2e0e9456ead8097",
+      "path": "audit.output/omp.gov.lk/20260927.0647/snapshots/page-01-c674eeeb8708.html",
+      "sha256": "c674eeeb8708adbe7c9d02ee5ec3c9a288740fce0b45fe4fd3268093b70bb175",
       "bytes": 5041
     },
     {
       "url": "https://omp.gov.lk/",
-      "path": "audit.output/omp.gov.lk/20260926.0642/snapshots/page-02-e82c43b77c85.html",
-      "sha256": "e82c43b77c8550fe5f44186c559cb9fa246fe6a1f772af9dadd21b4779ad9c17",
+      "path": "audit.output/omp.gov.lk/20260927.0647/snapshots/page-02-ac6fc3146f27.html",
+      "sha256": "ac6fc3146f2719e514dd91886a69615d5d151b100f867336c81f76b8cc94f4a6",
       "bytes": 5041
     },
     {
       "url": "https://omp.gov.lk/",
-      "path": "audit.output/omp.gov.lk/20260926.0642/snapshots/page-03-e569836903ab.html",
-      "sha256": "e569836903ab91ffff738d95e3e8deaae973a051af7509c1b0d075379408add4",
+      "path": "audit.output/omp.gov.lk/20260927.0647/snapshots/page-03-26c6bdd69175.html",
+      "sha256": "26c6bdd6917567c129e4ec2210fc38d56d04c8eb82b3c39a6f73eaece2b6b540",
       "bytes": 5041
     },
     {
       "url": "https://omp.gov.lk/",
-      "path": "audit.output/omp.gov.lk/20260926.0642/snapshots/page-04-c2dc6941b056.html",
-      "sha256": "c2dc6941b056e4e6bd07b69c5fe7fbf79fc40ad2419b6337d9924a6abb41fa87",
+      "path": "audit.output/omp.gov.lk/20260927.0647/snapshots/page-04-b38b475ad4c6.html",
+      "sha256": "b38b475ad4c665962602dde8e9f8913216b08d3c61b3c075219398d6e2cfc15f",
       "bytes": 5041
     }
   ],
@@ -271,7 +271,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

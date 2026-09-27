@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "38d3bada-6965-4e70-bb2f-46afac04c234",
+  "audit_id": "10bd1c0d-8a58-445e-a1a5-ed54b8c1d53f",
   "url": "https://www.childwomenmin.gov.lk/",
   "normalized_url": "https://www.childwomenmin.gov.lk/",
-  "started_at": "2026-09-26T07:03:00.645840+05:30",
-  "completed_at": "2026-09-26T07:03:16.889163+05:30",
+  "started_at": "2026-09-27T07:01:29.325258+05:30",
+  "completed_at": "2026-09-27T07:01:46.467436+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,153 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T07:03:00.938929+05:30"
+      "observed_at": "2026-09-27T07:01:29.981813+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T07:03:00.938948+05:30"
+      "observed_at": "2026-09-27T07:01:29.981832+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T07:03:01.205387+05:30"
+      "observed_at": "2026-09-27T07:01:30.329699+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.childwomenmin.gov.lk/",
       "source": "https://www.childwomenmin.gov.lk/",
-      "observed_at": "2026-09-26T07:03:16.514905+05:30"
+      "observed_at": "2026-09-27T07:01:46.089186+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.childwomenmin.gov.lk/",
       "source": "http://www.childwomenmin.gov.lk/",
-      "observed_at": "2026-09-26T07:03:16.514922+05:30"
+      "observed_at": "2026-09-27T07:01:46.089207+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.childwomenmin.gov.lk/",
       "source": "https://www.childwomenmin.gov.lk/",
-      "observed_at": "2026-09-26T07:03:16.514925+05:30"
+      "observed_at": "2026-09-27T07:01:46.089212+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.childwomenmin.gov.lk/",
       "source": "http://www.childwomenmin.gov.lk/",
-      "observed_at": "2026-09-26T07:03:16.514927+05:30"
+      "observed_at": "2026-09-27T07:01:46.089216+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.childwomenmin.gov.lk/contact",
       "source": "https://www.childwomenmin.gov.lk/contact",
-      "observed_at": "2026-09-26T07:03:16.514929+05:30"
+      "observed_at": "2026-09-27T07:01:46.089219+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.childwomenmin.gov.lk/index/menu/page/department-of-probation-and-childcare-services/en",
       "source": "https://www.childwomenmin.gov.lk/index/menu/page/department-of-probation-and-childcare-services/en",
-      "observed_at": "2026-09-26T07:03:16.514931+05:30"
+      "observed_at": "2026-09-27T07:01:46.089222+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
       "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
-      "observed_at": "2026-09-26T07:03:16.514934+05:30"
+      "observed_at": "2026-09-27T07:01:46.089224+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk",
-      "observed_at": "2026-09-26T07:03:16.514936+05:30"
+      "observed_at": "2026-09-27T07:01:46.089227+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.childwomenmin.gov.lk/si",
       "source": "https://www.childwomenmin.gov.lk/si",
-      "observed_at": "2026-09-26T07:03:16.514938+05:30"
+      "observed_at": "2026-09-27T07:01:46.089230+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.childwomenmin.gov.lk/ta",
       "source": "https://www.childwomenmin.gov.lk/ta",
-      "observed_at": "2026-09-26T07:03:16.514940+05:30"
+      "observed_at": "2026-09-27T07:01:46.089233+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.childwomenmin.gov.lk/en",
       "source": "https://www.childwomenmin.gov.lk/en",
-      "observed_at": "2026-09-26T07:03:16.514942+05:30"
+      "observed_at": "2026-09-27T07:01:46.089236+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.childwomenmin.gov.lk/index/sector/national-committee-on-women/en",
       "source": "https://www.childwomenmin.gov.lk/index/sector/national-committee-on-women/en",
-      "observed_at": "2026-09-26T07:03:16.514944+05:30"
+      "observed_at": "2026-09-27T07:01:46.089238+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.childwomenmin.gov.lk/index/sector/womens-bureau-of-sri-lanka/en",
       "source": "https://www.childwomenmin.gov.lk/index/sector/womens-bureau-of-sri-lanka/en",
-      "observed_at": "2026-09-26T07:03:16.514946+05:30"
+      "observed_at": "2026-09-27T07:01:46.089241+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.childwomenmin.gov.lk/index/en",
       "source": "https://www.childwomenmin.gov.lk/index/en",
-      "observed_at": "2026-09-26T07:03:16.514948+05:30"
+      "observed_at": "2026-09-27T07:01:46.089244+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112186057 ",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "0112186057 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2186055 ",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "011 2186055 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112186145 ",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "0112186145 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2187249 ",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "011 2187249 "
+      }
     },
     {
       "check": "phone",
@@ -145,6 +181,87 @@
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
         "value": "011-2186067 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: minister@childwomenmin.gov.lk",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "minister@childwomenmin.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: deputyminister@childwomenmin.gov.lk",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "deputyminister@childwomenmin.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: sarojasavithrip@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "sarojasavithrip@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "secretary@childwomenmin.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: namal7910@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "secycdwa@gmail.com"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "legal_basis",
+      "status": "pass",
+      "detail": "Published legal basis: regulations",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "regulations"
+      }
+    },
+    {
+      "check": "published_update_date",
+      "status": "pass",
+      "detail": "Published published update date: 2026-09-26",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "2026-09-26"
       }
     },
     {
@@ -184,12 +301,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
+      "detail": "Published phone: 011-2186067 ",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "namal7910@gmail.com"
+        "value": "011-2186067 "
       }
     },
     {
@@ -222,19 +339,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "secycdwa@gmail.com"
+        "value": "secretary@childwomenmin.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "detail": "Published email: namal7910@gmail.com",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "secretary@childwomenmin.gov.lk"
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "secycdwa@gmail.com"
       }
     },
     {
@@ -258,19 +384,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2186067 ",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "011-2186067 "
+        "value": "2026-09-26"
       }
     },
     {
@@ -310,12 +427,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
+      "detail": "Published phone: 011-2186067 ",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "namal7910@gmail.com"
+        "value": "011-2186067 "
       }
     },
     {
@@ -348,19 +465,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "secycdwa@gmail.com"
+        "value": "secretary@childwomenmin.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "detail": "Published email: namal7910@gmail.com",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "secretary@childwomenmin.gov.lk"
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "secycdwa@gmail.com"
       }
     },
     {
@@ -384,19 +510,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2186067 ",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "011-2186067 "
+        "value": "2026-09-26"
       }
     },
     {
@@ -436,87 +553,6 @@
       }
     },
     {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "namal7910@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: minister@childwomenmin.gov.lk",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "minister@childwomenmin.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: deputyminister@childwomenmin.gov.lk",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "deputyminister@childwomenmin.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: sarojasavithrip@gmail.com",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "sarojasavithrip@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "secycdwa@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "secretary@childwomenmin.gov.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: regulations",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "regulations"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 011-2186067 ",
@@ -526,51 +562,6 @@
       }
     },
     {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112186057 ",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "0112186057 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2186055 ",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "011 2186055 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112186145 ",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "0112186145 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2187249 ",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "011 2187249 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
-      "source": "https://www.childwomenmin.gov.lk/",
-      "data": {
-        "value": "namal7910@gmail.com"
-      }
-    },
-    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: minister@childwomenmin.gov.lk",
@@ -600,19 +591,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "secycdwa@gmail.com"
+        "value": "secretary@childwomenmin.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "detail": "Published email: namal7910@gmail.com",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "secretary@childwomenmin.gov.lk"
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/",
+      "data": {
+        "value": "secycdwa@gmail.com"
       }
     },
     {
@@ -636,19 +636,19 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/",
       "data": {
-        "value": "2026-09-25"
+        "value": "2026-09-26"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2187249 ",
+      "detail": "Published phone: 011 2187249 ",
       "source": "https://www.childwomenmin.gov.lk/contact",
       "data": {
-        "value": "+94 11 2187249 "
+        "value": "011 2187249 "
       }
     },
     {
@@ -663,19 +663,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011 2186055 ",
+      "detail": "Published phone: +94 11 2187249 ",
       "source": "https://www.childwomenmin.gov.lk/contact",
       "data": {
-        "value": "011 2186055 "
+        "value": "+94 11 2187249 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011 2187249 ",
+      "detail": "Published phone: 011 2186055 ",
       "source": "https://www.childwomenmin.gov.lk/contact",
       "data": {
-        "value": "011 2187249 "
+        "value": "011 2186055 "
       }
     },
     {
@@ -708,10 +708,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/contact",
       "data": {
-        "value": "2026-09-25"
+        "value": "2026-09-26"
       }
     },
     {
@@ -735,10 +735,28 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/index/menu/page/department-of-probation-and-childcare-services/en",
       "data": {
-        "value": "2026-09-25"
+        "value": "2026-09-26"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112186054 ",
+      "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
+      "data": {
+        "value": "0112186054 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112187257 ",
+      "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
+      "data": {
+        "value": "0112187257 "
       }
     },
     {
@@ -762,10 +780,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112187274 ",
+      "detail": "Published phone: 0112187266 ",
       "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
       "data": {
-        "value": "0112187274 "
+        "value": "0112187266 "
       }
     },
     {
@@ -780,28 +798,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112186054 ",
+      "detail": "Published phone: 0112187274 ",
       "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
       "data": {
-        "value": "0112186054 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112187266 ",
-      "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
-      "data": {
-        "value": "0112187266 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112187257 ",
-      "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
-      "data": {
-        "value": "0112187257 "
+        "value": "0112187274 "
       }
     },
     {
@@ -825,19 +825,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
       "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2186067 ",
-      "source": "https://www.childwomenmin.gov.lk",
-      "data": {
-        "value": "011-2186067 "
+        "value": "2026-09-26"
       }
     },
     {
@@ -877,12 +868,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
+      "detail": "Published phone: 011-2186067 ",
       "source": "https://www.childwomenmin.gov.lk",
       "data": {
-        "value": "namal7910@gmail.com"
+        "value": "011-2186067 "
       }
     },
     {
@@ -915,19 +906,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk",
       "data": {
-        "value": "secycdwa@gmail.com"
+        "value": "secretary@childwomenmin.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "detail": "Published email: namal7910@gmail.com",
       "source": "https://www.childwomenmin.gov.lk",
       "data": {
-        "value": "secretary@childwomenmin.gov.lk"
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk",
+      "data": {
+        "value": "secycdwa@gmail.com"
       }
     },
     {
@@ -951,19 +951,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk",
       "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2186067 ",
-      "source": "https://www.childwomenmin.gov.lk/si",
-      "data": {
-        "value": "011-2186067 "
+        "value": "2026-09-26"
       }
     },
     {
@@ -1003,12 +994,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
+      "detail": "Published phone: 011-2186067 ",
       "source": "https://www.childwomenmin.gov.lk/si",
       "data": {
-        "value": "namal7910@gmail.com"
+        "value": "011-2186067 "
       }
     },
     {
@@ -1041,37 +1032,37 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk/si",
       "data": {
-        "value": "secycdwa@gmail.com"
+        "value": "secretary@childwomenmin.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "detail": "Published email: namal7910@gmail.com",
       "source": "https://www.childwomenmin.gov.lk/si",
       "data": {
-        "value": "secretary@childwomenmin.gov.lk"
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/si",
+      "data": {
+        "value": "secycdwa@gmail.com"
       }
     },
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/si",
       "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2186067 ",
-      "source": "https://www.childwomenmin.gov.lk/ta",
-      "data": {
-        "value": "011-2186067 "
+        "value": "2026-09-26"
       }
     },
     {
@@ -1111,12 +1102,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
+      "detail": "Published phone: 011-2186067 ",
       "source": "https://www.childwomenmin.gov.lk/ta",
       "data": {
-        "value": "namal7910@gmail.com"
+        "value": "011-2186067 "
       }
     },
     {
@@ -1149,37 +1140,37 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk/ta",
       "data": {
-        "value": "secycdwa@gmail.com"
+        "value": "secretary@childwomenmin.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "detail": "Published email: namal7910@gmail.com",
       "source": "https://www.childwomenmin.gov.lk/ta",
       "data": {
-        "value": "secretary@childwomenmin.gov.lk"
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/ta",
+      "data": {
+        "value": "secycdwa@gmail.com"
       }
     },
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/ta",
       "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2186067 ",
-      "source": "https://www.childwomenmin.gov.lk/en",
-      "data": {
-        "value": "011-2186067 "
+        "value": "2026-09-26"
       }
     },
     {
@@ -1219,12 +1210,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: namal7910@gmail.com",
+      "detail": "Published phone: 011-2186067 ",
       "source": "https://www.childwomenmin.gov.lk/en",
       "data": {
-        "value": "namal7910@gmail.com"
+        "value": "011-2186067 "
       }
     },
     {
@@ -1257,19 +1248,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secycdwa@gmail.com",
+      "detail": "Published email: secretary@childwomenmin.gov.lk",
       "source": "https://www.childwomenmin.gov.lk/en",
       "data": {
-        "value": "secycdwa@gmail.com"
+        "value": "secretary@childwomenmin.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: secretary@childwomenmin.gov.lk",
+      "detail": "Published email: namal7910@gmail.com",
       "source": "https://www.childwomenmin.gov.lk/en",
       "data": {
-        "value": "secretary@childwomenmin.gov.lk"
+        "value": "namal7910@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: secycdwa@gmail.com",
+      "source": "https://www.childwomenmin.gov.lk/en",
+      "data": {
+        "value": "secycdwa@gmail.com"
       }
     },
     {
@@ -1293,10 +1293,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/en",
       "data": {
-        "value": "2026-09-25"
+        "value": "2026-09-26"
       }
     },
     {
@@ -1329,10 +1329,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/index/sector/national-committee-on-women/en",
       "data": {
-        "value": "2026-09-25"
+        "value": "2026-09-26"
       }
     },
     {
@@ -1356,10 +1356,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
+      "detail": "Published published update date: 2026-09-26",
       "source": "https://www.childwomenmin.gov.lk/index/sector/womens-bureau-of-sri-lanka/en",
       "data": {
-        "value": "2026-09-25"
+        "value": "2026-09-26"
       }
     },
     {
@@ -1410,10 +1410,10 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 04-09-2026",
+      "detail": "Published published update date: 26-09-2026",
       "source": "https://www.childwomenmin.gov.lk/index/en",
       "data": {
-        "value": "04-09-2026"
+        "value": "26-09-2026"
       }
     },
     {
@@ -1450,7 +1450,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 326,
+      "elapsed_ms": 493,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1461,7 +1461,7 @@
       "redirects": [
         "https://www.childwomenmin.gov.lk/"
       ],
-      "elapsed_ms": 270,
+      "elapsed_ms": 469,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1470,7 +1470,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 60,
+      "elapsed_ms": 569,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1481,7 +1481,7 @@
       "redirects": [
         "https://www.childwomenmin.gov.lk/"
       ],
-      "elapsed_ms": 271,
+      "elapsed_ms": 218,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1490,7 +1490,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/contact",
       "redirects": [],
-      "elapsed_ms": 64,
+      "elapsed_ms": 473,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1499,7 +1499,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/index/menu/page/department-of-probation-and-childcare-services/en",
       "redirects": [],
-      "elapsed_ms": 76,
+      "elapsed_ms": 584,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1508,7 +1508,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
       "redirects": [],
-      "elapsed_ms": 61,
+      "elapsed_ms": 473,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1517,7 +1517,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk",
       "redirects": [],
-      "elapsed_ms": 277,
+      "elapsed_ms": 228,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1526,7 +1526,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/si",
       "redirects": [],
-      "elapsed_ms": 59,
+      "elapsed_ms": 242,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1535,7 +1535,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/ta",
       "redirects": [],
-      "elapsed_ms": 55,
+      "elapsed_ms": 466,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1544,7 +1544,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/en",
       "redirects": [],
-      "elapsed_ms": 62,
+      "elapsed_ms": 473,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1553,7 +1553,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/index/sector/national-committee-on-women/en",
       "redirects": [],
-      "elapsed_ms": 66,
+      "elapsed_ms": 213,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1562,7 +1562,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/index/sector/womens-bureau-of-sri-lanka/en",
       "redirects": [],
-      "elapsed_ms": 64,
+      "elapsed_ms": 220,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1571,7 +1571,7 @@
       "status_code": 200,
       "final_url": "https://www.childwomenmin.gov.lk/index/en",
       "redirects": [],
-      "elapsed_ms": 76,
+      "elapsed_ms": 496,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1579,87 +1579,87 @@
   "snapshots": [
     {
       "url": "https://www.childwomenmin.gov.lk/",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-01-f68797d5ecef.html",
-      "sha256": "f68797d5ecef291d6039467f61756b84e28f5b1d032053964249a670c824c829",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-01-3bdd60b5051a.html",
+      "sha256": "3bdd60b5051a9ba2873efc2af63dbe3cbfe41d4f10a7fa6dfc0011c5cc771808",
       "bytes": 94194
     },
     {
       "url": "https://www.childwomenmin.gov.lk/",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-02-f68797d5ecef.html",
-      "sha256": "f68797d5ecef291d6039467f61756b84e28f5b1d032053964249a670c824c829",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-02-3bdd60b5051a.html",
+      "sha256": "3bdd60b5051a9ba2873efc2af63dbe3cbfe41d4f10a7fa6dfc0011c5cc771808",
       "bytes": 94194
     },
     {
       "url": "https://www.childwomenmin.gov.lk/",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-03-f68797d5ecef.html",
-      "sha256": "f68797d5ecef291d6039467f61756b84e28f5b1d032053964249a670c824c829",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-03-3bdd60b5051a.html",
+      "sha256": "3bdd60b5051a9ba2873efc2af63dbe3cbfe41d4f10a7fa6dfc0011c5cc771808",
       "bytes": 94194
     },
     {
       "url": "https://www.childwomenmin.gov.lk/",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-04-f68797d5ecef.html",
-      "sha256": "f68797d5ecef291d6039467f61756b84e28f5b1d032053964249a670c824c829",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-04-3bdd60b5051a.html",
+      "sha256": "3bdd60b5051a9ba2873efc2af63dbe3cbfe41d4f10a7fa6dfc0011c5cc771808",
       "bytes": 94194
     },
     {
       "url": "https://www.childwomenmin.gov.lk/contact",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-05-d8c424919018.html",
-      "sha256": "d8c4249190183f7270f870325b86008c35579e9b2024e75f35498514a642622c",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-05-847e44a80c6d.html",
+      "sha256": "847e44a80c6d481cc567e9f66e20dc5a840b6a578b00ee4a23caef92fa012ff1",
       "bytes": 21238
     },
     {
       "url": "https://www.childwomenmin.gov.lk/index/menu/page/department-of-probation-and-childcare-services/en",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-06-4510c9bcde2a.html",
-      "sha256": "4510c9bcde2a9ed3b3165c419d5b7561df3c3f1ee450aea04ad5dfcbc4edba39",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-06-7a05c2e4ffe2.html",
+      "sha256": "7a05c2e4ffe2911eca654a82b7944f02900dc4330eaa96c229ee9439d9c4d716",
       "bytes": 251378
     },
     {
       "url": "https://www.childwomenmin.gov.lk/index/menu/page/information-officers/en",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-07-5ce9d36ea5dd.html",
-      "sha256": "5ce9d36ea5dd9d8d48ca10e85c63d0474690350740be2028115fee3c15c2474e",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-07-c4c5b1181b28.html",
+      "sha256": "c4c5b1181b2832e3576dbd8c875f073bcea23e41af100b8a4e0f90039cc9e51b",
       "bytes": 188601
     },
     {
       "url": "https://www.childwomenmin.gov.lk",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-08-f68797d5ecef.html",
-      "sha256": "f68797d5ecef291d6039467f61756b84e28f5b1d032053964249a670c824c829",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-08-3bdd60b5051a.html",
+      "sha256": "3bdd60b5051a9ba2873efc2af63dbe3cbfe41d4f10a7fa6dfc0011c5cc771808",
       "bytes": 94194
     },
     {
       "url": "https://www.childwomenmin.gov.lk/si",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-09-dd84b00dc078.html",
-      "sha256": "dd84b00dc0783b86db350c926d4d7b7069b87de50ec89b8f7a0071d0a0804881",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-09-f6c056076592.html",
+      "sha256": "f6c056076592df727c19a764e0f57428e446e733f834a50583eb9fcb08240022",
       "bytes": 110162
     },
     {
       "url": "https://www.childwomenmin.gov.lk/ta",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-10-a9a7dc3381e6.html",
-      "sha256": "a9a7dc3381e6d646196b46753fa14599d6019ba30775fb434871579a9a58dbd2",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-10-21cafc82f8e5.html",
+      "sha256": "21cafc82f8e5380f296f22bcfe9f1d9933694cb237fbb62d288779590d85b4e3",
       "bytes": 119898
     },
     {
       "url": "https://www.childwomenmin.gov.lk/en",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-11-aaf5a7feed6e.html",
-      "sha256": "aaf5a7feed6e2f5806c563fc84b369e347fb898e56f15ea2f6a5743e290dc487",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-11-750f93afaaa1.html",
+      "sha256": "750f93afaaa165a6089c4d51c086cbb3b7ca72714c37cbffa8ca8c2fb105e73c",
       "bytes": 94108
     },
     {
       "url": "https://www.childwomenmin.gov.lk/index/sector/national-committee-on-women/en",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-12-8f8f5a693ca9.html",
-      "sha256": "8f8f5a693ca905cc403084f6be1be2fbd780f03a8050a0188a01da030400c50d",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-12-85e00e9281e4.html",
+      "sha256": "85e00e9281e44b3336c7695b27967eab2dfc29057a20cc0ec70488d1cc4bca54",
       "bytes": 185034
     },
     {
       "url": "https://www.childwomenmin.gov.lk/index/sector/womens-bureau-of-sri-lanka/en",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-13-c70c8f01c2f4.html",
-      "sha256": "c70c8f01c2f40c1886828bb03cfdb7f173763c240618fe95d4e22052593ac6cf",
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-13-3d84f8cbe0c3.html",
+      "sha256": "3d84f8cbe0c3d6b8748eaa9b6f8609c2dcfc9a3d21680b033a0af30ded0c9528",
       "bytes": 185994
     },
     {
       "url": "https://www.childwomenmin.gov.lk/index/en",
-      "path": "audit.output/www.childwomenmin.gov.lk/20260926.0703/snapshots/page-14-037f3795a4e6.html",
-      "sha256": "037f3795a4e6736301696d0ac3fe175a7b0c955101f7634675d14372a3392d5b",
-      "bytes": 238946
+      "path": "audit.output/www.childwomenmin.gov.lk/20260927.0701/snapshots/page-14-d50190d1242f.html",
+      "sha256": "d50190d1242f3639d64de47fb97fc3e62d9a7ced3de65cf3bbe8d2d5c239f7f7",
+      "bytes": 239989
     }
   ],
   "reviewer_decisions": [],
@@ -1745,7 +1745,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Ministry of Women and Child Affairs, 5th Floor, Sethsiripaya Stage II, Battaramulla, Sri Lanka. Phone: +94 11 2186055 Fa; Phone: 011-2186067 (16 phone numbers found); Email: namal7910@gmail.com (6 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: Ministry of Women and Child Affairs, 5th Floor, Sethsiripaya Stage II, Battaramulla, Sri Lanka. Phone: +94 11 2186055 Fa; Phone: 0112186057 (16 phone numbers found); Email: minister@childwomenmin.gov.lk (6 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1758,7 +1758,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 011-2186067 (16 phone numbers found); Email: namal7910@gmail.com (6 email addresses found)"
+          "reason": "Phone: 0112186057 (16 phone numbers found); Email: minister@childwomenmin.gov.lk (6 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1815,7 +1815,7 @@
           "name": "published_update_date",
           "level": 3,
           "status": "pass",
-          "reason": "Published published update date: 2026-09-25"
+          "reason": "Published published update date: 2026-09-26"
         }
       ]
     },
@@ -1837,7 +1837,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

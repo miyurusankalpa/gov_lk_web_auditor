@@ -1,24 +1,18 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "f86da673-2a46-4244-8f48-411112d9fcde",
+  "audit_id": "323b31f8-8437-4ce5-bf53-ef900ce4e64c",
   "url": "https://www.tri.lk/",
   "normalized_url": "https://www.tri.lk/",
-  "started_at": "2026-09-26T06:44:59.714363+05:30",
-  "completed_at": "2026-09-26T06:45:35.700050+05:30",
+  "started_at": "2026-09-27T06:49:14.930189+05:30",
+  "completed_at": "2026-09-27T06:49:31.685957+05:30",
   "result": {
-    "status": "pass",
-    "confidence": 1.0,
+    "status": "inconclusive",
+    "confidence": 0.5,
     "reasons": [
-      "dns_resolves: Public DNS resolved",
-      "domain_not_parked: No parked-domain marker found",
-      "site_not_defaced: No defacement marker found",
-      "content_relevant: No unrelated-content marker found",
-      "hosting_configured: No generic-hosting marker found",
-      "http_available: HTTP probes did not all fail",
-      "redirect_related: No unrelated redirect found",
-      "tls_browser_trusted: No browser-blocking TLS error found",
-      "tls_not_expired: TLS certificate valid",
-      "tls_hostname_matches: TLS certificate valid"
+      "domain_not_parked: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "site_not_defaced: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "content_relevant: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "hosting_configured: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
     ]
   },
   "evidence": [
@@ -26,897 +20,53 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:45:02.855294+05:30"
+      "observed_at": "2026-09-27T06:49:15.991102+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:45:02.855315+05:30"
+      "observed_at": "2026-09-27T06:49:15.991121+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:45:03.379975+05:30"
+      "observed_at": "2026-09-27T06:49:16.521952+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.tri.lk/",
       "source": "https://www.tri.lk/",
-      "observed_at": "2026-09-26T06:45:35.260345+05:30"
+      "observed_at": "2026-09-27T06:49:31.665224+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.tri.lk/",
       "source": "http://www.tri.lk/",
-      "observed_at": "2026-09-26T06:45:35.260366+05:30"
+      "observed_at": "2026-09-27T06:49:31.665250+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.tri.lk/",
       "source": "https://www.tri.lk/",
-      "observed_at": "2026-09-26T06:45:35.260369+05:30"
+      "observed_at": "2026-09-27T06:49:31.665257+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.tri.lk/",
       "source": "http://www.tri.lk/",
-      "observed_at": "2026-09-26T06:45:35.260372+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 5: HTTP 200 at https://www.tri.lk/technology_transfer_office/",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "observed_at": "2026-09-26T06:45:35.260374+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 6: HTTP 200 at https://www.tri.lk/analytical-services/",
-      "source": "https://www.tri.lk/analytical-services/",
-      "observed_at": "2026-09-26T06:45:35.260376+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 7: HTTP 200 at https://www.tri.lk/contact-us/",
-      "source": "https://www.tri.lk/contact-us/",
-      "observed_at": "2026-09-26T06:45:35.260378+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 8: HTTP 200 at https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "observed_at": "2026-09-26T06:45:35.260381+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 9: HTTP 200 at https://www.tri.lk",
-      "source": "https://www.tri.lk",
-      "observed_at": "2026-09-26T06:45:35.260383+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 10: HTTP 200 at https://www.tri.lk/history/",
-      "source": "https://www.tri.lk/history/",
-      "observed_at": "2026-09-26T06:45:35.260385+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 11: HTTP 200 at https://www.tri.lk/tea-research-board/",
-      "source": "https://www.tri.lk/tea-research-board/",
-      "observed_at": "2026-09-26T06:45:35.260387+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 12: HTTP 200 at https://www.tri.lk/senior-management/",
-      "source": "https://www.tri.lk/senior-management/",
-      "observed_at": "2026-09-26T06:45:35.260389+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 13: HTTP 200 at https://www.tri.lk/low-country-regional-centre/",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "observed_at": "2026-09-26T06:45:35.260391+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 14: HTTP 200 at https://www.tri.lk/mid-country-regional-centre/",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "observed_at": "2026-09-26T06:45:35.260393+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 022 0812244",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "022 0812244"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0812244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0547332763",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0547332763"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0790149937",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0790149937"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0749686919",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0749686919"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.699999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.699999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.381966007",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.381966007"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.349999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.349999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.618033992",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.618033992"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: circular",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "circular"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 022 0812244",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "022 0812244"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0812244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0547332763",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0547332763"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0790149937",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0790149937"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0749686919",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0749686919"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.699999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.699999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.381966007",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.381966007"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.349999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.349999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.618033992",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.618033992"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: circular",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "circular"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 022 0812244",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "022 0812244"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0812244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0547332763",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0547332763"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0790149937",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0790149937"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0749686919",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0749686919"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.699999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.699999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.381966007",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.381966007"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.349999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.349999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.618033992",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.618033992"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: circular",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "circular"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 022 0812244",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "022 0812244"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0812244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0547332763",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0547332763"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0790149937",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0790149937"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0749686919",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0749686919"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.699999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.699999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.381966007",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.381966007"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.349999999",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.349999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.618033992",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "0.618033992"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: circular",
-      "source": "https://www.tri.lk/",
-      "data": {
-        "value": "circular"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://www.tri.lk/technology_transfer_office/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/analytical-services/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/analytical-services/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/analytical-services/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/analytical-services/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/analytical-services/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/analytical-services/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://www.tri.lk/analytical-services/",
-      "data": {
-        "value": "division"
-      }
+      "observed_at": "2026-09-27T06:49:31.665263+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
       "detail": "Published phone: 0950635027",
-      "source": "https://www.tri.lk/contact-us/",
+      "source": "https://www.tri.lk/",
       "data": {
         "value": "0950635027"
       }
@@ -924,305 +74,8 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812244777 ",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "0812244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 022 0812244",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "022 0812244"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0812244777 ",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0812244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0547332763",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0547332763"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0790149937",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0790149937"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0749686919",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0749686919"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.699999999",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0.699999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.381966007",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0.381966007"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.349999999",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0.349999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.618033992",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "0.618033992"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "legal_basis",
-      "status": "pass",
-      "detail": "Published legal basis: circular",
-      "source": "https://www.tri.lk",
-      "data": {
-        "value": "circular"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/history/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/history/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/history/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/history/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/history/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/history/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://www.tri.lk/history/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0950635027",
-      "source": "https://www.tri.lk/tea-research-board/",
+      "source": "https://www.tri.lk/",
       "data": {
         "value": "0950635027"
       }
@@ -1230,232 +83,25 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/senior-management/",
+      "detail": "Published phone: 0950635027",
+      "source": "https://www.tri.lk/",
       "data": {
-        "value": "+94 52-2258229 "
+        "value": "0950635027"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/senior-management/",
+      "detail": "Published phone: 0950635027",
+      "source": "https://www.tri.lk/",
       "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/senior-management/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/senior-management/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/senior-management/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/senior-management/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://www.tri.lk/senior-management/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 45 2228851 (",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "+94 45 2228851 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 45 2228628 ",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "+94 45 2228628 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://www.tri.lk/low-country-regional-centre/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258229 ",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "+94 52-2258229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +011522258201",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "+011522258201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812218748 ",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "+94 812218748 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812218832",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "+94 812218832"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52-2258201 ",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "+94 52-2258201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 2244777 ",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "+94 81 2244777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0812244777",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "+0812244777"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@tri.lk",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "info@tri.lk"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://www.tri.lk/mid-country-regional-centre/",
-      "data": {
-        "value": "division"
+        "value": "0950635027"
       }
     },
     {
       "check": "page_text",
-      "status": "pass",
-      "detail": "Substantive page content: 6393 visible characters across 14 pages",
+      "status": "fail",
+      "detail": "Only 80 visible characters across 4 pages; below substance threshold 200",
       "source": "https://www.tri.lk/"
     }
   ],
@@ -1486,8 +132,8 @@
       "status_code": 200,
       "final_url": "https://www.tri.lk/",
       "redirects": [],
-      "elapsed_ms": 91,
-      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 1323,
+      "content_type": "text/html",
       "error": null
     },
     {
@@ -1497,8 +143,8 @@
       "redirects": [
         "https://www.tri.lk/"
       ],
-      "elapsed_ms": 87,
-      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 1966,
+      "content_type": "text/html",
       "error": null
     },
     {
@@ -1506,8 +152,8 @@
       "status_code": 200,
       "final_url": "https://www.tri.lk/",
       "redirects": [],
-      "elapsed_ms": 562,
-      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 526,
+      "content_type": "text/html",
       "error": null
     },
     {
@@ -1517,185 +163,35 @@
       "redirects": [
         "https://www.tri.lk/"
       ],
-      "elapsed_ms": 1014,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/technology_transfer_office/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/technology_transfer_office/",
-      "redirects": [],
-      "elapsed_ms": 3407,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/analytical-services/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/analytical-services/",
-      "redirects": [],
-      "elapsed_ms": 4019,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/contact-us/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/contact-us/",
-      "redirects": [],
-      "elapsed_ms": 69,
+      "elapsed_ms": 591,
       "content_type": "text/html",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "redirects": [],
-      "elapsed_ms": 2580,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk",
-      "redirects": [],
-      "elapsed_ms": 90,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/history/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/history/",
-      "redirects": [],
-      "elapsed_ms": 2864,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/tea-research-board/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/tea-research-board/",
-      "redirects": [],
-      "elapsed_ms": 69,
-      "content_type": "text/html",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/senior-management/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/senior-management/",
-      "redirects": [],
-      "elapsed_ms": 2674,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/low-country-regional-centre/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/low-country-regional-centre/",
-      "redirects": [],
-      "elapsed_ms": 2542,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://www.tri.lk/mid-country-regional-centre/",
-      "status_code": 200,
-      "final_url": "https://www.tri.lk/mid-country-regional-centre/",
-      "redirects": [],
-      "elapsed_ms": 2560,
-      "content_type": "text/html; charset=UTF-8",
       "error": null
     }
   ],
   "snapshots": [
     {
       "url": "https://www.tri.lk/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-01-ca48ec5e75ba.html",
-      "sha256": "ca48ec5e75ba57fe277cfffea734de27b3bcd3b74cbbb2675239e530fd12f97d",
-      "bytes": 147769
+      "path": "audit.output/www.tri.lk/20260927.0649/snapshots/page-01-6f24507d3adf.html",
+      "sha256": "6f24507d3adf01585ef1811829a97c1e4dd7f552930f6d2d35af3801e5082977",
+      "bytes": 11867
     },
     {
       "url": "https://www.tri.lk/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-02-ca48ec5e75ba.html",
-      "sha256": "ca48ec5e75ba57fe277cfffea734de27b3bcd3b74cbbb2675239e530fd12f97d",
-      "bytes": 147769
+      "path": "audit.output/www.tri.lk/20260927.0649/snapshots/page-02-6f24507d3adf.html",
+      "sha256": "6f24507d3adf01585ef1811829a97c1e4dd7f552930f6d2d35af3801e5082977",
+      "bytes": 11867
     },
     {
       "url": "https://www.tri.lk/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-03-ca48ec5e75ba.html",
-      "sha256": "ca48ec5e75ba57fe277cfffea734de27b3bcd3b74cbbb2675239e530fd12f97d",
-      "bytes": 147769
+      "path": "audit.output/www.tri.lk/20260927.0649/snapshots/page-03-6f24507d3adf.html",
+      "sha256": "6f24507d3adf01585ef1811829a97c1e4dd7f552930f6d2d35af3801e5082977",
+      "bytes": 11867
     },
     {
       "url": "https://www.tri.lk/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-04-ca48ec5e75ba.html",
-      "sha256": "ca48ec5e75ba57fe277cfffea734de27b3bcd3b74cbbb2675239e530fd12f97d",
-      "bytes": 147769
-    },
-    {
-      "url": "https://www.tri.lk/technology_transfer_office/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-05-8034d0debebe.html",
-      "sha256": "8034d0debebe0aab38ccb92d5e24f93805ed4752a73222a23626b729060eb9b3",
-      "bytes": 70255
-    },
-    {
-      "url": "https://www.tri.lk/analytical-services/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-06-d21e4aa63483.html",
-      "sha256": "d21e4aa634831cb085eacac23b4240f913ac15cc819347dff3c5de70b12083b5",
-      "bytes": 66680
-    },
-    {
-      "url": "https://www.tri.lk/contact-us/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-07-ce0522fbc0f7.html",
-      "sha256": "ce0522fbc0f756c9f44f334b1e4bf7cc70da53a343d29b2e332f97580a51eeba",
-      "bytes": 11873
-    },
-    {
-      "url": "https://www.tri.lk/2022/04/08/technical-information-advisory-service/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-08-ca4ac7efd5df.html",
-      "sha256": "ca4ac7efd5df2abc7871b273442397669d4584ac5812a2be6a351e3b9c7c9641",
-      "bytes": 65171
-    },
-    {
-      "url": "https://www.tri.lk",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-09-ca48ec5e75ba.html",
-      "sha256": "ca48ec5e75ba57fe277cfffea734de27b3bcd3b74cbbb2675239e530fd12f97d",
-      "bytes": 147769
-    },
-    {
-      "url": "https://www.tri.lk/history/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-10-08469a7f16c9.html",
-      "sha256": "08469a7f16c9ddd318f76b978fc9d819e8fbb937d36f4e25395527624f4ab37c",
-      "bytes": 65763
-    },
-    {
-      "url": "https://www.tri.lk/tea-research-board/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-11-6de414c4a59c.html",
-      "sha256": "6de414c4a59c7c9f32d7192efdd73d56eb2d475f96386d19e960ce3576fcee80",
-      "bytes": 11865
-    },
-    {
-      "url": "https://www.tri.lk/senior-management/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-12-991062795090.html",
-      "sha256": "991062795090b7e6e595431e4573461aa1979f0103a33a184b3e7fbf91ef49cb",
-      "bytes": 66617
-    },
-    {
-      "url": "https://www.tri.lk/low-country-regional-centre/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-13-9d3fa9487278.html",
-      "sha256": "9d3fa9487278b01d08b23fb66ef24104356f33fd8c1d2c41bcef10eaee505e3a",
-      "bytes": 66541
-    },
-    {
-      "url": "https://www.tri.lk/mid-country-regional-centre/",
-      "path": "audit.output/www.tri.lk/20260926.0644/snapshots/page-14-eb81e053048d.html",
-      "sha256": "eb81e053048ddebe01bc50a96ece9b5e5a6e1efe5aeb92541d9a0aa109bc37b3",
-      "bytes": 65500
+      "path": "audit.output/www.tri.lk/20260927.0649/snapshots/page-04-6f24507d3adf.html",
+      "sha256": "6f24507d3adf01585ef1811829a97c1e4dd7f552930f6d2d35af3801e5082977",
+      "bytes": 11867
     }
   ],
   "reviewer_decisions": [],
@@ -1711,8 +207,8 @@
     {
       "level": 1,
       "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
-      "status": "pass",
-      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "status": "inconclusive",
+      "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
       "executed": true,
       "checks": [
         {
@@ -1724,26 +220,26 @@
         {
           "name": "domain_not_parked",
           "level": 1,
-          "status": "pass",
-          "reason": "No parked-domain marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "site_not_defaced",
           "level": 1,
-          "status": "pass",
-          "reason": "No defacement marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "content_relevant",
           "level": 1,
-          "status": "pass",
-          "reason": "No unrelated-content marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "hosting_configured",
           "level": 1,
-          "status": "pass",
-          "reason": "No generic-hosting marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "http_available",
@@ -1781,28 +277,9 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "inconclusive",
-      "reason": "No passing postal address evidence found",
-      "executed": true,
-      "checks": [
-        {
-          "name": "postal_address",
-          "level": 2,
-          "status": "inconclusive",
-          "reason": "No passing postal address evidence found"
-        },
-        {
-          "name": "reachable_contacts",
-          "level": 2,
-          "status": "pass",
-          "reason": "Phone: +0812244777 (20 phone numbers found); Email: info@tri.lk"
-        },
-        {
-          "name": "named_responsibility",
-          "level": 2,
-          "status": "pass",
-          "reason": "Published named responsibility: director"
-        }
-      ]
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
     },
     {
       "level": 3,
@@ -1830,7 +307,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

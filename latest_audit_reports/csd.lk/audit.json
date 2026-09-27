@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "40007b1c-0973-4eda-98f1-98773abe9954",
+  "audit_id": "03b51c95-d06a-4eb6-a593-97e54c830f28",
   "url": "https://csd.lk/",
   "normalized_url": "https://csd.lk/",
-  "started_at": "2026-09-26T06:48:43.150437+05:30",
-  "completed_at": "2026-09-26T06:49:19.201227+05:30",
+  "started_at": "2026-09-27T06:51:06.096361+05:30",
+  "completed_at": "2026-09-27T06:51:35.799025+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:48:44.296419+05:30"
+      "observed_at": "2026-09-27T06:51:06.284536+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:48:44.296436+05:30"
+      "observed_at": "2026-09-27T06:51:06.284556+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:48:44.336656+05:30"
+      "observed_at": "2026-09-27T06:51:06.297007+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://csd.lk/",
       "source": "https://csd.lk/",
-      "observed_at": "2026-09-26T06:49:18.729321+05:30"
+      "observed_at": "2026-09-27T06:51:35.039436+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://csd.lk/",
       "source": "http://csd.lk/",
-      "observed_at": "2026-09-26T06:49:18.729344+05:30"
+      "observed_at": "2026-09-27T06:51:35.039455+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://csd.lk/",
       "source": "https://csd.lk/",
-      "observed_at": "2026-09-26T06:49:18.729347+05:30"
+      "observed_at": "2026-09-27T06:51:35.039459+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://csd.lk/",
       "source": "http://csd.lk/",
-      "observed_at": "2026-09-26T06:49:18.729350+05:30"
+      "observed_at": "2026-09-27T06:51:35.039462+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://csd.lk/en/home/",
       "source": "https://csd.lk/en/home/",
-      "observed_at": "2026-09-26T06:49:18.729352+05:30"
+      "observed_at": "2026-09-27T06:51:35.039465+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://csd.lk/ta/%e0%ae%ae%e0%af%81%e0%ae%95%e0%ae%aa%e0%af%8d%e0%ae%aa%e0%af%81/",
       "source": "https://csd.lk/ta/%e0%ae%ae%e0%af%81%e0%ae%95%e0%ae%aa%e0%af%8d%e0%ae%aa%e0%af%81/",
-      "observed_at": "2026-09-26T06:49:18.729355+05:30"
+      "observed_at": "2026-09-27T06:51:35.039468+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://csd.lk/%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
       "source": "https://csd.lk/%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
-      "observed_at": "2026-09-26T06:49:18.729357+05:30"
+      "observed_at": "2026-09-27T06:51:35.039470+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://csd.lk/%e0%b6%85%e0%b6%ad%e0%b7%92%e0%b6%bb%e0%b7%9a%e0%b6%9a-%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
       "source": "https://csd.lk/%e0%b6%85%e0%b6%ad%e0%b7%92%e0%b6%bb%e0%b7%9a%e0%b6%9a-%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
-      "observed_at": "2026-09-26T06:49:18.729359+05:30"
+      "observed_at": "2026-09-27T06:51:35.039473+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://csd.lk/%e0%b7%83%e0%b7%9a%e0%b7%80%e0%b7%8f-%e0%b7%80%e0%b6%b1%e0%b7%92%e0%b6%ad%e0%b7%8f-%e0%b6%92%e0%b6%9a%e0%b6%9a%e0%b6%ba%e0%b7%9a-%e0%b7%83%e0%b6%b7%e0%b7%8f%e0%b6%b4%e0%b6%ad%e0%b7%92/",
       "source": "https://csd.lk/%e0%b7%83%e0%b7%9a%e0%b7%80%e0%b7%8f-%e0%b7%80%e0%b6%b1%e0%b7%92%e0%b6%ad%e0%b7%8f-%e0%b6%92%e0%b6%9a%e0%b6%9a%e0%b6%ba%e0%b7%9a-%e0%b7%83%e0%b6%b7%e0%b7%8f%e0%b6%b4%e0%b6%ad%e0%b7%92/",
-      "observed_at": "2026-09-26T06:49:18.729361+05:30"
+      "observed_at": "2026-09-27T06:51:35.039476+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://csd.lk/%e0%b6%af%e0%b7%90%e0%b6%9a%e0%b7%8a%e0%b6%b8/",
       "source": "https://csd.lk/%e0%b6%af%e0%b7%90%e0%b6%9a%e0%b7%8a%e0%b6%b8/",
-      "observed_at": "2026-09-26T06:49:18.729364+05:30"
+      "observed_at": "2026-09-27T06:51:35.039479+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://csd.lk/%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%94%e0%b7%84%e0%b6%ba/",
       "source": "https://csd.lk/%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%94%e0%b7%84%e0%b6%ba/",
-      "observed_at": "2026-09-26T06:49:18.729366+05:30"
+      "observed_at": "2026-09-27T06:51:35.039482+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://csd.lk/csd%e0%b6%b0%e0%b6%a2%e0%b6%ba-%e0%b6%bd%e0%b7%8f%e0%b6%82%e0%b6%a1%e0%b6%b1%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%ba%e0%b7%94%e0%b6%b0-%e0%b7%80%e0%b7%93%e0%b6%bb%e0%b6%ba%e0%b6%b1%e0%b7%8a%e0%b6%9c/",
       "source": "https://csd.lk/csd%e0%b6%b0%e0%b6%a2%e0%b6%ba-%e0%b6%bd%e0%b7%8f%e0%b6%82%e0%b6%a1%e0%b6%b1%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%ba%e0%b7%94%e0%b6%b0-%e0%b7%80%e0%b7%93%e0%b6%bb%e0%b6%ba%e0%b6%b1%e0%b7%8a%e0%b6%9c/",
-      "observed_at": "2026-09-26T06:49:18.729368+05:30"
+      "observed_at": "2026-09-27T06:51:35.039485+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://csd.lk/csd-%e0%b6%9c%e0%b7%93%e0%b6%ad%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%b4%e0%b6%af-%e0%b6%bb%e0%b6%a0%e0%b6%b1%e0%b6%ba/",
       "source": "https://csd.lk/csd-%e0%b6%9c%e0%b7%93%e0%b6%ad%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%b4%e0%b6%af-%e0%b6%bb%e0%b6%a0%e0%b6%b1%e0%b6%ba/",
-      "observed_at": "2026-09-26T06:49:18.729370+05:30"
+      "observed_at": "2026-09-27T06:51:35.039488+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://csd.lk/csd-%e0%b6%89%e0%b6%ad%e0%b7%92%e0%b7%84%e0%b7%8f%e0%b7%83%e0%b6%ba/",
       "source": "https://csd.lk/csd-%e0%b6%89%e0%b6%ad%e0%b7%92%e0%b7%84%e0%b7%8f%e0%b7%83%e0%b6%ba/",
-      "observed_at": "2026-09-26T06:49:18.729372+05:30"
+      "observed_at": "2026-09-27T06:51:35.039490+05:30"
     },
     {
       "check": "phone",
@@ -463,7 +463,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/",
       "redirects": [],
-      "elapsed_ms": 9292,
+      "elapsed_ms": 1965,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -474,7 +474,7 @@
       "redirects": [
         "https://csd.lk/"
       ],
-      "elapsed_ms": 1865,
+      "elapsed_ms": 2046,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -483,7 +483,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/",
       "redirects": [],
-      "elapsed_ms": 1903,
+      "elapsed_ms": 2089,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -494,7 +494,7 @@
       "redirects": [
         "https://csd.lk/"
       ],
-      "elapsed_ms": 1825,
+      "elapsed_ms": 1994,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -503,7 +503,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/en/home/",
       "redirects": [],
-      "elapsed_ms": 1960,
+      "elapsed_ms": 2162,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -512,7 +512,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/ta/%e0%ae%ae%e0%af%81%e0%ae%95%e0%ae%aa%e0%af%8d%e0%ae%aa%e0%af%81/",
       "redirects": [],
-      "elapsed_ms": 1964,
+      "elapsed_ms": 2131,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -521,7 +521,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
       "redirects": [],
-      "elapsed_ms": 1876,
+      "elapsed_ms": 1951,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -530,7 +530,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/%e0%b6%85%e0%b6%ad%e0%b7%92%e0%b6%bb%e0%b7%9a%e0%b6%9a-%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
       "redirects": [],
-      "elapsed_ms": 1859,
+      "elapsed_ms": 580,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -539,7 +539,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/%e0%b7%83%e0%b7%9a%e0%b7%80%e0%b7%8f-%e0%b7%80%e0%b6%b1%e0%b7%92%e0%b6%ad%e0%b7%8f-%e0%b6%92%e0%b6%9a%e0%b6%9a%e0%b6%ba%e0%b7%9a-%e0%b7%83%e0%b6%b7%e0%b7%8f%e0%b6%b4%e0%b6%ad%e0%b7%92/",
       "redirects": [],
-      "elapsed_ms": 1841,
+      "elapsed_ms": 1889,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -548,7 +548,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/%e0%b6%af%e0%b7%90%e0%b6%9a%e0%b7%8a%e0%b6%b8/",
       "redirects": [],
-      "elapsed_ms": 1343,
+      "elapsed_ms": 1826,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -557,7 +557,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%94%e0%b7%84%e0%b6%ba/",
       "redirects": [],
-      "elapsed_ms": 1573,
+      "elapsed_ms": 1788,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -566,7 +566,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/csd%e0%b6%b0%e0%b6%a2%e0%b6%ba-%e0%b6%bd%e0%b7%8f%e0%b6%82%e0%b6%a1%e0%b6%b1%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%ba%e0%b7%94%e0%b6%b0-%e0%b7%80%e0%b7%93%e0%b6%bb%e0%b6%ba%e0%b6%b1%e0%b7%8a%e0%b6%9c/",
       "redirects": [],
-      "elapsed_ms": 1796,
+      "elapsed_ms": 2008,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -575,7 +575,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/csd-%e0%b6%9c%e0%b7%93%e0%b6%ad%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%b4%e0%b6%af-%e0%b6%bb%e0%b6%a0%e0%b6%b1%e0%b6%ba/",
       "redirects": [],
-      "elapsed_ms": 1291,
+      "elapsed_ms": 1832,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -584,7 +584,7 @@
       "status_code": 200,
       "final_url": "https://csd.lk/csd-%e0%b6%89%e0%b6%ad%e0%b7%92%e0%b7%84%e0%b7%8f%e0%b7%83%e0%b6%ba/",
       "redirects": [],
-      "elapsed_ms": 1786,
+      "elapsed_ms": 1718,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -592,86 +592,86 @@
   "snapshots": [
     {
       "url": "https://csd.lk/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-01-56e52fa4d46a.html",
-      "sha256": "56e52fa4d46aa87cb8707d507d87c6d77af555b7d66221f9dc81af6aa7a64350",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-01-c42ed931892e.html",
+      "sha256": "c42ed931892e480fe9fc31b727bc0a0bb7d5fa35ff167e63bac7d995735688ff",
       "bytes": 171756
     },
     {
       "url": "https://csd.lk/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-02-aae484a4938f.html",
-      "sha256": "aae484a4938f51c78aee7cf2a367c51eabc2c9d07da12b2e72bbcd494f2c9385",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-02-37d05bfa9102.html",
+      "sha256": "37d05bfa910255d1bf5c37ca658f46590f49b11ff78573c7f9772bd83725a5c4",
       "bytes": 171756
     },
     {
       "url": "https://csd.lk/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-03-5c4c75d90041.html",
-      "sha256": "5c4c75d900412096214ac267b78bc9062142927f11c0ac8339e33471d431c015",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-03-66f3f562b40d.html",
+      "sha256": "66f3f562b40d10f99458469199ebb0b2612a3640fb6ec76c261e866f02b9759c",
       "bytes": 171756
     },
     {
       "url": "https://csd.lk/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-04-065ec601da0e.html",
-      "sha256": "065ec601da0ecddaa1f2e826531fb3567d3f0a2f3c484be32e2ae92e77ed0676",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-04-d7d108b8ee9e.html",
+      "sha256": "d7d108b8ee9ee3603424acc6bde67042593e624cf047657f3650bf8bb4fb635c",
       "bytes": 171756
     },
     {
       "url": "https://csd.lk/en/home/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-05-6efe37cd740b.html",
-      "sha256": "6efe37cd740b5e6cd9e570349b022fe202e3fb2d9a298294cceb7c253abf0e02",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-05-2bdd8a2bbbcd.html",
+      "sha256": "2bdd8a2bbbcd518ab0ef299461b84d09789afed215b55d5d4d891eba9e9500e8",
       "bytes": 151999
     },
     {
       "url": "https://csd.lk/ta/%e0%ae%ae%e0%af%81%e0%ae%95%e0%ae%aa%e0%af%8d%e0%ae%aa%e0%af%81/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-06-b21c39feeed7.html",
-      "sha256": "b21c39feeed7bec7a555d968c45e2afb5e95298f7ceeae47fd484c11ea0174eb",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-06-7e270db42bae.html",
+      "sha256": "7e270db42bae7b7eafda4faed2a9baefd3771266441f94fe1a7847a36c79fa41",
       "bytes": 167484
     },
     {
       "url": "https://csd.lk/%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-07-921a593556b2.html",
-      "sha256": "921a593556b28cac5470590667d1436fbafb1cb24e314c9479e42c2be94c68e2",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-07-ab0a70999c72.html",
+      "sha256": "ab0a70999c727b880cdd66598653866dc5e9de5cd5fd0c67f50dce4a27d35a45",
       "bytes": 120273
     },
     {
       "url": "https://csd.lk/%e0%b6%85%e0%b6%ad%e0%b7%92%e0%b6%bb%e0%b7%9a%e0%b6%9a-%e0%b6%85%e0%b6%b0%e0%b7%8a%e0%b6%ba%e0%b6%9a%e0%b7%8a%e0%b7%82-%e0%b6%a2%e0%b6%b1%e0%b6%bb%e0%b7%8f%e0%b6%bd%e0%b7%8a/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-08-22632733fc29.html",
-      "sha256": "22632733fc29e9d2a167b13efed9eabed89053d7f2fdeb0c3cf673d5d3607307",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-08-e5f170755008.html",
+      "sha256": "e5f170755008013895da7051051601209123d99d00f661e3d958bf301ae2dbb1",
       "bytes": 122550
     },
     {
       "url": "https://csd.lk/%e0%b7%83%e0%b7%9a%e0%b7%80%e0%b7%8f-%e0%b7%80%e0%b6%b1%e0%b7%92%e0%b6%ad%e0%b7%8f-%e0%b6%92%e0%b6%9a%e0%b6%9a%e0%b6%ba%e0%b7%9a-%e0%b7%83%e0%b6%b7%e0%b7%8f%e0%b6%b4%e0%b6%ad%e0%b7%92/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-09-d3b5f95d61cc.html",
-      "sha256": "d3b5f95d61cc569c5b363526ad00862d368461331863d7d8c93d72ca049892ef",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-09-9052565512be.html",
+      "sha256": "9052565512be2f7b156e6ebeec0da9736d275c37f7a895343c99134cfdca099a",
       "bytes": 107968
     },
     {
       "url": "https://csd.lk/%e0%b6%af%e0%b7%90%e0%b6%9a%e0%b7%8a%e0%b6%b8/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-10-f7f157e0b2dd.html",
-      "sha256": "f7f157e0b2dda9dafa11029d22e7de615b1757883e0e5fea103b838363421202",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-10-b254e84ca32a.html",
+      "sha256": "b254e84ca32a634791735e679e0b92d0175f5f8ccbcf3c7addc111746344de95",
       "bytes": 106262
     },
     {
       "url": "https://csd.lk/%e0%b7%80%e0%b7%8a%e0%b6%ba%e0%b7%94%e0%b7%84%e0%b6%ba/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-11-7286504d0e31.html",
-      "sha256": "7286504d0e31ced18e2939e606742c771abac645d80aa9c30aaaa8cbd759a32f",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-11-7e6afb03268e.html",
+      "sha256": "7e6afb03268e0a6965b035da17d99e51ff1446efb340f2aa4dcd8dfaf4d751e7",
       "bytes": 106691
     },
     {
       "url": "https://csd.lk/csd%e0%b6%b0%e0%b6%a2%e0%b6%ba-%e0%b6%bd%e0%b7%8f%e0%b6%82%e0%b6%a1%e0%b6%b1%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%ba%e0%b7%94%e0%b6%b0-%e0%b7%80%e0%b7%93%e0%b6%bb%e0%b6%ba%e0%b6%b1%e0%b7%8a%e0%b6%9c/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-12-d7c7e2271e0b.html",
-      "sha256": "d7c7e2271e0b3896a513c324e479209e2fc4d3fe958624f3bc992bb033e2da9a",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-12-df658d2e64ab.html",
+      "sha256": "df658d2e64ab91f8b8332b32ab8bf3898deaf3c7ec3167a3b459e34882f847da",
       "bytes": 121579
     },
     {
       "url": "https://csd.lk/csd-%e0%b6%9c%e0%b7%93%e0%b6%ad%e0%b6%ba-%e0%b7%83%e0%b7%84-%e0%b6%b4%e0%b6%af-%e0%b6%bb%e0%b6%a0%e0%b6%b1%e0%b6%ba/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-13-4ec7c7cc9e78.html",
-      "sha256": "4ec7c7cc9e78798ec4222ebed9420bee23412b95c22d0b92fca8e28b3eb39a23",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-13-a7e8240d0e0d.html",
+      "sha256": "a7e8240d0e0d24fd60bc4bfe093161652a927ca095c837907b60afaf8a30f5f9",
       "bytes": 105599
     },
     {
       "url": "https://csd.lk/csd-%e0%b6%89%e0%b6%ad%e0%b7%92%e0%b7%84%e0%b7%8f%e0%b7%83%e0%b6%ba/",
-      "path": "audit.output/csd.lk/20260926.0648/snapshots/page-14-80fc5528c846.html",
-      "sha256": "80fc5528c846bf4090791a8dade1dd41a199b43adf9e949234aaf82408656233",
+      "path": "audit.output/csd.lk/20260927.0651/snapshots/page-14-da25622d484a.html",
+      "sha256": "da25622d484a1eeafc4541cb34d571ef918dc5457683713deacde8a2a3d820d3",
       "bytes": 109642
     }
   ],
@@ -807,7 +807,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "8a8ad6ba-b8f3-43c0-bd91-48180044dc17",
+  "audit_id": "6da6f28b-8985-48fc-a3cd-5a65735dabfe",
   "url": "https://emb-manama.gov.lk",
   "normalized_url": "https://emb-manama.gov.lk/",
-  "started_at": "2026-09-26T06:34:21.202528+05:30",
-  "completed_at": "2026-09-26T06:35:03.773609+05:30",
+  "started_at": "2026-09-27T06:39:09.193504+05:30",
+  "completed_at": "2026-09-27T06:39:55.904059+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:34:21.654281+05:30"
+      "observed_at": "2026-09-27T06:39:09.808821+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:34:21.654298+05:30"
+      "observed_at": "2026-09-27T06:39:09.808840+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:34:22.277129+05:30"
+      "observed_at": "2026-09-27T06:39:10.284730+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-manama.gov.lk/en",
       "source": "https://emb-manama.gov.lk/",
-      "observed_at": "2026-09-26T06:35:01.262052+05:30"
+      "observed_at": "2026-09-27T06:39:52.611852+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-manama.gov.lk/en",
       "source": "http://emb-manama.gov.lk/",
-      "observed_at": "2026-09-26T06:35:01.262071+05:30"
+      "observed_at": "2026-09-27T06:39:52.611869+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-manama.gov.lk/en",
       "source": "https://emb-manama.gov.lk/",
-      "observed_at": "2026-09-26T06:35:01.262075+05:30"
+      "observed_at": "2026-09-27T06:39:52.611873+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-manama.gov.lk/en",
       "source": "http://emb-manama.gov.lk/",
-      "observed_at": "2026-09-26T06:35:01.262077+05:30"
+      "observed_at": "2026-09-27T06:39:52.611876+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-manama.gov.lk/en/contact",
       "source": "https://www.emb-manama.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:35:01.262080+05:30"
+      "observed_at": "2026-09-27T06:39:52.611879+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-manama.gov.lk/en/passport-services",
       "source": "https://emb-manama.gov.lk/en/passport-services",
-      "observed_at": "2026-09-26T06:35:01.262082+05:30"
+      "observed_at": "2026-09-27T06:39:52.611882+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-manama.gov.lk/en/labour-related-services",
       "source": "https://emb-manama.gov.lk/en/labour-related-services",
-      "observed_at": "2026-09-26T06:35:01.262084+05:30"
+      "observed_at": "2026-09-27T06:39:52.611885+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-manama.gov.lk/en/sri-lanka-and-bahrain-relations-overview",
       "source": "https://www.emb-manama.gov.lk/en/sri-lanka-and-bahrain-relations-overview",
-      "observed_at": "2026-09-26T06:35:01.262087+05:30"
+      "observed_at": "2026-09-27T06:39:52.611888+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-manama.gov.lk/en/downloads",
       "source": "https://www.emb-manama.gov.lk/en/downloads",
-      "observed_at": "2026-09-26T06:35:01.262089+05:30"
+      "observed_at": "2026-09-27T06:39:52.611891+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0edb51e0517b779bd8f2",
       "source": "https://emb-manama.gov.lk/en/appointment?serviceId=6a6b0edb51e0517b779bd8f2",
-      "observed_at": "2026-09-26T06:35:01.262091+05:30"
+      "observed_at": "2026-09-27T06:39:52.611893+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0ef7c56bbae6621ad75e",
       "source": "http://emb-manama.gov.lk/en/appointment?serviceId=6a6b0ef7c56bbae6621ad75e",
-      "observed_at": "2026-09-26T06:35:01.262094+05:30"
+      "observed_at": "2026-09-27T06:39:52.611896+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f22c56bbae6621ad7bc",
       "source": "https://emb-manama.gov.lk/en/appointment?serviceId=6a6b0f22c56bbae6621ad7bc",
-      "observed_at": "2026-09-26T06:35:01.262096+05:30"
+      "observed_at": "2026-09-27T06:39:52.611899+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-manama.gov.lk/en/police-report",
       "source": "https://emb-manama.gov.lk/en/police-report",
-      "observed_at": "2026-09-26T06:35:01.262098+05:30"
+      "observed_at": "2026-09-27T06:39:52.611901+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f9651e0517b779bdad3",
       "source": "https://emb-manama.gov.lk/en/appointment?serviceId=6a6b0f9651e0517b779bdad3",
-      "observed_at": "2026-09-26T06:35:01.262100+05:30"
+      "observed_at": "2026-09-27T06:39:52.611904+05:30"
     },
     {
       "check": "phone",
@@ -159,19 +159,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -231,19 +231,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -303,19 +303,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -375,19 +375,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -447,19 +447,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/contact",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -501,19 +501,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/passport-services",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/passport-services",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -555,19 +555,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/labour-related-services",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/labour-related-services",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -609,19 +609,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/sri-lanka-and-bahrain-relations-overview",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/sri-lanka-and-bahrain-relations-overview",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -663,19 +663,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/downloads",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/downloads",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -735,19 +735,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0edb51e0517b779bd8f2",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0edb51e0517b779bd8f2",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -834,19 +834,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0ef7c56bbae6621ad75e",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0ef7c56bbae6621ad75e",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -933,19 +933,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f22c56bbae6621ad7bc",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f22c56bbae6621ad7bc",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -1023,19 +1023,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/police-report",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/police-report",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -1086,19 +1086,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f9651e0517b779bdad3",
       "data": {
-        "value": "slemb.bahrain@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.bahrain@mfa.gov.lk",
       "source": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f9651e0517b779bdad3",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.bahrain@mfa.gov.lk"
       }
     },
     {
@@ -1201,7 +1201,7 @@
         "https://www.emb-manama.gov.lk/",
         "https://www.emb-manama.gov.lk/en"
       ],
-      "elapsed_ms": 1958,
+      "elapsed_ms": 2102,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1213,7 +1213,7 @@
         "https://www.emb-manama.gov.lk/",
         "https://www.emb-manama.gov.lk/en"
       ],
-      "elapsed_ms": 3297,
+      "elapsed_ms": 1387,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1225,7 +1225,7 @@
         "https://www.emb-manama.gov.lk/",
         "https://www.emb-manama.gov.lk/en"
       ],
-      "elapsed_ms": 2109,
+      "elapsed_ms": 2730,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1237,7 +1237,7 @@
         "https://www.emb-manama.gov.lk/",
         "https://www.emb-manama.gov.lk/en"
       ],
-      "elapsed_ms": 1685,
+      "elapsed_ms": 3082,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1246,7 +1246,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manama.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 902,
+      "elapsed_ms": 1589,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1257,7 +1257,7 @@
       "redirects": [
         "https://www.emb-manama.gov.lk/en/passport-services"
       ],
-      "elapsed_ms": 1135,
+      "elapsed_ms": 955,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1268,7 +1268,7 @@
       "redirects": [
         "https://www.emb-manama.gov.lk/en/labour-related-services"
       ],
-      "elapsed_ms": 999,
+      "elapsed_ms": 886,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1277,7 +1277,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manama.gov.lk/en/sri-lanka-and-bahrain-relations-overview",
       "redirects": [],
-      "elapsed_ms": 1667,
+      "elapsed_ms": 2149,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1286,7 +1286,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-manama.gov.lk/en/downloads",
       "redirects": [],
-      "elapsed_ms": 1087,
+      "elapsed_ms": 1108,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1297,7 +1297,7 @@
       "redirects": [
         "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0edb51e0517b779bd8f2"
       ],
-      "elapsed_ms": 1734,
+      "elapsed_ms": 2135,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1308,7 +1308,7 @@
       "redirects": [
         "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0ef7c56bbae6621ad75e"
       ],
-      "elapsed_ms": 2207,
+      "elapsed_ms": 3311,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1319,7 +1319,7 @@
       "redirects": [
         "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f22c56bbae6621ad7bc"
       ],
-      "elapsed_ms": 4290,
+      "elapsed_ms": 2139,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1330,7 +1330,7 @@
       "redirects": [
         "https://www.emb-manama.gov.lk/en/police-report"
       ],
-      "elapsed_ms": 1023,
+      "elapsed_ms": 764,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1341,7 +1341,7 @@
       "redirects": [
         "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f9651e0517b779bdad3"
       ],
-      "elapsed_ms": 1685,
+      "elapsed_ms": 1790,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1349,86 +1349,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-manama.gov.lk/en",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-01-0c63dd89a448.html",
-      "sha256": "0c63dd89a44860e483aa160f655ecdf40182ea55e319ab8b1c7f4d9a25ca9ceb",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-01-b566a4e02836.html",
+      "sha256": "b566a4e0283629cad23ce73ff088b6642b612f8c3951f801f91cb4de9c001c17",
       "bytes": 356732
     },
     {
       "url": "https://www.emb-manama.gov.lk/en",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-02-f87fd18d370d.html",
-      "sha256": "f87fd18d370df78792116efae38e72429812b7006ccbaf9691ac3cc8138d24c6",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-02-4e525295b90a.html",
+      "sha256": "4e525295b90a6a9586efa520d294e0d4fe2513fbb0ef35071a93686dc08332b7",
       "bytes": 356732
     },
     {
       "url": "https://www.emb-manama.gov.lk/en",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-03-f8570591645a.html",
-      "sha256": "f8570591645a556cb2f36945dd487d66afb698537abfa01eab254036fa0b091a",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-03-99c8e9faa2c9.html",
+      "sha256": "99c8e9faa2c92fbca35a11aac1d7e48bbad255730b049a992ad8b268a7806ae9",
       "bytes": 356732
     },
     {
       "url": "https://www.emb-manama.gov.lk/en",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-04-eef450356eb4.html",
-      "sha256": "eef450356eb459cd007aeebce95e50d37a1244a89435c27455e7f8b9c1110d71",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-04-9aa74baa40da.html",
+      "sha256": "9aa74baa40dafc26cdf50ecc2b04e6a339e7a8d5436f88c14e614903ea57d4f8",
       "bytes": 356732
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/contact",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-05-24b6717ae779.html",
-      "sha256": "24b6717ae7791c9e52bf2f68d6bb1a82862998bb6e4dad23a0b7923154226ebf",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-05-169b9edf23ac.html",
+      "sha256": "169b9edf23ac205a2afc5959d23ee7680384d9587051f4743d0e82f92fff06f3",
       "bytes": 108630
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/passport-services",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-06-2289975faa2b.html",
-      "sha256": "2289975faa2b2b6f5c1ffe3fe559c3cad876d448af59c7ecce0955a98ec1ebf2",
-      "bytes": 101850
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-06-0ec7a8b86fc6.html",
+      "sha256": "0ec7a8b86fc685819e2611649bbc8020b7cc8ed106b52c8b214eb315b94340fb",
+      "bytes": 101950
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/labour-related-services",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-07-4566ba6c6c4a.html",
-      "sha256": "4566ba6c6c4aaa72618b941b2fa3d6a24bed6cf1229f563b05fafea6f58d36e7",
-      "bytes": 101139
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-07-b0ab740993bf.html",
+      "sha256": "b0ab740993bf05300e72ec228be997f2a32d311823e0a7835d5e83b6e51a7003",
+      "bytes": 101039
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/sri-lanka-and-bahrain-relations-overview",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-08-d5efa7002e5e.html",
-      "sha256": "d5efa7002e5ebfdb97f16e49ea15b9034df9a53d6ced9b49cb75c67830e2d5e9",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-08-ea0aa2a13a6c.html",
+      "sha256": "ea0aa2a13a6c72bd720fbe7830f2596a2054f6ce0bef9a562ccb89bda4a02ace",
       "bytes": 104679
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/downloads",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-09-07dde6c3c0b3.html",
-      "sha256": "07dde6c3c0b3928e6deb761bf9666dd7ebc7c0d36fc1827d328b3d1b17529ec1",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-09-36c88cc59437.html",
+      "sha256": "36c88cc5943764e68731c50e87720d1dea12f24a3cd909473993c7d256cbaec8",
       "bytes": 115724
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0edb51e0517b779bd8f2",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-10-24aef4a3e341.html",
-      "sha256": "24aef4a3e3416e418fb83fc121a818ae8df0cdc58dec3d8dda45ce059869717d",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-10-e7306cffd409.html",
+      "sha256": "e7306cffd40948e4652d39a995398d5010cc8cee2550623c538bf711469bbf06",
       "bytes": 207210
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0ef7c56bbae6621ad75e",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-11-1505f4cb3ddd.html",
-      "sha256": "1505f4cb3ddd770872970b5b3b2b9de671439ef1a866a2f3f17b7d130cf22e88",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-11-69938ae2ddcf.html",
+      "sha256": "69938ae2ddcf2f4d8d07aededa4f63020db51998cfeb4eec2bfe63841be5f361",
       "bytes": 207210
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f22c56bbae6621ad7bc",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-12-a4eff29990f1.html",
-      "sha256": "a4eff29990f1034f835bc516e96ff5d2bf82da315fd04f64a01467c4fd06e920",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-12-6dd7618f3249.html",
+      "sha256": "6dd7618f3249049d3e637d37e45375904dc16b1db511a79401a059a895f37ef1",
       "bytes": 207210
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/police-report",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-13-f1298fd231ad.html",
-      "sha256": "f1298fd231ad0e2e53b1b6d44674b5d6193805ba219abc5cd124160350e7b00b",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-13-fbfc7428c4f3.html",
+      "sha256": "fbfc7428c4f3ebf79fb0eb4bc505275a8adae13235864dee3b5a53d5f791357f",
       "bytes": 104241
     },
     {
       "url": "https://www.emb-manama.gov.lk/en/appointment?serviceId=6a6b0f9651e0517b779bdad3",
-      "path": "audit.output/emb-manama.gov.lk/20260926.0634/snapshots/page-14-6c1acf92b9e0.html",
-      "sha256": "6c1acf92b9e03b44cca13fd08365a3985fad18968d9c0d37c2d8a83f914a9ede",
+      "path": "audit.output/emb-manama.gov.lk/20260927.0639/snapshots/page-14-51c40ba5c0cb.html",
+      "sha256": "51c40ba5c0cb96c5e1ecf0a04042fbe945ab8f5bffa30e73bd86d01f0215a043",
       "bytes": 207210
     }
   ],
@@ -1515,7 +1515,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: underscored the significance of the initiative as a long-term community welfare programme. It was highlighted that the b; Phone: 04-4392-8411- (3 phone numbers found); Email: slemb.bahrain@mfa.gov.lk (2 email addresses found); Published named responsibility: division",
+      "reason": "Published postal address: underscored the significance of the initiative as a long-term community welfare programme. It was highlighted that the b; Phone: 04-4392-8411- (3 phone numbers found); Email: john@example.com (2 email addresses found); Published named responsibility: division",
       "executed": true,
       "checks": [
         {
@@ -1528,7 +1528,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 04-4392-8411- (3 phone numbers found); Email: slemb.bahrain@mfa.gov.lk (2 email addresses found)"
+          "reason": "Phone: 04-4392-8411- (3 phone numbers found); Email: john@example.com (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1607,7 +1607,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

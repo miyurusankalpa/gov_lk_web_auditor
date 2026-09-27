@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "ecd4cecd-6b50-48d3-8665-34b61b25fcdf",
+  "audit_id": "abf39614-a7c3-42db-9fb6-d3c52ded20f3",
   "url": "https://energy.gov.lk/",
   "normalized_url": "https://energy.gov.lk/",
-  "started_at": "2026-09-26T06:20:38.624841+05:30",
-  "completed_at": "2026-09-26T06:21:38.707015+05:30",
+  "started_at": "2026-09-27T06:27:24.872078+05:30",
+  "completed_at": "2026-09-27T06:28:27.982149+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,144 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:20:39.227653+05:30"
+      "observed_at": "2026-09-27T06:27:25.655600+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:20:39.227671+05:30"
+      "observed_at": "2026-09-27T06:27:25.655619+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:20:40.070545+05:30"
+      "observed_at": "2026-09-27T06:27:26.636344+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://energy.gov.lk/en/",
       "source": "https://energy.gov.lk/",
-      "observed_at": "2026-09-26T06:21:37.969523+05:30"
+      "observed_at": "2026-09-27T06:28:27.516184+05:30"
     },
     {
       "check": "http",
       "status": "error",
       "detail": "Probe 2: More than 10 redirects",
       "source": "http://energy.gov.lk/",
-      "observed_at": "2026-09-26T06:21:37.969542+05:30"
+      "observed_at": "2026-09-27T06:28:27.516203+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://energy.gov.lk/en/",
       "source": "https://energy.gov.lk/",
-      "observed_at": "2026-09-26T06:21:37.969545+05:30"
+      "observed_at": "2026-09-27T06:28:27.516207+05:30"
     },
     {
       "check": "http",
       "status": "error",
       "detail": "Probe 4: More than 10 redirects",
       "source": "http://energy.gov.lk/",
-      "observed_at": "2026-09-26T06:21:37.969548+05:30"
+      "observed_at": "2026-09-27T06:28:27.516210+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://energy.gov.lk/en/contact-us",
       "source": "https://energy.gov.lk/contact-us",
-      "observed_at": "2026-09-26T06:21:37.969550+05:30"
+      "observed_at": "2026-09-27T06:28:27.516213+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.energy.gov.lk/en/information-officer",
       "source": "https://www.energy.gov.lk/en/information-officer",
-      "observed_at": "2026-09-26T06:21:37.969553+05:30"
+      "observed_at": "2026-09-27T06:28:27.516216+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://energy.gov.lk/en/",
       "source": "https://energy.gov.lk/",
-      "observed_at": "2026-09-26T06:21:37.969555+05:30"
+      "observed_at": "2026-09-27T06:28:27.516219+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://energy.gov.lk/en/about-us/who-we-are",
       "source": "https://energy.gov.lk/about-us/who-we-are",
-      "observed_at": "2026-09-26T06:21:37.969557+05:30"
+      "observed_at": "2026-09-27T06:28:27.516222+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://energy.gov.lk/en/about-us/inception",
       "source": "https://energy.gov.lk/about-us/inception",
-      "observed_at": "2026-09-26T06:21:37.969559+05:30"
+      "observed_at": "2026-09-27T06:28:27.516224+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://energy.gov.lk/en/about-us/the-future",
       "source": "https://energy.gov.lk/about-us/the-future",
-      "observed_at": "2026-09-26T06:21:37.969562+05:30"
+      "observed_at": "2026-09-27T06:28:27.516227+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://energy.gov.lk/en/about-us/the-way-we-work",
       "source": "https://energy.gov.lk/about-us/the-way-we-work",
-      "observed_at": "2026-09-26T06:21:37.969564+05:30"
+      "observed_at": "2026-09-27T06:28:27.516230+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://energy.gov.lk/en/about-us/board-of-management",
       "source": "https://energy.gov.lk/about-us/board-of-management",
-      "observed_at": "2026-09-26T06:21:37.969566+05:30"
+      "observed_at": "2026-09-27T06:28:27.516232+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://energy.gov.lk/en/about-us/principal-officials",
       "source": "https://energy.gov.lk/about-us/principal-officials",
-      "observed_at": "2026-09-26T06:21:37.969568+05:30"
+      "observed_at": "2026-09-27T06:28:27.516235+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://energy.gov.lk/en/energy-management/what-we-do",
       "source": "https://energy.gov.lk/energy-management/what-we-do",
-      "observed_at": "2026-09-26T06:21:37.969571+05:30"
+      "observed_at": "2026-09-27T06:28:27.516238+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575203",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575203"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575089 ",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575089 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575066",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575066"
+      }
     },
     {
       "check": "phone",
@@ -159,24 +186,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575203",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
       "source": "https://energy.gov.lk/en/",
       "data": {
@@ -186,19 +195,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575089 ",
+      "detail": "Published phone: 0112575030",
       "source": "https://energy.gov.lk/en/",
       "data": {
-        "value": "0112575089 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575066",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575066"
+        "value": "0112575030"
       }
     },
     {
@@ -249,46 +249,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/",
       "data": {
         "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
       }
     },
     {
@@ -307,6 +271,42 @@
       "source": "https://energy.gov.lk/en/",
       "data": {
         "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575030"
       }
     },
     {
@@ -357,91 +357,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575066 ",
+      "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/contact-us",
       "data": {
-        "value": "0112575066 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575203 ",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575203 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575036",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575036"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114 ",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575114 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575036 . ",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575036 . "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112341234 ",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112341234 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030 ",
-      "source": "https://energy.gov.lk/en/contact-us",
-      "data": {
-        "value": "0112575030 "
+        "value": "0112575203"
       }
     },
     {
@@ -456,10 +375,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575203",
+      "detail": "Published phone: 0112575089 ",
       "source": "https://energy.gov.lk/en/contact-us",
       "data": {
-        "value": "0112575203"
+        "value": "0112575089 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114 ",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575114 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575066",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 . ",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575036 . "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575030"
       }
     },
     {
@@ -474,19 +438,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575089 ",
+      "detail": "Published phone: 0112575036 ",
       "source": "https://energy.gov.lk/en/contact-us",
       "data": {
-        "value": "0112575089 "
+        "value": "0112575036 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575066",
+      "detail": "Published phone: 0112575030 ",
       "source": "https://energy.gov.lk/en/contact-us",
       "data": {
-        "value": "0112575066"
+        "value": "0112575030 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112341234 ",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112341234 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575203 ",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575203 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575066 ",
+      "source": "https://energy.gov.lk/en/contact-us",
+      "data": {
+        "value": "0112575066 "
       }
     },
     {
@@ -519,37 +519,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575066 ",
+      "detail": "Published phone: 0112575203",
       "source": "https://www.energy.gov.lk/en/information-officer",
       "data": {
-        "value": "0112575066 "
+        "value": "0112575203"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
+      "detail": "Published phone: 0112585114",
       "source": "https://www.energy.gov.lk/en/information-officer",
       "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://www.energy.gov.lk/en/information-officer",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://www.energy.gov.lk/en/information-officer",
-      "data": {
-        "value": "0112575030"
+        "value": "0112585114"
       }
     },
     {
@@ -559,33 +541,6 @@
       "source": "https://www.energy.gov.lk/en/information-officer",
       "data": {
         "value": "0112575089 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0714530483 ",
-      "source": "https://www.energy.gov.lk/en/information-officer",
-      "data": {
-        "value": "0714530483 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://www.energy.gov.lk/en/information-officer",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575203",
-      "source": "https://www.energy.gov.lk/en/information-officer",
-      "data": {
-        "value": "0112575203"
       }
     },
     {
@@ -609,10 +564,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112585114",
+      "detail": "Published phone: 0714530483 ",
       "source": "https://www.energy.gov.lk/en/information-officer",
       "data": {
-        "value": "0112585114"
+        "value": "0714530483 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://www.energy.gov.lk/en/information-officer",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://www.energy.gov.lk/en/information-officer",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://www.energy.gov.lk/en/information-officer",
+      "data": {
+        "value": "0112575030"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://www.energy.gov.lk/en/information-officer",
+      "data": {
+        "value": "0112575036 "
       }
     },
     {
@@ -625,12 +616,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: admin@energy.gov.lk",
+      "detail": "Published phone: 0112575066 ",
       "source": "https://www.energy.gov.lk/en/information-officer",
       "data": {
-        "value": "admin@energy.gov.lk"
+        "value": "0112575066 "
       }
     },
     {
@@ -640,6 +631,15 @@
       "source": "https://www.energy.gov.lk/en/information-officer",
       "data": {
         "value": "info@energy.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: admin@energy.gov.lk",
+      "source": "https://www.energy.gov.lk/en/information-officer",
+      "data": {
+        "value": "admin@energy.gov.lk"
       }
     },
     {
@@ -663,46 +663,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/",
       "data": {
         "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
       }
     },
     {
@@ -721,6 +685,42 @@
       "source": "https://energy.gov.lk/en/",
       "data": {
         "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/",
+      "data": {
+        "value": "0112575030"
       }
     },
     {
@@ -771,46 +771,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/about-us/who-we-are",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/about-us/who-we-are",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/about-us/who-we-are",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/about-us/who-we-are",
       "data": {
         "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/about-us/who-we-are",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
       }
     },
     {
@@ -829,6 +793,42 @@
       "source": "https://energy.gov.lk/en/about-us/who-we-are",
       "data": {
         "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/about-us/who-we-are",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/about-us/who-we-are",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/about-us/who-we-are",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/about-us/who-we-are",
+      "data": {
+        "value": "0112575030"
       }
     },
     {
@@ -852,46 +852,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/about-us/inception",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/about-us/inception",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/about-us/inception",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/about-us/inception",
       "data": {
         "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/about-us/inception",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
       }
     },
     {
@@ -910,6 +874,42 @@
       "source": "https://energy.gov.lk/en/about-us/inception",
       "data": {
         "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/about-us/inception",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/about-us/inception",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/about-us/inception",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/about-us/inception",
+      "data": {
+        "value": "0112575030"
       }
     },
     {
@@ -933,46 +933,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/about-us/the-future",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/about-us/the-future",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/about-us/the-future",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/about-us/the-future",
       "data": {
         "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/about-us/the-future",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
       }
     },
     {
@@ -991,6 +955,42 @@
       "source": "https://energy.gov.lk/en/about-us/the-future",
       "data": {
         "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/about-us/the-future",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/about-us/the-future",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/about-us/the-future",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/about-us/the-future",
+      "data": {
+        "value": "0112575030"
       }
     },
     {
@@ -1014,46 +1014,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
       "data": {
         "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
       }
     },
     {
@@ -1075,6 +1039,42 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
+      "data": {
+        "value": "0112575030"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: info@energy.gov.lk",
@@ -1090,51 +1090,6 @@
       "source": "https://energy.gov.lk/en/about-us/the-way-we-work",
       "data": {
         "value": "* Contact Number: * Message: * Submit function onSubmitFloter(token){ document.getElementById(\"contact-us-floater\").subm"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0775812578 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0775812578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 071-4474170 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "071-4474170 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575203",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0112575203"
       }
     },
     {
@@ -1149,55 +1104,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 077-7005592 ",
+      "detail": "Published phone: 0112575089 ",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "077-7005592 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 072-6348686 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "072-6348686 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0712088220 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0712088220 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 071-8072759 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "071-8072759 "
+        "value": "0112575089 "
       }
     },
     {
@@ -1212,15 +1122,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 011-2477376 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "011-2477376 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575066",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
@@ -1230,28 +1131,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 071-5237336 ",
+      "detail": "Published phone: 0112575114",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "071-5237336 "
+        "value": "0112575114"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0718272764 ",
+      "detail": "Published phone: 0112575030",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "0718272764 "
+        "value": "0112575030"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 077-3114735 ",
+      "detail": "Published phone: 071-4444350 ",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "077-3114735 "
+        "value": "071-4444350 "
       }
     },
     {
@@ -1266,10 +1167,127 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 011-2477376 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "011-2477376 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0718272764 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "0718272764 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-7005592 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "077-7005592 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575203",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "0112575203"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-7423570 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "077-7423570 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 072-6348686 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "072-6348686 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-8072759 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "071-8072759 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 071-8050660 ",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
         "value": "071-8050660 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-4474170 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "071-4474170 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0775812578 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "0775812578 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0712088220 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "0712088220 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-3114735 ",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "077-3114735 "
       }
     },
     {
@@ -1293,55 +1311,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 077-7423570 ",
+      "detail": "Published phone: 071-5237336 ",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "077-7423570 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575089 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "0112575089 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 071-4444350 ",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "071-4444350 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: sameerapbw@gmail.com",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "sameerapbw@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: damithakum@gmail.com",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "damithakum@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: kushan@solartherm.lk",
-      "source": "https://energy.gov.lk/en/about-us/board-of-management",
-      "data": {
-        "value": "kushan@solartherm.lk"
+        "value": "071-5237336 "
       }
     },
     {
@@ -1365,10 +1338,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: info@energy.gov.lk",
+      "detail": "Published email: industrypolicy1@gmail.com",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "info@energy.gov.lk"
+        "value": "industrypolicy1@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: kushan@solartherm.lk",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "kushan@solartherm.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: lathishal@yahoo.com",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "lathishal@yahoo.com"
       }
     },
     {
@@ -1383,19 +1374,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: industrypolicy1@gmail.com",
+      "detail": "Published email: info@energy.gov.lk",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "industrypolicy1@gmail.com"
+        "value": "info@energy.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: lathishal@yahoo.com",
+      "detail": "Published email: sameerapbw@gmail.com",
       "source": "https://energy.gov.lk/en/about-us/board-of-management",
       "data": {
-        "value": "lathishal@yahoo.com"
+        "value": "sameerapbw@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: damithakum@gmail.com",
+      "source": "https://energy.gov.lk/en/about-us/board-of-management",
+      "data": {
+        "value": "damithakum@gmail.com"
       }
     },
     {
@@ -1419,150 +1419,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0715344201 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0715344201 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0703548874 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0703548874 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0715352229 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0715352229 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575203",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0777179300 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0777179300 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575066",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0112575066"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0715344130 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0715344130 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0715344147 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0715344147 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0715344120 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0715344120 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0712232701 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0712232701 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0714103686 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0714103686 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0714530483 ",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "0714530483 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0711027692 ",
       "source": "https://energy.gov.lk/en/about-us/principal-officials",
       "data": {
@@ -1581,6 +1437,132 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0712232701 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0712232701 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0714530483 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0714530483 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575066",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0112575030"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575203",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0112575203"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0715352229 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0715352229 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0715344130 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0715344130 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0715344120 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0715344120 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0714103686 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0714103686 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0715344201 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0715344201 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0703548874 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0703548874 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0707153787 ",
       "source": "https://energy.gov.lk/en/about-us/principal-officials",
       "data": {
@@ -1588,12 +1570,30 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: dilhani@energy.gov.lk",
+      "detail": "Published phone: 0715344147 ",
       "source": "https://energy.gov.lk/en/about-us/principal-officials",
       "data": {
-        "value": "dilhani@energy.gov.lk"
+        "value": "0715344147 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0777179300 ",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "0777179300 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: bulathgama@energy.gov.lk",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "bulathgama@energy.gov.lk"
       }
     },
     {
@@ -1608,37 +1608,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: nilusha@energy.gov.lk",
+      "detail": "Published email: kithsiri@energy.gov.lk",
       "source": "https://energy.gov.lk/en/about-us/principal-officials",
       "data": {
-        "value": "nilusha@energy.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dg@energy.gov.lk",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "dg@energy.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: wijethunga@energy.gov.lk",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "wijethunga@energy.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: nadeera@energy.gov.lk",
-      "source": "https://energy.gov.lk/en/about-us/principal-officials",
-      "data": {
-        "value": "nadeera@energy.gov.lk"
+        "value": "kithsiri@energy.gov.lk"
       }
     },
     {
@@ -1653,10 +1626,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: bulathgama@energy.gov.lk",
+      "detail": "Published email: dilhani@energy.gov.lk",
       "source": "https://energy.gov.lk/en/about-us/principal-officials",
       "data": {
-        "value": "bulathgama@energy.gov.lk"
+        "value": "dilhani@energy.gov.lk"
       }
     },
     {
@@ -1689,6 +1662,33 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: nilusha@energy.gov.lk",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "nilusha@energy.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nadeera@energy.gov.lk",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "nadeera@energy.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: wijethunga@energy.gov.lk",
+      "source": "https://energy.gov.lk/en/about-us/principal-officials",
+      "data": {
+        "value": "wijethunga@energy.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: chamila@energy.gov.lk",
       "source": "https://energy.gov.lk/en/about-us/principal-officials",
       "data": {
@@ -1698,10 +1698,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: kithsiri@energy.gov.lk",
+      "detail": "Published email: dg@energy.gov.lk",
       "source": "https://energy.gov.lk/en/about-us/principal-officials",
       "data": {
-        "value": "kithsiri@energy.gov.lk"
+        "value": "dg@energy.gov.lk"
       }
     },
     {
@@ -1725,46 +1725,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112575036 ",
-      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
-      "data": {
-        "value": "0112575036 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114",
-      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
-      "data": {
-        "value": "0112575114"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575030",
-      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
-      "data": {
-        "value": "0112575030"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112575203",
       "source": "https://energy.gov.lk/en/energy-management/what-we-do",
       "data": {
         "value": "0112575203"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
-      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
-      "data": {
-        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
       }
     },
     {
@@ -1783,6 +1747,42 @@
       "source": "https://energy.gov.lk/en/energy-management/what-we-do",
       "data": {
         "value": "0112575066"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575036 ",
+      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
+      "data": {
+        "value": "0112575036 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114",
+      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
+      "data": {
+        "value": "0112575114"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575114, 0112575066, 0112575030, 0112575203, 0112575036",
+      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
+      "data": {
+        "value": "0112575114, 0112575066, 0112575030, 0112575203, 0112575036"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112575030",
+      "source": "https://energy.gov.lk/en/energy-management/what-we-do",
+      "data": {
+        "value": "0112575030"
       }
     },
     {
@@ -1840,7 +1840,7 @@
         "https://energy.gov.lk/index.php/en/",
         "https://energy.gov.lk/en/"
       ],
-      "elapsed_ms": 834,
+      "elapsed_ms": 1532,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1861,7 +1861,7 @@
         "https://energy.gov.lk/index.php/en/",
         "https://energy.gov.lk/en/"
       ],
-      "elapsed_ms": 833,
+      "elapsed_ms": 1073,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1882,7 +1882,7 @@
         "https://energy.gov.lk/index.php/en/contact-us",
         "https://energy.gov.lk/en/contact-us"
       ],
-      "elapsed_ms": 681,
+      "elapsed_ms": 813,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1891,7 +1891,7 @@
       "status_code": 200,
       "final_url": "https://www.energy.gov.lk/en/information-officer",
       "redirects": [],
-      "elapsed_ms": 919,
+      "elapsed_ms": 1321,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1903,7 +1903,7 @@
         "https://energy.gov.lk/index.php/en/",
         "https://energy.gov.lk/en/"
       ],
-      "elapsed_ms": 832,
+      "elapsed_ms": 1336,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1915,7 +1915,7 @@
         "https://energy.gov.lk/index.php/en/about-us/who-we-are",
         "https://energy.gov.lk/en/about-us/who-we-are"
       ],
-      "elapsed_ms": 655,
+      "elapsed_ms": 879,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1927,7 +1927,7 @@
         "https://energy.gov.lk/index.php/en/about-us/inception",
         "https://energy.gov.lk/en/about-us/inception"
       ],
-      "elapsed_ms": 659,
+      "elapsed_ms": 1279,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1939,7 +1939,7 @@
         "https://energy.gov.lk/index.php/en/about-us/the-future",
         "https://energy.gov.lk/en/about-us/the-future"
       ],
-      "elapsed_ms": 661,
+      "elapsed_ms": 817,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1951,7 +1951,7 @@
         "https://energy.gov.lk/index.php/en/about-us/the-way-we-work",
         "https://energy.gov.lk/en/about-us/the-way-we-work"
       ],
-      "elapsed_ms": 659,
+      "elapsed_ms": 859,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1963,7 +1963,7 @@
         "https://energy.gov.lk/index.php/en/about-us/board-of-management",
         "https://energy.gov.lk/en/about-us/board-of-management"
       ],
-      "elapsed_ms": 1091,
+      "elapsed_ms": 801,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1975,7 +1975,7 @@
         "https://energy.gov.lk/index.php/en/about-us/principal-officials",
         "https://energy.gov.lk/en/about-us/principal-officials"
       ],
-      "elapsed_ms": 657,
+      "elapsed_ms": 794,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1987,7 +1987,7 @@
         "https://energy.gov.lk/index.php/en/energy-management/what-we-do",
         "https://energy.gov.lk/en/energy-management/what-we-do"
       ],
-      "elapsed_ms": 669,
+      "elapsed_ms": 795,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1995,74 +1995,74 @@
   "snapshots": [
     {
       "url": "https://energy.gov.lk/en/",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-01-cf098698341a.html",
-      "sha256": "cf098698341a0f9ec4215f074864c4dd8f2957abcabed3a3f0b232b3123aaf56",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-01-5e3b1bdff0f9.html",
+      "sha256": "5e3b1bdff0f94e61d85e47505c3d877d41c41a888d227fd7ada596f0a897c4b3",
       "bytes": 96098
     },
     {
       "url": "https://energy.gov.lk/en/",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-02-116c22b6bb3f.html",
-      "sha256": "116c22b6bb3fe99c02a3a6d1003be5be726b7128555aeb446b80ecdb6f6ccfa2",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-02-eab6330a441f.html",
+      "sha256": "eab6330a441fbe2054b3a5eb82979078dad76f29f99e6fd573b3d9d951df14aa",
       "bytes": 96098
     },
     {
       "url": "https://energy.gov.lk/en/contact-us",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-03-6808289f1327.html",
-      "sha256": "6808289f132707522d047295330809c731cf96538c16236353fc10450089817e",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-03-44695696e0ae.html",
+      "sha256": "44695696e0ae6fbab3fe255204acec828b446e8065160efd59e9c67b07abea34",
       "bytes": 28635
     },
     {
       "url": "https://www.energy.gov.lk/en/information-officer",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-04-32980f1290ac.html",
-      "sha256": "32980f1290ac249ba26820e3756c1d8dbad7d961a3b8e5b492273c5e946fde9c",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-04-b8c58ff9ee60.html",
+      "sha256": "b8c58ff9ee60845a9319ed1afb5db5f1a9311e20762885e85bc0b5fcad02e50f",
       "bytes": 27662
     },
     {
       "url": "https://energy.gov.lk/en/",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-05-68910125a352.html",
-      "sha256": "68910125a352fa1d2f29982a1d38d0639a085440d9cb9277a1f7c2bb8cee612b",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-05-0c3346e7f305.html",
+      "sha256": "0c3346e7f30547c439c13a838a4ee0779aac81ba3ecc7da8f2af743b5c715510",
       "bytes": 96098
     },
     {
       "url": "https://energy.gov.lk/en/about-us/who-we-are",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-06-dab66be2d749.html",
-      "sha256": "dab66be2d749297e091054a72acc0d1f0c33ef0cce50f45962942e0ec147dd1a",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-06-3ab022acac4f.html",
+      "sha256": "3ab022acac4f19284a4b16c7351f2a80618005a62f08ba1e237e293811eaf020",
       "bytes": 31481
     },
     {
       "url": "https://energy.gov.lk/en/about-us/inception",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-07-b7d5a1963326.html",
-      "sha256": "b7d5a19633265e74c17e36198c3fb2589d93bc9364e9846c052610583d42c2e8",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-07-0fac372ca857.html",
+      "sha256": "0fac372ca85727e40c5072e8acb01614d94623ee8a655ca90f06b31a85761ae5",
       "bytes": 29677
     },
     {
       "url": "https://energy.gov.lk/en/about-us/the-future",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-08-891580ce5f38.html",
-      "sha256": "891580ce5f38322ce4e6c65059e2a8245a83931e8995a665b2f6d268464b1d8c",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-08-bae2cf918616.html",
+      "sha256": "bae2cf918616c5febcab40f2c508d88a3d13b45a7a447bbc0f79d871a8856d40",
       "bytes": 34812
     },
     {
       "url": "https://energy.gov.lk/en/about-us/the-way-we-work",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-09-8a3e44e79c7d.html",
-      "sha256": "8a3e44e79c7d649ce5a3f2a0d81e1df664a065a6f8c4752b611749c605d0880d",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-09-f34644ead1cb.html",
+      "sha256": "f34644ead1cbc7450e810836ae1268fc87b3012b7c37b6739de283cf43f213f8",
       "bytes": 33062
     },
     {
       "url": "https://energy.gov.lk/en/about-us/board-of-management",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-10-1c13586db2c0.html",
-      "sha256": "1c13586db2c0a772b8c5a49f0c80e8586166228997af4edbb4ab190780d8decd",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-10-e3785db36cba.html",
+      "sha256": "e3785db36cbaeb0f73faa3ec8750dd0322fa11fa614179525140e7d3b4e9c48b",
       "bytes": 39459
     },
     {
       "url": "https://energy.gov.lk/en/about-us/principal-officials",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-11-380bde1e8a04.html",
-      "sha256": "380bde1e8a044d6545da84323284baf77f93c9444cf095f98375e68736331bba",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-11-9e613deb28de.html",
+      "sha256": "9e613deb28de383e2de42dcb01f95fe4603b67478632c9447c93c8225f5e977a",
       "bytes": 35426
     },
     {
       "url": "https://energy.gov.lk/en/energy-management/what-we-do",
-      "path": "audit.output/energy.gov.lk/20260926.0620/snapshots/page-12-a66950254a96.html",
-      "sha256": "a66950254a96336791ccec1dd859e1e60715204d7a2394b1e627b7eceef1ac43",
+      "path": "audit.output/energy.gov.lk/20260927.0627/snapshots/page-12-d0526a3fb9b5.html",
+      "sha256": "d0526a3fb9b544a0c7eef149d4a78c807091969d11838cc07e7e934fedf34575",
       "bytes": 34955
     }
   ],
@@ -2149,7 +2149,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: delivered by Mr. Lahiru Sadaruwan, Development Officer of the Industrial Development Authority, who emphasized the impor; Phone: 0112575036 (40 phone numbers found); Email: info@energy.gov.lk (22 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: delivered by Mr. Lahiru Sadaruwan, Development Officer of the Industrial Development Authority, who emphasized the impor; Phone: 0112575203 (40 phone numbers found); Email: info@energy.gov.lk (22 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2162,7 +2162,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0112575036 (40 phone numbers found); Email: info@energy.gov.lk (22 email addresses found)"
+          "reason": "Phone: 0112575203 (40 phone numbers found); Email: info@energy.gov.lk (22 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2241,7 +2241,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

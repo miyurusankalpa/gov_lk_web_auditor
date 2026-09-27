@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "a2e7101a-0691-45d3-a1b7-b7a4566c276f",
+  "audit_id": "2c47eeb1-451b-4c23-8374-d323d1d42c60",
   "url": "https://emb-amman.gov.lk",
   "normalized_url": "https://emb-amman.gov.lk/",
-  "started_at": "2026-09-26T06:34:31.655550+05:30",
-  "completed_at": "2026-09-26T06:35:18.654011+05:30",
+  "started_at": "2026-09-27T06:39:42.915914+05:30",
+  "completed_at": "2026-09-27T06:40:29.725494+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,135 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:34:32.225864+05:30"
+      "observed_at": "2026-09-27T06:39:44.015583+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:34:32.225881+05:30"
+      "observed_at": "2026-09-27T06:39:44.015606+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:34:32.825387+05:30"
+      "observed_at": "2026-09-27T06:39:45.184775+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-amman.gov.lk/en",
       "source": "https://emb-amman.gov.lk/",
-      "observed_at": "2026-09-26T06:35:16.980214+05:30"
+      "observed_at": "2026-09-27T06:40:27.561989+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-amman.gov.lk/en",
       "source": "http://emb-amman.gov.lk/",
-      "observed_at": "2026-09-26T06:35:16.980232+05:30"
+      "observed_at": "2026-09-27T06:40:27.562007+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-amman.gov.lk/en",
       "source": "https://emb-amman.gov.lk/",
-      "observed_at": "2026-09-26T06:35:16.980236+05:30"
+      "observed_at": "2026-09-27T06:40:27.562012+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-amman.gov.lk/en",
       "source": "http://emb-amman.gov.lk/",
-      "observed_at": "2026-09-26T06:35:16.980238+05:30"
+      "observed_at": "2026-09-27T06:40:27.562015+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-amman.gov.lk/en/contact",
       "source": "https://www.emb-amman.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:35:16.980241+05:30"
+      "observed_at": "2026-09-27T06:40:27.562019+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-amman.gov.lk/en/other-services",
       "source": "https://emb-amman.gov.lk/en/other-services",
-      "observed_at": "2026-09-26T06:35:16.980243+05:30"
+      "observed_at": "2026-09-27T06:40:27.562022+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-amman.gov.lk/en/sri-lanka-profile",
       "source": "https://www.emb-amman.gov.lk/en/sri-lanka-profile",
-      "observed_at": "2026-09-26T06:35:16.980246+05:30"
+      "observed_at": "2026-09-27T06:40:27.562025+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-amman.gov.lk/en/bilateral-relations",
       "source": "https://www.emb-amman.gov.lk/en/bilateral-relations",
-      "observed_at": "2026-09-26T06:35:16.980248+05:30"
+      "observed_at": "2026-09-27T06:40:27.562027+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-amman.gov.lk/en/tender-notices",
       "source": "https://www.emb-amman.gov.lk/en/tender-notices",
-      "observed_at": "2026-09-26T06:35:16.980250+05:30"
+      "observed_at": "2026-09-27T06:40:27.562030+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-amman.gov.lk/en/appointment",
       "source": "https://www.emb-amman.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:35:16.980252+05:30"
+      "observed_at": "2026-09-27T06:40:27.562033+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ed3888d70effc4a84",
       "source": "https://emb-amman.gov.lk/en/appointment?serviceId=6a37a00ed3888d70effc4a84",
-      "observed_at": "2026-09-26T06:35:16.980254+05:30"
+      "observed_at": "2026-09-27T06:40:27.562036+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00cd3888d70effc4a61",
       "source": "https://emb-amman.gov.lk/en/appointment?serviceId=6a37a00cd3888d70effc4a61",
-      "observed_at": "2026-09-26T06:35:16.980271+05:30"
+      "observed_at": "2026-09-27T06:40:27.562039+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ad3888d70effc4a3c",
       "source": "https://emb-amman.gov.lk/en/appointment?serviceId=6a37a00ad3888d70effc4a3c",
-      "observed_at": "2026-09-26T06:35:16.980275+05:30"
+      "observed_at": "2026-09-27T06:40:27.562041+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a013883a089ccb579edc",
       "source": "https://emb-amman.gov.lk/en/appointment?serviceId=6a37a013883a089ccb579edc",
-      "observed_at": "2026-09-26T06:35:16.980278+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +96265820611",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +96265820612",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820612"
-      }
+      "observed_at": "2026-09-27T06:40:27.562044+05:30"
     },
     {
       "check": "phone",
@@ -168,10 +150,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: + 962777313323",
+      "detail": "Published phone: +962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+ 962777313323"
+        "value": "+962777313323"
       }
     },
     {
@@ -186,6 +168,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +96265820612",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0-4597-9949-3",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
@@ -195,10 +186,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +962777313323",
+      "detail": "Published phone: + 962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+962777313323"
+        "value": "+ 962777313323"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +96265820611",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820611"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -208,24 +226,6 @@
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -258,24 +258,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +96265820611",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +96265820612",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820612"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0322003687",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
@@ -285,10 +267,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: + 962777313323",
+      "detail": "Published phone: +962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+ 962777313323"
+        "value": "+962777313323"
       }
     },
     {
@@ -303,6 +285,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +96265820612",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0-4597-9949-3",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
@@ -312,10 +303,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +962777313323",
+      "detail": "Published phone: + 962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+962777313323"
+        "value": "+ 962777313323"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +96265820611",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820611"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -325,24 +343,6 @@
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -375,24 +375,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +96265820611",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +96265820612",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820612"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0322003687",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
@@ -402,10 +384,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: + 962777313323",
+      "detail": "Published phone: +962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+ 962777313323"
+        "value": "+962777313323"
       }
     },
     {
@@ -420,6 +402,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +96265820612",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0-4597-9949-3",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
@@ -429,10 +420,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +962777313323",
+      "detail": "Published phone: + 962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+962777313323"
+        "value": "+ 962777313323"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +96265820611",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820611"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -442,24 +460,6 @@
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -492,24 +492,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +96265820611",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +96265820612",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "+96265820612"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0322003687",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
@@ -519,10 +501,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: + 962777313323",
+      "detail": "Published phone: +962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+ 962777313323"
+        "value": "+962777313323"
       }
     },
     {
@@ -537,6 +519,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +96265820612",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820612"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0-4597-9949-3",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
@@ -546,10 +537,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +962777313323",
+      "detail": "Published phone: + 962777313323",
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
-        "value": "+962777313323"
+        "value": "+ 962777313323"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +96265820611",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "+96265820611"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "source": "https://www.emb-amman.gov.lk/en",
+      "data": {
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -559,24 +577,6 @@
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
-      "source": "https://www.emb-amman.gov.lk/en",
-      "data": {
-        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
@@ -604,6 +604,15 @@
       "source": "https://www.emb-amman.gov.lk/en",
       "data": {
         "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: + 962777313323",
+      "source": "https://www.emb-amman.gov.lk/en/contact",
+      "data": {
+        "value": "+ 962777313323"
       }
     },
     {
@@ -618,15 +627,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: + 962777313323",
-      "source": "https://www.emb-amman.gov.lk/en/contact",
-      "data": {
-        "value": "+ 962777313323"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0009199486",
       "source": "https://www.emb-amman.gov.lk/en/contact",
       "data": {
@@ -636,19 +636,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/contact",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -690,19 +690,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/other-services",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/other-services",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -744,19 +744,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/sri-lanka-profile",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/sri-lanka-profile",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -798,19 +798,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/bilateral-relations",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -852,19 +852,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/tender-notices",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/tender-notices",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -906,19 +906,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/appointment",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1005,19 +1005,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ed3888d70effc4a84",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ed3888d70effc4a84",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1104,19 +1104,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00cd3888d70effc4a61",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00cd3888d70effc4a61",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1203,19 +1203,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ad3888d70effc4a3c",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ad3888d70effc4a3c",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1302,19 +1302,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.amman@mfa.gov.lk",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a013883a089ccb579edc",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.amman@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.amman@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a013883a089ccb579edc",
       "data": {
-        "value": "slemb.amman@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1383,7 +1383,7 @@
     {
       "check": "page_text",
       "status": "pass",
-      "detail": "Substantive page content: 6073 visible characters across 14 pages",
+      "detail": "Substantive page content: 6070 visible characters across 14 pages",
       "source": "https://emb-amman.gov.lk/"
     }
   ],
@@ -1417,7 +1417,7 @@
         "https://www.emb-amman.gov.lk/",
         "https://www.emb-amman.gov.lk/en"
       ],
-      "elapsed_ms": 1671,
+      "elapsed_ms": 2433,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1429,7 +1429,7 @@
         "https://www.emb-amman.gov.lk/",
         "https://www.emb-amman.gov.lk/en"
       ],
-      "elapsed_ms": 747,
+      "elapsed_ms": 2089,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1441,7 +1441,7 @@
         "https://www.emb-amman.gov.lk/",
         "https://www.emb-amman.gov.lk/en"
       ],
-      "elapsed_ms": 2367,
+      "elapsed_ms": 1816,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1453,7 +1453,7 @@
         "https://www.emb-amman.gov.lk/",
         "https://www.emb-amman.gov.lk/en"
       ],
-      "elapsed_ms": 887,
+      "elapsed_ms": 1280,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1462,7 +1462,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-amman.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 2931,
+      "elapsed_ms": 991,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1473,7 +1473,7 @@
       "redirects": [
         "https://www.emb-amman.gov.lk/en/other-services"
       ],
-      "elapsed_ms": 732,
+      "elapsed_ms": 1557,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1482,7 +1482,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-amman.gov.lk/en/sri-lanka-profile",
       "redirects": [],
-      "elapsed_ms": 1099,
+      "elapsed_ms": 1461,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1491,7 +1491,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-amman.gov.lk/en/bilateral-relations",
       "redirects": [],
-      "elapsed_ms": 892,
+      "elapsed_ms": 881,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1500,7 +1500,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-amman.gov.lk/en/tender-notices",
       "redirects": [],
-      "elapsed_ms": 3692,
+      "elapsed_ms": 2332,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1509,7 +1509,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-amman.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2156,
+      "elapsed_ms": 2164,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1520,7 +1520,7 @@
       "redirects": [
         "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ed3888d70effc4a84"
       ],
-      "elapsed_ms": 2762,
+      "elapsed_ms": 2436,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1531,7 +1531,7 @@
       "redirects": [
         "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00cd3888d70effc4a61"
       ],
-      "elapsed_ms": 3379,
+      "elapsed_ms": 2890,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1542,7 +1542,7 @@
       "redirects": [
         "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ad3888d70effc4a3c"
       ],
-      "elapsed_ms": 3315,
+      "elapsed_ms": 3329,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1553,7 +1553,7 @@
       "redirects": [
         "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a013883a089ccb579edc"
       ],
-      "elapsed_ms": 5281,
+      "elapsed_ms": 2562,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1561,86 +1561,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-amman.gov.lk/en",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-01-6b04c8f07034.html",
-      "sha256": "6b04c8f070347b07c2b0ec332c4a5189033f2a06d2432cee79614967b3583760",
-      "bytes": 323956
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-01-7cab23f6a146.html",
+      "sha256": "7cab23f6a146fd07f1cac79cc563f32b405d11bb57c2b2c8636fb4d246853d4c",
+      "bytes": 323953
     },
     {
       "url": "https://www.emb-amman.gov.lk/en",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-02-944ed48448a0.html",
-      "sha256": "944ed48448a01144bb1a34c06596c81fcf43d1bc41f865e562bb1d02ab38f4e0",
-      "bytes": 323956
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-02-96bdbcf18f86.html",
+      "sha256": "96bdbcf18f86bd1445ebd82cabba375c585c84e1504a8eb18ddfdf78029ffbaf",
+      "bytes": 323953
     },
     {
       "url": "https://www.emb-amman.gov.lk/en",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-03-aa881f53a1fb.html",
-      "sha256": "aa881f53a1fb990574da416d3720cd1a846aec0ed3ac2381c97cf223161804d0",
-      "bytes": 323956
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-03-8520a472109c.html",
+      "sha256": "8520a472109c898093809d97a18221072b5fe5e1d5713b8aa69874d56be23964",
+      "bytes": 323953
     },
     {
       "url": "https://www.emb-amman.gov.lk/en",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-04-af8a4b4c8091.html",
-      "sha256": "af8a4b4c8091d9e044c5d8c7b269b34635d95baf1389f2597fa3d33a9c7ed882",
-      "bytes": 323956
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-04-8ad2d8b58e55.html",
+      "sha256": "8ad2d8b58e556f5110f465a99d938fcf8d782a782b4e1f21d7d90ac378b465c7",
+      "bytes": 323953
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/contact",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-05-36a7320f9311.html",
-      "sha256": "36a7320f9311719f2c55b68261c3cce15bd0aad26d7b27282659b67749f3b29b",
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-05-b372d46b46ee.html",
+      "sha256": "b372d46b46ee4f54fa4ee8886305e8e082a796a4e1c2b6998763cba4ade0fe7f",
       "bytes": 103540
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/other-services",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-06-55527bf32a91.html",
-      "sha256": "55527bf32a914bbb3b3453299b7a8e8be31e662439672128b7737ca7d3635be9",
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-06-2f0613aa35cf.html",
+      "sha256": "2f0613aa35cf8878cac138a702474d1a4c028b40fe050fc91f19d74390f7172a",
       "bytes": 97583
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/sri-lanka-profile",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-07-e0825c31042b.html",
-      "sha256": "e0825c31042b5cf049cae858e5832600e6fc74c1b085c3c503a62f9c345d50f1",
-      "bytes": 113268
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-07-e6eadd2b8388.html",
+      "sha256": "e6eadd2b83885f72449b55ef457f869fd68354cad18e698ec66af2c8f19143ad",
+      "bytes": 113368
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/bilateral-relations",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-08-b6c3330f8e52.html",
-      "sha256": "b6c3330f8e52b4414494fdc64559848be61031cf3052e2cdfdc1f1d999623aba",
-      "bytes": 105343
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-08-b214894ec470.html",
+      "sha256": "b214894ec470a214c190538ea9ce2346474b7ecba79f87f3ed4b962828c6df4c",
+      "bytes": 105443
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/tender-notices",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-09-32759742a020.html",
-      "sha256": "32759742a0207b30c69f2ca14c2b0cb9c1b750ad33f1097fd49ea59a4fb089ae",
-      "bytes": 99982
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-09-7a75d44bfdf2.html",
+      "sha256": "7a75d44bfdf29ede5bc192b4ec4217e111044e02ab6f80abc4fc7a632325e1c3",
+      "bytes": 99882
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/appointment",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-10-df3757eae7c3.html",
-      "sha256": "df3757eae7c304df4b6f9672dbe28ea852db6d6fafd81e08df220f8042bb5fe3",
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-10-17de0054acc6.html",
+      "sha256": "17de0054acc678d9fffc7d5db1959879e2b8165915a2333a08881b1cc7e0d987",
       "bytes": 295745
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ed3888d70effc4a84",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-11-2c7addee2ff1.html",
-      "sha256": "2c7addee2ff1cf982708a2e146622bb17df4f7e6031f09478f542900180fc2b5",
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-11-afb39ea5b369.html",
+      "sha256": "afb39ea5b369d90dd1c91c92b6de4fe09edc7cdc27b9b18cf873f7240d3cf51b",
       "bytes": 295900
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00cd3888d70effc4a61",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-12-44e67fe3c235.html",
-      "sha256": "44e67fe3c2354068f7e9c939c9746e12ebb864aaf3036580325fe991ed00dfd2",
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-12-f4dc7d6ebe5d.html",
+      "sha256": "f4dc7d6ebe5d0031c87b6fb412c6abec8676647c8b46d5bc4d4f2489df04f6d8",
       "bytes": 295900
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a00ad3888d70effc4a3c",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-13-2760a1cf63df.html",
-      "sha256": "2760a1cf63dff400463b1c64a245eff6fd7a33823905ed98c52dea5c56994264",
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-13-7f9fd37aaeae.html",
+      "sha256": "7f9fd37aaeaef706f9605ea7d79e43b0369c84b0d5d2d007ff728ac50a4fc7fb",
       "bytes": 295900
     },
     {
       "url": "https://www.emb-amman.gov.lk/en/appointment?serviceId=6a37a013883a089ccb579edc",
-      "path": "audit.output/emb-amman.gov.lk/20260926.0634/snapshots/page-14-aa978e3bb01a.html",
-      "sha256": "aa978e3bb01a01c1d4a71141ff7ae8ec6b186b257549abb826902fc11d0d45b6",
+      "path": "audit.output/emb-amman.gov.lk/20260927.0639/snapshots/page-14-cb79a69542ac.html",
+      "sha256": "cb79a69542ace250dd3d2dbe30bf2a33484ba6a54df3417e1f3205823918a819",
       "bytes": 295900
     }
   ],
@@ -1727,7 +1727,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Al Madina Al Munawa Street, P.O Box 830731, Amman General Number: +96265820611 , +96265820612 Hotline (24/7) : + 962 777; Phone: +96265820611 (8 phone numbers found); Email: john@example.com (2 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: Al Madina Al Munawa Street, P.O Box 830731, Amman General Number: +96265820611 , +96265820612 Hotline (24/7) : + 962 777; Phone: 0322003687 (8 phone numbers found); Email: slemb.amman@mfa.gov.lk (2 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1740,7 +1740,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +96265820611 (8 phone numbers found); Email: john@example.com (2 email addresses found)"
+          "reason": "Phone: 0322003687 (8 phone numbers found); Email: slemb.amman@mfa.gov.lk (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1819,7 +1819,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "a378bf50-707b-4a64-b586-7be328b10671",
+  "audit_id": "7efaebb9-440a-4702-8a2d-4eaeee67283f",
   "url": "https://emb-rome.gov.lk",
   "normalized_url": "https://emb-rome.gov.lk/",
-  "started_at": "2026-09-26T06:32:14.568232+05:30",
-  "completed_at": "2026-09-26T06:32:55.412424+05:30",
+  "started_at": "2026-09-27T06:37:23.124969+05:30",
+  "completed_at": "2026-09-27T06:38:17.640697+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:32:14.962233+05:30"
+      "observed_at": "2026-09-27T06:37:23.534699+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:32:14.962253+05:30"
+      "observed_at": "2026-09-27T06:37:23.534718+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:32:15.582235+05:30"
+      "observed_at": "2026-09-27T06:37:24.242852+05:30"
     },
     {
       "check": "http",
-      "status": "fail",
-      "detail": "Probe 1: HTTP 502 at https://www.emb-rome.gov.lk/",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.emb-rome.gov.lk/en",
       "source": "https://emb-rome.gov.lk/",
-      "observed_at": "2026-09-26T06:32:53.084638+05:30"
+      "observed_at": "2026-09-27T06:38:12.591137+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-rome.gov.lk/en",
       "source": "http://emb-rome.gov.lk/",
-      "observed_at": "2026-09-26T06:32:53.084656+05:30"
+      "observed_at": "2026-09-27T06:38:12.591155+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-rome.gov.lk/en",
       "source": "https://emb-rome.gov.lk/",
-      "observed_at": "2026-09-26T06:32:53.084659+05:30"
+      "observed_at": "2026-09-27T06:38:12.591159+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-rome.gov.lk/en",
       "source": "http://emb-rome.gov.lk/",
-      "observed_at": "2026-09-26T06:32:53.084662+05:30"
+      "observed_at": "2026-09-27T06:38:12.591162+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-rome.gov.lk/en/contact",
       "source": "https://www.emb-rome.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:32:53.084665+05:30"
+      "observed_at": "2026-09-27T06:38:12.591165+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-rome.gov.lk/en/bilateral-relations",
       "source": "https://www.emb-rome.gov.lk/en/bilateral-relations",
-      "observed_at": "2026-09-26T06:32:53.084667+05:30"
+      "observed_at": "2026-09-27T06:38:12.591168+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-rome.gov.lk/en/visit-srilanka",
       "source": "https://www.emb-rome.gov.lk/en/visit-srilanka",
-      "observed_at": "2026-09-26T06:32:53.084670+05:30"
+      "observed_at": "2026-09-27T06:38:12.591171+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576eda3e3c27f18df43310",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576eda3e3c27f18df43310",
-      "observed_at": "2026-09-26T06:32:53.084672+05:30"
+      "observed_at": "2026-09-27T06:38:12.591174+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f071e1fb6272918852c",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f071e1fb6272918852c",
-      "observed_at": "2026-09-26T06:32:53.084674+05:30"
+      "observed_at": "2026-09-27T06:38:12.591176+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f443e3c27f18df43498",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f443e3c27f18df43498",
-      "observed_at": "2026-09-26T06:32:53.084676+05:30"
+      "observed_at": "2026-09-27T06:38:12.591179+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f993e3c27f18df43589",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f993e3c27f18df43589",
-      "observed_at": "2026-09-26T06:32:53.084678+05:30"
+      "observed_at": "2026-09-27T06:38:12.591182+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fdd3e3c27f18df436bf",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fdd3e3c27f18df436bf",
-      "observed_at": "2026-09-26T06:32:53.084680+05:30"
+      "observed_at": "2026-09-27T06:38:12.591184+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fad3e3c27f18df43626",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fad3e3c27f18df43626",
-      "observed_at": "2026-09-26T06:32:53.084682+05:30"
+      "observed_at": "2026-09-27T06:38:12.591187+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fc41e1fb6272918866e",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fc41e1fb6272918866e",
-      "observed_at": "2026-09-26T06:32:53.084684+05:30"
+      "observed_at": "2026-09-27T06:38:12.591190+05:30"
     },
     {
       "check": "phone",
@@ -159,19 +159,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-rome.gov.lk/en",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -222,19 +222,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-rome.gov.lk/en",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -285,6 +285,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-rome.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en",
       "data": {
@@ -294,10 +303,64 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "source": "https://www.emb-rome.gov.lk/en",
+      "data": {
+        "value": "slemb.rome@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: Via Adige, 2 - 00198 Rome, Italy City/country: Rome, Italy Contact number: Telephone: +39 06 884 0801 WhatsApp: +39 340 ",
+      "source": "https://www.emb-rome.gov.lk/en",
+      "data": {
+        "value": "Via Adige, 2 - 00198 Rome, Italy City/country: Rome, Italy Contact number: Telephone: +39 06 884 0801 WhatsApp: +39 340 "
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.emb-rome.gov.lk/en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +393403718117",
+      "source": "https://www.emb-rome.gov.lk/en",
+      "data": {
+        "value": "+393403718117"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +39068840801",
+      "source": "https://www.emb-rome.gov.lk/en",
+      "data": {
+        "value": "+39068840801"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-rome.gov.lk/en",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "source": "https://www.emb-rome.gov.lk/en",
+      "data": {
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -501,19 +564,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: mbd@rgd.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576eda3e3c27f18df43310",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "mbd@rgd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mbd@rgd.gov.lk",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576eda3e3c27f18df43310",
       "data": {
-        "value": "mbd@rgd.gov.lk"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -618,19 +681,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: mbd@rgd.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f071e1fb6272918852c",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "mbd@rgd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mbd@rgd.gov.lk",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f071e1fb6272918852c",
       "data": {
-        "value": "mbd@rgd.gov.lk"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -735,19 +798,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: mbd@rgd.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f443e3c27f18df43498",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "mbd@rgd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mbd@rgd.gov.lk",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f443e3c27f18df43498",
       "data": {
-        "value": "mbd@rgd.gov.lk"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -852,19 +915,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: mbd@rgd.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f993e3c27f18df43589",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "mbd@rgd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mbd@rgd.gov.lk",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f993e3c27f18df43589",
       "data": {
-        "value": "mbd@rgd.gov.lk"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -969,19 +1032,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: mbd@rgd.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fdd3e3c27f18df436bf",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "mbd@rgd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mbd@rgd.gov.lk",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fdd3e3c27f18df436bf",
       "data": {
-        "value": "mbd@rgd.gov.lk"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -1086,19 +1149,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: mbd@rgd.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fad3e3c27f18df43626",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "mbd@rgd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mbd@rgd.gov.lk",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fad3e3c27f18df43626",
       "data": {
-        "value": "mbd@rgd.gov.lk"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -1203,19 +1266,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.rome@mfa.gov.lk",
+      "detail": "Published email: mbd@rgd.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fc41e1fb6272918866e",
       "data": {
-        "value": "slemb.rome@mfa.gov.lk"
+        "value": "mbd@rgd.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: mbd@rgd.gov.lk",
+      "detail": "Published email: slemb.rome@mfa.gov.lk",
       "source": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fc41e1fb6272918866e",
       "data": {
-        "value": "mbd@rgd.gov.lk"
+        "value": "slemb.rome@mfa.gov.lk"
       }
     },
     {
@@ -1339,13 +1402,14 @@
     },
     {
       "url": "https://emb-rome.gov.lk/",
-      "status_code": 502,
-      "final_url": "https://www.emb-rome.gov.lk/",
+      "status_code": 200,
+      "final_url": "https://www.emb-rome.gov.lk/en",
       "redirects": [
-        "https://www.emb-rome.gov.lk/"
+        "https://www.emb-rome.gov.lk/",
+        "https://www.emb-rome.gov.lk/en"
       ],
-      "elapsed_ms": 546,
-      "content_type": "text/html",
+      "elapsed_ms": 1966,
+      "content_type": "text/html; charset=utf-8",
       "error": null
     },
     {
@@ -1356,7 +1420,7 @@
         "https://www.emb-rome.gov.lk/",
         "https://www.emb-rome.gov.lk/en"
       ],
-      "elapsed_ms": 1762,
+      "elapsed_ms": 1162,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1368,7 +1432,7 @@
         "https://www.emb-rome.gov.lk/",
         "https://www.emb-rome.gov.lk/en"
       ],
-      "elapsed_ms": 1298,
+      "elapsed_ms": 2240,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1380,7 +1444,7 @@
         "https://www.emb-rome.gov.lk/",
         "https://www.emb-rome.gov.lk/en"
       ],
-      "elapsed_ms": 1563,
+      "elapsed_ms": 1720,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1389,7 +1453,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 815,
+      "elapsed_ms": 773,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1398,7 +1462,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/bilateral-relations",
       "redirects": [],
-      "elapsed_ms": 1130,
+      "elapsed_ms": 988,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1407,7 +1471,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/visit-srilanka",
       "redirects": [],
-      "elapsed_ms": 1091,
+      "elapsed_ms": 1826,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1416,7 +1480,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576eda3e3c27f18df43310",
       "redirects": [],
-      "elapsed_ms": 3081,
+      "elapsed_ms": 4467,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1425,7 +1489,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f071e1fb6272918852c",
       "redirects": [],
-      "elapsed_ms": 4012,
+      "elapsed_ms": 5308,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1434,7 +1498,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f443e3c27f18df43498",
       "redirects": [],
-      "elapsed_ms": 2628,
+      "elapsed_ms": 4459,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1443,7 +1507,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f993e3c27f18df43589",
       "redirects": [],
-      "elapsed_ms": 4160,
+      "elapsed_ms": 2712,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1452,7 +1516,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fdd3e3c27f18df436bf",
       "redirects": [],
-      "elapsed_ms": 3129,
+      "elapsed_ms": 4228,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1461,7 +1525,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fad3e3c27f18df43626",
       "redirects": [],
-      "elapsed_ms": 2860,
+      "elapsed_ms": 3092,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1470,94 +1534,94 @@
       "status_code": 200,
       "final_url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fc41e1fb6272918866e",
       "redirects": [],
-      "elapsed_ms": 2600,
+      "elapsed_ms": 4218,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
   ],
   "snapshots": [
     {
-      "url": "https://www.emb-rome.gov.lk/",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-01-880c929020d4.html",
-      "sha256": "880c929020d4b79bf1995656d21d9a6859aab3a9460f941eb0b1a6e5502ee4cc",
-      "bytes": 122
-    },
-    {
       "url": "https://www.emb-rome.gov.lk/en",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-02-d9e0dad91509.html",
-      "sha256": "d9e0dad915090cb2407028da534ece29b5b28eb39a9289c2c948dced76d8de6a",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-01-b42243906edd.html",
+      "sha256": "b42243906eddb05411c2ea992a7d35f1ff381a41c5cf8fa3a2c89ea293495f13",
       "bytes": 341600
     },
     {
       "url": "https://www.emb-rome.gov.lk/en",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-03-db53d76bed8d.html",
-      "sha256": "db53d76bed8d829f816feb50e38119210f7123fbaacb09ea02e446555cd2c849",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-02-bdadd1ba29c4.html",
+      "sha256": "bdadd1ba29c4432eba02deacee33edff587c5cde9bdf9de131e9bfb269e6a540",
       "bytes": 341600
     },
     {
       "url": "https://www.emb-rome.gov.lk/en",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-04-5d3186e33e98.html",
-      "sha256": "5d3186e33e98d9b67c05255e26d082150a5fd152da31669f2bc177abff4e5c96",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-03-d4a3d8df91df.html",
+      "sha256": "d4a3d8df91dffe1ed09709665a85f830c5ef198837e15b66366e83468a775050",
+      "bytes": 341600
+    },
+    {
+      "url": "https://www.emb-rome.gov.lk/en",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-04-f356be11f52b.html",
+      "sha256": "f356be11f52b322310718983667574bc8a4169f8cb64ad71d012310dd62054a8",
       "bytes": 341600
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/contact",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-05-93dc26087c47.html",
-      "sha256": "93dc26087c4737c2d89bbc8d50fdbf76843e063a3b843fee29ecd8c1c988a464",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-05-9884a98c7aa4.html",
+      "sha256": "9884a98c7aa4bfcea701f9a214845e47ffb2723abdbe64a1fdfaf50949d3ae3d",
       "bytes": 112481
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/bilateral-relations",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-06-28788010b20d.html",
-      "sha256": "28788010b20d7aa7fd9b9f05af6186003c945156325c77345f1d8348987de578",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-06-8b862c32fe19.html",
+      "sha256": "8b862c32fe198dd7c9575df77d74ca3b0186912d9b1c145b468ff5818e550e53",
       "bytes": 112102
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/visit-srilanka",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-07-7c0489d16ceb.html",
-      "sha256": "7c0489d16ceb3a3a5995089ee055ffbdce21837120a3bc114e30b0763a351086",
-      "bytes": 122158
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-07-5e6ebf764229.html",
+      "sha256": "5e6ebf7642295c8006ac0b2d7af938cc320f788de3aafac3f79301e0368ebff8",
+      "bytes": 122058
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576eda3e3c27f18df43310",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-08-68a0658f42a6.html",
-      "sha256": "68a0658f42a67bc5be2d92d0fbaf2e5a972bed054297a0469fb090b4610ed20e",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-08-5da38837cf44.html",
+      "sha256": "5da38837cf44af91825471ce1c21902830d4371bf15e17405a59f7159a3748d1",
       "bytes": 476223
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f071e1fb6272918852c",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-09-55163cefd3c8.html",
-      "sha256": "55163cefd3c8997d533d618a5904a58c465c56977b89a3fc6bd0bcd5da301c65",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-09-24877af06195.html",
+      "sha256": "24877af061952aae6576b1d7da922343285ae5c3bad51fcd4d300ecad4caa972",
       "bytes": 476223
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f443e3c27f18df43498",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-10-dd72b0c3dfb8.html",
-      "sha256": "dd72b0c3dfb820449f006e1ea8ea996320e5fb7fc861f1a30bb682a353edf8fe",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-10-9e6de6ca2f50.html",
+      "sha256": "9e6de6ca2f508cb9edbdb4acb8972d2378af94a01c920e27e5c50d078466d548",
       "bytes": 476223
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576f993e3c27f18df43589",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-11-b1b023dce355.html",
-      "sha256": "b1b023dce3556e9afe6bb5c3d048063ff01f855ea5b3973b5fd86ab48d956b80",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-11-55a934ae4b91.html",
+      "sha256": "55a934ae4b919d837bafb2eb672f6e0e61235a9cf32a329af210769c95e7de20",
       "bytes": 476223
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fdd3e3c27f18df436bf",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-12-b4c287f9a4ac.html",
-      "sha256": "b4c287f9a4ac4b77a96908fa54e32c8d6ef4d2556c341c8e77cfcfe92ab02679",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-12-10d93314e296.html",
+      "sha256": "10d93314e2960d0d262c7dcb1fe49c3f913c2f4ce99f0e6dff08cea53800d8b6",
       "bytes": 476223
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fad3e3c27f18df43626",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-13-752ea754a6ab.html",
-      "sha256": "752ea754a6ab42d1708c3ec282150d814b6247b4310ce9db60dcc859badf9c05",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-13-5d03d5da6aa8.html",
+      "sha256": "5d03d5da6aa87392ca4fedc9d72f8827be596fac79c4372bdde456f5fb1b83e3",
       "bytes": 476223
     },
     {
       "url": "https://www.emb-rome.gov.lk/en/appointment?serviceId=6a576fc41e1fb6272918866e",
-      "path": "audit.output/emb-rome.gov.lk/20260926.0632/snapshots/page-14-f7a51e511fcf.html",
-      "sha256": "f7a51e511fcf02de5e2d5af8d4f61f1f92734648b9c404bf4380fc1c990ce21f",
+      "path": "audit.output/emb-rome.gov.lk/20260927.0637/snapshots/page-14-de629f7a54f7.html",
+      "sha256": "de629f7a54f76ef4e232ec34479ce834bcc003f5bb607c805b6457cf50f2fcef",
       "bytes": 476223
     }
   ],
@@ -1644,7 +1708,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Via Adige, 2 - 00198 Rome, Italy City/country: Rome, Italy Contact number: Telephone: +39 06 884 0801 WhatsApp: +39 340 ; Phone: +393403718117 (2 phone numbers found); Email: slemb.rome@mfa.gov.lk (3 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: Via Adige, 2 - 00198 Rome, Italy City/country: Rome, Italy Contact number: Telephone: +39 06 884 0801 WhatsApp: +39 340 ; Phone: +393403718117 (2 phone numbers found); Email: john@example.com (3 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1657,7 +1721,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +393403718117 (2 phone numbers found); Email: slemb.rome@mfa.gov.lk (3 email addresses found)"
+          "reason": "Phone: +393403718117 (2 phone numbers found); Email: john@example.com (3 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1736,7 +1800,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "ea2130d9-f3d3-42dd-a3e8-ddb443686fa1",
+  "audit_id": "3838b211-277c-4d75-b357-0a0d283020b7",
   "url": "https://www.dgi.gov.lk/",
   "normalized_url": "https://www.dgi.gov.lk/",
-  "started_at": "2026-09-26T06:37:44.690746+05:30",
-  "completed_at": "2026-09-26T06:38:14.303570+05:30",
+  "started_at": "2026-09-27T06:43:11.968490+05:30",
+  "completed_at": "2026-09-27T06:43:40.677330+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,135 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:37:45.235287+05:30"
+      "observed_at": "2026-09-27T06:43:12.634814+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:37:45.235307+05:30"
+      "observed_at": "2026-09-27T06:43:12.634842+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:37:45.571020+05:30"
+      "observed_at": "2026-09-27T06:43:12.976763+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.dgi.gov.lk/",
       "source": "https://www.dgi.gov.lk/",
-      "observed_at": "2026-09-26T06:38:11.957316+05:30"
+      "observed_at": "2026-09-27T06:43:37.784040+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.dgi.gov.lk/",
       "source": "http://www.dgi.gov.lk/",
-      "observed_at": "2026-09-26T06:38:11.957336+05:30"
+      "observed_at": "2026-09-27T06:43:37.784060+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.dgi.gov.lk/",
       "source": "https://www.dgi.gov.lk/",
-      "observed_at": "2026-09-26T06:38:11.957340+05:30"
+      "observed_at": "2026-09-27T06:43:37.784064+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.dgi.gov.lk/",
       "source": "http://www.dgi.gov.lk/",
-      "observed_at": "2026-09-26T06:38:11.957343+05:30"
+      "observed_at": "2026-09-27T06:43:37.784067+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://dgi.gov.lk/contact/media-accreditation-forms",
       "source": "https://dgi.gov.lk/contact/media-accreditation-forms",
-      "observed_at": "2026-09-26T06:38:11.957346+05:30"
+      "observed_at": "2026-09-27T06:43:37.784070+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.dgi.gov.lk/divisions/gfu",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
-      "observed_at": "2026-09-26T06:38:11.957348+05:30"
+      "observed_at": "2026-09-27T06:43:37.784073+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.dgi.gov.lk/divisions/publicity-unit",
       "source": "https://www.dgi.gov.lk/divisions/publicity-unit",
-      "observed_at": "2026-09-26T06:38:11.957350+05:30"
+      "observed_at": "2026-09-27T06:43:37.784075+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.dgi.gov.lk/divisions/media-accreditation-unit",
       "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
-      "observed_at": "2026-09-26T06:38:11.957353+05:30"
+      "observed_at": "2026-09-27T06:43:37.784078+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.dgi.gov.lk/divisions/publication-bureau",
       "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
-      "observed_at": "2026-09-26T06:38:11.957355+05:30"
+      "observed_at": "2026-09-27T06:43:37.784081+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.dgi.gov.lk/divisions/accounts-branch",
       "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
-      "observed_at": "2026-09-26T06:38:11.957357+05:30"
+      "observed_at": "2026-09-27T06:43:37.784084+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.dgi.gov.lk/divisions/web-social-media-unit",
       "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
-      "observed_at": "2026-09-26T06:38:11.957360+05:30"
+      "observed_at": "2026-09-27T06:43:37.784086+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.dgi.gov.lk/divisions/desathiya-magazine",
       "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
-      "observed_at": "2026-09-26T06:38:11.957362+05:30"
+      "observed_at": "2026-09-27T06:43:37.784089+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.dgi.gov.lk/divisions/research-monitoring-unit",
       "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
-      "observed_at": "2026-09-26T06:38:11.957365+05:30"
+      "observed_at": "2026-09-27T06:43:37.784092+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.dgi.gov.lk/divisions/district-media-units",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "observed_at": "2026-09-26T06:38:11.957367+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 33.333333",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "0 0 33.333333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
+      "observed_at": "2026-09-27T06:43:37.784094+05:30"
     },
     {
       "check": "phone",
@@ -177,10 +159,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 0 33.333333",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "0 0 33.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/",
       "data": {
         "value": "019-9403-484"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 251 5759 ",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -204,24 +204,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 33.333333",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "0 0 33.333333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 07.09.2026 09 ",
       "source": "https://www.dgi.gov.lk/",
       "data": {
@@ -240,10 +222,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 0 33.333333",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "0 0 33.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/",
       "data": {
         "value": "019-9403-484"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 251 5759 ",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -267,24 +267,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 33.333333",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "0 0 33.333333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 07.09.2026 09 ",
       "source": "https://www.dgi.gov.lk/",
       "data": {
@@ -303,10 +285,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 0 33.333333",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "0 0 33.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/",
       "data": {
         "value": "019-9403-484"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 251 5759 ",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -330,24 +330,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 33.333333",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "0 0 33.333333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 07.09.2026 09 ",
       "source": "https://www.dgi.gov.lk/",
       "data": {
@@ -366,10 +348,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 0 33.333333",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "0 0 33.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/",
       "data": {
         "value": "019-9403-484"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 251 5759 ",
+      "source": "https://www.dgi.gov.lk/",
+      "data": {
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -388,24 +388,6 @@
       "source": "https://www.dgi.gov.lk/",
       "data": {
         "value": "director"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 33.333333",
-      "source": "https://dgi.gov.lk/contact/media-accreditation-forms",
-      "data": {
-        "value": "0 0 33.333333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 019-9403-484",
-      "source": "https://dgi.gov.lk/contact/media-accreditation-forms",
-      "data": {
-        "value": "019-9403-484"
       }
     },
     {
@@ -415,6 +397,24 @@
       "source": "https://dgi.gov.lk/contact/media-accreditation-forms",
       "data": {
         "value": "+9411 251 5759 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 019-9403-484",
+      "source": "https://dgi.gov.lk/contact/media-accreditation-forms",
+      "data": {
+        "value": "019-9403-484"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 0 33.333333",
+      "source": "https://dgi.gov.lk/contact/media-accreditation-forms",
+      "data": {
+        "value": "0 0 33.333333"
       }
     },
     {
@@ -456,19 +456,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 251 4282 ",
+      "detail": "Published phone: +94 11 251 4601 ",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
-        "value": "+94 11 251 4282 "
+        "value": "+94 11 251 4601 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 71 441 3426 ",
+      "detail": "Published phone: 0 0 58.333333",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
-        "value": "+94 71 441 3426 "
+        "value": "0 0 58.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 251 4267 ",
+      "source": "https://www.dgi.gov.lk/divisions/gfu",
+      "data": {
+        "value": "+94 11 251 4267 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 251 3545 ",
+      "source": "https://www.dgi.gov.lk/divisions/gfu",
+      "data": {
+        "value": "+94 11 251 3545 "
       }
     },
     {
@@ -478,6 +496,15 @@
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
         "value": "+94 71 209 5371 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 0 41.666667",
+      "source": "https://www.dgi.gov.lk/divisions/gfu",
+      "data": {
+        "value": "0 0 41.666667"
       }
     },
     {
@@ -501,28 +528,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 251 3545 ",
+      "detail": "Published phone: +94 11 251 4282 ",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
-        "value": "+94 11 251 3545 "
+        "value": "+94 11 251 4282 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 41.666667",
+      "detail": "Published phone: +94 71 441 3426 ",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
-        "value": "0 0 41.666667"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 58.333333",
-      "source": "https://www.dgi.gov.lk/divisions/gfu",
-      "data": {
-        "value": "0 0 58.333333"
+        "value": "+94 71 441 3426 "
       }
     },
     {
@@ -537,28 +555,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 251 4601 ",
-      "source": "https://www.dgi.gov.lk/divisions/gfu",
-      "data": {
-        "value": "+94 11 251 4601 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
         "value": "019-9403-484"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 251 4267 ",
-      "source": "https://www.dgi.gov.lk/divisions/gfu",
-      "data": {
-        "value": "+94 11 251 4267 "
       }
     },
     {
@@ -573,10 +573,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: soundgfu@gmail.com",
+      "detail": "Published email: digitalarchiveu@gmail.com",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
-        "value": "soundgfu@gmail.com"
+        "value": "digitalarchiveu@gmail.com"
       }
     },
     {
@@ -591,19 +591,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
+      "detail": "Published email: soundgfu@gmail.com",
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
-        "value": "info@dgi.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: digitalarchiveu@gmail.com",
-      "source": "https://www.dgi.gov.lk/divisions/gfu",
-      "data": {
-        "value": "digitalarchiveu@gmail.com"
+        "value": "soundgfu@gmail.com"
       }
     },
     {
@@ -613,6 +604,15 @@
       "source": "https://www.dgi.gov.lk/divisions/gfu",
       "data": {
         "value": "infophoto@dgi.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@dgi.gov.lk",
+      "source": "https://www.dgi.gov.lk/divisions/gfu",
+      "data": {
+        "value": "info@dgi.gov.lk"
       }
     },
     {
@@ -636,10 +636,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
+      "detail": "Published phone: 0 0 58.333333",
       "source": "https://www.dgi.gov.lk/divisions/publicity-unit",
       "data": {
-        "value": "+9411 251 5759 "
+        "value": "0 0 58.333333"
       }
     },
     {
@@ -654,19 +654,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 58.333333",
+      "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/divisions/publicity-unit",
       "data": {
-        "value": "0 0 58.333333"
+        "value": "019-9403-484"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 019-9403-484",
+      "detail": "Published phone: +9411 251 5759 ",
       "source": "https://www.dgi.gov.lk/divisions/publicity-unit",
       "data": {
-        "value": "019-9403-484"
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -690,24 +690,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 41.666667",
-      "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
-      "data": {
-        "value": "0 0 41.666667"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0 0 58.333333",
       "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
       "data": {
@@ -726,6 +708,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 0 41.666667",
+      "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
+      "data": {
+        "value": "0 0 41.666667"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
       "data": {
@@ -733,12 +724,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
+      "detail": "Published phone: +9411 251 5759 ",
       "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
       "data": {
-        "value": "info@dgi.gov.lk"
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -751,6 +742,15 @@
       }
     },
     {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@dgi.gov.lk",
+      "source": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
+      "data": {
+        "value": "info@dgi.gov.lk"
+      }
+    },
+    {
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: division",
@@ -762,19 +762,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
+      "detail": "Published phone: +94 11 251 2759 ",
       "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
       "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 41.666667",
-      "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
-      "data": {
-        "value": "0 0 41.666667"
+        "value": "+94 11 251 2759 "
       }
     },
     {
@@ -784,6 +775,15 @@
       "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
       "data": {
         "value": "0 0 58.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 0 41.666667",
+      "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
+      "data": {
+        "value": "0 0 41.666667"
       }
     },
     {
@@ -798,19 +798,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 251 2759 ",
+      "detail": "Published phone: +9411 251 5759 ",
       "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
       "data": {
-        "value": "+94 11 251 2759 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
-      "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
-      "data": {
-        "value": "info@dgi.gov.lk"
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -823,48 +814,21 @@
       }
     },
     {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@dgi.gov.lk",
+      "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
+      "data": {
+        "value": "info@dgi.gov.lk"
+      }
+    },
+    {
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: division",
       "source": "https://www.dgi.gov.lk/divisions/publication-bureau",
       "data": {
         "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 250 2332 ",
-      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
-      "data": {
-        "value": "+94 11 250 2332 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 41.666667",
-      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
-      "data": {
-        "value": "0 0 41.666667"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 58.333333",
-      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
-      "data": {
-        "value": "0 0 58.333333"
       }
     },
     {
@@ -879,10 +843,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 019-9403-484",
+      "detail": "Published phone: 0 0 58.333333",
       "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
       "data": {
-        "value": "019-9403-484"
+        "value": "0 0 58.333333"
       }
     },
     {
@@ -895,12 +859,48 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
+      "detail": "Published phone: +94 11 250 2332 ",
       "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
       "data": {
-        "value": "info@dgi.gov.lk"
+        "value": "+94 11 250 2332 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 0 41.666667",
+      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
+      "data": {
+        "value": "0 0 41.666667"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 019-9403-484",
+      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
+      "data": {
+        "value": "019-9403-484"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 251 5759 ",
+      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
+      "data": {
+        "value": "+9411 251 5759 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: acc.gov.info@gmail.com",
+      "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
+      "data": {
+        "value": "acc.gov.info@gmail.com"
       }
     },
     {
@@ -915,10 +915,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: acc.gov.info@gmail.com",
+      "detail": "Published email: info@dgi.gov.lk",
       "source": "https://www.dgi.gov.lk/divisions/accounts-branch",
       "data": {
-        "value": "acc.gov.info@gmail.com"
+        "value": "info@dgi.gov.lk"
       }
     },
     {
@@ -933,10 +933,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 251 2015 ",
+      "detail": "Published phone: 0 0 58.333333",
       "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
       "data": {
-        "value": "+94 11 251 2015 "
+        "value": "0 0 58.333333"
       }
     },
     {
@@ -951,15 +951,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0 0 41.666667",
       "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
       "data": {
@@ -969,10 +960,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 58.333333",
+      "detail": "Published phone: +9411 251 5759 ",
       "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
       "data": {
-        "value": "0 0 58.333333"
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -994,12 +985,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
+      "detail": "Published phone: +94 11 251 2015 ",
       "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
       "data": {
-        "value": "info@dgi.gov.lk"
+        "value": "+94 11 251 2015 "
       }
     },
     {
@@ -1009,6 +1000,15 @@
       "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
       "data": {
         "value": "editor@news.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@dgi.gov.lk",
+      "source": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
+      "data": {
+        "value": "info@dgi.gov.lk"
       }
     },
     {
@@ -1032,6 +1032,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 0 58.333333",
+      "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
+      "data": {
+        "value": "0 0 58.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0 0 41.666667",
       "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
       "data": {
@@ -1050,28 +1059,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 0 58.333333",
-      "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
-      "data": {
-        "value": "0 0 58.333333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +9411 251 5759 ",
       "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
       "data": {
         "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
-      "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
-      "data": {
-        "value": "info@dgi.gov.lk"
       }
     },
     {
@@ -1084,39 +1075,21 @@
       }
     },
     {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@dgi.gov.lk",
+      "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
+      "data": {
+        "value": "info@dgi.gov.lk"
+      }
+    },
+    {
       "check": "named_responsibility",
       "status": "pass",
       "detail": "Published named responsibility: division",
       "source": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
       "data": {
         "value": "division"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 251 4283 ",
-      "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
-      "data": {
-        "value": "+94 11 251 4283 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
-      "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
-      "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 41.666667",
-      "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
-      "data": {
-        "value": "0 0 41.666667"
       }
     },
     {
@@ -1140,6 +1113,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 0 41.666667",
+      "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
+      "data": {
+        "value": "0 0 41.666667"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 251 4283 ",
+      "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
+      "data": {
+        "value": "+94 11 251 4283 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 019-9403-484",
       "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
       "data": {
@@ -1147,12 +1138,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
+      "detail": "Published phone: +9411 251 5759 ",
       "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
       "data": {
-        "value": "info@dgi.gov.lk"
+        "value": "+9411 251 5759 "
       }
     },
     {
@@ -1162,6 +1153,15 @@
       "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
       "data": {
         "value": "govinformediaresearch@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@dgi.gov.lk",
+      "source": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
+      "data": {
+        "value": "info@dgi.gov.lk"
       }
     },
     {
@@ -1176,118 +1176,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 019-9403-484",
+      "detail": "Published phone: +94 77 114 4661 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "019-9403-484"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 27 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 27 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 33 222 1914 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 33 222 1914 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 34 222 1502 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 34 222 1502 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 55 227 6234 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 55 227 6234 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 449 6372 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 449 6372 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 76 748 4118 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 76 748 4118 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 689 8789 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 689 8789 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 66 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 66 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 76 184 2687 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 76 184 2687 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 23 222 2016 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 23 222 2016 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 52 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 37 222 2238 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 37 222 2238 "
+        "value": "+94 77 114 4661 "
       }
     },
     {
@@ -1302,64 +1194,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 47 225 6247 ",
+      "detail": "Published phone: +94 21 229 0045 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 47 225 6247 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 666 5613 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 666 5613 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 688 3351 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 688 3351 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 220 0149 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 81 220 0149 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 031 7418 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 031 7418 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 75 645 3409 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 75 645 3409 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 26 222 2305 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 26 222 2305 "
+        "value": "+94 21 229 0045 "
       }
     },
     {
@@ -1374,294 +1212,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 21 222 2775 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 21 222 2775 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 77 114 4661 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 77 114 4661 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 21 222 2355 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 21 222 2355 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 45 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 45 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 41.666667",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "0 0 41.666667"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 81 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 81 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 41 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 41 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 35 223 2620 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 35 223 2620 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 879 8544",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 879 8544"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 32 226 5335 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 32 226 5335 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 35 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 35 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 24 222 2212 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 24 222 2212 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 41 222 2234 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 41 222 2234 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 45 222 2140 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 45 222 2140 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 77 313 4856 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 77 313 4856 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 65 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 65 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 21 205 0057 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 21 205 0057 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 47 225 6366 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 47 225 6366 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 75 028 7622 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 75 028 7622 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 21 228 3966 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 21 228 3966 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 27 222 5578 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 27 222 5578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 52 222 2610 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 52 222 2610 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 891 0955 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 891 0955 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 444 5197 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 444 5197 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 91 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 91 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 815 8593 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 815 8593 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 25 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 590 7383 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 590 7383 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 236 9142 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 11 236 9142 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 37 222 2134 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 37 222 2134 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 55 222 2292 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 55 222 2292 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 0 58.333333",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "0 0 58.333333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 32 226 5239 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
@@ -1671,91 +1221,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +9411 251 5759 ",
+      "detail": "Published phone: +94 23 222 2016 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+9411 251 5759 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 77 446 0777 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 77 446 0777 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 65 222 4466 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 65 222 4466 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 24 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 24 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 381 5287 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 71 381 5287 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 23 222 2232 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 23 222 2232 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 25 222 2235 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 25 222 2235 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 55 222 2233 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 55 222 2233 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 21 206 1045 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 21 206 1045 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 21 229 0045 ",
-      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "data": {
-        "value": "+94 21 229 0045 "
+        "value": "+94 23 222 2016 "
       }
     },
     {
@@ -1770,19 +1239,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 77 827 8463 ",
+      "detail": "Published phone: +94 47 225 6247 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 77 827 8463 "
+        "value": "+94 47 225 6247 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 72 466 4087 ",
+      "detail": "Published phone: +94 47 225 6366 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 72 466 4087 "
+        "value": "+94 47 225 6366 "
       }
     },
     {
@@ -1797,46 +1266,181 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 55 227 6025 ",
+      "detail": "Published phone: +94 25 222 2233 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 55 227 6025 "
+        "value": "+94 25 222 2233 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 26 222 2233 ",
+      "detail": "Published phone: +94 21 222 2775 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 26 222 2233 "
+        "value": "+94 21 222 2775 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 66 223 3501 ",
+      "detail": "Published phone: +94 55 227 6234 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 66 223 3501 "
+        "value": "+94 55 227 6234 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 71 709 0029 ",
+      "detail": "Published phone: +94 41 222 2234 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 71 709 0029 "
+        "value": "+94 41 222 2234 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 77 735 0540 ",
+      "detail": "Published phone: +94 21 206 1045 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 77 735 0540 "
+        "value": "+94 21 206 1045 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 0 58.333333",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "0 0 58.333333"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 23 222 2232 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 23 222 2232 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 76 184 2687 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 76 184 2687 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 381 5287 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 381 5287 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 52 222 2610 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 52 222 2610 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 815 8593 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 815 8593 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 35 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 35 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 32 226 5335 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 32 226 5335 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 24 222 2212 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 24 222 2212 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 444 5197 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 444 5197 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 019-9403-484",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "019-9403-484"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 77 313 4856 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 77 313 4856 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 34 222 1502 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 34 222 1502 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 33 222 1914 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 33 222 1914 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 76 748 4118 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 76 748 4118 "
       }
     },
     {
@@ -1851,10 +1455,163 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 55 227 6025 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 55 227 6025 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 031 7418 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 031 7418 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 27 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 27 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 590 7383 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 590 7383 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 21 228 3966 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 21 228 3966 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 236 9142 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 11 236 9142 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +9411 251 5759 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+9411 251 5759 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 65 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 65 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 666 5613 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 666 5613 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 37 222 2134 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 37 222 2134 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 77 735 0540 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 77 735 0540 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 65 222 4466 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 65 222 4466 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 449 6372 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 449 6372 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 0 41.666667",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "0 0 41.666667"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 81 220 0149 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 81 220 0149 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 71 279 8544 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
         "value": "+94 71 279 8544 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 77 446 0777 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 77 446 0777 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 21 222 2355 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 21 222 2355 "
       }
     },
     {
@@ -1869,10 +1626,217 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 34 222 2635 ",
+      "detail": "Published phone: +94 66 222 2233 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "+94 34 222 2635 "
+        "value": "+94 66 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 25 222 2235 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 25 222 2235 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 26 222 2305 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 26 222 2305 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 75 028 7622 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 75 028 7622 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 891 0955 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 891 0955 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 75 645 3409 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 75 645 3409 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 27 222 5578 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 27 222 5578 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 55 222 2292 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 55 222 2292 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 91 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 91 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 77 827 8463 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 77 827 8463 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 37 222 2238 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 37 222 2238 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 688 3351 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 688 3351 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 26 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 26 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 709 0029 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 709 0029 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 72 466 4087 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 72 466 4087 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 879 8544",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 879 8544"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 35 223 2620 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 35 223 2620 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 66 223 3501 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 66 223 3501 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 689 8789 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 71 689 8789 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 41 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 41 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 45 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 45 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 81 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 81 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 21 205 0057 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 21 205 0057 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 52 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 52 222 2233 "
       }
     },
     {
@@ -1885,12 +1849,39 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@dgi.gov.lk",
+      "detail": "Published phone: +94 45 222 2140 ",
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
-        "value": "info@dgi.gov.lk"
+        "value": "+94 45 222 2140 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 24 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 24 222 2233 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 34 222 2635 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 34 222 2635 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 55 222 2233 ",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "+94 55 222 2233 "
       }
     },
     {
@@ -1900,6 +1891,15 @@
       "source": "https://www.dgi.gov.lk/divisions/district-media-units",
       "data": {
         "value": "dmunit1@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@dgi.gov.lk",
+      "source": "https://www.dgi.gov.lk/divisions/district-media-units",
+      "data": {
+        "value": "info@dgi.gov.lk"
       }
     },
     {
@@ -1945,7 +1945,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1778,
+      "elapsed_ms": 2029,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1956,7 +1956,7 @@
       "redirects": [
         "https://www.dgi.gov.lk/"
       ],
-      "elapsed_ms": 393,
+      "elapsed_ms": 465,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1965,7 +1965,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 419,
+      "elapsed_ms": 224,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1976,7 +1976,7 @@
       "redirects": [
         "https://www.dgi.gov.lk/"
       ],
-      "elapsed_ms": 382,
+      "elapsed_ms": 479,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1985,7 +1985,7 @@
       "status_code": 200,
       "final_url": "https://dgi.gov.lk/contact/media-accreditation-forms",
       "redirects": [],
-      "elapsed_ms": 1768,
+      "elapsed_ms": 201,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1994,7 +1994,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/gfu",
       "redirects": [],
-      "elapsed_ms": 2181,
+      "elapsed_ms": 521,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2003,7 +2003,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/publicity-unit",
       "redirects": [],
-      "elapsed_ms": 2605,
+      "elapsed_ms": 1743,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2012,7 +2012,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
       "redirects": [],
-      "elapsed_ms": 1932,
+      "elapsed_ms": 2971,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2021,7 +2021,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/publication-bureau",
       "redirects": [],
-      "elapsed_ms": 1765,
+      "elapsed_ms": 1927,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2030,7 +2030,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/accounts-branch",
       "redirects": [],
-      "elapsed_ms": 2228,
+      "elapsed_ms": 1639,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2039,7 +2039,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
       "redirects": [],
-      "elapsed_ms": 1101,
+      "elapsed_ms": 1761,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2048,7 +2048,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
       "redirects": [],
-      "elapsed_ms": 1070,
+      "elapsed_ms": 1914,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2057,7 +2057,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
       "redirects": [],
-      "elapsed_ms": 1994,
+      "elapsed_ms": 1790,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2066,7 +2066,7 @@
       "status_code": 200,
       "final_url": "https://www.dgi.gov.lk/divisions/district-media-units",
       "redirects": [],
-      "elapsed_ms": 2079,
+      "elapsed_ms": 1819,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2074,87 +2074,87 @@
   "snapshots": [
     {
       "url": "https://www.dgi.gov.lk/",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-01-9737c229f854.html",
-      "sha256": "9737c229f854ef104fb80075f28c5f674c6b2dacc82a0a21d697867b115d17a2",
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-01-644d5bd136f8.html",
+      "sha256": "644d5bd136f8cb7fccb4a6d7221789efd851ad64d322da6397a3b9e942e84f1c",
       "bytes": 264399
     },
     {
       "url": "https://www.dgi.gov.lk/",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-02-eab16518fc21.html",
-      "sha256": "eab16518fc214559de9e9cfecaca7c91d4503bbef14f28d49613dc6f42f9d440",
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-02-eed3e7d0982f.html",
+      "sha256": "eed3e7d0982f70e4f8a3db4e8de61da043be7566a44fb11c6f60661ba930db64",
       "bytes": 264399
     },
     {
       "url": "https://www.dgi.gov.lk/",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-03-96ba6ee49bac.html",
-      "sha256": "96ba6ee49bac81c22acb2106ab2ca5f24f8b3e8ec0ea4066c96fae8eb31a9644",
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-03-1e7de721c724.html",
+      "sha256": "1e7de721c72400cde3145881621255a86292eb7dc339108d6b5322c47dc965a0",
       "bytes": 264399
     },
     {
       "url": "https://www.dgi.gov.lk/",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-04-811d9185cc13.html",
-      "sha256": "811d9185cc135af27e818e9b9244cbd0b35a4a5335a54e3c87b87d9a4f83867e",
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-04-224d718daca4.html",
+      "sha256": "224d718daca4bd59c1712a0cc644b032b03dd02f736748782f575392e317439e",
       "bytes": 264399
     },
     {
       "url": "https://dgi.gov.lk/contact/media-accreditation-forms",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-05-fd38250526a3.html",
-      "sha256": "fd38250526a3e720371664681e84ef1e09cbc0b8790f1c0e87cbf11c8b5434c2",
-      "bytes": 209817
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-05-724cf93924cf.html",
+      "sha256": "724cf93924cff4b39a4bfa3e2ab4bc538c444ca4d3dc5f8040c6538bf22a8c85",
+      "bytes": 209708
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/gfu",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-06-f96fae582099.html",
-      "sha256": "f96fae582099698b1655d8e5f0de8c28b29c726995e4c4e5ffe81ee61de07b7c",
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-06-c81e69c7c129.html",
+      "sha256": "c81e69c7c1297f06160c1544560720fb339c2f4e58768f6a7a94fe83f8a9ba9b",
       "bytes": 248592
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/publicity-unit",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-07-81b2596027e5.html",
-      "sha256": "81b2596027e55bd62696fe615ebf80a2e1192a7db64c082436f02281acef9c5b",
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-07-ac93f6445058.html",
+      "sha256": "ac93f644505894ddd9a7cbdd4df5ab7c78080ad01f4c624063267f09cfe4268e",
       "bytes": 224210
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/media-accreditation-unit",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-08-fead3f6de28a.html",
-      "sha256": "fead3f6de28a910213927cafd8401ba27132aeb3b646fe5b3cf0632015b1dd33",
-      "bytes": 221453
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-08-c7a31b31acd4.html",
+      "sha256": "c7a31b31acd4a9e770d977e2bcf447486ce4f079f43dcedf88db28fdea23805c",
+      "bytes": 221333
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/publication-bureau",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-09-95dea33604db.html",
-      "sha256": "95dea33604db66e57af5f1a222d46177e8cf13ae11673dfa56c98516bfaffa3b",
-      "bytes": 221613
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-09-95c09b19ca9d.html",
+      "sha256": "95c09b19ca9d7af980647e8924fe7cac7cf1760cd97d8dacf93159822d5485f2",
+      "bytes": 221617
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/accounts-branch",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-10-65e225e0136b.html",
-      "sha256": "65e225e0136b6b9a78ab29c4319d291f81bb890a17154c45a0ddd7ab46a60605",
-      "bytes": 227512
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-10-3668b121262b.html",
+      "sha256": "3668b121262b9c53f14bba1b609e632b3ced713cd8f6edbce58727981f904ee9",
+      "bytes": 227621
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/web-social-media-unit",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-11-8ec3fcba1deb.html",
-      "sha256": "8ec3fcba1deb0db54f303e02e5463414fb0f7c41109b71ac981fb8c29f53d19b",
-      "bytes": 228918
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-11-a71dd3871528.html",
+      "sha256": "a71dd38715282ef6b0b22d8ce467545034886f6a94d1da57565c8e5025589f1d",
+      "bytes": 229027
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/desathiya-magazine",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-12-d5113f059943.html",
-      "sha256": "d5113f059943162960591632f3daa3ad78204bd546e3437424c09cd6ab825dc3",
-      "bytes": 224960
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-12-1256d7f44089.html",
+      "sha256": "1256d7f44089bb6afde6023147f2922d99981e5af45952d463537c976cf6422e",
+      "bytes": 225069
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/research-monitoring-unit",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-13-ea38b7a74095.html",
-      "sha256": "ea38b7a740953fe5889d8d89d538eb1ea38c3fc00580df3e5ee5fb58731b403b",
-      "bytes": 250089
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-13-05b075b4d7d2.html",
+      "sha256": "05b075b4d7d23456be292439977588aa239dac957ac674c519549b4a5008a9fc",
+      "bytes": 250198
     },
     {
       "url": "https://www.dgi.gov.lk/divisions/district-media-units",
-      "path": "audit.output/www.dgi.gov.lk/20260926.0637/snapshots/page-14-83e041382fab.html",
-      "sha256": "83e041382fab3c40a7c87c2a60d4ed0aaa9d7102470902fd628d7ff324a0ba27",
-      "bytes": 250489
+      "path": "audit.output/www.dgi.gov.lk/20260927.0643/snapshots/page-14-9f46f083ab91.html",
+      "sha256": "9f46f083ab9109af2be04ef31de832cd38ceadeaefe4d19e701d3479c10e516b",
+      "bytes": 250594
     }
   ],
   "reviewer_decisions": [],
@@ -2253,7 +2253,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0 0 33.333333 (102 phone numbers found); Email: info@dgi.gov.lk (13 email addresses found)"
+          "reason": "Phone: 07.09.2026 09 (102 phone numbers found); Email: info@dgi.gov.lk (13 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2289,7 +2289,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

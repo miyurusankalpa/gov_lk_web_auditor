@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "98d6f142-eef6-4604-aa7c-b606c0a7ca6a",
+  "audit_id": "e8cff773-d655-4e45-b1c1-2d1915ba237e",
   "url": "https://lawcom.gov.lk/",
   "normalized_url": "https://lawcom.gov.lk/",
-  "started_at": "2026-09-26T06:41:46.725278+05:30",
-  "completed_at": "2026-09-26T06:42:09.866454+05:30",
+  "started_at": "2026-09-27T06:47:10.375179+05:30",
+  "completed_at": "2026-09-27T06:47:33.122740+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,125 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:41:47.345964+05:30"
+      "observed_at": "2026-09-27T06:47:11.037822+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:41:47.345973+05:30"
+      "observed_at": "2026-09-27T06:47:11.037842+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:41:47.665188+05:30"
+      "observed_at": "2026-09-27T06:47:11.300009+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://lawcom.gov.lk/index.php?lang=en",
       "source": "https://lawcom.gov.lk/",
-      "observed_at": "2026-09-26T06:42:09.244747+05:30"
+      "observed_at": "2026-09-27T06:47:32.600641+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://lawcom.gov.lk/index.php?lang=en",
       "source": "http://lawcom.gov.lk/",
-      "observed_at": "2026-09-26T06:42:09.244766+05:30"
+      "observed_at": "2026-09-27T06:47:32.600662+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://lawcom.gov.lk/index.php?lang=en",
       "source": "https://lawcom.gov.lk/",
-      "observed_at": "2026-09-26T06:42:09.244769+05:30"
+      "observed_at": "2026-09-27T06:47:32.600667+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://lawcom.gov.lk/index.php?lang=en",
       "source": "http://lawcom.gov.lk/",
-      "observed_at": "2026-09-26T06:42:09.244772+05:30"
+      "observed_at": "2026-09-27T06:47:32.600671+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://lawcom.gov.lk/index.php?lang=si",
       "source": "https://lawcom.gov.lk/index.php?lang=si",
-      "observed_at": "2026-09-26T06:42:09.244774+05:30"
+      "observed_at": "2026-09-27T06:47:32.600674+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://lawcom.gov.lk/index.php?lang=ta",
       "source": "https://lawcom.gov.lk/index.php?lang=ta",
-      "observed_at": "2026-09-26T06:42:09.244777+05:30"
+      "observed_at": "2026-09-27T06:47:32.600677+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://lawcom.gov.lk/index.php?lang=en",
       "source": "https://lawcom.gov.lk/",
-      "observed_at": "2026-09-26T06:42:09.244779+05:30"
+      "observed_at": "2026-09-27T06:47:32.600680+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://lawcom.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "observed_at": "2026-09-26T06:42:09.244781+05:30"
+      "observed_at": "2026-09-27T06:47:32.600683+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://lawcom.gov.lk/index.php?option=com_content&view=article&id=69&Itemid=235&lang=en",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=69&Itemid=235&lang=en",
-      "observed_at": "2026-09-26T06:42:09.244783+05:30"
+      "observed_at": "2026-09-27T06:47:32.600686+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://lawcom.gov.lk/index.php?option=com_content&view=article&id=70&Itemid=236&lang=en",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=70&Itemid=236&lang=en",
-      "observed_at": "2026-09-26T06:42:09.244785+05:30"
+      "observed_at": "2026-09-27T06:47:32.600689+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
-      "observed_at": "2026-09-26T06:42:09.244787+05:30"
+      "observed_at": "2026-09-27T06:47:32.600692+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://lawcom.gov.lk/index.php?option=com_content&view=article&id=72&Itemid=238&lang=en",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=72&Itemid=238&lang=en",
-      "observed_at": "2026-09-26T06:42:09.244790+05:30"
+      "observed_at": "2026-09-27T06:47:32.600694+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
-      "observed_at": "2026-09-26T06:42:09.244792+05:30"
+      "observed_at": "2026-09-27T06:47:32.600697+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=17&Itemid=240&lang=en",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=17&Itemid=240&lang=en",
-      "observed_at": "2026-09-26T06:42:09.244794+05:30"
+      "observed_at": "2026-09-27T06:47:32.600700+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: 08.09.2025 18 ",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "08.09.2025 18 "
       }
     },
     {
@@ -159,10 +159,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08.09.2025 18 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "08.09.2025 18 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -195,10 +195,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: 08.09.2025 18 ",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "08.09.2025 18 "
       }
     },
     {
@@ -213,10 +213,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08.09.2025 18 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "08.09.2025 18 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -249,10 +249,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: 08.09.2025 18 ",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "08.09.2025 18 "
       }
     },
     {
@@ -267,10 +267,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08.09.2025 18 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "08.09.2025 18 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -303,10 +303,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: 08.09.2025 18 ",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "08.09.2025 18 "
       }
     },
     {
@@ -321,10 +321,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08.09.2025 18 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "08.09.2025 18 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -352,24 +352,6 @@
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
         "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
-      "source": "https://lawcom.gov.lk/index.php?lang=si",
-      "data": {
-        "value": "+94 112 333 884"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 333 884 ",
-      "source": "https://lawcom.gov.lk/index.php?lang=si",
-      "data": {
-        "value": "+94 112 333 884 "
       }
     },
     {
@@ -382,6 +364,24 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 333 884 ",
+      "source": "https://lawcom.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "+94 112 333 884 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 333 884",
+      "source": "https://lawcom.gov.lk/index.php?lang=si",
+      "data": {
+        "value": "+94 112 333 884"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: depoflawcommission@gmail.com",
@@ -402,10 +402,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: 08.09.2025 18 ",
       "source": "https://lawcom.gov.lk/index.php?lang=ta",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "08.09.2025 18 "
       }
     },
     {
@@ -420,10 +420,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08.09.2025 18 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?lang=ta",
       "data": {
-        "value": "08.09.2025 18 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -447,10 +447,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: 08.09.2025 18 ",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "08.09.2025 18 "
       }
     },
     {
@@ -465,10 +465,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08.09.2025 18 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?lang=en",
       "data": {
-        "value": "08.09.2025 18 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -501,10 +501,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: 08.09.2025 18 ",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "08.09.2025 18 "
       }
     },
     {
@@ -519,10 +519,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 08.09.2025 18 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
-        "value": "08.09.2025 18 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -550,15 +550,6 @@
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "data": {
         "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
-      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=69&Itemid=235&lang=en",
-      "data": {
-        "value": "+94 112 333 884"
       }
     },
     {
@@ -568,6 +559,15 @@
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=69&Itemid=235&lang=en",
       "data": {
         "value": "+94 112 333 884 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 333 884",
+      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=69&Itemid=235&lang=en",
+      "data": {
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -609,19 +609,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: +94 112 333 884 ",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=70&Itemid=236&lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "+94 112 333 884 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=70&Itemid=236&lang=en",
       "data": {
-        "value": "+94 112 333 884 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -658,33 +658,6 @@
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=70&Itemid=236&lang=en",
       "data": {
         "value": "16 February 2024"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2333883 ",
-      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
-      "data": {
-        "value": "+94 11 2333883 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 333 884 ",
-      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
-      "data": {
-        "value": "+94 112 333 884 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2333886 ",
-      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
-      "data": {
-        "value": "+94 11 2333886 "
       }
     },
     {
@@ -699,6 +672,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 333 884",
+      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
+      "data": {
+        "value": "+94 112 333 884"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2421164 ",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
       "data": {
@@ -708,10 +690,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: +94 11 2333883 ",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "+94 11 2333883 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2333886 ",
+      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
+      "data": {
+        "value": "+94 11 2333886 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 333 884 ",
+      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
+      "data": {
+        "value": "+94 112 333 884 "
       }
     },
     {
@@ -753,19 +753,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: +94 112 333 884 ",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=72&Itemid=238&lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "+94 112 333 884 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=72&Itemid=238&lang=en",
       "data": {
-        "value": "+94 112 333 884 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -811,6 +811,33 @@
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
       "data": {
         "value": "+94 112 333 884 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 333 884",
+      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
+      "data": {
+        "value": "+94 112 333 884"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 08.2023 23.08.",
+      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
+      "data": {
+        "value": "08.2023 23.08."
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 023 12.09.202",
+      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
+      "data": {
+        "value": "023 12.09.202"
       }
     },
     {
@@ -829,33 +856,6 @@
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
       "data": {
         "value": "08.2023 05.09."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 08.2023 23.08.",
-      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
-      "data": {
-        "value": "08.2023 23.08."
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
-      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
-      "data": {
-        "value": "+94 112 333 884"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 023 12.09.202",
-      "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
-      "data": {
-        "value": "023 12.09.202"
       }
     },
     {
@@ -915,19 +915,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884",
+      "detail": "Published phone: +94 112 333 884 ",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=17&Itemid=240&lang=en",
       "data": {
-        "value": "+94 112 333 884"
+        "value": "+94 112 333 884 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 333 884 ",
+      "detail": "Published phone: +94 112 333 884",
       "source": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=17&Itemid=240&lang=en",
       "data": {
-        "value": "+94 112 333 884 "
+        "value": "+94 112 333 884"
       }
     },
     {
@@ -1002,7 +1002,7 @@
       "redirects": [
         "https://lawcom.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 625,
+      "elapsed_ms": 437,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1014,7 +1014,7 @@
         "https://lawcom.gov.lk/",
         "https://lawcom.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 281,
+      "elapsed_ms": 909,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1025,7 +1025,7 @@
       "redirects": [
         "https://lawcom.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 475,
+      "elapsed_ms": 315,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1037,7 +1037,7 @@
         "https://lawcom.gov.lk/",
         "https://lawcom.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 269,
+      "elapsed_ms": 73,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1046,7 +1046,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?lang=si",
       "redirects": [],
-      "elapsed_ms": 279,
+      "elapsed_ms": 326,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1055,7 +1055,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?lang=ta",
       "redirects": [],
-      "elapsed_ms": 292,
+      "elapsed_ms": 96,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1066,7 +1066,7 @@
       "redirects": [
         "https://lawcom.gov.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 270,
+      "elapsed_ms": 332,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1075,7 +1075,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "redirects": [],
-      "elapsed_ms": 277,
+      "elapsed_ms": 318,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1084,7 +1084,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=69&Itemid=235&lang=en",
       "redirects": [],
-      "elapsed_ms": 272,
+      "elapsed_ms": 347,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1093,7 +1093,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=70&Itemid=236&lang=en",
       "redirects": [],
-      "elapsed_ms": 209,
+      "elapsed_ms": 70,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1102,7 +1102,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
       "redirects": [],
-      "elapsed_ms": 296,
+      "elapsed_ms": 324,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1111,7 +1111,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=72&Itemid=238&lang=en",
       "redirects": [],
-      "elapsed_ms": 275,
+      "elapsed_ms": 102,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1120,7 +1120,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
       "redirects": [],
-      "elapsed_ms": 338,
+      "elapsed_ms": 233,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1129,7 +1129,7 @@
       "status_code": 200,
       "final_url": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=17&Itemid=240&lang=en",
       "redirects": [],
-      "elapsed_ms": 274,
+      "elapsed_ms": 79,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1137,86 +1137,86 @@
   "snapshots": [
     {
       "url": "https://lawcom.gov.lk/index.php?lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-01-42cc0f9587d0.html",
-      "sha256": "42cc0f9587d00a20ef4f61ab598a5ebc55a843924a74f316d147ea1b3bef2581",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-01-87782ca92df8.html",
+      "sha256": "87782ca92df80cff4265c1c0588f96b4e30a4a30f7512cdab1bf2e3bd9de1032",
       "bytes": 59618
     },
     {
       "url": "https://lawcom.gov.lk/index.php?lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-02-49480f2d5bfb.html",
-      "sha256": "49480f2d5bfb467240fa91f6ef28fec14b13a7aeb1e6fde8db6122fc690f927d",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-02-2b14a39707cd.html",
+      "sha256": "2b14a39707cdf33abd4c9d7951cea68a06e5585f1ca309d9b205061ef53cabde",
       "bytes": 59618
     },
     {
       "url": "https://lawcom.gov.lk/index.php?lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-03-19eda203e358.html",
-      "sha256": "19eda203e3585090cbac9a5706604eaa06ed3c5927caac2944c8382383ce8c1d",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-03-981c690959a3.html",
+      "sha256": "981c690959a382234a375de040986736ea1fc734629873b6a00356eb4625e671",
       "bytes": 59618
     },
     {
       "url": "https://lawcom.gov.lk/index.php?lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-04-ef415fbf6b8b.html",
-      "sha256": "ef415fbf6b8bbcc00b990408816b02d33aebbe0cfc23e7b6c6514ecea5777c62",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-04-7ad1858a2fa2.html",
+      "sha256": "7ad1858a2fa2e18d52a5521a5d730dc8066b0ae87406b6fab4324636138abc16",
       "bytes": 59618
     },
     {
       "url": "https://lawcom.gov.lk/index.php?lang=si",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-05-80c8db3370a8.html",
-      "sha256": "80c8db3370a812af1c893f892a05a05c72fab9f98a6173b9b7362f06ae8a89bc",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-05-efb45fbbb447.html",
+      "sha256": "efb45fbbb447b9aeb27599963c2f74ba78ddf868210581ff8b1e9c41ebed9cc1",
       "bytes": 64611
     },
     {
       "url": "https://lawcom.gov.lk/index.php?lang=ta",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-06-56e3499f34e3.html",
-      "sha256": "56e3499f34e3d8d4e06bf211f650ae7e23f29a86703fe82e926551fd29aff3c3",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-06-7b09e5d1f941.html",
+      "sha256": "7b09e5d1f9410d46ecaffda2a5849212397fbc772322615d8b214bc34e0742d0",
       "bytes": 67303
     },
     {
       "url": "https://lawcom.gov.lk/index.php?lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-07-f6cac8c47129.html",
-      "sha256": "f6cac8c47129cbab8cbb025034e3f28b41d3ec97e0a3a0017a9163bea7925585",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-07-313a1f53f463.html",
+      "sha256": "313a1f53f463074a300d3f20c3263083cc2385bc209c38b2604a7f564258f175",
       "bytes": 59618
     },
     {
       "url": "https://lawcom.gov.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-08-56fb20f9a961.html",
-      "sha256": "56fb20f9a9616e76c6030ea3e7b474a629cefd6c6ebb047efa3058a8d620741f",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-08-6e0240fe78ff.html",
+      "sha256": "6e0240fe78ff99f675e6c9c5d02d2d0b5722fb3ca0b1e34d155cd7ddb1a1181d",
       "bytes": 59970
     },
     {
       "url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=69&Itemid=235&lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-09-688122e45df9.html",
-      "sha256": "688122e45df9564afe6192aa84674b5ab45fa7555a69e1601a591edd7a7c1a32",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-09-e0c9c8e96ae5.html",
+      "sha256": "e0c9c8e96ae59c81bed0a348974b4312f827fb02f9af68e447997e724a2b0ab5",
       "bytes": 48620
     },
     {
       "url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=70&Itemid=236&lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-10-21e03e0470e6.html",
-      "sha256": "21e03e0470e6fc6967630bf20fc20972cfbc559750c14cfbf4c4b927d7e37045",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-10-8b30b1227e42.html",
+      "sha256": "8b30b1227e42475a83879c799da0c1e806659214ec3c732baa8e0856f2695a76",
       "bytes": 47555
     },
     {
       "url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=71&Itemid=237&lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-11-3d6ec5ca50b7.html",
-      "sha256": "3d6ec5ca50b78dbb5a973eaf8a7c5e0b628bd68a277560d8da9690e6fbf18045",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-11-1e0f41feb40b.html",
+      "sha256": "1e0f41feb40b817500b292eea2fc4cece84f79f69a49a455fb3befcf1cda088d",
       "bytes": 45111
     },
     {
       "url": "https://lawcom.gov.lk/index.php?option=com_content&view=article&id=72&Itemid=238&lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-12-e5e274c6fa23.html",
-      "sha256": "e5e274c6fa23193a39b28fa0758e4bd5e8b7c1e7d7e12510e1c7e90cfd18d099",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-12-999bd2fd089d.html",
+      "sha256": "999bd2fd089d0ba2f2b685728be1b4b6a9de47a35411869b4ad8a7d19adb3f7b",
       "bytes": 74467
     },
     {
       "url": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=16&Itemid=239&lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-13-594c5edb1b95.html",
-      "sha256": "594c5edb1b9589981e4e77428eb37f977e133d9a901b143e04e37f8aae5eaeb7",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-13-1a685cbdc2b2.html",
+      "sha256": "1a685cbdc2b27312563904b400cd9f8aa39996ee2342f004b4b50400ad0dda5c",
       "bytes": 58316
     },
     {
       "url": "https://lawcom.gov.lk/index.php?option=com_content&view=category&layout=blog&id=17&Itemid=240&lang=en",
-      "path": "audit.output/lawcom.gov.lk/20260926.0641/snapshots/page-14-3646620a520d.html",
-      "sha256": "3646620a520d3119b50bed9f77392b089e09e69860284e05e4dbe89ab928ea4a",
+      "path": "audit.output/lawcom.gov.lk/20260927.0647/snapshots/page-14-512691c234f6.html",
+      "sha256": "512691c234f6e98c97f7cbe9d3a66244ba785bb8584771e2f59a12e7e78e0560",
       "bytes": 56888
     }
   ],
@@ -1303,7 +1303,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: the above issues with relevant stakeholders and to submit a proposal. Present Status The Law Commission appointed a Subc; Phone: +94 112 333 884 (10 phone numbers found); Email: depoflawcommission@gmail.com (2 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: the above issues with relevant stakeholders and to submit a proposal. Present Status The Law Commission appointed a Subc; Phone: 08.09.2025 18 (10 phone numbers found); Email: depoflawcommission@gmail.com (2 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1316,7 +1316,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 112 333 884 (10 phone numbers found); Email: depoflawcommission@gmail.com (2 email addresses found)"
+          "reason": "Phone: 08.09.2025 18 (10 phone numbers found); Email: depoflawcommission@gmail.com (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1395,7 +1395,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

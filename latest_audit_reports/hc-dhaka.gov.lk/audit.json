@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "7c075427-c812-48ae-bdda-891c4b08564c",
+  "audit_id": "8e2bf0e5-55e3-48c6-9035-67dcc694afa0",
   "url": "https://hc-dhaka.gov.lk",
   "normalized_url": "https://hc-dhaka.gov.lk/",
-  "started_at": "2026-09-26T06:28:31.000779+05:30",
-  "completed_at": "2026-09-26T06:29:13.215998+05:30",
+  "started_at": "2026-09-27T06:34:31.332602+05:30",
+  "completed_at": "2026-09-27T06:35:13.304516+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:28:31.582357+05:30"
+      "observed_at": "2026-09-27T06:34:31.735231+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:28:31.582378+05:30"
+      "observed_at": "2026-09-27T06:34:31.735255+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:28:32.169957+05:30"
+      "observed_at": "2026-09-27T06:34:32.465853+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.hc-dhaka.gov.lk/en",
       "source": "https://hc-dhaka.gov.lk/",
-      "observed_at": "2026-09-26T06:29:11.497737+05:30"
+      "observed_at": "2026-09-27T06:35:11.084584+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.hc-dhaka.gov.lk/en",
       "source": "http://hc-dhaka.gov.lk/",
-      "observed_at": "2026-09-26T06:29:11.497756+05:30"
+      "observed_at": "2026-09-27T06:35:11.084603+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.hc-dhaka.gov.lk/en",
       "source": "https://hc-dhaka.gov.lk/",
-      "observed_at": "2026-09-26T06:29:11.497760+05:30"
+      "observed_at": "2026-09-27T06:35:11.084607+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.hc-dhaka.gov.lk/en",
       "source": "http://hc-dhaka.gov.lk/",
-      "observed_at": "2026-09-26T06:29:11.497763+05:30"
+      "observed_at": "2026-09-27T06:35:11.084610+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.hc-dhaka.gov.lk/en/contact",
       "source": "https://www.hc-dhaka.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:29:11.497765+05:30"
+      "observed_at": "2026-09-27T06:35:11.084613+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.hc-dhaka.gov.lk/en/visa-service",
       "source": "https://hc-dhaka.gov.lk/en/visa-service",
-      "observed_at": "2026-09-26T06:29:11.497767+05:30"
+      "observed_at": "2026-09-27T06:35:11.084616+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
       "source": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:29:11.497770+05:30"
+      "observed_at": "2026-09-27T06:35:11.084618+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
       "source": "https://hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
-      "observed_at": "2026-09-26T06:29:11.497772+05:30"
+      "observed_at": "2026-09-27T06:35:11.084621+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
       "source": "https://hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
-      "observed_at": "2026-09-26T06:29:11.497774+05:30"
+      "observed_at": "2026-09-27T06:35:11.084624+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785ddbc56bbae66227317f",
       "source": "https://hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785ddbc56bbae66227317f",
-      "observed_at": "2026-09-26T06:29:11.497777+05:30"
+      "observed_at": "2026-09-27T06:35:11.084627+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785dce995494d71a465686",
       "source": "https://hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785dce995494d71a465686",
-      "observed_at": "2026-09-26T06:29:11.497779+05:30"
+      "observed_at": "2026-09-27T06:35:11.084630+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d30c56bbae662273062",
       "source": "https://hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d30c56bbae662273062",
-      "observed_at": "2026-09-26T06:29:11.497781+05:30"
+      "observed_at": "2026-09-27T06:35:11.084632+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d67995494d71a4655d7",
       "source": "https://hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d67995494d71a4655d7",
-      "observed_at": "2026-09-26T06:29:11.497783+05:30"
+      "observed_at": "2026-09-27T06:35:11.084635+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d96995494d71a465652",
       "source": "https://hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d96995494d71a465652",
-      "observed_at": "2026-09-26T06:29:11.497785+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.518939103",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "0.518939103"
-      }
+      "observed_at": "2026-09-27T06:35:11.084637+05:30"
     },
     {
       "check": "phone",
@@ -159,10 +150,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0880222229",
+      "detail": "Published phone: 0.518939103",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
-        "value": "0880222229"
+        "value": "0.518939103"
       }
     },
     {
@@ -193,30 +184,39 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0880222229",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "0880222229"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
@@ -249,15 +249,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.518939103",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "0.518939103"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0222229635",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
@@ -267,10 +258,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0880222229",
+      "detail": "Published phone: 0.518939103",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
-        "value": "0880222229"
+        "value": "0.518939103"
       }
     },
     {
@@ -301,30 +292,39 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0880222229",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "0880222229"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
@@ -357,15 +357,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.518939103",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "0.518939103"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0222229635",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
@@ -375,10 +366,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0880222229",
+      "detail": "Published phone: 0.518939103",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
-        "value": "0880222229"
+        "value": "0.518939103"
       }
     },
     {
@@ -409,30 +400,39 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0880222229",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "0880222229"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
@@ -465,15 +465,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.518939103",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "0.518939103"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0222229635",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
@@ -483,10 +474,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0880222229",
+      "detail": "Published phone: 0.518939103",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
-        "value": "0880222229"
+        "value": "0.518939103"
       }
     },
     {
@@ -517,30 +508,39 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0880222229",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "0880222229"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
@@ -577,6 +577,15 @@
       "source": "https://www.hc-dhaka.gov.lk/en/contact",
       "data": {
         "value": "0222229635"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +8802222296353",
+      "source": "https://www.hc-dhaka.gov.lk/en/contact",
+      "data": {
+        "value": "+8802222296353"
       }
     },
     {
@@ -589,12 +598,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +8802222296353",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/contact",
       "data": {
-        "value": "+8802222296353"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
@@ -604,15 +613,6 @@
       "source": "https://www.hc-dhaka.gov.lk/en/contact",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/contact",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
@@ -636,33 +636,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0094719967888",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "0094719967888"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 02-9896353",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "02-9896353"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0094112777638",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "0094112777638"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0222229635",
       "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
       "data": {
@@ -681,10 +654,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0094 71 9967",
+      "detail": "Published phone: 02-9896353",
       "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
       "data": {
-        "value": "0094 71 9967"
+        "value": "02-9896353"
       }
     },
     {
@@ -699,6 +672,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0094 11 2674",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "0094 11 2674"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094112777638",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "0094112777638"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0094719967",
       "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
       "data": {
@@ -708,10 +699,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0094 11 2674",
+      "detail": "Published phone: 0094 71 9967",
       "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
       "data": {
-        "value": "0094 11 2674"
+        "value": "0094 71 9967"
       }
     },
     {
@@ -724,12 +715,48 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0094719967888",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "0094719967888"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: etasl@immigration.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "etasl@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: controller@immigration.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "controller@immigration.gov.lk"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
       "data": {
         "value": "slhc.dhaka@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: eta@immigration.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "eta@immigration.gov.lk"
       }
     },
     {
@@ -748,6 +775,24 @@
       "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
       "data": {
         "value": "eta@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: etasl@immigration.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "etasl@immigration.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
+      "data": {
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
@@ -757,51 +802,6 @@
       "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: eta@immigration.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "eta@immigration.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: etasl@immigration.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "etasl@immigration.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: controller@immigration.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "controller@immigration.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: etasl@immigration.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "data": {
-        "value": "etasl@immigration.gov.lk"
       }
     },
     {
@@ -879,15 +879,6 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
-      "data": {
-        "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
       "data": {
@@ -895,12 +886,21 @@
       }
     },
     {
-      "check": "postal_address",
+      "check": "email",
       "status": "pass",
-      "detail": "Published postal address: Line 2\\\",\\\"validation_dob_future\\\":\\\"Date of birth cannot be in the future\\\",\\\"validation_email_valid\\\":\\\"Please enter a",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "Line 2\\\",\\\"validation_dob_future\\\":\\\"Date of birth cannot be in the future\\\",\\\"validation_email_valid\\\":\\\"Please enter a"
+        "value": "john@example.com"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: at the inaugural Global\\\\nConscious Food Systems Summit 2026, held on 01 September 2026 at Dungkar Dzong,\\\\nBhutan. She ",
+      "source": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
+      "data": {
+        "value": "at the inaugural Global\\\\nConscious Food Systems Summit 2026, held on 01 September 2026 at Dungkar Dzong,\\\\nBhutan. She "
       }
     },
     {
@@ -915,10 +915,19 @@
     {
       "check": "published_update_date",
       "status": "pass",
-      "detail": "Published published update date: 04 September 2026",
+      "detail": "Published published update date: 09/08/2026",
       "source": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
       "data": {
-        "value": "04 September 2026"
+        "value": "09/08/2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0222229635",
+      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
+      "data": {
+        "value": "0222229635"
       }
     },
     {
@@ -928,6 +937,24 @@
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
       "data": {
         "value": "+94 -112 437 633"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +8802222296353",
+      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
+      "data": {
+        "value": "+8802222296353"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112437633",
+      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
+      "data": {
+        "value": "+94112437633"
       }
     },
     {
@@ -949,30 +976,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0222229635",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
       "data": {
-        "value": "0222229635"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94112437633",
+      "detail": "Published email: dgpd@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
       "data": {
-        "value": "+94112437633"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +8802222296353",
-      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
-      "data": {
-        "value": "+8802222296353"
+        "value": "dgpd@mfa.gov.lk"
       }
     },
     {
@@ -1009,24 +1027,6 @@
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgpd@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
-      "data": {
-        "value": "dgpd@mfa.gov.lk"
       }
     },
     {
@@ -1104,10 +1104,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0222229635",
+      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
+      "data": {
+        "value": "0222229635"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 -112 437 633",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
       "data": {
         "value": "+94 -112 437 633"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +8802222296353",
+      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
+      "data": {
+        "value": "+8802222296353"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112437633",
+      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
+      "data": {
+        "value": "+94112437633"
       }
     },
     {
@@ -1129,30 +1156,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0222229635",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
       "data": {
-        "value": "0222229635"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94112437633",
+      "detail": "Published email: dgpd@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
       "data": {
-        "value": "+94112437633"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +8802222296353",
-      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
-      "data": {
-        "value": "+8802222296353"
+        "value": "dgpd@mfa.gov.lk"
       }
     },
     {
@@ -1189,24 +1207,6 @@
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
-      "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgpd@mfa.gov.lk",
-      "source": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
-      "data": {
-        "value": "dgpd@mfa.gov.lk"
       }
     },
     {
@@ -1302,19 +1302,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785ddbc56bbae66227317f",
       "data": {
-        "value": "john@example.com"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785ddbc56bbae66227317f",
       "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1356,19 +1356,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785dce995494d71a465686",
       "data": {
-        "value": "john@example.com"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785dce995494d71a465686",
       "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1410,19 +1410,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d30c56bbae662273062",
       "data": {
-        "value": "john@example.com"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d30c56bbae662273062",
       "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1464,19 +1464,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d67995494d71a4655d7",
       "data": {
-        "value": "john@example.com"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d67995494d71a4655d7",
       "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1518,19 +1518,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d96995494d71a465652",
       "data": {
-        "value": "john@example.com"
+        "value": "slhc.dhaka@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc.dhaka@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d96995494d71a465652",
       "data": {
-        "value": "slhc.dhaka@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1588,7 +1588,7 @@
         "https://www.hc-dhaka.gov.lk/",
         "https://www.hc-dhaka.gov.lk/en"
       ],
-      "elapsed_ms": 2792,
+      "elapsed_ms": 2370,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1600,7 +1600,7 @@
         "https://www.hc-dhaka.gov.lk/",
         "https://www.hc-dhaka.gov.lk/en"
       ],
-      "elapsed_ms": 7495,
+      "elapsed_ms": 1306,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1612,7 +1612,7 @@
         "https://www.hc-dhaka.gov.lk/",
         "https://www.hc-dhaka.gov.lk/en"
       ],
-      "elapsed_ms": 2141,
+      "elapsed_ms": 1625,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1624,7 +1624,7 @@
         "https://www.hc-dhaka.gov.lk/",
         "https://www.hc-dhaka.gov.lk/en"
       ],
-      "elapsed_ms": 780,
+      "elapsed_ms": 984,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1633,7 +1633,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-dhaka.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1561,
+      "elapsed_ms": 1074,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1644,7 +1644,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/visa-service"
       ],
-      "elapsed_ms": 983,
+      "elapsed_ms": 2451,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1653,7 +1653,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 1142,
+      "elapsed_ms": 1251,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1664,7 +1664,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b"
       ],
-      "elapsed_ms": 2337,
+      "elapsed_ms": 3278,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1675,7 +1675,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a"
       ],
-      "elapsed_ms": 2483,
+      "elapsed_ms": 3085,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1686,7 +1686,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785ddbc56bbae66227317f"
       ],
-      "elapsed_ms": 718,
+      "elapsed_ms": 820,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1697,7 +1697,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785dce995494d71a465686"
       ],
-      "elapsed_ms": 707,
+      "elapsed_ms": 985,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1708,7 +1708,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d30c56bbae662273062"
       ],
-      "elapsed_ms": 1422,
+      "elapsed_ms": 1106,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1719,7 +1719,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d67995494d71a4655d7"
       ],
-      "elapsed_ms": 1065,
+      "elapsed_ms": 1166,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1730,7 +1730,7 @@
       "redirects": [
         "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d96995494d71a465652"
       ],
-      "elapsed_ms": 759,
+      "elapsed_ms": 773,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1738,86 +1738,86 @@
   "snapshots": [
     {
       "url": "https://www.hc-dhaka.gov.lk/en",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-01-aa33c7fc57cc.html",
-      "sha256": "aa33c7fc57ccbb1d228c687562a4d86bd6171cfb1be77216a7e728563ce90082",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-01-b56e3a9a0cdf.html",
+      "sha256": "b56e3a9a0cdfa7387ffb89e22d2dd298db96a4b175f0cc466801d3e7d73535f5",
       "bytes": 396998
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-02-316f166a1a30.html",
-      "sha256": "316f166a1a30260dd8db37051ae101737a5c3deb3344c1e2b42424d6939e62ab",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-02-4eec1b6ad36f.html",
+      "sha256": "4eec1b6ad36fdc56fce0792f544d6a7d59bcf0c919459a33ca433a5d57602f3e",
       "bytes": 396998
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-03-35e7c88cc3e8.html",
-      "sha256": "35e7c88cc3e8da8656bf0c9cd2b34896844ea180f7bb92990dcb1490f72f7bb3",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-03-4e9394ab02c8.html",
+      "sha256": "4e9394ab02c89d99b8903a238f1ff870f6ca072c81aaa8189ea90f16de0436f5",
       "bytes": 396998
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-04-61dfabfb9841.html",
-      "sha256": "61dfabfb9841bd70e111c704ab67ca73cf9ff5908ec30be9d0ca0f767c760a67",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-04-2f9a86c94e51.html",
+      "sha256": "2f9a86c94e5185438e3b357ce8a2080d15e2dd5c803c42a528e606c9bdfec86b",
       "bytes": 396998
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/contact",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-05-832b8c31ff55.html",
-      "sha256": "832b8c31ff55b30363d5c807cf60407a2635611d5a681c0c1abbc1be0a7653f6",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-05-38996d035db7.html",
+      "sha256": "38996d035db72bf5f37d16b2972f74b190752c65701ef0121b408e09bdaf52cd",
       "bytes": 100839
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/visa-service",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-06-9eba4237e1c8.html",
-      "sha256": "9eba4237e1c8b86156eb377f32e53e711727768ce85fdb8e21b153dc32ec571c",
-      "bytes": 133434
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-06-2daaaf82ddb6.html",
+      "sha256": "2daaaf82ddb63c7cd97ba39ac9476cc6cd30f755631ef1595e48fed1de705180",
+      "bytes": 133334
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-07-221cc7d30d8b.html",
-      "sha256": "221cc7d30d8b608de1e026027e7d786b04fc8a92be266833b26eb56b62d457da",
-      "bytes": 235793
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-07-d7a08b55782a.html",
+      "sha256": "d7a08b55782a9cec5957aeb9dfd725cc708d8902e86331f45a84f956796e7801",
+      "bytes": 234654
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a79be40c56bbae66228a12b",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-08-2e52a6b20108.html",
-      "sha256": "2e52a6b20108ed11411071975f1bc02e015b000a4125ce5443517888435613a6",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-08-df5399849ad8.html",
+      "sha256": "df5399849ad8fdc25211c4a9254d0ffec2af1a406d7584414731ec27c1ab9483",
       "bytes": 346624
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/appointment?serviceId=6a797f9c995494d71a47313a",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-09-534d73ec117f.html",
-      "sha256": "534d73ec117f489b786d2a06f0a69dbfa40f7a4d25dd68fc430431a4ba4bfe96",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-09-5e042b39bd9f.html",
+      "sha256": "5e042b39bd9f7759517f91d1e320fe5fa35940b27286f270094b14ffe59b528d",
       "bytes": 346624
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785ddbc56bbae66227317f",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-10-d6a64c25d4f5.html",
-      "sha256": "d6a64c25d4f5d080936d91ced3a9658c0c2c2d6f1f65df27ccae48e0415175f7",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-10-920f7a9dd577.html",
+      "sha256": "920f7a9dd577963873c3e2299116780d4383716c8f0e7db9814b6f13a4624956",
       "bytes": 91729
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785dce995494d71a465686",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-11-4328050913ce.html",
-      "sha256": "4328050913ce73a62b9cd9996e13d38e9661581e9eceafc33673e08c0d300832",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-11-03c85e3a0702.html",
+      "sha256": "03c85e3a0702a887c8c861492e0208ba7b8a94bc2b470618a3d26226584877c5",
       "bytes": 91729
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d30c56bbae662273062",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-12-e044d60e5926.html",
-      "sha256": "e044d60e5926f5053fda08b95504397dcd4758ff6db4963a61f5d3b4c4d7ea5d",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-12-de7cab52c8ac.html",
+      "sha256": "de7cab52c8acf169ad15669707e372462a6f14f305eecf80c5df9ae4acb3803d",
       "bytes": 91729
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d67995494d71a4655d7",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-13-09dacef5559f.html",
-      "sha256": "09dacef5559fa4ae486bb8c32e705ab5bc40232a7f99482bbc0bf357d1e53b0a",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-13-c2cb32f73271.html",
+      "sha256": "c2cb32f73271e67616ac55bedab59a15973bb8a1e0ee81d36b6a25661812a7c7",
       "bytes": 91729
     },
     {
       "url": "https://www.hc-dhaka.gov.lk/en/appointment?page=2&serviceId=6a785d96995494d71a465652",
-      "path": "audit.output/hc-dhaka.gov.lk/20260926.0628/snapshots/page-14-ea324c7ae418.html",
-      "sha256": "ea324c7ae4189b0599e5cc5f299824955565f53ac10eb8edfacffcaf5d723f41",
+      "path": "audit.output/hc-dhaka.gov.lk/20260927.0634/snapshots/page-14-dbd2adf4be9c.html",
+      "sha256": "dbd2adf4be9c40d45073eed19afc98308a53967ed778e8848942b59981df12fc",
       "bytes": 91729
     }
   ],
@@ -1904,7 +1904,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: House No.10, Rd No 62, Gulshan 2, Dhaka 1212 Email: slhc.dhaka@mfa.gov.lk Tel: +8802222296353 Register as a Sri Lankan A; Phone: 0.518939103 (19 phone numbers found); Email: john@example.com (7 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: House No.10, Rd No 62, Gulshan 2, Dhaka 1212 Email: slhc.dhaka@mfa.gov.lk Tel: +8802222296353 Register as a Sri Lankan A; Phone: 0222229635 (19 phone numbers found); Email: slhc.dhaka@mfa.gov.lk (7 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1917,7 +1917,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0.518939103 (19 phone numbers found); Email: john@example.com (7 email addresses found)"
+          "reason": "Phone: 0222229635 (19 phone numbers found); Email: slhc.dhaka@mfa.gov.lk (7 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1996,7 +1996,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

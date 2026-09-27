@@ -1,8 +1,8 @@
 # Website Audit: https://pgims.pdn.ac.lk/
 
-- Completed: 2026-09-26 06:16
+- Completed: 2026-09-27 06:23
 - Overall result: 🔴 Level 1
-- Vantage: 134.33.77.208 (US, github-actions)
+- Vantage: 20.55.47.112 (US, github-actions)
 
 ## ⚫ Level 0: ✅
 

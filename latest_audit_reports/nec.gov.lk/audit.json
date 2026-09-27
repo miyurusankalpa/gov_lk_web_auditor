@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "1726cfac-36b6-4d09-860a-0bf0b37a73f4",
+  "audit_id": "021b508f-684b-4a86-8edc-b71ca96d22e0",
   "url": "https://nec.gov.lk",
   "normalized_url": "https://nec.gov.lk/",
-  "started_at": "2026-09-26T06:19:10.282385+05:30",
-  "completed_at": "2026-09-26T06:19:33.313231+05:30",
+  "started_at": "2026-09-27T06:25:50.045053+05:30",
+  "completed_at": "2026-09-27T06:26:19.330212+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:19:10.670871+05:30"
+      "observed_at": "2026-09-27T06:25:50.562051+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:19:10.670890+05:30"
+      "observed_at": "2026-09-27T06:25:50.562070+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:19:10.936219+05:30"
+      "observed_at": "2026-09-27T06:25:50.953759+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://nec.gov.lk/",
       "source": "https://nec.gov.lk/",
-      "observed_at": "2026-09-26T06:19:32.689829+05:30"
+      "observed_at": "2026-09-27T06:26:18.449890+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://nec.gov.lk/",
       "source": "http://nec.gov.lk/",
-      "observed_at": "2026-09-26T06:19:32.689849+05:30"
+      "observed_at": "2026-09-27T06:26:18.449908+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://nec.gov.lk/",
       "source": "https://nec.gov.lk/",
-      "observed_at": "2026-09-26T06:19:32.689853+05:30"
+      "observed_at": "2026-09-27T06:26:18.449913+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://nec.gov.lk/",
       "source": "http://nec.gov.lk/",
-      "observed_at": "2026-09-26T06:19:32.689856+05:30"
+      "observed_at": "2026-09-27T06:26:18.449916+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://nec.gov.lk/contact-us-2/",
       "source": "https://nec.gov.lk/contact-us-2/",
-      "observed_at": "2026-09-26T06:19:32.689858+05:30"
+      "observed_at": "2026-09-27T06:26:18.449919+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://nec.gov.lk/",
       "source": "http://nec.gov.lk/",
-      "observed_at": "2026-09-26T06:19:32.689861+05:30"
+      "observed_at": "2026-09-27T06:26:18.449922+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://nec.gov.lk/about-us/overview/",
       "source": "https://nec.gov.lk/about-us/overview/",
-      "observed_at": "2026-09-26T06:19:32.689863+05:30"
+      "observed_at": "2026-09-27T06:26:18.449924+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://nec.gov.lk/act/",
       "source": "https://nec.gov.lk/act/",
-      "observed_at": "2026-09-26T06:19:32.689865+05:30"
+      "observed_at": "2026-09-27T06:26:18.449927+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://nec.gov.lk/about-us/organization-structure/",
       "source": "https://nec.gov.lk/about-us/organization-structure/",
-      "observed_at": "2026-09-26T06:19:32.689867+05:30"
+      "observed_at": "2026-09-27T06:26:18.449930+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://nec.gov.lk/about-us/commissions-2/previous-commissions/",
       "source": "https://nec.gov.lk/about-us/commissions-2/previous-commissions/",
-      "observed_at": "2026-09-26T06:19:32.689869+05:30"
+      "observed_at": "2026-09-27T06:26:18.449932+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://nec.gov.lk/about-us/commissions-2/present-commission-2/",
       "source": "https://nec.gov.lk/about-us/commissions-2/present-commission-2/",
-      "observed_at": "2026-09-26T06:19:32.689872+05:30"
+      "observed_at": "2026-09-27T06:26:18.449935+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://nec.gov.lk/standing-comitees/",
       "source": "https://nec.gov.lk/standing-comitees/",
-      "observed_at": "2026-09-26T06:19:32.689874+05:30"
+      "observed_at": "2026-09-27T06:26:18.449938+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://nec.gov.lk/about-us/chairman/",
       "source": "https://nec.gov.lk/about-us/chairman/",
-      "observed_at": "2026-09-26T06:19:32.689876+05:30"
+      "observed_at": "2026-09-27T06:26:18.449940+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://nec.gov.lk/about-us/vice-chairman/policy/",
       "source": "https://nec.gov.lk/about-us/vice-chairman/policy/",
-      "observed_at": "2026-09-26T06:19:32.689878+05:30"
+      "observed_at": "2026-09-27T06:26:18.449943+05:30"
     },
     {
       "check": "phone",
@@ -249,10 +249,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112662059 ",
+      "detail": "Published phone: +94 112662047 ",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "+94 112662059 "
+        "value": "+94 112662047 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112662057 ",
+      "source": "https://nec.gov.lk/contact-us-2/",
+      "data": {
+        "value": "+94 112662057 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2662064 ",
+      "source": "https://nec.gov.lk/contact-us-2/",
+      "data": {
+        "value": "+94 11 2662064 "
       }
     },
     {
@@ -262,15 +280,6 @@
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
         "value": "+94 112662019 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2662064 ",
-      "source": "https://nec.gov.lk/contact-us-2/",
-      "data": {
-        "value": "+94 11 2662064 "
       }
     },
     {
@@ -294,10 +303,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112662057 ",
+      "detail": "Published phone: +94 112662059 ",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "+94 112662057 "
+        "value": "+94 112662059 "
       }
     },
     {
@@ -310,21 +319,48 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94 112662047 ",
+      "detail": "Published email: achalanec2021@gmail.com",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "+94 112662047 "
+        "value": "achalanec2021@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sponec@slt.lk",
+      "detail": "Published email: vcplnec@slt.lk",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "sponec@slt.lk"
+        "value": "vcplnec@slt.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: vcpolicynec@slt.lk",
+      "source": "https://nec.gov.lk/contact-us-2/",
+      "data": {
+        "value": "vcpolicynec@slt.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: rajika.ranasinghe@gmail.com",
+      "source": "https://nec.gov.lk/contact-us-2/",
+      "data": {
+        "value": "rajika.ranasinghe@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nisantaprem78@gmail.com",
+      "source": "https://nec.gov.lk/contact-us-2/",
+      "data": {
+        "value": "nisantaprem78@gmail.com"
       }
     },
     {
@@ -348,19 +384,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: vcpolicynec@slt.lk",
+      "detail": "Published email: kaushi.geethamali@gmail.com",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "vcpolicynec@slt.lk"
+        "value": "kaushi.geethamali@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: nilmi_59@yahoo.com",
+      "detail": "Published email: sponec@slt.lk",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "nilmi_59@yahoo.com"
+        "value": "sponec@slt.lk"
       }
     },
     {
@@ -375,46 +411,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: kaushi.geethamali@gmail.com",
+      "detail": "Published email: nilmi_59@yahoo.com",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "kaushi.geethamali@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: achalanec2021@gmail.com",
-      "source": "https://nec.gov.lk/contact-us-2/",
-      "data": {
-        "value": "achalanec2021@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: nisantaprem78@gmail.com",
-      "source": "https://nec.gov.lk/contact-us-2/",
-      "data": {
-        "value": "nisantaprem78@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: rajika.ranasinghe@gmail.com",
-      "source": "https://nec.gov.lk/contact-us-2/",
-      "data": {
-        "value": "rajika.ranasinghe@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: suranga.lakmal91@gmail.com",
-      "source": "https://nec.gov.lk/contact-us-2/",
-      "data": {
-        "value": "suranga.lakmal91@gmail.com"
+        "value": "nilmi_59@yahoo.com"
       }
     },
     {
@@ -429,19 +429,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: vcplnec@slt.lk",
+      "detail": "Published email: vranawaka@hotmail.com",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "vcplnec@slt.lk"
+        "value": "vranawaka@hotmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: vranawaka@hotmail.com",
+      "detail": "Published email: suranga.lakmal91@gmail.com",
       "source": "https://nec.gov.lk/contact-us-2/",
       "data": {
-        "value": "vranawaka@hotmail.com"
+        "value": "suranga.lakmal91@gmail.com"
       }
     },
     {
@@ -627,19 +627,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: sponec@slt.lk",
+      "detail": "Published email: chnec2018@gmail.com",
       "source": "https://nec.gov.lk/about-us/commissions-2/present-commission-2/",
       "data": {
-        "value": "sponec@slt.lk"
+        "value": "chnec2018@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chnec2018@gmail.com",
+      "detail": "Published email: sponec@slt.lk",
       "source": "https://nec.gov.lk/about-us/commissions-2/present-commission-2/",
       "data": {
-        "value": "chnec2018@gmail.com"
+        "value": "sponec@slt.lk"
       }
     },
     {
@@ -784,7 +784,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1628,
+      "elapsed_ms": 1967,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -795,7 +795,7 @@
       "redirects": [
         "https://nec.gov.lk/"
       ],
-      "elapsed_ms": 1371,
+      "elapsed_ms": 1861,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -804,7 +804,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1510,
+      "elapsed_ms": 1672,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -815,7 +815,7 @@
       "redirects": [
         "https://nec.gov.lk/"
       ],
-      "elapsed_ms": 1584,
+      "elapsed_ms": 1851,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -824,7 +824,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/contact-us-2/",
       "redirects": [],
-      "elapsed_ms": 1046,
+      "elapsed_ms": 1345,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -835,7 +835,7 @@
       "redirects": [
         "https://nec.gov.lk/"
       ],
-      "elapsed_ms": 1310,
+      "elapsed_ms": 1862,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -844,7 +844,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/about-us/overview/",
       "redirects": [],
-      "elapsed_ms": 1157,
+      "elapsed_ms": 1379,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -853,7 +853,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/act/",
       "redirects": [],
-      "elapsed_ms": 1067,
+      "elapsed_ms": 1423,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -862,7 +862,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/about-us/organization-structure/",
       "redirects": [],
-      "elapsed_ms": 1086,
+      "elapsed_ms": 1450,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -871,7 +871,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/about-us/commissions-2/previous-commissions/",
       "redirects": [],
-      "elapsed_ms": 1266,
+      "elapsed_ms": 1583,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -880,7 +880,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/about-us/commissions-2/present-commission-2/",
       "redirects": [],
-      "elapsed_ms": 1473,
+      "elapsed_ms": 1922,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -889,7 +889,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/standing-comitees/",
       "redirects": [],
-      "elapsed_ms": 1110,
+      "elapsed_ms": 1332,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -898,7 +898,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/about-us/chairman/",
       "redirects": [],
-      "elapsed_ms": 1153,
+      "elapsed_ms": 1378,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -907,7 +907,7 @@
       "status_code": 200,
       "final_url": "https://nec.gov.lk/about-us/vice-chairman/policy/",
       "redirects": [],
-      "elapsed_ms": 1055,
+      "elapsed_ms": 1606,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -915,86 +915,86 @@
   "snapshots": [
     {
       "url": "https://nec.gov.lk/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-01-2b197e7c3dfa.html",
-      "sha256": "2b197e7c3dfa9d622b39f6caa90ee1b86dc79fa379cb967ff138bf7d9c1cc571",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-01-7d4b5a7b9bf4.html",
+      "sha256": "7d4b5a7b9bf48856a2bc4346b1dbc16f531b2b2d7512448ef6d0bc67fea49f98",
       "bytes": 161121
     },
     {
       "url": "https://nec.gov.lk/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-02-bad72900201b.html",
-      "sha256": "bad72900201ba9fba137154496f7d2d90ab7ddd3744f0cb71523da8d9ce94e12",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-02-f6d59bbb1d3d.html",
+      "sha256": "f6d59bbb1d3d1d7472233bd2dcf304a83d4723dc54323f44625f9f2d11c1f777",
       "bytes": 161121
     },
     {
       "url": "https://nec.gov.lk/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-03-923fcb393aa5.html",
-      "sha256": "923fcb393aa54bd0292cfcd36a6ee98d0a284d125b102950ac3e254323b37359",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-03-915242c5a625.html",
+      "sha256": "915242c5a625059100fe0713266ec2469e76ea32c3949677636527549a8cdbb2",
       "bytes": 161121
     },
     {
       "url": "https://nec.gov.lk/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-04-8162deee6345.html",
-      "sha256": "8162deee63450a0857f13809be41e9e422d521fe14d23ac17ef1c108d4b216bb",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-04-f8d4264fc9d3.html",
+      "sha256": "f8d4264fc9d3492eb63ce359717327bdf4851bd5e84635faa0811d747def42ea",
       "bytes": 161121
     },
     {
       "url": "https://nec.gov.lk/contact-us-2/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-05-de9e8ae12392.html",
-      "sha256": "de9e8ae1239233443c4426301d54ef0474b8aea1e5c9e5a9af853e9dde39a57c",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-05-8b6053877b7f.html",
+      "sha256": "8b6053877b7f6d6fc1f0c4dd12a83feb51a4900972c3c5685ec82729cd0db55c",
       "bytes": 138922
     },
     {
       "url": "https://nec.gov.lk/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-06-d73318f26049.html",
-      "sha256": "d73318f2604935830eedeb6bcfa29c6b0f16a62ec2818572a39d3bff123088d3",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-06-8bc0a7f78574.html",
+      "sha256": "8bc0a7f7857409f781f9ff7f07909cbd67d1cc7885d76fadd62333d09643137e",
       "bytes": 161121
     },
     {
       "url": "https://nec.gov.lk/about-us/overview/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-07-33bce202bf59.html",
-      "sha256": "33bce202bf59c426c6c2e89139228d848e994297163d7084c65bea7bf2135f26",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-07-366109196667.html",
+      "sha256": "366109196667c43d821a53fc331c4b282a242c336ba27b95c27ee25562a4b914",
       "bytes": 136806
     },
     {
       "url": "https://nec.gov.lk/act/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-08-f6df4cb43e4c.html",
-      "sha256": "f6df4cb43e4c495fc3bc98b4a95f2ef4c5de600435d2298538aeb58c3062f800",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-08-b46e2c391099.html",
+      "sha256": "b46e2c391099afff86c43ef2a3fc9afb6bfa0eb6fa7436fe7304e01a1cdbd39e",
       "bytes": 108413
     },
     {
       "url": "https://nec.gov.lk/about-us/organization-structure/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-09-4d97ad3adb9e.html",
-      "sha256": "4d97ad3adb9edde38dae842e609c4a054f57fc8cfe7e8e9a6b3db65252a75469",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-09-f41cc81aa88d.html",
+      "sha256": "f41cc81aa88d3a8f9bc1b9f10f2eeb979d88042a3ac8ecd692caf34f3fb7f257",
       "bytes": 127567
     },
     {
       "url": "https://nec.gov.lk/about-us/commissions-2/previous-commissions/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-10-be2ef56012c6.html",
-      "sha256": "be2ef56012c62b988345d49fdb9e5e58ca07a60a5b992b44ee7c23c859e57183",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-10-92779d88969f.html",
+      "sha256": "92779d88969fb2432606ab9eaa85237e8fc85a077b37ffeda9b7d2b7d3c1a233",
       "bytes": 150763
     },
     {
       "url": "https://nec.gov.lk/about-us/commissions-2/present-commission-2/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-11-c24d073652b4.html",
-      "sha256": "c24d073652b40dc2e9355f223fcfdeecddd1712da94182598a790ece01d9cde1",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-11-d9d80ecfdf6b.html",
+      "sha256": "d9d80ecfdf6bd0d9e546c01665a847f98fac7b52f67a9f1766e904786d901e84",
       "bytes": 189052
     },
     {
       "url": "https://nec.gov.lk/standing-comitees/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-12-00706fcf0ec8.html",
-      "sha256": "00706fcf0ec8e780e457e9b3624a0207150137e7c288b6704c0ea08cd82efa23",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-12-fd473a583b56.html",
+      "sha256": "fd473a583b56d5c1ca986c968b8a8269cc3992b5294f9c1506fc24bfaea2ede0",
       "bytes": 130429
     },
     {
       "url": "https://nec.gov.lk/about-us/chairman/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-13-241c543cb1fe.html",
-      "sha256": "241c543cb1fe153196ede7fcefbc0428da5604b1aa39519da5d305912167715b",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-13-ae6af0433c2d.html",
+      "sha256": "ae6af0433c2d2344ad462a4bb4484493202e55f4a04df74bf4e4a236d778feb6",
       "bytes": 129295
     },
     {
       "url": "https://nec.gov.lk/about-us/vice-chairman/policy/",
-      "path": "audit.output/nec.gov.lk/20260926.0619/snapshots/page-14-9b0e9d41d9ba.html",
-      "sha256": "9b0e9d41d9ba3fdd871af462f411b8da7c8ddc67ba8e45e3b4be7bb37bed0ca4",
+      "path": "audit.output/nec.gov.lk/20260927.0625/snapshots/page-14-4b258ebcdc02.html",
+      "sha256": "4b258ebcdc02ab5bd28ce1e3f0c199dbce18133c87c9e8bd1cbce84fee5866df",
       "bytes": 125727
     }
   ],
@@ -1173,7 +1173,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

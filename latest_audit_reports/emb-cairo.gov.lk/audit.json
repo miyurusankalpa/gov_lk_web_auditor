@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "d2981d53-86b3-4e00-97ee-d0b70b9e71a1",
+  "audit_id": "56d87b81-7a08-4140-a09d-71fade02b2ea",
   "url": "https://emb-cairo.gov.lk",
   "normalized_url": "https://emb-cairo.gov.lk/",
-  "started_at": "2026-09-26T06:35:23.132366+05:30",
-  "completed_at": "2026-09-26T06:36:05.541717+05:30",
+  "started_at": "2026-09-27T06:40:39.046972+05:30",
+  "completed_at": "2026-09-27T06:41:29.408591+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,189 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:35:23.725991+05:30"
+      "observed_at": "2026-09-27T06:40:39.705252+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:35:23.726011+05:30"
+      "observed_at": "2026-09-27T06:40:39.705274+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:35:24.319422+05:30"
+      "observed_at": "2026-09-27T06:40:40.417599+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-cairo.gov.lk/en",
       "source": "https://emb-cairo.gov.lk/",
-      "observed_at": "2026-09-26T06:36:03.765779+05:30"
+      "observed_at": "2026-09-27T06:41:26.394865+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-cairo.gov.lk/en",
       "source": "http://emb-cairo.gov.lk/",
-      "observed_at": "2026-09-26T06:36:03.765797+05:30"
+      "observed_at": "2026-09-27T06:41:26.394888+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-cairo.gov.lk/en",
       "source": "https://emb-cairo.gov.lk/",
-      "observed_at": "2026-09-26T06:36:03.765801+05:30"
+      "observed_at": "2026-09-27T06:41:26.394893+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-cairo.gov.lk/en",
       "source": "http://emb-cairo.gov.lk/",
-      "observed_at": "2026-09-26T06:36:03.765804+05:30"
+      "observed_at": "2026-09-27T06:41:26.394896+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-cairo.gov.lk/en/document-certification-and-clearance-services",
       "source": "https://emb-cairo.gov.lk/en/document-certification-and-clearance-services",
-      "observed_at": "2026-09-26T06:36:03.765806+05:30"
+      "observed_at": "2026-09-27T06:41:26.394899+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-cairo.gov.lk/en/appointment",
       "source": "https://www.emb-cairo.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:36:03.765809+05:30"
+      "observed_at": "2026-09-27T06:41:26.394903+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
       "source": "https://emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
-      "observed_at": "2026-09-26T06:36:03.765811+05:30"
+      "observed_at": "2026-09-27T06:41:26.394906+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
       "source": "https://emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
-      "observed_at": "2026-09-26T06:36:03.765813+05:30"
+      "observed_at": "2026-09-27T06:41:26.394909+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
       "source": "https://emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
-      "observed_at": "2026-09-26T06:36:03.765815+05:30"
+      "observed_at": "2026-09-27T06:41:26.394912+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
       "source": "https://emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
-      "observed_at": "2026-09-26T06:36:03.765818+05:30"
+      "observed_at": "2026-09-27T06:41:26.394916+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
       "source": "https://emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
-      "observed_at": "2026-09-26T06:36:03.765820+05:30"
+      "observed_at": "2026-09-27T06:41:26.394919+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-cairo.gov.lk/en/allPosts?category=News",
       "source": "https://www.emb-cairo.gov.lk/en/allPosts?category=News",
-      "observed_at": "2026-09-26T06:36:03.765822+05:30"
+      "observed_at": "2026-09-27T06:41:26.394922+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-cairo.gov.lk/en/posts/6a85a70e456f4f36ddaee8ba",
       "source": "https://www.emb-cairo.gov.lk/posts/6a85a70e456f4f36ddaee8ba",
-      "observed_at": "2026-09-26T06:36:03.765825+05:30"
+      "observed_at": "2026-09-27T06:41:26.394924+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-cairo.gov.lk/en/posts/6a85a60b456f4f36ddaedbce",
       "source": "https://www.emb-cairo.gov.lk/posts/6a85a60b456f4f36ddaedbce",
-      "observed_at": "2026-09-26T06:36:03.765827+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0070199368",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0070199368"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0601717679",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0601717679"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2735 0",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 0"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2735 4",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0164890604",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0164890604"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 047458-9684-",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "047458-9684-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0751048129",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0751048129"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0020227354966",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "+0020227354966"
-      }
+      "observed_at": "2026-09-27T06:41:26.394927+05:30"
     },
     {
       "check": "phone",
@@ -217,24 +145,6 @@
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
         "value": "00 202 2735 0047"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2736 7",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2736 7"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05-4678-9567-",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "05-4678-9567-"
       }
     },
     {
@@ -249,10 +159,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0020227354",
+      "detail": "Published phone: 0164890604",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "0020227354"
+        "value": "0164890604"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05-4678-9567-",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "05-4678-9567-"
       }
     },
     {
@@ -265,48 +184,48 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +0020227354966",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "+0020227354966"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.cairo@mfa.gov.lk",
+      "detail": "Published phone: 0020227354",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "slemb.cairo@mfa.gov.lk"
+        "value": "0020227354"
       }
     },
     {
-      "check": "postal_address",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid",
+      "detail": "Published phone: 00 202 2735 4",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "(Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid"
+        "value": "00 202 2735 4"
       }
     },
     {
-      "check": "named_responsibility",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published named responsibility: director",
+      "detail": "Published phone: 00 202 2735 0",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "director"
+        "value": "00 202 2735 0"
       }
     },
     {
-      "check": "fees_and_payment",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published fees and payment: rs,",
+      "detail": "Published phone: 0751048129",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "rs,"
+        "value": "0751048129"
       }
     },
     {
@@ -330,69 +249,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00 202 2735 0",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 0"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2735 4",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0164890604",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0164890604"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 047458-9684-",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "047458-9684-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0751048129",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0751048129"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0020227354966",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "+0020227354966"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2735 0047",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 0047"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 00 202 2736 7",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
@@ -402,37 +258,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 05-4678-9567-",
+      "detail": "Published phone: 047458-9684-",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "05-4678-9567-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0020227350047",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "+0020227350047"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0020227354",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0020227354"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0020227350",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0020227350"
+        "value": "047458-9684-"
       }
     },
     {
@@ -478,6 +307,96 @@
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
         "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 0047",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 0047"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +0020227350047",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "+0020227350047"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0164890604",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0164890604"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05-4678-9567-",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "05-4678-9567-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0020227350",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0020227350"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +0020227354966",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "+0020227354966"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0020227354",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0020227354"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 4",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 0",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0751048129",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0751048129"
       }
     },
     {
@@ -501,69 +420,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00 202 2735 0",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 0"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2735 4",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0164890604",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0164890604"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 047458-9684-",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "047458-9684-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0751048129",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0751048129"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0020227354966",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "+0020227354966"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2735 0047",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 0047"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 00 202 2736 7",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
@@ -573,37 +429,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 05-4678-9567-",
+      "detail": "Published phone: 047458-9684-",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "05-4678-9567-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +0020227350047",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "+0020227350047"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0020227354",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0020227354"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0020227350",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0020227350"
+        "value": "047458-9684-"
       }
     },
     {
@@ -649,6 +478,96 @@
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
         "value": "rs,"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 0047",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 0047"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +0020227350047",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "+0020227350047"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0164890604",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0164890604"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05-4678-9567-",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "05-4678-9567-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0020227350",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0020227350"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +0020227354966",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "+0020227354966"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0020227354",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0020227354"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 4",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 0",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0751048129",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0751048129"
       }
     },
     {
@@ -672,28 +591,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 00 202 2735 0",
+      "detail": "Published phone: 00 202 2736 7",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "00 202 2735 0"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2735 4",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2735 4"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0164890604",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "0164890604"
+        "value": "00 202 2736 7"
       }
     },
     {
@@ -706,21 +607,48 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0751048129",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "0751048129"
+        "value": "john@example.com"
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +0020227354966",
+      "detail": "Published email: slemb.cairo@mfa.gov.lk",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "+0020227354966"
+        "value": "slemb.cairo@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "postal_address",
+      "status": "pass",
+      "detail": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "(Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: director",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "director"
+      }
+    },
+    {
+      "check": "fees_and_payment",
+      "status": "pass",
+      "detail": "Published fees and payment: rs,",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "rs,"
       }
     },
     {
@@ -730,24 +658,6 @@
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
         "value": "00 202 2735 0047"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 202 2736 7",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "00 202 2736 7"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 05-4678-9567-",
-      "source": "https://www.emb-cairo.gov.lk/en",
-      "data": {
-        "value": "05-4678-9567-"
       }
     },
     {
@@ -762,10 +672,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0020227354",
+      "detail": "Published phone: 0164890604",
       "source": "https://www.emb-cairo.gov.lk/en",
       "data": {
-        "value": "0020227354"
+        "value": "0164890604"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 05-4678-9567-",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "05-4678-9567-"
       }
     },
     {
@@ -778,6 +697,87 @@
       }
     },
     {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +0020227354966",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "+0020227354966"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0020227354",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0020227354"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 4",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 4"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2735 0",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2735 0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0751048129",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0751048129"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0070199368",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0070199368"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0601717679",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "0601717679"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 00 202 2736 7",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "00 202 2736 7"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 047458-9684-",
+      "source": "https://www.emb-cairo.gov.lk/en",
+      "data": {
+        "value": "047458-9684-"
+      }
+    },
+    {
       "check": "email",
       "status": "pass",
       "detail": "Published email: john@example.com",
@@ -906,6 +906,24 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-cairo.gov.lk/en/appointment",
       "data": {
@@ -915,28 +933,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: slemb.cairo@mfa.gov.lk",
       "source": "https://www.emb-cairo.gov.lk/en/appointment",
       "data": {
         "value": "slemb.cairo@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
       }
     },
     {
@@ -1014,6 +1014,24 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
       "data": {
@@ -1023,28 +1041,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: slemb.cairo@mfa.gov.lk",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
       "data": {
         "value": "slemb.cairo@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
       }
     },
     {
@@ -1122,6 +1122,24 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
       "data": {
@@ -1131,28 +1149,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: slemb.cairo@mfa.gov.lk",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
       "data": {
         "value": "slemb.cairo@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
       }
     },
     {
@@ -1230,6 +1230,24 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
       "data": {
@@ -1239,28 +1257,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: slemb.cairo@mfa.gov.lk",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
       "data": {
         "value": "slemb.cairo@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
       }
     },
     {
@@ -1338,6 +1338,24 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
       "data": {
@@ -1347,28 +1365,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: slemb.cairo@mfa.gov.lk",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
       "data": {
         "value": "slemb.cairo@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
       }
     },
     {
@@ -1446,6 +1446,24 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slcairoconsular@gmail.com",
+      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
+      "data": {
+        "value": "slcairoconsular@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: john@example.com",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
       "data": {
@@ -1455,28 +1473,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: slemb.cairo@mfa.gov.lk",
       "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
       "data": {
         "value": "slemb.cairo@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slcairoconsular@gmail.com",
-      "source": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
-      "data": {
-        "value": "slcairoconsular@gmail.com"
       }
     },
     {
@@ -1768,7 +1768,7 @@
         "https://www.emb-cairo.gov.lk/",
         "https://www.emb-cairo.gov.lk/en"
       ],
-      "elapsed_ms": 1755,
+      "elapsed_ms": 2483,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1780,7 +1780,7 @@
         "https://www.emb-cairo.gov.lk/",
         "https://www.emb-cairo.gov.lk/en"
       ],
-      "elapsed_ms": 1404,
+      "elapsed_ms": 2737,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1792,7 +1792,7 @@
         "https://www.emb-cairo.gov.lk/",
         "https://www.emb-cairo.gov.lk/en"
       ],
-      "elapsed_ms": 1049,
+      "elapsed_ms": 1180,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1804,7 +1804,7 @@
         "https://www.emb-cairo.gov.lk/",
         "https://www.emb-cairo.gov.lk/en"
       ],
-      "elapsed_ms": 775,
+      "elapsed_ms": 1018,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1815,7 +1815,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/document-certification-and-clearance-services"
       ],
-      "elapsed_ms": 2802,
+      "elapsed_ms": 764,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1824,7 +1824,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-cairo.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2126,
+      "elapsed_ms": 2416,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1835,7 +1835,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f"
       ],
-      "elapsed_ms": 2186,
+      "elapsed_ms": 3764,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1846,7 +1846,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19"
       ],
-      "elapsed_ms": 2071,
+      "elapsed_ms": 2731,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1857,7 +1857,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b"
       ],
-      "elapsed_ms": 3445,
+      "elapsed_ms": 2302,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1868,7 +1868,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5"
       ],
-      "elapsed_ms": 1832,
+      "elapsed_ms": 2198,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1879,7 +1879,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7"
       ],
-      "elapsed_ms": 2562,
+      "elapsed_ms": 1922,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1888,7 +1888,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-cairo.gov.lk/en/allPosts?category=News",
       "redirects": [],
-      "elapsed_ms": 1349,
+      "elapsed_ms": 953,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1899,7 +1899,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/posts/6a85a70e456f4f36ddaee8ba"
       ],
-      "elapsed_ms": 969,
+      "elapsed_ms": 1176,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1910,7 +1910,7 @@
       "redirects": [
         "https://www.emb-cairo.gov.lk/en/posts/6a85a60b456f4f36ddaedbce"
       ],
-      "elapsed_ms": 1122,
+      "elapsed_ms": 1452,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1918,86 +1918,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-cairo.gov.lk/en",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-01-390950b814a0.html",
-      "sha256": "390950b814a0f5543d89a40d63297867cdf351509f046d2bd654b0ba6a90a877",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-01-1190d36cb84a.html",
+      "sha256": "1190d36cb84acbc3f89740a20fc0d678b5e6dccee188d199312efdbd379e63a0",
       "bytes": 360043
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-02-694614c71450.html",
-      "sha256": "694614c71450f065e0aee60de4cb46d61c96478d816d845167cb4d6f90f3f90b",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-02-bf0d1803d435.html",
+      "sha256": "bf0d1803d435eb4cf25c4709c71773aa4a1a409d1ffac05a971194dce6c5893a",
       "bytes": 360043
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-03-dbcc908a6237.html",
-      "sha256": "dbcc908a6237aec775f41b41477ff3d27cb339d89bd8876792136e3260b0ef1e",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-03-1c73adfe9d76.html",
+      "sha256": "1c73adfe9d763d42e100e3975379100bfa071c0ceb3f1cca7592d2c58b76cb97",
       "bytes": 360043
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-04-d0cb808c81d1.html",
-      "sha256": "d0cb808c81d1a0c0b8151ebc630832302c0b622aa990e61bc4049398a94b1308",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-04-5245f4590686.html",
+      "sha256": "5245f45906861524d174c79ab45775f5235e8388e516af2b76def679caf73f5d",
       "bytes": 360043
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/document-certification-and-clearance-services",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-05-cb6c7c6b2e10.html",
-      "sha256": "cb6c7c6b2e10de91c51235be9e1da360f6866aa28e02e5deb66b336fd7eb8e87",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-05-3c518233e713.html",
+      "sha256": "3c518233e7139d6e44a0a85d4b3701e5f83da2a6c21b174056d0732179576577",
       "bytes": 93322
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/appointment",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-06-f86a57d1e811.html",
-      "sha256": "f86a57d1e8111d979726a121a82aecbc85031e5dac90bd6b592daac233b93c80",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-06-c383558fc92b.html",
+      "sha256": "c383558fc92b5a7e0dbb6da78a029fbe5cc9c73e26b021b793363464e5d9cb39",
       "bytes": 244086
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e6f02072eeefe0bab6f",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-07-debfc7941622.html",
-      "sha256": "debfc7941622cd105d3fe3da006a7c5451d22d2a71206c7ba32b658c3ce73e56",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-07-6f10c05528ee.html",
+      "sha256": "6f10c05528ee3f55988660fd01ee9ef165a7d88ffac3974474d6ee58fcc4ba6a",
       "bytes": 244241
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c0abe02072eeefe0b9b19",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-08-46928378c477.html",
-      "sha256": "46928378c477b841c0f9694f71bfc1f7502ffb93cd9c4d34f59f7c7b9957ed23",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-08-d1252d67ae65.html",
+      "sha256": "d1252d67ae65548084f343bb831366bf79b5920b45ee871d81172691cf806780",
       "bytes": 244241
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e5402072eeefe0bab0b",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-09-2cdcc1358120.html",
-      "sha256": "2cdcc13581207ee0261968cfcd6ae41752a40a2c5b547bea88cab98311cd9667",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-09-002b12177966.html",
+      "sha256": "002b12177966981d8d8be90e19642917973fb6f1c1e2e4e44a7d00d3694d0b91",
       "bytes": 244241
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e4702072eeefe0baad5",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-10-9a43eb0a0b31.html",
-      "sha256": "9a43eb0a0b315409612798ad7720bff0a84082c85f384d9bd3185176640a31bc",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-10-831b978cf3a8.html",
+      "sha256": "831b978cf3a80e0153948af1057b9d56315c6f388c25cc17e96801861cb4cda5",
       "bytes": 244241
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/appointment?serviceId=699c1e3702072eeefe0baaa7",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-11-bef939faad13.html",
-      "sha256": "bef939faad134844a98b4e61dfc2fc5916e698da0a30477a02cb5e2fcc9ac8c3",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-11-295aa114a627.html",
+      "sha256": "295aa114a627457e22ab3f3adcc56262b6846bf859da841d3f76f74988869dfb",
       "bytes": 244241
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/allPosts?category=News",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-12-8b408c1d943e.html",
-      "sha256": "8b408c1d943e58ea1e81380de8868789f5c6393c191f83b4bd181bca8d5d0332",
-      "bytes": 195238
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-12-e57499526fac.html",
+      "sha256": "e57499526face1e589b34c2ff12db3d1799d7b8deeea04425c5328a4de3909b2",
+      "bytes": 195081
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/posts/6a85a70e456f4f36ddaee8ba",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-13-e1badf40d92d.html",
-      "sha256": "e1badf40d92d9337dd5847f008f81bdbde7f337ec6a7c08a623250d8396b5a35",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-13-7aadd6fe111b.html",
+      "sha256": "7aadd6fe111b7014b8f1a3577d5a053f44e41a787d5a06b577fdd77dd33f5c2f",
       "bytes": 107295
     },
     {
       "url": "https://www.emb-cairo.gov.lk/en/posts/6a85a60b456f4f36ddaedbce",
-      "path": "audit.output/emb-cairo.gov.lk/20260926.0635/snapshots/page-14-0455c5c9179b.html",
-      "sha256": "0455c5c9179b108cca8db2ccb420be7c88f57a4c23c4969ed5c510e5e79182cc",
+      "path": "audit.output/emb-cairo.gov.lk/20260927.0640/snapshots/page-14-31a97c3128cc.html",
+      "sha256": "31a97c3128ccdbe85e6e2012741d6dd90b1b3420d77358362f5cbf14cf992647",
       "bytes": 113659
     }
   ],
@@ -2084,7 +2084,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid; Phone: 0070199368 (14 phone numbers found); Email: john@example.com (3 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid; Phone: 00 202 2735 0047 (14 phone numbers found); Email: john@example.com (3 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2097,7 +2097,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0070199368 (14 phone numbers found); Email: john@example.com (3 email addresses found)"
+          "reason": "Phone: 00 202 2735 0047 (14 phone numbers found); Email: john@example.com (3 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2176,7 +2176,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

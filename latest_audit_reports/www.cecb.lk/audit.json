@@ -1,23 +1,18 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "b6dfad34-c311-48bc-98b3-8af8f6ba19ac",
+  "audit_id": "c53c3529-816b-41df-96dd-ea9eba6bb932",
   "url": "https://www.cecb.lk/",
   "normalized_url": "https://www.cecb.lk/",
-  "started_at": "2026-09-26T06:05:43.590386+05:30",
-  "completed_at": "2026-09-26T06:07:57.565526+05:30",
+  "started_at": "2026-09-27T06:11:58.464775+05:30",
+  "completed_at": "2026-09-27T06:12:02.842648+05:30",
   "result": {
     "status": "inconclusive",
     "confidence": 0.5,
     "reasons": [
-      "domain_not_parked: No usable page was inspected",
-      "site_not_defaced: No usable page was inspected",
-      "content_relevant: No usable page was inspected",
-      "hosting_configured: No usable page was inspected",
-      "http_available: An HTTP probe was transient",
-      "redirect_related: No redirect result was available",
-      "tls_browser_trusted: Browser TLS check did not complete",
-      "tls_not_expired: _ssl.c:993: The handshake operation timed out",
-      "tls_hostname_matches: _ssl.c:993: The handshake operation timed out"
+      "domain_not_parked: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "site_not_defaced: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "content_relevant: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "hosting_configured: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
     ]
   },
   "evidence": [
@@ -25,47 +20,89 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:05:44.699068+05:30"
+      "observed_at": "2026-09-27T06:11:58.909406+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:05:44.699082+05:30"
+      "observed_at": "2026-09-27T06:11:58.909427+05:30"
     },
     {
       "check": "tls",
-      "status": "error",
-      "detail": "_ssl.c:993: The handshake operation timed out",
-      "observed_at": "2026-09-26T06:05:54.930471+05:30"
+      "status": "pass",
+      "detail": "TLS certificate valid",
+      "observed_at": "2026-09-27T06:11:59.290337+05:30"
     },
     {
       "check": "http",
-      "status": "error",
-      "detail": "Probe 1: _ssl.c:993: The handshake operation timed out",
+      "status": "pass",
+      "detail": "Probe 1: HTTP 200 at https://www.cecb.lk/",
       "source": "https://www.cecb.lk/",
-      "observed_at": "2026-09-26T06:07:57.565361+05:30"
+      "observed_at": "2026-09-27T06:12:02.822956+05:30"
     },
     {
       "check": "http",
-      "status": "error",
-      "detail": "Probe 2: timed out",
+      "status": "pass",
+      "detail": "Probe 2: HTTP 200 at http://www.cecb.lk/",
       "source": "http://www.cecb.lk/",
-      "observed_at": "2026-09-26T06:07:57.565383+05:30"
+      "observed_at": "2026-09-27T06:12:02.822975+05:30"
     },
     {
       "check": "http",
-      "status": "error",
-      "detail": "Probe 3: _ssl.c:993: The handshake operation timed out",
+      "status": "pass",
+      "detail": "Probe 3: HTTP 200 at https://www.cecb.lk/",
       "source": "https://www.cecb.lk/",
-      "observed_at": "2026-09-26T06:07:57.565387+05:30"
+      "observed_at": "2026-09-27T06:12:02.822979+05:30"
     },
     {
       "check": "http",
-      "status": "error",
-      "detail": "Probe 4: timed out",
+      "status": "pass",
+      "detail": "Probe 4: HTTP 200 at http://www.cecb.lk/",
       "source": "http://www.cecb.lk/",
-      "observed_at": "2026-09-26T06:07:57.565390+05:30"
+      "observed_at": "2026-09-27T06:12:02.822983+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://www.cecb.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://www.cecb.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "https://www.cecb.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
+      "source": "http://www.cecb.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "page_text",
+      "status": "fail",
+      "detail": "Only 80 visible characters across 4 pages; below substance threshold 200",
+      "source": "https://www.cecb.lk/"
     }
   ],
   "observations": [
@@ -85,49 +122,74 @@
     },
     {
       "host": "www.cecb.lk",
-      "status": "error",
-      "expires_at": null,
-      "hostname_valid": null,
-      "detail": "_ssl.c:993: The handshake operation timed out"
+      "status": "valid",
+      "expires_at": "2026-10-31T11:07:54+05:30",
+      "hostname_valid": true,
+      "detail": "TLS certificate valid"
     },
     {
       "url": "https://www.cecb.lk/",
-      "status_code": null,
-      "final_url": null,
+      "status_code": 200,
+      "final_url": "https://www.cecb.lk/",
       "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "_ssl.c:993: The handshake operation timed out"
+      "elapsed_ms": 458,
+      "content_type": "text/html",
+      "error": null
     },
     {
       "url": "http://www.cecb.lk/",
-      "status_code": null,
-      "final_url": null,
+      "status_code": 200,
+      "final_url": "http://www.cecb.lk/",
       "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "timed out"
+      "elapsed_ms": 376,
+      "content_type": "text/html",
+      "error": null
     },
     {
       "url": "https://www.cecb.lk/",
-      "status_code": null,
-      "final_url": null,
+      "status_code": 200,
+      "final_url": "https://www.cecb.lk/",
       "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "_ssl.c:993: The handshake operation timed out"
+      "elapsed_ms": 506,
+      "content_type": "text/html",
+      "error": null
     },
     {
       "url": "http://www.cecb.lk/",
-      "status_code": null,
-      "final_url": null,
+      "status_code": 200,
+      "final_url": "http://www.cecb.lk/",
       "redirects": [],
-      "elapsed_ms": null,
-      "content_type": null,
-      "error": "timed out"
+      "elapsed_ms": 315,
+      "content_type": "text/html",
+      "error": null
     }
   ],
-  "snapshots": [],
+  "snapshots": [
+    {
+      "url": "https://www.cecb.lk/",
+      "path": "audit.output/www.cecb.lk/20260927.0611/snapshots/page-01-92fd4f8725b8.html",
+      "sha256": "92fd4f8725b8cad4abefd26c8944929971c08e3c7b77f0b68da9de84e5b3a819",
+      "bytes": 11869
+    },
+    {
+      "url": "http://www.cecb.lk/",
+      "path": "audit.output/www.cecb.lk/20260927.0611/snapshots/page-02-fca64bd0106e.html",
+      "sha256": "fca64bd0106e8c5cc5726b15518c78fff99cd7104804145b505ccaceeccb14b3",
+      "bytes": 11800
+    },
+    {
+      "url": "https://www.cecb.lk/",
+      "path": "audit.output/www.cecb.lk/20260927.0611/snapshots/page-03-af6372e28cfe.html",
+      "sha256": "af6372e28cfe6545b1f9538143176f15f9eb168b846a30bb2aec950d650811f0",
+      "bytes": 11792
+    },
+    {
+      "url": "http://www.cecb.lk/",
+      "path": "audit.output/www.cecb.lk/20260927.0611/snapshots/page-04-22f0ace4b802.html",
+      "sha256": "22f0ace4b802721e64bfc072920892b0e8193409cc053df51c8b4ab7a4fa3d40",
+      "bytes": 11782
+    }
+  ],
   "reviewer_decisions": [],
   "levels": [
     {
@@ -142,7 +204,7 @@
       "level": 1,
       "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
       "status": "inconclusive",
-      "reason": "No usable page was inspected; No usable page was inspected; No usable page was inspected; No usable page was inspected; An HTTP probe was transient; No redirect result was available; Browser TLS check did not complete; _ssl.c:993: The handshake operation timed out; _ssl.c:993: The handshake operation timed out",
+      "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
       "executed": true,
       "checks": [
         {
@@ -155,55 +217,55 @@
           "name": "domain_not_parked",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "site_not_defaced",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "content_relevant",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "hosting_configured",
           "level": 1,
           "status": "inconclusive",
-          "reason": "No usable page was inspected"
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "http_available",
           "level": 1,
-          "status": "inconclusive",
-          "reason": "An HTTP probe was transient"
+          "status": "pass",
+          "reason": "HTTP probes did not all fail"
         },
         {
           "name": "redirect_related",
           "level": 1,
-          "status": "inconclusive",
-          "reason": "No redirect result was available"
+          "status": "pass",
+          "reason": "No unrelated redirect found"
         },
         {
           "name": "tls_browser_trusted",
           "level": 1,
-          "status": "inconclusive",
-          "reason": "Browser TLS check did not complete"
+          "status": "pass",
+          "reason": "No browser-blocking TLS error found"
         },
         {
           "name": "tls_not_expired",
           "level": 1,
-          "status": "inconclusive",
-          "reason": "_ssl.c:993: The handshake operation timed out"
+          "status": "pass",
+          "reason": "TLS certificate valid"
         },
         {
           "name": "tls_hostname_matches",
           "level": 1,
-          "status": "inconclusive",
-          "reason": "_ssl.c:993: The handshake operation timed out"
+          "status": "pass",
+          "reason": "TLS certificate valid"
         }
       ]
     },
@@ -241,7 +303,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

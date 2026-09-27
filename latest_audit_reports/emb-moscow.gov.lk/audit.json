@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "c8087719-9546-4acf-81f3-3eeab8c0a684",
+  "audit_id": "7414a57e-c3f1-4c03-8ad8-dd780f451017",
   "url": "https://emb-moscow.gov.lk",
   "normalized_url": "https://emb-moscow.gov.lk/",
-  "started_at": "2026-09-26T06:32:52.200615+05:30",
-  "completed_at": "2026-09-26T06:33:27.654190+05:30",
+  "started_at": "2026-09-27T06:37:59.123392+05:30",
+  "completed_at": "2026-09-27T06:38:37.152945+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:32:53.934751+05:30"
+      "observed_at": "2026-09-27T06:37:59.539425+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:32:53.934767+05:30"
+      "observed_at": "2026-09-27T06:37:59.539448+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:32:54.864072+05:30"
+      "observed_at": "2026-09-27T06:38:00.268046+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-moscow.gov.lk/en",
       "source": "https://emb-moscow.gov.lk/",
-      "observed_at": "2026-09-26T06:33:26.420689+05:30"
+      "observed_at": "2026-09-27T06:38:35.352609+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-moscow.gov.lk/en",
       "source": "http://emb-moscow.gov.lk/",
-      "observed_at": "2026-09-26T06:33:26.420707+05:30"
+      "observed_at": "2026-09-27T06:38:35.352628+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-moscow.gov.lk/en",
       "source": "https://emb-moscow.gov.lk/",
-      "observed_at": "2026-09-26T06:33:26.420711+05:30"
+      "observed_at": "2026-09-27T06:38:35.352632+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-moscow.gov.lk/en",
       "source": "http://emb-moscow.gov.lk/",
-      "observed_at": "2026-09-26T06:33:26.420714+05:30"
+      "observed_at": "2026-09-27T06:38:35.352635+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-moscow.gov.lk/en/contact",
       "source": "https://www.emb-moscow.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:33:26.420716+05:30"
+      "observed_at": "2026-09-27T06:38:35.352639+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-moscow.gov.lk/en/attestationservice",
       "source": "https://emb-moscow.gov.lk/en/attestationservice",
-      "observed_at": "2026-09-26T06:33:26.420718+05:30"
+      "observed_at": "2026-09-27T06:38:35.352642+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-moscow.gov.lk/en/visaapplicationservices",
       "source": "https://emb-moscow.gov.lk/en/visaapplicationservices",
-      "observed_at": "2026-09-26T06:33:26.420721+05:30"
+      "observed_at": "2026-09-27T06:38:35.352645+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-moscow.gov.lk/en/tourism",
       "source": "https://www.emb-moscow.gov.lk/en/tourism",
-      "observed_at": "2026-09-26T06:33:26.420723+05:30"
+      "observed_at": "2026-09-27T06:38:35.352647+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-moscow.gov.lk/en/notices",
       "source": "https://www.emb-moscow.gov.lk/en/notices",
-      "observed_at": "2026-09-26T06:33:26.420725+05:30"
+      "observed_at": "2026-09-27T06:38:35.352650+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-moscow.gov.lk/en/appointment",
       "source": "https://www.emb-moscow.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:33:26.420728+05:30"
+      "observed_at": "2026-09-27T06:38:35.352653+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-moscow.gov.lk/en/passport-sl",
       "source": "https://emb-moscow.gov.lk/en/passport-sl",
-      "observed_at": "2026-09-26T06:33:26.420730+05:30"
+      "observed_at": "2026-09-27T06:38:35.352656+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-moscow.gov.lk/en/translationofdocuments",
       "source": "https://emb-moscow.gov.lk/en/translationofdocuments",
-      "observed_at": "2026-09-26T06:33:26.420733+05:30"
+      "observed_at": "2026-09-27T06:38:35.352658+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-moscow.gov.lk/en/dualcitizenship-sl",
       "source": "https://emb-moscow.gov.lk/en/dualcitizenship-sl",
-      "observed_at": "2026-09-26T06:33:26.420735+05:30"
+      "observed_at": "2026-09-27T06:38:35.352661+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-moscow.gov.lk/en/marriageregistration-sl",
       "source": "https://emb-moscow.gov.lk/en/marriageregistration-sl",
-      "observed_at": "2026-09-26T06:33:26.420737+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +74956881620",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "+74956881620"
-      }
+      "observed_at": "2026-09-27T06:38:35.352663+05:30"
     },
     {
       "check": "phone",
@@ -154,24 +145,6 @@
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "0075645604"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0-3657-4089-9",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0-3657-4089-9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0010-6643-46",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0010-6643-46"
       }
     },
     {
@@ -186,10 +159,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 07-4571-9225-",
+      "detail": "Published phone: 0075645474",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "07-4571-9225-"
+        "value": "0075645474"
       }
     },
     {
@@ -204,28 +177,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0075645474",
+      "detail": "Published phone: 07-4571-9225-",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "0075645474"
+        "value": "07-4571-9225-"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: +74956881620",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "+74956881620"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: 0010-6643-46",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "0010-6643-46"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-3657-4089-9",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "0-3657-4089-9"
       }
     },
     {
@@ -235,6 +217,24 @@
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
       }
     },
     {
@@ -267,37 +267,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +74956881620",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "+74956881620"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0075645604",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "0075645604"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0-3657-4089-9",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0-3657-4089-9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0010-6643-46",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0010-6643-46"
       }
     },
     {
@@ -312,10 +285,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 07-4571-9225-",
+      "detail": "Published phone: 0075645474",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "07-4571-9225-"
+        "value": "0075645474"
       }
     },
     {
@@ -330,28 +303,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0075645474",
+      "detail": "Published phone: 07-4571-9225-",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "0075645474"
+        "value": "07-4571-9225-"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: +74956881620",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "+74956881620"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: 0010-6643-46",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "0010-6643-46"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-3657-4089-9",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "0-3657-4089-9"
       }
     },
     {
@@ -361,6 +343,24 @@
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
       }
     },
     {
@@ -393,37 +393,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +74956881620",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "+74956881620"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0075645604",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "0075645604"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0-3657-4089-9",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0-3657-4089-9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0010-6643-46",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0010-6643-46"
       }
     },
     {
@@ -438,10 +411,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 07-4571-9225-",
+      "detail": "Published phone: 0075645474",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "07-4571-9225-"
+        "value": "0075645474"
       }
     },
     {
@@ -456,28 +429,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0075645474",
+      "detail": "Published phone: 07-4571-9225-",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "0075645474"
+        "value": "07-4571-9225-"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: +74956881620",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "+74956881620"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: 0010-6643-46",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "0010-6643-46"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-3657-4089-9",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "0-3657-4089-9"
       }
     },
     {
@@ -487,6 +469,24 @@
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
       }
     },
     {
@@ -519,37 +519,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +74956881620",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "+74956881620"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0075645604",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "0075645604"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0-3657-4089-9",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0-3657-4089-9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0010-6643-46",
-      "source": "https://www.emb-moscow.gov.lk/en",
-      "data": {
-        "value": "0010-6643-46"
       }
     },
     {
@@ -564,10 +537,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 07-4571-9225-",
+      "detail": "Published phone: 0075645474",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "07-4571-9225-"
+        "value": "0075645474"
       }
     },
     {
@@ -582,28 +555,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0075645474",
+      "detail": "Published phone: 07-4571-9225-",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "0075645474"
+        "value": "07-4571-9225-"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: +74956881620",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "+74956881620"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "detail": "Published phone: 0010-6643-46",
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
-        "value": "slemb.moscow@mfa.gov.lk"
+        "value": "0010-6643-46"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0-3657-4089-9",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "0-3657-4089-9"
       }
     },
     {
@@ -613,6 +595,24 @@
       "source": "https://www.emb-moscow.gov.lk/en",
       "data": {
         "value": "john@example.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.moscow@mfa.gov.lk",
+      "source": "https://www.emb-moscow.gov.lk/en",
+      "data": {
+        "value": "slemb.moscow@mfa.gov.lk"
       }
     },
     {
@@ -1246,7 +1246,7 @@
         "https://www.emb-moscow.gov.lk/",
         "https://www.emb-moscow.gov.lk/en"
       ],
-      "elapsed_ms": 1706,
+      "elapsed_ms": 2692,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1258,7 +1258,7 @@
         "https://www.emb-moscow.gov.lk/",
         "https://www.emb-moscow.gov.lk/en"
       ],
-      "elapsed_ms": 1034,
+      "elapsed_ms": 1714,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1270,7 +1270,7 @@
         "https://www.emb-moscow.gov.lk/",
         "https://www.emb-moscow.gov.lk/en"
       ],
-      "elapsed_ms": 1032,
+      "elapsed_ms": 2359,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1282,7 +1282,7 @@
         "https://www.emb-moscow.gov.lk/",
         "https://www.emb-moscow.gov.lk/en"
       ],
-      "elapsed_ms": 1838,
+      "elapsed_ms": 2932,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1291,7 +1291,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-moscow.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1699,
+      "elapsed_ms": 1399,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1302,7 +1302,7 @@
       "redirects": [
         "https://www.emb-moscow.gov.lk/en/attestationservice"
       ],
-      "elapsed_ms": 1832,
+      "elapsed_ms": 1068,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1313,7 +1313,7 @@
       "redirects": [
         "https://www.emb-moscow.gov.lk/en/visaapplicationservices"
       ],
-      "elapsed_ms": 2006,
+      "elapsed_ms": 792,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1322,7 +1322,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-moscow.gov.lk/en/tourism",
       "redirects": [],
-      "elapsed_ms": 1167,
+      "elapsed_ms": 1000,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1331,7 +1331,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-moscow.gov.lk/en/notices",
       "redirects": [],
-      "elapsed_ms": 713,
+      "elapsed_ms": 899,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1340,7 +1340,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-moscow.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 1195,
+      "elapsed_ms": 1471,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1351,7 +1351,7 @@
       "redirects": [
         "https://www.emb-moscow.gov.lk/en/passport-sl"
       ],
-      "elapsed_ms": 918,
+      "elapsed_ms": 890,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1362,7 +1362,7 @@
       "redirects": [
         "https://www.emb-moscow.gov.lk/en/translationofdocuments"
       ],
-      "elapsed_ms": 1825,
+      "elapsed_ms": 1007,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1373,7 +1373,7 @@
       "redirects": [
         "https://www.emb-moscow.gov.lk/en/dualcitizenship-sl"
       ],
-      "elapsed_ms": 1320,
+      "elapsed_ms": 1041,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1384,7 +1384,7 @@
       "redirects": [
         "https://www.emb-moscow.gov.lk/en/marriageregistration-sl"
       ],
-      "elapsed_ms": 1009,
+      "elapsed_ms": 831,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1392,87 +1392,87 @@
   "snapshots": [
     {
       "url": "https://www.emb-moscow.gov.lk/en",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-01-addfca9ee84d.html",
-      "sha256": "addfca9ee84dfb7f7a347c2703b5db1919fc5789ec68cd56020bd1957c47ae7a",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-01-3a779ed383df.html",
+      "sha256": "3a779ed383df63c90d75b12106264f2ffcee7f1a90e9e6708754fdad53f86a14",
       "bytes": 375183
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-02-70badebb69ee.html",
-      "sha256": "70badebb69ee7f34114d26cbc55230f8dac1a033b4cac5001b3f300bceb72826",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-02-0587c07c686e.html",
+      "sha256": "0587c07c686ed75560e510f63c586c1b684d96a9361c6bfce6979c7890c845ee",
       "bytes": 375183
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-03-8c7c790112f5.html",
-      "sha256": "8c7c790112f57771758a8140c4e4e1d09ae58caabb0f3db524706de0bd419805",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-03-e1fc4689c057.html",
+      "sha256": "e1fc4689c05729db6ca62771cc5e5c8276a2f4cbda13c19dcbd6e1e805a03d97",
       "bytes": 375183
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-04-83410980cdec.html",
-      "sha256": "83410980cdec7d2bdd61269587f230c5bf5eddcf1fd0b2682aac48bef252ffa6",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-04-1b93c51e5791.html",
+      "sha256": "1b93c51e5791c68df00b2dea0363a2487fc830adf9b812ee61983364dcab965e",
       "bytes": 375183
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/contact",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-05-68ac0f2642d6.html",
-      "sha256": "68ac0f2642d62059060f7005c22118fca84bee734e21840bc3abb8d5c3273cf4",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-05-e1c83feff4dc.html",
+      "sha256": "e1c83feff4dc248805c614a811ecdad0a8b1d6e33fb98398271b54cce109d38a",
       "bytes": 95758
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/attestationservice",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-06-4d47dd6dc730.html",
-      "sha256": "4d47dd6dc7300761ec8853cf267f9abeda487e31e80f2492f052f67e19075596",
-      "bytes": 86718
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-06-8b51d26bd099.html",
+      "sha256": "8b51d26bd099aea4ee606970ba0817b16c15f6bfcddd7d72567573ffa0809f61",
+      "bytes": 86818
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/visaapplicationservices",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-07-dbc0572da926.html",
-      "sha256": "dbc0572da9261e29b24a062034663786a3a23c7574dc2f384b2f5c9361bc4775",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-07-47b244f6ad15.html",
+      "sha256": "47b244f6ad152ebb01397419ce500da2f32097365bcfed49ffe222dbbf6f387e",
       "bytes": 87871
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/tourism",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-08-03cff141696d.html",
-      "sha256": "03cff141696d73bef6538ab1009cd31901f4f3e1bf221639990bb3fa510c49ca",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-08-f78a1062e453.html",
+      "sha256": "f78a1062e453e16886d91b5b1a87f2157b4c63308ffb8868b7c7977ddc30140f",
       "bytes": 110108
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/notices",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-09-9138a88c5953.html",
-      "sha256": "9138a88c5953cdd2f9ff88361a02fc9a41f5445a82e9985b8a02ac367f3af9c7",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-09-7d71782f4cbe.html",
+      "sha256": "7d71782f4cbe9204a72722453bc85909704d9628d16e23279201fcbbf24c4ddc",
       "bytes": 91650
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/appointment",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-10-5a7317e51011.html",
-      "sha256": "5a7317e51011855efbacf7ba92efdc8c21de4b298d6d9cf052b7762c07abd042",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-10-8809c0efc127.html",
+      "sha256": "8809c0efc12741ee4c7630bb23cedabd52a4acc139cd27a5577a2aa1530afa17",
       "bytes": 87971
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/passport-sl",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-11-0e7453349628.html",
-      "sha256": "0e74533496283d2855f1cd79d5c38d0fc8ce2126a7a5a0c3e2a5f496eaf9f1e9",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-11-d5faa95fffb4.html",
+      "sha256": "d5faa95fffb4b0cb603c567777535cc02c7d7b6e86f6b604f15a8c931eb89175",
       "bytes": 91248
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/translationofdocuments",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-12-a0d647e14979.html",
-      "sha256": "a0d647e149790aa4cfd2592043fe1444f33e9d46f37faad79691611cf20759d3",
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-12-9f1cecd940f8.html",
+      "sha256": "9f1cecd940f825b33498ff875fbc513bfc22f3ef5c93dd3b3846b5c2a29d1d3f",
       "bytes": 87085
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/dualcitizenship-sl",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-13-d9f79b8698d7.html",
-      "sha256": "d9f79b8698d7061b811ef9d48ba9249b439ce7b0ac2b2c1f1ab5523e478707b1",
-      "bytes": 117522
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-13-efadfadb9256.html",
+      "sha256": "efadfadb92560ddd102967994432b665315da7b0892452ed4791cb3132baaf71",
+      "bytes": 117622
     },
     {
       "url": "https://www.emb-moscow.gov.lk/en/marriageregistration-sl",
-      "path": "audit.output/emb-moscow.gov.lk/20260926.0632/snapshots/page-14-a235a47a5084.html",
-      "sha256": "a235a47a50846df0046ab6ed6cbe7ace03336b5965566bbcc8b616abcae4c487",
-      "bytes": 99666
+      "path": "audit.output/emb-moscow.gov.lk/20260927.0637/snapshots/page-14-ed8069d736e5.html",
+      "sha256": "ed8069d736e5de687c2b5a8209771321d2a234809ce0d6682f269cd757e8021a",
+      "bytes": 99566
     }
   ],
   "reviewer_decisions": [],
@@ -1558,7 +1558,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid; Phone: +74956881620 (9 phone numbers found); Email: slemb.moscow@mfa.gov.lk (2 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: (Optional)\\\",\\\"address_line_1_placeholder\\\":\\\"Address Line 1\\\",\\\"address_line_2_placeholder\\\":\\\"Address Line 2\\\",\\\"valid; Phone: 0075645604 (9 phone numbers found); Email: john@example.com (2 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1571,7 +1571,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +74956881620 (9 phone numbers found); Email: slemb.moscow@mfa.gov.lk (2 email addresses found)"
+          "reason": "Phone: 0075645604 (9 phone numbers found); Email: john@example.com (2 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1650,7 +1650,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

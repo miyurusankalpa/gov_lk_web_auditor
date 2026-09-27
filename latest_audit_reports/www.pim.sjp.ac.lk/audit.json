@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "9196b640-fb14-4cf6-90e7-f57d7e1ef520",
+  "audit_id": "d062fe39-2d19-49c8-b51c-ce7b72cec4df",
   "url": "https://www.pim.sjp.ac.lk/",
   "normalized_url": "https://www.pim.sjp.ac.lk/",
-  "started_at": "2026-09-26T06:15:49.637023+05:30",
-  "completed_at": "2026-09-26T06:15:55.149859+05:30",
+  "started_at": "2026-09-27T06:22:29.785408+05:30",
+  "completed_at": "2026-09-27T06:22:34.223283+05:30",
   "result": {
     "status": "inconclusive",
     "confidence": 0.5,
@@ -20,47 +20,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:15:51.298256+05:30"
+      "observed_at": "2026-09-27T06:22:30.315186+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:15:51.298310+05:30"
+      "observed_at": "2026-09-27T06:22:30.315204+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:15:51.526693+05:30"
+      "observed_at": "2026-09-27T06:22:30.676000+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 202 at https://www.pim.sjp.ac.lk/",
       "source": "https://www.pim.sjp.ac.lk/",
-      "observed_at": "2026-09-26T06:15:55.148977+05:30"
+      "observed_at": "2026-09-27T06:22:34.222114+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 202 at http://www.pim.sjp.ac.lk/",
       "source": "http://www.pim.sjp.ac.lk/",
-      "observed_at": "2026-09-26T06:15:55.148997+05:30"
+      "observed_at": "2026-09-27T06:22:34.222132+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 202 at https://www.pim.sjp.ac.lk/",
       "source": "https://www.pim.sjp.ac.lk/",
-      "observed_at": "2026-09-26T06:15:55.149001+05:30"
+      "observed_at": "2026-09-27T06:22:34.222136+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 202 at http://www.pim.sjp.ac.lk/",
       "source": "http://www.pim.sjp.ac.lk/",
-      "observed_at": "2026-09-26T06:15:55.149004+05:30"
+      "observed_at": "2026-09-27T06:22:34.222139+05:30"
     },
     {
       "check": "page_text",
@@ -96,7 +96,7 @@
       "status_code": 202,
       "final_url": "https://www.pim.sjp.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 680,
+      "elapsed_ms": 175,
       "content_type": "text/html",
       "error": null
     },
@@ -105,7 +105,7 @@
       "status_code": 202,
       "final_url": "http://www.pim.sjp.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 122,
+      "elapsed_ms": 333,
       "content_type": "text/html",
       "error": null
     },
@@ -114,7 +114,7 @@
       "status_code": 202,
       "final_url": "https://www.pim.sjp.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 266,
+      "elapsed_ms": 634,
       "content_type": "text/html",
       "error": null
     },
@@ -123,7 +123,7 @@
       "status_code": 202,
       "final_url": "http://www.pim.sjp.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 202,
+      "elapsed_ms": 273,
       "content_type": "text/html",
       "error": null
     }
@@ -131,27 +131,27 @@
   "snapshots": [
     {
       "url": "https://www.pim.sjp.ac.lk/",
-      "path": "audit.output/www.pim.sjp.ac.lk/20260926.0615/snapshots/page-01-f05f4fbc4c6d.html",
-      "sha256": "f05f4fbc4c6d4014c3a5106c84fc40f50f3e06e6df5ccda19c610a094115a553",
-      "bytes": 168
+      "path": "audit.output/www.pim.sjp.ac.lk/20260927.0622/snapshots/page-01-b6cf660c920a.html",
+      "sha256": "b6cf660c920a1a657cdd14d43508e7933051af01d0eb5117f66aec1104ac3f3a",
+      "bytes": 167
     },
     {
       "url": "http://www.pim.sjp.ac.lk/",
-      "path": "audit.output/www.pim.sjp.ac.lk/20260926.0615/snapshots/page-02-aa1d9bca43a0.html",
-      "sha256": "aa1d9bca43a08b0d4c80ebd910ef87debbc88f3ce2072a8827c4999c3fb9701d",
-      "bytes": 168
+      "path": "audit.output/www.pim.sjp.ac.lk/20260927.0622/snapshots/page-02-1b9a7a962e2e.html",
+      "sha256": "1b9a7a962e2edca81b7f6e236cfb85743c3bca82e9f1a574b509a9cec2055783",
+      "bytes": 167
     },
     {
       "url": "https://www.pim.sjp.ac.lk/",
-      "path": "audit.output/www.pim.sjp.ac.lk/20260926.0615/snapshots/page-03-73e352a80c15.html",
-      "sha256": "73e352a80c15a3949ad8d3c32eff0acfcc8c2e7e2f2ff4b72f33523969769ebc",
-      "bytes": 168
+      "path": "audit.output/www.pim.sjp.ac.lk/20260927.0622/snapshots/page-03-735643223abc.html",
+      "sha256": "735643223abc0bbc9c12e44e44f0625653d4a56f7b59e7f1c47ced0f3f5eaf44",
+      "bytes": 167
     },
     {
       "url": "http://www.pim.sjp.ac.lk/",
-      "path": "audit.output/www.pim.sjp.ac.lk/20260926.0615/snapshots/page-04-d3a2e340932c.html",
-      "sha256": "d3a2e340932c89ecd40c72324b0ecb2c7a546dc0d1cee7c62b37b82c6ea540e6",
-      "bytes": 168
+      "path": "audit.output/www.pim.sjp.ac.lk/20260927.0622/snapshots/page-04-e2fe6bb81eb7.html",
+      "sha256": "e2fe6bb81eb729a785691b08c98246621d3971df49f8f57ed7d2b71bcad4f493",
+      "bytes": 167
     }
   ],
   "reviewer_decisions": [],
@@ -267,7 +267,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

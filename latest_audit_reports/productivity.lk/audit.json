@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "aec4ab11-e9c8-455e-b3da-3882c8f04d68",
+  "audit_id": "8b4ccb8c-fa70-4dff-a62f-60873fd02756",
   "url": "https://productivity.lk/",
   "normalized_url": "https://productivity.lk/",
-  "started_at": "2026-09-26T06:40:58.909995+05:30",
-  "completed_at": "2026-09-26T06:41:22.048701+05:30",
+  "started_at": "2026-09-27T06:46:26.778183+05:30",
+  "completed_at": "2026-09-27T06:47:08.680748+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:40:59.171306+05:30"
+      "observed_at": "2026-09-27T06:46:27.017946+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:40:59.171325+05:30"
+      "observed_at": "2026-09-27T06:46:27.017966+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:41:00.230887+05:30"
+      "observed_at": "2026-09-27T06:46:27.523106+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://productivity.lk/index.php?lang=en",
       "source": "https://productivity.lk/",
-      "observed_at": "2026-09-26T06:41:21.767490+05:30"
+      "observed_at": "2026-09-27T06:47:07.751033+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://productivity.lk/index.php?lang=en",
       "source": "http://productivity.lk/",
-      "observed_at": "2026-09-26T06:41:21.767508+05:30"
+      "observed_at": "2026-09-27T06:47:07.751052+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://productivity.lk/index.php?lang=en",
       "source": "https://productivity.lk/",
-      "observed_at": "2026-09-26T06:41:21.767511+05:30"
+      "observed_at": "2026-09-27T06:47:07.751057+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://productivity.lk/index.php?lang=en",
       "source": "http://productivity.lk/",
-      "observed_at": "2026-09-26T06:41:21.767514+05:30"
+      "observed_at": "2026-09-27T06:47:07.751061+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=article&id=125&Itemid=120&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=125&Itemid=120&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767516+05:30"
+      "observed_at": "2026-09-27T06:47:07.751064+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://productivity.lk/index.php?option=com_contact&view=contact&id=1&Itemid=129&lang=en",
       "source": "https://productivity.lk/index.php?option=com_contact&view=contact&id=1&Itemid=129&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767518+05:30"
+      "observed_at": "2026-09-27T06:47:07.751066+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767521+05:30"
+      "observed_at": "2026-09-27T06:47:07.751069+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767523+05:30"
+      "observed_at": "2026-09-27T06:47:07.751072+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=article&id=5&Itemid=111&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=5&Itemid=111&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767525+05:30"
+      "observed_at": "2026-09-27T06:47:07.751075+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=article&id=8&Itemid=112&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=8&Itemid=112&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767528+05:30"
+      "observed_at": "2026-09-27T06:47:07.751078+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=article&id=27&Itemid=151&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=27&Itemid=151&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767530+05:30"
+      "observed_at": "2026-09-27T06:47:07.751081+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=category&layout=blog&id=12&Itemid=149&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=category&layout=blog&id=12&Itemid=149&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767532+05:30"
+      "observed_at": "2026-09-27T06:47:07.751084+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=article&id=9&Itemid=117&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=9&Itemid=117&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767535+05:30"
+      "observed_at": "2026-09-27T06:47:07.751086+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://productivity.lk/index.php?option=com_content&view=article&id=56&Itemid=161&lang=en",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=56&Itemid=161&lang=en",
-      "observed_at": "2026-09-26T06:41:21.767537+05:30"
+      "observed_at": "2026-09-27T06:47:07.751089+05:30"
     },
     {
       "check": "phone",
@@ -321,28 +321,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 71 4392 946 ",
+      "detail": "Published phone: +94 76 0119 411 ",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
-        "value": "+94 71 4392 946 "
+        "value": "+94 76 0119 411 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 186 031 ( ",
+      "detail": "Published phone: +94 71 4520 545 ",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
-        "value": "+94 112 186 031 ( "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 186 026 (",
-      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
-      "data": {
-        "value": "+94 112 186 026 ("
+        "value": "+94 71 4520 545 "
       }
     },
     {
@@ -357,19 +348,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 71 7859 625 ",
+      "detail": "Published phone: +94 112 186 031 ( ",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
-        "value": "+94 71 7859 625 "
+        "value": "+94 112 186 031 ( "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 711242703 ",
+      "detail": "Published phone: +94 112 186 031 (",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
-        "value": "+94 711242703 "
+        "value": "+94 112 186 031 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 76 8188 851 ",
+      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
+      "data": {
+        "value": "+94 76 8188 851 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0341067250",
+      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
+      "data": {
+        "value": "0341067250"
       }
     },
     {
@@ -393,46 +402,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 76 0119 411 ",
-      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
-      "data": {
-        "value": "+94 76 0119 411 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 711384027 ",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
         "value": "+94 711384027 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 186 030 (",
-      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
-      "data": {
-        "value": "+94 112 186 030 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 187 101 (",
-      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
-      "data": {
-        "value": "+94 112 187 101 ("
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 186 031 (",
-      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
-      "data": {
-        "value": "+94 112 186 031 ("
       }
     },
     {
@@ -447,19 +420,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 76 8188 851 ",
+      "detail": "Published phone: +94 71 7859 625 ",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
-        "value": "+94 76 8188 851 "
+        "value": "+94 71 7859 625 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 71 4520 545 ",
+      "detail": "Published phone: +94 112 187 101 (",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
-        "value": "+94 71 4520 545 "
+        "value": "+94 112 187 101 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 186 026 (",
+      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
+      "data": {
+        "value": "+94 112 186 026 ("
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 186 030 (",
+      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
+      "data": {
+        "value": "+94 112 186 030 ("
       }
     },
     {
@@ -474,10 +465,37 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 711242703 ",
+      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
+      "data": {
+        "value": "+94 711242703 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 71 2827 289 ",
       "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "data": {
         "value": "+94 71 2827 289 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0265818040",
+      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
+      "data": {
+        "value": "0265818040"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 71 4392 946 ",
+      "source": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
+      "data": {
+        "value": "+94 71 4392 946 "
       }
     },
     {
@@ -660,7 +678,7 @@
       "redirects": [
         "https://productivity.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 966,
+      "elapsed_ms": 929,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -672,7 +690,7 @@
         "https://productivity.lk/",
         "https://productivity.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 990,
+      "elapsed_ms": 991,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -683,7 +701,7 @@
       "redirects": [
         "https://productivity.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 1015,
+      "elapsed_ms": 1203,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -695,7 +713,7 @@
         "https://productivity.lk/",
         "https://productivity.lk/index.php?lang=en"
       ],
-      "elapsed_ms": 962,
+      "elapsed_ms": 945,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -704,7 +722,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=article&id=125&Itemid=120&lang=en",
       "redirects": [],
-      "elapsed_ms": 856,
+      "elapsed_ms": 839,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -713,7 +731,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_contact&view=contact&id=1&Itemid=129&lang=en",
       "redirects": [],
-      "elapsed_ms": 864,
+      "elapsed_ms": 901,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -722,7 +740,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
       "redirects": [],
-      "elapsed_ms": 957,
+      "elapsed_ms": 841,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -731,7 +749,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
       "redirects": [],
-      "elapsed_ms": 974,
+      "elapsed_ms": 925,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -740,7 +758,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=article&id=5&Itemid=111&lang=en",
       "redirects": [],
-      "elapsed_ms": 840,
+      "elapsed_ms": 835,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -749,7 +767,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=article&id=8&Itemid=112&lang=en",
       "redirects": [],
-      "elapsed_ms": 842,
+      "elapsed_ms": 929,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -758,7 +776,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=article&id=27&Itemid=151&lang=en",
       "redirects": [],
-      "elapsed_ms": 840,
+      "elapsed_ms": 820,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -767,7 +785,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=category&layout=blog&id=12&Itemid=149&lang=en",
       "redirects": [],
-      "elapsed_ms": 892,
+      "elapsed_ms": 825,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -776,7 +794,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=article&id=9&Itemid=117&lang=en",
       "redirects": [],
-      "elapsed_ms": 1078,
+      "elapsed_ms": 1130,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -785,7 +803,7 @@
       "status_code": 200,
       "final_url": "https://productivity.lk/index.php?option=com_content&view=article&id=56&Itemid=161&lang=en",
       "redirects": [],
-      "elapsed_ms": 850,
+      "elapsed_ms": 936,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -793,86 +811,86 @@
   "snapshots": [
     {
       "url": "https://productivity.lk/index.php?lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-01-16cdb9b2f4e8.html",
-      "sha256": "16cdb9b2f4e8118610e4e3a49e0188a8cadc9e1a34008afb031331d86e2e4f5a",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-01-b99e29db097d.html",
+      "sha256": "b99e29db097dd915fe4e571f9941e7056caf0ba1f5c10142157fe7a1015814a5",
       "bytes": 53940
     },
     {
       "url": "https://productivity.lk/index.php?lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-02-5a0a065635f0.html",
-      "sha256": "5a0a065635f0fc69c2d6b6c746687000739e17db1dcb3e42a33f008ba05753aa",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-02-6f65dc83b905.html",
+      "sha256": "6f65dc83b90530a49d712c0537bda811da96aa391158354f32ff034a899c4a34",
       "bytes": 53940
     },
     {
       "url": "https://productivity.lk/index.php?lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-03-d5b7aebce6b3.html",
-      "sha256": "d5b7aebce6b35911345794ebe96009ad4083308306a8963d15593af351a907f8",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-03-4e9768257bf1.html",
+      "sha256": "4e9768257bf1265e0ef2c205cffdda23a8c54024dc7c3e2b4c74c020683635c0",
       "bytes": 53940
     },
     {
       "url": "https://productivity.lk/index.php?lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-04-5ebcb8b6fad1.html",
-      "sha256": "5ebcb8b6fad139b43d004943c10d4a9b5cbc88c88186402359b7ccd358d622c1",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-04-3ea41530b71a.html",
+      "sha256": "3ea41530b71a85e9d6dc05540af806f656814ef343ed38438c62760175fe62d6",
       "bytes": 53940
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=article&id=125&Itemid=120&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-05-6a31742746d3.html",
-      "sha256": "6a31742746d32778df1d0ebbeaf293e5998a0608012db0bec4b13e8a818517b1",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-05-ac557d3f31ab.html",
+      "sha256": "ac557d3f31abd5b2443492336ef963672796236497234ef3864af63f21646190",
       "bytes": 30360
     },
     {
       "url": "https://productivity.lk/index.php?option=com_contact&view=contact&id=1&Itemid=129&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-06-e1d1e30ecb2d.html",
-      "sha256": "e1d1e30ecb2de4879bb7c1dfd20ba946c857239c74e3d56a8d5de014429925d3",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-06-9d7a7882ecf4.html",
+      "sha256": "9d7a7882ecf42b56956dd873109fc120400a7325f04b3e036ab9445bd655bd4e",
       "bytes": 32186
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=article&id=17&Itemid=128&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-07-53935f5a4e0e.html",
-      "sha256": "53935f5a4e0effe475180385d10620e936a5fb349135457f517085c6b2cc75eb",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-07-5654fc29a18c.html",
+      "sha256": "5654fc29a18c8df32e57fe92386fd49f20ca677cfc0cbcac4e4190c85535e126",
       "bytes": 32188
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=featured&Itemid=101&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-08-de3bf49dc9ce.html",
-      "sha256": "de3bf49dc9ce2f6fa0b021b4a6b12c85ddefced4d7965e6af918b7dde5545343",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-08-db7a3a984a26.html",
+      "sha256": "db7a3a984a26b662a9a0d7b21caa2cf54ba521974018fc345ba52382c2e9ba97",
       "bytes": 54214
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=article&id=5&Itemid=111&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-09-a395b0c8e289.html",
-      "sha256": "a395b0c8e28981389b2ea56f73c7ec74e4c5596b1cb58f2bb8b65b2b8660edbc",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-09-348e36985f38.html",
+      "sha256": "348e36985f38fcfcae7735fc5a2b4786bc4822f26bdf11cbf1b0ccc84d5e1e2a",
       "bytes": 26706
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=article&id=8&Itemid=112&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-10-c2fceeaf1d6d.html",
-      "sha256": "c2fceeaf1d6df840ca67c9b195bec1d3d7ecb1d3c48d553aa9819dc2e91584d0",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-10-e42219ec9cad.html",
+      "sha256": "e42219ec9cad71fe64d27eb069d77d7bcc73805b25cb32a4ac29091dfb592934",
       "bytes": 34806
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=article&id=27&Itemid=151&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-11-a4f8ba6d94c7.html",
-      "sha256": "a4f8ba6d94c75117a84d18ba47805571080afee0e878cd941b9ffe634824a003",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-11-8b64384186a3.html",
+      "sha256": "8b64384186a395b52b07f737c28d2f01c54917458aa9595c2751a4d082e30102",
       "bytes": 27001
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=category&layout=blog&id=12&Itemid=149&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-12-72179c27152a.html",
-      "sha256": "72179c27152a6d50ed6abe09d52d0f826886c2150ea245667c194c2bd00a6f90",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-12-62f7ee8c7d58.html",
+      "sha256": "62f7ee8c7d585d4e9a5ef86dcc1bf532ad0ab266e5a83fe1bc01cdf18c94d6dd",
       "bytes": 26791
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=article&id=9&Itemid=117&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-13-14cad2bd408f.html",
-      "sha256": "14cad2bd408f73c27e2a91c8da6bd0ad5e5fe631133773a60d83a372f299a992",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-13-65603ad026fd.html",
+      "sha256": "65603ad026fd156ea12e5e0641b1e38d66215ffdce9146665d5ef4a5b0630a02",
       "bytes": 91278
     },
     {
       "url": "https://productivity.lk/index.php?option=com_content&view=article&id=56&Itemid=161&lang=en",
-      "path": "audit.output/productivity.lk/20260926.0640/snapshots/page-14-5d3ad1dc6f80.html",
-      "sha256": "5d3ad1dc6f80c6de151946f079311bf39201bfb588af0f2e16949c5eb8ffb337",
+      "path": "audit.output/productivity.lk/20260927.0646/snapshots/page-14-da6f18173c47.html",
+      "sha256": "da6f18173c47bfdf59a03a00519c22c36835251db268dad13f261b6b2937850a",
       "bytes": 30887
     }
   ],
@@ -959,7 +977,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: +94 112 186 026 (Ext:202) +94 71 4520 545 +94 112 186 030 (Ext:203) +94 71 4392 946 +94 112186030 (Ext:208) +94 76 0119 411 +94 112 187 099‍ (Ext:216) +94 71 4437 912 +94 112 186 030 (Ext:285) +94 705320052 +94 112 186 031 ( Ext:282 ) +94 76 8188 851 +94 711384027 +94 112 187 101 (Ext:205) +94 71 7859 625 +94 112 186 031 (Ext:207) +94 711242703 +94 112 186 031 (Ext:223) +94 71 2827 289; Phone: +94) 112 186 031 ( (18 phone numbers found); Email: info@productivity.gov.lk; Published named responsibility: division",
+      "reason": "Published postal address: +94 112 186 026 (Ext:202) +94 71 4520 545 +94 112 186 030 (Ext:203) +94 71 4392 946 +94 112186030 (Ext:208) +94 76 0119 411 +94 112 187 099‍ (Ext:216) +94 71 4437 912 +94 112 186 030 (Ext:285) +94 705320052 +94 112 186 031 ( Ext:282 ) +94 76 8188 851 +94 711384027 +94 112 187 101 (Ext:205) +94 71 7859 625 +94 112 186 031 (Ext:207) +94 711242703 +94 112 186 031 (Ext:223) +94 71 2827 289; Phone: +94) 112 186 031 ( (20 phone numbers found); Email: info@productivity.gov.lk; Published named responsibility: division",
       "executed": true,
       "checks": [
         {
@@ -972,7 +990,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94) 112 186 031 ( (18 phone numbers found); Email: info@productivity.gov.lk"
+          "reason": "Phone: +94) 112 186 031 ( (20 phone numbers found); Email: info@productivity.gov.lk"
         },
         {
           "name": "named_responsibility",
@@ -1051,7 +1069,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "91ff297f-c728-4f39-b02c-b5b8ea6beb51",
+  "audit_id": "bb76ed4a-f37c-41a5-8f1f-6757a914b508",
   "url": "http://www.vpa.ac.lk/",
   "normalized_url": "http://www.vpa.ac.lk/",
-  "started_at": "2026-09-26T06:15:15.434736+05:30",
-  "completed_at": "2026-09-26T06:15:22.788722+05:30",
+  "started_at": "2026-09-27T06:21:35.654442+05:30",
+  "completed_at": "2026-09-27T06:21:42.345500+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -18,47 +18,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:15:16.370463+05:30"
+      "observed_at": "2026-09-27T06:21:36.119896+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:15:16.370480+05:30"
+      "observed_at": "2026-09-27T06:21:36.119917+05:30"
     },
     {
       "check": "tls_hostname",
       "status": "fail",
       "detail": "TLS certificate does not match the hostname",
-      "observed_at": "2026-09-26T06:15:17.103031+05:30"
+      "observed_at": "2026-09-27T06:21:36.847232+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.vpa.ac.lk'. (_ssl.c:1010)",
       "source": "https://www.vpa.ac.lk/",
-      "observed_at": "2026-09-26T06:15:22.788579+05:30"
+      "observed_at": "2026-09-27T06:21:42.345355+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 2: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.vpa.ac.lk'. (_ssl.c:1010)",
       "source": "http://www.vpa.ac.lk/",
-      "observed_at": "2026-09-26T06:15:22.788593+05:30"
+      "observed_at": "2026-09-27T06:21:42.345370+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 3: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.vpa.ac.lk'. (_ssl.c:1010)",
       "source": "https://www.vpa.ac.lk/",
-      "observed_at": "2026-09-26T06:15:22.788596+05:30"
+      "observed_at": "2026-09-27T06:21:42.345375+05:30"
     },
     {
       "check": "tls_browser_error",
       "status": "fail",
       "detail": "Probe 4: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.vpa.ac.lk'. (_ssl.c:1010)",
       "source": "http://www.vpa.ac.lk/",
-      "observed_at": "2026-09-26T06:15:22.788599+05:30"
+      "observed_at": "2026-09-27T06:21:42.345378+05:30"
     }
   ],
   "observations": [
@@ -235,7 +235,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "49d57f7f-26f9-4fe4-a32b-a230985711d4",
+  "audit_id": "32d7026d-1cb4-4a7f-923d-692445080e79",
   "url": "https://ecsl.gov.lk/",
   "normalized_url": "https://ecsl.gov.lk/",
-  "started_at": "2026-09-26T06:39:28.044562+05:30",
-  "completed_at": "2026-09-26T06:39:47.631100+05:30",
+  "started_at": "2026-09-27T06:44:42.044806+05:30",
+  "completed_at": "2026-09-27T06:45:04.650416+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:39:28.367474+05:30"
+      "observed_at": "2026-09-27T06:44:42.390210+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:39:28.367493+05:30"
+      "observed_at": "2026-09-27T06:44:42.390230+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:39:28.706344+05:30"
+      "observed_at": "2026-09-27T06:44:42.754281+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://ecsl.gov.lk/",
       "source": "https://ecsl.gov.lk/",
-      "observed_at": "2026-09-26T06:39:47.421705+05:30"
+      "observed_at": "2026-09-27T06:45:04.218877+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://ecsl.gov.lk/",
       "source": "http://ecsl.gov.lk/",
-      "observed_at": "2026-09-26T06:39:47.421721+05:30"
+      "observed_at": "2026-09-27T06:45:04.218898+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://ecsl.gov.lk/",
       "source": "https://ecsl.gov.lk/",
-      "observed_at": "2026-09-26T06:39:47.421725+05:30"
+      "observed_at": "2026-09-27T06:45:04.218903+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://ecsl.gov.lk/",
       "source": "http://ecsl.gov.lk/",
-      "observed_at": "2026-09-26T06:39:47.421728+05:30"
+      "observed_at": "2026-09-27T06:45:04.218907+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://ecsl.gov.lk/about-engineering-council-of-sri-lanka",
       "source": "https://ecsl.gov.lk/about-engineering-council-of-sri-lanka",
-      "observed_at": "2026-09-26T06:39:47.421730+05:30"
+      "observed_at": "2026-09-27T06:45:04.218916+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://ecsl.gov.lk/publications",
       "source": "https://ecsl.gov.lk/publications",
-      "observed_at": "2026-09-26T06:39:47.421733+05:30"
+      "observed_at": "2026-09-27T06:45:04.218922+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://ecsl.gov.lk/pages/foreign-engineering-practitioners",
       "source": "https://ecsl.gov.lk/pages/foreign-engineering-practitioners",
-      "observed_at": "2026-09-26T06:39:47.421735+05:30"
+      "observed_at": "2026-09-27T06:45:04.218928+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://ecsl.gov.lk/pages/registration-of-engineering-technicians",
       "source": "https://ecsl.gov.lk/pages/registration-of-engineering-technicians",
-      "observed_at": "2026-09-26T06:39:47.421737+05:30"
+      "observed_at": "2026-09-27T06:45:04.218934+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://ecsl.gov.lk/pages/registration-of-non-engineering-technicians",
       "source": "https://ecsl.gov.lk/pages/registration-of-non-engineering-technicians",
-      "observed_at": "2026-09-26T06:39:47.421740+05:30"
+      "observed_at": "2026-09-27T06:45:04.218939+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://ecsl.gov.lk/code-of-ethics",
       "source": "https://ecsl.gov.lk/code-of-ethics",
-      "observed_at": "2026-09-26T06:39:47.423189+05:30"
+      "observed_at": "2026-09-27T06:45:04.218945+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://ecsl.gov.lk/guidelines-for-complaints",
       "source": "https://ecsl.gov.lk/guidelines-for-complaints",
-      "observed_at": "2026-09-26T06:39:47.423194+05:30"
+      "observed_at": "2026-09-27T06:45:04.218951+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://ecsl.gov.lk/regulations",
       "source": "https://ecsl.gov.lk/regulations",
-      "observed_at": "2026-09-26T06:39:47.423197+05:30"
+      "observed_at": "2026-09-27T06:45:04.218956+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://ecsl.gov.lk/regulations/ecsl_act",
       "source": "https://ecsl.gov.lk/regulations/ecsl_act",
-      "observed_at": "2026-09-26T06:39:47.423200+05:30"
+      "observed_at": "2026-09-27T06:45:04.218961+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://ecsl.gov.lk/regulations/gazettes",
       "source": "https://ecsl.gov.lk/regulations/gazettes",
-      "observed_at": "2026-09-26T06:39:47.423202+05:30"
+      "observed_at": "2026-09-27T06:45:04.218966+05:30"
     },
     {
       "check": "phone",
@@ -280,6 +280,15 @@
       "source": "https://ecsl.gov.lk/",
       "data": {
         "value": "regulations"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0120333603",
+      "source": "https://ecsl.gov.lk/about-engineering-council-of-sri-lanka",
+      "data": {
+        "value": "0120333603"
       }
     },
     {
@@ -703,7 +712,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 451,
+      "elapsed_ms": 525,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -714,7 +723,7 @@
       "redirects": [
         "https://ecsl.gov.lk/"
       ],
-      "elapsed_ms": 2007,
+      "elapsed_ms": 1273,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -723,7 +732,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1705,
+      "elapsed_ms": 2552,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -734,7 +743,7 @@
       "redirects": [
         "https://ecsl.gov.lk/"
       ],
-      "elapsed_ms": 446,
+      "elapsed_ms": 1687,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -743,7 +752,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/about-engineering-council-of-sri-lanka",
       "redirects": [],
-      "elapsed_ms": 199,
+      "elapsed_ms": 480,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -752,7 +761,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/publications",
       "redirects": [],
-      "elapsed_ms": 207,
+      "elapsed_ms": 493,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -761,7 +770,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/pages/foreign-engineering-practitioners",
       "redirects": [],
-      "elapsed_ms": 191,
+      "elapsed_ms": 225,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -770,7 +779,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/pages/registration-of-engineering-technicians",
       "redirects": [],
-      "elapsed_ms": 202,
+      "elapsed_ms": 236,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -779,7 +788,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/pages/registration-of-non-engineering-technicians",
       "redirects": [],
-      "elapsed_ms": 202,
+      "elapsed_ms": 547,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -788,7 +797,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/code-of-ethics",
       "redirects": [],
-      "elapsed_ms": 208,
+      "elapsed_ms": 550,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -797,7 +806,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/guidelines-for-complaints",
       "redirects": [],
-      "elapsed_ms": 203,
+      "elapsed_ms": 499,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -806,7 +815,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/regulations",
       "redirects": [],
-      "elapsed_ms": 207,
+      "elapsed_ms": 254,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -815,7 +824,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/regulations/ecsl_act",
       "redirects": [],
-      "elapsed_ms": 209,
+      "elapsed_ms": 512,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -824,7 +833,7 @@
       "status_code": 200,
       "final_url": "https://ecsl.gov.lk/regulations/gazettes",
       "redirects": [],
-      "elapsed_ms": 262,
+      "elapsed_ms": 545,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -832,86 +841,86 @@
   "snapshots": [
     {
       "url": "https://ecsl.gov.lk/",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-01-3c11edbabace.html",
-      "sha256": "3c11edbabaceb489a9692dd15abd5515741ea0ecb4e0b80592283e621a389f88",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-01-69ccaa2ca622.html",
+      "sha256": "69ccaa2ca622969ebac87e0bc01a5cc71e75affc9bde0a94fe52b68ac9428e01",
       "bytes": 67430
     },
     {
       "url": "https://ecsl.gov.lk/",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-02-6f79d3ffcbf5.html",
-      "sha256": "6f79d3ffcbf505a6204e474a1a5d10d3a3cb8f0070d5f3805315b54ab98ad822",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-02-c6090355cea4.html",
+      "sha256": "c6090355cea4a5d2ddfc7f39bd0fcac5ceaf6898889f274976a00079d0ffadc7",
       "bytes": 67430
     },
     {
       "url": "https://ecsl.gov.lk/",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-03-f0402f1f82b2.html",
-      "sha256": "f0402f1f82b28942b22d6e0a9e067bd51c32085cc256f069e893be0461bccecc",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-03-d4760d9f88e3.html",
+      "sha256": "d4760d9f88e3f01016bb80f160448d016020e65b27dbcf23e2534981f1b8c5da",
       "bytes": 67430
     },
     {
       "url": "https://ecsl.gov.lk/",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-04-026a3741c12e.html",
-      "sha256": "026a3741c12e16ffa56aed8be40950965d79c21074ebb840c221c44c83e8464c",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-04-c608c68d5a7e.html",
+      "sha256": "c608c68d5a7eb5c681f57a1c79d1f8a14eb27061f960e63e269340c7401ad32e",
       "bytes": 67430
     },
     {
       "url": "https://ecsl.gov.lk/about-engineering-council-of-sri-lanka",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-05-bef8e7eb8f71.html",
-      "sha256": "bef8e7eb8f7174b597b7fa982ea2c6d3af8b1485016fdc0ac68a3e4112603fb2",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-05-8358bb26ad0d.html",
+      "sha256": "8358bb26ad0de99b5b8216b693da9833d111ae79c2b903ed96a8e963a4b66ba0",
       "bytes": 22491
     },
     {
       "url": "https://ecsl.gov.lk/publications",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-06-c940c7611e49.html",
-      "sha256": "c940c7611e494845bab42535cb84c036da354cf4310c2f1623a1fd0f7433cf80",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-06-d68a35a8faf3.html",
+      "sha256": "d68a35a8faf32a93c7ebbc35b8fbef8ad378d4f83ebc12354b802c46aa89f1b2",
       "bytes": 19688
     },
     {
       "url": "https://ecsl.gov.lk/pages/foreign-engineering-practitioners",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-07-1cd2a3a03580.html",
-      "sha256": "1cd2a3a03580b39f3f33abe4bb3fa230532a9ad11aedc138abd97a8fb0dd4dac",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-07-2b9ae84be5de.html",
+      "sha256": "2b9ae84be5de82a693d2a0b1bcd27cfa18e760afedd75efc64398dbf5cfa6704",
       "bytes": 33268
     },
     {
       "url": "https://ecsl.gov.lk/pages/registration-of-engineering-technicians",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-08-cda7dfb2f291.html",
-      "sha256": "cda7dfb2f29138aa39ad357446bc61996d3a1cbf6f725fb11ca5aa9b1e8032e6",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-08-9e22c2032893.html",
+      "sha256": "9e22c2032893c0e400b48cc722fd9ff0eb2716f7c98ca50bebc426be31f5952a",
       "bytes": 159994
     },
     {
       "url": "https://ecsl.gov.lk/pages/registration-of-non-engineering-technicians",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-09-115594d6158e.html",
-      "sha256": "115594d6158e82ee767bba8117dfb095f399ae54e4192d8ef1b012eedc3c0fb2",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-09-e8094d1ad3f3.html",
+      "sha256": "e8094d1ad3f36b72d4e9d3d014344493b6cee22ccc3905e9a7f9b9f78f447ebe",
       "bytes": 16190
     },
     {
       "url": "https://ecsl.gov.lk/code-of-ethics",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-10-ac1529cd383a.html",
-      "sha256": "ac1529cd383a3f8375fc19b09e2a65532c016a711ca3fde73072dda6d9c522f5",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-10-c5a5418b03c0.html",
+      "sha256": "c5a5418b03c0ffc5c54e470e4bd94cbc9270b82c84506c5e38a899cea4bf519c",
       "bytes": 12457
     },
     {
       "url": "https://ecsl.gov.lk/guidelines-for-complaints",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-11-3b2f0de42f31.html",
-      "sha256": "3b2f0de42f313865d32448d74f9472d6615bd09d62009d343e373eb153e4f0f3",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-11-640d5e5e4e32.html",
+      "sha256": "640d5e5e4e3285c07e3a8983a4b59b1c1bd32fb7b974d9d338d94b8d07e6a899",
       "bytes": 15758
     },
     {
       "url": "https://ecsl.gov.lk/regulations",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-12-75add5d52346.html",
-      "sha256": "75add5d523466d7803ff0b02de87b1aaf6c8cd8b30db94bdcfa1fd82614d7e0b",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-12-0bee5e85eb10.html",
+      "sha256": "0bee5e85eb1017c3b09266b402474437e23682f7c468d7a472417a87d9e84b86",
       "bytes": 13616
     },
     {
       "url": "https://ecsl.gov.lk/regulations/ecsl_act",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-13-8059032b1ea0.html",
-      "sha256": "8059032b1ea0baf52380f30ba3a4980ca1c0db05554adf4e69e66b0f7040f482",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-13-0fd435871a0e.html",
+      "sha256": "0fd435871a0e9e1349887d231c8620b7d644de26240fa44eab78e2521282c1cc",
       "bytes": 13616
     },
     {
       "url": "https://ecsl.gov.lk/regulations/gazettes",
-      "path": "audit.output/ecsl.gov.lk/20260926.0639/snapshots/page-14-35151913a68f.html",
-      "sha256": "35151913a68ff844df8cddc9356f15bf9ea45aff3a422d5c0eabbac0939e90b7",
+      "path": "audit.output/ecsl.gov.lk/20260927.0644/snapshots/page-14-2c94158ec3a1.html",
+      "sha256": "2c94158ec3a1519ceb5c71327258fbcc88c4fdf3d482d94afc98f9a9f2e2d005",
       "bytes": 24552
     }
   ],
@@ -1011,7 +1020,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94) 112588811; Email: registrar@ecsl.gov.lk"
+          "reason": "Phone: +94) 112588811 (2 phone numbers found); Email: registrar@ecsl.gov.lk"
         },
         {
           "name": "named_responsibility",
@@ -1047,7 +1056,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

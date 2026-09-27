@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "f204ef0a-077e-4c43-9d78-c7f58cc9bf63",
+  "audit_id": "71ce5fc5-8e5e-4f1f-9f53-5a0b914deb17",
   "url": "https://www.customs.gov.lk/",
   "normalized_url": "https://www.customs.gov.lk/",
-  "started_at": "2026-09-26T06:27:02.632137+05:30",
-  "completed_at": "2026-09-26T06:28:26.561431+05:30",
+  "started_at": "2026-09-27T06:32:56.819475+05:30",
+  "completed_at": "2026-09-27T06:34:21.953770+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,135 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:27:02.966370+05:30"
+      "observed_at": "2026-09-27T06:32:57.465541+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:27:02.966391+05:30"
+      "observed_at": "2026-09-27T06:32:57.465564+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:27:03.688360+05:30"
+      "observed_at": "2026-09-27T06:32:58.262378+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.customs.gov.lk/",
       "source": "https://www.customs.gov.lk/",
-      "observed_at": "2026-09-26T06:28:24.630389+05:30"
+      "observed_at": "2026-09-27T06:34:18.190225+05:30"
     },
     {
       "check": "http",
       "status": "error",
       "detail": "Probe 2: timed out",
       "source": "http://www.customs.gov.lk/",
-      "observed_at": "2026-09-26T06:28:24.630408+05:30"
+      "observed_at": "2026-09-27T06:34:18.190252+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.customs.gov.lk/",
       "source": "https://www.customs.gov.lk/",
-      "observed_at": "2026-09-26T06:28:24.630412+05:30"
+      "observed_at": "2026-09-27T06:34:18.190261+05:30"
     },
     {
       "check": "http",
       "status": "error",
       "detail": "Probe 4: timed out",
       "source": "http://www.customs.gov.lk/",
-      "observed_at": "2026-09-26T06:28:24.630415+05:30"
+      "observed_at": "2026-09-27T06:34:18.190267+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.customs.gov.lk/services/",
       "source": "https://www.customs.gov.lk/services/",
-      "observed_at": "2026-09-26T06:28:24.630418+05:30"
+      "observed_at": "2026-09-27T06:34:18.190272+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
-      "observed_at": "2026-09-26T06:28:24.630421+05:30"
+      "observed_at": "2026-09-27T06:34:18.190277+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.customs.gov.lk/services/asyhub/",
       "source": "https://www.customs.gov.lk/services/asyhub/",
-      "observed_at": "2026-09-26T06:28:24.630423+05:30"
+      "observed_at": "2026-09-27T06:34:18.190282+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.customs.gov.lk/services/bonded-operation/",
       "source": "https://www.customs.gov.lk/services/bonded-operation/",
-      "observed_at": "2026-09-26T06:28:24.630425+05:30"
+      "observed_at": "2026-09-27T06:34:18.190287+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
-      "observed_at": "2026-09-26T06:28:24.630428+05:30"
+      "observed_at": "2026-09-27T06:34:18.190291+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.customs.gov.lk/services/door-to-door-operations/",
       "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
-      "observed_at": "2026-09-26T06:28:24.630430+05:30"
+      "observed_at": "2026-09-27T06:34:18.190295+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.customs.gov.lk/services/exporting-goods/",
       "source": "https://www.customs.gov.lk/services/exporting-goods/",
-      "observed_at": "2026-09-26T06:28:24.630433+05:30"
+      "observed_at": "2026-09-27T06:34:18.190300+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.customs.gov.lk/services/importing-goods/",
       "source": "https://www.customs.gov.lk/services/importing-goods/",
-      "observed_at": "2026-09-26T06:28:24.630435+05:30"
+      "observed_at": "2026-09-27T06:34:18.190331+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.customs.gov.lk/services/registration-guide/",
       "source": "https://www.customs.gov.lk/services/registration-guide/",
-      "observed_at": "2026-09-26T06:28:24.630437+05:30"
+      "observed_at": "2026-09-27T06:34:18.190337+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.customs.gov.lk/services/ships-agents/",
       "source": "https://www.customs.gov.lk/services/ships-agents/",
-      "observed_at": "2026-09-26T06:28:24.630439+05:30"
+      "observed_at": "2026-09-27T06:34:18.190341+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221611",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2221611"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2143434 ",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2143434 "
+      }
     },
     {
       "check": "phone",
@@ -145,6 +163,33 @@
       "source": "https://www.customs.gov.lk/",
       "data": {
         "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2 471 471. ",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "011 2 471 471. "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221602-",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2221602-"
       }
     },
     {
@@ -166,48 +211,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
+      "detail": "Published email: dgc@customs.gov.lk",
       "source": "https://www.customs.gov.lk/",
       "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221611",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2 471 471. ",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "011 2 471 471. "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2143434 ",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "+94 11 2143434 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221602-",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "+94 11 2221602-"
+        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -217,15 +226,6 @@
       "source": "https://www.customs.gov.lk/",
       "data": {
         "value": "info@customs.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgc@customs.gov.lk",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -258,10 +258,55 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2221611",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2221611"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2143434 ",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2143434 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221607",
       "source": "https://www.customs.gov.lk/",
       "data": {
         "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011 2 471 471. ",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "011 2 471 471. "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221602-",
+      "source": "https://www.customs.gov.lk/",
+      "data": {
+        "value": "+94 11 2221602-"
       }
     },
     {
@@ -283,48 +328,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
+      "detail": "Published email: dgc@customs.gov.lk",
       "source": "https://www.customs.gov.lk/",
       "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221611",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011 2 471 471. ",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "011 2 471 471. "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2143434 ",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "+94 11 2143434 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221602-",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "+94 11 2221602-"
+        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -334,15 +343,6 @@
       "source": "https://www.customs.gov.lk/",
       "data": {
         "value": "info@customs.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgc@customs.gov.lk",
-      "source": "https://www.customs.gov.lk/",
-      "data": {
-        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -370,6 +370,24 @@
       "source": "https://www.customs.gov.lk/",
       "data": {
         "value": "Rs. 0"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221611",
+      "source": "https://www.customs.gov.lk/services/",
+      "data": {
+        "value": "+94 11 2221611"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2143434 ",
+      "source": "https://www.customs.gov.lk/services/",
+      "data": {
+        "value": "+94 11 2143434 "
       }
     },
     {
@@ -379,6 +397,24 @@
       "source": "https://www.customs.gov.lk/services/",
       "data": {
         "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221602-",
+      "source": "https://www.customs.gov.lk/services/",
+      "data": {
+        "value": "+94 11 2221602-"
       }
     },
     {
@@ -400,39 +436,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
+      "detail": "Published email: dgc@customs.gov.lk",
       "source": "https://www.customs.gov.lk/services/",
       "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221611",
-      "source": "https://www.customs.gov.lk/services/",
-      "data": {
-        "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2143434 ",
-      "source": "https://www.customs.gov.lk/services/",
-      "data": {
-        "value": "+94 11 2143434 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221602-",
-      "source": "https://www.customs.gov.lk/services/",
-      "data": {
-        "value": "+94 11 2221602-"
+        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -442,15 +451,6 @@
       "source": "https://www.customs.gov.lk/services/",
       "data": {
         "value": "info@customs.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgc@customs.gov.lk",
-      "source": "https://www.customs.gov.lk/services/",
-      "data": {
-        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -474,46 +474,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2221607",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
-      "data": {
-        "value": "+94 11 2221607"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221713 ",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
-      "data": {
-        "value": "+94 11 2221713 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
-      "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 2221611",
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
       "data": {
         "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 710 889 935 ",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
-      "data": {
-        "value": "+94 710 889 935 "
       }
     },
     {
@@ -528,6 +492,24 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2221607",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
+      "data": {
+        "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221602-",
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
       "data": {
@@ -535,12 +517,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@customs.gov.lk",
+      "detail": "Published phone: +94 710 889 935 ",
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
       "data": {
-        "value": "info@customs.gov.lk"
+        "value": "+94 710 889 935 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221713 ",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
+      "data": {
+        "value": "+94 11 2221713 "
       }
     },
     {
@@ -550,6 +541,15 @@
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
       "data": {
         "value": "dgc@customs.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@customs.gov.lk",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
+      "data": {
+        "value": "info@customs.gov.lk"
       }
     },
     {
@@ -582,10 +582,64 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2221611",
+      "source": "https://www.customs.gov.lk/services/asyhub/",
+      "data": {
+        "value": "+94 11 2221611"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2143434 ",
+      "source": "https://www.customs.gov.lk/services/asyhub/",
+      "data": {
+        "value": "+94 11 2143434 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112143434",
+      "source": "https://www.customs.gov.lk/services/asyhub/",
+      "data": {
+        "value": "+94112143434"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221607",
       "source": "https://www.customs.gov.lk/services/asyhub/",
       "data": {
         "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/asyhub/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221602-",
+      "source": "https://www.customs.gov.lk/services/asyhub/",
+      "data": {
+        "value": "+94 11 2221602-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 710 889 935 ",
+      "source": "https://www.customs.gov.lk/services/asyhub/",
+      "data": {
+        "value": "+94 710 889 935 "
       }
     },
     {
@@ -613,60 +667,6 @@
       "source": "https://www.customs.gov.lk/services/asyhub/",
       "data": {
         "value": "+94 11 2221713 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
-      "source": "https://www.customs.gov.lk/services/asyhub/",
-      "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221611",
-      "source": "https://www.customs.gov.lk/services/asyhub/",
-      "data": {
-        "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112143434",
-      "source": "https://www.customs.gov.lk/services/asyhub/",
-      "data": {
-        "value": "+94112143434"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 710 889 935 ",
-      "source": "https://www.customs.gov.lk/services/asyhub/",
-      "data": {
-        "value": "+94 710 889 935 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2143434 ",
-      "source": "https://www.customs.gov.lk/services/asyhub/",
-      "data": {
-        "value": "+94 11 2143434 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221602-",
-      "source": "https://www.customs.gov.lk/services/asyhub/",
-      "data": {
-        "value": "+94 11 2221602-"
       }
     },
     {
@@ -726,10 +726,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2221611",
+      "source": "https://www.customs.gov.lk/services/bonded-operation/",
+      "data": {
+        "value": "+94 11 2221611"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2143434 ",
+      "source": "https://www.customs.gov.lk/services/bonded-operation/",
+      "data": {
+        "value": "+94 11 2143434 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221607",
       "source": "https://www.customs.gov.lk/services/bonded-operation/",
       "data": {
         "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/bonded-operation/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221602-",
+      "source": "https://www.customs.gov.lk/services/bonded-operation/",
+      "data": {
+        "value": "+94 11 2221602-"
       }
     },
     {
@@ -751,39 +787,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
+      "detail": "Published email: dgc@customs.gov.lk",
       "source": "https://www.customs.gov.lk/services/bonded-operation/",
       "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221611",
-      "source": "https://www.customs.gov.lk/services/bonded-operation/",
-      "data": {
-        "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2143434 ",
-      "source": "https://www.customs.gov.lk/services/bonded-operation/",
-      "data": {
-        "value": "+94 11 2143434 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221602-",
-      "source": "https://www.customs.gov.lk/services/bonded-operation/",
-      "data": {
-        "value": "+94 11 2221602-"
+        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -793,15 +802,6 @@
       "source": "https://www.customs.gov.lk/services/bonded-operation/",
       "data": {
         "value": "info@customs.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgc@customs.gov.lk",
-      "source": "https://www.customs.gov.lk/services/bonded-operation/",
-      "data": {
-        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -834,33 +834,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2221607",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
-      "data": {
-        "value": "+94 11 2221607"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221713 ",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
-      "data": {
-        "value": "+94 11 2221713 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
-      "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 2221611",
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
       "data": {
@@ -879,10 +852,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2221607",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
+      "data": {
+        "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221602-",
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
       "data": {
         "value": "+94 11 2221602-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221713 ",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
+      "data": {
+        "value": "+94 11 2221713 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dgc@customs.gov.lk",
+      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
+      "data": {
+        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -910,15 +919,6 @@
       "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
       "data": {
         "value": "cha@customs.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgc@customs.gov.lk",
-      "source": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
-      "data": {
-        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -969,10 +969,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2221611",
+      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
+      "data": {
+        "value": "+94 11 2221611"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2143434 ",
+      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
+      "data": {
+        "value": "+94 11 2143434 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221607",
       "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
       "data": {
         "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221602-",
+      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
+      "data": {
+        "value": "+94 11 2221602-"
       }
     },
     {
@@ -994,39 +1030,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
+      "detail": "Published email: dgc@customs.gov.lk",
       "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
       "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221611",
-      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
-      "data": {
-        "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2143434 ",
-      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
-      "data": {
-        "value": "+94 11 2143434 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221602-",
-      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
-      "data": {
-        "value": "+94 11 2221602-"
+        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -1036,15 +1045,6 @@
       "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
       "data": {
         "value": "info@customs.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgc@customs.gov.lk",
-      "source": "https://www.customs.gov.lk/services/door-to-door-operations/",
-      "data": {
-        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -1086,64 +1086,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2221607",
-      "source": "https://www.customs.gov.lk/services/exporting-goods/",
-      "data": {
-        "value": "+94 11 2221607"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221713 ",
-      "source": "https://www.customs.gov.lk/services/exporting-goods/",
-      "data": {
-        "value": "+94 11 2221713 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
-      "source": "https://www.customs.gov.lk/services/exporting-goods/",
-      "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112143434",
-      "source": "https://www.customs.gov.lk/services/exporting-goods/",
-      "data": {
-        "value": "0112143434"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 2221611",
       "source": "https://www.customs.gov.lk/services/exporting-goods/",
       "data": {
         "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112143434",
-      "source": "https://www.customs.gov.lk/services/exporting-goods/",
-      "data": {
-        "value": "+94112143434"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112143434 ",
-      "source": "https://www.customs.gov.lk/services/exporting-goods/",
-      "data": {
-        "value": "0112143434 "
       }
     },
     {
@@ -1158,6 +1104,42 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112143434",
+      "source": "https://www.customs.gov.lk/services/exporting-goods/",
+      "data": {
+        "value": "0112143434"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112143434",
+      "source": "https://www.customs.gov.lk/services/exporting-goods/",
+      "data": {
+        "value": "+94112143434"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221607",
+      "source": "https://www.customs.gov.lk/services/exporting-goods/",
+      "data": {
+        "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/exporting-goods/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221602-",
       "source": "https://www.customs.gov.lk/services/exporting-goods/",
       "data": {
@@ -1165,12 +1147,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@customs.gov.lk",
+      "detail": "Published phone: 0112143434 ",
       "source": "https://www.customs.gov.lk/services/exporting-goods/",
       "data": {
-        "value": "info@customs.gov.lk"
+        "value": "0112143434 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221713 ",
+      "source": "https://www.customs.gov.lk/services/exporting-goods/",
+      "data": {
+        "value": "+94 11 2221713 "
       }
     },
     {
@@ -1180,6 +1171,15 @@
       "source": "https://www.customs.gov.lk/services/exporting-goods/",
       "data": {
         "value": "dgc@customs.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@customs.gov.lk",
+      "source": "https://www.customs.gov.lk/services/exporting-goods/",
+      "data": {
+        "value": "info@customs.gov.lk"
       }
     },
     {
@@ -1221,55 +1221,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2221607",
-      "source": "https://www.customs.gov.lk/services/importing-goods/",
-      "data": {
-        "value": "+94 11 2221607"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221713 ",
-      "source": "https://www.customs.gov.lk/services/importing-goods/",
-      "data": {
-        "value": "+94 11 2221713 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
-      "source": "https://www.customs.gov.lk/services/importing-goods/",
-      "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112143434",
-      "source": "https://www.customs.gov.lk/services/importing-goods/",
-      "data": {
-        "value": "0112143434"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 2221611",
       "source": "https://www.customs.gov.lk/services/importing-goods/",
       "data": {
         "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112143434 ",
-      "source": "https://www.customs.gov.lk/services/importing-goods/",
-      "data": {
-        "value": "0112143434 "
       }
     },
     {
@@ -1284,6 +1239,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112143434",
+      "source": "https://www.customs.gov.lk/services/importing-goods/",
+      "data": {
+        "value": "0112143434"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221607",
+      "source": "https://www.customs.gov.lk/services/importing-goods/",
+      "data": {
+        "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/importing-goods/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221602-",
       "source": "https://www.customs.gov.lk/services/importing-goods/",
       "data": {
@@ -1291,12 +1273,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@customs.gov.lk",
+      "detail": "Published phone: 0112143434 ",
       "source": "https://www.customs.gov.lk/services/importing-goods/",
       "data": {
-        "value": "info@customs.gov.lk"
+        "value": "0112143434 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221713 ",
+      "source": "https://www.customs.gov.lk/services/importing-goods/",
+      "data": {
+        "value": "+94 11 2221713 "
       }
     },
     {
@@ -1306,6 +1297,15 @@
       "source": "https://www.customs.gov.lk/services/importing-goods/",
       "data": {
         "value": "dgc@customs.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@customs.gov.lk",
+      "source": "https://www.customs.gov.lk/services/importing-goods/",
+      "data": {
+        "value": "info@customs.gov.lk"
       }
     },
     {
@@ -1356,10 +1356,46 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2221611",
+      "source": "https://www.customs.gov.lk/services/registration-guide/",
+      "data": {
+        "value": "+94 11 2221611"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2143434 ",
+      "source": "https://www.customs.gov.lk/services/registration-guide/",
+      "data": {
+        "value": "+94 11 2143434 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221607",
       "source": "https://www.customs.gov.lk/services/registration-guide/",
       "data": {
         "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/registration-guide/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221602-",
+      "source": "https://www.customs.gov.lk/services/registration-guide/",
+      "data": {
+        "value": "+94 11 2221602-"
       }
     },
     {
@@ -1381,39 +1417,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
+      "detail": "Published email: dgc@customs.gov.lk",
       "source": "https://www.customs.gov.lk/services/registration-guide/",
       "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221611",
-      "source": "https://www.customs.gov.lk/services/registration-guide/",
-      "data": {
-        "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2143434 ",
-      "source": "https://www.customs.gov.lk/services/registration-guide/",
-      "data": {
-        "value": "+94 11 2143434 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221602-",
-      "source": "https://www.customs.gov.lk/services/registration-guide/",
-      "data": {
-        "value": "+94 11 2221602-"
+        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -1423,15 +1432,6 @@
       "source": "https://www.customs.gov.lk/services/registration-guide/",
       "data": {
         "value": "info@customs.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgc@customs.gov.lk",
-      "source": "https://www.customs.gov.lk/services/registration-guide/",
-      "data": {
-        "value": "dgc@customs.gov.lk"
       }
     },
     {
@@ -1473,46 +1473,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2221607",
-      "source": "https://www.customs.gov.lk/services/ships-agents/",
-      "data": {
-        "value": "+94 11 2221607"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2221713 ",
-      "source": "https://www.customs.gov.lk/services/ships-agents/",
-      "data": {
-        "value": "+94 11 2221713 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2446364 ",
-      "source": "https://www.customs.gov.lk/services/ships-agents/",
-      "data": {
-        "value": "+94 11 2446364 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 2221611",
       "source": "https://www.customs.gov.lk/services/ships-agents/",
       "data": {
         "value": "+94 11 2221611"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0710 889 935 ",
-      "source": "https://www.customs.gov.lk/services/ships-agents/",
-      "data": {
-        "value": "0710 889 935 "
       }
     },
     {
@@ -1536,6 +1500,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0710 889 935 ",
+      "source": "https://www.customs.gov.lk/services/ships-agents/",
+      "data": {
+        "value": "0710 889 935 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2221607",
+      "source": "https://www.customs.gov.lk/services/ships-agents/",
+      "data": {
+        "value": "+94 11 2221607"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446364 ",
+      "source": "https://www.customs.gov.lk/services/ships-agents/",
+      "data": {
+        "value": "+94 11 2446364 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 11 2221602-",
       "source": "https://www.customs.gov.lk/services/ships-agents/",
       "data": {
@@ -1543,12 +1534,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@customs.gov.lk",
+      "detail": "Published phone: +94 11 2221713 ",
       "source": "https://www.customs.gov.lk/services/ships-agents/",
       "data": {
-        "value": "info@customs.gov.lk"
+        "value": "+94 11 2221713 "
       }
     },
     {
@@ -1558,6 +1549,15 @@
       "source": "https://www.customs.gov.lk/services/ships-agents/",
       "data": {
         "value": "dgc@customs.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@customs.gov.lk",
+      "source": "https://www.customs.gov.lk/services/ships-agents/",
+      "data": {
+        "value": "info@customs.gov.lk"
       }
     },
     {
@@ -1621,7 +1621,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1232,
+      "elapsed_ms": 1242,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1639,7 +1639,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 1336,
+      "elapsed_ms": 2790,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1657,7 +1657,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/",
       "redirects": [],
-      "elapsed_ms": 1492,
+      "elapsed_ms": 1239,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1666,7 +1666,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
       "redirects": [],
-      "elapsed_ms": 1224,
+      "elapsed_ms": 997,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1675,7 +1675,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/asyhub/",
       "redirects": [],
-      "elapsed_ms": 1248,
+      "elapsed_ms": 1476,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1684,7 +1684,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/bonded-operation/",
       "redirects": [],
-      "elapsed_ms": 1014,
+      "elapsed_ms": 1251,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1693,7 +1693,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
       "redirects": [],
-      "elapsed_ms": 1226,
+      "elapsed_ms": 997,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1702,7 +1702,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/door-to-door-operations/",
       "redirects": [],
-      "elapsed_ms": 1201,
+      "elapsed_ms": 1239,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1711,7 +1711,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/exporting-goods/",
       "redirects": [],
-      "elapsed_ms": 992,
+      "elapsed_ms": 1214,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1720,7 +1720,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/importing-goods/",
       "redirects": [],
-      "elapsed_ms": 1238,
+      "elapsed_ms": 1491,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1729,7 +1729,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/registration-guide/",
       "redirects": [],
-      "elapsed_ms": 1254,
+      "elapsed_ms": 993,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -1738,7 +1738,7 @@
       "status_code": 200,
       "final_url": "https://www.customs.gov.lk/services/ships-agents/",
       "redirects": [],
-      "elapsed_ms": 1258,
+      "elapsed_ms": 1486,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -1746,74 +1746,74 @@
   "snapshots": [
     {
       "url": "https://www.customs.gov.lk/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-01-81cb88fec538.html",
-      "sha256": "81cb88fec53894e8ad2c715dcfd6b19fb20bd52e3d6e588384070db3a4e122b4",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-01-80303841d5e8.html",
+      "sha256": "80303841d5e8127f8b2ce6a9306f2f180b1f2c5ebbd4edafef2f66624e3cbdc8",
       "bytes": 329874
     },
     {
       "url": "https://www.customs.gov.lk/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-02-386dc1cfcfb7.html",
-      "sha256": "386dc1cfcfb71252f06a91e1b97901cc5c3d6addc6b75c87ebc2ac9220a0d54f",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-02-80303841d5e8.html",
+      "sha256": "80303841d5e8127f8b2ce6a9306f2f180b1f2c5ebbd4edafef2f66624e3cbdc8",
       "bytes": 329874
     },
     {
       "url": "https://www.customs.gov.lk/services/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-03-e6e551a269bc.html",
-      "sha256": "e6e551a269bc2ba67adea9739c9bab977e3d077217a71e3186d1a66d03d298e8",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-03-7f742b4e4d13.html",
+      "sha256": "7f742b4e4d13d8b0a853071966e01ddb09f3997ddcb58b303c6c83ac145f020f",
       "bytes": 247037
     },
     {
       "url": "https://www.customs.gov.lk/about-us/directorates-and-divisions/ict-directorate/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-04-303f0f703e14.html",
-      "sha256": "303f0f703e141476e9dc957e4a25ddb448e53db8fe527e095c93eb35f2875787",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-04-eeb5229fe510.html",
+      "sha256": "eeb5229fe510fe1489e488e593441bb4780ef6d69f7df1de9ac1b1be61888d92",
       "bytes": 273769
     },
     {
       "url": "https://www.customs.gov.lk/services/asyhub/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-05-af40f61620c4.html",
-      "sha256": "af40f61620c41ae85cea6f9ef620e41d4b33e06ca95fa918a1a461a6aeb7de09",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-05-6a9bf88d6f85.html",
+      "sha256": "6a9bf88d6f857946bf91c155a94c5c1d3bbf774280c3e212148b3b2de5407820",
       "bytes": 263262
     },
     {
       "url": "https://www.customs.gov.lk/services/bonded-operation/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-06-d27bd1379c65.html",
-      "sha256": "d27bd1379c6591101ec6cc9dbd4787bdb114510946019b4bc90d0989c95485c5",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-06-2df8cbd1ced8.html",
+      "sha256": "2df8cbd1ced8309f4f81fb01d88cd83cc31a2ab4470180c5b6ea642de33bfdd7",
       "bytes": 254548
     },
     {
       "url": "https://www.customs.gov.lk/about-us/directorates-and-divisions/specialized-services-directorate/tin-vat-cha-registration-units/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-07-09ea725544a4.html",
-      "sha256": "09ea725544a4630cf20af19ef0183c567f8f45ca26bbf46ac668d71eba43a0b9",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-07-af3ace56cfd9.html",
+      "sha256": "af3ace56cfd94d05e39df2ef283e870cfa7a2efa412f4c4f63e406d26bc5943b",
       "bytes": 253299
     },
     {
       "url": "https://www.customs.gov.lk/services/door-to-door-operations/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-08-2f5e2c753e52.html",
-      "sha256": "2f5e2c753e523e3a3b7a6ed3f23169c87adf0f2304afde0b2165801d3715b6ea",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-08-a7728e1769c7.html",
+      "sha256": "a7728e1769c74f5442130dbe238d6cb06b60f38a1d81a279f7c288fd0203d437",
       "bytes": 241576
     },
     {
       "url": "https://www.customs.gov.lk/services/exporting-goods/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-09-4bb0e36d3aa7.html",
-      "sha256": "4bb0e36d3aa70ea502105745fb7dcb4626c6b272782b37c1d68e284927d45c1d",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-09-b94d731fcc78.html",
+      "sha256": "b94d731fcc789451eaa894422def95d62147f989e762512b270dd7974f3bee35",
       "bytes": 252995
     },
     {
       "url": "https://www.customs.gov.lk/services/importing-goods/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-10-a7dc4cca7fdb.html",
-      "sha256": "a7dc4cca7fdb56740586dab7866d2a9c06af759a15a33b78cbb981ff518cf877",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-10-1bd8a7b7dfe2.html",
+      "sha256": "1bd8a7b7dfe29a5ee66bdbc2222723015ec0d76b73bce33d3e37aebac8f55f87",
       "bytes": 253123
     },
     {
       "url": "https://www.customs.gov.lk/services/registration-guide/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-11-caecd804edb5.html",
-      "sha256": "caecd804edb564cdefbadcac8d657cb43a2cbed0ea52d3afc8dba365c3f0b731",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-11-8a85b89ba27f.html",
+      "sha256": "8a85b89ba27f32607b41601a1d257961fe1f74cf6e4971c40e4914bd35366e83",
       "bytes": 247942
     },
     {
       "url": "https://www.customs.gov.lk/services/ships-agents/",
-      "path": "audit.output/www.customs.gov.lk/20260926.0627/snapshots/page-12-a7af5e514829.html",
-      "sha256": "a7af5e5148296bebd2fbf9b4644b69c86698d93df96bdee4898cdae68d2912a6",
+      "path": "audit.output/www.customs.gov.lk/20260927.0632/snapshots/page-12-de86ef0a8b8e.html",
+      "sha256": "de86ef0a8b8e6700dd1ec3e804637eaaac24449e647a7fac2627497d1f293b85",
       "bytes": 244689
     }
   ],
@@ -1900,7 +1900,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: Us Sri Lanka Customs, No. 40, Main Street, Colombo 11, Sri Lanka; Phone: +94 11 2221607 (15 phone numbers found); Email: info@customs.gov.lk (4 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: Us Sri Lanka Customs, No. 40, Main Street, Colombo 11, Sri Lanka; Phone: +94 11 2221611 (15 phone numbers found); Email: dgc@customs.gov.lk (4 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -1913,7 +1913,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 11 2221607 (15 phone numbers found); Email: info@customs.gov.lk (4 email addresses found)"
+          "reason": "Phone: +94 11 2221611 (15 phone numbers found); Email: dgc@customs.gov.lk (4 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -1992,7 +1992,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

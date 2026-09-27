@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "f205dc78-0615-4447-980b-7404e37fc5bf",
+  "audit_id": "720d7a85-d8cd-4b12-a563-e0534e46e101",
   "url": "https://pgie.ou.ac.lk/",
   "normalized_url": "https://pgie.ou.ac.lk/",
-  "started_at": "2026-09-26T06:15:56.234379+05:30",
-  "completed_at": "2026-09-26T06:16:00.240320+05:30",
+  "started_at": "2026-09-27T06:22:35.068827+05:30",
+  "completed_at": "2026-09-27T06:22:39.237927+05:30",
   "result": {
     "status": "inconclusive",
     "confidence": 0.5,
@@ -20,47 +20,47 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:15:56.596173+05:30"
+      "observed_at": "2026-09-27T06:22:35.351697+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:15:56.596191+05:30"
+      "observed_at": "2026-09-27T06:22:35.351714+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:15:57.063975+05:30"
+      "observed_at": "2026-09-27T06:22:35.689880+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 202 at https://pgie.ou.ac.lk/",
       "source": "https://pgie.ou.ac.lk/",
-      "observed_at": "2026-09-26T06:16:00.239446+05:30"
+      "observed_at": "2026-09-27T06:22:39.236283+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 202 at http://pgie.ou.ac.lk/",
       "source": "http://pgie.ou.ac.lk/",
-      "observed_at": "2026-09-26T06:16:00.239462+05:30"
+      "observed_at": "2026-09-27T06:22:39.236350+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 202 at https://pgie.ou.ac.lk/",
       "source": "https://pgie.ou.ac.lk/",
-      "observed_at": "2026-09-26T06:16:00.239466+05:30"
+      "observed_at": "2026-09-27T06:22:39.236362+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 202 at http://pgie.ou.ac.lk/",
       "source": "http://pgie.ou.ac.lk/",
-      "observed_at": "2026-09-26T06:16:00.239469+05:30"
+      "observed_at": "2026-09-27T06:22:39.236370+05:30"
     },
     {
       "check": "page_text",
@@ -96,7 +96,7 @@
       "status_code": 202,
       "final_url": "https://pgie.ou.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 517,
+      "elapsed_ms": 370,
       "content_type": "text/html",
       "error": null
     },
@@ -105,7 +105,7 @@
       "status_code": 202,
       "final_url": "http://pgie.ou.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 395,
+      "elapsed_ms": 291,
       "content_type": "text/html",
       "error": null
     },
@@ -114,7 +114,7 @@
       "status_code": 202,
       "final_url": "https://pgie.ou.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 540,
+      "elapsed_ms": 370,
       "content_type": "text/html",
       "error": null
     },
@@ -123,7 +123,7 @@
       "status_code": 202,
       "final_url": "http://pgie.ou.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 130,
+      "elapsed_ms": 307,
       "content_type": "text/html",
       "error": null
     }
@@ -131,27 +131,27 @@
   "snapshots": [
     {
       "url": "https://pgie.ou.ac.lk/",
-      "path": "audit.output/pgie.ou.ac.lk/20260926.0615/snapshots/page-01-cf577f4e2989.html",
-      "sha256": "cf577f4e298988aff8182d8cc94bdc8a67ba48c49cad52baf1010715471dcda3",
-      "bytes": 168
+      "path": "audit.output/pgie.ou.ac.lk/20260927.0622/snapshots/page-01-10104f78846f.html",
+      "sha256": "10104f78846ffb4d97651dd98d6e1f6a9740156893e2f520150dfc0c409d06ab",
+      "bytes": 167
     },
     {
       "url": "http://pgie.ou.ac.lk/",
-      "path": "audit.output/pgie.ou.ac.lk/20260926.0615/snapshots/page-02-58cb92cc06d6.html",
-      "sha256": "58cb92cc06d60b0e59db517355f3326bde67712344b039eb55dc0ddbb490edf5",
-      "bytes": 168
+      "path": "audit.output/pgie.ou.ac.lk/20260927.0622/snapshots/page-02-5554f2154ad7.html",
+      "sha256": "5554f2154ad7f2470328b7dd2cda441f4c0f2692ddfc6946ac26515a59f010eb",
+      "bytes": 167
     },
     {
       "url": "https://pgie.ou.ac.lk/",
-      "path": "audit.output/pgie.ou.ac.lk/20260926.0615/snapshots/page-03-cabee31c9729.html",
-      "sha256": "cabee31c97290faddcb140bf199295ee9c7df66e6b40c44e6cfa122338e81a64",
-      "bytes": 168
+      "path": "audit.output/pgie.ou.ac.lk/20260927.0622/snapshots/page-03-89a2c254cdc9.html",
+      "sha256": "89a2c254cdc93852840d3bf75ad43710d89da27b3082a7b83c38d5dca36f2388",
+      "bytes": 167
     },
     {
       "url": "http://pgie.ou.ac.lk/",
-      "path": "audit.output/pgie.ou.ac.lk/20260926.0615/snapshots/page-04-36fb4b68a471.html",
-      "sha256": "36fb4b68a471181d4f3b80247a44333f7bc9a10512a094017f8f9f3e94878d4c",
-      "bytes": 168
+      "path": "audit.output/pgie.ou.ac.lk/20260927.0622/snapshots/page-04-94a2fab31760.html",
+      "sha256": "94a2fab31760ee2f99d43cc9165203bc646d39360367ea685014bbc77c767f92",
+      "bytes": 167
     }
   ],
   "reviewer_decisions": [],
@@ -267,7 +267,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

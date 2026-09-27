@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "667fd446-9714-4fb3-a9ca-630c1a123565",
+  "audit_id": "41156381-a07f-486b-a3b1-248779b2d48c",
   "url": "https://www.peoplesbank.lk/",
   "normalized_url": "https://www.peoplesbank.lk/",
-  "started_at": "2026-09-26T06:22:38.021051+05:30",
-  "completed_at": "2026-09-26T06:24:43.690735+05:30",
+  "started_at": "2026-09-27T06:28:59.732697+05:30",
+  "completed_at": "2026-09-27T06:31:07.305017+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,117 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:22:39.930905+05:30"
+      "observed_at": "2026-09-27T06:29:02.487152+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:22:39.930930+05:30"
+      "observed_at": "2026-09-27T06:29:02.487173+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:22:43.102530+05:30"
+      "observed_at": "2026-09-27T06:29:05.412110+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.peoplesbank.lk/",
       "source": "https://www.peoplesbank.lk/",
-      "observed_at": "2026-09-26T06:24:41.706713+05:30"
+      "observed_at": "2026-09-27T06:31:05.799945+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.peoplesbank.lk",
       "source": "http://www.peoplesbank.lk/",
-      "observed_at": "2026-09-26T06:24:41.706731+05:30"
+      "observed_at": "2026-09-27T06:31:05.799964+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.peoplesbank.lk/",
       "source": "https://www.peoplesbank.lk/",
-      "observed_at": "2026-09-26T06:24:41.706734+05:30"
+      "observed_at": "2026-09-27T06:31:05.799969+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.peoplesbank.lk",
       "source": "http://www.peoplesbank.lk/",
-      "observed_at": "2026-09-26T06:24:41.706737+05:30"
+      "observed_at": "2026-09-27T06:31:05.799972+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.peoplesbank.lk/contact-us/",
       "source": "https://www.peoplesbank.lk/contact-us/",
-      "observed_at": "2026-09-26T06:24:41.706740+05:30"
+      "observed_at": "2026-09-27T06:31:05.799975+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.peoplesbank.lk/merchant-services/",
       "source": "https://www.peoplesbank.lk/merchant-services/",
-      "observed_at": "2026-09-26T06:24:41.718640+05:30"
+      "observed_at": "2026-09-27T06:31:05.799978+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.peoplesbank.lk/treasury-services/",
       "source": "https://www.peoplesbank.lk/tressury-services/",
-      "observed_at": "2026-09-26T06:24:41.718646+05:30"
+      "observed_at": "2026-09-27T06:31:05.799981+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.peoplesbank.lk/branch-service-center/",
       "source": "https://www.peoplesbank.lk/branch-service-center/",
-      "observed_at": "2026-09-26T06:24:41.718649+05:30"
+      "observed_at": "2026-09-27T06:31:05.799984+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.peoplesbank.lk/treasury-services/",
       "source": "https://www.peoplesbank.lk/tressury-services",
-      "observed_at": "2026-09-26T06:24:41.718651+05:30"
+      "observed_at": "2026-09-27T06:31:05.799987+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.peoplesbank.lk/branch-service-center/",
       "source": "https://www.peoplesbank.lk/branch-service-center",
-      "observed_at": "2026-09-26T06:24:41.718653+05:30"
+      "observed_at": "2026-09-27T06:31:05.799990+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.peoplesbank.lk/about-us/",
       "source": "https://www.peoplesbank.lk/about-us/",
-      "observed_at": "2026-09-26T06:24:41.718656+05:30"
+      "observed_at": "2026-09-27T06:31:05.799992+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.peoplesbank.lk/our-careers/",
       "source": "https://www.peoplesbank.lk/our-careers/",
-      "observed_at": "2026-09-26T06:24:41.718658+05:30"
+      "observed_at": "2026-09-27T06:31:05.799995+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.peoplesbank.lk/childrens-accounts/",
       "source": "https://www.peoplesbank.lk/childrens-accounts/",
-      "observed_at": "2026-09-26T06:24:41.718660+05:30"
+      "observed_at": "2026-09-27T06:31:05.799998+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.peoplesbank.lk/current-accounts-personal/",
       "source": "https://www.peoplesbank.lk/current-accounts-personal/",
-      "observed_at": "2026-09-26T06:24:41.718663+05:30"
+      "observed_at": "2026-09-27T06:31:05.800000+05:30"
     },
     {
       "check": "phone",
@@ -352,78 +352,6 @@
       "source": "https://www.peoplesbank.lk",
       "data": {
         "value": "https://www.peoplesbank.lk/roastoth/2025/12/RTI-NOTICE-SINHALATAMIL-ENGLISH-Latest-Update-3.pdf"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2423734 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2423734 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 031 001",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 112 031 001"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 33-2320461 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 33-2320461 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741851",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741851"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2031001( ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2031001( "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2481481 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2481481 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 113741841 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 113741841 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741872 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741872 "
       }
     },
     {
@@ -438,10 +366,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741302",
+      "detail": "Published phone: +94 11 2399187 ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 3741302"
+        "value": "+94 11 2399187 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 38-2251214 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 38-2251214 "
       }
     },
     {
@@ -456,10 +393,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741863",
+      "detail": "Published phone: +94 11 3741840",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 3741863"
+        "value": "+94 11 3741840"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 031 001 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 112 031 001 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2334278",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2334278"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2332753 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2332753 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 (0)11 374074",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 (0)11 374074"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741302",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741302"
       }
     },
     {
@@ -474,64 +456,64 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2433140 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2433140 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2437986",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2437986"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2433127 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2433127 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741313",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741313"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741840",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741840"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741859",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741859"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 2332745",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
         "value": "+94 11 2332745"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2437983 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2437983 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2422384 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2422384 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741866",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741866"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11-2515023 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11-2515023 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2423734 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2423734 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741303",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741303"
       }
     },
     {
@@ -555,51 +537,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741850 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741850 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2328180 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2328180 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741861",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741861"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2326280 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2326280 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741866",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741866"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 11 3741864",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
@@ -609,55 +546,73 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741870",
+      "detail": "Published phone: +94 37-2051983 ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 3741870"
+        "value": "+94 37-2051983 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2437622 ",
+      "detail": "Published phone: +94 11 3741858 ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 2437622 "
+        "value": "+94 11 3741858 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741842",
+      "detail": "Published phone: +94 11 3741313",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 3741842"
+        "value": "+94 11 3741313"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11-2515023 ",
+      "detail": "Published phone: +94 11 3741851",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11-2515023 "
+        "value": "+94 11 3741851"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2449750",
+      "detail": "Published phone: +94 11 3741859",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 2449750"
+        "value": "+94 11 3741859"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3740740 ",
+      "detail": "Published phone: +94 11 2331887 ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 3740740 "
+        "value": "+94 11 2331887 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741853",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741853"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2437986",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2437986"
       }
     },
     {
@@ -672,10 +627,244 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2332753 ",
+      "detail": "Published phone: +94 11 2328180 ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 2332753 "
+        "value": "+94 11 2328180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2334275 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2334275 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2433127 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2433127 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2481481 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2481481 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2332746",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2332746"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2433136 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2433136 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741314",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741314"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741850 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741850 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741872 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741872 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2334266 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2334266 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 33-2320461 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 33-2320461 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741842",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741842"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2437040 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2437040 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741863",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741863"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741870",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741870"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741800 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741800 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2433140 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2433140 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2332752 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2332752 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3740740 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3740740 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 5838457",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 5838457"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2334272 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2334272 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2446409 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2446409 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2320083 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2320083 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2458790 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2458790 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2437622 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2437622 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741861",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 3741861"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2334280 ",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "+94 11 2334280 "
       }
     },
     {
@@ -699,253 +888,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741303",
+      "detail": "Published phone: +94 11 2031001( ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 3741303"
+        "value": "+94 11 2031001( "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2437040 ",
+      "detail": "Published phone: +94 11 2326280 ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 2437040 "
+        "value": "+94 11 2326280 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2437983 ",
+      "detail": "Published phone: +94 112 031 001",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 2437983 "
+        "value": "+94 112 031 001"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741314",
+      "detail": "Published phone: +94 11 2449750",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 11 3741314"
+        "value": "+94 11 2449750"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
+      "detail": "Published phone: +94 113741841 ",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "+94 (0)11 374074"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 38-2251214 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 38-2251214 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2320083 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2320083 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741853",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741853"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741858 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741858 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2422384 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2422384 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2332746",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2332746"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 031 001 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 112 031 001 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2331887 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2331887 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2458790 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2458790 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2334280 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2334280 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2334272 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2334272 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2332752 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2332752 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2433136 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2433136 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2399187 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2399187 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 37-2051983 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 37-2051983 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2334266 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2334266 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741800 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 3741800 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 5838457",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 5838457"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2334275 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2334275 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2334278",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2334278"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2446409 ",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2446409 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: card@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "card@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: nrfc@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "nrfc@peoplesbank.lk"
+        "value": "+94 113741841 "
       }
     },
     {
@@ -955,24 +937,6 @@
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
         "value": "expkan@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "info@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: expkal@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "expkal@peoplesbank.lk"
       }
     },
     {
@@ -996,33 +960,6 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: cbdunit1@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "cbdunit1@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: travel@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "travel@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: ocsremit@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/contact-us/",
-      "data": {
-        "value": "ocsremit@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: pbnuwan@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
@@ -1041,10 +978,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: smcc3@peoplesbank.lk",
+      "detail": "Published email: card@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
-        "value": "smcc3@peoplesbank.lk"
+        "value": "card@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ocsremit@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "ocsremit@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "info@peoplesbank.lk"
       }
     },
     {
@@ -1054,6 +1009,51 @@
       "source": "https://www.peoplesbank.lk/contact-us/",
       "data": {
         "value": "teletran@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: cbdunit1@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "cbdunit1@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: travel@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "travel@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: smcc3@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "smcc3@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: expkal@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "expkal@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: nrfc@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/contact-us/",
+      "data": {
+        "value": "nrfc@peoplesbank.lk"
       }
     },
     {
@@ -1095,19 +1095,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112490441 ",
+      "detail": "Published phone: 0112490440 ",
       "source": "https://www.peoplesbank.lk/merchant-services/",
       "data": {
-        "value": "0112490441 "
+        "value": "0112490440 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112490440 ",
+      "detail": "Published phone: 0112490441 ",
       "source": "https://www.peoplesbank.lk/merchant-services/",
       "data": {
-        "value": "0112490440 "
+        "value": "0112490441 "
       }
     },
     {
@@ -1122,15 +1122,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0772490490 ( ",
-      "source": "https://www.peoplesbank.lk/merchant-services/",
-      "data": {
-        "value": "0772490490 ( "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112490400 ",
       "source": "https://www.peoplesbank.lk/merchant-services/",
       "data": {
@@ -1138,12 +1129,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@peoplesbank.lk",
+      "detail": "Published phone: 0772490490 ( ",
       "source": "https://www.peoplesbank.lk/merchant-services/",
       "data": {
-        "value": "info@peoplesbank.lk"
+        "value": "0772490490 ( "
       }
     },
     {
@@ -1153,6 +1144,15 @@
       "source": "https://www.peoplesbank.lk/merchant-services/",
       "data": {
         "value": "acquirecard@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/merchant-services/",
+      "data": {
+        "value": "info@peoplesbank.lk"
       }
     },
     {
@@ -1221,55 +1221,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741851",
+      "detail": "Published phone: 022 2023 202",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741851"
+        "value": "022 2023 202"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 113741841 ",
+      "detail": "Published phone: +94 11 2458861 ",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 113741841 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741872 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741872 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741845",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741845"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741863",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741863"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741868 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741868 "
+        "value": "+94 11 2458861 "
       }
     },
     {
@@ -1284,37 +1248,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741859",
+      "detail": "Published phone: +94 (0)11 374074",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741859"
+        "value": "+94 (0)11 374074"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112458842) ",
+      "detail": "Published phone: +94 11 3741868 ",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "0112458842) "
+        "value": "+94 11 3741868 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741850 ",
+      "detail": "Published phone: 0112458842)",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741850 "
+        "value": "0112458842)"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741861",
+      "detail": "Published phone: 00 3.00 2.50 3.2",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741861"
+        "value": "00 3.00 2.50 3.2"
       }
     },
     {
@@ -1338,10 +1302,73 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741870",
+      "detail": "Published phone: +94 11 3741858 ",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741870"
+        "value": "+94 11 3741858 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741851",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741851"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741859",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741859"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741853",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741853"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741845",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741845"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112458842) ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "0112458842) "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741850 ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741850 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741872 ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741872 "
       }
     },
     {
@@ -1356,73 +1383,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112458842)",
+      "detail": "Published phone: +94 11 3741863",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "0112458842)"
+        "value": "+94 11 3741863"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741871",
+      "detail": "Published phone: +94 11 3741870",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741871"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 3.00 2.50 3.2",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "00 3.00 2.50 3.2"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2458861 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 2458861 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 022 2023 202",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "022 2023 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 (0)11 374074"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741858 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741858 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741853",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741853"
+        "value": "+94 11 3741870"
       }
     },
     {
@@ -1444,12 +1417,30 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: money@peoplesbank.lk",
+      "detail": "Published phone: +94 11 3741861",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "money@peoplesbank.lk"
+        "value": "+94 11 3741861"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741871",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741871"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 113741841 ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 113741841 "
       }
     },
     {
@@ -1464,10 +1455,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: info@peoplesbank.lk",
+      "detail": "Published email: pdu@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "info@peoplesbank.lk"
+        "value": "pdu@peoplesbank.lk"
       }
     },
     {
@@ -1482,10 +1473,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: pdu@peoplesbank.lk",
+      "detail": "Published email: info@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "pdu@peoplesbank.lk"
+        "value": "info@peoplesbank.lk"
       }
     },
     {
@@ -1495,6 +1486,15 @@
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
         "value": "amandap@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: money@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "money@peoplesbank.lk"
       }
     },
     {
@@ -1554,19 +1554,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
+      "detail": "Published phone: 0.625442697",
       "source": "https://www.peoplesbank.lk/branch-service-center/",
       "data": {
-        "value": "+94 (0)11 374074"
+        "value": "0.625442697"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.625442697",
+      "detail": "Published phone: +94 (0)11 374074",
       "source": "https://www.peoplesbank.lk/branch-service-center/",
       "data": {
-        "value": "0.625442697"
+        "value": "+94 (0)11 374074"
       }
     },
     {
@@ -1617,55 +1617,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741851",
+      "detail": "Published phone: 022 2023 202",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741851"
+        "value": "022 2023 202"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 113741841 ",
+      "detail": "Published phone: +94 11 2458861 ",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 113741841 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741872 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741872 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741845",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741845"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741863",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741863"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741868 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741868 "
+        "value": "+94 11 2458861 "
       }
     },
     {
@@ -1680,37 +1644,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741859",
+      "detail": "Published phone: +94 (0)11 374074",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741859"
+        "value": "+94 (0)11 374074"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112458842) ",
+      "detail": "Published phone: +94 11 3741868 ",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "0112458842) "
+        "value": "+94 11 3741868 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741850 ",
+      "detail": "Published phone: 0112458842)",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741850 "
+        "value": "0112458842)"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741861",
+      "detail": "Published phone: 00 3.00 2.50 3.2",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741861"
+        "value": "00 3.00 2.50 3.2"
       }
     },
     {
@@ -1734,10 +1698,73 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741870",
+      "detail": "Published phone: +94 11 3741858 ",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741870"
+        "value": "+94 11 3741858 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741851",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741851"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741859",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741859"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741853",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741853"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741845",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741845"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112458842) ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "0112458842) "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741850 ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741850 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741872 ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741872 "
       }
     },
     {
@@ -1752,73 +1779,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112458842)",
+      "detail": "Published phone: +94 11 3741863",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "0112458842)"
+        "value": "+94 11 3741863"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741871",
+      "detail": "Published phone: +94 11 3741870",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "+94 11 3741871"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 00 3.00 2.50 3.2",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "00 3.00 2.50 3.2"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2458861 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 2458861 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 022 2023 202",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "022 2023 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 (0)11 374074"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741858 ",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741858 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741853",
-      "source": "https://www.peoplesbank.lk/treasury-services/",
-      "data": {
-        "value": "+94 11 3741853"
+        "value": "+94 11 3741870"
       }
     },
     {
@@ -1840,12 +1813,30 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: money@peoplesbank.lk",
+      "detail": "Published phone: +94 11 3741861",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "money@peoplesbank.lk"
+        "value": "+94 11 3741861"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741871",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 11 3741871"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 113741841 ",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "+94 113741841 "
       }
     },
     {
@@ -1860,10 +1851,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: info@peoplesbank.lk",
+      "detail": "Published email: pdu@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "info@peoplesbank.lk"
+        "value": "pdu@peoplesbank.lk"
       }
     },
     {
@@ -1878,10 +1869,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: pdu@peoplesbank.lk",
+      "detail": "Published email: info@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
-        "value": "pdu@peoplesbank.lk"
+        "value": "info@peoplesbank.lk"
       }
     },
     {
@@ -1891,6 +1882,15 @@
       "source": "https://www.peoplesbank.lk/treasury-services/",
       "data": {
         "value": "amandap@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: money@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/treasury-services/",
+      "data": {
+        "value": "money@peoplesbank.lk"
       }
     },
     {
@@ -1950,19 +1950,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
+      "detail": "Published phone: 0.625442697",
       "source": "https://www.peoplesbank.lk/branch-service-center/",
       "data": {
-        "value": "+94 (0)11 374074"
+        "value": "0.625442697"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.625442697",
+      "detail": "Published phone: +94 (0)11 374074",
       "source": "https://www.peoplesbank.lk/branch-service-center/",
       "data": {
-        "value": "0.625442697"
+        "value": "+94 (0)11 374074"
       }
     },
     {
@@ -2008,330 +2008,6 @@
       "source": "https://www.peoplesbank.lk/branch-service-center/",
       "data": {
         "value": "https://www.peoplesbank.lk/roastoth/2025/12/RTI-NOTICE-SINHALATAMIL-ENGLISH-Latest-Update-3.pdf"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 09000037-70",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "09000037-70"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2392101-",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 2392101-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112490460 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112490460 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2336873 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "011-2336873 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113741975 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113741975 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113740460 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113740460 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 091-2232230 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "091-2232230 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2481481 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 2481481 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112327734 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112327734 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113740760 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113740760 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113740610 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113740610 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113741700 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113741700 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112446410 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112446410 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112303411 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112303411 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112554563 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112554563 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112169023 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112169023 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2327847",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "011-2327847"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112481326 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112481326 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112504269 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112504269 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2328180 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 2328180 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 000 2001 - 201",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "000 2001 - 201"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112436954 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112436954 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112473340 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112473340 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112044210 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112044210 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112473568 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112473568 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112335303 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112335303 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113740808 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113740808 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113741020 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113741020 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112324965 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112324965 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-3741215 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "011-3741215 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3740740 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 3740740 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113741280 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113741280 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112481622 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112481622 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112384324 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112384324 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 3741302-",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 3741302-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112044175 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112044175 "
       }
     },
     {
@@ -2346,19 +2022,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 2380724 ",
+      "detail": "Published phone: 091-2121164 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "+94 11 2380724 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2332746 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 2332746 "
+        "value": "091-2121164 "
       }
     },
     {
@@ -2373,37 +2040,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0113740802 ",
+      "detail": "Published phone: 0112446410 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0113740802 "
+        "value": "0112446410 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0113741850 ",
+      "detail": "Published phone: 011-2336873 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0113741850 "
+        "value": "011-2336873 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0113741450 ",
+      "detail": "Published phone: +94 11 2392101-",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0113741450 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 (0)11 374074"
+        "value": "+94 11 2392101-"
       }
     },
     {
@@ -2418,91 +2076,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112436598 ",
+      "detail": "Published phone: 0112504269 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0112436598 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 458842 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112 458842 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112438082 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112438082 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112554537 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112554537 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2437239-",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 2437239-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0113741845 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0113741845 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112303412 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "0112303412 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2334278 ",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 2334278 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025 1961 - 197",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "025 1961 - 197"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2320651-",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "+94 11 2320651-"
+        "value": "0112504269 "
       }
     },
     {
@@ -2517,10 +2094,64 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0113740940 ",
+      "detail": "Published phone: +94 (0)11 374074",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0113740940 "
+        "value": "+94 (0)11 374074"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113741850 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113741850 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112324965 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112324965 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112473568 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112473568 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112327734 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112327734 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112438082 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112438082 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112436954 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112436954 "
       }
     },
     {
@@ -2535,37 +2166,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112481348 ",
+      "detail": "Published phone: +94 11 2437239-",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0112481348 "
+        "value": "+94 11 2437239-"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 091-2121164 ",
+      "detail": "Published phone: 025 1961 - 197",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "091-2121164 "
+        "value": "025 1961 - 197"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112481405 ",
+      "detail": "Published phone: 0112481326 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0112481405 "
+        "value": "0112481326 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0113741060 ",
+      "detail": "Published phone: 0113741975 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "0113741060 "
+        "value": "0113741975 "
       }
     },
     {
@@ -2580,10 +2211,262 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 11 2332746 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "+94 11 2332746 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113740802 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113740802 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112473340 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112473340 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112481348 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112481348 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 09000037-70",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "09000037-70"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113741845 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113741845 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113741700 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113741700 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 000 2001 - 201",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "000 2001 - 201"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113740760 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113740760 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2327847",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "011-2327847"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0112206749 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
         "value": "0112206749 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2328180 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "+94 11 2328180 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113740940 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113740940 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2481481 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "+94 11 2481481 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112335303 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112335303 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2380724 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "+94 11 2380724 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113741020 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113741020 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112303412 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112303412 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113741450 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113741450 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3741302-",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "+94 11 3741302-"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 2334278 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "+94 11 2334278 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 091-2232230 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "091-2232230 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112481405 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112481405 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113740460 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113740460 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 3740740 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "+94 11 3740740 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112554537 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112554537 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113740610 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113740610 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112169023 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112169023 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112044210 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112044210 "
       }
     },
     {
@@ -2596,57 +2479,120 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: nrfc@peoplesbank.lk",
+      "detail": "Published phone: 0112436598 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "nrfc@peoplesbank.lk"
+        "value": "0112436598 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: anomam@peoplesbank.lk",
+      "detail": "Published phone: +94 11 2320651-",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "anomam@peoplesbank.lk"
+        "value": "+94 11 2320651-"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: lionel@peoplesbank.lk",
+      "detail": "Published phone: 0112303411 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "lionel@peoplesbank.lk"
+        "value": "0112303411 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: smcc3@peoplesbank.lk",
+      "detail": "Published phone: 011-3741215 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "smcc3@peoplesbank.lk"
+        "value": "011-3741215 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: teletran@peoplesbank.lk",
+      "detail": "Published phone: 0112481622 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "teletran@peoplesbank.lk"
+        "value": "0112481622 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: ceogm@peoplesbank.lk",
+      "detail": "Published phone: 0113740808 ",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "ceogm@peoplesbank.lk"
+        "value": "0113740808 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113741280 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113741280 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112554563 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112554563 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112384324 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112384324 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112490460 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112490460 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112044175 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112044175 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 458842 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0112 458842 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0113741060 ",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "0113741060 "
       }
     },
     {
@@ -2661,19 +2607,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: rajakb@peoplesbank.lk",
+      "detail": "Published email: fastcash@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "rajakb@peoplesbank.lk"
+        "value": "fastcash@peoplesbank.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: chandrikawk@peoplesbank.lk",
+      "detail": "Published email: teletran@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "chandrikawk@peoplesbank.lk"
+        "value": "teletran@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: smcc3@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "smcc3@peoplesbank.lk"
       }
     },
     {
@@ -2688,6 +2643,51 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: nrfc@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "nrfc@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: lionel@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "lionel@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ceogm@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "ceogm@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: chandrikawk@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "chandrikawk@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: rajakb@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "rajakb@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: ganga@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
@@ -2697,19 +2697,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: kumari@peoplesbank.lk",
+      "detail": "Published email: anomam@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "kumari@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: gayathri@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "gayathri@peoplesbank.lk"
+        "value": "anomam@peoplesbank.lk"
       }
     },
     {
@@ -2724,6 +2715,15 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: kumari@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "kumari@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: i@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
@@ -2733,10 +2733,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: cbdunit1@peoplesbank.lk",
+      "detail": "Published email: mdissa@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "cbdunit1@peoplesbank.lk"
+        "value": "mdissa@peoplesbank.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: gayathri@peoplesbank.lk",
+      "source": "https://www.peoplesbank.lk/about-us/",
+      "data": {
+        "value": "gayathri@peoplesbank.lk"
       }
     },
     {
@@ -2751,19 +2760,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: fastcash@peoplesbank.lk",
+      "detail": "Published email: cbdunit1@peoplesbank.lk",
       "source": "https://www.peoplesbank.lk/about-us/",
       "data": {
-        "value": "fastcash@peoplesbank.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: mdissa@peoplesbank.lk",
-      "source": "https://www.peoplesbank.lk/about-us/",
-      "data": {
-        "value": "mdissa@peoplesbank.lk"
+        "value": "cbdunit1@peoplesbank.lk"
       }
     },
     {
@@ -2859,19 +2859,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
+      "detail": "Published phone: +94113741218 ",
       "source": "https://www.peoplesbank.lk/childrens-accounts/",
       "data": {
-        "value": "+94 (0)11 374074"
+        "value": "+94113741218 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94113741218 ",
+      "detail": "Published phone: +94 (0)11 374074",
       "source": "https://www.peoplesbank.lk/childrens-accounts/",
       "data": {
-        "value": "+94113741218 "
+        "value": "+94 (0)11 374074"
       }
     },
     {
@@ -2940,19 +2940,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 (0)11 374074",
+      "detail": "Published phone: +94 11 3741286 ",
       "source": "https://www.peoplesbank.lk/current-accounts-personal/",
       "data": {
-        "value": "+94 (0)11 374074"
+        "value": "+94 11 3741286 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 3741286 ",
+      "detail": "Published phone: +94 (0)11 374074",
       "source": "https://www.peoplesbank.lk/current-accounts-personal/",
       "data": {
-        "value": "+94 11 3741286 "
+        "value": "+94 (0)11 374074"
       }
     },
     {
@@ -3021,7 +3021,7 @@
     {
       "check": "page_text",
       "status": "pass",
-      "detail": "Substantive page content: 126981 visible characters across 14 pages",
+      "detail": "Substantive page content: 126988 visible characters across 14 pages",
       "source": "https://www.peoplesbank.lk/"
     }
   ],
@@ -3052,7 +3052,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/",
       "redirects": [],
-      "elapsed_ms": 7353,
+      "elapsed_ms": 6969,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3063,7 +3063,7 @@
       "redirects": [
         "https://www.peoplesbank.lk"
       ],
-      "elapsed_ms": 5592,
+      "elapsed_ms": 5971,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3072,7 +3072,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/",
       "redirects": [],
-      "elapsed_ms": 6956,
+      "elapsed_ms": 5887,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3083,7 +3083,7 @@
       "redirects": [
         "https://www.peoplesbank.lk"
       ],
-      "elapsed_ms": 6658,
+      "elapsed_ms": 7039,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3092,7 +3092,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/contact-us/",
       "redirects": [],
-      "elapsed_ms": 6509,
+      "elapsed_ms": 5019,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3101,7 +3101,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/merchant-services/",
       "redirects": [],
-      "elapsed_ms": 5644,
+      "elapsed_ms": 5719,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3112,7 +3112,7 @@
       "redirects": [
         "https://www.peoplesbank.lk/treasury-services/"
       ],
-      "elapsed_ms": 5310,
+      "elapsed_ms": 5617,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3121,7 +3121,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/branch-service-center/",
       "redirects": [],
-      "elapsed_ms": 6751,
+      "elapsed_ms": 5533,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3132,7 +3132,7 @@
       "redirects": [
         "https://www.peoplesbank.lk/treasury-services/"
       ],
-      "elapsed_ms": 5217,
+      "elapsed_ms": 5248,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3143,7 +3143,7 @@
       "redirects": [
         "https://www.peoplesbank.lk/branch-service-center/"
       ],
-      "elapsed_ms": 6342,
+      "elapsed_ms": 5386,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3152,7 +3152,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/about-us/",
       "redirects": [],
-      "elapsed_ms": 8526,
+      "elapsed_ms": 7179,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3161,7 +3161,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/our-careers/",
       "redirects": [],
-      "elapsed_ms": 5926,
+      "elapsed_ms": 4725,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3170,7 +3170,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/childrens-accounts/",
       "redirects": [],
-      "elapsed_ms": 5228,
+      "elapsed_ms": 5431,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -3179,7 +3179,7 @@
       "status_code": 200,
       "final_url": "https://www.peoplesbank.lk/current-accounts-personal/",
       "redirects": [],
-      "elapsed_ms": 5062,
+      "elapsed_ms": 4920,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -3187,87 +3187,87 @@
   "snapshots": [
     {
       "url": "https://www.peoplesbank.lk/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-01-ed962945ac56.html",
-      "sha256": "ed962945ac561a8305c22eb03560326b01155281f0579c10f52b174064fdb781",
-      "bytes": 304204
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-01-297f1da0d72d.html",
+      "sha256": "297f1da0d72dd0a7b02cf0aeceb2d84493b3e27256d4ef7d7912e3ec66c0f532",
+      "bytes": 304209
     },
     {
       "url": "https://www.peoplesbank.lk",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-02-83109af77cb1.html",
-      "sha256": "83109af77cb1bd6056887cea1e105ddcec8ce6ff76a7ecf6b4fef94f2cfdef13",
-      "bytes": 304208
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-02-c5468aa364e6.html",
+      "sha256": "c5468aa364e6e577d8f149d3ffa3908ada3971aa02e998eaf96a659cdb6f10a2",
+      "bytes": 304211
     },
     {
       "url": "https://www.peoplesbank.lk/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-03-859a34d44090.html",
-      "sha256": "859a34d44090aa53d53ab612a565f15f790b4e32e18ec281bb1c7eb5b2995b3b",
-      "bytes": 304213
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-03-3700d474d19a.html",
+      "sha256": "3700d474d19a44870dd1697fb34537c7a44f82774b1fa7d105079751ac430fdd",
+      "bytes": 304209
     },
     {
       "url": "https://www.peoplesbank.lk",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-04-ce0c44cb42d8.html",
-      "sha256": "ce0c44cb42d8cee2263a235455d622138a88196e6737fb648d72591641fea9c4",
-      "bytes": 302652
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-04-e0c3a628d2b1.html",
+      "sha256": "e0c3a628d2b1bf61c8ff7b4cbb4634e355f22817357c2561e1f64459371efd59",
+      "bytes": 304210
     },
     {
       "url": "https://www.peoplesbank.lk/contact-us/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-05-6abc7b9d5a4d.html",
-      "sha256": "6abc7b9d5a4dce2fbcb972f0d4b69e34d68ace2a5448e15fb1829b02e2913521",
-      "bytes": 249525
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-05-a3d169356edd.html",
+      "sha256": "a3d169356edd5cafcba27c9a9117ffa8568b6d2047fb3c1844c23f433ab41a42",
+      "bytes": 249536
     },
     {
       "url": "https://www.peoplesbank.lk/merchant-services/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-06-d331c1328e6d.html",
-      "sha256": "d331c1328e6d9e18091f96c1bf105b58e81d6d4a9d2ed89cebddd940df63dfdb",
-      "bytes": 268402
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-06-e1e3bd13c7df.html",
+      "sha256": "e1e3bd13c7df4d83cb71dfd9f8048b04a3564f210fa9f7e475b615484d5b6330",
+      "bytes": 268399
     },
     {
       "url": "https://www.peoplesbank.lk/treasury-services/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-07-2f359cd48c62.html",
-      "sha256": "2f359cd48c62ac8c13b31da1aad9b9badd681b1eee4495f91fe5e97cd1c85f41",
-      "bytes": 304175
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-07-dfd4a4397658.html",
+      "sha256": "dfd4a4397658facc7e18adcdfeb4be11e5bb383c76aa484c490fc3d76b75d541",
+      "bytes": 304172
     },
     {
       "url": "https://www.peoplesbank.lk/branch-service-center/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-08-7cc8855855a6.html",
-      "sha256": "7cc8855855a686c78c33f3afc95c86a4575bd8113a2178a164665ca2bc738996",
-      "bytes": 298417
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-08-230da21107cb.html",
+      "sha256": "230da21107cb5040dbd335f19b24e3942819993f5bfe909639652fe0ff0624a9",
+      "bytes": 298423
     },
     {
       "url": "https://www.peoplesbank.lk/treasury-services/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-09-29668b90f956.html",
-      "sha256": "29668b90f95697e0ff575fb6988ea83bfc88b8d005737461859df7e4b39a4182",
-      "bytes": 304182
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-09-03c85bfc03a8.html",
+      "sha256": "03c85bfc03a8f2aec765bd2cf7a47705695bb027b97fef6299cb8e636c553a92",
+      "bytes": 304178
     },
     {
       "url": "https://www.peoplesbank.lk/branch-service-center/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-10-10886bf8cba4.html",
-      "sha256": "10886bf8cba4b32aa64ded1f7fe8369330534f092f0cded04228e89d3a77a10d",
-      "bytes": 298414
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-10-960b81442c10.html",
+      "sha256": "960b81442c1014b9fbac4d465935f025057612139a097de19b98372ece28f5f7",
+      "bytes": 298420
     },
     {
       "url": "https://www.peoplesbank.lk/about-us/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-11-d9d80f49adc0.html",
-      "sha256": "d9d80f49adc069b34e1b2cd995dcb78bec1a64eb8d4f3186a6bc939c2a67efbe",
-      "bytes": 780033
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-11-774fc35a510c.html",
+      "sha256": "774fc35a510cbf56700a408a504d005755b3109b0081700c829f3a4b2565d3c5",
+      "bytes": 780040
     },
     {
       "url": "https://www.peoplesbank.lk/our-careers/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-12-3dfa9e57ecfc.html",
-      "sha256": "3dfa9e57ecfccf37d589909d5ddf7cdd88d999c7de11b364189044e49f1aac29",
-      "bytes": 200861
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-12-47c473be6597.html",
+      "sha256": "47c473be659748ecf2ba84afc3e2344dfd9db70b9834a57205d8a62258244a5d",
+      "bytes": 200860
     },
     {
       "url": "https://www.peoplesbank.lk/childrens-accounts/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-13-db7090e161fa.html",
-      "sha256": "db7090e161fa6140a24b453fe7da1ea8044ff8b385ad64339cf6acf641b068f7",
-      "bytes": 254465
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-13-0651274c2ff1.html",
+      "sha256": "0651274c2ff179f170d93310a79c181eb68672466887d82dd6e24a7543beb231",
+      "bytes": 254471
     },
     {
       "url": "https://www.peoplesbank.lk/current-accounts-personal/",
-      "path": "audit.output/www.peoplesbank.lk/20260926.0622/snapshots/page-14-8ac42624813f.html",
-      "sha256": "8ac42624813f54404c8587f8dd5768292aeb7be55ba79e1a0605c6372857e200",
-      "bytes": 231140
+      "path": "audit.output/www.peoplesbank.lk/20260927.0628/snapshots/page-14-7a672b6fc0bd.html",
+      "sha256": "7a672b6fc0bd074ce43c87faf1ebad13ccca157fedf72f64ca5196df15310fc8",
+      "bytes": 231142
     }
   ],
   "reviewer_decisions": [],
@@ -3445,7 +3445,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

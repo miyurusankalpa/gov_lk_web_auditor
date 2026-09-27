@@ -1,24 +1,18 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "1c95ac7a-5664-45b4-a44a-c92481498b39",
+  "audit_id": "64d2464c-9c2c-4584-a93c-7ba290997d26",
   "url": "https://artscouncil.lk/",
   "normalized_url": "https://artscouncil.lk/",
-  "started_at": "2026-09-26T06:09:08.272992+05:30",
-  "completed_at": "2026-09-26T06:09:26.127490+05:30",
+  "started_at": "2026-09-27T06:15:04.213017+05:30",
+  "completed_at": "2026-09-27T06:15:08.579377+05:30",
   "result": {
-    "status": "pass",
-    "confidence": 1.0,
+    "status": "inconclusive",
+    "confidence": 0.5,
     "reasons": [
-      "dns_resolves: Public DNS resolved",
-      "domain_not_parked: No parked-domain marker found",
-      "site_not_defaced: No defacement marker found",
-      "content_relevant: No unrelated-content marker found",
-      "hosting_configured: No generic-hosting marker found",
-      "http_available: HTTP probes did not all fail",
-      "redirect_related: No unrelated redirect found",
-      "tls_browser_trusted: No browser-blocking TLS error found",
-      "tls_not_expired: TLS certificate valid",
-      "tls_hostname_matches: TLS certificate valid"
+      "domain_not_parked: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "site_not_defaced: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "content_relevant: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
+      "hosting_configured: Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
     ]
   },
   "evidence": [
@@ -26,1148 +20,88 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:09:08.662582+05:30"
+      "observed_at": "2026-09-27T06:15:04.726663+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:09:08.662605+05:30"
+      "observed_at": "2026-09-27T06:15:04.726684+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:09:09.272673+05:30"
+      "observed_at": "2026-09-27T06:15:04.884621+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://artscouncil.lk/",
       "source": "https://artscouncil.lk/",
-      "observed_at": "2026-09-26T06:09:25.321456+05:30"
+      "observed_at": "2026-09-27T06:15:08.555794+05:30"
     },
     {
       "check": "http",
       "status": "pass",
-      "detail": "Probe 2: HTTP 200 at https://artscouncil.lk/",
+      "detail": "Probe 2: HTTP 200 at http://artscouncil.lk/",
       "source": "http://artscouncil.lk/",
-      "observed_at": "2026-09-26T06:09:25.321472+05:30"
+      "observed_at": "2026-09-27T06:15:08.555813+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://artscouncil.lk/",
       "source": "https://artscouncil.lk/",
-      "observed_at": "2026-09-26T06:09:25.321475+05:30"
+      "observed_at": "2026-09-27T06:15:08.555818+05:30"
     },
     {
       "check": "http",
       "status": "pass",
-      "detail": "Probe 4: HTTP 200 at https://artscouncil.lk/",
+      "detail": "Probe 4: HTTP 200 at http://artscouncil.lk/",
       "source": "http://artscouncil.lk/",
-      "observed_at": "2026-09-26T06:09:25.321478+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 5: HTTP 200 at https://artscouncil.lk/contact-us/",
-      "source": "https://artscouncil.lk/contact-us/",
-      "observed_at": "2026-09-26T06:09:25.321480+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 6: HTTP 200 at https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "observed_at": "2026-09-26T06:09:25.321482+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 7: HTTP 200 at https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "observed_at": "2026-09-26T06:09:25.321485+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 8: HTTP 200 at https://artscouncil.lk",
-      "source": "https://artscouncil.lk",
-      "observed_at": "2026-09-26T06:09:25.321487+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 9: HTTP 200 at https://artscouncil.lk/arts-council-of-srilanka/",
-      "source": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "observed_at": "2026-09-26T06:09:25.321489+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 10: HTTP 200 at https://artscouncil.lk/the-arts-council-act/",
-      "source": "https://artscouncil.lk/the-arts-council-act/",
-      "observed_at": "2026-09-26T06:09:25.321491+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 11: HTTP 200 at https://artscouncil.lk/the-chairman/",
-      "source": "https://artscouncil.lk/the-chairman/",
-      "observed_at": "2026-09-26T06:09:25.321493+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 12: HTTP 200 at https://artscouncil.lk/executive-committee/",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "observed_at": "2026-09-26T06:09:25.321495+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 13: HTTP 200 at https://artscouncil.lk/former-chairman/",
-      "source": "https://artscouncil.lk/former-chairman/",
-      "observed_at": "2026-09-26T06:09:25.321497+05:30"
-    },
-    {
-      "check": "http",
-      "status": "pass",
-      "detail": "Probe 14: HTTP 200 at https://artscouncil.lk/organization-structure/",
-      "source": "https://artscouncil.lk/organization-structure/",
-      "observed_at": "2026-09-26T06:09:25.321499+05:30"
+      "observed_at": "2026-09-27T06:15:08.555821+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
+      "detail": "Published phone: 0950635027",
       "source": "https://artscouncil.lk/",
       "data": {
-        "value": "+94 71 7577578 "
+        "value": "0950635027"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112177627",
+      "detail": "Published phone: 0950635027",
+      "source": "http://artscouncil.lk/",
+      "data": {
+        "value": "0950635027"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0950635027",
       "source": "https://artscouncil.lk/",
       "data": {
-        "value": "+94112177627"
+        "value": "0950635027"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 026.07.14 202",
-      "source": "https://artscouncil.lk/",
+      "detail": "Published phone: 0950635027",
+      "source": "http://artscouncil.lk/",
       "data": {
-        "value": "026.07.14 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.08.05 202",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "026.08.05 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.07.14 202",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "026.07.14 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.08.05 202",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "026.08.05 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.07.14 202",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "026.07.14 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.08.05 202",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "026.08.05 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.07.14 202",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "026.07.14 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.08.05 202",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "026.08.05 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
-      "source": "https://artscouncil.lk/",
-      "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/contact-us/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/contact-us/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/contact-us/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/contact-us/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "postal_address",
-      "status": "pass",
-      "detail": "Published postal address: Arts Council of Sri Lanka ‘B’ Wing, 4th Floor, Sethsiripaya Stage II, Battaramulla, Sri Lanka. Opening Hours : Monday to",
-      "source": "https://artscouncil.lk/contact-us/",
-      "data": {
-        "value": "Arts Council of Sri Lanka ‘B’ Wing, 4th Floor, Sethsiripaya Stage II, Battaramulla, Sri Lanka. Opening Hours : Monday to"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 013 2026.09.1",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "013 2026.09.1"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-06-29 202",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "026-06-29 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0139866006",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "0139866006"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.09.17 202",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "026.09.17 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-05-24 202",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "026-05-24 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-09-25 202",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "026-09-25 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-07-15 202",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "026-07-15 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 09-22 2026-09-",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "09-22 2026-09-"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-09-17",
-      "source": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "data": {
-        "value": "2026-09-17"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-09-08 202",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "026-09-08 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 013 2026.08.0",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "013 2026.08.0"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 08-10 2026-09-",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "08-10 2026-09-"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-06-29 202",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "026-06-29 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.08.05 202",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "026.08.05 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-05-24 202",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "026-05-24 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-09-25 202",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "026-09-25 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026-07-15 202",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "026-07-15 202"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-08-05",
-      "source": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "data": {
-        "value": "2026-08-05"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.07.14 202",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "026.07.14 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 026.08.05 202",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "026.08.05 202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: division",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "division"
-      }
-    },
-    {
-      "check": "published_update_date",
-      "status": "pass",
-      "detail": "Published published update date: 2026-09-25",
-      "source": "https://artscouncil.lk",
-      "data": {
-        "value": "2026-09-25"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/the-arts-council-act/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/the-arts-council-act/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/the-arts-council-act/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/the-arts-council-act/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/the-arts-council-act/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/the-chairman/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/the-chairman/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/the-chairman/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/the-chairman/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/the-chairman/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: nyweerasinghe@gmail.com",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "data": {
-        "value": "nyweerasinghe@gmail.com"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: director",
-      "source": "https://artscouncil.lk/executive-committee/",
-      "data": {
-        "value": "director"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/former-chairman/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/former-chairman/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/former-chairman/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/former-chairman/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/former-chairman/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 71 7577578 ",
-      "source": "https://artscouncil.lk/organization-structure/",
-      "data": {
-        "value": "+94 71 7577578 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177667 ",
-      "source": "https://artscouncil.lk/organization-structure/",
-      "data": {
-        "value": "+94 11 2177667 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112177627",
-      "source": "https://artscouncil.lk/organization-structure/",
-      "data": {
-        "value": "+94112177627"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 2177627 ",
-      "source": "https://artscouncil.lk/organization-structure/",
-      "data": {
-        "value": "+94 11 2177627 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: artscouncilsl@yahoo.com",
-      "source": "https://artscouncil.lk/organization-structure/",
-      "data": {
-        "value": "artscouncilsl@yahoo.com"
+        "value": "0950635027"
       }
     },
     {
       "check": "page_text",
-      "status": "pass",
-      "detail": "Substantive page content: 5885 visible characters across 14 pages",
+      "status": "fail",
+      "detail": "Only 80 visible characters across 4 pages; below substance threshold 200",
       "source": "https://artscouncil.lk/"
     }
   ],
@@ -1198,19 +132,17 @@
       "status_code": 200,
       "final_url": "https://artscouncil.lk/",
       "redirects": [],
-      "elapsed_ms": 386,
-      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 467,
+      "content_type": "text/html",
       "error": null
     },
     {
       "url": "http://artscouncil.lk/",
       "status_code": 200,
-      "final_url": "https://artscouncil.lk/",
-      "redirects": [
-        "https://artscouncil.lk/"
-      ],
-      "elapsed_ms": 218,
-      "content_type": "text/html; charset=UTF-8",
+      "final_url": "http://artscouncil.lk/",
+      "redirects": [],
+      "elapsed_ms": 169,
+      "content_type": "text/html",
       "error": null
     },
     {
@@ -1218,196 +150,44 @@
       "status_code": 200,
       "final_url": "https://artscouncil.lk/",
       "redirects": [],
-      "elapsed_ms": 204,
-      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 371,
+      "content_type": "text/html",
       "error": null
     },
     {
       "url": "http://artscouncil.lk/",
       "status_code": 200,
-      "final_url": "https://artscouncil.lk/",
-      "redirects": [
-        "https://artscouncil.lk/"
-      ],
-      "elapsed_ms": 204,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/contact-us/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/contact-us/",
+      "final_url": "http://artscouncil.lk/",
       "redirects": [],
-      "elapsed_ms": 383,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "redirects": [],
-      "elapsed_ms": 218,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "redirects": [],
-      "elapsed_ms": 1790,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk",
-      "redirects": [],
-      "elapsed_ms": 216,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "redirects": [],
-      "elapsed_ms": 204,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/the-arts-council-act/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/the-arts-council-act/",
-      "redirects": [],
-      "elapsed_ms": 205,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/the-chairman/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/the-chairman/",
-      "redirects": [],
-      "elapsed_ms": 206,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/executive-committee/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/executive-committee/",
-      "redirects": [],
-      "elapsed_ms": 222,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/former-chairman/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/former-chairman/",
-      "redirects": [],
-      "elapsed_ms": 210,
-      "content_type": "text/html; charset=UTF-8",
-      "error": null
-    },
-    {
-      "url": "https://artscouncil.lk/organization-structure/",
-      "status_code": 200,
-      "final_url": "https://artscouncil.lk/organization-structure/",
-      "redirects": [],
-      "elapsed_ms": 228,
-      "content_type": "text/html; charset=UTF-8",
+      "elapsed_ms": 401,
+      "content_type": "text/html",
       "error": null
     }
   ],
   "snapshots": [
     {
       "url": "https://artscouncil.lk/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-01-c2589de2428e.html",
-      "sha256": "c2589de2428e7d69c14fc1cb1585f50a9e065b409bcface19a2170a3d3b82a7b",
-      "bytes": 175231
+      "path": "audit.output/artscouncil.lk/20260927.0615/snapshots/page-01-d9d4ba0cb5a8.html",
+      "sha256": "d9d4ba0cb5a8c065a43eb178a10c8c071aef52d7863d345a9284c669db64d4cf",
+      "bytes": 11965
+    },
+    {
+      "url": "http://artscouncil.lk/",
+      "path": "audit.output/artscouncil.lk/20260927.0615/snapshots/page-02-7d4f9bba2b70.html",
+      "sha256": "7d4f9bba2b702964f19368981a616e8fd9a52686cb3e59338d6373123e46bddc",
+      "bytes": 11987
     },
     {
       "url": "https://artscouncil.lk/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-02-c2589de2428e.html",
-      "sha256": "c2589de2428e7d69c14fc1cb1585f50a9e065b409bcface19a2170a3d3b82a7b",
-      "bytes": 175231
+      "path": "audit.output/artscouncil.lk/20260927.0615/snapshots/page-03-bf5bfb4f40b2.html",
+      "sha256": "bf5bfb4f40b21aaa002e23879f04fb3020ddda8c48804bc6f002c7449985db83",
+      "bytes": 12069
     },
     {
-      "url": "https://artscouncil.lk/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-03-c2589de2428e.html",
-      "sha256": "c2589de2428e7d69c14fc1cb1585f50a9e065b409bcface19a2170a3d3b82a7b",
-      "bytes": 175231
-    },
-    {
-      "url": "https://artscouncil.lk/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-04-c2589de2428e.html",
-      "sha256": "c2589de2428e7d69c14fc1cb1585f50a9e065b409bcface19a2170a3d3b82a7b",
-      "bytes": 175231
-    },
-    {
-      "url": "https://artscouncil.lk/contact-us/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-05-f607adbfde90.html",
-      "sha256": "f607adbfde902adfa99184ece7ce523f0b1c253971e818a2fbc0ffdb0a653a3c",
-      "bytes": 97364
-    },
-    {
-      "url": "https://artscouncil.lk/entertainment-program-department-of-inland-revenue-colombo-2026-09-17/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-06-288cfe8caec4.html",
-      "sha256": "288cfe8caec41dcc17db47e200e0cfd8323d7fd341d46d5ceb20370761594650",
-      "bytes": 156686
-    },
-    {
-      "url": "https://artscouncil.lk/entertainment-program-divisional-secretariat-maharagama-2026-08-05/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-07-cbf81d85616a.html",
-      "sha256": "cbf81d85616acc5720c69e2acf9ef0d8789d3fed7f396ce34b90c68871688558",
-      "bytes": 165813
-    },
-    {
-      "url": "https://artscouncil.lk",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-08-c2589de2428e.html",
-      "sha256": "c2589de2428e7d69c14fc1cb1585f50a9e065b409bcface19a2170a3d3b82a7b",
-      "bytes": 175231
-    },
-    {
-      "url": "https://artscouncil.lk/arts-council-of-srilanka/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-09-ee51fbdb6203.html",
-      "sha256": "ee51fbdb62035b6ae1d4e0397bc13d2210e2d07d740b03905bb822fae5d5d41c",
-      "bytes": 94906
-    },
-    {
-      "url": "https://artscouncil.lk/the-arts-council-act/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-10-f6dc94a44d47.html",
-      "sha256": "f6dc94a44d475c5e772484ad34e55636930c4d7e3221496609d22762b702fe7e",
-      "bytes": 94853
-    },
-    {
-      "url": "https://artscouncil.lk/the-chairman/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-11-156aa1ff8c0d.html",
-      "sha256": "156aa1ff8c0d7d3c24d5335243799bf2a0b52b2a44e90d5b564c9915c470d9e2",
-      "bytes": 95609
-    },
-    {
-      "url": "https://artscouncil.lk/executive-committee/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-12-aa34037c501b.html",
-      "sha256": "aa34037c501b9c51694fef4f642412e72fd1d48327e35f9ea274005c1c0e9be2",
-      "bytes": 101439
-    },
-    {
-      "url": "https://artscouncil.lk/former-chairman/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-13-a3ce5c65b1d9.html",
-      "sha256": "a3ce5c65b1d90c1cfd661f1f70cc4510933bcd0807fcddc9cb55caaba0cf7058",
-      "bytes": 137611
-    },
-    {
-      "url": "https://artscouncil.lk/organization-structure/",
-      "path": "audit.output/artscouncil.lk/20260926.0609/snapshots/page-14-46136f364fb3.html",
-      "sha256": "46136f364fb31247a6a17b935c4943f4bbebc569e8bfba2da6379cb5bc5e8d57",
-      "bytes": 101834
+      "url": "http://artscouncil.lk/",
+      "path": "audit.output/artscouncil.lk/20260927.0615/snapshots/page-04-7760cd3c093b.html",
+      "sha256": "7760cd3c093bfeee8ba0f49533c0c1405e5e75fded156cb4cfc1a598a62cca4c",
+      "bytes": 11989
     }
   ],
   "reviewer_decisions": [],
@@ -1423,8 +203,8 @@
     {
       "level": 1,
       "description": "To pass `Level 1`, the website must be available, usable, and clearly associated with the government institution. It must load reliably with valid DNS, HTTP, and TLS behavior.",
-      "status": "pass",
-      "reason": "Public DNS resolved; No parked-domain marker found; No defacement marker found; No unrelated-content marker found; No generic-hosting marker found; HTTP probes did not all fail; No unrelated redirect found; No browser-blocking TLS error found; TLS certificate valid; TLS certificate valid",
+      "status": "inconclusive",
+      "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200; Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200",
       "executed": true,
       "checks": [
         {
@@ -1436,26 +216,26 @@
         {
           "name": "domain_not_parked",
           "level": 1,
-          "status": "pass",
-          "reason": "No parked-domain marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "site_not_defaced",
           "level": 1,
-          "status": "pass",
-          "reason": "No defacement marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "content_relevant",
           "level": 1,
-          "status": "pass",
-          "reason": "No unrelated-content marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "hosting_configured",
           "level": 1,
-          "status": "pass",
-          "reason": "No generic-hosting marker found"
+          "status": "inconclusive",
+          "reason": "Insufficient substantive page content: Only 80 visible characters across 4 pages; below substance threshold 200"
         },
         {
           "name": "http_available",
@@ -1492,80 +272,18 @@
     {
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
-      "status": "pass",
-      "reason": "Published postal address: Arts Council of Sri Lanka ‘B’ Wing, 4th Floor, Sethsiripaya Stage II, Battaramulla, Sri Lanka. Opening Hours : Monday to; Phone: +94 71 7577578 (17 phone numbers found); Email: artscouncilsl@yahoo.com (2 email addresses found); Published named responsibility: division",
-      "executed": true,
-      "checks": [
-        {
-          "name": "postal_address",
-          "level": 2,
-          "status": "pass",
-          "reason": "Published postal address: Arts Council of Sri Lanka ‘B’ Wing, 4th Floor, Sethsiripaya Stage II, Battaramulla, Sri Lanka. Opening Hours : Monday to"
-        },
-        {
-          "name": "reachable_contacts",
-          "level": 2,
-          "status": "pass",
-          "reason": "Phone: +94 71 7577578 (17 phone numbers found); Email: artscouncilsl@yahoo.com (2 email addresses found)"
-        },
-        {
-          "name": "named_responsibility",
-          "level": 2,
-          "status": "pass",
-          "reason": "Published named responsibility: division"
-        }
-      ]
+      "status": "inconclusive",
+      "reason": "Not run because Level 1 did not pass",
+      "executed": false,
+      "checks": []
     },
     {
       "level": 3,
       "description": "To pass `Level 3`, citizens must find complete and current instructions, requirements, fees, times, and usable forms.",
       "status": "inconclusive",
-      "reason": "No passing eligibility criteria evidence found; No passing required documents evidence found; No passing fees and payment evidence found; No passing legal basis evidence found; No passing processing time evidence found; No passing downloadable form evidence found",
-      "executed": true,
-      "checks": [
-        {
-          "name": "eligibility_criteria",
-          "level": 3,
-          "status": "inconclusive",
-          "reason": "No passing eligibility criteria evidence found"
-        },
-        {
-          "name": "required_documents",
-          "level": 3,
-          "status": "inconclusive",
-          "reason": "No passing required documents evidence found"
-        },
-        {
-          "name": "fees_and_payment",
-          "level": 3,
-          "status": "inconclusive",
-          "reason": "No passing fees and payment evidence found"
-        },
-        {
-          "name": "legal_basis",
-          "level": 3,
-          "status": "inconclusive",
-          "reason": "No passing legal basis evidence found"
-        },
-        {
-          "name": "processing_time",
-          "level": 3,
-          "status": "inconclusive",
-          "reason": "No passing processing time evidence found"
-        },
-        {
-          "name": "downloadable_form",
-          "level": 3,
-          "status": "inconclusive",
-          "reason": "No passing downloadable form evidence found"
-        },
-        {
-          "name": "published_update_date",
-          "level": 3,
-          "status": "pass",
-          "reason": "Published published update date: 2026-09-25"
-        }
-      ]
+      "reason": "Not run because Level 2 did not pass",
+      "executed": false,
+      "checks": []
     },
     {
       "level": 4,
@@ -1585,7 +303,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

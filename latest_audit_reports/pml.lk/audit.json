@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "66f6c0e9-bcf8-45a0-9205-8ad62ae37f06",
+  "audit_id": "e9dd9e80-efba-4c81-81b1-c35947098ca3",
   "url": "https://pml.lk/",
   "normalized_url": "https://pml.lk/",
-  "started_at": "2026-09-26T06:22:46.300990+05:30",
-  "completed_at": "2026-09-26T06:23:39.001672+05:30",
+  "started_at": "2026-09-27T06:29:12.761593+05:30",
+  "completed_at": "2026-09-27T06:30:16.483193+05:30",
   "result": {
     "status": "fail",
     "confidence": 1.0,
@@ -17,117 +17,126 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:22:47.412184+05:30"
+      "observed_at": "2026-09-27T06:29:13.245907+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:22:47.412202+05:30"
+      "observed_at": "2026-09-27T06:29:13.245929+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:22:47.738646+05:30"
+      "observed_at": "2026-09-27T06:29:13.505895+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://pml.lk/",
       "source": "https://pml.lk/",
-      "observed_at": "2026-09-26T06:23:36.139849+05:30"
+      "observed_at": "2026-09-27T06:30:12.241918+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://pml.lk/",
       "source": "http://pml.lk/",
-      "observed_at": "2026-09-26T06:23:36.139869+05:30"
+      "observed_at": "2026-09-27T06:30:12.241938+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://pml.lk/",
       "source": "https://pml.lk/",
-      "observed_at": "2026-09-26T06:23:36.139873+05:30"
+      "observed_at": "2026-09-27T06:30:12.241943+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://pml.lk/",
       "source": "http://pml.lk/",
-      "observed_at": "2026-09-26T06:23:36.139876+05:30"
+      "observed_at": "2026-09-27T06:30:12.241946+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://pml.lk/contact-us/",
       "source": "https://pml.lk/contact-us",
-      "observed_at": "2026-09-26T06:23:36.139878+05:30"
+      "observed_at": "2026-09-27T06:30:12.241949+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://pml.lk/contact-us/",
       "source": "https://pml.lk/contact",
-      "observed_at": "2026-09-26T06:23:36.139881+05:30"
+      "observed_at": "2026-09-27T06:30:12.241952+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://pml.lk/about-us/",
       "source": "https://pml.lk/about-us",
-      "observed_at": "2026-09-26T06:23:36.139883+05:30"
+      "observed_at": "2026-09-27T06:30:12.241955+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://pml.lk/products/",
       "source": "https://pml.lk/products",
-      "observed_at": "2026-09-26T06:23:36.139886+05:30"
+      "observed_at": "2026-09-27T06:30:12.241958+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://pml.lk/branches/",
       "source": "https://pml.lk/branches",
-      "observed_at": "2026-09-26T06:23:36.139888+05:30"
+      "observed_at": "2026-09-27T06:30:12.241961+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://pml.lk/news-events/",
       "source": "https://pml.lk/news-events",
-      "observed_at": "2026-09-26T06:23:36.139890+05:30"
+      "observed_at": "2026-09-27T06:30:12.241964+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://pml.lk/investor-relations/",
       "source": "https://pml.lk/investor-relations/",
-      "observed_at": "2026-09-26T06:23:36.139892+05:30"
+      "observed_at": "2026-09-27T06:30:12.241967+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://pml.lk/careers/",
       "source": "https://pml.lk/careers",
-      "observed_at": "2026-09-26T06:23:36.139895+05:30"
+      "observed_at": "2026-09-27T06:30:12.241970+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://pml.lk/tender-and-auction/",
       "source": "https://pml.lk/tender-and-auction",
-      "observed_at": "2026-09-26T06:23:36.139897+05:30"
+      "observed_at": "2026-09-27T06:30:12.241972+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://pml.lk/annual-reports/",
       "source": "https://pml.lk/annual-reports/",
-      "observed_at": "2026-09-26T06:23:36.139899+05:30"
+      "observed_at": "2026-09-27T06:30:12.241975+05:30"
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/",
+      "data": {
+        "value": "0112 890 990 "
+      }
     },
     {
       "check": "phone",
@@ -159,10 +168,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -172,15 +181,6 @@
       "source": "https://pml.lk/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -222,6 +222,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/",
       "data": {
@@ -249,10 +258,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -262,15 +271,6 @@
       "source": "https://pml.lk/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -312,6 +312,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/",
       "data": {
@@ -339,10 +348,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -352,15 +361,6 @@
       "source": "https://pml.lk/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -402,6 +402,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/",
       "data": {
@@ -429,10 +438,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -442,15 +451,6 @@
       "source": "https://pml.lk/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -492,51 +492,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112890990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "+94112890990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-06-03-105",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "025-06-03-105"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0765328017",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0765328017"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "+94 112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112817653",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0112817653"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 890 990 ",
       "source": "https://pml.lk/contact-us/",
       "data": {
@@ -546,37 +501,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 076-5328017 ",
+      "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/contact-us/",
       "data": {
-        "value": "076-5328017 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112890990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0112890990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2890990 ",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "011-2890990 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 890 990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0112 890 990"
+        "value": "+94112890990"
       }
     },
     {
@@ -591,10 +519,82 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112817653",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0112817653"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-5328017 ",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "076-5328017 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0765328017",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0765328017"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-06-03-105",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "025-06-03-105"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112890990",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0112890990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 890 990",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "+94 112 890 990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2890990 ",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "011-2890990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/contact-us/",
       "data": {
         "value": "+94 112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 890 990",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0112 890 990"
       }
     },
     {
@@ -636,51 +636,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94112890990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "+94112890990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-06-03-105",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "025-06-03-105"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0765328017",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0765328017"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "+94 112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112817653",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0112817653"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0112 890 990 ",
       "source": "https://pml.lk/contact-us/",
       "data": {
@@ -690,37 +645,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 076-5328017 ",
+      "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/contact-us/",
       "data": {
-        "value": "076-5328017 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112890990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0112890990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2890990 ",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "011-2890990 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 890 990",
-      "source": "https://pml.lk/contact-us/",
-      "data": {
-        "value": "0112 890 990"
+        "value": "+94112890990"
       }
     },
     {
@@ -735,10 +663,82 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112817653",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0112817653"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-5328017 ",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "076-5328017 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0765328017",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0765328017"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-06-03-105",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "025-06-03-105"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112890990",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0112890990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 890 990",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "+94 112 890 990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2890990 ",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "011-2890990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/contact-us/",
       "data": {
         "value": "+94 112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 890 990",
+      "source": "https://pml.lk/contact-us/",
+      "data": {
+        "value": "0112 890 990"
       }
     },
     {
@@ -780,6 +780,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/about-us/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/about-us/",
       "data": {
@@ -807,10 +816,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/about-us/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -820,15 +829,6 @@
       "source": "https://pml.lk/about-us/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/about-us/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -888,6 +888,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/products/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/products/",
       "data": {
@@ -915,10 +924,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/products/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -928,15 +937,6 @@
       "source": "https://pml.lk/products/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/products/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -987,316 +987,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 081-2018320 ",
+      "detail": "Published phone: 070-1705054 ",
       "source": "https://pml.lk/branches/",
       "data": {
-        "value": "081-2018320 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 051-2018210 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "051-2018210 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 071-1009897 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "071-1009897 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-3877145 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-3877145 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-8836264 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-8836264 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "+94 112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-8269445 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-8269445 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 074-3473492 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "074-3473492 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-2338853 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-2338853 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-5652308 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-5652308 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 072-9566788 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "072-9566788 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-6230582 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-6230582 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 890 990",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 081-2498062 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "081-2498062 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-0439102 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-0439102 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 074-3855892 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "074-3855892 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 081-2498026 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "081-2498026 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-6592773 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-6592773 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 055-2018250 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "055-2018250 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-1383306 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-1383306 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112890990",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "+94112890990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "0112 890 990 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-1755461 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-1755461 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 033-2121064 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "033-2121064 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 034-2018510 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "034-2018510 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2890990 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "011-2890990 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 055-2018270 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "055-2018270 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2817653 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "011-2817653 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-5656712 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-5656712 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 027-7645015 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "027-7645015 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 071-6071682 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "071-6071682 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-1539924 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-1539924 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-5596407 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-5596407 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-7467033 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-7467033 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 025-06-03-105",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "025-06-03-105"
+        "value": "070-1705054 "
       }
     },
     {
@@ -1306,78 +1000,6 @@
       "source": "https://pml.lk/branches/",
       "data": {
         "value": "011-2107279 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 035-2018240 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "035-2018240 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-8702758 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-8702758 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-2856726 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-2856726 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-4140100 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-4140100 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-8914423 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-8914423 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2201230 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "011-2201230 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-5696481 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-5696481 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 076-2379947 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "076-2379947 "
       }
     },
     {
@@ -1401,55 +1023,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 047-2018229 ",
+      "detail": "Published phone: 077-4140100 ",
       "source": "https://pml.lk/branches/",
       "data": {
-        "value": "047-2018229 "
+        "value": "077-4140100 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 077-8061216 ",
+      "detail": "Published phone: 076-2379947 ",
       "source": "https://pml.lk/branches/",
       "data": {
-        "value": "077-8061216 "
+        "value": "076-2379947 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 077-6026065 ",
+      "detail": "Published phone: 077-3877145 ",
       "source": "https://pml.lk/branches/",
       "data": {
-        "value": "077-6026065 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "+94 112 890 990 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 055-2018329 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "055-2018329 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 011-2227660 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "011-2227660 "
+        "value": "077-3877145 "
       }
     },
     {
@@ -1464,6 +1059,60 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 077-1755461 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-1755461 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-0439102 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-0439102 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-5652308 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-5652308 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 890 990",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "0112 890 990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-2856726 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-2856726 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-1539924 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-1539924 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 076-1654738 ",
       "source": "https://pml.lk/branches/",
       "data": {
@@ -1473,10 +1122,91 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 077-3100450 ",
+      "detail": "Published phone: 034-2018510 ",
       "source": "https://pml.lk/branches/",
       "data": {
-        "value": "077-3100450 "
+        "value": "034-2018510 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 055-2018250 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "055-2018250 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-8269445 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-8269445 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-8914423 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-8914423 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 072-9566788 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "072-9566788 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 081-2498026 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "081-2498026 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-5696481 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-5696481 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-1383306 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-1383306 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-6026065 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-6026065 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 081-2498062 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "081-2498062 "
       }
     },
     {
@@ -1491,19 +1221,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 077-1527689 ",
+      "detail": "Published phone: 076-6592773 ",
       "source": "https://pml.lk/branches/",
       "data": {
-        "value": "077-1527689 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 077-4026747 ",
-      "source": "https://pml.lk/branches/",
-      "data": {
-        "value": "077-4026747 "
+        "value": "076-6592773 "
       }
     },
     {
@@ -1518,10 +1239,289 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 070-1705054 ",
+      "detail": "Published phone: 074-3855892 ",
       "source": "https://pml.lk/branches/",
       "data": {
-        "value": "070-1705054 "
+        "value": "074-3855892 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-3100450 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-3100450 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-2338853 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-2338853 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 890 990 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "+94 112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-7467033 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-7467033 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 055-2018270 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "055-2018270 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-6071682 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "071-6071682 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112890990",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "+94112890990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2817653 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "011-2817653 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-1527689 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-1527689 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-8836264 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-8836264 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2890990 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "011-2890990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 035-2018240 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "035-2018240 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-8061216 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-8061216 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 027-7645015 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "027-7645015 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 081-2018320 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "081-2018320 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-5656712 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-5656712 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 074-3473492 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "074-3473492 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-6230582 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-6230582 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 071-1009897 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "071-1009897 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-4026747 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-4026747 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2227660 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "011-2227660 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 076-5596407 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "076-5596407 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 033-2121064 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "033-2121064 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 025-06-03-105",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "025-06-03-105"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 011-2201230 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "011-2201230 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 890 990",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "+94 112 890 990"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 051-2018210 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "051-2018210 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 077-8702758 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "077-8702758 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 055-2018329 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "055-2018329 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 047-2018229 ",
+      "source": "https://pml.lk/branches/",
+      "data": {
+        "value": "047-2018229 "
       }
     },
     {
@@ -1554,6 +1554,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/news-events/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/news-events/",
       "data": {
@@ -1581,10 +1590,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/news-events/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1594,15 +1603,6 @@
       "source": "https://pml.lk/news-events/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/news-events/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1662,6 +1662,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/investor-relations/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/investor-relations/",
       "data": {
@@ -1689,10 +1698,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/investor-relations/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1702,15 +1711,6 @@
       "source": "https://pml.lk/investor-relations/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/investor-relations/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1767,6 +1767,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/careers/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/careers/",
       "data": {
@@ -1794,10 +1803,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/careers/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1807,15 +1816,6 @@
       "source": "https://pml.lk/careers/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/careers/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1857,6 +1857,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/tender-and-auction/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/tender-and-auction/",
       "data": {
@@ -1884,10 +1893,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/tender-and-auction/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1897,15 +1906,6 @@
       "source": "https://pml.lk/tender-and-auction/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/tender-and-auction/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1938,6 +1938,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0112 890 990 ",
+      "source": "https://pml.lk/annual-reports/",
+      "data": {
+        "value": "0112 890 990 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94112890990",
       "source": "https://pml.lk/annual-reports/",
       "data": {
@@ -1965,10 +1974,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0112 890 990 ",
+      "detail": "Published phone: +94 112 890 990 ",
       "source": "https://pml.lk/annual-reports/",
       "data": {
-        "value": "0112 890 990 "
+        "value": "+94 112 890 990 "
       }
     },
     {
@@ -1978,15 +1987,6 @@
       "source": "https://pml.lk/annual-reports/",
       "data": {
         "value": "0112 890 990"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 890 990 ",
-      "source": "https://pml.lk/annual-reports/",
-      "data": {
-        "value": "+94 112 890 990 "
       }
     },
     {
@@ -2042,7 +2042,7 @@
       "status_code": 200,
       "final_url": "https://pml.lk/",
       "redirects": [],
-      "elapsed_ms": 2815,
+      "elapsed_ms": 2894,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2053,7 +2053,7 @@
       "redirects": [
         "https://pml.lk/"
       ],
-      "elapsed_ms": 2368,
+      "elapsed_ms": 2696,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2062,7 +2062,7 @@
       "status_code": 200,
       "final_url": "https://pml.lk/",
       "redirects": [],
-      "elapsed_ms": 1379,
+      "elapsed_ms": 1977,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2073,7 +2073,7 @@
       "redirects": [
         "https://pml.lk/"
       ],
-      "elapsed_ms": 2394,
+      "elapsed_ms": 2755,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2084,7 +2084,7 @@
       "redirects": [
         "https://pml.lk/contact-us/"
       ],
-      "elapsed_ms": 2408,
+      "elapsed_ms": 2559,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2095,7 +2095,7 @@
       "redirects": [
         "https://pml.lk/contact-us/"
       ],
-      "elapsed_ms": 1176,
+      "elapsed_ms": 2348,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2106,7 +2106,7 @@
       "redirects": [
         "https://pml.lk/about-us/"
       ],
-      "elapsed_ms": 1560,
+      "elapsed_ms": 5700,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2117,7 +2117,7 @@
       "redirects": [
         "https://pml.lk/products/"
       ],
-      "elapsed_ms": 931,
+      "elapsed_ms": 2079,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2128,7 +2128,7 @@
       "redirects": [
         "https://pml.lk/branches/"
       ],
-      "elapsed_ms": 2284,
+      "elapsed_ms": 2038,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2139,7 +2139,7 @@
       "redirects": [
         "https://pml.lk/news-events/"
       ],
-      "elapsed_ms": 3089,
+      "elapsed_ms": 3610,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2148,7 +2148,7 @@
       "status_code": 200,
       "final_url": "https://pml.lk/investor-relations/",
       "redirects": [],
-      "elapsed_ms": 6376,
+      "elapsed_ms": 1965,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2159,7 +2159,7 @@
       "redirects": [
         "https://pml.lk/careers/"
       ],
-      "elapsed_ms": 4255,
+      "elapsed_ms": 2803,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2170,7 +2170,7 @@
       "redirects": [
         "https://pml.lk/tender-and-auction/"
       ],
-      "elapsed_ms": 1443,
+      "elapsed_ms": 2352,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     },
@@ -2179,7 +2179,7 @@
       "status_code": 200,
       "final_url": "https://pml.lk/annual-reports/",
       "redirects": [],
-      "elapsed_ms": 1633,
+      "elapsed_ms": 1623,
       "content_type": "text/html; charset=UTF-8",
       "error": null
     }
@@ -2187,87 +2187,87 @@
   "snapshots": [
     {
       "url": "https://pml.lk/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-01-3b1bb431009d.html",
-      "sha256": "3b1bb431009dbcab5549b53121441872864845563083f7e92b0b2538440c52bc",
-      "bytes": 591537
-    },
-    {
-      "url": "https://pml.lk/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-02-478ae07876ae.html",
-      "sha256": "478ae07876ae32b2e85db5d3b30333aae09e329c4b5864cc13c77c14f3dd4078",
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-01-c7cb66c7e968.html",
+      "sha256": "c7cb66c7e9681db5fbac2b5acd24f2f91701b49148ccd39481c21c3620928b7a",
       "bytes": 591536
     },
     {
       "url": "https://pml.lk/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-03-2f032b9f6408.html",
-      "sha256": "2f032b9f640818e87cf156f027f92e32db922ae3e771af9c2d8cad6d87cc4111",
-      "bytes": 591535
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-02-ff95195b1da9.html",
+      "sha256": "ff95195b1da96955c2c12abe1f03bf8e678fc592c3cbd36b027e5399f040a7fa",
+      "bytes": 591536
     },
     {
       "url": "https://pml.lk/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-04-6733b5977b1d.html",
-      "sha256": "6733b5977b1dac310cd364a81a05a1628f13e62180cedfc24deec0a0037da820",
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-03-76eb58c2a3cd.html",
+      "sha256": "76eb58c2a3cdaed32a4f49e79166af1c432bbb7d4de1f89cf10d28f375bed80d",
+      "bytes": 591537
+    },
+    {
+      "url": "https://pml.lk/",
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-04-297a33365f67.html",
+      "sha256": "297a33365f67981d5c6c29ab8fe094142000b05841aef0de32d008746b1f4811",
       "bytes": 591537
     },
     {
       "url": "https://pml.lk/contact-us/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-05-5825648332f8.html",
-      "sha256": "5825648332f80005eb700200076183249a8c131f3778ff12a0a459d830de4d4e",
-      "bytes": 482337
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-05-d1fb5c6aa7e8.html",
+      "sha256": "d1fb5c6aa7e822c9e08680030c4a9e1435c7c940a11ea02c58f85d9e6036dcb3",
+      "bytes": 482338
     },
     {
       "url": "https://pml.lk/contact-us/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-06-5bb37dae03cc.html",
-      "sha256": "5bb37dae03cc3aaf54b6510ccacf93fde66ac2472603d4803baa7d75fd011f33",
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-06-ad774aec616c.html",
+      "sha256": "ad774aec616ce4b1e8bdafcbbd04027699b230d4ffc32d772863001aba6df477",
       "bytes": 482338
     },
     {
       "url": "https://pml.lk/about-us/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-07-17cd9ae7c5ce.html",
-      "sha256": "17cd9ae7c5cea23ad5365ff019d58fb207c1abe3a54b01f852f215b4c1bf1a7a",
-      "bytes": 532614
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-07-115d30eb7998.html",
+      "sha256": "115d30eb799899e9bb0f7c6f45dfe291c9c49c780c23e0467aa97a4d62d1c6a4",
+      "bytes": 532613
     },
     {
       "url": "https://pml.lk/products/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-08-06ab913c086e.html",
-      "sha256": "06ab913c086e4bd1f9ef39a7b56e1039d44baa3a14d585e84d9af8e2692b8d72",
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-08-d2f61acdb3f0.html",
+      "sha256": "d2f61acdb3f0509e452c0698be1d16558189b670bed7376309d51bfc9ac9ad1b",
       "bytes": 471915
     },
     {
       "url": "https://pml.lk/branches/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-09-1bcc079b4924.html",
-      "sha256": "1bcc079b49240951cdebd7442f3eb5c4835413a47dcd32e3f0c35f68d250a693",
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-09-d7a201cd7173.html",
+      "sha256": "d7a201cd7173329fb85caa52afadec02375d58ef6a8515efe737a1a9299f04d7",
       "bytes": 585294
     },
     {
       "url": "https://pml.lk/news-events/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-10-37f37df5f3d3.html",
-      "sha256": "37f37df5f3d3c36cbed89227e70a828a5f8121d1714d87ae6389cf4ba7bc181a",
-      "bytes": 603596
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-10-0c25e9b5f37f.html",
+      "sha256": "0c25e9b5f37f6d33fc061c01610e503f4da57e50763955991ec4c05b61a2f2fe",
+      "bytes": 603595
     },
     {
       "url": "https://pml.lk/investor-relations/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-11-bc74ca5e996b.html",
-      "sha256": "bc74ca5e996b5d907b8de5e5f0bc03c68072beaaf7cf192f184798340ab873e5",
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-11-3e353efe0ce3.html",
+      "sha256": "3e353efe0ce34f701fd032ac851ee42c6c83d6e19db8bc2317ba12d2eb70da60",
       "bytes": 461035
     },
     {
       "url": "https://pml.lk/careers/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-12-c679f12c69ac.html",
-      "sha256": "c679f12c69ac03e458f9ed37e337ee65d0aa8edae26887f5f28cbc75aebbd5c9",
-      "bytes": 460443
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-12-c356ba962ef9.html",
+      "sha256": "c356ba962ef91e59adf2011bdfc1ff64d80a7a0d909031fb258aed6c0cc3ed93",
+      "bytes": 460444
     },
     {
       "url": "https://pml.lk/tender-and-auction/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-13-9d12c173f57f.html",
-      "sha256": "9d12c173f57f4a2afe7f2e3c364303d4253b57b2b0b8a5ff4f32937c7773e4d0",
-      "bytes": 464075
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-13-0e5345f748d2.html",
+      "sha256": "0e5345f748d28d4ba4f30180552bcb8b88a0949c7c3dd332a3a2f458a508b563",
+      "bytes": 464074
     },
     {
       "url": "https://pml.lk/annual-reports/",
-      "path": "audit.output/pml.lk/20260926.0622/snapshots/page-14-a95179b5932f.html",
-      "sha256": "a95179b5932f5c320a85162de2e74591bc7dfb4983680a86eae971f10a0dabaa",
-      "bytes": 459994
+      "path": "audit.output/pml.lk/20260927.0629/snapshots/page-14-2b8eba246fc4.html",
+      "sha256": "2b8eba246fc496bda7faea06c85e9be2aab838901b1335bb29a6b618de6d2f1e",
+      "bytes": 459993
     }
   ],
   "reviewer_decisions": [],
@@ -2383,7 +2383,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "e254238e-c322-41db-a269-cee5298e4325",
+  "audit_id": "3374ed65-0970-4546-8a93-a0d3b89c9d09",
   "url": "https://hc-pretoria.gov.lk",
   "normalized_url": "https://hc-pretoria.gov.lk/",
-  "started_at": "2026-09-26T06:35:56.273664+05:30",
-  "completed_at": "2026-09-26T06:36:33.959244+05:30",
+  "started_at": "2026-09-27T06:41:10.238939+05:30",
+  "completed_at": "2026-09-27T06:42:03.586577+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,125 +26,125 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:35:56.618329+05:30"
+      "observed_at": "2026-09-27T06:41:10.608904+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:35:56.618346+05:30"
+      "observed_at": "2026-09-27T06:41:10.608924+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:35:56.996313+05:30"
+      "observed_at": "2026-09-27T06:41:11.399676+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.hc-pretoria.gov.lk/en",
       "source": "https://hc-pretoria.gov.lk/",
-      "observed_at": "2026-09-26T06:36:32.481510+05:30"
+      "observed_at": "2026-09-27T06:42:01.652691+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.hc-pretoria.gov.lk/en",
       "source": "http://hc-pretoria.gov.lk/",
-      "observed_at": "2026-09-26T06:36:32.481528+05:30"
+      "observed_at": "2026-09-27T06:42:01.652711+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.hc-pretoria.gov.lk/en",
       "source": "https://hc-pretoria.gov.lk/",
-      "observed_at": "2026-09-26T06:36:32.481532+05:30"
+      "observed_at": "2026-09-27T06:42:01.652715+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.hc-pretoria.gov.lk/en",
       "source": "http://hc-pretoria.gov.lk/",
-      "observed_at": "2026-09-26T06:36:32.481535+05:30"
+      "observed_at": "2026-09-27T06:42:01.652718+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.hc-pretoria.gov.lk/en/contact",
       "source": "https://www.hc-pretoria.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:36:32.481537+05:30"
+      "observed_at": "2026-09-27T06:42:01.652721+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.hc-pretoria.gov.lk/en/about-us",
       "source": "https://www.hc-pretoria.gov.lk/en/about-us",
-      "observed_at": "2026-09-26T06:36:32.481539+05:30"
+      "observed_at": "2026-09-27T06:42:01.652724+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.hc-pretoria.gov.lk/en/accredited-countries",
       "source": "https://www.hc-pretoria.gov.lk/en/accredited-countries",
-      "observed_at": "2026-09-26T06:36:32.481541+05:30"
+      "observed_at": "2026-09-27T06:42:01.652726+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "observed_at": "2026-09-26T06:36:32.481544+05:30"
+      "observed_at": "2026-09-27T06:42:01.652729+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.hc-pretoria.gov.lk/en/appointment",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:36:32.481546+05:30"
+      "observed_at": "2026-09-27T06:42:01.652732+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
       "source": "https://hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
-      "observed_at": "2026-09-26T06:36:32.481548+05:30"
+      "observed_at": "2026-09-27T06:42:01.652735+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
       "source": "https://hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
-      "observed_at": "2026-09-26T06:36:32.481550+05:30"
+      "observed_at": "2026-09-27T06:42:01.652738+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
       "source": "https://hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
-      "observed_at": "2026-09-26T06:36:32.481552+05:30"
+      "observed_at": "2026-09-27T06:42:01.652742+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
       "source": "https://hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
-      "observed_at": "2026-09-26T06:36:32.481554+05:30"
+      "observed_at": "2026-09-27T06:42:01.652744+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
       "source": "https://hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
-      "observed_at": "2026-09-26T06:36:32.481556+05:30"
+      "observed_at": "2026-09-27T06:42:01.652747+05:30"
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0560905873",
+      "detail": "Published phone: 04-11139725",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0560905873"
+        "value": "04-11139725"
       }
     },
     {
@@ -159,46 +159,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0489867778",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0489867778"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0555594845",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0555594845"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0558556008",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0558556008"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559830979",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559830979"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0560637075",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0560637075"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0558282738",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0558282738"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 04-11139725",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "04-11139725"
       }
     },
     {
@@ -213,37 +195,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +27 12 460 7679",
+      "detail": "Published phone: 0560637075",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "+27 12 460 7679"
+        "value": "0560637075"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0489867778",
+      "detail": "Published phone: 0-353116180",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0489867778"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559270783",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559270783"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0553650366",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0553650366"
+        "value": "0-353116180"
       }
     },
     {
@@ -253,15 +217,6 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0560364855"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0555594845",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0555594845"
       }
     },
     {
@@ -285,19 +240,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0-353116180",
+      "detail": "Published phone: 0559270783",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0-353116180"
+        "value": "0559270783"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0558282738",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0558282738"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0553650366",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0553650366"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +27 12 460 7679",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "+27 12 460 7679"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0560905873",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0560905873"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0559830979",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0559830979"
       }
     },
     {
@@ -307,6 +298,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -348,10 +348,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0560905873",
+      "detail": "Published phone: 04-11139725",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0560905873"
+        "value": "04-11139725"
       }
     },
     {
@@ -366,46 +366,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0489867778",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0489867778"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0555594845",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0555594845"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0558556008",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0558556008"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559830979",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559830979"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0560637075",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0560637075"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0558282738",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0558282738"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 04-11139725",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "04-11139725"
       }
     },
     {
@@ -420,37 +402,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +27 12 460 7679",
+      "detail": "Published phone: 0560637075",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "+27 12 460 7679"
+        "value": "0560637075"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0489867778",
+      "detail": "Published phone: 0-353116180",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0489867778"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559270783",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559270783"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0553650366",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0553650366"
+        "value": "0-353116180"
       }
     },
     {
@@ -460,15 +424,6 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0560364855"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0555594845",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0555594845"
       }
     },
     {
@@ -492,19 +447,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0-353116180",
+      "detail": "Published phone: 0559270783",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0-353116180"
+        "value": "0559270783"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0558282738",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0558282738"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0553650366",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0553650366"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +27 12 460 7679",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "+27 12 460 7679"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0560905873",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0560905873"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0559830979",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0559830979"
       }
     },
     {
@@ -514,6 +505,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -555,10 +555,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0560905873",
+      "detail": "Published phone: 04-11139725",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0560905873"
+        "value": "04-11139725"
       }
     },
     {
@@ -573,46 +573,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0489867778",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0489867778"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0555594845",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0555594845"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0558556008",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0558556008"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559830979",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559830979"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0560637075",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0560637075"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0558282738",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0558282738"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 04-11139725",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "04-11139725"
       }
     },
     {
@@ -627,37 +609,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +27 12 460 7679",
+      "detail": "Published phone: 0560637075",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "+27 12 460 7679"
+        "value": "0560637075"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0489867778",
+      "detail": "Published phone: 0-353116180",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0489867778"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559270783",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559270783"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0553650366",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0553650366"
+        "value": "0-353116180"
       }
     },
     {
@@ -667,15 +631,6 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0560364855"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0555594845",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0555594845"
       }
     },
     {
@@ -699,19 +654,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0-353116180",
+      "detail": "Published phone: 0559270783",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0-353116180"
+        "value": "0559270783"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0558282738",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0558282738"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0553650366",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0553650366"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +27 12 460 7679",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "+27 12 460 7679"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0560905873",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0560905873"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0559830979",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0559830979"
       }
     },
     {
@@ -721,6 +712,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -762,10 +762,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0560905873",
+      "detail": "Published phone: 04-11139725",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0560905873"
+        "value": "04-11139725"
       }
     },
     {
@@ -780,46 +780,28 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0489867778",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0489867778"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0555594845",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0555594845"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0558556008",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0558556008"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559830979",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559830979"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0560637075",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0560637075"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0558282738",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0558282738"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 04-11139725",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "04-11139725"
       }
     },
     {
@@ -834,37 +816,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +27 12 460 7679",
+      "detail": "Published phone: 0560637075",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "+27 12 460 7679"
+        "value": "0560637075"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0489867778",
+      "detail": "Published phone: 0-353116180",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0489867778"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0559270783",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0559270783"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0553650366",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0553650366"
+        "value": "0-353116180"
       }
     },
     {
@@ -874,15 +838,6 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "0560364855"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0555594845",
-      "source": "https://www.hc-pretoria.gov.lk/en",
-      "data": {
-        "value": "0555594845"
       }
     },
     {
@@ -906,19 +861,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0-353116180",
+      "detail": "Published phone: 0559270783",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "0-353116180"
+        "value": "0559270783"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: 0558282738",
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
-        "value": "john@example.com"
+        "value": "0558282738"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0553650366",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0553650366"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +27 12 460 7679",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "+27 12 460 7679"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0560905873",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0560905873"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0559830979",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "0559830979"
       }
     },
     {
@@ -928,6 +919,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -978,19 +978,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: consular.pretoria@mfa.gov.lk",
       "source": "https://www.hc-pretoria.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "consular.pretoria@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consular.pretoria@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-pretoria.gov.lk/en/contact",
       "data": {
-        "value": "consular.pretoria@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1014,28 +1014,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +27 12 460 76 79",
-      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
-      "data": {
-        "value": "+27 12 460 76 79"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +27124607679",
       "source": "https://www.hc-pretoria.gov.lk/en/about-us",
       "data": {
         "value": "+27124607679"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +27 12 460 7679",
-      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
-      "data": {
-        "value": "+27 12 460 7679"
       }
     },
     {
@@ -1057,12 +1039,39 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slemb.pretoria@mfa.gov.lk",
+      "detail": "Published phone: +27 12 460 76 79",
       "source": "https://www.hc-pretoria.gov.lk/en/about-us",
       "data": {
-        "value": "slemb.pretoria@mfa.gov.lk"
+        "value": "+27 12 460 76 79"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +27 12 460 7679",
+      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
+      "data": {
+        "value": "+27 12 460 7679"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: kaumadie.wijesinghe@mfa.gov.lk",
+      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
+      "data": {
+        "value": "kaumadie.wijesinghe@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc@srilanka.co.za",
+      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
+      "data": {
+        "value": "slhc@srilanka.co.za"
       }
     },
     {
@@ -1077,10 +1086,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: kaumadie.wijesinghe@mfa.gov.lk",
+      "detail": "Published email: slemb.pretoria@mfa.gov.lk",
       "source": "https://www.hc-pretoria.gov.lk/en/about-us",
       "data": {
-        "value": "kaumadie.wijesinghe@mfa.gov.lk"
+        "value": "slemb.pretoria@mfa.gov.lk"
       }
     },
     {
@@ -1090,6 +1099,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en/about-us",
       "data": {
         "value": "slhc@srilanka.co.za"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.pretoria@mfa.gov.lk",
+      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
+      "data": {
+        "value": "slemb.pretoria@mfa.gov.lk"
       }
     },
     {
@@ -1104,28 +1122,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slhc@srilanka.co.za",
-      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
-      "data": {
-        "value": "slhc@srilanka.co.za"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: kaumadie.wijesinghe@mfa.gov.lk",
       "source": "https://www.hc-pretoria.gov.lk/en/about-us",
       "data": {
         "value": "kaumadie.wijesinghe@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.pretoria@mfa.gov.lk",
-      "source": "https://www.hc-pretoria.gov.lk/en/about-us",
-      "data": {
-        "value": "slemb.pretoria@mfa.gov.lk"
       }
     },
     {
@@ -1158,19 +1158,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: consular.pretoria@mfa.gov.lk",
       "source": "https://www.hc-pretoria.gov.lk/en/accredited-countries",
       "data": {
-        "value": "john@example.com"
+        "value": "consular.pretoria@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consular.pretoria@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.hc-pretoria.gov.lk/en/accredited-countries",
       "data": {
-        "value": "consular.pretoria@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -1189,60 +1189,6 @@
       "source": "https://www.hc-pretoria.gov.lk/en/accredited-countries",
       "data": {
         "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0977770832",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "0977770832"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +26771306386",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "+26771306386"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +27 12 460 7679",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "+27 12 460 7679"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +25821487020",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "+25821487020"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +260977770832",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "+260977770832"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +264612991351",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "+264612991351"
       }
     },
     {
@@ -1266,10 +1212,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 097 777 0832",
+      "detail": "Published phone: +264612991351",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
-        "value": "097 777 0832"
+        "value": "+264612991351"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0977770832",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "0977770832"
       }
     },
     {
@@ -1282,21 +1237,66 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: slconsul.bw@gmail.com",
+      "detail": "Published phone: +260977770832",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
-        "value": "slconsul.bw@gmail.com"
+        "value": "+260977770832"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +27 12 460 7679",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "+27 12 460 7679"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +25821487020",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "+25821487020"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 097 777 0832",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "097 777 0832"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +26771306386",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "+26771306386"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consulsrilanka@gmail.com",
+      "detail": "Published email: consulslnam@gmail.com",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
-        "value": "consulsrilanka@gmail.com"
+        "value": "consulslnam@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: consulsrilanka@globemw.net",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "consulsrilanka@globemw.net"
       }
     },
     {
@@ -1311,15 +1311,6 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consulslnam@gmail.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "consulslnam@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: jonathan@skylarconnects.com",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
@@ -1338,10 +1329,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consulsrilanka@gmail.com",
+      "detail": "Published email: consulsrilanka@globemw.net",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
-        "value": "consulsrilanka@gmail.com"
+        "value": "consulsrilanka@globemw.net"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: elmojay@ymail.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "elmojay@ymail.com"
       }
     },
     {
@@ -1356,15 +1356,6 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consulsrilanka@globemw.net",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "consulsrilanka@globemw.net"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: elmojay@ymail.com",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
@@ -1374,28 +1365,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: 20consulsrilanka@globemw.net",
+      "detail": "Published email: consulsrilanka@gmail.com",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
-        "value": "20consulsrilanka@globemw.net"
+        "value": "consulsrilanka@gmail.com"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: consulsrilanka@globemw.net",
+      "detail": "Published email: slconsul.bw@gmail.com",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
-        "value": "consulsrilanka@globemw.net"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "data": {
-        "value": "john@example.com"
+        "value": "slconsul.bw@gmail.com"
       }
     },
     {
@@ -1410,10 +1392,28 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: elmojay@ymail.com",
+      "detail": "Published email: consulsrilanka@gmail.com",
       "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "data": {
-        "value": "elmojay@ymail.com"
+        "value": "consulsrilanka@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: 20consulsrilanka@globemw.net",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "20consulsrilanka@globemw.net"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1437,19 +1437,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0570558328",
+      "detail": "Published phone: 0572514819",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment",
       "data": {
-        "value": "0570558328"
+        "value": "0572514819"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572514819",
+      "detail": "Published phone: 0571910539",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment",
       "data": {
-        "value": "0572514819"
+        "value": "0571910539"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0572222638",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
+      "data": {
+        "value": "0572222638"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570838018",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
+      "data": {
+        "value": "0570838018"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0571065182",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
+      "data": {
+        "value": "0571065182"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570558328",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
+      "data": {
+        "value": "0570558328"
       }
     },
     {
@@ -1473,55 +1509,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572222638",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
-      "data": {
-        "value": "0572222638"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0589212247",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment",
       "data": {
         "value": "0589212247"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571065182",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
-      "data": {
-        "value": "0571065182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571910539",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
-      "data": {
-        "value": "0571910539"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0570838018",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
-      "data": {
-        "value": "0570838018"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -1531,6 +1522,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en/appointment",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1581,19 +1581,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0570558328",
+      "detail": "Published phone: 0572514819",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
       "data": {
-        "value": "0570558328"
+        "value": "0572514819"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572514819",
+      "detail": "Published phone: 0571910539",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
       "data": {
-        "value": "0572514819"
+        "value": "0571910539"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0572222638",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
+      "data": {
+        "value": "0572222638"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570838018",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
+      "data": {
+        "value": "0570838018"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0571065182",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
+      "data": {
+        "value": "0571065182"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570558328",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
+      "data": {
+        "value": "0570558328"
       }
     },
     {
@@ -1617,55 +1653,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572222638",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
-      "data": {
-        "value": "0572222638"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0589212247",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
       "data": {
         "value": "0589212247"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571065182",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
-      "data": {
-        "value": "0571065182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571910539",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
-      "data": {
-        "value": "0571910539"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0570838018",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
-      "data": {
-        "value": "0570838018"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -1675,6 +1666,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1725,19 +1725,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0570558328",
+      "detail": "Published phone: 0572514819",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
       "data": {
-        "value": "0570558328"
+        "value": "0572514819"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572514819",
+      "detail": "Published phone: 0571910539",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
       "data": {
-        "value": "0572514819"
+        "value": "0571910539"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0572222638",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
+      "data": {
+        "value": "0572222638"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570838018",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
+      "data": {
+        "value": "0570838018"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0571065182",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
+      "data": {
+        "value": "0571065182"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570558328",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
+      "data": {
+        "value": "0570558328"
       }
     },
     {
@@ -1761,55 +1797,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572222638",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
-      "data": {
-        "value": "0572222638"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0589212247",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
       "data": {
         "value": "0589212247"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571065182",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
-      "data": {
-        "value": "0571065182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571910539",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
-      "data": {
-        "value": "0571910539"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0570838018",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
-      "data": {
-        "value": "0570838018"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -1819,6 +1810,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1869,19 +1869,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0570558328",
+      "detail": "Published phone: 0572514819",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
       "data": {
-        "value": "0570558328"
+        "value": "0572514819"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572514819",
+      "detail": "Published phone: 0571910539",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
       "data": {
-        "value": "0572514819"
+        "value": "0571910539"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0572222638",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
+      "data": {
+        "value": "0572222638"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570838018",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
+      "data": {
+        "value": "0570838018"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0571065182",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
+      "data": {
+        "value": "0571065182"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570558328",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
+      "data": {
+        "value": "0570558328"
       }
     },
     {
@@ -1905,55 +1941,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572222638",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
-      "data": {
-        "value": "0572222638"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0589212247",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
       "data": {
         "value": "0589212247"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571065182",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
-      "data": {
-        "value": "0571065182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571910539",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
-      "data": {
-        "value": "0571910539"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0570838018",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
-      "data": {
-        "value": "0570838018"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -1963,6 +1954,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -2013,19 +2013,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0570558328",
+      "detail": "Published phone: 0572514819",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
       "data": {
-        "value": "0570558328"
+        "value": "0572514819"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572514819",
+      "detail": "Published phone: 0571910539",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
       "data": {
-        "value": "0572514819"
+        "value": "0571910539"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0572222638",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
+      "data": {
+        "value": "0572222638"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570838018",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
+      "data": {
+        "value": "0570838018"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0571065182",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
+      "data": {
+        "value": "0571065182"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570558328",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
+      "data": {
+        "value": "0570558328"
       }
     },
     {
@@ -2049,55 +2085,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572222638",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
-      "data": {
-        "value": "0572222638"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0589212247",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
       "data": {
         "value": "0589212247"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571065182",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
-      "data": {
-        "value": "0571065182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571910539",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
-      "data": {
-        "value": "0571910539"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0570838018",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
-      "data": {
-        "value": "0570838018"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -2107,6 +2098,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -2157,19 +2157,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0570558328",
+      "detail": "Published phone: 0572514819",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
       "data": {
-        "value": "0570558328"
+        "value": "0572514819"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572514819",
+      "detail": "Published phone: 0571910539",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
       "data": {
-        "value": "0572514819"
+        "value": "0571910539"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0572222638",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
+      "data": {
+        "value": "0572222638"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570838018",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
+      "data": {
+        "value": "0570838018"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0571065182",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
+      "data": {
+        "value": "0571065182"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0570558328",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
+      "data": {
+        "value": "0570558328"
       }
     },
     {
@@ -2193,55 +2229,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0572222638",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
-      "data": {
-        "value": "0572222638"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0589212247",
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
       "data": {
         "value": "0589212247"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571065182",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
-      "data": {
-        "value": "0571065182"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0571910539",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
-      "data": {
-        "value": "0571910539"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0570838018",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
-      "data": {
-        "value": "0570838018"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: john@example.com",
-      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
-      "data": {
-        "value": "john@example.com"
       }
     },
     {
@@ -2251,6 +2242,15 @@
       "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
       "data": {
         "value": "consular.pretoria@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -2335,7 +2335,7 @@
         "https://www.hc-pretoria.gov.lk/",
         "https://www.hc-pretoria.gov.lk/en"
       ],
-      "elapsed_ms": 2211,
+      "elapsed_ms": 2569,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2347,7 +2347,7 @@
         "https://www.hc-pretoria.gov.lk/",
         "https://www.hc-pretoria.gov.lk/en"
       ],
-      "elapsed_ms": 2326,
+      "elapsed_ms": 1448,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2359,7 +2359,7 @@
         "https://www.hc-pretoria.gov.lk/",
         "https://www.hc-pretoria.gov.lk/en"
       ],
-      "elapsed_ms": 1308,
+      "elapsed_ms": 3580,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2371,7 +2371,7 @@
         "https://www.hc-pretoria.gov.lk/",
         "https://www.hc-pretoria.gov.lk/en"
       ],
-      "elapsed_ms": 767,
+      "elapsed_ms": 1171,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2380,7 +2380,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-pretoria.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1409,
+      "elapsed_ms": 1640,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2389,7 +2389,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-pretoria.gov.lk/en/about-us",
       "redirects": [],
-      "elapsed_ms": 1334,
+      "elapsed_ms": 1450,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2398,7 +2398,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-pretoria.gov.lk/en/accredited-countries",
       "redirects": [],
-      "elapsed_ms": 898,
+      "elapsed_ms": 804,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2407,7 +2407,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
       "redirects": [],
-      "elapsed_ms": 900,
+      "elapsed_ms": 946,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2416,7 +2416,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-pretoria.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2234,
+      "elapsed_ms": 2696,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2427,7 +2427,7 @@
       "redirects": [
         "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4"
       ],
-      "elapsed_ms": 2365,
+      "elapsed_ms": 7054,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2438,7 +2438,7 @@
       "redirects": [
         "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c"
       ],
-      "elapsed_ms": 1695,
+      "elapsed_ms": 1900,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2449,7 +2449,7 @@
       "redirects": [
         "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f"
       ],
-      "elapsed_ms": 2158,
+      "elapsed_ms": 4857,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2460,7 +2460,7 @@
       "redirects": [
         "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a"
       ],
-      "elapsed_ms": 2039,
+      "elapsed_ms": 1927,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2471,7 +2471,7 @@
       "redirects": [
         "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9"
       ],
-      "elapsed_ms": 1646,
+      "elapsed_ms": 2439,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2479,86 +2479,86 @@
   "snapshots": [
     {
       "url": "https://www.hc-pretoria.gov.lk/en",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-01-dd515958212f.html",
-      "sha256": "dd515958212f51a8cd94dfd51f76a3f8482869ce1f9b54539f58c86164aa988b",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-01-cddaaae86dc0.html",
+      "sha256": "cddaaae86dc03dfdf29a38321a76f1b36fcfb09c331e34a5a24800f3ab2c8902",
       "bytes": 367592
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-02-df63b6dd4dc2.html",
-      "sha256": "df63b6dd4dc2a0b906f56df51de6d56343a3c9d6f33f034409161bd8cb8dc5ff",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-02-f18a88b38b88.html",
+      "sha256": "f18a88b38b882b9da6f5301850123519285459a23de4e43dd00600e037b998e1",
       "bytes": 367592
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-03-d9f0aa747d67.html",
-      "sha256": "d9f0aa747d671af5ccaa246f35984a323eb1fcab639382623dca246484bbbff4",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-03-cd2c38123097.html",
+      "sha256": "cd2c3812309705604970085110729f615fd858bc09272e8f76863538f7d333d3",
       "bytes": 367592
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-04-ccb488f58510.html",
-      "sha256": "ccb488f58510509a56deaa4df55b34bef2ff84fe7df38f80abb44a179aa6728f",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-04-01d9e61de6e1.html",
+      "sha256": "01d9e61de6e1af05f4c5af222c8f6febb6ca5e22f386d2d613a3ebf5df0db99f",
       "bytes": 367592
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/contact",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-05-9abf1e2f3a50.html",
-      "sha256": "9abf1e2f3a507b8d7f26639303d1fff0be5940805042e08f47bfce09a956c609",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-05-e99e5d9b7e5f.html",
+      "sha256": "e99e5d9b7e5f78c152d65d7b9ec40d9927858ba3a818a0cf13da747cb275d5a2",
       "bytes": 93143
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/about-us",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-06-37c8f268502f.html",
-      "sha256": "37c8f268502f1bd4c599afdc9c8232555ae04ef8a861e2b6780304190e80215e",
-      "bytes": 86492
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-06-4a0937359701.html",
+      "sha256": "4a093735970157cc6e1b9d1b4f8b07bd9f81e763c60f012cb0d40bbba0540757",
+      "bytes": 86392
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/accredited-countries",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-07-f35c8c40d0da.html",
-      "sha256": "f35c8c40d0da1e8605547ea240fd1fc4a1b521a8b6067f0e0d52fa793953950b",
-      "bytes": 110211
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-07-5f286b9a78f8.html",
+      "sha256": "5f286b9a78f84ae83ba2aad195b96167afa33f8b1ec181566027b4d665469565",
+      "bytes": 110111
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/honorary-consuls",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-08-bf4301291d45.html",
-      "sha256": "bf4301291d458e6e4b9ae0fc2ff8243f11b717d98edaeaa0af56ab2f06af4a4b",
-      "bytes": 90064
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-08-92e4c84bd379.html",
+      "sha256": "92e4c84bd379a47590283e55b376b31937ab0381b9e2016044e5aa8318ebf30f",
+      "bytes": 89964
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/appointment",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-09-7b9acacbeb80.html",
-      "sha256": "7b9acacbeb800ef2db01271d0b979daa80520303c37780fffba4cab52a3e1d5b",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-09-f85d84ec4408.html",
+      "sha256": "f85d84ec4408c3fee41f8e3a619e44928a679e1a3cbf571540cddbc9e16f99b9",
       "bytes": 185865
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621ee2e19fabd6f341c4",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-10-2d36f03a917b.html",
-      "sha256": "2d36f03a917ba1eeffabbd468fee149d0c3389e04a1de696cc16631864957f51",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-10-8be48b2abfad.html",
+      "sha256": "8be48b2abfad88dafa5bc5d3e4007fb14cdba2a1b7a456676fffd11a83bf895c",
       "bytes": 186020
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a2164daab9368b86b9cba7c",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-11-5b71d552fe8b.html",
-      "sha256": "5b71d552fe8ba8e0f75eb88b904ae17efded121efb168807a4d83eec804572d1",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-11-50d3d9a978a0.html",
+      "sha256": "50d3d9a978a061efa0418effdb654f8184868bfbe1e156b9e9e149c5000c8ef8",
       "bytes": 186020
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a21621be2e19fabd6f3419f",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-12-3763b5abc079.html",
-      "sha256": "3763b5abc079a448a080e9c83ccb0a9844b3879864710182c836bd3dab95b7bf",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-12-ed5eca95b52e.html",
+      "sha256": "ed5eca95b52e023ba904a31192a7aa4a19a314f8ad2d526c7ef51b44fef8b097",
       "bytes": 186020
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216219e2e19fabd6f3417a",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-13-e717875124ed.html",
-      "sha256": "e717875124edc697312fadf0e526cf07db6e79bfa824cf2a089def947c29e7d4",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-13-68d4f9c84680.html",
+      "sha256": "68d4f9c846802da9383ea5c4c471ceff56271e219756720b5698123527096b3e",
       "bytes": 186020
     },
     {
       "url": "https://www.hc-pretoria.gov.lk/en/appointment?serviceId=6a216220e2e19fabd6f341e9",
-      "path": "audit.output/hc-pretoria.gov.lk/20260926.0635/snapshots/page-14-abdc667e85b4.html",
-      "sha256": "abdc667e85b499e177d81f2fce02b44520abb08f8c8eb54d313d3b596d9a4729",
+      "path": "audit.output/hc-pretoria.gov.lk/20260927.0641/snapshots/page-14-03827b347b2c.html",
+      "sha256": "03827b347b2c927c2dd771b5c480dc2096f83e9056a773e4e3828d415c17663e",
       "bytes": 186020
     }
   ],
@@ -2645,7 +2645,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: 410, Alexander Street, Brooklyn, Pretoria Tel: +27 12 460 76 79 Email: consular.pretoria@mfa.gov.lk Register as a Sri La; Phone: 0560905873 (36 phone numbers found); Email: john@example.com (12 email addresses found); Published named responsibility: director",
+      "reason": "Published postal address: 410, Alexander Street, Brooklyn, Pretoria Tel: +27 12 460 76 79 Email: consular.pretoria@mfa.gov.lk Register as a Sri La; Phone: 04-11139725 (36 phone numbers found); Email: consular.pretoria@mfa.gov.lk (12 email addresses found); Published named responsibility: director",
       "executed": true,
       "checks": [
         {
@@ -2658,7 +2658,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0560905873 (36 phone numbers found); Email: john@example.com (12 email addresses found)"
+          "reason": "Phone: 04-11139725 (36 phone numbers found); Email: consular.pretoria@mfa.gov.lk (12 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2737,7 +2737,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

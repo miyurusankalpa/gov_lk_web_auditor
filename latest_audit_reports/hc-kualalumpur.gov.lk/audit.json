@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "303d1ff1-18b8-498e-a7a8-cf00555ab737",
+  "audit_id": "fdd82432-9833-4fcd-b672-f1cc4baa4ae4",
   "url": "https://hc-kualalumpur.gov.lk",
   "normalized_url": "https://hc-kualalumpur.gov.lk/",
-  "started_at": "2026-09-26T06:30:42.539980+05:30",
-  "completed_at": "2026-09-26T06:31:34.377583+05:30",
+  "started_at": "2026-09-27T06:36:08.807556+05:30",
+  "completed_at": "2026-09-27T06:37:02.846112+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:30:43.105632+05:30"
+      "observed_at": "2026-09-27T06:36:09.458553+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:30:43.105651+05:30"
+      "observed_at": "2026-09-27T06:36:09.458571+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:30:43.719366+05:30"
+      "observed_at": "2026-09-27T06:36:10.174238+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en",
       "source": "https://hc-kualalumpur.gov.lk/",
-      "observed_at": "2026-09-26T06:31:32.373850+05:30"
+      "observed_at": "2026-09-27T06:37:00.047404+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en",
       "source": "http://hc-kualalumpur.gov.lk/",
-      "observed_at": "2026-09-26T06:31:32.373870+05:30"
+      "observed_at": "2026-09-27T06:37:00.047420+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en",
       "source": "https://hc-kualalumpur.gov.lk/",
-      "observed_at": "2026-09-26T06:31:32.373874+05:30"
+      "observed_at": "2026-09-27T06:37:00.047425+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en",
       "source": "http://hc-kualalumpur.gov.lk/",
-      "observed_at": "2026-09-26T06:31:32.373876+05:30"
+      "observed_at": "2026-09-27T06:37:00.047428+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/contact",
       "source": "https://www.hc-kualalumpur.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:31:32.373879+05:30"
+      "observed_at": "2026-09-27T06:37:00.047431+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/history",
       "source": "https://www.hc-kualalumpur.gov.lk/en/history",
-      "observed_at": "2026-09-26T06:31:32.373881+05:30"
+      "observed_at": "2026-09-27T06:37:00.047434+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
       "source": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
-      "observed_at": "2026-09-26T06:31:32.373883+05:30"
+      "observed_at": "2026-09-27T06:37:00.047437+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/appointment",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:31:32.373885+05:30"
+      "observed_at": "2026-09-27T06:37:00.047439+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
       "source": "https://hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
-      "observed_at": "2026-09-26T06:31:32.373887+05:30"
+      "observed_at": "2026-09-27T06:37:00.047442+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
       "source": "https://hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
-      "observed_at": "2026-09-26T06:31:32.373890+05:30"
+      "observed_at": "2026-09-27T06:37:00.047445+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
       "source": "https://hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
-      "observed_at": "2026-09-26T06:31:32.373892+05:30"
+      "observed_at": "2026-09-27T06:37:00.047448+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
       "source": "https://hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
-      "observed_at": "2026-09-26T06:31:32.373894+05:30"
+      "observed_at": "2026-09-27T06:37:00.047451+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
       "source": "https://hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
-      "observed_at": "2026-09-26T06:31:32.373897+05:30"
+      "observed_at": "2026-09-27T06:37:00.047453+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
       "source": "https://hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
-      "observed_at": "2026-09-26T06:31:32.373899+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705 "
-      }
+      "observed_at": "2026-09-27T06:37:00.047456+05:30"
     },
     {
       "check": "phone",
@@ -159,73 +150,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2348 ",
+      "detail": "Published phone: 03) 2032 2349",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2348 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341705 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706 - ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341705",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03) 2032 2348",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "03) 2032 2348"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.675867434",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0.675867434"
+        "value": "03) 2032 2349"
       }
     },
     {
@@ -240,6 +168,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 320341706 - ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341706 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 03) 2032 2349 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
@@ -249,19 +186,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0445-4775-99",
+      "detail": "Published phone: 0320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "0445-4775-99"
+        "value": "0320341706"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +60320341705",
+      "detail": "Published phone: 0 320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "+60320341705"
+        "value": "0 320341706"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.675867434",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0.675867434"
       }
     },
     {
@@ -276,10 +231,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2349",
+      "detail": "Published phone: 0320341705 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2349"
+        "value": "0320341705 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +60320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "+60320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0445-4775-99",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0445-4775-99"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705 "
       }
     },
     {
@@ -294,10 +294,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: Consular.kl@mfa.gov.lk",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "Consular.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -307,24 +325,6 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -357,15 +357,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
@@ -375,73 +366,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2348 ",
+      "detail": "Published phone: 03) 2032 2349",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2348 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341705 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706 - ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341705",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03) 2032 2348",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "03) 2032 2348"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.675867434",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0.675867434"
+        "value": "03) 2032 2349"
       }
     },
     {
@@ -456,6 +384,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 320341706 - ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341706 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 03) 2032 2349 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
@@ -465,19 +402,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0445-4775-99",
+      "detail": "Published phone: 0320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "0445-4775-99"
+        "value": "0320341706"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +60320341705",
+      "detail": "Published phone: 0 320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "+60320341705"
+        "value": "0 320341706"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.675867434",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0.675867434"
       }
     },
     {
@@ -492,10 +447,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2349",
+      "detail": "Published phone: 0320341705 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2349"
+        "value": "0320341705 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +60320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "+60320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0445-4775-99",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0445-4775-99"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705 "
       }
     },
     {
@@ -510,10 +510,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: Consular.kl@mfa.gov.lk",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "Consular.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -523,24 +541,6 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -573,15 +573,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
@@ -591,73 +582,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2348 ",
+      "detail": "Published phone: 03) 2032 2349",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2348 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341705 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706 - ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341705",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03) 2032 2348",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "03) 2032 2348"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.675867434",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0.675867434"
+        "value": "03) 2032 2349"
       }
     },
     {
@@ -672,6 +600,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 320341706 - ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341706 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 03) 2032 2349 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
@@ -681,19 +618,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0445-4775-99",
+      "detail": "Published phone: 0320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "0445-4775-99"
+        "value": "0320341706"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +60320341705",
+      "detail": "Published phone: 0 320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "+60320341705"
+        "value": "0 320341706"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.675867434",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0.675867434"
       }
     },
     {
@@ -708,10 +663,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2349",
+      "detail": "Published phone: 0320341705 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2349"
+        "value": "0320341705 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +60320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "+60320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0445-4775-99",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0445-4775-99"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705 "
       }
     },
     {
@@ -726,10 +726,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: Consular.kl@mfa.gov.lk",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "Consular.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -739,24 +757,6 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -789,15 +789,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0 320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
@@ -807,73 +798,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2348 ",
+      "detail": "Published phone: 03) 2032 2349",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2348 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341705 ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341705 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706 - ",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706 - "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341705",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0 320341706",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0 320341706"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 03) 2032 2348",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "03) 2032 2348"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.675867434",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "0.675867434"
+        "value": "03) 2032 2349"
       }
     },
     {
@@ -888,6 +816,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0 320341706 - ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341706 - "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 03) 2032 2349 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
@@ -897,19 +834,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0445-4775-99",
+      "detail": "Published phone: 0320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "0445-4775-99"
+        "value": "0320341706"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +60320341705",
+      "detail": "Published phone: 0 320341706",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "+60320341705"
+        "value": "0 320341706"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.675867434",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0.675867434"
       }
     },
     {
@@ -924,10 +879,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 03) 2032 2349",
+      "detail": "Published phone: 0320341705 ",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
-        "value": "03) 2032 2349"
+        "value": "0320341705 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +60320341705",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "+60320341705"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 03) 2032 2348",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "03) 2032 2348"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0445-4775-99",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0445-4775-99"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0 320341705 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "0 320341705 "
       }
     },
     {
@@ -942,10 +942,28 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: Consular.kl@mfa.gov.lk",
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "Consular.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
+      "source": "https://www.hc-kualalumpur.gov.lk/en",
+      "data": {
+        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -955,24 +973,6 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -1000,6 +1000,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en",
       "data": {
         "value": "08/07/2026"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0320341705 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/contact",
+      "data": {
+        "value": "0320341705 "
       }
     },
     {
@@ -1030,12 +1039,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0320341705 ",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
       "source": "https://www.hc-kualalumpur.gov.lk/en/contact",
       "data": {
-        "value": "0320341705 "
+        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -1045,15 +1054,6 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/contact",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/contact",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -1077,6 +1077,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0320341705 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/history",
+      "data": {
+        "value": "0320341705 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/history",
       "data": {
@@ -1093,12 +1102,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0320341705 ",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
       "source": "https://www.hc-kualalumpur.gov.lk/en/history",
       "data": {
-        "value": "0320341705 "
+        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -1108,15 +1117,6 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/history",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/history",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -1140,6 +1140,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0320341705 ",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
+      "data": {
+        "value": "0320341705 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
       "data": {
@@ -1156,12 +1165,12 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 0320341705 ",
+      "detail": "Published email: slhc.kl@mfa.gov.lk",
       "source": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
       "data": {
-        "value": "0320341705 "
+        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -1171,15 +1180,6 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slhc.kl@mfa.gov.lk",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
-      "data": {
-        "value": "slhc.kl@mfa.gov.lk"
       }
     },
     {
@@ -1248,37 +1248,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 473 899",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
-      "data": {
-        "value": "+94 112 473 899"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112275575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
-      "data": {
-        "value": "+94112275575"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
       "data": {
         "value": "0320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
-      "data": {
-        "value": "+94 112 275 575"
       }
     },
     {
@@ -1293,6 +1266,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 275 575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
+      "data": {
+        "value": "+94 112 275 575"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +60320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
       "data": {
@@ -1300,12 +1282,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 473 899",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 473 899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112275575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
+      "data": {
+        "value": "+94112275575"
       }
     },
     {
@@ -1324,6 +1315,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
       "data": {
         "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1392,37 +1392,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 473 899",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
-      "data": {
-        "value": "+94 112 473 899"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112275575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
-      "data": {
-        "value": "+94112275575"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
       "data": {
         "value": "0320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
-      "data": {
-        "value": "+94 112 275 575"
       }
     },
     {
@@ -1437,6 +1410,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 275 575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
+      "data": {
+        "value": "+94 112 275 575"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +60320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
       "data": {
@@ -1444,12 +1426,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 473 899",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 473 899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112275575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
+      "data": {
+        "value": "+94112275575"
       }
     },
     {
@@ -1468,6 +1459,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
       "data": {
         "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1536,37 +1536,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 473 899",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
-      "data": {
-        "value": "+94 112 473 899"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112275575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
-      "data": {
-        "value": "+94112275575"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
       "data": {
         "value": "0320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
-      "data": {
-        "value": "+94 112 275 575"
       }
     },
     {
@@ -1581,6 +1554,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 275 575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
+      "data": {
+        "value": "+94 112 275 575"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +60320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
       "data": {
@@ -1588,12 +1570,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 473 899",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 473 899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112275575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
+      "data": {
+        "value": "+94112275575"
       }
     },
     {
@@ -1612,6 +1603,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
       "data": {
         "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1680,37 +1680,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 473 899",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
-      "data": {
-        "value": "+94 112 473 899"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112275575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
-      "data": {
-        "value": "+94112275575"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
       "data": {
         "value": "0320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
-      "data": {
-        "value": "+94 112 275 575"
       }
     },
     {
@@ -1725,6 +1698,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 275 575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
+      "data": {
+        "value": "+94 112 275 575"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +60320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
       "data": {
@@ -1732,12 +1714,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 473 899",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 473 899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112275575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
+      "data": {
+        "value": "+94112275575"
       }
     },
     {
@@ -1756,6 +1747,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
       "data": {
         "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1824,37 +1824,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 473 899",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
-      "data": {
-        "value": "+94 112 473 899"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112275575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
-      "data": {
-        "value": "+94112275575"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
       "data": {
         "value": "0320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
-      "data": {
-        "value": "+94 112 275 575"
       }
     },
     {
@@ -1869,6 +1842,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 275 575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
+      "data": {
+        "value": "+94 112 275 575"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +60320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
       "data": {
@@ -1876,12 +1858,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 473 899",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 473 899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112275575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
+      "data": {
+        "value": "+94112275575"
       }
     },
     {
@@ -1900,6 +1891,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
       "data": {
         "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -1968,37 +1968,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 473 899",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
-      "data": {
-        "value": "+94 112 473 899"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112275575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
-      "data": {
-        "value": "+94112275575"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
       "data": {
         "value": "0320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
-      "data": {
-        "value": "+94 112 275 575"
       }
     },
     {
@@ -2013,6 +1986,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 275 575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
+      "data": {
+        "value": "+94 112 275 575"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +60320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
       "data": {
@@ -2020,12 +2002,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 473 899",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 473 899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112275575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
+      "data": {
+        "value": "+94112275575"
       }
     },
     {
@@ -2044,6 +2035,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
       "data": {
         "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -2112,37 +2112,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 473 899",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
-      "data": {
-        "value": "+94 112 473 899"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94112275575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
-      "data": {
-        "value": "+94112275575"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
       "data": {
         "value": "0320341705"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 275 575",
-      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
-      "data": {
-        "value": "+94 112 275 575"
       }
     },
     {
@@ -2157,6 +2130,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 112 275 575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
+      "data": {
+        "value": "+94 112 275 575"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +60320341705",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
       "data": {
@@ -2164,12 +2146,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +94 112 473 899",
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
       "data": {
-        "value": "john@example.com"
+        "value": "+94 112 473 899"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94112275575",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
+      "data": {
+        "value": "+94112275575"
       }
     },
     {
@@ -2188,6 +2179,15 @@
       "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
       "data": {
         "value": "slhc.kl@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -2290,7 +2290,7 @@
         "https://www.hc-kualalumpur.gov.lk/",
         "https://www.hc-kualalumpur.gov.lk/en"
       ],
-      "elapsed_ms": 1544,
+      "elapsed_ms": 1845,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2302,7 +2302,7 @@
         "https://www.hc-kualalumpur.gov.lk/",
         "https://www.hc-kualalumpur.gov.lk/en"
       ],
-      "elapsed_ms": 1387,
+      "elapsed_ms": 2305,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2314,7 +2314,7 @@
         "https://www.hc-kualalumpur.gov.lk/",
         "https://www.hc-kualalumpur.gov.lk/en"
       ],
-      "elapsed_ms": 1105,
+      "elapsed_ms": 1973,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2326,7 +2326,7 @@
         "https://www.hc-kualalumpur.gov.lk/",
         "https://www.hc-kualalumpur.gov.lk/en"
       ],
-      "elapsed_ms": 1141,
+      "elapsed_ms": 1562,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2335,7 +2335,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-kualalumpur.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 724,
+      "elapsed_ms": 1040,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2344,7 +2344,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-kualalumpur.gov.lk/en/history",
       "redirects": [],
-      "elapsed_ms": 724,
+      "elapsed_ms": 1345,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2353,7 +2353,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
       "redirects": [],
-      "elapsed_ms": 1324,
+      "elapsed_ms": 998,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2362,7 +2362,7 @@
       "status_code": 200,
       "final_url": "https://www.hc-kualalumpur.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2407,
+      "elapsed_ms": 4243,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2373,7 +2373,7 @@
       "redirects": [
         "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf"
       ],
-      "elapsed_ms": 2993,
+      "elapsed_ms": 2536,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2384,7 +2384,7 @@
       "redirects": [
         "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5"
       ],
-      "elapsed_ms": 2959,
+      "elapsed_ms": 2492,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2395,7 +2395,7 @@
       "redirects": [
         "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73"
       ],
-      "elapsed_ms": 3204,
+      "elapsed_ms": 2703,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2406,7 +2406,7 @@
       "redirects": [
         "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0"
       ],
-      "elapsed_ms": 2230,
+      "elapsed_ms": 3758,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2417,7 +2417,7 @@
       "redirects": [
         "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59"
       ],
-      "elapsed_ms": 4387,
+      "elapsed_ms": 3905,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2428,7 +2428,7 @@
       "redirects": [
         "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c"
       ],
-      "elapsed_ms": 10172,
+      "elapsed_ms": 2914,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2436,86 +2436,86 @@
   "snapshots": [
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-01-6f311a896a73.html",
-      "sha256": "6f311a896a733b84bef3377b97442dd2a1698d8b8437c2964d7a0cf8a8c06c9a",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-01-3d32cbde91f2.html",
+      "sha256": "3d32cbde91f2ea3563ff170491a0bea252ab2ad9a7cb9b9977d12a791c52d7c3",
       "bytes": 304069
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-02-ac972a75aaca.html",
-      "sha256": "ac972a75aaca11093839b8d2aed3d1528f13dba5a3516906e93c405b063d68af",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-02-b726689d86f3.html",
+      "sha256": "b726689d86f3735a7b9b6b9cc5bdd8e0509469867e21997b690f28f8d8eca7db",
       "bytes": 304069
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-03-a03db2d76aaf.html",
-      "sha256": "a03db2d76aafc5587a0c68894766918ef3d6361350ce37b27a529eb26ab8471e",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-03-c5ca977edfa9.html",
+      "sha256": "c5ca977edfa98b30a26d429a933ccd6456420e8c316ce507aecd110fe8eb4482",
       "bytes": 304069
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-04-36a8b0ba9c3e.html",
-      "sha256": "36a8b0ba9c3ec916374b337cd384a4e6b0d5f23ab4cbae6a1907d23fa2f296b0",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-04-ee38e95856e7.html",
+      "sha256": "ee38e95856e71aef955453a4740a455d5dcee89e266533cdb285bfd2833c9bd8",
       "bytes": 304069
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/contact",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-05-4aa7d5b4fae4.html",
-      "sha256": "4aa7d5b4fae4a814386469ad705ec90aaab074c42d1c2ae2534d9b48a9b53e7b",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-05-737cea423ce7.html",
+      "sha256": "737cea423ce7a7dc2048414a97a9891244df9d88cc6d02b3359ae269cf9650ee",
       "bytes": 103750
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/history",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-06-7fe6f69a2309.html",
-      "sha256": "7fe6f69a2309d48cf0c8c6a85d3cf1680d860696601e72e256c4066e1a1f8dd4",
-      "bytes": 102003
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-06-0c6a63ab5569.html",
+      "sha256": "0c6a63ab55690bbce85bc3f1f271dea054a3525e7d525a0b475a1b82e1d6c40a",
+      "bytes": 101903
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/foreign-employment",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-07-0902a6575185.html",
-      "sha256": "0902a657518509ac65dfed098ebcc802588f1ba72d435047ad920236b5839aa5",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-07-2c5b518ebaf6.html",
+      "sha256": "2c5b518ebaf62cfd0a93f36fb57b83d8ba2628427c89db92427b88a727b9b814",
       "bytes": 150129
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/appointment",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-08-dbf42a13413f.html",
-      "sha256": "dbf42a13413f1f5ecb07de5115dc500301054b1b4b65278438c9e0b7d63d5ca9",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-08-dcbda32e319f.html",
+      "sha256": "dcbda32e319f599a59e43cf36229a7c65ea563d43c357a1af5507d6e3b8715cb",
       "bytes": 336828
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cea8e2cc9e022edb5caf",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-09-5a7bce38f930.html",
-      "sha256": "5a7bce38f93086c425562086e0ea75f8e87f0e7f7084675b99038c3decc5c732",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-09-4e9ca81fd58f.html",
+      "sha256": "4e9ca81fd58ff2b67b6a29f20103f3b72493a8c0158066d181218c9a41ce985f",
       "bytes": 336983
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce50c53da0f59bcbd9f5",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-10-ab75ec4f1a92.html",
-      "sha256": "ab75ec4f1a92c415a4df2e005997b911af57bba03072cad2ba4cbeb246383c1f",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-10-d5bcaae10e71.html",
+      "sha256": "d5bcaae10e7130b9d26f5f4500c1705206a2287065a07259ad277ae1ff109e8b",
       "bytes": 336983
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce60c53da0f59bcbda73",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-11-4a62a10e1ecf.html",
-      "sha256": "4a62a10e1ecff7019a01944b06011324bb020d3de5dd349b3a31163e902227b5",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-11-aebe25c99460.html",
+      "sha256": "aebe25c99460bbe3b90c05513cc94ca0537410970fdbc0b72e37d53d79e0d59d",
       "bytes": 336983
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce82c53da0f59bcbdae0",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-12-901a1cd30f6b.html",
-      "sha256": "901a1cd30f6b40921d95829372a5599c8075addb525e8710d4151c9142e81288",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-12-8d461ecbfe36.html",
+      "sha256": "8d461ecbfe36adfd634df1b21fe09494951c8a077d507c0f57f4aee8bc092152",
       "bytes": 336983
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82ce21e2cc9e022edb5b59",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-13-4dc0746015b7.html",
-      "sha256": "4dc0746015b7b7f053e4a2cb562dc5d3d9d6929f8691650ee77262f1af5b97c3",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-13-c78a940e5a04.html",
+      "sha256": "c78a940e5a0466db3fae6cea2ab3fea1cd8eb8c83cf90bba4ac5554546384228",
       "bytes": 336983
     },
     {
       "url": "https://www.hc-kualalumpur.gov.lk/en/appointment?serviceId=6a82cec4e2cc9e022edb5d2c",
-      "path": "audit.output/hc-kualalumpur.gov.lk/20260926.0630/snapshots/page-14-6b73dfede96e.html",
-      "sha256": "6b73dfede96ec7a1ee79260cd0090b96e0e831bf8b308ed4066df9e26f9cb2d3",
+      "path": "audit.output/hc-kualalumpur.gov.lk/20260927.0636/snapshots/page-14-021132ef9d9b.html",
+      "sha256": "021132ef9d9b112ea72853ccb1fbfe5a62d54a7210c8da4b1e7da4654ed70e47",
       "bytes": 336983
     }
   ],
@@ -2602,7 +2602,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: No. 9, Persiaran Ampang Hilir, Taman U-Thant, 55000 Kuala Lumpur, Malaysia. Tel: +60 320341705 , +60 320341706 - General; Phone: 0 320341705 (16 phone numbers found); Email: Consular.kl@mfa.gov.lk (4 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: No. 9, Persiaran Ampang Hilir, Taman U-Thant, 55000 Kuala Lumpur, Malaysia. Tel: +60 320341705 , +60 320341706 - General; Phone: 0320341705 (16 phone numbers found); Email: Consular.kl@mfa.gov.lk (4 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -2615,7 +2615,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0 320341705 (16 phone numbers found); Email: Consular.kl@mfa.gov.lk (4 email addresses found)"
+          "reason": "Phone: 0320341705 (16 phone numbers found); Email: Consular.kl@mfa.gov.lk (4 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2694,7 +2694,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

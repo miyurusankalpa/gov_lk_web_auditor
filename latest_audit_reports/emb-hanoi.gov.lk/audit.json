@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "a5ffaa5c-fbf6-4456-bdb0-a3b33b0f1930",
+  "audit_id": "159d6c80-0784-40c2-a200-ffb49fc1a2e9",
   "url": "https://emb-hanoi.gov.lk",
   "normalized_url": "https://emb-hanoi.gov.lk/",
-  "started_at": "2026-09-26T06:31:30.740222+05:30",
-  "completed_at": "2026-09-26T06:32:09.795895+05:30",
+  "started_at": "2026-09-27T06:36:48.555362+05:30",
+  "completed_at": "2026-09-27T06:37:37.669937+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:31:31.215718+05:30"
+      "observed_at": "2026-09-27T06:36:48.904927+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:31:31.215737+05:30"
+      "observed_at": "2026-09-27T06:36:48.904946+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:31:31.812549+05:30"
+      "observed_at": "2026-09-27T06:36:49.637391+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.emb-hanoi.gov.lk/en",
       "source": "https://emb-hanoi.gov.lk/",
-      "observed_at": "2026-09-26T06:32:08.092538+05:30"
+      "observed_at": "2026-09-27T06:37:35.517846+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.emb-hanoi.gov.lk/en",
       "source": "http://emb-hanoi.gov.lk/",
-      "observed_at": "2026-09-26T06:32:08.092559+05:30"
+      "observed_at": "2026-09-27T06:37:35.517863+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.emb-hanoi.gov.lk/en",
       "source": "https://emb-hanoi.gov.lk/",
-      "observed_at": "2026-09-26T06:32:08.092562+05:30"
+      "observed_at": "2026-09-27T06:37:35.517868+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.emb-hanoi.gov.lk/en",
       "source": "http://emb-hanoi.gov.lk/",
-      "observed_at": "2026-09-26T06:32:08.092565+05:30"
+      "observed_at": "2026-09-27T06:37:35.517871+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.emb-hanoi.gov.lk/en/contact",
       "source": "https://www.emb-hanoi.gov.lk/en/contact",
-      "observed_at": "2026-09-26T06:32:08.092568+05:30"
+      "observed_at": "2026-09-27T06:37:35.517874+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.emb-hanoi.gov.lk/en/other-services",
       "source": "https://www.emb-hanoi.gov.lk/en/other-services",
-      "observed_at": "2026-09-26T06:32:08.092571+05:30"
+      "observed_at": "2026-09-27T06:37:35.517878+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.emb-hanoi.gov.lk/en/agriculture",
       "source": "https://www.emb-hanoi.gov.lk/en/agriculture",
-      "observed_at": "2026-09-26T06:32:08.092573+05:30"
+      "observed_at": "2026-09-27T06:37:35.517881+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.emb-hanoi.gov.lk/en/appointment",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment",
-      "observed_at": "2026-09-26T06:32:08.092575+05:30"
+      "observed_at": "2026-09-27T06:37:35.517883+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
-      "observed_at": "2026-09-26T06:32:08.092578+05:30"
+      "observed_at": "2026-09-27T06:37:35.517886+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
-      "observed_at": "2026-09-26T06:32:08.092580+05:30"
+      "observed_at": "2026-09-27T06:37:35.517889+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
-      "observed_at": "2026-09-26T06:32:08.092583+05:30"
+      "observed_at": "2026-09-27T06:37:35.517892+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
-      "observed_at": "2026-09-26T06:32:08.092586+05:30"
+      "observed_at": "2026-09-27T06:37:35.517894+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
-      "observed_at": "2026-09-26T06:32:08.092588+05:30"
+      "observed_at": "2026-09-27T06:37:35.517897+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
-      "observed_at": "2026-09-26T06:32:08.092591+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0933296202",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0933296202"
-      }
+      "observed_at": "2026-09-27T06:37:35.517900+05:30"
     },
     {
       "check": "phone",
@@ -154,42 +145,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +842437341894",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "+842437341894"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0283535329",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0283535329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 028 353 532 9",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "028 353 532 9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 8424373418946",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "8424373418946"
       }
     },
     {
@@ -204,10 +159,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0310270009",
+      "detail": "Published phone: 8424373418946",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
-        "value": "0310270009"
+        "value": "8424373418946"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 028 353 532 9",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "028 353 532 9"
       }
     },
     {
@@ -222,10 +186,55 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0283535329",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0283535329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0933296202",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0933296202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +842437341894",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "+842437341894"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0933 296 202",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0310270009",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0310270009"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -235,6 +244,15 @@
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -249,28 +267,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: aluwiharemargo@gmail.com",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -303,55 +303,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0933296202",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0933296202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0933 296 202 ",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +842437341894",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "+842437341894"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0283535329",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0283535329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 028 353 532 9",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "028 353 532 9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 8424373418946",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "8424373418946"
       }
     },
     {
@@ -366,10 +321,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0310270009",
+      "detail": "Published phone: 8424373418946",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
-        "value": "0310270009"
+        "value": "8424373418946"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 028 353 532 9",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "028 353 532 9"
       }
     },
     {
@@ -384,10 +348,55 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0283535329",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0283535329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0933296202",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0933296202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +842437341894",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "+842437341894"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0933 296 202",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0310270009",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0310270009"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -397,6 +406,15 @@
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -411,28 +429,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: aluwiharemargo@gmail.com",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -465,55 +465,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0933296202",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0933296202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0933 296 202 ",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +842437341894",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "+842437341894"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0283535329",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0283535329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 028 353 532 9",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "028 353 532 9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 8424373418946",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "8424373418946"
       }
     },
     {
@@ -528,10 +483,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0310270009",
+      "detail": "Published phone: 8424373418946",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
-        "value": "0310270009"
+        "value": "8424373418946"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 028 353 532 9",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "028 353 532 9"
       }
     },
     {
@@ -546,10 +510,55 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0283535329",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0283535329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0933296202",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0933296202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +842437341894",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "+842437341894"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0933 296 202",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0310270009",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0310270009"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -559,6 +568,15 @@
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -573,28 +591,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: aluwiharemargo@gmail.com",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -627,55 +627,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0933296202",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0933296202"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0933 296 202 ",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +842437341894",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "+842437341894"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0283535329",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "0283535329"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 028 353 532 9",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "028 353 532 9"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 8424373418946",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "8424373418946"
       }
     },
     {
@@ -690,10 +645,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0310270009",
+      "detail": "Published phone: 8424373418946",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
-        "value": "0310270009"
+        "value": "8424373418946"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 028 353 532 9",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "028 353 532 9"
       }
     },
     {
@@ -708,10 +672,55 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0283535329",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0283535329"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0933296202",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0933296202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +842437341894",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "+842437341894"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0933 296 202",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "0933 296 202"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0310270009",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "0310270009"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -721,6 +730,15 @@
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -735,28 +753,10 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
       "detail": "Published email: aluwiharemargo@gmail.com",
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "aluwiharemargo@gmail.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -784,15 +784,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en",
       "data": {
         "value": "10 months"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +842437341894",
-      "source": "https://www.emb-hanoi.gov.lk/en/contact",
-      "data": {
-        "value": "+842437341894"
       }
     },
     {
@@ -805,12 +796,12 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/contact",
       "data": {
-        "value": "john@example.com"
+        "value": "+842437341894"
       }
     },
     {
@@ -820,6 +811,15 @@
       "source": "https://www.emb-hanoi.gov.lk/en/contact",
       "data": {
         "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: john@example.com",
+      "source": "https://www.emb-hanoi.gov.lk/en/contact",
+      "data": {
+        "value": "john@example.com"
       }
     },
     {
@@ -852,19 +852,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/other-services",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-hanoi.gov.lk/en/other-services",
       "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -906,19 +906,19 @@
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: john@example.com",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/agriculture",
       "data": {
-        "value": "john@example.com"
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
       "check": "email",
       "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "detail": "Published email: john@example.com",
       "source": "https://www.emb-hanoi.gov.lk/en/agriculture",
       "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
+        "value": "john@example.com"
       }
     },
     {
@@ -951,6 +951,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00-009-539-03",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment",
+      "data": {
+        "value": "00-009-539-03"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment",
       "data": {
@@ -967,12 +976,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00-009-539-03",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment",
       "data": {
-        "value": "00-009-539-03"
+        "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -982,24 +1000,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en/appointment",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1068,6 +1068,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00-009-539-03",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
+      "data": {
+        "value": "00-009-539-03"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
       "data": {
@@ -1084,12 +1093,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00-009-539-03",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
       "data": {
-        "value": "00-009-539-03"
+        "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1099,24 +1117,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1185,6 +1185,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00-009-539-03",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
+      "data": {
+        "value": "00-009-539-03"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
       "data": {
@@ -1201,12 +1210,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00-009-539-03",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
       "data": {
-        "value": "00-009-539-03"
+        "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1216,24 +1234,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1302,6 +1302,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00-009-539-03",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
+      "data": {
+        "value": "00-009-539-03"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
       "data": {
@@ -1318,12 +1327,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00-009-539-03",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
       "data": {
-        "value": "00-009-539-03"
+        "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1333,24 +1351,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1419,6 +1419,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00-009-539-03",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
+      "data": {
+        "value": "00-009-539-03"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
       "data": {
@@ -1435,12 +1444,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00-009-539-03",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
       "data": {
-        "value": "00-009-539-03"
+        "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1450,24 +1468,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1536,6 +1536,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00-009-539-03",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
+      "data": {
+        "value": "00-009-539-03"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
       "data": {
@@ -1552,12 +1561,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00-009-539-03",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
       "data": {
-        "value": "00-009-539-03"
+        "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1567,24 +1585,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1653,6 +1653,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 00-009-539-03",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
+      "data": {
+        "value": "00-009-539-03"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +842437341894",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
       "data": {
@@ -1669,12 +1678,21 @@
       }
     },
     {
-      "check": "phone",
+      "check": "email",
       "status": "pass",
-      "detail": "Published phone: 00-009-539-03",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
       "data": {
-        "value": "00-009-539-03"
+        "value": "slemb.hanoi@mfa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
+      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
+      "data": {
+        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1684,24 +1702,6 @@
       "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
       "data": {
         "value": "john@example.com"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: slemb.hanoi@mfa.gov.lk",
-      "source": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
-      "data": {
-        "value": "slemb.hanoi@mfa.gov.lk"
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "https://www.emb-hanoi.gov.lk/",
         "https://www.emb-hanoi.gov.lk/en"
       ],
-      "elapsed_ms": 1930,
+      "elapsed_ms": 3896,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1807,7 +1807,7 @@
         "https://www.emb-hanoi.gov.lk/",
         "https://www.emb-hanoi.gov.lk/en"
       ],
-      "elapsed_ms": 1285,
+      "elapsed_ms": 2572,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1819,7 +1819,7 @@
         "https://www.emb-hanoi.gov.lk/",
         "https://www.emb-hanoi.gov.lk/en"
       ],
-      "elapsed_ms": 1097,
+      "elapsed_ms": 1271,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1831,7 +1831,7 @@
         "https://www.emb-hanoi.gov.lk/",
         "https://www.emb-hanoi.gov.lk/en"
       ],
-      "elapsed_ms": 940,
+      "elapsed_ms": 1192,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1840,7 +1840,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/contact",
       "redirects": [],
-      "elapsed_ms": 1138,
+      "elapsed_ms": 1116,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1849,7 +1849,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/other-services",
       "redirects": [],
-      "elapsed_ms": 911,
+      "elapsed_ms": 856,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1858,7 +1858,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/agriculture",
       "redirects": [],
-      "elapsed_ms": 1157,
+      "elapsed_ms": 1673,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1867,7 +1867,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/appointment",
       "redirects": [],
-      "elapsed_ms": 2798,
+      "elapsed_ms": 5052,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1876,7 +1876,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
       "redirects": [],
-      "elapsed_ms": 3204,
+      "elapsed_ms": 2950,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1885,7 +1885,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
       "redirects": [],
-      "elapsed_ms": 2574,
+      "elapsed_ms": 2135,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1894,7 +1894,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
       "redirects": [],
-      "elapsed_ms": 2693,
+      "elapsed_ms": 3485,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1903,7 +1903,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
       "redirects": [],
-      "elapsed_ms": 3317,
+      "elapsed_ms": 3158,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1912,7 +1912,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
       "redirects": [],
-      "elapsed_ms": 2240,
+      "elapsed_ms": 3482,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -1921,7 +1921,7 @@
       "status_code": 200,
       "final_url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
       "redirects": [],
-      "elapsed_ms": 2940,
+      "elapsed_ms": 3018,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -1929,86 +1929,86 @@
   "snapshots": [
     {
       "url": "https://www.emb-hanoi.gov.lk/en",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-01-c5be3bd50487.html",
-      "sha256": "c5be3bd50487a2a1586c0007d41e1384f999c8be351d75cacd5115c44d3ec0a5",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-01-7f6073780f0c.html",
+      "sha256": "7f6073780f0cde5b36ea974539b4a2eae706f97feaebcde991a55ffc6a3a1e89",
       "bytes": 405896
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-02-19bed3dc72ca.html",
-      "sha256": "19bed3dc72ca39c96fa7bcb1c35b50443e99a163d93851e4bed20d9340fa2bdd",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-02-c94e9ed8b3b8.html",
+      "sha256": "c94e9ed8b3b84a2a19f8eb572ef08b662feb084f7fa0aca53a1cb01b1bede861",
       "bytes": 405896
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-03-b235197a1df9.html",
-      "sha256": "b235197a1df90146d729d731957998e3700ee89c918c66c8a26424db5d108d70",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-03-8a79ab4f1921.html",
+      "sha256": "8a79ab4f192111e64e08e85f6d62ae6c58a071f2511eb1b14baa6ce80d536309",
       "bytes": 405896
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-04-003de965ce58.html",
-      "sha256": "003de965ce58e0a932afa93dc5cb421d57da34f999e4063f78b4f28912810570",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-04-42e525e68eb4.html",
+      "sha256": "42e525e68eb4b7ff167bf09f4a1d2e4634510df1191163bd0d0b1f837ecd63bf",
       "bytes": 405896
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/contact",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-05-3a8b61efd3a7.html",
-      "sha256": "3a8b61efd3a7a640f12c22bde26a40ce80f04fc1bafff88209bce3b491e9d047",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-05-a6c56ff7132f.html",
+      "sha256": "a6c56ff7132f355aa3c14eadc17d412b23a787b80415c0ae0b1275c5ea46ec34",
       "bytes": 94726
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/other-services",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-06-4986596a3e57.html",
-      "sha256": "4986596a3e579695673c9b9d90d5a2c3e88d1a4e94f343d29e361b6c56ab4947",
-      "bytes": 86834
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-06-1567405ef364.html",
+      "sha256": "1567405ef364c4b12a3639bb684cebb96ff0545ef8600f3071e202d6b2286ada",
+      "bytes": 86734
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/agriculture",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-07-6e39bf6ee302.html",
-      "sha256": "6e39bf6ee302de989f044694cfae6fa856a8dc5bfd4a4c06ff33e613b78e93b8",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-07-14f4b84a9b6b.html",
+      "sha256": "14f4b84a9b6b07f0fcaeed8c3e720a8252069a7af95da8ff97c5cd4e0bb1818c",
       "bytes": 92568
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/appointment",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-08-c1329e85b6ca.html",
-      "sha256": "c1329e85b6ca400c451c47afa88b1f468a39ac4fff6d2c3688c2051d7d26ee6e",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-08-b948ae7c0813.html",
+      "sha256": "b948ae7c081393e8763d0ae4585007022c6396c3e8b08ffdcd2e5329afde2423",
       "bytes": 332526
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499f59f3f32d638b9dc44",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-09-8c4d7de83ff0.html",
-      "sha256": "8c4d7de83ff0295dd18d9f9e3de6e3b1a3f45dfcb1ee52b4cce5e7950ef87ab2",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-09-af5b7ec27c7b.html",
+      "sha256": "af5b7ec27c7b9485772f90b20ec6eb301460d01dd056a613b1a45ee242711cc4",
       "bytes": 332681
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499e29f3f32d638b9dbff",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-10-a717c6305008.html",
-      "sha256": "a717c630500898947c05b0f496d90bb4232eac94a5c8c9d836906cadbaf12695",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-10-364318a92b83.html",
+      "sha256": "364318a92b836edb23b347a8ccd66c155669a0fec23ef2184dab58c4a36fae25",
       "bytes": 332681
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499bdad68495119a48604",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-11-804550b16a1f.html",
-      "sha256": "804550b16a1f2d6998b7c04624b06f334ee8d350007e0b1851fda950f59d6a1a",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-11-55f10d7caf79.html",
+      "sha256": "55f10d7caf79a9097b34d198262b06058e0f7c15a35df0b550ef07120728c2f1",
       "bytes": 332681
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a039f3f32d638b9dc6f",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-12-c66be2d35e09.html",
-      "sha256": "c66be2d35e095826cf78e1fa98ac733361a1e28dd15777f28618cb2e6e2951f9",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-12-8f66034a475d.html",
+      "sha256": "8f66034a475d34b286f20c328e4b967a6a9f43e209cc5ec19b00c6412d50dfa9",
       "bytes": 332681
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a5499729f3f32d638b9d176",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-13-1d8e5d886942.html",
-      "sha256": "1d8e5d8869424e12ab80d881c07c870fdbc8e594cc30c4482b508a7a944d041e",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-13-5995631c7cf6.html",
+      "sha256": "5995631c7cf6b77143874570b8b11493fe6e4b1c9a300420f1f23b642d3be829",
       "bytes": 332681
     },
     {
       "url": "https://www.emb-hanoi.gov.lk/en/appointment?serviceId=6a549a459f3f32d638b9dfaf",
-      "path": "audit.output/emb-hanoi.gov.lk/20260926.0631/snapshots/page-14-78f2254ee488.html",
-      "sha256": "78f2254ee488161096d8635a0691ba616881d60d5b3d97c7bd7a7d0db5975e33",
+      "path": "audit.output/emb-hanoi.gov.lk/20260927.0636/snapshots/page-14-7de8ad419244.html",
+      "sha256": "7de8ad419244479884b2ee1bf4a0e7fb27451281e700e83b0bdbddd09950a571",
       "bytes": 332681
     }
   ],
@@ -2095,7 +2095,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: (Optional)\\\",\\\"validation_nic_full_format\\\":\\\"Invalid NIC format. Use 9 digits + V/X or 12 digits\\\",\\\"validation_issue_d; Phone: 0933296202 (13 phone numbers found); Email: aluwiharemargo@gmail.com (3 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: (Optional)\\\",\\\"validation_nic_full_format\\\":\\\"Invalid NIC format. Use 9 digits + V/X or 12 digits\\\",\\\"validation_issue_d; Phone: 0933 296 202 (13 phone numbers found); Email: slemb.hanoi@mfa.gov.lk (3 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -2108,7 +2108,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0933296202 (13 phone numbers found); Email: aluwiharemargo@gmail.com (3 email addresses found)"
+          "reason": "Phone: 0933 296 202 (13 phone numbers found); Email: slemb.hanoi@mfa.gov.lk (3 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2187,7 +2187,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

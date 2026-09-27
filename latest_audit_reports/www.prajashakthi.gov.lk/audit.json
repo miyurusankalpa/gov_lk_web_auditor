@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "67c42feb-2295-4595-91cc-b1b51cf842c4",
+  "audit_id": "ff2b46b4-8e8c-423c-8f48-1f43714e06c8",
   "url": "https://www.prajashakthi.gov.lk/",
   "normalized_url": "https://www.prajashakthi.gov.lk/",
-  "started_at": "2026-09-26T07:16:37.103810+05:30",
-  "completed_at": "2026-09-26T07:16:54.205247+05:30",
+  "started_at": "2026-09-27T07:08:12.706287+05:30",
+  "completed_at": "2026-09-27T07:08:32.378357+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,126 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T07:16:37.664154+05:30"
+      "observed_at": "2026-09-27T07:08:13.365221+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T07:16:37.664171+05:30"
+      "observed_at": "2026-09-27T07:08:13.365242+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T07:16:37.688767+05:30"
+      "observed_at": "2026-09-27T07:08:13.379092+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.prajashakthi.gov.lk/",
       "source": "https://www.prajashakthi.gov.lk/",
-      "observed_at": "2026-09-26T07:16:53.955860+05:30"
+      "observed_at": "2026-09-27T07:08:30.823001+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.prajashakthi.gov.lk/",
       "source": "http://www.prajashakthi.gov.lk/",
-      "observed_at": "2026-09-26T07:16:53.955880+05:30"
+      "observed_at": "2026-09-27T07:08:30.823027+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.prajashakthi.gov.lk/",
       "source": "https://www.prajashakthi.gov.lk/",
-      "observed_at": "2026-09-26T07:16:53.955884+05:30"
+      "observed_at": "2026-09-27T07:08:30.823034+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.prajashakthi.gov.lk/",
       "source": "http://www.prajashakthi.gov.lk/",
-      "observed_at": "2026-09-26T07:16:53.955886+05:30"
+      "observed_at": "2026-09-27T07:08:30.823040+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.prajashakthi.gov.lk/contact/",
       "source": "https://www.prajashakthi.gov.lk/contact/",
-      "observed_at": "2026-09-26T07:16:53.955888+05:30"
+      "observed_at": "2026-09-27T07:08:30.823046+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.prajashakthi.gov.lk/news-detail/divisional-secretaries-briefed-on-2026-development-programmes/",
       "source": "https://www.prajashakthi.gov.lk/news-detail/divisional-secretaries-briefed-on-2026-development-programmes/",
-      "observed_at": "2026-09-26T07:16:53.955891+05:30"
+      "observed_at": "2026-09-27T07:08:30.823052+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.prajashakthi.gov.lk/terms-of-service/",
       "source": "https://www.prajashakthi.gov.lk/terms-of-service/",
-      "observed_at": "2026-09-26T07:16:53.955893+05:30"
+      "observed_at": "2026-09-27T07:08:30.823057+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.prajashakthi.gov.lk/about/",
       "source": "https://www.prajashakthi.gov.lk/about/",
-      "observed_at": "2026-09-26T07:16:53.955895+05:30"
+      "observed_at": "2026-09-27T07:08:30.823063+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.prajashakthi.gov.lk/our-programs/",
       "source": "https://www.prajashakthi.gov.lk/our-programs/",
-      "observed_at": "2026-09-26T07:16:53.955898+05:30"
+      "observed_at": "2026-09-27T07:08:30.823068+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.prajashakthi.gov.lk/local-cdc/",
       "source": "https://www.prajashakthi.gov.lk/local-cdc/",
-      "observed_at": "2026-09-26T07:16:53.955900+05:30"
+      "observed_at": "2026-09-27T07:08:30.823074+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.prajashakthi.gov.lk/news-detail/prajashakthi-first-training-of-trainers-programme/",
       "source": "https://www.prajashakthi.gov.lk/news-detail/prajashakthi-first-training-of-trainers-programme/",
-      "observed_at": "2026-09-26T07:16:53.955902+05:30"
+      "observed_at": "2026-09-27T07:08:30.823079+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.prajashakthi.gov.lk/news-detail/the-national-movement-for-eradicating-poverty-was-launched/",
       "source": "https://www.prajashakthi.gov.lk/news-detail/the-national-movement-for-eradicating-poverty-was-launched/",
-      "observed_at": "2026-09-26T07:16:53.955904+05:30"
+      "observed_at": "2026-09-27T07:08:30.823084+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.prajashakthi.gov.lk/circulars/",
       "source": "https://www.prajashakthi.gov.lk/circulars/",
-      "observed_at": "2026-09-26T07:16:53.955906+05:30"
+      "observed_at": "2026-09-27T07:08:30.823090+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.prajashakthi.gov.lk/all-news/",
       "source": "https://www.prajashakthi.gov.lk/all-news/",
-      "observed_at": "2026-09-26T07:16:53.955908+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
-      "source": "https://www.prajashakthi.gov.lk/",
-      "data": {
-        "value": "+94 11 235 4354 "
-      }
+      "observed_at": "2026-09-27T07:08:30.823095+05:30"
     },
     {
       "check": "phone",
@@ -154,6 +145,15 @@
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
         "value": "+94-11-2354354"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 235 4354 ",
+      "source": "https://www.prajashakthi.gov.lk/",
+      "data": {
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -177,19 +177,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -213,19 +213,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -249,19 +249,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -280,15 +280,6 @@
       "source": "https://www.prajashakthi.gov.lk/",
       "data": {
         "value": "gazette"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
-      "source": "https://www.prajashakthi.gov.lk/contact/",
-      "data": {
-        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -298,6 +289,15 @@
       "source": "https://www.prajashakthi.gov.lk/contact/",
       "data": {
         "value": "+94-11-2354354"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 235 4354 ",
+      "source": "https://www.prajashakthi.gov.lk/contact/",
+      "data": {
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -330,19 +330,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/news-detail/divisional-secretaries-briefed-on-2026-development-programmes/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/news-detail/divisional-secretaries-briefed-on-2026-development-programmes/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -366,19 +366,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/terms-of-service/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/terms-of-service/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -402,19 +402,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/about/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/about/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -447,19 +447,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/our-programs/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/our-programs/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -483,19 +483,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/local-cdc/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/local-cdc/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -528,19 +528,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/news-detail/prajashakthi-first-training-of-trainers-programme/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/news-detail/prajashakthi-first-training-of-trainers-programme/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -564,19 +564,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/news-detail/the-national-movement-for-eradicating-poverty-was-launched/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/news-detail/the-national-movement-for-eradicating-poverty-was-launched/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -600,19 +600,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
+      "detail": "Published phone: +94-11-2354354",
       "source": "https://www.prajashakthi.gov.lk/circulars/",
       "data": {
-        "value": "+94 11 235 4354 "
+        "value": "+94-11-2354354"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94-11-2354354",
+      "detail": "Published phone: +94 11 235 4354 ",
       "source": "https://www.prajashakthi.gov.lk/circulars/",
       "data": {
-        "value": "+94-11-2354354"
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -631,15 +631,6 @@
       "source": "https://www.prajashakthi.gov.lk/circulars/",
       "data": {
         "value": "gazette"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 11 235 4354 ",
-      "source": "https://www.prajashakthi.gov.lk/all-news/",
-      "data": {
-        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -649,6 +640,15 @@
       "source": "https://www.prajashakthi.gov.lk/all-news/",
       "data": {
         "value": "+94-11-2354354"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 11 235 4354 ",
+      "source": "https://www.prajashakthi.gov.lk/all-news/",
+      "data": {
+        "value": "+94 11 235 4354 "
       }
     },
     {
@@ -708,7 +708,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 849,
+      "elapsed_ms": 510,
       "content_type": "text/html",
       "error": null
     },
@@ -719,7 +719,7 @@
       "redirects": [
         "https://www.prajashakthi.gov.lk/"
       ],
-      "elapsed_ms": 806,
+      "elapsed_ms": 531,
       "content_type": "text/html",
       "error": null
     },
@@ -728,7 +728,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/",
       "redirects": [],
-      "elapsed_ms": 804,
+      "elapsed_ms": 558,
       "content_type": "text/html",
       "error": null
     },
@@ -739,7 +739,7 @@
       "redirects": [
         "https://www.prajashakthi.gov.lk/"
       ],
-      "elapsed_ms": 421,
+      "elapsed_ms": 517,
       "content_type": "text/html",
       "error": null
     },
@@ -748,7 +748,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/contact/",
       "redirects": [],
-      "elapsed_ms": 269,
+      "elapsed_ms": 400,
       "content_type": "text/html",
       "error": null
     },
@@ -757,7 +757,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/news-detail/divisional-secretaries-briefed-on-2026-development-programmes/",
       "redirects": [],
-      "elapsed_ms": 655,
+      "elapsed_ms": 210,
       "content_type": "text/html",
       "error": null
     },
@@ -766,7 +766,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/terms-of-service/",
       "redirects": [],
-      "elapsed_ms": 266,
+      "elapsed_ms": 167,
       "content_type": "text/html",
       "error": null
     },
@@ -775,7 +775,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/about/",
       "redirects": [],
-      "elapsed_ms": 274,
+      "elapsed_ms": 183,
       "content_type": "text/html",
       "error": null
     },
@@ -784,7 +784,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/our-programs/",
       "redirects": [],
-      "elapsed_ms": 280,
+      "elapsed_ms": 416,
       "content_type": "text/html",
       "error": null
     },
@@ -793,7 +793,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/local-cdc/",
       "redirects": [],
-      "elapsed_ms": 269,
+      "elapsed_ms": 411,
       "content_type": "text/html",
       "error": null
     },
@@ -802,7 +802,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/news-detail/prajashakthi-first-training-of-trainers-programme/",
       "redirects": [],
-      "elapsed_ms": 305,
+      "elapsed_ms": 170,
       "content_type": "text/html",
       "error": null
     },
@@ -811,7 +811,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/news-detail/the-national-movement-for-eradicating-poverty-was-launched/",
       "redirects": [],
-      "elapsed_ms": 252,
+      "elapsed_ms": 420,
       "content_type": "text/html",
       "error": null
     },
@@ -820,7 +820,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/circulars/",
       "redirects": [],
-      "elapsed_ms": 266,
+      "elapsed_ms": 330,
       "content_type": "text/html",
       "error": null
     },
@@ -829,7 +829,7 @@
       "status_code": 200,
       "final_url": "https://www.prajashakthi.gov.lk/all-news/",
       "redirects": [],
-      "elapsed_ms": 257,
+      "elapsed_ms": 1364,
       "content_type": "text/html",
       "error": null
     }
@@ -837,86 +837,86 @@
   "snapshots": [
     {
       "url": "https://www.prajashakthi.gov.lk/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-01-06a62971edc4.html",
-      "sha256": "06a62971edc4880a23cfdcb9433bb43abba8b1c14b0909b5475e540d51047b1f",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-01-60fd91134c99.html",
+      "sha256": "60fd91134c9930eb0fe3f8ba356b5f839ed58c58405a86bbd8578dd79f9ecf32",
       "bytes": 48462
     },
     {
       "url": "https://www.prajashakthi.gov.lk/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-02-042230b3ce6e.html",
-      "sha256": "042230b3ce6edf07499e9c550f160939c2b09b24a7124ce7a5f2e6e4d1a755ea",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-02-34059dd1e970.html",
+      "sha256": "34059dd1e9708e5121e4dad57c8311cfd221ce8bf5965fcd36cfe5cefc14b14f",
       "bytes": 48462
     },
     {
       "url": "https://www.prajashakthi.gov.lk/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-03-a5048019a569.html",
-      "sha256": "a5048019a569b39104727c5e7fe06037094d38ba19a198fa5504124852e5e9bb",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-03-3165ffe2eb63.html",
+      "sha256": "3165ffe2eb6351aa6546ba841a66c1218a9f1de18945af1178dc4d767106a968",
       "bytes": 48462
     },
     {
       "url": "https://www.prajashakthi.gov.lk/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-04-1c338110b7db.html",
-      "sha256": "1c338110b7db4656576ccfb66b8161f3bea5ccca0078407aacfd4888e31a51c6",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-04-54f09e5f349f.html",
+      "sha256": "54f09e5f349fba71089abcf330f2bdf19f34ca5514dc116330b83dcddb5c020a",
       "bytes": 48462
     },
     {
       "url": "https://www.prajashakthi.gov.lk/contact/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-05-46a85d195a05.html",
-      "sha256": "46a85d195a05b295102a3aaad2d11106a7be176af592198471c1f7fa190b9650",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-05-4489530f3263.html",
+      "sha256": "4489530f326330d649d2b593fef6e8560b050c0593af6d319c84a5d4acbe089c",
       "bytes": 35487
     },
     {
       "url": "https://www.prajashakthi.gov.lk/news-detail/divisional-secretaries-briefed-on-2026-development-programmes/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-06-300be4ee54ff.html",
-      "sha256": "300be4ee54ff4eec8da79031eb7e3f49b8e08f499f9996dea333935f5da20709",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-06-53e76bfa2136.html",
+      "sha256": "53e76bfa21366b87caa1a8628fc7ffb8d193eed6f307022baf0d54f23595878e",
       "bytes": 35127
     },
     {
       "url": "https://www.prajashakthi.gov.lk/terms-of-service/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-07-d994dbdb833d.html",
-      "sha256": "d994dbdb833dd0987e2b9c76a110fd003b9b4c33f99626e5aff0500367f877ab",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-07-b229af43588f.html",
+      "sha256": "b229af43588faf0ff090672ac1b4f7663b24fb573a7fc443e81e7a817082a419",
       "bytes": 33650
     },
     {
       "url": "https://www.prajashakthi.gov.lk/about/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-08-6451434d9cbb.html",
-      "sha256": "6451434d9cbb0b59ca64592b3fd2604e95f83f1ed5b0f73cd8465aa00172cda3",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-08-4177f8898528.html",
+      "sha256": "4177f88985280f063b7d971088e4f541e8e1de4c4a317855be690b7125360045",
       "bytes": 41736
     },
     {
       "url": "https://www.prajashakthi.gov.lk/our-programs/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-09-26da4d2234f7.html",
-      "sha256": "26da4d2234f72020e6b8ecddeb5293e55a1fd6aae70690876a3e913e036e7d00",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-09-dcf4d6c8b46a.html",
+      "sha256": "dcf4d6c8b46a439ca3de80f1b043a16bced23403035e4f0a35fc73533d62f360",
       "bytes": 34362
     },
     {
       "url": "https://www.prajashakthi.gov.lk/local-cdc/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-10-a7c1dbe6cc0f.html",
-      "sha256": "a7c1dbe6cc0f328fd1a1625edae1613a9ceb307ff46b2a5f2b7d8fec3925e33e",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-10-71db5459a196.html",
+      "sha256": "71db5459a196878c35f96360220e65d4db6dae2f275b20799a90af6951e75c7c",
       "bytes": 36582
     },
     {
       "url": "https://www.prajashakthi.gov.lk/news-detail/prajashakthi-first-training-of-trainers-programme/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-11-417f38e4108c.html",
-      "sha256": "417f38e4108cdf625b6f25660193e739306888636a7f10c038634fefdce63f8f",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-11-0e9c9a919b55.html",
+      "sha256": "0e9c9a919b55ad515dd3b08a4453904d959a54c3bb9d24baf4e7d4401b352c10",
       "bytes": 34869
     },
     {
       "url": "https://www.prajashakthi.gov.lk/news-detail/the-national-movement-for-eradicating-poverty-was-launched/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-12-463492ace4b7.html",
-      "sha256": "463492ace4b71824a550043273c45ffefab689b9e8f52e25d2943b97bbe48788",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-12-99dc74d42399.html",
+      "sha256": "99dc74d423997bd04da8b3d2a3293c0229c4e4bb808a4dc6d34e69899f39d632",
       "bytes": 34919
     },
     {
       "url": "https://www.prajashakthi.gov.lk/circulars/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-13-4f2d5861b10c.html",
-      "sha256": "4f2d5861b10c057d75897520223fbe1e4a7f9df20699d01c87cd88ec6d3da69e",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-13-8f71d6672776.html",
+      "sha256": "8f71d6672776f592fdb1163188da91139bb847a7adc8d6ed2da4a8ee46c68859",
       "bytes": 34013
     },
     {
       "url": "https://www.prajashakthi.gov.lk/all-news/",
-      "path": "audit.output/www.prajashakthi.gov.lk/20260926.0716/snapshots/page-14-296fd738bebb.html",
-      "sha256": "296fd738bebb9f3d586dfe0917b391ccd8a5f4f81b9cf38bf49e2d1dbc094382",
+      "path": "audit.output/www.prajashakthi.gov.lk/20260927.0708/snapshots/page-14-8ed914e6d5c6.html",
+      "sha256": "8ed914e6d5c6ba2037e03f41e4959f9aa4115794e55569114d3aec82ecf67817",
       "bytes": 40266
     }
   ],
@@ -1052,7 +1052,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false

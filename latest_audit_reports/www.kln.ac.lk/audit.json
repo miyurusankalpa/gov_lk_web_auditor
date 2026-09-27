@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
-  "audit_id": "93a87fa8-167b-400d-a609-ead2eb154f0c",
+  "audit_id": "1e4bb3f5-99e2-4348-918d-dcbf6c070fba",
   "url": "http://www.kln.ac.lk/",
   "normalized_url": "http://www.kln.ac.lk/",
-  "started_at": "2026-09-26T06:13:39.626140+05:30",
-  "completed_at": "2026-09-26T06:14:08.808552+05:30",
+  "started_at": "2026-09-27T06:20:12.287033+05:30",
+  "completed_at": "2026-09-27T06:20:46.907067+05:30",
   "result": {
     "status": "pass",
     "confidence": 1.0,
@@ -26,153 +26,117 @@
       "check": "dns",
       "status": "pass",
       "detail": "Public DNS resolved",
-      "observed_at": "2026-09-26T06:13:40.187509+05:30"
+      "observed_at": "2026-09-27T06:20:13.179945+05:30"
     },
     {
       "check": "domain_registration",
       "status": "error",
       "detail": "Domain is absent from RDAP",
-      "observed_at": "2026-09-26T06:13:40.187526+05:30"
+      "observed_at": "2026-09-27T06:20:13.179963+05:30"
     },
     {
       "check": "tls",
       "status": "pass",
       "detail": "TLS certificate valid",
-      "observed_at": "2026-09-26T06:13:40.215853+05:30"
+      "observed_at": "2026-09-27T06:20:13.199575+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 1: HTTP 200 at https://www.kln.ac.lk/",
       "source": "https://www.kln.ac.lk/",
-      "observed_at": "2026-09-26T06:13:55.453965+05:30"
+      "observed_at": "2026-09-27T06:20:28.339031+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 2: HTTP 200 at https://www.kln.ac.lk/",
       "source": "http://www.kln.ac.lk/",
-      "observed_at": "2026-09-26T06:13:55.453985+05:30"
+      "observed_at": "2026-09-27T06:20:28.339048+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 3: HTTP 200 at https://www.kln.ac.lk/",
       "source": "https://www.kln.ac.lk/",
-      "observed_at": "2026-09-26T06:13:55.453988+05:30"
+      "observed_at": "2026-09-27T06:20:28.339053+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 4: HTTP 200 at https://www.kln.ac.lk/",
       "source": "http://www.kln.ac.lk/",
-      "observed_at": "2026-09-26T06:13:55.453991+05:30"
+      "observed_at": "2026-09-27T06:20:28.339056+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 5: HTTP 200 at https://www.kln.ac.lk/about/officers",
       "source": "https://www.kln.ac.lk/about/officers",
-      "observed_at": "2026-09-26T06:13:55.453993+05:30"
+      "observed_at": "2026-09-27T06:20:28.339059+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 6: HTTP 200 at https://www.kln.ac.lk/academics/departments",
       "source": "https://www.kln.ac.lk/academics/departments",
-      "observed_at": "2026-09-26T06:13:55.453996+05:30"
+      "observed_at": "2026-09-27T06:20:28.339062+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 7: HTTP 200 at https://www.kln.ac.lk/services/lms-zoom-eservices",
       "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "observed_at": "2026-09-26T06:13:55.453998+05:30"
+      "observed_at": "2026-09-27T06:20:28.339065+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 8: HTTP 200 at https://www.kln.ac.lk/services/marshal-office",
       "source": "https://www.kln.ac.lk/services/marshal-office",
-      "observed_at": "2026-09-26T06:13:55.454000+05:30"
+      "observed_at": "2026-09-27T06:20:28.339067+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 9: HTTP 200 at https://www.kln.ac.lk/services/security-service",
       "source": "https://www.kln.ac.lk/services/security-service",
-      "observed_at": "2026-09-26T06:13:55.454003+05:30"
+      "observed_at": "2026-09-27T06:20:28.339070+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 10: HTTP 200 at https://www.kln.ac.lk/services/supplier-registration",
       "source": "https://www.kln.ac.lk/services/supplier-registration",
-      "observed_at": "2026-09-26T06:13:55.454005+05:30"
+      "observed_at": "2026-09-27T06:20:28.339072+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 11: HTTP 200 at https://www.kln.ac.lk/contact",
       "source": "https://www.kln.ac.lk/contact",
-      "observed_at": "2026-09-26T06:13:55.454007+05:30"
+      "observed_at": "2026-09-27T06:20:28.339075+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 12: HTTP 200 at https://www.kln.ac.lk/home",
       "source": "https://www.kln.ac.lk/home",
-      "observed_at": "2026-09-26T06:13:55.454009+05:30"
+      "observed_at": "2026-09-27T06:20:28.339078+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 13: HTTP 200 at https://www.kln.ac.lk/about/chancellor",
       "source": "https://www.kln.ac.lk/about/chancellor",
-      "observed_at": "2026-09-26T06:13:55.454011+05:30"
+      "observed_at": "2026-09-27T06:20:28.339080+05:30"
     },
     {
       "check": "http",
       "status": "pass",
       "detail": "Probe 14: HTTP 200 at https://www.kln.ac.lk/about/vice-chancellor",
       "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "observed_at": "2026-09-26T06:13:55.454013+05:30"
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383420382",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0383420382"
-      }
+      "observed_at": "2026-09-27T06:20:28.339083+05:30"
     },
     {
       "check": "phone",
@@ -181,42 +145,6 @@
       "source": "https://www.kln.ac.lk/",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383420374",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0383420374"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -231,10 +159,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -249,10 +186,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0470213299",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.319999992"
+        "value": "0470213299"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.540000021"
       }
     },
     {
@@ -267,118 +213,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.119999997"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.100000001",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.100000001"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383422325",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0383422325"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383422332",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0383422332"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.150000006)",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0588235294"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0810810810",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0810810810"
+        "value": "0.319999992"
       }
     },
     {
@@ -393,6 +231,105 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0470213289",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0470213289"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0828025477",
       "source": "https://www.kln.ac.lk/",
       "data": {
@@ -402,10 +339,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0.540000021",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.319999992"
+        "value": "0.540000021"
       }
     },
     {
@@ -420,100 +357,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.119999997"
+        "value": "0.319999992"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.100000001",
+      "detail": "Published phone: 0470215257",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.100000001"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.150000006)",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0588235294"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0810810810",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0810810810"
+        "value": "0470215257"
       }
     },
     {
@@ -528,6 +384,105 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0470215265",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0470215265"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0828025477",
       "source": "https://www.kln.ac.lk/",
       "data": {
@@ -537,19 +492,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383423336",
+      "detail": "Published phone: 0470216249",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0383423336"
+        "value": "0470216249"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0.540000021",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.319999992"
+        "value": "0.540000021"
       }
     },
     {
@@ -564,118 +519,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.119999997"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383423344",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0383423344"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.100000001",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.100000001"
-      }
-    },
-    {
-      "check": "named_responsibility",
-      "status": "pass",
-      "detail": "Published named responsibility: department",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "department"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.150000006)",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383425413",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0383425413"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0588235294"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0810810810",
-      "source": "https://www.kln.ac.lk/",
-      "data": {
-        "value": "0810810810"
+        "value": "0.319999992"
       }
     },
     {
@@ -690,10 +537,109 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383425421",
+      "detail": "Published phone: 0.029999999",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0383425421"
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470216261",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0470216261"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "named_responsibility",
+      "status": "pass",
+      "detail": "Published named responsibility: department",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "department"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.150000006)",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.150000006)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0810810810",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0810810810"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.200000003)",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0389610389"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470218327",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0470218327"
       }
     },
     {
@@ -708,10 +654,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0.540000021",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.319999992"
+        "value": "0.540000021"
       }
     },
     {
@@ -726,10 +672,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/",
       "data": {
-        "value": "0.119999997"
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470218337",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0470218337"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.029999999"
       }
     },
     {
@@ -739,6 +712,33 @@
       "source": "https://www.kln.ac.lk/",
       "data": {
         "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/",
+      "data": {
+        "value": "0588235294"
       }
     },
     {
@@ -753,73 +753,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/about/officers",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383426336",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0383426336"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -834,10 +771,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/about/officers",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -847,6 +793,24 @@
       "source": "https://www.kln.ac.lk/about/officers",
       "data": {
         "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0927835051"
       }
     },
     {
@@ -870,10 +834,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0927835051",
+      "detail": "Published phone: 0256410256",
       "source": "https://www.kln.ac.lk/about/officers",
       "data": {
-        "value": "0927835051"
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470219279",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0470219279"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470219281",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0470219281"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/about/officers",
+      "data": {
+        "value": "0.100000001"
       }
     },
     {
@@ -888,19 +897,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383426338",
+      "detail": "Published phone: 0588235294",
       "source": "https://www.kln.ac.lk/about/officers",
       "data": {
-        "value": "0383426338"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.100000001",
-      "source": "https://www.kln.ac.lk/about/officers",
-      "data": {
-        "value": "0.100000001"
+        "value": "0588235294"
       }
     },
     {
@@ -933,82 +933,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383427333",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0383427333"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/academics/departments",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0588235294"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383427328",
-      "source": "https://www.kln.ac.lk/academics/departments",
-      "data": {
-        "value": "0383427328"
       }
     },
     {
@@ -1023,10 +951,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/academics/departments",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -1041,10 +978,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0.540000021",
       "source": "https://www.kln.ac.lk/academics/departments",
       "data": {
-        "value": "0.319999992"
+        "value": "0.540000021"
       }
     },
     {
@@ -1059,10 +996,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/academics/departments",
       "data": {
-        "value": "0.119999997"
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470220308",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0470220308"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470220303",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0470220303"
       }
     },
     {
@@ -1072,6 +1045,33 @@
       "source": "https://www.kln.ac.lk/academics/departments",
       "data": {
         "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/academics/departments",
+      "data": {
+        "value": "0588235294"
       }
     },
     {
@@ -1086,82 +1086,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.100000001",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0.100000001"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383428336",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0383428336"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -1176,10 +1104,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -1194,10 +1131,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0470221274",
       "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
       "data": {
-        "value": "0.319999992"
+        "value": "0470221274"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0.540000021"
       }
     },
     {
@@ -1212,6 +1158,60 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0.319999992",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470221278",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0470221278"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: 0.119999997",
       "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
       "data": {
@@ -1221,10 +1221,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383428331",
+      "detail": "Published phone: 0588235294",
       "source": "https://www.kln.ac.lk/services/lms-zoom-eservices",
       "data": {
-        "value": "0383428331"
+        "value": "0588235294"
       }
     },
     {
@@ -1239,64 +1239,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/services/marshal-office",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/services/marshal-office",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/services/marshal-office",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/services/marshal-office",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/services/marshal-office",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/services/marshal-office",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/services/marshal-office",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -1311,19 +1257,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/services/marshal-office",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383429347",
+      "detail": "Published phone: 0389610389",
       "source": "https://www.kln.ac.lk/services/marshal-office",
       "data": {
-        "value": "0383429347"
+        "value": "0389610389"
       }
     },
     {
@@ -1338,10 +1284,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0470222252",
       "source": "https://www.kln.ac.lk/services/marshal-office",
       "data": {
-        "value": "0.319999992"
+        "value": "0470222252"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/services/marshal-office",
+      "data": {
+        "value": "0.540000021"
       }
     },
     {
@@ -1356,10 +1311,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383429341",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/services/marshal-office",
       "data": {
-        "value": "0383429341"
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.kln.ac.lk/services/marshal-office",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470222256",
+      "source": "https://www.kln.ac.lk/services/marshal-office",
+      "data": {
+        "value": "0470222256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/services/marshal-office",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/services/marshal-office",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/services/marshal-office",
+      "data": {
+        "value": "0.819999992"
       }
     },
     {
@@ -1374,10 +1374,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.100000001",
+      "detail": "Published phone: 0588235294",
       "source": "https://www.kln.ac.lk/services/marshal-office",
       "data": {
-        "value": "0.100000001"
+        "value": "0588235294"
       }
     },
     {
@@ -1392,82 +1392,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383430380",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0383430380"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/services/security-service",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383430381",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0383430381"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/services/security-service",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -1482,10 +1410,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/services/security-service",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470223299",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0470223299"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -1495,6 +1441,24 @@
       "source": "https://www.kln.ac.lk/services/security-service",
       "data": {
         "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0927835051"
       }
     },
     {
@@ -1518,10 +1482,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0927835051",
+      "detail": "Published phone: 0256410256",
       "source": "https://www.kln.ac.lk/services/security-service",
       "data": {
-        "value": "0927835051"
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470223301",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0470223301"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/services/security-service",
+      "data": {
+        "value": "0.819999992"
       }
     },
     {
@@ -1536,10 +1536,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.100000001",
+      "detail": "Published phone: 0588235294",
       "source": "https://www.kln.ac.lk/services/security-service",
       "data": {
-        "value": "0.100000001"
+        "value": "0588235294"
       }
     },
     {
@@ -1572,37 +1572,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
+      "detail": "Published phone: 0470224268",
       "source": "https://www.kln.ac.lk/services/supplier-registration",
       "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/services/supplier-registration",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/services/supplier-registration",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383431329",
-      "source": "https://www.kln.ac.lk/services/supplier-registration",
-      "data": {
-        "value": "0383431329"
+        "value": "0470224268"
       }
     },
     {
@@ -1617,10 +1590,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383431333",
+      "detail": "Published phone: 0810810810",
       "source": "https://www.kln.ac.lk/services/supplier-registration",
       "data": {
-        "value": "0383431333"
+        "value": "0810810810"
       }
     },
     {
@@ -1635,37 +1608,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.819999992",
+      "detail": "Published phone: 0389610389",
       "source": "https://www.kln.ac.lk/services/supplier-registration",
       "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/services/supplier-registration",
-      "data": {
-        "value": "0588235294"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0810810810",
-      "source": "https://www.kln.ac.lk/services/supplier-registration",
-      "data": {
-        "value": "0810810810"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0256410256",
-      "source": "https://www.kln.ac.lk/services/supplier-registration",
-      "data": {
-        "value": "0256410256"
+        "value": "0389610389"
       }
     },
     {
@@ -1680,10 +1626,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0.540000021",
       "source": "https://www.kln.ac.lk/services/supplier-registration",
       "data": {
-        "value": "0.319999992"
+        "value": "0.540000021"
       }
     },
     {
@@ -1698,10 +1644,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/services/supplier-registration",
       "data": {
-        "value": "0.119999997"
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.kln.ac.lk/services/supplier-registration",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470224272",
+      "source": "https://www.kln.ac.lk/services/supplier-registration",
+      "data": {
+        "value": "0470224272"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/services/supplier-registration",
+      "data": {
+        "value": "0.029999999"
       }
     },
     {
@@ -1711,6 +1684,33 @@
       "source": "https://www.kln.ac.lk/services/supplier-registration",
       "data": {
         "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/services/supplier-registration",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/services/supplier-registration",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/services/supplier-registration",
+      "data": {
+        "value": "0588235294"
       }
     },
     {
@@ -1725,64 +1725,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/contact",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -1797,19 +1743,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/contact",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383432354",
+      "detail": "Published phone: 0389610389",
       "source": "https://www.kln.ac.lk/contact",
       "data": {
-        "value": "0383432354"
+        "value": "0389610389"
       }
     },
     {
@@ -1819,6 +1765,24 @@
       "source": "https://www.kln.ac.lk/contact",
       "data": {
         "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "0927835051"
       }
     },
     {
@@ -1842,10 +1806,55 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0927835051",
+      "detail": "Published phone: 0256410256",
       "source": "https://www.kln.ac.lk/contact",
       "data": {
-        "value": "0927835051"
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470225277",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "0470225277"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470225279",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "0470225279"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "0.819999992"
       }
     },
     {
@@ -1860,28 +1869,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0383432353",
+      "detail": "Published phone: 0588235294",
       "source": "https://www.kln.ac.lk/contact",
       "data": {
-        "value": "0383432353"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.100000001",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "0.100000001"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: drae@kln.ac.lk",
-      "source": "https://www.kln.ac.lk/contact",
-      "data": {
-        "value": "drae@kln.ac.lk"
+        "value": "0588235294"
       }
     },
     {
@@ -1903,6 +1894,15 @@
       }
     },
     {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: drae@kln.ac.lk",
+      "source": "https://www.kln.ac.lk/contact",
+      "data": {
+        "value": "drae@kln.ac.lk"
+      }
+    },
+    {
       "check": "postal_address",
       "status": "pass",
       "detail": "Published postal address: University of Kelaniya, No. 218, Kandy Road, Dalugama, Kelaniya 11600, Sri Lanka | Telephone +94 112 903 903 | Other Tel",
@@ -1923,37 +1923,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
+      "detail": "Published phone: 0470226261",
       "source": "https://www.kln.ac.lk/home",
       "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/home",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383433336",
-      "source": "https://www.kln.ac.lk/home",
-      "data": {
-        "value": "0383433336"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/home",
-      "data": {
-        "value": "0.540000021"
+        "value": "0470226261"
       }
     },
     {
@@ -1968,33 +1941,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/home",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/home",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/home",
-      "data": {
-        "value": "0588235294"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0810810810",
       "source": "https://www.kln.ac.lk/home",
       "data": {
@@ -2004,10 +1950,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/home",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/home",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -2022,19 +1977,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0.540000021",
       "source": "https://www.kln.ac.lk/home",
       "data": {
-        "value": "0.319999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383433345",
-      "source": "https://www.kln.ac.lk/home",
-      "data": {
-        "value": "0383433345"
+        "value": "0.540000021"
       }
     },
     {
@@ -2049,10 +1995,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/home",
       "data": {
-        "value": "0.119999997"
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.kln.ac.lk/home",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/home",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470226271",
+      "source": "https://www.kln.ac.lk/home",
+      "data": {
+        "value": "0470226271"
       }
     },
     {
@@ -2062,6 +2035,33 @@
       "source": "https://www.kln.ac.lk/home",
       "data": {
         "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/home",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/home",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/home",
+      "data": {
+        "value": "0588235294"
       }
     },
     {
@@ -2076,82 +2076,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383434345",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0383434345"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383434339",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0383434339"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/about/chancellor",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/about/chancellor",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -2166,10 +2094,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/about/chancellor",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -2184,10 +2121,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.319999992",
+      "detail": "Published phone: 0470227273",
       "source": "https://www.kln.ac.lk/about/chancellor",
       "data": {
-        "value": "0.319999992"
+        "value": "0470227273"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0.540000021"
       }
     },
     {
@@ -2202,10 +2148,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.119999997",
+      "detail": "Published phone: 0.319999992",
       "source": "https://www.kln.ac.lk/about/chancellor",
       "data": {
-        "value": "0.119999997"
+        "value": "0.319999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0256410256",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470227278",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0470227278"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0.029999999"
       }
     },
     {
@@ -2215,6 +2188,33 @@
       "source": "https://www.kln.ac.lk/about/chancellor",
       "data": {
         "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0.819999992"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.119999997",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0.119999997"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/about/chancellor",
+      "data": {
+        "value": "0588235294"
       }
     },
     {
@@ -2229,73 +2229,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0.029999999",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0.029999999"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0389610389",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0389610389"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383435376",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0383435376"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.540000021",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0.540000021"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: 0.150000006)",
       "source": "https://www.kln.ac.lk/about/vice-chancellor",
       "data": {
         "value": "0.150000006)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.200000003)",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0.200000003)"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.819999992",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0.819999992"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0588235294",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0588235294"
       }
     },
     {
@@ -2310,10 +2247,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0256410256",
+      "detail": "Published phone: 0.200000003)",
       "source": "https://www.kln.ac.lk/about/vice-chancellor",
       "data": {
-        "value": "0256410256"
+        "value": "0.200000003)"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0389610389",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0389610389"
       }
     },
     {
@@ -2323,6 +2269,33 @@
       "source": "https://www.kln.ac.lk/about/vice-chancellor",
       "data": {
         "value": "0828025477"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470228301",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0470228301"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.540000021",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0.540000021"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0927835051",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0927835051"
       }
     },
     {
@@ -2346,10 +2319,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: 0927835051",
+      "detail": "Published phone: 0256410256",
       "source": "https://www.kln.ac.lk/about/vice-chancellor",
       "data": {
-        "value": "0927835051"
+        "value": "0256410256"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.029999999",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0.029999999"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0470228300",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0470228300"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.100000001",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0.100000001"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: 0.819999992",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0.819999992"
       }
     },
     {
@@ -2364,28 +2373,19 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: 0588235294",
+      "source": "https://www.kln.ac.lk/about/vice-chancellor",
+      "data": {
+        "value": "0588235294"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 112903101 ",
       "source": "https://www.kln.ac.lk/about/vice-chancellor",
       "data": {
         "value": "+94 112903101 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0383435375",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0383435375"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: 0.100000001",
-      "source": "https://www.kln.ac.lk/about/vice-chancellor",
-      "data": {
-        "value": "0.100000001"
       }
     },
     {
@@ -2453,8 +2453,8 @@
     {
       "host": "www.kln.ac.lk",
       "addresses": [
-        "142.251.2.121",
-        "2607:f8b0:4023:c03::79"
+        "192.178.218.121",
+        "2607:f8b0:4004:c29::79"
       ],
       "status": "resolved",
       "detail": "Public DNS resolved"
@@ -2477,7 +2477,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 266,
+      "elapsed_ms": 121,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2488,7 +2488,7 @@
       "redirects": [
         "https://www.kln.ac.lk/"
       ],
-      "elapsed_ms": 205,
+      "elapsed_ms": 100,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2497,7 +2497,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/",
       "redirects": [],
-      "elapsed_ms": 222,
+      "elapsed_ms": 87,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2508,7 +2508,7 @@
       "redirects": [
         "https://www.kln.ac.lk/"
       ],
-      "elapsed_ms": 305,
+      "elapsed_ms": 311,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2517,7 +2517,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/about/officers",
       "redirects": [],
-      "elapsed_ms": 175,
+      "elapsed_ms": 95,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2526,7 +2526,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/academics/departments",
       "redirects": [],
-      "elapsed_ms": 173,
+      "elapsed_ms": 113,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2535,7 +2535,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/services/lms-zoom-eservices",
       "redirects": [],
-      "elapsed_ms": 176,
+      "elapsed_ms": 88,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2544,7 +2544,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/services/marshal-office",
       "redirects": [],
-      "elapsed_ms": 186,
+      "elapsed_ms": 58,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2553,7 +2553,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/services/security-service",
       "redirects": [],
-      "elapsed_ms": 223,
+      "elapsed_ms": 110,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2562,7 +2562,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/services/supplier-registration",
       "redirects": [],
-      "elapsed_ms": 171,
+      "elapsed_ms": 74,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2571,7 +2571,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/contact",
       "redirects": [],
-      "elapsed_ms": 212,
+      "elapsed_ms": 97,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2580,7 +2580,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/home",
       "redirects": [],
-      "elapsed_ms": 220,
+      "elapsed_ms": 82,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2589,7 +2589,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/about/chancellor",
       "redirects": [],
-      "elapsed_ms": 183,
+      "elapsed_ms": 81,
       "content_type": "text/html; charset=utf-8",
       "error": null
     },
@@ -2598,7 +2598,7 @@
       "status_code": 200,
       "final_url": "https://www.kln.ac.lk/about/vice-chancellor",
       "redirects": [],
-      "elapsed_ms": 222,
+      "elapsed_ms": 108,
       "content_type": "text/html; charset=utf-8",
       "error": null
     }
@@ -2606,87 +2606,87 @@
   "snapshots": [
     {
       "url": "https://www.kln.ac.lk/",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-01-46510f350df0.html",
-      "sha256": "46510f350df0506f465a237b8567c5f10eefb321ec8bb391f43c165209d44c31",
-      "bytes": 369047
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-01-0d54290240d9.html",
+      "sha256": "0d54290240d96f3bbf820063654464692d90c09307e3426fc0d282bafc5d2295",
+      "bytes": 369194
     },
     {
       "url": "https://www.kln.ac.lk/",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-02-72abdce29593.html",
-      "sha256": "72abdce29593eccf06fc2e7d95cd2747fc47352631aea65a2744d0b980ec206b",
-      "bytes": 369122
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-02-401a173b1da2.html",
+      "sha256": "401a173b1da246190a359575624fb8daa0f18432ba559069c1b7944021126ec4",
+      "bytes": 369083
     },
     {
       "url": "https://www.kln.ac.lk/",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-03-a1796793dce9.html",
-      "sha256": "a1796793dce9970e24dcb7942c7c2340fdb65b38b177536db8465d83f13eab5e",
-      "bytes": 369160
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-03-41e6e72e8bfa.html",
+      "sha256": "41e6e72e8bfa2b407b76c59f079bc5e06c3af46ac9b538a8c1353d63aed0015e",
+      "bytes": 369057
     },
     {
       "url": "https://www.kln.ac.lk/",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-04-5f82870513f7.html",
-      "sha256": "5f82870513f72bbbf3ac453dd8fb4351c4ddb7a2245a3dfab404284217b57243",
-      "bytes": 369023
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-04-e65639e4904e.html",
+      "sha256": "e65639e4904e084a0bc105048826f208bdfb73474d7087edd3b177f13829eb20",
+      "bytes": 369075
     },
     {
       "url": "https://www.kln.ac.lk/about/officers",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-05-a34cdc4ff4d3.html",
-      "sha256": "a34cdc4ff4d35fb0f0f8042658069958e6faa56d9044430fa0b901b53514aaa2",
-      "bytes": 213854
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-05-ed1215553fd9.html",
+      "sha256": "ed1215553fd9f8851f2e5c2c57a222c9c7d4bc32ed30cdb1399d573b41fbea3a",
+      "bytes": 213937
     },
     {
       "url": "https://www.kln.ac.lk/academics/departments",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-06-7ad2e2e23f65.html",
-      "sha256": "7ad2e2e23f6531ba0461ee1b0e7bb4c7e5c9f5afe37e94167e9f8d54ef8bd29c",
-      "bytes": 185847
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-06-a256d72b5ce4.html",
+      "sha256": "a256d72b5ce4774f9e185b5791e09b9c10a9239c8e08f7b4733968f3ee475139",
+      "bytes": 185870
     },
     {
       "url": "https://www.kln.ac.lk/services/lms-zoom-eservices",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-07-58d4c917963b.html",
-      "sha256": "58d4c917963ba0dfe370a6fa2541ccc31727133df9b7bab8278c7284f22093a2",
-      "bytes": 175007
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-07-67ac8df3368f.html",
+      "sha256": "67ac8df3368f14701b481a7bf77a2897ac66ba5299ba9f1716bc8b79b01dd6f1",
+      "bytes": 175027
     },
     {
       "url": "https://www.kln.ac.lk/services/marshal-office",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-08-cd185c712355.html",
-      "sha256": "cd185c7123556341e26f1bdb38a1d6441d86cdadb65ebf47515653b0bab7613b",
-      "bytes": 181775
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-08-a254ccce7714.html",
+      "sha256": "a254ccce7714dfffbc261b4a453328ee97a57c06be843d904c80a98c0b012d62",
+      "bytes": 181886
     },
     {
       "url": "https://www.kln.ac.lk/services/security-service",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-09-cd953df62c0f.html",
-      "sha256": "cd953df62c0ff389b0909b6a2bb80c3268e3219fe2f014efd0af0952bc749fc9",
-      "bytes": 194913
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-09-b42ad8f882cb.html",
+      "sha256": "b42ad8f882cb7e7a2efcedc99b8c14e1d68470d38cce828bb67e92b62949459b",
+      "bytes": 194837
     },
     {
       "url": "https://www.kln.ac.lk/services/supplier-registration",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-10-bc0e7347118d.html",
-      "sha256": "bc0e7347118dfa0968981ae8d7bbee172c3d9aac8c09e516be966392c5ddcc47",
-      "bytes": 182410
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-10-b72b9f7ffe71.html",
+      "sha256": "b72b9f7ffe71962f702a8fce771aa84c8231956c49bd7d5a314635783f510f7a",
+      "bytes": 182392
     },
     {
       "url": "https://www.kln.ac.lk/contact",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-11-1b72965ef204.html",
-      "sha256": "1b72965ef204944fa964cae0e55d4091cb678bb4ba0927154c14ee50d6fa7efc",
-      "bytes": 223364
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-11-6b44ca742e8f.html",
+      "sha256": "6b44ca742e8f341535d243cb53b4955cf262af719700c80273a0464a49dd35f5",
+      "bytes": 223353
     },
     {
       "url": "https://www.kln.ac.lk/home",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-12-5ba5b4d38e13.html",
-      "sha256": "5ba5b4d38e135b02b386cfcdca242c235a8b9fa9115c35d0e0d05ffd512b1058",
-      "bytes": 369001
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-12-2020d5485653.html",
+      "sha256": "2020d5485653b72b1237468f7247db709fc15211c5da4eed6c446529683cb38f",
+      "bytes": 369037
     },
     {
       "url": "https://www.kln.ac.lk/about/chancellor",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-13-09116611c3fb.html",
-      "sha256": "09116611c3fb763fb554817d41a9f30e4347a929db337c6c500300e91f41d3bf",
-      "bytes": 173144
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-13-cd60b0eeef5e.html",
+      "sha256": "cd60b0eeef5e2d5c777790f0c647b7f31c50bf6a76efbf2ed43d2ca300ba97fa",
+      "bytes": 173186
     },
     {
       "url": "https://www.kln.ac.lk/about/vice-chancellor",
-      "path": "audit.output/www.kln.ac.lk/20260926.0613/snapshots/page-14-d50fa3b6d697.html",
-      "sha256": "d50fa3b6d6978e46ab4efcd5ade75acff3f4921760ab294976c7d50c7db93d65",
-      "bytes": 229494
+      "path": "audit.output/www.kln.ac.lk/20260927.0620/snapshots/page-14-220c31d21a11.html",
+      "sha256": "220c31d21a117400740b10185be50cb5a8e9ea0fc9cdbe70cce458cafce9aaf1",
+      "bytes": 229495
     }
   ],
   "reviewer_decisions": [],
@@ -2772,7 +2772,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: University of Kelaniya, No. 218, Kandy Road, Dalugama, Kelaniya 11600, Sri Lanka | Telephone +94 112 903 903 | Other Tel; Phone: 0.029999999 (44 phone numbers found); Email: oneuok@kln.ac.lk (6 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: University of Kelaniya, No. 218, Kandy Road, Dalugama, Kelaniya 11600, Sri Lanka | Telephone +94 112 903 903 | Other Tel; Phone: 0.150000006) (44 phone numbers found); Email: oneuok@kln.ac.lk (6 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -2785,7 +2785,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: 0.029999999 (44 phone numbers found); Email: oneuok@kln.ac.lk (6 email addresses found)"
+          "reason": "Phone: 0.150000006) (44 phone numbers found); Email: oneuok@kln.ac.lk (6 email addresses found)"
         },
         {
           "name": "named_responsibility",
@@ -2864,7 +2864,7 @@
     }
   ],
   "vantage": {
-    "egress_ip": "134.33.77.208",
+    "egress_ip": "20.55.47.112",
     "country": "US",
     "runner": "github-actions",
     "proxy": false
